@@ -18,11 +18,12 @@ any Coup Victory phase is allowed.
 2. `python3 tools/ctl.py status`.
    - If `running: True`: `python3 tools/ctl.py read` to see anything pending.
    - If `running: False` and `games/TestGame1` exists: `python3 tools/ctl.py resume TestGame1`.
-     The container was reclaimed. The program reloads the **latest save**;
-     anything that happened after that save was lost and will be replayed
-     (dice may differ). Append a line to `notes.md` saying you resumed, and
-     tell Kevin exactly which save you resumed from so the board can be
-     re-synced from `diff.py`.
+     The container was reclaimed. The program reloads the **latest save**.
+     Every completed faction action, Coup round, and card draw is saved
+     the moment it finishes, so at most a half-entered action of yours is
+     lost. Append a line to `notes.md` saying you resumed, tell Kevin which
+     save you resumed from, and run `diff.py` for anything Kevin has not yet
+     seen.
    - If `games/TestGame1` does not exist: `python3 tools/ctl.py new-game TestGame1`.
      This happens once, at the very start of the game.
 3. `python3 tools/render.py` for the board view.
@@ -91,13 +92,12 @@ Interface facts:
   with **no state change** and returns to the `(perform or ?)` prompt. Use it
   if you discover mid-action that your plan cannot be executed; then re-plan
   in `journal.md` and note the abort.
-- The program writes a save after every faction action, after a pivotal
-  event substitution, and once for a whole Coup round. **Exception:** when a
-  faction's action exhausts the card, and always after a Coup round, the
-  save is written only after the next card number is entered. So the diff
-  for the last actor on a card, or for a Coup round, arrives one report late
-  (see the report format). The program's screen narration is available
-  immediately and is what you paste in the meantime.
+- The program (a patched build, version 1.53+sbd) writes a save after every
+  faction action, after a pivotal event substitution, once for a whole Coup
+  round, and once for each card draw. The save for an action is on disk
+  before the program asks for the next card number, so every segment's
+  diff is available for the report in which it happened. A card-draw save
+  changes only the cards and eligibility; you may skip its diff in reports.
 - Bot factions do not track Resources. NVA Resources are meaningless while
   NVA is a bot; the VC cylinder is the Agitate total. ARVN Resources are real.
 - The Tru'ng bot narration ("Trung: NVA - N", "Trung check: ...") is the
@@ -137,21 +137,16 @@ Append a one-line summary to `notes.md` after every US action or decision.
 Fixed order, so Kevin can update the board without hunting:
 
 1. **Card played** — number, title, faction order, Tru'ng markings that applied.
-2. **Deferred diff** — if the previous report ended on a card prompt, the
-   diff for the last segment of the previous card goes here first.
-3. **Per faction action**, in the order they occurred: faction, action taken
+2. **Per faction action**, in the order they occurred: faction, action taken
    (Event unshaded/shaded, Op, Op + Special Activity, LimOp, Pass), then the
    `diff.py` output for that segment verbatim (it includes the program's log
    lines). For your own action: the plan and rationale first, then the diff.
-   If the segment's save is not yet written (last actor on the card), paste
-   the program's screen narration instead and say the diff follows next
-   report.
-4. **Coup round**, when one occurred: the program's screen narration for
-   each phase (Victory, Resources, Support, Redeploy, Commitment, Reset) in
-   this report, and the single Coup-round diff at the top of the next one.
-5. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
+3. **Coup round**, when one occurred: the single Coup-round diff (it covers
+   all phases: Victory, Resources, Support, Redeploy, Commitment, Reset),
+   plus your Coup-phase decisions and their rationale.
+4. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
    sections of `render.py`, plus the `--- Sequence of play ---` section.
-6. **Next input needed** — exactly one of:
+5. **Next input needed** — exactly one of:
    - "Next input needed: the next on-deck card number."
    - "Next input needed: two card numbers to start the game."
    - "Next input needed: nothing; the game is over." 
