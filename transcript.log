@@ -250,4 +250,35 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 
+Enter the number of the next On Deck Event card: 24
+
+
+>>> 3rd Coup Round <<<
+====================================================
+Current card: #129 - Coup! Failed Attempt
+(coup or ?): coup
+Coup! Card: #129 - Coup! Failed Attempt
+----------------------------------------------------
+ARVN must remove 1 in 3 of its Cubes per space
+
+[35mRemove 1 ARVN Troop from Saigon to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Tay Ninh to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Hue to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Can Tho to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Cam Ranh to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from An Loc to AVAILABLE[0m
+[31m
+Place #129 - Coup! Failed Attempt beneath the other cards in the RVN Leader Box[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+
+[33m====================================================[0m
+Game over in the 3rd Coup! round
+[33mVC wins with a victory margin of 2![0m
+
+Do you want to continue playing this game? (y/n)
