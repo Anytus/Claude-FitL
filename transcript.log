@@ -1164,4 +1164,99 @@ Eligible      : NVA, VC
 Acted         : none
 Passed        : none
 Ineligible    : US, ARVN
-(perform or ?): 
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (7): 8 [No]
+Trung check: d3 >= the Trail (2): 2 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Southern Laos to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Southern Laos[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 5 to 6[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 3[0m
+Trung check: 3d6 <= Available NVA Troops (40): 10 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Central Laos
+----------------------------------------------------
+[35mRemove 1 NVA Underground Guerrilla from Central Laos to AVAILABLE[0m
+[35mPlace 5 NVA Troops from AVAILABLE into Central Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in North Vietnam
+----------------------------------------------------
+[35mRemove 1 NVA Underground Guerrilla from North Vietnam to AVAILABLE[0m
+[35mPlace 5 NVA Troops from AVAILABLE into North Vietnam[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #1 - Gulf of Tonkin (US, NVA, ARVN, VC)
+                NVA -> (Performed, Shaded), ARVN -> (Ignored), VC -> (Performed, Shaded)
+Eligible      : VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Ban Me Thuot -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Duc-Long Khanh to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 
