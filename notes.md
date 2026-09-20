@@ -23,3 +23,5 @@ ADMIN: Kevin rebuilt the program (1.53+sbd) to save before the card prompt; cher
 card #51 301st Supply Bn: US ineligible (no action). NVA Rally (bases Southern+Central Laos, Trail 3) + Infiltrate (5 Troops N.Vietnam, 5 Parrot's Beak); VC March 1 guerrilla to LOC Ban Me Thuot--Da Lat. Patched build confirmed: save-012 written at the card prompt.
 ADMIN (Kevin-directed): rollback to save point 10 and adjust to restore the ORIGINAL ARVN turn on #93 (Quang Tri/Hue/An Loc trained, Quang Tri pacified to Passive Support, Govern Khanh Hoa + Can Tho, ARVN Res 15). Verified via show summary. #51 bot actions discarded and replayed from here.
 card #51 (replayed after restore): US ineligible. NVA Rally (base Southern Laos, roll 1 fail, Trail 3) + Infiltrate (5 Troops Central Laos, 5 North Vietnam); VC March 1 guerrilla to LOC Ban Me Thuot--Da Lat. save-021 at card prompt.
+RESUME 5: program down between turns; resumed from save-021 (card prompt after #51). Nothing lost.
+card #1 Gulf of Tonkin: PASS — stay eligible to take #29 Tribesmen unshaded (3 VC bases under my Irregulars) and deny VC shaded. ARVN Sweep Binh Dinh + Raid (NVA base S.Laos, VC base Quang Duc removed).
