@@ -58,3 +58,4 @@ RULES NOTE from Kevin (unsolicited): the Advise Special Activity offers an optio
 RULES NOTE from Kevin (unsolicited, continued): Advise also allows 2 free ARVN Sweeps-in-place or Assaults, or activating an Underground Ranger/Irregular to remove 2 pieces (raid-like). To be verified against the program's own prompts next time I have an SA.
 (program was still running before #105; no resume needed)
 card #105 Rural Pressure: US ineligible. VC shaded: Phu Bon + Khanh Hoa to Passive Opp, Quang Tri back to Active Opp, Patronage -6 (15). VC 44 (+9). ARVN passed (Res 11).
+OBSERVER COMMENT (Kevin, unsolicited): NVA Infiltrate may replace VC Bases in Tay Ninh and Kien Giang with NVA Bases, which would lower the VC total.
