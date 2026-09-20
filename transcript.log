@@ -286,4 +286,5 @@ Do you want to continue playing this game? (y/n)n
 
 >>> The game has ended <<<
 ====================================================
-(quit or ?): 
+(quit or ?): quit
+Really quit (y/n)? 

@@ -64,3 +64,4 @@ card #23 Attleboro (Monsoon): Train Quang Tri pacify 2 levels to Neutral (VC 37,
 Coup 3 (#129 Failed Attempt): ARVN lost 1 in 3 cubes per space; Victory phase: VC WINS by 2. Game over. Final US 44 (-6), VC 37 (+2), NVA 13, ARVN 33. Program prompt 'continue playing? (y/n)' left for Kevin.
 ADMIN: Kevin instructed 'no' to continuing after the VC victory; answered n.
 REFLECTION (Kevin's question after the game): the 'US policy: JFK' header in render.py is a non-player-US marker with no effect on a human US, but I read it as period guidance ('troops come out under LBJ') from card #63 onward and named my de-escalation plan after it. It shaped the plan's framing and its blind spot (never re-examining a large deployment), not the score arithmetic. Next player: treat that header as decoration.
+ADMIN: Kevin instructed quit; program exited after the VC victory.
