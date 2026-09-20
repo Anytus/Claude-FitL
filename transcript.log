@@ -444,4 +444,101 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 15
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #101 - Booby Traps (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+VC executes the Shaded Event: Booby Traps
+----------------------------------------------------
+[31m
+Capability: '#101 Booby Traps (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #101 - Booby Traps (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : NVA
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]
+
+NVA chooses Attack operation
+====================================================
+
+NVA Attacks in Binh Dinh using Troops
+----------------------------------------------------
+[35mRemove 2 US Troops from Binh Dinh to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 2 NVA Troops from Binh Dinh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA Attacks in Quang Tri-Thua Thien using Troops
+----------------------------------------------------
+[35mRemove 4 US Troops from Quang Tri-Thua Thien to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 4 NVA Troops from Quang Tri-Thua Thien to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA chooses Ambush special activity
+====================================================
+
+NVA Ambushes in LOC Kontum -- Dak To, targeting Binh Dinh
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Kontum -- Dak To to ACTIVE[0m
+[35mRemove 1 US Active Irregular from Binh Dinh to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
