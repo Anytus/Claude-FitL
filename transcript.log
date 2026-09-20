@@ -519,4 +519,78 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 93
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: Colonel Chau
+----------------------------------------------------
+[33mRemove Passive Support marker from Ba Xuyen[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Ba Xuyen[0m
+[33mPlace Passive Opposition marker in Kien Hoa-Vinh Binh[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh[0m
+[33mPlace Passive Opposition marker in Quang Tri-Thua Thien[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Quang Tri-Thua Thien[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Ba Xuyen[0m
+[33mRemove COIN Control marker from Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 47 to 46[0m
+[34mMove the 'COIN Control + Patronage' marker from 45 to 42[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 29 to 33[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : US
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 33[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 

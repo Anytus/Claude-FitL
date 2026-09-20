@@ -12,3 +12,4 @@ ADMIN (Kevin, after Coup 1): stop pasting diff.py output in reports; paste the p
 RESUME: container/tmux lost after Coup 1 narration but before the Coup save was written. Resumed from save-002 (start of 1st Coup round, current #125, on deck #75). Whole Coup round replayed; bot choices and dice may differ from the first report.
 Coup 1 replay (#125): same pacification; Commitment withdrew only 1 Troop (Da Nang) — no withdrawal penalty at 1 piece. US 51.
 card #75 Sihanouk: US did not act (ARVN Op+Govern, NVA shaded event exhausted card) — ARVN Govern took 4 Support and 4 Aid; NVA Trail 2, guerrillas into Tay Ninh, Pleiku.
+card #112 Colonel Chau: PASS — stay eligible to take #93 Fulbright unshaded (+4) and deny NVA the shaded (base OOP, Aid -9)
