@@ -40,3 +40,5 @@ RESUME 10: resumed from save-046 (card prompt after #6). Nothing lost.
 card #34 SA-2s: US ineligible. NVA shaded capability (Rally improves Trail 2); ARVN passed (Res 15).
 card #78 General Lansdale: US no action (ARVN shaded event: Patronage +3, no US Assault until Coup; VC Rally 11 guerrillas + base Tay Ninh, Subvert Binh Dinh/Hue; Binh Dinh COIN control lost).
 card #5 Wild Weasels: EVENT unshaded — removed SA-2s capability — Ops were useless (no Assault, no pacify). NVA March: 11 Troops into Quang Tri (NVA Control), 3 Tay Ninh, 5 Kien Giang; NVA 14.
+RESUME 11: resumed from save-055 (card prompt after #5). Nothing lost.
+card #14 M-48 Patton (Monsoon): US ineligible. ARVN Patrol (Hue--Khe Sanh, NVA guerrilla killed; Quang Tri stripped of its last ARVN Troop+Police); VC Terror Binh Dinh (Active Opposition). Nobody took the event. Coup #127 next.

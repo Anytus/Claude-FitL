@@ -1,0 +1,146 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #14 - M-48 Patton (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #127 - Coup! Nguyen Cao Ky",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : US, NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - M",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Control + NVA Bases >= 14? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (9): 12 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - MM",
+      "color": null
+    },
+    {
+      "text": "Trung check: All routes from Can Tho to Hue blocked? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Patrol operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 12",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN selects LOC Hue -- Khe Sanh as Patrol destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from Quang Tri-Thua Thien to LOC Hue -- Khe Sanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from Quang Tri-Thua Thien to LOC Hue -- Khe Sanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN Patrol - Activating guerrillas on LOCs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 NVA Underground Guerrilla in LOC Hue -- Khe Sanh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nARVN assaults in LOC Hue -- Khe Sanh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 1 hit",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Active Guerrilla from LOC Hue -- Khe Sanh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op Only box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}
