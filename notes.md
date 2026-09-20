@@ -52,3 +52,5 @@ card #8 Arc Light: declined Linebacker II (keep for later; condition Support+Ava
 card #70 ROKs: EVENT unshaded — Sweep Kontum Police + Da Nang Troop into Binh Dinh, killed 1 NVA Troop + Qui Nhon VC guerrilla, broke NVA control (15). VC PASSED; NVA March+Ambush: US Troop in Binh Dinh to Casualties, Da Nang Police killed, Da Nang + Pleiku NVA Control (NVA 17 again). Declined Linebacker again.
 RESUME 14: resumed from save-071 (card prompt after #70). Nothing lost.
 card #99 Masher/White Wing: US ineligible. VC Terror Hue (Passive Opp, VC 42) + Kien Giang, Subvert Binh Dinh/Quang Tri (2 ARVN Troops); ARVN unshaded event: Sweep 2 Troops Quang Tri->Hue, Assault killed 2 VC guerrillas, Hue COIN control.
+RESUME 15: resumed from save-074 (card prompt after #99). Nothing lost.
+card #7 ADSID: Train Quang Tri (2 Police, pacify to Passive Opp, VC 40) + Arc Light Air Strike Quang Tin (6 NVA Troops, control broken, NVA 15). Declined Linebacker again. NVA shaded ADSID: Trail 3, ARVN Res 8 (pacify blocked).
