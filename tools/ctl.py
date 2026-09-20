@@ -255,8 +255,44 @@ def screen_text():
     return tmux("capture-pane", "-p", "-t", SESSION).stdout
 
 
+RESERVE = os.path.join(ROOT, "reserve_cards.txt")
+
+
+def _reserve_lines():
+    if not os.path.exists(RESERVE):
+        return []
+    with open(RESERVE) as f:
+        return [l.strip() for l in f if l.strip() and not l.strip().startswith("#")]
+
+
+def reserve_count():
+    return len(_reserve_lines())
+
+
+def pop_reserve_card():
+    """Take the first card number out of reserve_cards.txt (Kevin's face-down
+    reserve). Pulls the branch first so an edit Kevin made on GitHub is seen.
+    The playing session must never read this file itself; it learns the card
+    only when this function enters it."""
+    subprocess.run(["git", "-C", ROOT, "pull", "-q", "--rebase", "--autostash"],
+                   capture_output=True)
+    lines = _reserve_lines()
+    if not lines:
+        return None
+    card = lines[0]
+    if not re.fullmatch(r"\d{1,3}", card):
+        print(f"[ctl] reserve_cards.txt first entry {card!r} is not a card number; not used")
+        return None
+    with open(RESERVE, "w") as f:
+        f.write("# One card number per line; the top line is entered first.\n")
+        for l in lines[1:]:
+            f.write(l + "\n")
+    return card
+
+
 def cmd_advance():
-    """Drive bot turns until a human decision or card draw is needed."""
+    """Drive bot turns until a human decision or card draw is needed.
+    At the On Deck card prompt, enters the next card from reserve_cards.txt."""
     if not running():
         print("ERROR: program is not running.")
         return 1
@@ -280,6 +316,13 @@ def cmd_advance():
             print(send_raw("discard"), end="")
         elif last.startswith("(coup or ?)"):
             print(send_raw("coup"), end="")
+        elif last.startswith("Enter the number of the next On Deck Event card"):
+            card = pop_reserve_card()
+            if card is None:
+                break
+            print(f"\n[ctl] entered reserve card {card} from reserve_cards.txt "
+                  f"({reserve_count()} left in the reserve)")
+            print(send_raw(card), end="")
         else:
             break
     print(f"\n[ctl] stopped at: {last_nonblank_screen_line()}")

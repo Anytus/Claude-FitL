@@ -5,169 +5,10 @@ Fire in the Lake: Trung Bot Software (version 1.53)
 Which game would you like to play:
 ====================================================
 1) Start a new game
-2) Resume 'TestGame1', Full: 1964-1972  [#112 - Colonel Chau] US is up
+2) Resume 'TestGame1', Full: 1964-1972  [#93 - Senator Fulbright] ARVN is up
 3) Quit
 ----------------------------------------------------
 Selection: 2
-
-
->>> US turn (Human) <<<
-====================================================
-Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
-                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
-                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
-Eligible      : US
-Acted         : VC -> Event
-Passed        : none
-Ineligible    : ARVN, NVA
-(perform or ?): perform
-
-Choose one:
-====================================================
-1) Op (May add a Special Activity)
-2) Pass
-----------------------------------------------------
-Selection: 2
-
-US faction passes
-----------------------------------------------------
-[34mIncrease ARVN resources by +3 to 33[0m
-[34m
-Move the US cylinder to the Pass box[0m
-
-Finished with US turn
-
-Adjust eligiblity
-----------------------------------------------------
-[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
-[34mMove the VC cylinder to the Ineligible box[0m
-
-Draw event card
-----------------------------------------------------
-Enter the number of the next On Deck Event card: 51
-
-
->>> US turn (Human) <<<
-====================================================
-Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
-                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
-On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
-                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
-Eligible      : US, NVA, ARVN
-Acted         : none
-Passed        : none
-Ineligible    : VC
-(perform or ?): perform
-
-Choose one:
-====================================================
-1) Event
-2) Op (May add a Special Activity)
-3) Pass
-----------------------------------------------------
-Selection: 1
-
-Execute which part of the event:
-====================================================
-1) Unshaded
-2) Shaded
-----------------------------------------------------
-Selection: 1
-
-US executes the Unshaded Event: Senator Fulbright
-----------------------------------------------------
-
-Number of US piece removed to available: 0 of 4
-----------------------------------------------------
-
-Select space to remove US pieces:
-====================================================
-1) Da Nang
-2) Kontum
-3) Saigon
-4) Binh Dinh
-5) Pleiku-Darlac
-6) Quang Tri-Thua Thien
-----------------------------------------------------
-Selection: 4
-
-Remove how many pieces from Binh Dinh (0 - 2): 1
-
-Select 1 piece among the following:
-  1 US Troop, 1 US Underground Irregular
-
-How many US Troops (0 - 1): 1
-[35mRemove 1 US Troop from Binh Dinh to AVAILABLE[0m
-
-Number of US piece removed to available: 1 of 4
-----------------------------------------------------
-
-Select space to remove US pieces:
-====================================================
-1) Da Nang
-2) Kontum
-3) Saigon
-4) Binh Dinh
-5) Pleiku-Darlac
-6) Quang Tri-Thua Thien
-----------------------------------------------------
-Selection: 5
-
-Remove how many pieces from Pleiku-Darlac (0 - 3): 2
-
-Select 2 pieces among the following:
-  1 US Troop, 1 US Underground Irregular, 1 US Base
-
-How many US Troops (0 - 1): 1
-How many US Underground Irregulars (0 - 1): 0
-[35mRemove 1 US Troop from Pleiku-Darlac to AVAILABLE[0m
-[35mRemove 1 US Base from Pleiku-Darlac to AVAILABLE[0m
-
-Number of US piece removed to available: 3 of 4
-----------------------------------------------------
-
-Select space to remove US pieces:
-====================================================
-1) Da Nang
-2) Kontum
-3) Saigon
-4) Binh Dinh
-5) Pleiku-Darlac
-6) Quang Tri-Thua Thien
-----------------------------------------------------
-Selection: 2
-
-Remove how many pieces from Kontum (0 - 1): 1
-[35mRemove 1 US Troop from Kontum to AVAILABLE[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'Support + Avail US' marker from 46 to 50[0m
-[34m
-Move the US cylinder to the Event box[0m
-
-Finished with US turn
-
-
->>> NVA turn (Bot) <<<
-====================================================
-Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
-                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
-On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
-                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
-Eligible      : NVA, ARVN
-Acted         : US -> Event
-Passed        : none
-Ineligible    : VC
-(perform or ?): perform
-
-NVA faction passes
-----------------------------------------------------
-[34m
-Move the NVA cylinder to the Pass box[0m
-
-Finished with NVA turn
 
 
 >>> ARVN turn (Bot) <<<
@@ -206,50 +47,7 @@ ARVN selects Saigon for Train
 
 ARVN activation roll against activation number of 3
 ----------------------------------------------------
-Die roll: 5 [Success!]
-
-ARVN selects Quang Tri-Thua Thien for Train
-----------------------------------------------------
-[34mDecrease ARVN resources by -3 to 27[0m
-[35mPlace 3 ARVN Troops from AVAILABLE into Quang Tri-Thua Thien[0m
-[35mPlace 3 ARVN Police from AVAILABLE into Quang Tri-Thua Thien[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN activation roll against activation number of 3
-----------------------------------------------------
-Die roll: 5 [Success!]
-
-ARVN selects Hue for Train
-----------------------------------------------------
-[34mDecrease ARVN resources by -3 to 24[0m
-[35mPlace 2 ARVN Troops from AVAILABLE into Hue[0m
-[35mPlace 4 ARVN Police from AVAILABLE into Hue[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN activation roll against activation number of 3
-----------------------------------------------------
-Die roll: 4 [Success!]
-
-ARVN selects An Loc for Train
-----------------------------------------------------
-[34mDecrease ARVN resources by -3 to 21[0m
-[35mPlace 1 ARVN Police from AVAILABLE into An Loc[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN Pacifies 2 levels in Quang Tri-Thua Thien
-----------------------------------------------------
-[34mDecrease ARVN resources by -6 to 15[0m
-[33mReplace Passive Opposition marker in Quang Tri-Thua Thien with Passive Support marker[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'Support + Avail US' marker from 50 to 52[0m
-[34mMove the 'Total Opposition + VC Bases' marker from 33 to 31[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+Die roll: 3 [Failure]
 
 ARVN chooses Govern special activity
 ====================================================
@@ -263,21 +61,21 @@ Transfer population value from Aid to Patronage
 
 Score Marker Changes
 ----------------------------------------------------
-[34mMove the 'Support + Avail US' marker from 52 to 51[0m
+[34mMove the 'Support + Avail US' marker from 50 to 49[0m
 [34mMove the 'COIN Control + Patronage' marker from 42 to 43[0m
 
 [32m>>>>> [ Press Enter to continue... ] <<<<<[0m
 
-ARVN Governs in Can Tho (population: 1)
+ARVN Governs in Phu Bon-Phu Yen (population: 1)
 ----------------------------------------------------
 Transfer population value from Aid to Patronage
 [34mDecrease US Aid by -1 to 9[0m
 [34mIncrease Patronage by +1 to 25[0m
-[33mRemove Passive Support marker from Can Tho[0m
+[33mRemove Passive Support marker from Phu Bon-Phu Yen[0m
 
 Score Marker Changes
 ----------------------------------------------------
-[34mMove the 'Support + Avail US' marker from 51 to 50[0m
+[34mMove the 'Support + Avail US' marker from 49 to 48[0m
 [34mMove the 'COIN Control + Patronage' marker from 43 to 44[0m
 
 [32m>>>>> [ Press Enter to continue... ] <<<<<[0m
@@ -296,4 +94,17 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 
+Enter the number of the next On Deck Event card: 1
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #1 - Gulf of Tonkin (US, NVA, ARVN, VC)
+                NVA -> (Performed, Shaded), ARVN -> (Ignored), VC -> (Performed, Shaded)
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): 
