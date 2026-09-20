@@ -25,8 +25,8 @@ any Coup Victory phase is allowed.
      Every completed faction action, Coup round, and card draw is saved
      the moment it finishes, so at most a half-entered action of yours is
      lost. Append a line to `notes.md` saying you resumed, tell Kevin which
-     save you resumed from, and run `diff.py` for anything Kevin has not yet
-     seen.
+     save you resumed from, and paste the program's narration (from
+     `transcript.log`) for anything Kevin has not yet seen.
    - If `games/TestGame2` does not exist: `python3 tools/ctl.py new-game TestGame2`.
      This happens once, at the very start of the game.
 3. `python3 tools/render.py` for the board view.
@@ -65,8 +65,13 @@ the physical bot cards, so they are fair.
   of your action to the program.
 - **Report every rejected answer** verbatim, and what you did instead. Never
   silently retry.
-- **Paste `diff.py` output verbatim.** You may add a one-sentence gloss
-  above it, never paraphrase it.
+- **Paste the program's own narration verbatim.** Kevin keeps the physical
+  board from the Tru'ng bot program's output (the lines `ctl.py` prints:
+  "Place ...", "Remove ...", "Move ...", "Control Changes", "Score Marker
+  Changes", "Trung: ...", "Trung check: ..."). Never paraphrase or summarise
+  a board change in place of those lines; a one-sentence gloss above a block
+  is fine. `diff.py` is for your own checking only; do not paste it in
+  reports.
 - **Commit and push after every report** so nothing is lost if the container
   is reclaimed: `git add -A && git commit -q -m "card #<n>: <one line>" && git push -q`.
 
@@ -98,9 +103,10 @@ Interface facts:
 - The program (a patched build, version 1.53+sbd) writes a save after every
   faction action, after a pivotal event substitution, once for a whole Coup
   round, and once for each card draw. The save for an action is on disk
-  before the program asks for the next card number, so every segment's
-  diff is available for the report in which it happened. A card-draw save
-  changes only the cards and eligibility; you may skip its diff in reports.
+  before the program asks for the next card number, so nothing is lost if
+  the container is reclaimed while you wait for a card. Everything the
+  program prints is also appended to `transcript.log`; use it (with ANSI
+  codes stripped) to recover narration that scrolled past `advance`.
 - Bot factions do not track Resources. NVA Resources are meaningless while
   NVA is a bot; the VC cylinder is the Agitate total. ARVN Resources are real.
 - The Tru'ng bot narration ("Trung: NVA - N", "Trung check: ...") is the
@@ -121,9 +127,10 @@ happened since the last reply and ends with the next input needed.
       Record every rejection and every deviation in the journal entry's
       "Execution" section.
    d. `ctl.py advance` again for any remaining bot actions.
-4. If it stops asking for a card number: run `diff.py` for every new save
-   since your last report, write the report, commit, and end your reply
-   with the next input needed.
+4. If it stops asking for a card number: collect the program's narration
+   for every segment since your last report (the `advance` output, or
+   `transcript.log` for anything that scrolled past), write the report,
+   commit, and end your reply with the next input needed.
 5. Coup rounds: `advance` sends `coup`. The program will stop whenever the
    US has a decision to make. Seen so far: the Support phase (which spaces
    to Pacify, if any) and the Commitment phase (which US Troops and Bases to
@@ -142,11 +149,14 @@ Fixed order, so Kevin can update the board without hunting:
 1. **Card played** — number, title, faction order, Tru'ng markings that applied.
 2. **Per faction action**, in the order they occurred: faction, action taken
    (Event unshaded/shaded, Op, Op + Special Activity, LimOp, Pass), then the
-   `diff.py` output for that segment verbatim (it includes the program's log
-   lines). For your own action: the plan and rationale first, then the diff.
-3. **Coup round**, when one occurred: the single Coup-round diff (it covers
-   all phases: Victory, Resources, Support, Redeploy, Commitment, Reset),
-   plus your Coup-phase decisions and their rationale.
+   program's narration for that segment verbatim in a code block, including
+   the Tru'ng card draws and checks. For your own action: the plan and
+   rationale first, then the narration, plus every rejected answer, abort
+   and deviation.
+3. **Coup round**, when one occurred: the program's narration for each phase
+   (Victory, Resources, Support, Redeploy, Commitment, Reset) verbatim, with
+   your Coup-phase decisions and their rationale in front of the phases they
+   affect.
 4. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
    sections of `render.py`, plus the `--- Sequence of play ---` section.
 5. **Next input needed** — exactly one of:
@@ -169,7 +179,8 @@ effect on Support, Control, Available, and the US score.
 **Rationale.** One paragraph.
 **Execution.** Every prompt you were unsure about, every rejection verbatim,
 every abort, every deviation from the plan.
-**Result.** One line: what the diff shows versus what you expected.
+**Result.** One line: what the program's narration and `render.py` show
+versus what you expected.
 ```
 
 Coup-round decisions and pivotal-event decisions get shorter entries with
