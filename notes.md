@@ -59,3 +59,4 @@ RULES NOTE from Kevin (unsolicited, continued): Advise also allows 2 free ARVN S
 (program was still running before #105; no resume needed)
 card #105 Rural Pressure: US ineligible. VC shaded: Phu Bon + Khanh Hoa to Passive Opp, Quang Tri back to Active Opp, Patronage -6 (15). VC 44 (+9). ARVN passed (Res 11).
 OBSERVER COMMENT (Kevin, unsolicited): NVA Infiltrate may replace VC Bases in Tay Ninh and Kien Giang with NVA Bases, which would lower the VC total.
+card #123 Vietnamization (ARVN pivotal): US PASSED BY MISTAKE (sent 2 to a 2-entry Op/Pass menu). Planned Train Quang Tri + Advise not executed. First on #23 as a result.

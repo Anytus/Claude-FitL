@@ -324,4 +324,255 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 23
+
+ARVN Bot Pivotal Event die roll: 1  [Success] (2 cards in leader box)
+
+====================================================
+ARVN elects to play their Pivotal Event
+====================================================
+[31mReplace the current event card with #123 - Vietnamization[0m
+
+
+>>> ARVN turn (Bot) [PIVOTAL EVENT] <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : ARVN, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+ARVN executes its Pivotal Event: Vietnamization[0m
+
++12 ARVN Resources and +12 US Aid
+====================================================
+[34mIncrease ARVN resources by +12 to 23[0m
+[34mIncrease US Aid by +12 to 30[0m
+
+All Out of Play ARVN pieces to Available
+====================================================
+[35mMove 10 ARVN Troops from OUT OF PLAY to AVAILABLE[0m
+[35mMove 3 ARVN Underground Rangers from OUT OF PLAY to AVAILABLE[0m
+
+Place 4 ARVN Cubes anywhere
+====================================================
+[35mPlace 1 ARVN Police from AVAILABLE into Tay Ninh[0m
+[35mPlace 1 ARVN Police from AVAILABLE into Tay Ninh[0m
+[35mPlace 1 ARVN Police from AVAILABLE into Tay Ninh[0m
+[35mPlace 1 ARVN Police from AVAILABLE into Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 13[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : US, NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 26[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : US
+Ineligible    : VC
+(perform or ?): 1
+'1' is not valid. Must be one of:
+perform, show, history, rollback, inspect, adjust, help, or quit
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : US
+Ineligible    : VC
+(perform or ?): 1
+'1' is not valid. Must be one of:
+perform, show, history, rollback, inspect, adjust, help, or quit
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : US
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - TT
+Trung check: Underground NVA Guerrillas in 2 or more spaces with Support? [No]
+Trung check: 3d6 <= Available NVA Troops (16): 9 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Tay Ninh
+----------------------------------------------------
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[35mRemove 1 VC Tunneled Base from Tay Ninh to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Tay Ninh[0m
+[33mAdd a tunnel marker to 1 NVA Base in Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 13 to 14[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 44 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mPlace 5 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 NVA Active Guerrilla from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Sihanoukville as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from The Parrot's Beak to Sihanoukville[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Sihanoukville[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Binh Dinh as March destination
+----------------------------------------------------
+[35mMove 2 NVA Troops from Quang Tin-Quang Ngai to Binh Dinh[0m
+[35mMove 1 NVA Active Guerrilla from LOC Da Nang -- Qui Nhon to Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Phuoc Long as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from Tay Ninh to Phuoc Long[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Phuoc Long[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Northeast Cambodia as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from The Fishhook to Northeast Cambodia[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Northeast Cambodia[0m
+[33mRemove NVA Control marker from The Fishhook[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Quang Tin-Quang Ngai as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from Quang Nam to Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
