@@ -5,198 +5,773 @@ Fire in the Lake: Trung Bot Software (version 1.53+sbd)
 Which game would you like to play:
 ====================================================
 1) Start a new game
-2) Resume 'TestGame1', Full: 1964-1972  [#17 - Claymores] US performed Event
+2) Resume 'TestGame1', Full: 1964-1972  [#68 - Green Berets] ARVN performed Op Only
 3) Quit
 ----------------------------------------------------
 Selection: 2
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
-[34mMove the VC cylinder to the Ineligible box[0m
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 15
-
-
->>> ARVN turn (Bot) <<<
-====================================================
-Current card  : #68 - Green Berets (ARVN, US, VC, NVA)
-                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Performed, Shaded)
-On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
-                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
-                VC -> (Performed, Shaded)
-Eligible      : ARVN, US, NVA
-Acted         : none
-Passed        : none
-Ineligible    : VC
-(perform or ?): perform
-[31m
-Drawing Trung Card for ARVN[0m
-----------------------------------------------------
-Trung: ARVN - J
-Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [No]
-[31m
-Drawing Trung Card for ARVN[0m
-----------------------------------------------------
-Trung: ARVN - L
-Trung check: NVA Base or NVA Control in any 2+ Pop space? [No]
-[31m
-Drawing Trung Card for ARVN[0m
-----------------------------------------------------
-Trung: ARVN - M
-Trung check: NVA Control + NVA Bases >= 14? [No]
-[31m
-Drawing Trung Card for ARVN[0m
-----------------------------------------------------
-Trung: ARVN - G
-Trung check: 3d6 <= Available ARVN pieces (3): 15 [No]
-[31m
-Drawing Trung Card for ARVN[0m
-----------------------------------------------------
-Trung: ARVN - K
-Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
-Trung check: All routes from Can Tho to Hue blocked? [Yes]
-
-ARVN chooses Patrol operation
-====================================================
-[34mDecrease ARVN resources by -3 to 9[0m
-
-ARVN selects LOC Can Tho -- Chau Doc as Patrol destination
-----------------------------------------------------
-[35mMove 1 ARVN Troop from Saigon to LOC Can Tho -- Chau Doc[0m
-[35mMove 1 ARVN Police from Saigon to LOC Can Tho -- Chau Doc[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN selects LOC Da Nang -- Dak To as Patrol destination
-----------------------------------------------------
-[35mMove 1 ARVN Troop from Hue to LOC Da Nang -- Dak To[0m
-[35mMove 1 ARVN Police from Hue to LOC Da Nang -- Dak To[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN selects LOC Saigon -- An Loc -- Ban Me Thuot as Patrol destination
-----------------------------------------------------
-[35mMove 1 ARVN Troop from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
-[35mMove 1 ARVN Police from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN selects LOC Ban Me Thuot -- Da Lat as Patrol destination
-----------------------------------------------------
-[35mMove 1 ARVN Troop from Saigon to LOC Ban Me Thuot -- Da Lat[0m
-[35mMove 1 ARVN Police from Saigon to LOC Ban Me Thuot -- Da Lat[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN selects LOC Da Nang -- Qui Nhon as Patrol destination
-----------------------------------------------------
-[35mMove 1 ARVN Troop from Hue to LOC Da Nang -- Qui Nhon[0m
-[35mMove 1 ARVN Police from Hue to LOC Da Nang -- Qui Nhon[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN Patrol - Activating guerrillas on LOCs
-----------------------------------------------------
-[36mFlip 1 VC Underground Guerrilla in LOC Da Nang -- Qui Nhon to ACTIVE[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-[36mFlip 1 VC Underground Guerrilla in LOC Ban Me Thuot -- Da Lat to ACTIVE[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-[36mFlip 1 VC Underground Guerrilla in LOC Saigon -- An Loc -- Ban Me Thuot to ACTIVE[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-[36mFlip 1 VC Underground Guerrilla in LOC Can Tho -- Chau Doc to ACTIVE[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN assaults in LOC Da Nang -- Qui Nhon
-----------------------------------------------------
-The assault inflicts 1 hit
-
-[35mRemove 1 VC Active Guerrilla from LOC Da Nang -- Qui Nhon to AVAILABLE[0m
-[34m
-Move the ARVN cylinder to the Op Only box[0m
-
-Finished with ARVN turn
+Enter the number of the next On Deck Event card: 43
 
 
 >>> US turn (Human) <<<
 ====================================================
-Current card  : #68 - Green Berets (ARVN, US, VC, NVA)
-                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Performed, Shaded)
-On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+Current card  : #15 - Medevac (US, ARVN, NVA, VC)
                 ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
                 VC -> (Performed, Shaded)
-Eligible      : US, NVA
-Acted         : ARVN -> Op Only
+On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : US, VC
+Acted         : none
 Passed        : none
-Ineligible    : VC
+Ineligible    : ARVN, NVA
 (perform or ?): perform
 
 Choose one:
 ====================================================
-1) Limited Op
-2) Pass
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
 ----------------------------------------------------
 Selection: 2
 
-US faction passes
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
 ----------------------------------------------------
-[34mIncrease ARVN resources by +3 to 12[0m
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) Pleiku-Darlac
+6) Quang Tri-Thua Thien
+7) None of the above
+----------------------------------------------------
+Selection: 6
+
+US selects Quang Tri-Thua Thien for Training
+
+Training in Quang Tri-Thua Thien:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 3
+
+US chooses Air Strike special activity
+====================================================
+Die roll to determine the number of hits = 5
+
+0 spaces of 6 selected for Air Strike
+----------------------------------------------------
+
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Ban Me Thuot -- Da Lat
+4) LOC Can Tho -- Chau Doc
+5) LOC Da Nang -- Dak To
+6) LOC Saigon -- An Loc -- Ban Me Thuot
+7) None of the above
+----------------------------------------------------
+Selection: 3
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Can Tho -- Chau Doc
+4) LOC Da Nang -- Dak To
+5) LOC Saigon -- An Loc -- Ban Me Thuot
+6) None of the above
+----------------------------------------------------
+Selection: 3
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+4) Remove insurgents in LOC Can Tho -- Chau Doc
+5) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Da Nang -- Dak To
+4) LOC Saigon -- An Loc -- Ban Me Thuot
+5) None of the above
+----------------------------------------------------
+Selection: 3
+
+3 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+4) Remove insurgents in LOC Can Tho -- Chau Doc
+5) Remove insurgents in LOC Da Nang -- Dak To
+6) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Saigon -- An Loc -- Ban Me Thuot
+4) None of the above
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+4) Remove insurgents in LOC Can Tho -- Chau Doc
+5) Remove insurgents in LOC Da Nang -- Dak To
+6) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+7) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from LOC Ban Me Thuot -- Da Lat: 1
+
+US Air Strikes LOC Ban Me Thuot -- Da Lat
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Ban Me Thuot -- Da Lat to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have not yet degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in LOC Can Tho -- Chau Doc
+4) Remove insurgents in LOC Da Nang -- Dak To
+5) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+6) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from LOC Can Tho -- Chau Doc: 1
+
+US Air Strikes LOC Can Tho -- Chau Doc
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Can Tho -- Chau Doc to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have not yet degraded the trail
+
+Air Strike: (3 hits remaining, remove up to 3 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in LOC Da Nang -- Dak To
+4) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+5) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from LOC Da Nang -- Dak To: 1
+
+US Air Strikes LOC Da Nang -- Dak To
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Da Nang -- Dak To to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have not yet degraded the trail
+
+Air Strike: (2 hits remaining, remove up to 2 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from LOC Saigon -- An Loc -- Ban Me Thuot: 1
+
+US Air Strikes LOC Saigon -- An Loc -- Ban Me Thuot
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have not yet degraded the trail
+
+Air Strike: (1 hit remaining, remove up to 1 piece)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Quang Tri-Thua Thien
+
+Pacifying in Quang Tri-Thua Thien
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+[31m
+It is not possible to pacify in Quang Tri-Thua Thien[0m
+[31mOnly 12 ARVN resources available and Econ is 15[0m
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: abort
+Really abort (y/n)? y
+
+>>>> Aborting the current action <<<<
+====================================================
+
+======================================================
+The following changes should be made to the game board
+======================================================
+
+Changes to LOC Ban Me Thuot -- Da Lat:
+----------------------------------------------------
+Add 1 VC Active Guerrilla
+
+
+Current Status: LOC Ban Me Thuot -- Da Lat (LOC)
+----------------------------------------------------
+Sabotage  : 0
+Pieces    : 1 ARVN Troop, 1 ARVN Police
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0mshow LOC Ban Me Thuot -- Da Lat
+
+Changes to LOC Can Tho -- Chau Doc:
+----------------------------------------------------
+Add 1 VC Active Guerrilla
+
+
+Current Status: LOC Can Tho -- Chau Doc (LOC)
+----------------------------------------------------
+Sabotage  : 0
+Pieces    : 1 ARVN Troop, 1 ARVN Police
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Changes to LOC Da Nang -- Dak To:
+----------------------------------------------------
+Add 1 VC Active Guerrilla
+
+
+Current Status: LOC Da Nang -- Dak To (LOC)
+----------------------------------------------------
+Sabotage  : 0
+Pieces    : 1 ARVN Troop, 1 ARVN Police
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Changes to LOC Saigon -- An Loc -- Ban Me Thuot:
+----------------------------------------------------
+Add 1 VC Active Guerrilla
+
+
+Current Status: LOC Saigon -- An Loc -- Ban Me Thuot (LOC)
+----------------------------------------------------
+Sabotage  : 0
+Pieces    : 1 ARVN Troop, 1 ARVN Police
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+
+Current Available Pieces
+----------------------------------------------------
+25 US Troops, 1 US Underground Irregular, 3 US Bases, 2 ARVN Troops, 1 ARVN Police, 30 NVA Troops, 
+8 NVA Underground Guerrillas, 4 NVA Bases, 5 VC Underground Guerrillas, 6 VC Bases
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 3
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Strike special activity
+====================================================
+Die roll to determine the number of hits = 6
+
+0 spaces of 6 selected for Air Strike
+----------------------------------------------------
+
+
+You have not yet degraded the trail
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+US Air Strikes The Trail
+----------------------------------------------------
+[34mDegrade the trail by 1 box to 3[0m
+
+0 spaces of 6 selected for Air Strike
+----------------------------------------------------
+
+
+You have already degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Ban Me Thuot -- Da Lat
+4) LOC Can Tho -- Chau Doc
+5) LOC Da Nang -- Dak To
+6) LOC Saigon -- An Loc -- Ban Me Thuot
+7) None of the above
+----------------------------------------------------
+Selection: 3
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat
+
+You have already degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Can Tho -- Chau Doc
+4) LOC Da Nang -- Dak To
+5) LOC Saigon -- An Loc -- Ban Me Thuot
+6) None of the above
+----------------------------------------------------
+Selection: 3
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc
+
+You have already degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+3) Remove insurgents in LOC Can Tho -- Chau Doc
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Da Nang -- Dak To
+4) LOC Saigon -- An Loc -- Ban Me Thuot
+5) None of the above
+----------------------------------------------------
+Selection: 3
+
+3 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To
+
+You have already degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+3) Remove insurgents in LOC Can Tho -- Chau Doc
+4) Remove insurgents in LOC Da Nang -- Dak To
+5) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Qui Nhon
+2) Saigon
+3) LOC Saigon -- An Loc -- Ban Me Thuot
+4) None of the above
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have already degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in LOC Ban Me Thuot -- Da Lat
+3) Remove insurgents in LOC Can Tho -- Chau Doc
+4) Remove insurgents in LOC Da Nang -- Dak To
+5) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+6) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+Remove how many pieces from LOC Ban Me Thuot -- Da Lat: 1
+
+US Air Strikes LOC Ban Me Thuot -- Da Lat
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Ban Me Thuot -- Da Lat to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have already degraded the trail
+
+Air Strike: (3 hits remaining, remove up to 3 pieces)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in LOC Can Tho -- Chau Doc
+3) Remove insurgents in LOC Da Nang -- Dak To
+4) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+5) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+Remove how many pieces from LOC Can Tho -- Chau Doc: 1
+
+US Air Strikes LOC Can Tho -- Chau Doc
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Can Tho -- Chau Doc to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have already degraded the trail
+
+Air Strike: (2 hits remaining, remove up to 2 pieces)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in LOC Da Nang -- Dak To
+3) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+Remove how many pieces from LOC Da Nang -- Dak To: 1
+
+US Air Strikes LOC Da Nang -- Dak To
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Da Nang -- Dak To to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have already degraded the trail
+
+Air Strike: (1 hit remaining, remove up to 1 piece)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in LOC Saigon -- An Loc -- Ban Me Thuot
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+Remove how many pieces from LOC Saigon -- An Loc -- Ban Me Thuot: 1
+
+US Air Strikes LOC Saigon -- An Loc -- Ban Me Thuot
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE[0m
+
+4 spaces of 6 selected for Air Strike
+----------------------------------------------------
+LOC Ban Me Thuot -- Da Lat, LOC Can Tho -- Chau Doc, LOC Da Nang -- Dak To, 
+LOC Saigon -- An Loc -- Ban Me Thuot
+
+You have already degraded the trail
+There are no strike targets and you cannot degrade the trail again
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space:  Saigon
+
+US assaults in Saigon
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 2 VC Active Guerrillas from Saigon to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Saigon
+
+There are no more spaces eligible for Assault
 [34m
-Move the US cylinder to the Pass box[0m
+Move the US cylinder to the Op/Special Activity box[0m
 
 Finished with US turn
 
 
->>> NVA turn (Bot) <<<
+>>> VC turn (Bot) <<<
 ====================================================
-Current card  : #68 - Green Berets (ARVN, US, VC, NVA)
-                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Performed, Shaded)
-On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+Current card  : #15 - Medevac (US, ARVN, NVA, VC)
                 ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
                 VC -> (Performed, Shaded)
-Eligible      : NVA
-Acted         : ARVN -> Op Only
-Passed        : US
-Ineligible    : VC
+On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : VC
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, NVA
 (perform or ?): perform
+
+VC executes the Shaded Event: Medevac
+----------------------------------------------------
+
+VC will remain eligible for the next card
 [31m
-Drawing Trung Card for NVA[0m
-----------------------------------------------------
-Trung: NVA - S
-Trung check: Any 2-Pop space without COIN Control? [Yes]
-Trung check: 2d6 <= Available NVA Guerrillas (12): 7 [Yes]
-
-NVA chooses Rally operation
-====================================================
-
-NVA selects Southern Laos for Rally
-----------------------------------------------------
-[35mPlace 4 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
-
-Control Changes
-----------------------------------------------------
-[33mPlace NVA Control marker in Southern Laos[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-NVA improves the trail
-----------------------------------------------------
-[34mImprove the trail by 1 box to 4[0m
+Momentum: '#15 Medevac (shaded)' is now in play[0m
 [34m
-Move the NVA cylinder to the LimOp box[0m
+Move the VC cylinder to the LimOp or Event box[0m
 
-Finished with NVA turn
+Finished with VC turn
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the US and VC cylinders to the Eligible box[0m
-[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+[34mMove the ARVN, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the US cylinder to the Ineligible box[0m
 
 Draw event card
 ----------------------------------------------------

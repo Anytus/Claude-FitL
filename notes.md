@@ -32,3 +32,5 @@ RESUME 7: resumed from save-030 (card prompt after #66). Nothing lost.
 card #17 Claymores: EVENT unshaded (Stay Eligible + momentum) — free action, keeps me eligible for #68 Green Berets unshaded; VC March into Saigon lost 4 guerrillas to the momentum.
 RESUME 8: resumed from save-033 (card prompt after #17). Nothing lost.
 card #68 Green Berets: PASS — LESSON: after 1st-eligible Op Only, 2nd gets only LimOp (no Event); planned unshaded event impossible. Pass keeps me 1st on #15 with full Op+SA. NVA LimOp Rally S.Laos, Trail 4.
+RESUME 9: resumed from save-037 (card prompt after #68). Nothing lost.
+card #15 Medevac: Assault Saigon (2 VC removed) + Air Strike (Trail 4->3, 4 LoC guerrillas) — Train/Pacify REJECTED (ARVN res 12 < Econ 15), aborted and redid. LESSONS: pacify needs ARVN Res > Econ; trail degrade costs 2 hits, do first.
