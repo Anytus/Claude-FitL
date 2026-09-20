@@ -281,4 +281,9 @@ Victory Phase
 Game over in the 3rd Coup! round
 [33mVC wins with a victory margin of 2![0m
 
-Do you want to continue playing this game? (y/n)
+Do you want to continue playing this game? (y/n)n
+
+
+>>> The game has ended <<<
+====================================================
+(quit or ?): 

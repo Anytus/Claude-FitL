@@ -1,0 +1,86 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "Coup! Card: #129 - Coup! Failed Attempt",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "ARVN must remove 1 in 3 of its Cubes per space",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Quang Tri-Thua Thien to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Hue to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Can Tho to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Cam Ranh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Troop from An Loc to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nPlace #129 - Coup! Failed Attempt beneath the other cards in the RVN Leader Box",
+      "color": "Red"
+    },
+    {
+      "text": "\nConduct a Coup! Round",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVictory Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": "Yellow"
+    },
+    {
+      "text": "Game over in the 3rd Coup! round",
+      "color": null
+    },
+    {
+      "text": "VC wins with a victory margin of 2!",
+      "color": "Yellow"
+    }
+  ]
+}

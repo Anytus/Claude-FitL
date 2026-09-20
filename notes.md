@@ -62,3 +62,4 @@ OBSERVER COMMENT (Kevin, unsolicited): NVA Infiltrate may replace VC Bases in Ta
 card #123 Vietnamization (ARVN pivotal): US PASSED BY MISTAKE (sent 2 to a 2-entry Op/Pass menu). Planned Train Quang Tri + Advise not executed. First on #23 as a result.
 card #23 Attleboro (Monsoon): Train Quang Tri pacify 2 levels to Neutral (VC 37, +2) + Advise (Pleiku Irregular removed 2 NVA Troops, control broken; ARVN Assault Tay Ninh 0 hits; +6 Aid = 36). VC shaded: 2 Saigon Troops to Casualties. Coup #129 next; VC still above threshold.
 Coup 3 (#129 Failed Attempt): ARVN lost 1 in 3 cubes per space; Victory phase: VC WINS by 2. Game over. Final US 44 (-6), VC 37 (+2), NVA 13, ARVN 33. Program prompt 'continue playing? (y/n)' left for Kevin.
+ADMIN: Kevin instructed 'no' to continuing after the VC victory; answered n.
