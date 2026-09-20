@@ -22,7 +22,8 @@ short version:
 | Path | What |
 | --- | --- |
 | `CLAUDE.md` | Standing instructions for the *playing* session. Read it first. |
-| `fitl/lib/` | Prebuilt `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl). No build step. |
+| `fitl/lib/` | `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl) with one patch applied, see below. No build step to run. |
+| `fitl/save-before-draw.patch` | The patch applied to the program: save after every action and Coup round *before* asking for the next card, and make the card draw its own saved step. |
 | `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `enter`, `advance`, `read`, `screen`, `status`. |
 | `tools/render.py` | Renders the latest save as the board view, with derived scores. |
 | `tools/diff.py` | Mechanical delta between two saves plus the program's log lines. |
@@ -49,6 +50,24 @@ python3 tools/diff.py                       # last two saves + program log
 The program runs with the repository root as its working directory, so saves
 land in `games/<name>/`.
 
+## The patched program build
+
+The release program saved the last action on a card, and a whole Coup round,
+only after the next card number was typed. In this harness that number comes
+from a human who may be away for hours, and the sandbox container can be
+reclaimed in the meantime, losing the unsaved segment and forcing a replay
+with fresh dice. `fitl/save-before-draw.patch` fixes that: the program now
+saves as soon as an action or Coup round completes, records in the save that
+a card draw is pending, and performs the draw as its own saved step at the
+top of its main loop. A resumed game goes straight to the card prompt.
+
+The jar `fire-in-the-lake_2.13-1.53-sbd.jar` was compiled from the v1.53
+source with that patch using scalac 2.13.18 and reports its version as
+`1.53+sbd`. To rebuild: clone github.com/sellmerfud/fitl at v1.53, apply the
+patch, compile `src/main/scala/**/*.scala` against `scala-library` and
+`scala-parser-combinators`, and jar the classes together with a `version`
+resource file.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,
@@ -65,3 +84,6 @@ build `cards.json` was kept outside this repository and deleted afterwards.
 - `render.py` scores matched the program's `show summary` exactly at the
   checked points of a throwaway game (all four factions).
 - `diff.py` output matched the program's own log narration for bot turns.
+- With the patched build: a save exists for the last actor on a card, and
+  for a Coup round, while the card prompt is waiting; stop and resume at
+  that point goes straight to the card prompt with nothing replayed.
