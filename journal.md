@@ -277,3 +277,78 @@ Control there (NVA 10 -> 8). Saigon is Active Support again, US 36 -> 42, Aid
 is the most efficient tool I have — 2 enemy pieces per space, up to 2 spaces,
 free, no Support shift, and it reaches Underground Guerrillas and undefended
 Bases that Assault and Air Strike cannot touch.
+
+## Turn 3 — card #15 Medevac — before save-020
+**Situation.** The NVA's Attack took all 6 US Troops I committed at Coup 1 plus
+an Irregular into Casualties; Binh Dinh has no US pieces at all and Quang
+Tri-Thua Thien is down to 4 Irregulars and 4 ARVN Police. The VC's Booby Traps
+shaded capability is permanent, so Sweep now costs a US Troop per space on a 1-3
+and is effectively off the table. US 42, ARVN 38, VC 31, NVA 8. I am first
+eligible for the first time this game. On deck is #118 Korean War Arms with VC
+Critical/Shaded — "place any 1 VC piece in each of 3 spaces", and a piece may be
+a Base — so I should expect the VC to be at 33-34 within two cards.
+**Options considered.**
+- *Medevac shaded* ("executing faction remains Eligible; no Air Lift until
+  Coup"). The eligibility is worthless here: on #118 the order is VC, ARVN, NVA,
+  US and the VC and NVA are both Eligible, so two bots act before me whatever I
+  do. It would also ban the one tool that can redistribute my Irregulars.
+- *Medevac unshaded* ("this Commitment, all Troop Casualties to Available").
+  Real but small: it saves the 2 of 6 Troop Casualties that would otherwise go
+  Out of Play at the Coup 2 Commitment, so +2 US points.
+- *Assault.* No legal space — every space holding US Troops (Hue, Da Nang,
+  Quang Nam, Kontum, Pleiku-Darlac) is free of enemies, and the two spaces with
+  enemies no longer hold US Troops.
+- *Air Strike.* Both reachable stacks sit in Neutral pop-2 Highlands, so each
+  space struck would shift a level toward Active Opposition and pay the VC 2
+  points per space. Still refused.
+- *Train + Advise.* The only Op with anything in it.
+**Plan.** Op + Special Activity.
+Operation **Train**, two spaces: **Pleiku-Darlac** — place 2 ARVN Rangers (it
+has the US Base, so Rangers are legal there; 3 Resources) — and **Hue**, no
+placement. Final Train action: **Pacify Hue 1 level, Passive -> Active
+Support**, 3 Resources, +2 US.
+Special Activity **Advise**: **Quang Tri-Thua Thien**, "use Irregular/Ranger to
+remove enemy pieces" (4 Underground Irregulars are there), then a second space
+only if the program offers an ARVN Assault that would actually remove something;
+then take the +6 Aid.
+**Rationale.** Two honest caveats about this turn. First, the Hue pacification
+is nearly free but nearly redundant: Hue and Quang Nam both qualify for the Coup
+2 Support phase anyway and I have only those two candidates against four slots,
+so banking it now only buys insurance against the VC marching a Guerrilla into
+Hue and terrorising it. Second, and more important, the reason I am not taking
+Medevac unshaded for its +2 is that this action's real value is the Advise
+removal and the Rangers. The Advise Irregular/Ranger removal is the only tool I
+have that reaches Underground Guerrillas and undefended Bases, and its
+limitation is reach, not rate: it needs an Underground Irregular or Ranger in
+the target space, and after the Attack I have them in exactly one contested
+space. Two Rangers in Pleiku-Darlac are Air Lift cargo for later — the way to
+get a removal engine pointed at the VC's six Bases, which is the part of the VC
+total I can actually take off the board. Expected: US 42 -> 44, Aid 27 -> 33,
+ARVN Resources 54 -> 48, 2 enemy pieces off Quang Tri-Thua Thien.
+**Execution.** No rejections, no aborts. Three things learned.
+(1) Train offered **Quang Tri-Thua Thien** as a space although it holds no US
+Troops, only Irregulars — so the Train space test is US *pieces*, not Troops.
+(2) The Advise removal let me **choose** the pieces this time, printing
+"Select 2 pieces among the following: 5 NVA Troops, 1 NVA Underground Guerrilla,
+2 VC Underground Guerrillas" and prompting for a count of each in turn; after I
+answered 0 and 0 it assigned the remaining 2 to the VC Guerrillas automatically.
+I chose the VC Guerrillas over the NVA Troops deliberately: either pair flips
+Quang Tri to COIN Control (COIN 8 against 9 enemy pieces, so removing any 2
+does it), but taking the Guerrillas also leaves the VC Base there unguarded for
+a later removal, and the VC is the faction that can actually win at the next
+Coup.
+(3) I spent the spare second Advise slot on the ARVN Assault it offered in Binh
+Dinh, expecting nothing; it "inflicts 0 hits", as 2 Police in Highland should.
+Harmless, and it confirms the Police-in-Highland rate.
+**Result.** Hue is Active Support and Quang Tri-Thua Thien is **COIN-controlled**
+— better than planned, since I had written that space off for this card. US
+42 -> 44, Aid 27 -> 33, ARVN Resources 54 -> 48, 2 VC Guerrillas to Available,
+2 Rangers into Pleiku-Darlac. The Medevac question answered itself: ARVN played
+the unshaded side after me, so the momentum is in play and all 6 Troop
+Casualties will reach Available at the Coup 2 Commitment regardless — the +2 I
+declined to spend my action on arrived for free, which vindicates taking the Op.
+Standing: US 44 (-6), ARVN 40 (-10), VC 31 (-4), NVA 8 (-10).
+**Next card's aim:** Quang Tri-Thua Thien is pop-2, Neutral and COIN-controlled.
+Train-Pacify there is +4 if the program will pacify a space whose only US pieces
+are Irregulars; if it refuses, that tells me US Troops are required and the
+Coup 2 Support phase will refuse it too.
