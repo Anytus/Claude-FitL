@@ -38,3 +38,4 @@ card #43 Economic Aid: US ineligible. NVA Rally (base S.Laos, guerrillas) + Infi
 card #6 Aces: EVENT unshaded — free Air Strike Parrot's Beak (6 NVA Troops), Trail 4->2 — denies NVA shaded (2 Troops to Casualties). VC Rally 2 Bases + Tax (Agitate 5). Slip: sent perform before entering card 34 (rejected, no effect).
 RESUME 10: resumed from save-046 (card prompt after #6). Nothing lost.
 card #34 SA-2s: US ineligible. NVA shaded capability (Rally improves Trail 2); ARVN passed (Res 15).
+card #78 General Lansdale: US no action (ARVN shaded event: Patronage +3, no US Assault until Coup; VC Rally 11 guerrillas + base Tay Ninh, Subvert Binh Dinh/Hue; Binh Dinh COIN control lost).
