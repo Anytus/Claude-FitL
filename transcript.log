@@ -1,100 +1,14 @@
 
-Fire in the Lake: Trung Bot Software (version 1.53)
+Fire in the Lake: Trung Bot Software (version 1.53+sbd)
 ----------------------------------------------------
 
 Which game would you like to play:
 ====================================================
 1) Start a new game
-2) Resume 'TestGame1', Full: 1964-1972  [#93 - Senator Fulbright] ARVN is up
+2) Resume 'TestGame1', Full: 1964-1972  [#51 - 301st Supply Bn] NVA is up
 3) Quit
 ----------------------------------------------------
 Selection: 2
-
-
->>> ARVN turn (Bot) <<<
-====================================================
-Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
-                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
-On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
-                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
-Eligible      : ARVN
-Acted         : US -> Event
-Passed        : NVA
-Ineligible    : VC
-(perform or ?): perform
-[31m
-Drawing Trung Card for ARVN[0m
-----------------------------------------------------
-Trung: ARVN - K
-Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
-Trung check: All routes from Can Tho to Hue blocked? [No]
-[31m
-Trung card flipped to its back side[0m
-----------------------------------------------------
-Trung: ARVN - KK
-Trung check: ARVN Assault would add COIN Control? [No]
-
-ARVN chooses Train operation
-====================================================
-
-ARVN selects Saigon for Train
-----------------------------------------------------
-[34mDecrease ARVN resources by -3 to 30[0m
-[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
-[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN activation roll against activation number of 3
-----------------------------------------------------
-Die roll: 3 [Failure]
-
-ARVN chooses Govern special activity
-====================================================
-
-ARVN Governs in Khanh Hoa (population: 1)
-----------------------------------------------------
-Transfer population value from Aid to Patronage
-[34mDecrease US Aid by -1 to 10[0m
-[34mIncrease Patronage by +1 to 24[0m
-[33mRemove Passive Support marker from Khanh Hoa[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'Support + Avail US' marker from 50 to 49[0m
-[34mMove the 'COIN Control + Patronage' marker from 42 to 43[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-ARVN Governs in Phu Bon-Phu Yen (population: 1)
-----------------------------------------------------
-Transfer population value from Aid to Patronage
-[34mDecrease US Aid by -1 to 9[0m
-[34mIncrease Patronage by +1 to 25[0m
-[33mRemove Passive Support marker from Phu Bon-Phu Yen[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'Support + Avail US' marker from 49 to 48[0m
-[34mMove the 'COIN Control + Patronage' marker from 43 to 44[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-----------------------------------------------------
-End of ARVN Govern activity
-[34m
-Move the ARVN cylinder to the Op - May add Special Activity box[0m
-
-Finished with ARVN turn
-
-Adjust eligiblity
-----------------------------------------------------
-[34mMove the VC and NVA cylinders to the Eligible box[0m
-[34mMove the US and ARVN cylinders to the Ineligible box[0m
-
-Draw event card
-----------------------------------------------------
-Enter the number of the next On Deck Event card: 1
 
 
 >>> NVA turn (Bot) <<<
@@ -107,4 +21,113 @@ Eligible      : NVA, VC
 Acted         : none
 Passed        : none
 Ineligible    : US, ARVN
-(perform or ?): 
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (7): 8 [No]
+Trung check: d3 >= the Trail (2): 3 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Southern Laos to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Southern Laos[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 5 to 6[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Central Laos for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Central Laos to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Central Laos[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 6 to 7[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 3[0m
+Trung check: 3d6 <= Available NVA Troops (40): 9 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in North Vietnam
+----------------------------------------------------
+[35mRemove 1 NVA Underground Guerrilla from North Vietnam to AVAILABLE[0m
+[35mPlace 5 NVA Troops from AVAILABLE into North Vietnam[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mPlace 5 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #1 - Gulf of Tonkin (US, NVA, ARVN, VC)
+                NVA -> (Performed, Shaded), ARVN -> (Ignored), VC -> (Performed, Shaded)
+Eligible      : VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Ban Me Thuot -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Duc-Long Khanh to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 
