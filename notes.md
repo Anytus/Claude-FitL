@@ -28,3 +28,5 @@ card #1 Gulf of Tonkin: PASS — stay eligible to take #29 Tribesmen unshaded (3
 card #29 Tribesmen: EVENT unshaded — removed VC Bases in Quang Tri, Binh Dinh, Pleiku + 1 Quang Tri guerrilla (VC 27) — best exchange available; denied VC shaded. VC rallied 9 guerrillas + Subvert.
 RESUME 6: resumed from save-027 (card prompt after #29). Nothing lost.
 card #66 Ambassador Taylor: US ineligible. ARVN Train Saigon + Govern (Quang Tri, Cam Ranh support removed, Aid 6); NVA shaded event removed Support in Da Nang, Kontum, Phu Bon, Patronage -3. US 42.
+RESUME 7: resumed from save-030 (card prompt after #66). Nothing lost.
+card #17 Claymores: EVENT unshaded (Stay Eligible + momentum) — free action, keeps me eligible for #68 Green Berets unshaded; VC March into Saigon lost 4 guerrillas to the momentum.
