@@ -15,3 +15,5 @@ card #75 Sihanouk: US did not act (ARVN Op+Govern, NVA shaded event exhausted ca
 card #112 Colonel Chau: PASS — stay eligible to take #93 Fulbright unshaded (+4) and deny NVA the shaded (base OOP, Aid -9)
 RESUME 2: container lost again while waiting for the card after #93. Resumed from save-006 (US turn on #112, on deck #93); replayed the Pass identically (no dice). Board unchanged.
 ADMIN: no manual save exists in the program (checked `?` at the perform prompt and at the card prompt). Set up a 5-minute in-session heartbeat cron (job 500f0e68) as an experiment to keep the container alive while Kevin updates the board.
+RESUME 3: container lost again (heartbeat cron never fired; it dies with the container). Resumed from save-006, replayed Pass on #112 identically. Heartbeat idea abandoned.
+card #93 Senator Fulbright: EVENT unshaded — Binh Dinh Troop, Pleiku Troop+Base, Kontum Troop to Available (+4, US 50) — denies NVA shaded (base OOP, Aid -9). NVA passed; ARVN Train+Govern (Quang Tri to Passive Support, Khanh Hoa/Can Tho Support removed).

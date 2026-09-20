@@ -21,21 +21,6 @@ Eligible      : US
 Acted         : VC -> Event
 Passed        : none
 Ineligible    : ARVN, NVA
-(perform or ?): ?
-Enter one of:
-perform, show, history, rollback, inspect, adjust, help, or quit
-
-
->>> US turn (Human) <<<
-====================================================
-Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
-                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
-                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
-Eligible      : US
-Acted         : VC -> Event
-Passed        : none
-Ineligible    : ARVN, NVA
 (perform or ?): perform
 
 Choose one:
@@ -60,6 +45,255 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: ?
-'?' is not a card number
+Enter the number of the next On Deck Event card: 51
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : US, NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Senator Fulbright
+----------------------------------------------------
+
+Number of US piece removed to available: 0 of 4
+----------------------------------------------------
+
+Select space to remove US pieces:
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) Pleiku-Darlac
+6) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 4
+
+Remove how many pieces from Binh Dinh (0 - 2): 1
+
+Select 1 piece among the following:
+  1 US Troop, 1 US Underground Irregular
+
+How many US Troops (0 - 1): 1
+[35mRemove 1 US Troop from Binh Dinh to AVAILABLE[0m
+
+Number of US piece removed to available: 1 of 4
+----------------------------------------------------
+
+Select space to remove US pieces:
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) Pleiku-Darlac
+6) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 5
+
+Remove how many pieces from Pleiku-Darlac (0 - 3): 2
+
+Select 2 pieces among the following:
+  1 US Troop, 1 US Underground Irregular, 1 US Base
+
+How many US Troops (0 - 1): 1
+How many US Underground Irregulars (0 - 1): 0
+[35mRemove 1 US Troop from Pleiku-Darlac to AVAILABLE[0m
+[35mRemove 1 US Base from Pleiku-Darlac to AVAILABLE[0m
+
+Number of US piece removed to available: 3 of 4
+----------------------------------------------------
+
+Select space to remove US pieces:
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) Pleiku-Darlac
+6) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 2
+
+Remove how many pieces from Kontum (0 - 1): 1
+[35mRemove 1 US Troop from Kontum to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 46 to 50[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : NVA, ARVN
+Acted         : US -> Event
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN
+Acted         : US -> Event
+Passed        : NVA
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: All routes from Can Tho to Hue blocked? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - KK
+Trung check: ARVN Assault would add COIN Control? [No]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 30[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+ARVN selects Quang Tri-Thua Thien for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 27[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Quang Tri-Thua Thien[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Quang Tri-Thua Thien[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 24[0m
+[35mPlace 2 ARVN Troops from AVAILABLE into Hue[0m
+[35mPlace 4 ARVN Police from AVAILABLE into Hue[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+ARVN selects An Loc for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 21[0m
+[35mPlace 1 ARVN Police from AVAILABLE into An Loc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Pacifies 2 levels in Quang Tri-Thua Thien
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 15[0m
+[33mReplace Passive Opposition marker in Quang Tri-Thua Thien with Passive Support marker[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 50 to 52[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 33 to 31[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Khanh Hoa (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 10[0m
+[34mIncrease Patronage by +1 to 24[0m
+[33mRemove Passive Support marker from Khanh Hoa[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 52 to 51[0m
+[34mMove the 'COIN Control + Patronage' marker from 42 to 43[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Can Tho (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 9[0m
+[34mIncrease Patronage by +1 to 25[0m
+[33mRemove Passive Support marker from Can Tho[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 51 to 50[0m
+[34mMove the 'COIN Control + Patronage' marker from 43 to 44[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op - May add Special Activity box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 

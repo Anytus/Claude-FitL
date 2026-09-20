@@ -1,0 +1,58 @@
+{
+  "file-version": 1,
+  "software-version": "1.53",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nNVA faction passes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Pass box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}
