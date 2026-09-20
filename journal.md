@@ -195,3 +195,85 @@ Pacify is the looser test (it offered Quang Tri with no ARVN Police on card
 #112 where the Coup phase refused it), so the +8 can be taken before the Police
 can be picked off; (2) a US Base into a pop-2 Highland is the first call on the
 Coup 2 Commitment phase, not something to re-argue at the prompt.
+
+## Turn 2 — card #79 Henry Cabot Lodge — before save-014
+**Situation.** The NVA's 20-Troop March last card wrecked the plan I had for the
+two pop-2 Highlands: Binh Dinh is NVA-controlled (7 NVA Troops against my 2
+Troops, 1 Irregular and 2 ARVN Police, plus a VC Base) and Quang Tri-Thua Thien
+is Uncontrolled (9 NVA Troops and a Guerrilla plus VC 2 Guerrillas and a Base
+against 4 Troops, 3 Irregulars and 4 Police). Pacify needs COIN Control, so the
++8 I had banked on is out of reach this card. The VC also took Saigon back down
+to Passive Support and 12 off Aid. ARVN has just played #79 shaded, removing 3
+of its own Troops for +6 Patronage, and is Ineligible through the next card.
+US 36, VC 32, NVA 10, ARVN 38.
+**Options considered.**
+- *Pass.* Worthless. On deck is #101 Booby Traps with VC and NVA both
+  Critical/Shaded and both Eligible; they are 1st and 2nd in that card's order
+  and I am 3rd, so staying Eligible buys me nothing at all.
+- *Assault + Advise.* 4 US Troops in Quang Tri give 2 Highland hits and 2 in
+  Binh Dinh give 1; with 4 more from Advise that is 7 NVA Troops. It still does
+  not reach COIN Control in either space (Quang Tri needs 3 removals, Binh Dinh
+  needs 4) and it gives up the biggest scoring move on the board.
+- *Air Strike.* Rejected on the arithmetic: every populated space struck shifts
+  1 level toward Active Opposition, and Quang Tri and Binh Dinh are both Neutral
+  pop-2, so striking the two stacks that matter would hand the VC +4 and put it
+  at 36 — over its threshold — to kill maybe 4 NVA Troops. The one stack I would
+  happily strike, Quang Tin-Quang Ngai, holds no COIN pieces and is unreachable
+  without Arc Light.
+- *Train + Pacify Saigon.* Saigon is Passive Support at pop 6 with COIN Control,
+  US Troops and an ARVN Police: one level for 3 Resources is +6 US points.
+**Plan.** Op + Special Activity.
+Operation **Train**, two spaces: **Quang Tri-Thua Thien** (place my last
+Irregular from Available — free, and it keeps Advise fodder in the space the
+NVA is sitting in) and **Saigon** (do not place forces). Final Train action:
+**Pacify Saigon 1 level, Passive -> Active Support**, 3 Resources.
+Special Activity **Advise**, two spaces, both "use Irregular/Ranger to remove
+enemy pieces": **Pleiku-Darlac**, where an Underground Irregular sits with a
+lone VC Base, and **Binh Dinh**, where the removal should take 2 NVA Troops.
+Then take the +6 Aid. Neither Advise space is a Train space, so there is no
+conflict with the rule I hit last turn.
+**Rationale.** +6 US points for 3 Resources is the best rate available and I
+take it before anything else knocks Saigon down again. For the Special Activity
+the question is whose points to attack, and the answer is the VC's: it sits at
+32 against a threshold of 35 with ties going its way, while the NVA at 10
+against 18 cannot win at the next Coup whatever it does. So the first Advise
+goes at the VC Base in Pleiku-Darlac (-1 VC, and it denies the VC a rally point
+inside an Active Support space); I am not certain the program will let a
+removal take a Base with no Guerrillas guarding it, and if it refuses I will
+fall back to Quang Tri-Thua Thien. The second goes into Binh Dinh, where 2 NVA
+Troops leave the NVA at 5 against 6 other pieces and break its Control, which is
+worth 2 NVA points and is the first step back toward pacifying the space.
+Expected: US 36 -> 42, Aid 21 -> 27, ARVN Resources 57 -> 54, VC 32 -> 31,
+NVA 10 -> 8.
+**Execution.** Two things to record.
+(1) The first "Train in which space:" prompt arrived with **no list** — the
+program printed the bare prompt, and `screen`, `read` and `transcript.log` all
+showed the same thing — so I typed the space name, "Quang Tri-Thua Thien", and
+it was accepted. On the very next selection the same prompt came back with a
+numbered menu, and my typed answer was rejected verbatim:
+    'Saigon' is not valid. Must be one of:
+    1, 2, 3, 4, 5, 6, 7, 8, or abort
+I printed the menu and answered 4. So this prompt takes either form and the
+only safe procedure is to print the screen before every answer, which is what
+caught it.
+(2) Placing Irregulars in Quang Tri-Thua Thien offered "(0 - 2)" although
+Available held 1. I answered 2 on the guess that Available was really 2, and the
+program instead said "There are not enough US Irregulars in the available box /
+You must remove 1 US Irregular from the map" and listed Binh Dinh, Pleiku-Darlac
+and Quang Tri-Thua Thien. Taking the piece from Binh Dinh or Pleiku-Darlac would
+have destroyed the Advise plan for this very turn, so I took it from Quang Tri
+itself: remove 1 there, place 2 there, net +1, identical to the placement I
+had planned. Deviation with no cost, but the lesson is that the upper bound on
+a placement prompt is not the Available count — it is Available plus voluntary
+removals from the map.
+No aborts. Advise offered Binh Dinh and Pleiku-Darlac but not Quang Tri-Thua
+Thien, confirming again that a Train space cannot be an Advise space.
+**Result.** As planned on every count, and the uncertain part worked: Advise
+**does** remove a Base with no Guerrillas guarding it — the lone VC Base came
+off Pleiku-Darlac (VC 32 -> 31) — and 2 NVA Troops off Binh Dinh broke NVA
+Control there (NVA 10 -> 8). Saigon is Active Support again, US 36 -> 42, Aid
+21 -> 27, ARVN Resources 57 -> 54. Standing: US 42 (-8), ARVN 38 (-12), VC 31
+(-4), NVA 8 (-10). Note for the next turns: the Advise Irregular/Ranger removal
+is the most efficient tool I have — 2 enemy pieces per space, up to 2 spaces,
+free, no Support shift, and it reaches Underground Guerrillas and undefended
+Bases that Assault and Air Strike cannot touch.
