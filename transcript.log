@@ -58,4 +58,101 @@ Rolling d3 to set the Agitate Total: 3
 
 Draw event cards
 ----------------------------------------------------
-Enter the number of the 1st Event card: 
+Enter the number of the 1st Event card: 43
+Enter the number of the 2nd Event card: 112
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : NVA, ARVN, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (8): 7 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into The Parrot's Beak[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 4 to 5[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 2[0m
+Trung check: 3d6 <= Available NVA Troops (40): 10 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Southern Laos
+----------------------------------------------------
+[35mRemove 1 NVA Underground Guerrilla from Southern Laos to AVAILABLE[0m
+[35mPlace 4 NVA Troops from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in Central Laos
+----------------------------------------------------
+[35mRemove 1 NVA Underground Guerrilla from Central Laos to AVAILABLE[0m
+[35mPlace 4 NVA Troops from AVAILABLE into Central Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : ARVN, US, VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Economic Aid
+----------------------------------------------------
+[35mMove 2 ARVN Bases from OUT OF PLAY to AVAILABLE[0m
+[34mIncrease US Aid by +12 to 27[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 
