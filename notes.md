@@ -11,3 +11,5 @@ card #43 Economic Aid: US did not act (3rd in order; NVA Op+SA, ARVN Event ended
 card #112 Colonel Chau: Train (Pleiku/Quang Tri/Saigon) + Advise; Pacified Saigon to Active Support — +6 US points for 3 resources.
   learned: Irregular placement in Train is free; Advise "use Irregular/Ranger" removes UNDERGROUND guerrillas (2 VC G off Binh Dinh); Advise and Train cannot share a space.
 card #48 Nam Dong: US ineligible. ARVN played it unshaded on Pleiku-Darlac exactly as predicted (2 VC G removed, Active Support) — US 40 -> 42.
+Coup 1 (#125 Nguyen Khanh): pacified Da Nang + Kontum to Active Support (12 res); Commitment moved 6 US Troops out of Available (QT+3, Binh Dinh+1, Hue+1, Quang Nam+1), no Bases — US 48 -> 42.
+  ARVN Redeploy gifted 2 Police to Binh Dinh and 4 to Quang Tri: both pop-2 Highlands now pacifiable. Agitate Total reset to 1. Reset flips US Irregulars Underground too.
