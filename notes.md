@@ -54,3 +54,4 @@ RESUME 14: resumed from save-071 (card prompt after #70). Nothing lost.
 card #99 Masher/White Wing: US ineligible. VC Terror Hue (Passive Opp, VC 42) + Kien Giang, Subvert Binh Dinh/Quang Tri (2 ARVN Troops); ARVN unshaded event: Sweep 2 Troops Quang Tri->Hue, Assault killed 2 VC guerrillas, Hue COIN control.
 RESUME 15: resumed from save-074 (card prompt after #99). Nothing lost.
 card #7 ADSID: Train Quang Tri (2 Police, pacify to Passive Opp, VC 40) + Arc Light Air Strike Quang Tin (6 NVA Troops, control broken, NVA 15). Declined Linebacker again. NVA shaded ADSID: Trail 3, ARVN Res 8 (pacify blocked).
+RULES NOTE from Kevin (unsolicited): the Advise Special Activity offers an option to add +6 to Aid. I had not opened Advise's prompts before. Aid only converts to ARVN Resources at the Coup, so it does not unblock pacification now.
