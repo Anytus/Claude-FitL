@@ -153,3 +153,6 @@ Execution (Support): Da Nang 2 levels (-8, 37 left), Kontum 2 levels (-8, 29 lef
 **Execution.** (below)
 Execution (Commitment): Move a base -> Available box -> Quang Tri-Thua Thien; Move troops -> Available box -> Quang Tri-Thua Thien -> 1; Finished. No rejections, no withdrawal. Program: US 49 -> 47. Reset: Terror removed from Binh Dinh; Active Guerrillas flipped Underground; all three momentum cards removed; all cylinders Eligible; Agitate Total rolled 1; Tru'ng deck reshuffled.
 **Result.** As planned: Quang Tri holds 2 US Troops, 3 Irregulars, 1 US Base; Available 24 Troops, 2 Bases. US 47, VC 38, ARVN 44, NVA 12 going into the third campaign.
+
+## Note — rules clarification volunteered by Kevin (after #122)
+NVA Troop redeployment at the Coup is optional, not mandatory. Consequence: NVA Control in Binh Dinh, Quang Tin-Quang Ngai and Quang Nam persists until the Troops are removed. NVA at -1 is a standing threat; Air Strike/Assault on those stacks is now a priority alongside stopping the VC.
