@@ -25,3 +25,4 @@ ADMIN (Kevin-directed): rollback to save point 10 and adjust to restore the ORIG
 card #51 (replayed after restore): US ineligible. NVA Rally (base Southern Laos, roll 1 fail, Trail 3) + Infiltrate (5 Troops Central Laos, 5 North Vietnam); VC March 1 guerrilla to LOC Ban Me Thuot--Da Lat. save-021 at card prompt.
 RESUME 5: program down between turns; resumed from save-021 (card prompt after #51). Nothing lost.
 card #1 Gulf of Tonkin: PASS — stay eligible to take #29 Tribesmen unshaded (3 VC bases under my Irregulars) and deny VC shaded. ARVN Sweep Binh Dinh + Raid (NVA base S.Laos, VC base Quang Duc removed).
+card #29 Tribesmen: EVENT unshaded — removed VC Bases in Quang Tri, Binh Dinh, Pleiku + 1 Quang Tri guerrilla (VC 27) — best exchange available; denied VC shaded. VC rallied 9 guerrillas + Subvert.
