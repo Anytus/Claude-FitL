@@ -1,0 +1,114 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #68 - Green Berets (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op Only",
+      "color": null
+    },
+    {
+      "text": "Passed        : US",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - S",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space without COIN Control? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 <= Available NVA Guerrillas (12): 7 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Southern Laos for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 NVA Underground Guerrillas from AVAILABLE into Southern Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Southern Laos",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNVA improves the trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Improve the trail by 1 box to 4",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

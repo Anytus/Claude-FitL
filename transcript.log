@@ -5,211 +5,198 @@ Fire in the Lake: Trung Bot Software (version 1.53+sbd)
 Which game would you like to play:
 ====================================================
 1) Start a new game
-2) Resume 'TestGame1', Full: 1964-1972  [#66 - Ambassador Taylor] ARVN performed Op/Special Activity
+2) Resume 'TestGame1', Full: 1964-1972  [#17 - Claymores] US performed Event
 3) Quit
 ----------------------------------------------------
 Selection: 2
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the US and VC cylinders to the Eligible box[0m
-[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 68
+Enter the number of the next On Deck Event card: 15
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #68 - Green Berets (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : ARVN, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - J
+Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (3): 15 [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: All routes from Can Tho to Hue blocked? [Yes]
+
+ARVN chooses Patrol operation
+====================================================
+[34mDecrease ARVN resources by -3 to 9[0m
+
+ARVN selects LOC Can Tho -- Chau Doc as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Saigon to LOC Can Tho -- Chau Doc[0m
+[35mMove 1 ARVN Police from Saigon to LOC Can Tho -- Chau Doc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Da Nang -- Dak To as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Hue to LOC Da Nang -- Dak To[0m
+[35mMove 1 ARVN Police from Hue to LOC Da Nang -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Saigon -- An Loc -- Ban Me Thuot as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[35mMove 1 ARVN Police from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Ban Me Thuot -- Da Lat as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Saigon to LOC Ban Me Thuot -- Da Lat[0m
+[35mMove 1 ARVN Police from Saigon to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Da Nang -- Qui Nhon as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Hue to LOC Da Nang -- Qui Nhon[0m
+[35mMove 1 ARVN Police from Hue to LOC Da Nang -- Qui Nhon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Patrol - Activating guerrillas on LOCs
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Da Nang -- Qui Nhon to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[36mFlip 1 VC Underground Guerrilla in LOC Ban Me Thuot -- Da Lat to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[36mFlip 1 VC Underground Guerrilla in LOC Saigon -- An Loc -- Ban Me Thuot to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[36mFlip 1 VC Underground Guerrilla in LOC Can Tho -- Chau Doc to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN assaults in LOC Da Nang -- Qui Nhon
+----------------------------------------------------
+The assault inflicts 1 hit
+
+[35mRemove 1 VC Active Guerrilla from LOC Da Nang -- Qui Nhon to AVAILABLE[0m
+[34m
+Move the ARVN cylinder to the Op Only box[0m
+
+Finished with ARVN turn
 
 
 >>> US turn (Human) <<<
 ====================================================
-Current card  : #17 - Claymores (US, ARVN, VC, NVA)
-                ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded), 
-                NVA -> (Performed, Shaded)
-On Deck card  : #68 - Green Berets (ARVN, US, VC, NVA)
+Current card  : #68 - Green Berets (ARVN, US, VC, NVA)
                 ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Performed, Shaded)
-Eligible      : US, VC
-Acted         : none
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : US, NVA
+Acted         : ARVN -> Op Only
 Passed        : none
-Ineligible    : ARVN, NVA
+Ineligible    : VC
 (perform or ?): perform
 
 Choose one:
 ====================================================
-1) Event
-2) Op (May add a Special Activity)
-3) Pass
+1) Limited Op
+2) Pass
 ----------------------------------------------------
-Selection: 1
+Selection: 2
 
-Execute which part of the event:
-====================================================
-1) Unshaded
-2) Shaded
+US faction passes
 ----------------------------------------------------
-Selection: 1
-
-US executes the Unshaded Event: Claymores
-----------------------------------------------------
-
-US will remain eligible for the next card
-[31m
-Momentum: '#17 Claymores' is now in play[0m
+[34mIncrease ARVN resources by +3 to 12[0m
 [34m
-Move the US cylinder to the Event box[0m
+Move the US cylinder to the Pass box[0m
 
 Finished with US turn
 
 
->>> VC turn (Bot) <<<
+>>> NVA turn (Bot) <<<
 ====================================================
-Current card  : #17 - Claymores (US, ARVN, VC, NVA)
-                ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded), 
-                NVA -> (Performed, Shaded)
-On Deck card  : #68 - Green Berets (ARVN, US, VC, NVA)
+Current card  : #68 - Green Berets (ARVN, US, VC, NVA)
                 ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Performed, Shaded)
-Eligible      : VC
-Acted         : US(+) -> Event
-Passed        : none
-Ineligible    : ARVN, NVA
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : NVA
+Acted         : ARVN -> Op Only
+Passed        : US
+Ineligible    : VC
 (perform or ?): perform
 [31m
-Drawing Trung Card for VC[0m
+Drawing Trung Card for NVA[0m
 ----------------------------------------------------
-Trung: VC - Z
-Trung check: 15+ VC Guerrillas on the map? [Yes]
-Trung check: Patronage >= 17? [Yes]
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (12): 7 [Yes]
 
-VC chooses Subvert special activity
+NVA chooses Rally operation
 ====================================================
 
-VC Subverts in Quang Tri-Thua Thien
+NVA selects Southern Laos for Rally
 ----------------------------------------------------
-[35mRemove 1 ARVN Troop from Quang Tri-Thua Thien to AVAILABLE[0m
-[35mRemove 1 ARVN Police from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mPlace 4 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Southern Laos[0m
 
 [32m>>>>> [ Press Enter to continue... ] <<<<<[0m
 
-VC Subverts in Pleiku-Darlac
+NVA improves the trail
 ----------------------------------------------------
-[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-[34mDecrease Patronage by -1 to 23[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'COIN Control + Patronage' marker from 46 to 45[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-----------------------------------------------------
-End of VC Subvert activity
-Trung check: 3+ VC Guerrillas in any space? [Yes]
-
-VC chooses March operation
-====================================================
-
-VC selects LOC Da Nang -- Dak To as March destination
-----------------------------------------------------
-[35mMove 1 VC Active Guerrilla from Binh Dinh to LOC Da Nang -- Dak To[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-VC selects LOC Da Nang -- Qui Nhon as March destination
-----------------------------------------------------
-[35mMove 1 VC Underground Guerrilla from Quang Tin-Quang Ngai to LOC Da Nang -- Qui Nhon[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-VC selects Saigon as March destination
-----------------------------------------------------
-[35mMove 2 VC Underground Guerrillas from Kien Phong to Saigon[0m
-
-The moving Guerrillas must activate
-----------------------------------------------------
-[36mFlip 2 VC Underground Guerrillas in Saigon to ACTIVE[0m
-[31m
-Must remove 1 Guerrilla that activated [Momentum: #17 Claymores][0m
-----------------------------------------------------
-[35mRemove 1 VC Active Guerrilla from Saigon to AVAILABLE[0m
-
-[35mMove 2 VC Underground Guerrillas from Tay Ninh to Saigon[0m
-
-The moving Guerrillas must activate
-----------------------------------------------------
-[36mFlip 2 VC Underground Guerrillas in Saigon to ACTIVE[0m
-[31m
-Must remove 1 Guerrilla that activated [Momentum: #17 Claymores][0m
-----------------------------------------------------
-[35mRemove 1 VC Active Guerrilla from Saigon to AVAILABLE[0m
-
-[35mMove 1 VC Underground Guerrilla from Binh Tuy-Binh Thuan to Saigon[0m
-
-The moving Guerrillas must activate
-----------------------------------------------------
-[36mFlip 1 VC Underground Guerrilla in Saigon to ACTIVE[0m
-[31m
-Must remove 1 Guerrilla that activated [Momentum: #17 Claymores][0m
-----------------------------------------------------
-[35mRemove 1 VC Active Guerrilla from Saigon to AVAILABLE[0m
-
-[35mMove 1 VC Underground Guerrilla from Kien Hoa-Vinh Binh to Saigon[0m
-
-The moving Guerrillas must activate
-----------------------------------------------------
-[36mFlip 1 VC Underground Guerrilla in Saigon to ACTIVE[0m
-[31m
-Must remove 1 Guerrilla that activated [Momentum: #17 Claymores][0m
-----------------------------------------------------
-[35mRemove 1 VC Active Guerrilla from Saigon to AVAILABLE[0m
-
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-VC activation roll against activation number of 2
-----------------------------------------------------
-Die roll: 3 [Success!]
-
-VC selects Hue as March destination
-----------------------------------------------------
-[35mMove 1 VC Underground Guerrilla from Quang Tri-Thua Thien to Hue[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-VC activation roll against activation number of 2
-----------------------------------------------------
-Die roll: 5 [Success!]
-
-VC selects Qui Nhon as March destination
-----------------------------------------------------
-[35mMove 1 VC Active Guerrilla from Binh Dinh to Qui Nhon[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-VC activation roll against activation number of 2
-----------------------------------------------------
-Die roll: 6 [Success!]
-
-VC selects Binh Dinh as March destination
-----------------------------------------------------
-[35mMove 1 VC Underground Guerrilla from Quang Tin-Quang Ngai to Binh Dinh[0m
-[35mMove 1 VC Underground Guerrilla from Pleiku-Darlac to Binh Dinh[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-VC activation roll against activation number of 2
-----------------------------------------------------
-Die roll: 2 [Failure]
+[34mImprove the trail by 1 box to 4[0m
 [34m
-Move the VC cylinder to the Op - May add Special Activity box[0m
+Move the NVA cylinder to the LimOp box[0m
 
-Finished with VC turn
+Finished with NVA turn
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
-[34mMove the VC cylinder to the Ineligible box[0m
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
 
 Draw event card
 ----------------------------------------------------
