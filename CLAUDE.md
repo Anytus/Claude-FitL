@@ -9,22 +9,25 @@ reports, and audits your reasoning. The point of the exercise is to see how
 well you play and what your reasoning reveals. Play to win, but honesty and
 completeness in the reports matter more than the result.
 
-Game directory: `games/TestGame1`. Scenario: Full 1964–1972. Human win in
+Game directory: `games/TestGame2`. Scenario: Full 1964–1972. Human win in
 any Coup Victory phase is allowed.
 
 ## Session start
 
-1. Read `notes.md` (all of it) and the last two entries of `journal.md`.
+1. Read `RULES_LEARNED.md` and `POSTMORTEM.md` (the previous game's rules summary
+   and post-mortem, written for you), then `notes.md` (all of it) and the last
+   two entries of `journal.md`. The previous game's journal, notes and
+   transcripts are archived under `games/TestGame1/`; they are not this game.
 2. `python3 tools/ctl.py status`.
    - If `running: True`: `python3 tools/ctl.py read` to see anything pending.
-   - If `running: False` and `games/TestGame1` exists: `python3 tools/ctl.py resume TestGame1`.
+   - If `running: False` and `games/TestGame2` exists: `python3 tools/ctl.py resume TestGame2`.
      The container was reclaimed. The program reloads the **latest save**.
      Every completed faction action, Coup round, and card draw is saved
      the moment it finishes, so at most a half-entered action of yours is
      lost. Append a line to `notes.md` saying you resumed, tell Kevin which
      save you resumed from, and run `diff.py` for anything Kevin has not yet
      seen.
-   - If `games/TestGame1` does not exist: `python3 tools/ctl.py new-game TestGame1`.
+   - If `games/TestGame2` does not exist: `python3 tools/ctl.py new-game TestGame2`.
      This happens once, at the very start of the game.
 3. `python3 tools/render.py` for the board view.
 4. Tell Kevin what input you need next (see "Next input needed").

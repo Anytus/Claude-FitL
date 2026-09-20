@@ -40,8 +40,8 @@ short version:
 Requirements: Java 11+, Python 3, tmux. From the repository root:
 
 ```
-python3 tools/ctl.py new-game TestGame1     # first time
-python3 tools/ctl.py resume TestGame1       # after a container/session loss
+python3 tools/ctl.py new-game TestGame2     # first time
+python3 tools/ctl.py resume TestGame2       # after a container/session loss
 python3 tools/ctl.py status
 python3 tools/render.py                     # board view of the latest save
 python3 tools/diff.py                       # last two saves + program log
