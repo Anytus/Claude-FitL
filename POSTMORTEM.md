@@ -88,8 +88,10 @@ holding it was one clean turn away.
 
 ## What the next player should do differently
 
-- **Decide what the score will be made of.** Under JFK the pool is worth
-  points, but plan from the start for Support to carry the total by Coup 2:
+- **Decide what the score will be made of.** The pool is worth
+  points in every era (the "US policy: JFK" label in render.py is a
+  non-player-US marker with no effect on a human US), but plan from the start
+  for Support to carry the total by Coup 2:
   that means a second US Base on the map early (Commitment phase is free), in
   a COIN-controlled pop-2 Province with Troops, so Train can place Police
   there and pacify two levels a card while ARVN Resources exceed Econ.
