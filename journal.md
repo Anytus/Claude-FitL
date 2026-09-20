@@ -173,3 +173,25 @@ Irregular in Binh Dinh back to Underground (US Irregulars do flip in Reset, not
 just enemy Guerrillas) and rolled the new Agitate Total at 1, the lowest
 possible — the VC starts campaign 2 with almost nothing banked. Going into
 card #107 the standings are US 42 (-8), VC 32 (-3), NVA 6, ARVN 36.
+
+### Audit note (Kevin, after Coup 1): "wasn't your whole plan to place another base?"
+Correct, and the Commitment entry above is where I went off it. My stated plan
+at session start was a second US Base on the map early to unlock Train placement
+of ARVN cubes in a pop-2 Province; at the prompt I dropped it because ARVN's
+Redeploy had just put 4 Police in Quang Tri-Thua Thien and 2 in Binh Dinh, which
+made both spaces pacifiable without a Base. That premise is not durable: those
+are ARVN pieces, killable by the VC and movable by ARVN's own Redeploy at the
+next Coup. The Base is what makes the engine mine — it is the only way I can
+place ARVN cubes in a Province (Quang Tri offered "Place Irregulars" only;
+Pleiku-Darlac, which has a Base, offered ARVN Troops/Police), and with 57 ARVN
+Resources that is up to 6 cubes per Train for 3. I gave that up for 1 point on
+the strength of a garrison I do not control, which is the pool-hoarding instinct
+the post-mortem warned about wearing a local excuse.
+Not recoverable: the Coup is saved, rollback is Kevin's tool, and US Bases reach
+the map only via Commitment or an event, so the next chance is Coup 2.
+Consequences I am adopting now: (1) bank Quang Tri-Thua Thien and Binh Dinh with
+**Train Pacify on ordinary cards**, not at the Coup 2 Support phase — Train's
+Pacify is the looser test (it offered Quang Tri with no ARVN Police on card
+#112 where the Coup phase refused it), so the +8 can be taken before the Police
+can be picked off; (2) a US Base into a pop-2 Highland is the first call on the
+Coup 2 Commitment phase, not something to re-argue at the prompt.
