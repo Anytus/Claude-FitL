@@ -186,3 +186,4 @@ NVA Troop redeployment at the Coup is optional, not mandatory. Consequence: NVA 
 
 ## Note — rules information volunteered by Kevin (after #7)
 Advise (US Special Activity) includes an option of +6 Aid. Not previously known to me; Advise had been listed as unknown. Consequence: on cards where Air Strike has no clean target, Advise for Aid raises ARVN's Coup income and therefore the post-Coup pacification budget. It does not change ARVN Resources before the Coup.
+Addendum (Kevin, unsolicited): Advise also offers 2 free ARVN Sweeps in place or Assaults, or activation of an Underground Ranger or Irregular to remove 2 pieces. If the program confirms this, my 3 Irregulars in Quang Tri can remove the 2 VC Guerrillas there without an Op. To be checked at the prompts, not assumed.
