@@ -43,3 +43,5 @@ card #5 Wild Weasels: EVENT unshaded — removed SA-2s capability — Ops were u
 RESUME 11: resumed from save-055 (card prompt after #5). Nothing lost.
 card #14 M-48 Patton (Monsoon): US ineligible. ARVN Patrol (Hue--Khe Sanh, NVA guerrilla killed; Quang Tri stripped of its last ARVN Troop+Police); VC Terror Binh Dinh (Active Opposition). Nobody took the event. Coup #127 next.
 Coup 2 (#127 Ky): pacified Da Nang, Kontum to Active (US +4); VC Agitate put Quang Tri/Kien Hoa at Active Opp, VC 38 (+3, would win). Commitment: US Base + 1 Troop to Quang Tri to enable Train Police + Pacify there (-4 VC/+2 US lever). US 47.
+RESUME 12: resumed from save-060 (card prompt after Coup 2). Nothing lost.
+card #102 replaced by NVA PIVOTAL #122 Easter Offensive (roll 1): free March 5T+1G Binh Dinh, 8T Quang Tin, 2T+1G Quang Nam, 2T NE Cambodia; free Attacks (Irregular in Binh Dinh to Casualties, Police in Quang Nam). NVA 17 (-1). VC Terror Hue/Qui Nhon/Ba Xuyen/Pleiku/Quang Tin + Subvert Hue (control lost), Quang Tri (last Police gone). VC 40, US 44. US did not act (3rd).
