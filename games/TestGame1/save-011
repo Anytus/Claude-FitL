@@ -117,8 +117,8 @@
         "save_number": 11,
         "card": "#51 - 301st Supply Bn",
         "summary": [
-          "VC is up",
-          "NVA performed Op\/Special Activity"
+          "NVA is up",
+          "Quang Tri-Thua Thien: support adjusted from [Passive Opposition] to [Passive Support]"
         ]
       }
     ],
@@ -154,7 +154,7 @@
       "ARVN Base",
       "ARVN Base"
     ],
-    "trail": 3,
+    "trail": 2,
     "botTest": false,
     "patronage": 25,
     "momentum": [
@@ -176,16 +176,14 @@
 
       ],
       "actors": [
-        {
-          "faction": "NVA",
-          "action": "Op\/Special Activity"
-        }
+
       ],
       "ineligibleNextTurn": [
 
       ],
       "eligibleThisTurn": [
-        "VC"
+        "VC",
+        "NVA"
       ]
     },
     "scenarioName": "Full: 1964-1972",
@@ -203,6 +201,7 @@
     "arvnResources": 30,
     "showColor": true,
     "trungDeck": [
+      "K",
       "S",
       "H",
       "Z",
@@ -219,71 +218,28 @@
       "W",
       "T",
       "M",
-      "G",
-      "K"
+      "G"
     ],
     "spaces": [
       {
-        "support": "Neutral",
-        "name": "The Parrot's Beak",
+        "support": "Passive Support",
+        "name": "Quang Tri-Thua Thien",
         "terror": 0,
-        "population": 0,
-        "spaceType": "Jungle Province",
-        "pieces": [
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Underground Guerrilla",
-          "NVA Base",
-          "NVA Base"
-        ],
-        "coastal": false
-      },
-      {
-        "support": "Neutral",
-        "name": "North Vietnam",
-        "terror": 0,
-        "population": 0,
+        "population": 2,
         "spaceType": "Highland Province",
         "pieces": [
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Troop",
-          "NVA Underground Guerrilla",
-          "NVA Underground Guerrilla",
-          "NVA Base"
+          "US Troop",
+          "US Underground Irregular",
+          "US Underground Irregular",
+          "US Underground Irregular",
+          "ARVN Police",
+          "ARVN Base",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Base"
         ],
         "coastal": true
-      },
-      {
-        "support": "Neutral",
-        "name": "Central Laos",
-        "terror": 0,
-        "population": 0,
-        "spaceType": "Jungle Province",
-        "pieces": [
-          "NVA Underground Guerrilla",
-          "NVA Base",
-          "NVA Base"
-        ],
-        "coastal": false
-      },
-      {
-        "support": "Neutral",
-        "name": "Southern Laos",
-        "terror": 0,
-        "population": 0,
-        "spaceType": "Jungle Province",
-        "pieces": [
-          "NVA Underground Guerrilla",
-          "NVA Base",
-          "NVA Base"
-        ],
-        "coastal": false
       },
       {
         "support": "Neutral",
@@ -375,26 +331,6 @@
       },
       {
         "support": "Passive Opposition",
-        "name": "Quang Tri-Thua Thien",
-        "terror": 0,
-        "population": 2,
-        "spaceType": "Highland Province",
-        "pieces": [
-          "US Troop",
-          "US Underground Irregular",
-          "US Underground Irregular",
-          "US Underground Irregular",
-          "ARVN Police",
-          "ARVN Base",
-          "VC Underground Guerrilla",
-          "VC Underground Guerrilla",
-          "VC Underground Guerrilla",
-          "VC Base"
-        ],
-        "coastal": true
-      },
-      {
-        "support": "Passive Opposition",
         "name": "Kien Hoa-Vinh Binh",
         "terror": 0,
         "population": 2,
@@ -463,6 +399,19 @@
           "NVA Underground Guerrilla"
         ],
         "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "The Parrot's Beak",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "NVA Underground Guerrilla",
+          "NVA Base",
+          "NVA Base"
+        ],
+        "coastal": false
       },
       {
         "support": "Active Opposition",
@@ -534,6 +483,48 @@
           "ARVN Troop",
           "ARVN Police",
           "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "Southern Laos",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "NVA Underground Guerrilla",
+          "NVA Underground Guerrilla",
+          "NVA Underground Guerrilla",
+          "NVA Base"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "Central Laos",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "NVA Underground Guerrilla",
+          "NVA Underground Guerrilla",
+          "NVA Underground Guerrilla",
+          "NVA Base"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "North Vietnam",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Highland Province",
+        "pieces": [
+          "NVA Underground Guerrilla",
+          "NVA Underground Guerrilla",
+          "NVA Underground Guerrilla",
+          "NVA Base"
         ],
         "coastal": true
       },

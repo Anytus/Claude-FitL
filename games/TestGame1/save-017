@@ -128,6 +128,46 @@
           "NVA is up",
           "Adjusted pieces from Available to Quang Tri-Thua Thien"
         ]
+      },
+      {
+        "save_number": 13,
+        "card": "#51 - 301st Supply Bn",
+        "summary": [
+          "NVA is up",
+          "Adjusted pieces from Available to Hue"
+        ]
+      },
+      {
+        "save_number": 14,
+        "card": "#51 - 301st Supply Bn",
+        "summary": [
+          "NVA is up",
+          "Adjusted pieces from Hue to Available"
+        ]
+      },
+      {
+        "save_number": 15,
+        "card": "#51 - 301st Supply Bn",
+        "summary": [
+          "NVA is up",
+          "Adjusted pieces from Available to Hue"
+        ]
+      },
+      {
+        "save_number": 16,
+        "card": "#51 - 301st Supply Bn",
+        "summary": [
+          "NVA is up",
+          "Adjusted pieces from Available to An Loc"
+        ]
+      },
+      {
+        "save_number": 17,
+        "card": "#51 - 301st Supply Bn",
+        "summary": [
+          "NVA is up",
+          "Phu Bon-Phu Yen: support adjusted from [Neutral] to [Passive Support]"
+        ]
       }
     ],
     "totalCoupCards": 6,
@@ -231,6 +271,52 @@
     "spaces": [
       {
         "support": "Passive Support",
+        "name": "Phu Bon-Phu Yen",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Lowland Province",
+        "pieces": [
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Passive Support",
+        "name": "An Loc",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "City",
+        "pieces": [
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "Hue",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "City",
+        "pieces": [
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Passive Support",
         "name": "Quang Tri-Thua Thien",
         "terror": 0,
         "population": 2,
@@ -252,17 +338,6 @@
           "VC Underground Guerrilla",
           "VC Underground Guerrilla",
           "VC Base"
-        ],
-        "coastal": true
-      },
-      {
-        "support": "Neutral",
-        "name": "Phu Bon-Phu Yen",
-        "terror": 0,
-        "population": 1,
-        "spaceType": "Lowland Province",
-        "pieces": [
-          "ARVN Police"
         ],
         "coastal": true
       },
@@ -462,20 +537,6 @@
         "coastal": false
       },
       {
-        "support": "Neutral",
-        "name": "Hue",
-        "terror": 0,
-        "population": 2,
-        "spaceType": "City",
-        "pieces": [
-          "ARVN Troop",
-          "ARVN Troop",
-          "ARVN Police",
-          "ARVN Police"
-        ],
-        "coastal": true
-      },
-      {
         "support": "Active Support",
         "name": "Da Nang",
         "terror": 0,
@@ -607,20 +668,6 @@
       {
         "support": "Passive Support",
         "name": "Can Tho",
-        "terror": 0,
-        "population": 1,
-        "spaceType": "City",
-        "pieces": [
-          "ARVN Troop",
-          "ARVN Troop",
-          "ARVN Police",
-          "ARVN Police"
-        ],
-        "coastal": false
-      },
-      {
-        "support": "Passive Support",
-        "name": "An Loc",
         "terror": 0,
         "population": 1,
         "spaceType": "City",

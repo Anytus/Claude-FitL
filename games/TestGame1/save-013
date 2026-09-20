@@ -128,6 +128,14 @@
           "NVA is up",
           "Adjusted pieces from Available to Quang Tri-Thua Thien"
         ]
+      },
+      {
+        "save_number": 13,
+        "card": "#51 - 301st Supply Bn",
+        "summary": [
+          "NVA is up",
+          "Adjusted pieces from Available to Hue"
+        ]
       }
     ],
     "totalCoupCards": 6,
@@ -229,6 +237,26 @@
       "G"
     ],
     "spaces": [
+      {
+        "support": "Neutral",
+        "name": "Hue",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "City",
+        "pieces": [
+          "US Base",
+          "US Base",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
       {
         "support": "Passive Support",
         "name": "Quang Tri-Thua Thien",
@@ -460,20 +488,6 @@
           "VC Underground Guerrilla"
         ],
         "coastal": false
-      },
-      {
-        "support": "Neutral",
-        "name": "Hue",
-        "terror": 0,
-        "population": 2,
-        "spaceType": "City",
-        "pieces": [
-          "ARVN Troop",
-          "ARVN Troop",
-          "ARVN Police",
-          "ARVN Police"
-        ],
-        "coastal": true
       },
       {
         "support": "Active Support",
