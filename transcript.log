@@ -263,4 +263,65 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 69
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #105 - Rural Pressure (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Shaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+VC executes the Shaded Event: Rural Pressure
+----------------------------------------------------
+
+[33mPlace Passive Opposition marker in Phu Bon-Phu Yen[0m
+[33mPlace Passive Opposition marker in Khanh Hoa[0m
+[33mFlip Passive Opposition marker in Quang Tri-Thua Thien to Active Opposition[0m
+
+[34mDecrease Patronage by -6 to 15[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 33[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 40 to 44[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #105 - Rural Pressure (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Shaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : ARVN
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 11[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
