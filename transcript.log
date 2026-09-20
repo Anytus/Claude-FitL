@@ -896,4 +896,186 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: perform
+'perform' is not a card number
+Enter the number of the next On Deck Event card: 1
+'#1 - Gulf of Tonkin' has already been drawn during this game
+Enter the number of the next On Deck Event card: 1
+'#1 - Gulf of Tonkin' has already been drawn during this game
+Enter the number of the next On Deck Event card: 34
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #34 - SA-2s (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Aces
+----------------------------------------------------
+Number of hits = 6
+
+0 spaces of 1 selected for Air Strike
+----------------------------------------------------
+
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Central Laos
+2) North Vietnam
+3) The Parrot's Beak
+4) None of the above
+----------------------------------------------------
+Selection: 3
+
+1 space of 1 selected for Air Strike
+----------------------------------------------------
+The Parrot's Beak
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Remove insurgents in The Parrot's Beak
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Remove how many pieces from The Parrot's Beak (1 - 6): 6
+
+US Air Strikes The Parrot's Beak
+----------------------------------------------------
+[35mRemove 6 NVA Troops from The Parrot's Beak to AVAILABLE[0m
+
+1 space of 1 selected for Air Strike
+----------------------------------------------------
+The Parrot's Beak
+There are no strike targets
+[34mDegrade the trail by 2 boxes to 2[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #34 - SA-2s (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : VC
+Acted         : US -> Event
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (17): 10 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mRemove 2 VC Underground Guerrillas from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 27 to 28[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mRemove 2 VC Underground Guerrillas from Quang Tin-Quang Ngai to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 28 to 29[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (1): 8 [Yes]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Tay Ninh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 3[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 29 to 27[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE[0m
+[33mRemove Passive Opposition marker from Kien Hoa-Vinh Binh[0m
+[34mIncrease Agitate Total by +2 to 5[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 27 to 25[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 

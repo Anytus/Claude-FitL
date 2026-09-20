@@ -35,3 +35,4 @@ card #68 Green Berets: PASS — LESSON: after 1st-eligible Op Only, 2nd gets onl
 RESUME 9: resumed from save-037 (card prompt after #68). Nothing lost.
 card #15 Medevac: Assault Saigon (2 VC removed) + Air Strike (Trail 4->3, 4 LoC guerrillas) — Train/Pacify REJECTED (ARVN res 12 < Econ 15), aborted and redid. LESSONS: pacify needs ARVN Res > Econ; trail degrade costs 2 hits, do first.
 card #43 Economic Aid: US ineligible. NVA Rally (base S.Laos, guerrillas) + Infiltrate 10 Troops Parrot's Beak, 9 Central Laos, Trail 4; ARVN unshaded event: 2 ARVN Bases OOP->Available, Aid +12 (18).
+card #6 Aces: EVENT unshaded — free Air Strike Parrot's Beak (6 NVA Troops), Trail 4->2 — denies NVA shaded (2 Troops to Casualties). VC Rally 2 Bases + Tax (Agitate 5). Slip: sent perform before entering card 34 (rejected, no effect).
