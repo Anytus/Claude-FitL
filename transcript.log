@@ -155,4 +155,361 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 48
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: Colonel Chau
+----------------------------------------------------
+[33mRemove Passive Support marker from Khanh Hoa[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Khanh Hoa[0m
+[33mRemove Passive Support marker from Phu Bon-Phu Yen[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Phu Bon-Phu Yen[0m
+[33mRemove Passive Support marker from Kien Hoa-Vinh Binh[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Khanh Hoa[0m
+[33mRemove COIN Control marker from Kien Hoa-Vinh Binh[0m
+[33mRemove COIN Control marker from Phu Bon-Phu Yen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 38 to 34[0m
+[34mMove the 'COIN Control + Patronage' marker from 35 to 31[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+Eligible      : US
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) Pleiku-Darlac
+6) Quang Tri-Thua Thien
+7) None of the above
+----------------------------------------------------
+Selection: 5
+
+US selects Pleiku-Darlac for Training
+
+Training in Pleiku-Darlac:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 3
+
+Place how many ARVN Troops in Pleiku-Darlac?  (0 - 6): 2
+
+Place how many ARVN Police in Pleiku-Darlac?  (0 - 4): 2
+
+[34mDecrease ARVN resources by -3 to 27[0m
+[35mPlace 2 ARVN Troops from AVAILABLE into Pleiku-Darlac[0m
+[35mPlace 2 ARVN Police from AVAILABLE into Pleiku-Darlac[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 31 to 32[0m
+
+1 space selected for Training
+----------------------------------------------------
+Pleiku-Darlac
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) Quang Tri-Thua Thien
+6) None of the above
+----------------------------------------------------
+Selection: 5
+
+US selects Quang Tri-Thua Thien for Training
+
+Training in Quang Tri-Thua Thien:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 2
+[35mPlace 2 US Underground Irregulars from AVAILABLE into Quang Tri-Thua Thien[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 32 to 34[0m
+
+2 spaces selected for Training
+----------------------------------------------------
+Pleiku-Darlac, Quang Tri-Thua Thien
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) None of the above
+----------------------------------------------------
+Selection: 3
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+3 spaces selected for Training
+----------------------------------------------------
+Pleiku-Darlac, Quang Tri-Thua Thien, Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Sweep in which space: 
+====================================================
+1) Khanh Hoa
+2) Kien Hoa-Vinh Binh
+3) Phu Bon-Phu Yen
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+Activating guerrillas in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Kien Hoa-Vinh Binh
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space:  Binh Dinh
+
+Advise in Binh Dinh using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Binh Dinh to ACTIVE[0m
+[35mRemove 2 VC Underground Guerrillas from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 34 to 36[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Binh Dinh
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 33[0m
+
+3 spaces selected for Training
+----------------------------------------------------
+Pleiku-Darlac, Quang Tri-Thua Thien, Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Kontum
+3) None of the above
+----------------------------------------------------
+Selection: 3
+
+3 spaces selected for Training
+----------------------------------------------------
+Pleiku-Darlac, Quang Tri-Thua Thien, Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Transfer patronage to ARVN resources
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space: 
+====================================================
+1) Saigon
+2) Pleiku-Darlac
+3) Quang Tri-Thua Thien
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+Pacifying in Saigon
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Saigon
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Saigon
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 24[0m
+[33mFlip Passive Support marker in Saigon to Active Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 34 to 40[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 

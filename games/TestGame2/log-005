@@ -1,0 +1,242 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #48 - Nam Dong (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Pleiku-Darlac for Training",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 27",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 2 ARVN Troops from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 2 ARVN Police from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Pleiku-Darlac",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 31 to 32",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS selects Quang Tri-Thua Thien for Training",
+      "color": null
+    },
+    {
+      "text": "Place 2 US Underground Irregulars from AVAILABLE into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Quang Tri-Thua Thien",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 32 to 34",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS selects Saigon for Training",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Advise special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nActivating guerrillas in Kien Hoa-Vinh Binh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nAdvise in Binh Dinh using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 VC Underground Guerrillas from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 34 to 36",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase US Aid by +6 to 33",
+      "color": "Blue"
+    },
+    {
+      "text": "\nPacifying in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 1 level in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 24",
+      "color": "Blue"
+    },
+    {
+      "text": "Flip Passive Support marker in Saigon to Active Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 34 to 40",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}
