@@ -14,3 +14,4 @@ card #93 Senator Fulbright: US Ineligible (VC passed, NVA Rally + Infiltrate)
 card #107 Burning Bonze: US eligible but 4th in order; VC shaded Event + ARVN Op squeezed US out
 card #97 Brinks Hotel: Train (3 Irregulars) + Advise removals Quang Tri, Binh Dinh — Control in two pop-2 Highlands, left event to NVA
 card #15 Medevac: US Ineligible (ARVN Sweep + Raid, VC shaded Medevac: no Air Lift until Coup)
+Kevin (rules note after #97): US Train of ARVN cubes is gated by ARVN Resources > Econ, not by ARVN Available; up to 6 cubes may be placed regardless of Available, pulling the excess from anywhere on the map.
