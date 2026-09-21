@@ -33,6 +33,9 @@ short version:
 | `tools/fitl_state.py` | Shared save-loading, piece manifest, regions, scoring. |
 | `tools/build_cards.py` | Build-time only. Produced `cards.json` from the program's source. |
 | `cards.json` | All 130 cards: text, faction order, Tru'ng markings, pivotal conditions, period marking. |
+| `map.json` | The static board: every space's type, population or econ, coastal flag, and neighbours. Built once from the program's adjacency table. |
+| `tools/map.py` | Adjacency queries: one space's neighbours, whether two spaces touch, the whole map. |
+| `tools/build_map.py` | Build-time only. Produced `map.json` from the program's source and reports one-way entries. |
 | `games/<name>/` | The program's own saves (`save-NNN`, `log-NNN`). Committed after every US action. |
 | `journal.md` | Full turn plans, rationales, rejections. The audit artifact. |
 | `notes.md` | One line per model turn. Cross-session memory. |
@@ -52,6 +55,18 @@ python3 tools/diff.py                       # last two saves + program log
 
 The program runs with the repository root as its working directory, so saves
 land in `games/<name>/`.
+
+## The map
+
+State alone does not tell a player what is next to what. `render.py` ends
+with an adjacency section and `tools/map.py` answers single questions. The
+data is the program's own adjacency table, which is what it uses to decide
+legal moves. That table has three one-way entries, marked `*` in the output:
+`LOC Cam Ranh -- Da Lat` lists Quang Duc-Long Khanh, `LOC Da Nang -- Dak To`
+lists `LOC Kontum -- Dak To`, and `LOC Saigon -- An Loc -- Ban Me Thuot`
+lists Khanh Hoa, none of them listed back. The printed board decides which
+direction is correct; until checked, the program's behaviour follows its
+table.
 
 ## The event deck
 

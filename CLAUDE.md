@@ -37,10 +37,15 @@ any Coup Victory phase is allowed.
 
 You get what a human player at the table has, and nothing more.
 
-**You may read:** the output of `render.py` and `diff.py`, `cards.json`,
-`notes.md`, `journal.md`, everything the program prints (`ctl.py` output,
-`ctl.py screen`, `transcript.log`), and the program's `show` / `history`
-commands. The Tru'ng markings and the "Trung check" narration are printed on
+**You may read:** the output of `render.py`, `diff.py` and `map.py`,
+`cards.json`, `map.json`, `notes.md`, `journal.md`, everything the program
+prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
+program's `show` / `history` commands. The map is the printed board:
+`render.py` ends with every space's neighbours, and
+`python3 tools/map.py <space>` (or `map.py <space> <space>`) answers an
+adjacency question directly. Do not work from a remembered map; check.
+Three adjacencies are listed by the program in one direction only and are
+marked `*`; the program's table decides what it will let you do. The Tru'ng markings and the "Trung check" narration are printed on
 the physical bot cards, so they are fair.
 
 **You may not:**

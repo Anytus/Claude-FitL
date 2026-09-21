@@ -140,6 +140,18 @@ def load_cards():
         return json.load(f)
 
 
+MAP_PATH = os.path.join(ROOT, "map.json")
+
+
+def load_map():
+    """Static board data (types, population, coastal, adjacency) or None."""
+    try:
+        with open(MAP_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None
+
+
 # ---------------------------------------------------------------- pieces
 
 def count_pieces(names):

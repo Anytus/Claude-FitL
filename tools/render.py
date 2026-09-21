@@ -9,7 +9,8 @@ Usage:
 
 Sections: spaces by region, trackers, Available / Casualties / Out of Play,
 capabilities and momentum, RVN leaders, sequence of play, current and on-deck
-cards, deck position, scores. Scores are computed here; never by hand.
+cards, deck position, adjacency (from map.json), scores. Scores are computed
+here; never by hand. `--no-map` omits the adjacency section.
 """
 import os
 import sys
@@ -18,20 +19,22 @@ import fitl_state as S
 
 
 def resolve(argv):
+    """Return (game, save number, path)."""
     if not argv:
         game = S.default_game()
-        return game, S.save_numbers(game)[-1]
+        n = S.save_numbers(game)[-1]
+        return game, n, S.save_path(game, n)
     if os.path.isfile(argv[0]):
         p = os.path.abspath(argv[0])
         game = os.path.basename(os.path.dirname(p))
         n = int(p.rsplit("-", 1)[1])
-        return game, n
+        return game, n, p
     game = argv[0]
     nums = S.save_numbers(game)
     if not nums:
         raise SystemExit(f"no saves for game {game!r}")
     n = int(argv[1]) if len(argv) > 1 else nums[-1]
-    return game, n
+    return game, n, S.save_path(game, n)
 
 
 def space_line(sp):
@@ -122,6 +125,17 @@ def render(state, game, n, cards):
     if state.get("gameOver"):
         w("  *** GAME OVER ***")
     w("")
+    board = S.load_map()
+    if board:
+        w("--- Adjacency (the printed map; * = listed by the program in this direction only) ---")
+        one_way = {tuple(p) for p in board["one_way"]}
+        for reg, names in S.REGIONS:
+            for name in names:
+                if name in board["spaces"]:
+                    neigh = [n + ("*" if (name, n) in one_way else "") for n in board["spaces"][name]["adjacent"]]
+                    w(f"  {name:<38} {', '.join(neigh)}")
+        w("  (query one space with: python3 tools/map.py <space>)")
+        w("")
     sc = S.scores(state)
     w("--- Scores (computed from the save; thresholds US 50, ARVN 50, NVA 18, VC 35) ---")
     for f in S.ranked(sc):
@@ -132,8 +146,11 @@ def render(state, game, n, cards):
 
 
 def main():
-    game, n = resolve(sys.argv[1:])
-    state = S.load_save(S.save_path(game, n))
+    argv = [a for a in sys.argv[1:] if a != "--no-map"]
+    if "--no-map" in sys.argv:
+        S.load_map = lambda: None
+    game, n, path = resolve(argv)
+    state = S.load_save(path)
     cards = S.load_cards()
     print(render(state, game, n, cards))
 

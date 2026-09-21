@@ -1,0 +1,631 @@
+{
+ "note": "Adjacency as the fitl program has it (v1.53). Entries in one_way are listed from the first space to the second but not back; the printed board decides which direction is right.",
+ "one_way": [
+  [
+   "LOC Cam Ranh -- Da Lat",
+   "Quang Duc-Long Khanh"
+  ],
+  [
+   "LOC Da Nang -- Dak To",
+   "LOC Kontum -- Dak To"
+  ],
+  [
+   "LOC Saigon -- An Loc -- Ban Me Thuot",
+   "Khanh Hoa"
+  ]
+ ],
+ "spaces": {
+  "An Loc": {
+   "adjacent": [
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "Phuoc Long",
+    "Tay Ninh",
+    "The Fishhook"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "City"
+  },
+  "Ba Xuyen": {
+   "adjacent": [
+    "Can Tho",
+    "Kien Giang-An Xuyen",
+    "Kien Hoa-Vinh Binh",
+    "LOC Can Tho -- Bac Lieu",
+    "LOC Can Tho -- Long Phu"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "Lowland Province"
+  },
+  "Binh Dinh": {
+   "adjacent": [
+    "Kontum",
+    "LOC Da Nang -- Dak To",
+    "LOC Da Nang -- Qui Nhon",
+    "LOC Kontum -- Dak To",
+    "LOC Kontum -- Qui Nhon",
+    "Phu Bon-Phu Yen",
+    "Pleiku-Darlac",
+    "Quang Tin-Quang Ngai",
+    "Qui Nhon",
+    "Southern Laos"
+   ],
+   "coastal": true,
+   "population": 2,
+   "type": "Highland Province"
+  },
+  "Binh Tuy-Binh Thuan": {
+   "adjacent": [
+    "Cam Ranh",
+    "Khanh Hoa",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Cam Ranh -- Da Lat",
+    "LOC Saigon -- Cam Ranh",
+    "LOC Saigon -- Da Lat",
+    "Quang Duc-Long Khanh",
+    "Saigon"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "Jungle Province"
+  },
+  "Cam Ranh": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Khanh Hoa",
+    "LOC Cam Ranh -- Da Lat",
+    "LOC Qui Nhon -- Cam Ranh",
+    "LOC Saigon -- Cam Ranh"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "City"
+  },
+  "Can Tho": {
+   "adjacent": [
+    "Ba Xuyen",
+    "Kien Giang-An Xuyen",
+    "Kien Hoa-Vinh Binh",
+    "Kien Phong",
+    "LOC Can Tho -- Bac Lieu",
+    "LOC Can Tho -- Chau Doc",
+    "LOC Can Tho -- Long Phu",
+    "LOC Saigon -- Can Tho"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "City"
+  },
+  "Central Laos": {
+   "adjacent": [
+    "LOC Hue -- Khe Sanh",
+    "North Vietnam",
+    "Quang Nam",
+    "Quang Tri-Thua Thien",
+    "Southern Laos"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "Jungle Province"
+  },
+  "Da Nang": {
+   "adjacent": [
+    "LOC Da Nang -- Dak To",
+    "LOC Da Nang -- Qui Nhon",
+    "LOC Hue -- Da Nang",
+    "Quang Nam",
+    "Quang Tin-Quang Ngai"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "City"
+  },
+  "Hue": {
+   "adjacent": [
+    "LOC Hue -- Da Nang",
+    "LOC Hue -- Khe Sanh",
+    "Quang Tri-Thua Thien"
+   ],
+   "coastal": true,
+   "population": 2,
+   "type": "City"
+  },
+  "Khanh Hoa": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Cam Ranh",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Cam Ranh -- Da Lat",
+    "LOC Kontum -- Ban Me Thuot",
+    "LOC Qui Nhon -- Cam Ranh",
+    "LOC Saigon -- Da Lat",
+    "Phu Bon-Phu Yen",
+    "Pleiku-Darlac",
+    "Quang Duc-Long Khanh"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "Highland Province"
+  },
+  "Kien Giang-An Xuyen": {
+   "adjacent": [
+    "Ba Xuyen",
+    "Can Tho",
+    "Kien Phong",
+    "LOC Can Tho -- Bac Lieu",
+    "LOC Can Tho -- Chau Doc",
+    "Sihanoukville",
+    "The Parrot's Beak"
+   ],
+   "coastal": true,
+   "population": 2,
+   "type": "Lowland Province"
+  },
+  "Kien Hoa-Vinh Binh": {
+   "adjacent": [
+    "Ba Xuyen",
+    "Can Tho",
+    "Kien Phong",
+    "LOC Can Tho -- Long Phu",
+    "LOC Saigon -- Can Tho",
+    "Saigon"
+   ],
+   "coastal": true,
+   "population": 2,
+   "type": "Lowland Province"
+  },
+  "Kien Phong": {
+   "adjacent": [
+    "Can Tho",
+    "Kien Giang-An Xuyen",
+    "Kien Hoa-Vinh Binh",
+    "LOC Can Tho -- Chau Doc",
+    "LOC Saigon -- Can Tho",
+    "Saigon",
+    "Tay Ninh",
+    "The Parrot's Beak"
+   ],
+   "coastal": false,
+   "population": 2,
+   "type": "Lowland Province"
+  },
+  "Kontum": {
+   "adjacent": [
+    "Binh Dinh",
+    "LOC Kontum -- Ban Me Thuot",
+    "LOC Kontum -- Dak To",
+    "LOC Kontum -- Qui Nhon",
+    "Phu Bon-Phu Yen",
+    "Pleiku-Darlac"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "City"
+  },
+  "LOC Ban Me Thuot -- Da Lat": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Khanh Hoa",
+    "LOC Cam Ranh -- Da Lat",
+    "LOC Kontum -- Ban Me Thuot",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "LOC Saigon -- Da Lat",
+    "Pleiku-Darlac",
+    "Quang Duc-Long Khanh"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "LOC"
+  },
+  "LOC Cam Ranh -- Da Lat": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Cam Ranh",
+    "Khanh Hoa",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Saigon -- Da Lat",
+    "Quang Duc-Long Khanh"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Can Tho -- Bac Lieu": {
+   "adjacent": [
+    "Ba Xuyen",
+    "Can Tho",
+    "Kien Giang-An Xuyen"
+   ],
+   "coastal": true,
+   "population": 0,
+   "type": "LOC"
+  },
+  "LOC Can Tho -- Chau Doc": {
+   "adjacent": [
+    "Can Tho",
+    "Kien Giang-An Xuyen",
+    "Kien Phong",
+    "The Parrot's Beak"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Can Tho -- Long Phu": {
+   "adjacent": [
+    "Ba Xuyen",
+    "Can Tho",
+    "Kien Hoa-Vinh Binh"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Da Nang -- Dak To": {
+   "adjacent": [
+    "Binh Dinh",
+    "Da Nang",
+    "LOC Kontum -- Dak To",
+    "Pleiku-Darlac",
+    "Quang Nam",
+    "Quang Tin-Quang Ngai",
+    "Southern Laos"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "LOC"
+  },
+  "LOC Da Nang -- Qui Nhon": {
+   "adjacent": [
+    "Binh Dinh",
+    "Da Nang",
+    "Quang Tin-Quang Ngai",
+    "Qui Nhon"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Hue -- Da Nang": {
+   "adjacent": [
+    "Da Nang",
+    "Hue",
+    "Quang Nam",
+    "Quang Tri-Thua Thien"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Hue -- Khe Sanh": {
+   "adjacent": [
+    "Central Laos",
+    "Hue",
+    "North Vietnam",
+    "Quang Tri-Thua Thien"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Kontum -- Ban Me Thuot": {
+   "adjacent": [
+    "Khanh Hoa",
+    "Kontum",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "Phu Bon-Phu Yen",
+    "Pleiku-Darlac",
+    "Quang Duc-Long Khanh"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Kontum -- Dak To": {
+   "adjacent": [
+    "Binh Dinh",
+    "Kontum",
+    "Pleiku-Darlac",
+    "Southern Laos"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Kontum -- Qui Nhon": {
+   "adjacent": [
+    "Binh Dinh",
+    "Kontum",
+    "Phu Bon-Phu Yen",
+    "Qui Nhon"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Qui Nhon -- Cam Ranh": {
+   "adjacent": [
+    "Cam Ranh",
+    "Khanh Hoa",
+    "Phu Bon-Phu Yen",
+    "Qui Nhon"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Saigon -- An Loc -- Ban Me Thuot": {
+   "adjacent": [
+    "An Loc",
+    "Khanh Hoa",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Kontum -- Ban Me Thuot",
+    "Phuoc Long",
+    "Pleiku-Darlac",
+    "Quang Duc-Long Khanh",
+    "Saigon",
+    "Tay Ninh",
+    "The Fishhook"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Saigon -- Cam Ranh": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Cam Ranh",
+    "Saigon"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "LOC"
+  },
+  "LOC Saigon -- Can Tho": {
+   "adjacent": [
+    "Can Tho",
+    "Kien Hoa-Vinh Binh",
+    "Kien Phong",
+    "Saigon"
+   ],
+   "coastal": false,
+   "population": 2,
+   "type": "LOC"
+  },
+  "LOC Saigon -- Da Lat": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Khanh Hoa",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Cam Ranh -- Da Lat",
+    "Quang Duc-Long Khanh",
+    "Saigon"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "LOC"
+  },
+  "North Vietnam": {
+   "adjacent": [
+    "Central Laos",
+    "LOC Hue -- Khe Sanh",
+    "Quang Tri-Thua Thien"
+   ],
+   "coastal": true,
+   "population": 0,
+   "type": "Highland Province"
+  },
+  "Northeast Cambodia": {
+   "adjacent": [
+    "Pleiku-Darlac",
+    "Southern Laos",
+    "The Fishhook"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "Jungle Province"
+  },
+  "Phu Bon-Phu Yen": {
+   "adjacent": [
+    "Binh Dinh",
+    "Khanh Hoa",
+    "Kontum",
+    "LOC Kontum -- Ban Me Thuot",
+    "LOC Kontum -- Qui Nhon",
+    "LOC Qui Nhon -- Cam Ranh",
+    "Pleiku-Darlac",
+    "Qui Nhon"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "Lowland Province"
+  },
+  "Phuoc Long": {
+   "adjacent": [
+    "An Loc",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "Quang Duc-Long Khanh",
+    "Tay Ninh",
+    "The Fishhook"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "Jungle Province"
+  },
+  "Pleiku-Darlac": {
+   "adjacent": [
+    "Binh Dinh",
+    "Khanh Hoa",
+    "Kontum",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Da Nang -- Dak To",
+    "LOC Kontum -- Ban Me Thuot",
+    "LOC Kontum -- Dak To",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "Northeast Cambodia",
+    "Phu Bon-Phu Yen",
+    "Quang Duc-Long Khanh",
+    "Southern Laos",
+    "The Fishhook"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "Highland Province"
+  },
+  "Quang Duc-Long Khanh": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Khanh Hoa",
+    "LOC Ban Me Thuot -- Da Lat",
+    "LOC Kontum -- Ban Me Thuot",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "LOC Saigon -- Da Lat",
+    "Phuoc Long",
+    "Pleiku-Darlac",
+    "Saigon",
+    "Tay Ninh",
+    "The Fishhook"
+   ],
+   "coastal": false,
+   "population": 1,
+   "type": "Jungle Province"
+  },
+  "Quang Nam": {
+   "adjacent": [
+    "Central Laos",
+    "Da Nang",
+    "LOC Da Nang -- Dak To",
+    "LOC Hue -- Da Nang",
+    "Quang Tin-Quang Ngai",
+    "Quang Tri-Thua Thien",
+    "Southern Laos"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "Highland Province"
+  },
+  "Quang Tin-Quang Ngai": {
+   "adjacent": [
+    "Binh Dinh",
+    "Da Nang",
+    "LOC Da Nang -- Dak To",
+    "LOC Da Nang -- Qui Nhon",
+    "Quang Nam",
+    "Southern Laos"
+   ],
+   "coastal": true,
+   "population": 2,
+   "type": "Lowland Province"
+  },
+  "Quang Tri-Thua Thien": {
+   "adjacent": [
+    "Central Laos",
+    "Hue",
+    "LOC Hue -- Da Nang",
+    "LOC Hue -- Khe Sanh",
+    "North Vietnam",
+    "Quang Nam"
+   ],
+   "coastal": true,
+   "population": 2,
+   "type": "Highland Province"
+  },
+  "Qui Nhon": {
+   "adjacent": [
+    "Binh Dinh",
+    "LOC Da Nang -- Qui Nhon",
+    "LOC Kontum -- Qui Nhon",
+    "LOC Qui Nhon -- Cam Ranh",
+    "Phu Bon-Phu Yen"
+   ],
+   "coastal": true,
+   "population": 1,
+   "type": "City"
+  },
+  "Saigon": {
+   "adjacent": [
+    "Binh Tuy-Binh Thuan",
+    "Kien Hoa-Vinh Binh",
+    "Kien Phong",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "LOC Saigon -- Cam Ranh",
+    "LOC Saigon -- Can Tho",
+    "LOC Saigon -- Da Lat",
+    "Quang Duc-Long Khanh",
+    "Tay Ninh"
+   ],
+   "coastal": true,
+   "population": 6,
+   "type": "City"
+  },
+  "Sihanoukville": {
+   "adjacent": [
+    "Kien Giang-An Xuyen",
+    "The Parrot's Beak"
+   ],
+   "coastal": true,
+   "population": 0,
+   "type": "Jungle Province"
+  },
+  "Southern Laos": {
+   "adjacent": [
+    "Binh Dinh",
+    "Central Laos",
+    "LOC Da Nang -- Dak To",
+    "LOC Kontum -- Dak To",
+    "Northeast Cambodia",
+    "Pleiku-Darlac",
+    "Quang Nam",
+    "Quang Tin-Quang Ngai"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "Jungle Province"
+  },
+  "Tay Ninh": {
+   "adjacent": [
+    "An Loc",
+    "Kien Phong",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "Phuoc Long",
+    "Quang Duc-Long Khanh",
+    "Saigon",
+    "The Fishhook",
+    "The Parrot's Beak"
+   ],
+   "coastal": false,
+   "population": 2,
+   "type": "Jungle Province"
+  },
+  "The Fishhook": {
+   "adjacent": [
+    "An Loc",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
+    "Northeast Cambodia",
+    "Phuoc Long",
+    "Pleiku-Darlac",
+    "Quang Duc-Long Khanh",
+    "Tay Ninh",
+    "The Parrot's Beak"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "Jungle Province"
+  },
+  "The Parrot's Beak": {
+   "adjacent": [
+    "Kien Giang-An Xuyen",
+    "Kien Phong",
+    "LOC Can Tho -- Chau Doc",
+    "Sihanoukville",
+    "Tay Ninh",
+    "The Fishhook"
+   ],
+   "coastal": false,
+   "population": 0,
+   "type": "Jungle Province"
+  }
+ }
+}
