@@ -1049,3 +1049,18 @@ COIN Control, and the Pacify shifted it 2 levels from Passive Opposition to
 Standing: **US 56 (+6)**, NVA 19 (+1), ARVN 43 (-7), VC 30 (-5). I am 6 clear of
 my threshold and 5 clear of the only other faction above its own, and the whole
 +6 was bought without spending a single piece out of Available.
+
+## Coup 3 (card #127 Nguyen Cao Ky) — Victory phase — US WINS
+**Situation.** The Victory phase is the first thing a Coup round resolves, and
+it ran on the standings I could no longer influence: US 54 (+4), NVA 19 (+1),
+VC 30 (-5), ARVN 43 (-7).
+    Game over in the 3rd Coup! round
+    US wins with a victory margin of 4!
+**Decision.** The program asks "Do you want to continue playing this game?". The
+scenario was set up with a human win allowed in the Victory phase of any Coup
+round, and that win has happened, so I answer **n**. Playing on would be playing
+past a decided game.
+**Execution.** Sent `n`. The program printed ">>> The game has ended <<<" and
+dropped to the `(quit or ?)` prompt. No rejections.
+**Result.** **US victory in the 3rd Coup round, margin 4.** Final: US 54 (Total
+Support 31 + 23 in Available), NVA 19, ARVN 43, VC 30.

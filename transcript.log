@@ -1374,4 +1374,31 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 
+Enter the number of the next On Deck Event card: 106
+
+
+>>> 3rd Coup Round <<<
+====================================================
+Current card: #127 - Coup! Nguyen Cao Ky
+(coup or ?): coup
+Coup! Card: #127 - Coup! Nguyen Cao Ky
+----------------------------------------------------
+[31m
+Place #127 - Coup! Nguyen Cao Ky in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+
+[33m====================================================[0m
+Game over in the 3rd Coup! round
+[33mUS wins with a victory margin of 4![0m
+
+Do you want to continue playing this game? (y/n)n
+
+
+>>> The game has ended <<<
+====================================================
+(quit or ?): 

@@ -54,3 +54,4 @@ card #123 Vietnamization: ARVN played its PIVOTAL EVENT, replacing #53 Sappers (
   US 56 (+6) leads; NVA 19 (+1) is the only other faction above 0. Air Lift costs nothing in Available, so Support bought this way is free.
 card #10 Rolling Thunder: US ineligible. NVA chose TERROR (6 spaces): removed Quang Tri's Passive Support (US 56 -> 54) and laid Terror markers in Binh Dinh, Tay Ninh, Quang Tin, Kien Giang and Kien Phong; then Bombarded Saigon and Hue for 2 US Troops to Casualties. VC played Rolling Thunder shaded (-5 ARVN Resources, no Air Strike until Coup).
   Into Coup 3: US 54 (+4) LEADING, NVA 19 (+1), VC 30 (-5), ARVN 43 (-7). If the Victory phase runs on these numbers the US wins.
+Coup 3 (#127 Nguyen Cao Ky): VICTORY PHASE — "Game over in the 3rd Coup! round / US wins with a victory margin of 4!". Declined to continue (n). Final: US 54 (+4), NVA 19 (+1), ARVN 43 (-7), VC 30 (-5).
