@@ -2,8 +2,9 @@
 
 A harness in which a Claude Code session plays *Fire in the Lake* (GMT, 2nd
 edition) as the **US** faction against the three Tru'ng bots implemented by
-Curt Sellmer's `fitl` program, while a human observer supplies card draws,
-keeps a physical board in sync, and audits the model's reasoning.
+Curt Sellmer's `fitl` program, while a human observer sets the pace, keeps a
+physical board in sync, and audits the model's reasoning. Event cards are
+drawn by the harness at the moment the program asks for them.
 
 The design document this implements lives in the project owner's notes; the
 short version:
@@ -24,12 +25,14 @@ short version:
 | `CLAUDE.md` | Standing instructions for the *playing* session. Read it first. |
 | `fitl/lib/` | `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl) with one patch applied, see below. No build step to run. |
 | `fitl/save-before-draw.patch` | The patch applied to the program: save after every action and Coup round *before* asking for the next card, and make the card draw its own saved step. |
-| `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `enter`, `advance`, `read`, `screen`, `status`. |
+| `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `enter`, `advance`, `read`, `screen`, `status`. `advance` also draws event cards. |
+| `tools/deck.py` | Lazy event-card draws: uniform over what can legally be next in the current pile, decided at request time with the OS random source. `selftest` simulates thousands of decks. |
+| `tools/apply_periods.py` | Records each card's period marking (1964/1965/1968) in `cards.json`. |
 | `tools/render.py` | Renders the latest save as the board view, with derived scores. |
 | `tools/diff.py` | Mechanical delta between two saves plus the program's log lines. |
 | `tools/fitl_state.py` | Shared save-loading, piece manifest, regions, scoring. |
 | `tools/build_cards.py` | Build-time only. Produced `cards.json` from the program's source. |
-| `cards.json` | All 130 cards: text, faction order, Tru'ng markings, pivotal conditions. |
+| `cards.json` | All 130 cards: text, faction order, Tru'ng markings, pivotal conditions, period marking. |
 | `games/<name>/` | The program's own saves (`save-NNN`, `log-NNN`). Committed after every US action. |
 | `journal.md` | Full turn plans, rationales, rejections. The audit artifact. |
 | `notes.md` | One line per model turn. Cross-session memory. |
@@ -49,6 +52,35 @@ python3 tools/diff.py                       # last two saves + program log
 
 The program runs with the repository root as its working directory, so saves
 land in `games/<name>/`.
+
+## The event deck
+
+The program asks a human to type each card number. Here `ctl.py advance`
+answers those prompts itself by calling `tools/deck.py`. There is no
+shuffled deck stored anywhere. For each request the generator takes the
+cards drawn so far (from the program's latest save), works out which pile
+the next card comes from, and picks uniformly at random, using the OS
+cryptographic random source, among the cards that can legally be next:
+
+- Full 1964–1972 scenario: six piles of 13, stacked 1964, 1964, 1965,
+  1965, 1968, 1968. Each pile holds 12 event cards of its period, none
+  repeated across piles, plus one of the six Coup! cards, each used once.
+- Within a pile, the Coup card is one of the 13 - e - c remaining physical
+  cards (e events and c Coup drawn so far from the pile), so it is equally
+  likely in every position. Event candidates are the period's cards not yet
+  drawn, weighted so that the pile's remaining event slots are a uniform
+  subset of them.
+- Pivotal events (#121–124) are never drawn.
+
+Drawing uniformly without replacement from a set is the same distribution
+as dealing from a shuffled deck, so the model faces exactly the deck a
+table would produce, and nobody, including the harness, can know a card
+before it is drawn. `python3 tools/deck.py selftest` simulates 2,000 full
+decks and checks every constraint plus the Coup position distribution.
+
+`ctl.py send` refuses to answer a card prompt. Setting `FITL_MANUAL_DECK=1`
+restores manual entry (the observer types the numbers), for use only when
+a human is supplying a physical deck.
 
 ## The patched program build
 

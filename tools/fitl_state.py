@@ -291,7 +291,7 @@ def card_line(cards, num, with_text=True):
     c = cards.get(str(num))
     if not c:
         return f"#{num} (unknown card)"
-    head = f"#{num} {c['title']}"
+    head = f"#{num} {c['title']}" + (f" [{c['period']}]" if c.get("period") else "")
     if c["type"] == "coup":
         return f"{head} [COUP]" + (f" Leader effect: {c['leaderEffect']}" if with_text and c.get("leaderEffect") else "")
     order = ", ".join(c["factionOrder"])

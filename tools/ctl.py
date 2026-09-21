@@ -11,9 +11,12 @@ Commands
   send ""               Just press Enter (for "Press Enter to continue" pauses).
   enter                 Same as send "".
   advance               Run bot turns: answers "perform" on Bot-turn prompts,
-                        Enter on pauses, "coup" on Coup-round prompts. Stops at
-                        the first prompt that needs a human decision or a card
-                        number. Prints everything the program wrote.
+                        Enter on pauses, "coup" on Coup-round prompts, and
+                        draws event cards itself (tools/deck.py) when the
+                        program asks for a card number. Stops at the first
+                        prompt that needs a human decision. Prints everything.
+                        Set FITL_MANUAL_DECK=1 to stop at card prompts instead
+                        (a human then supplies the number with `send`).
   new-game <name>       Scripted setup: Full scenario, 1 human (US),
                         human may win in any Coup Victory phase, game name.
   resume <name>         Scripted: pick "Resume '<name>'" at the startup menu.
@@ -30,7 +33,11 @@ import sys
 import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 SESSION = "fitl"
+GAMEFILE = os.path.join(ROOT, ".ctl-game")
+MANUAL_DECK = os.environ.get("FITL_MANUAL_DECK") == "1"
+CARD_PROMPT_RE = re.compile(r"Enter the number of the (1st|2nd|next On Deck) Event card:")
 TRANSCRIPT = os.path.join(ROOT, "transcript.log")
 CURSOR = os.path.join(ROOT, ".ctl-cursor")
 LIBDIR = os.path.join(ROOT, "fitl", "lib")
@@ -127,6 +134,9 @@ def cmd_send(text):
     if not running():
         print("ERROR: program is not running. Use `status`, then `start`/`resume` if needed.")
         return 1
+    if not MANUAL_DECK and CARD_PROMPT_RE.search(last_nonblank_screen_line()):
+        print("ERROR: the program is asking for a card number. Card draws are automatic: run `advance`.")
+        return 1
     if text:
         tmux("send-keys", "-t", SESSION, "-l", text)
     tmux("send-keys", "-t", SESSION, "Enter")
@@ -211,8 +221,47 @@ def cmd_new_game(name):
         send_raw("n")
         return 1
     print(out, end="")
-    print("\n[ctl] new game created; the program now wants the first two card numbers.")
+    set_game(name)
+    print("\n[ctl] new game created. Run `advance` to draw the first two cards and start play.")
     return 0
+
+
+def set_game(name):
+    with open(GAMEFILE, "w") as f:
+        f.write(name)
+
+
+def current_game():
+    try:
+        with open(GAMEFILE) as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return None
+
+
+def cards_seen_so_far():
+    """The cards drawn so far, from the program's latest save (the save is
+    written before the program asks for a card) or, before the first save
+    exists, from the program's own echo of the first card in the transcript."""
+    import fitl_state as S
+    game = current_game()
+    if game and S.save_numbers(game):
+        state = S.load_save(S.save_path(game, S.save_numbers(game)[-1]))
+        return list(state["cardsSeen"])
+    text, _ = read_since(0)
+    m = re.findall(r"Enter the number of the 1st Event card:\s*(\d+)", text)
+    return [int(m[-1])] if m else []
+
+
+def auto_draw():
+    """Answer a card prompt with a fresh draw from deck.py."""
+    import deck
+    seen = cards_seen_so_far()
+    d = deck.Deck(deck.load_periods())
+    where = d.explain(seen)
+    card = d.next_card(seen)
+    print(f"\n[deck] {where} -> drew #{card}")
+    return send_raw(str(card))
 
 
 def cmd_resume(name):
@@ -231,6 +280,7 @@ def cmd_resume(name):
         return 1
     out = send_raw(n)
     print(out, end="")
+    set_game(name)
     print(f"\n[ctl] resumed '{name}' from its latest save.")
     return 0
 
@@ -274,6 +324,10 @@ def cmd_advance():
         header = headers[-1] if headers else ""
         if "Press Enter to continue" in last:
             print(send_raw(""), end="")
+        elif CARD_PROMPT_RE.search(last):
+            if MANUAL_DECK:
+                break
+            print(auto_draw(), end="")
         elif last.startswith("(perform or ?)") and "(Bot)" in header:
             print(send_raw("perform"), end="")
         elif last.startswith("(discard or ?)"):

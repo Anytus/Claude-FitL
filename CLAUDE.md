@@ -3,9 +3,12 @@
 You are a Claude Code session playing *Fire in the Lake* (GMT Games, 2nd
 edition rules) as the **US faction** against the three Tru'ng bots (ARVN,
 NVA, VC). The bots run inside Curt Sellmer's `fitl` program, which is the
-single source of truth for game state. Kevin, the human observer, supplies
-card numbers from a physical deck, keeps a physical board in sync from your
-reports, and audits your reasoning. The point of the exercise is to see how
+single source of truth for game state. Event cards are drawn by the harness
+itself (`tools/deck.py`, called from inside `ctl.py advance`): each draw is
+decided at the moment the program asks, uniformly at random from what can
+legally be next in the current pile. No deck order exists anywhere, so there
+is nothing to peek at. Kevin, the human observer, sets the pace, keeps a
+physical board in sync from your reports, and audits your reasoning. The point of the exercise is to see how
 well you play and what your reasoning reveals. Play to win, but honesty and
 completeness in the reports matter more than the result.
 
@@ -24,10 +27,11 @@ any Coup Victory phase is allowed.
      lost. Append a line to `notes.md` saying you resumed, tell Kevin which
      save you resumed from, and run `diff.py` for anything Kevin has not yet
      seen.
-   - If `games/TestGame1` does not exist: `python3 tools/ctl.py new-game TestGame1`.
-     This happens once, at the very start of the game.
+   - If `games/TestGame1` does not exist: `python3 tools/ctl.py new-game TestGame1`,
+     then `python3 tools/ctl.py advance`, which draws the first two cards and
+     runs the bots up to the first decision. This happens once.
 3. `python3 tools/render.py` for the board view.
-4. Tell Kevin what input you need next (see "Next input needed").
+4. Play as far as Kevin's message asks (see "Turn protocol"), report, and stop.
 
 ## Information boundary
 
@@ -47,9 +51,13 @@ the physical bot cards, so they are fair.
 - Search the web or read any rules reference, strategy guide, or forum. No
   rules reference is supplied on purpose. Play from what you know; the
   program rejects illegal moves and that rejection is data.
-- Ask Kevin for strategic advice or rules help. Kevin's messages are card
-  numbers and, rarely, administrative notes or a veto. Log any veto in
+- Ask Kevin for strategic advice or rules help. Kevin's messages say how far
+  to play and, rarely, carry administrative notes or a veto. Log any veto in
   `journal.md` and `notes.md`.
+- Type a card number into the program, run `tools/deck.py` yourself, or set
+  `FITL_MANUAL_DECK`. Card draws happen only inside `ctl.py advance`, which
+  prints each draw as `[deck] ... -> drew #N`. `ctl.py send` refuses to
+  answer a card prompt.
 
 ## Hard constraints
 
@@ -75,7 +83,7 @@ All interaction goes through `python3 tools/ctl.py`:
 | --- | --- |
 | `send <text>` | Type `<text>` and Enter, wait for output, print it. |
 | `enter` | Press Enter (for `>>>>> [ Press Enter to continue... ] <<<<<`). |
-| `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds. Stops at any prompt that needs *you* or a card number. Prints everything. Use this instead of stepping through bot turns by hand. |
+| `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds, and draws event cards when the program asks for one. Stops at any prompt that needs *you*. Prints everything. Use this instead of stepping through bot turns by hand. |
 | `read` | Print program output since the last read. |
 | `screen` | Print the current visible screen (the current prompt). |
 | `status` | Running? Cursor? Last lines. |
@@ -105,11 +113,16 @@ Interface facts:
 
 ## Turn protocol
 
-Each Kevin message is a card number. Your reply covers everything that
-happened since the last reply and ends with the next input needed.
+Each Kevin message says how far to play: by default **one card** (from the
+current prompt through the draw of the next card). Kevin may instead say
+"play N cards", "play to the next Coup round", or "play to the end". Your
+reply covers everything that happened, one report section per card, and
+ends by saying where you stopped.
 
-1. `ctl.py send <card number>`.
-2. `ctl.py advance`. Read what the bots did.
+For each card:
+
+1. `ctl.py advance`. It draws a card if one is due and runs the bots. Read
+   what the bots did.
 3. If it stops at `>>> US turn (Human) <<<`:
    a. `render.py`. Study the board, both cards, the sequence of play, and
       what the bots have done this card.
@@ -118,15 +131,17 @@ happened since the last reply and ends with the next input needed.
       Record every rejection and every deviation in the journal entry's
       "Execution" section.
    d. `ctl.py advance` again for any remaining bot actions.
-4. If it stops asking for a card number: run `diff.py` for every new save
-   since your last report, write the report, commit, and end your reply
-   with the next input needed.
+4. When `advance` has drawn the next card (a `[deck]` line appears) the card
+   is finished: run `diff.py` for every new save since your last report,
+   write the card's report section, and append to `notes.md`. Then stop, or
+   continue with the next card if Kevin asked for more. Commit and push at
+   the end of your reply.
 5. Coup rounds: `advance` sends `coup`. The program will stop whenever the
    US has a decision to make. Seen so far: the Support phase (which spaces
    to Pacify, if any) and the Commitment phase (which US Troops and Bases to
    move among Available, COIN-controlled spaces, LoCs and Saigon). Write a
    short plan for each such decision in `journal.md`, answer, then `advance`
-   again. The Coup round ends by asking for the next card number.
+   again. The Coup round ends with the next card being drawn.
 6. Pivotal event: if the program asks whether the US wants to play
    Linebacker II, decide, log it in the journal, and answer.
 
@@ -146,13 +161,15 @@ Fixed order, so Kevin can update the board without hunting:
    plus your Coup-phase decisions and their rationale.
 4. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
    sections of `render.py`, plus the `--- Sequence of play ---` section.
-5. **Next input needed** — exactly one of:
-   - "Next input needed: the next on-deck card number."
-   - "Next input needed: two card numbers to start the game."
-   - "Next input needed: nothing; the game is over." 
+5. **Stopped at** — exactly one of:
+   - "Stopped after card #<n>. Current card #<a>, on deck #<b>. Say
+     'continue' for one more card, or how far to play."
+   - "Stopped inside card #<n> at <prompt>, because <reason>." (only if
+     something went wrong and you need Kevin)
+   - "The game is over." 
 
-When the US is ineligible on a card, the report is short and still ends with
-the next-input line.
+When the US is ineligible on a card, the report section is short. Drawn
+cards appear in the report exactly as `advance` printed them.
 
 ## Journal entry format (`journal.md`)
 

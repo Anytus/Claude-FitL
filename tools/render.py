@@ -113,8 +113,12 @@ def render(state, game, n, cards):
         w("  On deck: " + S.card_line(cards, state["onDeckCard"]))
     else:
         w("  On deck: (none)")
+    seen = len(state["cardsSeen"])
+    per = state["cardsPerCampaign"]
+    pile, pos = (seen - 1) // per + 1, (seen - 1) % per + 1   # position of the on-deck card
     w(f"  Deck: Coup cards played {state['coupCardsPlayed']} of {state['totalCoupCards']} | "
-      f"cards seen so far {len(state['cardsSeen'])} | {state['cardsPerCampaign']} cards per campaign")
+      f"on-deck card is card {pos} of {per} in pile {pile} of {state['totalCoupCards']} | "
+      f"{seen} cards drawn so far")
     if state.get("gameOver"):
         w("  *** GAME OVER ***")
     w("")
