@@ -1519,4 +1519,43 @@ Eligible      : US
 Acted         : NVA -> Op/Special Activity
 Passed        : none
 Ineligible    : VC, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 4[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 75
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #17 - Claymores (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded), 
+                NVA -> (Performed, Shaded)
+On Deck card  : #75 - Sihanouk (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US, ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA
 (perform or ?): 
