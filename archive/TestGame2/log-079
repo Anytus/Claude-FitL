@@ -1,0 +1,50 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "Coup! Card: #127 - Coup! Nguyen Cao Ky",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nPlace #127 - Coup! Nguyen Cao Ky in the RVN Leader Box on top of the stack",
+      "color": "Red"
+    },
+    {
+      "text": "\nConduct a Coup! Round",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVictory Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": "Yellow"
+    },
+    {
+      "text": "Game over in the 3rd Coup! round",
+      "color": null
+    },
+    {
+      "text": "US wins with a victory margin of 4!",
+      "color": "Yellow"
+    }
+  ]
+}

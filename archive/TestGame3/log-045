@@ -1,0 +1,74 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #9 - Psychedelic Cookie (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #95 - Westmoreland (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: Psychedelic Cookie",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 3 US Troops from OUT OF PLAY to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 47 to 50",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

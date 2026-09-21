@@ -1,0 +1,70 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Start of Game",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Scenario: Full: 1964-1972",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "US  : Human",
+      "color": null
+    },
+    {
+      "text": "ARVN: Bot",
+      "color": null
+    },
+    {
+      "text": "VC  : Bot",
+      "color": null
+    },
+    {
+      "text": "NVA : Bot",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Human Victory allowed during Victory phase of any Coup! round",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "\nRolling d3 to set the Agitate Total: 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Set Agitate Total (VC resources cylinder) to 3",
+      "color": "Blue"
+    }
+  ]
+}

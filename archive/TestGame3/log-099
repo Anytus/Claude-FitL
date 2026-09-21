@@ -1,0 +1,214 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - Q",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 <= Available NVA Guerrillas (9): 6 [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Attack operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Attacks in Tay Ninh using Troops",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Active Ranger from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA Attacks in Pleiku-Darlac using Troops",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 US Troop from Pleiku-Darlac to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 2 US Underground Irregulars from Pleiku-Darlac to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nAttrition:",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Troop from Pleiku-Darlac to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Pleiku-Darlac to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 44 to 43",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 14 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 2 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Bombard special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Bombards Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Bombards Kien Phong",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of NVA Bombard activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #7 - ADSID (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #105 - Rural Pressure (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Pacification costs 4 resources per terror\/level [Leader: Nguyen Cao Ky]",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Quang Tri-Thua Thien for Training",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 2 ARVN Police from AVAILABLE into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS chooses Air Strike special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "May Air Strike in one Province without COIN pieces [#8 Arc Light (unshaded)]",
+      "color": null
+    },
+    {
+      "text": "Die roll to determine the number of hits = 6",
+      "color": null
+    },
+    {
+      "text": "\nUS Air Strikes Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 6 NVA Troops from Quang Tin-Quang Ngai to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nShift support in strike spaces toward Active Opposition",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nQuang Tin-Quang Ngai: No shift [Already at Active Opposition]",
+      "color": null
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Quang Tin-Quang Ngai",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 17 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "\nPacifying in Quang Tri-Thua Thien",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 4 per level\/terror marker [Leader: Nguyen Cao Ky]",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 1 level in Quang Tri-Thua Thien",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -4 to 17",
+      "color": "Blue"
+    },
+    {
+      "text": "Flip Active Opposition marker in Quang Tri-Thua Thien to Passive Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 42 to 40",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

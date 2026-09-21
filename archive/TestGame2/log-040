@@ -1,0 +1,62 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #72 - Body Count (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #59 - Plei Mei (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS faction passes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Increase ARVN resources by +3 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Pass box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

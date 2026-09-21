@@ -40,6 +40,9 @@ short version:
 | `games/<name>/` | The program's own saves (`save-NNN`, `log-NNN`). Committed after every US action. |
 | `reports/<game>/` | One file per report: the program's narration for every save since the last report, plus the board summary. Written by `report.py`; what the observer updates the board from. |
 | `journal.md` | Full turn plans, rationales, rejections. The audit artifact. |
+| `RULES_LEARNED.md` | The playing models' own record of what the program did, from TestGame1 to TestGame3, with a harness note on what the tools have since replaced. Read by the next player. |
+| `POSTMORTEM_TestGame1.md` … `POSTMORTEM_TestGame3.md` | The playing models' strategic accounts of the finished games. |
+| `archive/TestGame1/` … `archive/TestGame3/` | The finished games: saves, logs, journal, notes, transcripts. Move a directory back under `games/` to replay it with `rollback`. |
 | `notes.md` | One line per model turn. Cross-session memory. |
 | `transcript.log` | Everything the program printed, via tmux pipe-pane. |
 
@@ -48,8 +51,8 @@ short version:
 Requirements: Java 11+, Python 3, tmux. From the repository root:
 
 ```
-python3 tools/ctl.py new-game TestGame1     # first time
-python3 tools/ctl.py resume TestGame1       # after a container/session loss
+python3 tools/ctl.py new-game TestGame4     # first time
+python3 tools/ctl.py resume TestGame4       # after a container/session loss
 python3 tools/ctl.py status
 python3 tools/render.py                     # board view of the latest save
 python3 tools/diff.py                       # last two saves + program log

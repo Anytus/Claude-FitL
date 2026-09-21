@@ -12,22 +12,32 @@ physical board in sync from your reports, and audits your reasoning. The point o
 well you play and what your reasoning reveals. Play to win, but honesty and
 completeness in the reports matter more than the result.
 
-Game directory: `games/TestGame1`. Scenario: Full 1964–1972. Human win in
-any Coup Victory phase is allowed.
+Game directory: `games/TestGame4`. Scenario: Full 1964–1972. Human win in
+any Coup Victory phase is allowed. This is the fourth game: the first was
+lost to the VC at the 3rd Coup, the second and third were won at the 3rd
+Coup.
 
 ## Session start
 
-1. Read `notes.md` (all of it) and the last two entries of `journal.md`.
+1. Read `RULES_LEARNED.md` (what the program taught the previous players,
+   from three games; its harness note at the top says which habits the
+   tools have replaced), then `POSTMORTEM_TestGame3.md`,
+   `POSTMORTEM_TestGame2.md` and `POSTMORTEM_TestGame1.md` (the strategic
+   accounts, written for you). Then `notes.md` (all of it) and the last two
+   entries of `journal.md`. The previous games' journals, notes, saves and
+   transcripts are archived under `archive/TestGame1/`, `archive/TestGame2/`
+   and `archive/TestGame3/`; they are not this game, and you do not need to
+   read them.
 2. `python3 tools/ctl.py status`.
    - If `running: True`: `python3 tools/ctl.py read` to see anything pending.
-   - If `running: False` and `games/TestGame1` exists: `python3 tools/ctl.py resume TestGame1`.
+   - If `running: False` and `games/TestGame4` exists: `python3 tools/ctl.py resume TestGame4`.
      The container was reclaimed. The program reloads the **latest save**.
      Every completed faction action, Coup round, and card draw is saved
      the moment it finishes, so at most a half-entered action of yours is
      lost. Append a line to `notes.md` saying you resumed, tell Kevin which
      save you resumed from, and run `report.py` so anything Kevin has not
      yet seen is in a report file.
-   - If `games/TestGame1` does not exist: `python3 tools/ctl.py new-game TestGame1`,
+   - If `games/TestGame4` does not exist: `python3 tools/ctl.py new-game TestGame4`,
      then `python3 tools/ctl.py advance`, which draws the first two cards and
      runs the bots up to the first decision. This happens once.
 3. `python3 tools/render.py` for the board view.
@@ -38,8 +48,8 @@ any Coup Victory phase is allowed.
 You get what a human player at the table has, and nothing more.
 
 **You may read:** the output of `render.py`, `diff.py`, `report.py` and `map.py`,
-`cards.json`, `map.json`, `notes.md`, `journal.md`, everything the program
-prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
+`cards.json`, `map.json`, `RULES_LEARNED.md`, the three post-mortems,
+`notes.md`, `journal.md`, everything the program prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
 program's `show` / `history` commands. The map is the printed board:
 `render.py` ends with every space's neighbours, and
 `python3 tools/map.py <space>` (or `map.py <space> <space>`) answers an
@@ -51,8 +61,9 @@ the physical bot cards, so they are fair.
 - Read the raw save files under `games/` (they contain the shuffled Tru'ng
   deck order). Use `render.py` and `diff.py` only.
 - Read, decompile, or fetch the program's source or the jars in `fitl/lib`.
-- Search the web or read any rules reference, strategy guide, or forum. No
-  rules reference is supplied on purpose. Play from what you know; the
+- Search the web or read any rules reference, strategy guide, or forum
+  beyond `RULES_LEARNED.md`. That file is the previous players' record of
+  what the program did, not the rulebook. Play from what you know; the
   program rejects illegal moves and that rejection is data.
 - Ask Kevin for strategic advice or rules help. Kevin's messages say how far
   to play and, rarely, carry administrative notes or a veto. Log any veto in
@@ -140,7 +151,7 @@ For each card:
 
 1. `ctl.py advance`. It draws a card if one is due and runs the bots. Read
    what the bots did.
-3. If it stops at `>>> US turn (Human) <<<`:
+2. If it stops at `>>> US turn (Human) <<<`:
    a. `render.py`. Study the board, both cards, the sequence of play, and
       what the bots have done this card.
    b. Write the plan entry in `journal.md` (format below).
@@ -150,19 +161,22 @@ For each card:
       continue with a new `seq` or single `send`s. Record every stop,
       rejection and deviation in the journal entry's "Execution" section.
    d. `ctl.py advance` again for any remaining bot actions.
-4. When `advance` has drawn the next card (a `[deck]` line appears) the card
+3. When `advance` has drawn the next card (a `[deck]` line appears) the card
    is finished: run `python3 tools/report.py`, which writes every new
    segment's narration and the board summary to `reports/<game>/`, write
    the card's section of your reply, and append to `notes.md`. Then stop,
    or continue with the next card if Kevin asked for more. Commit and push
    at the end of your reply.
-5. Coup rounds: `advance` sends `coup`. The program will stop whenever the
+4. Coup rounds: `advance` sends `coup`. The program will stop whenever the
    US has a decision to make. Seen so far: the Support phase (which spaces
    to Pacify, if any) and the Commitment phase (which US Troops and Bases to
    move among Available, COIN-controlled spaces, LoCs and Saigon). Write a
    short plan for each such decision in `journal.md`, answer, then `advance`
-   again. The Coup round ends with the next card being drawn.
-6. Pivotal event: if the program asks whether the US wants to play
+   again. The Coup round ends with the next card being drawn. After the
+   Coup round's report, tell Kevin it is a good point to start a fresh
+   session: the game lives in the repo, and a session that never grows past
+   one campaign costs a fraction of one that runs the whole game.
+5. Pivotal event: if the program asks whether the US wants to play
    Linebacker II, decide, log it in the journal, and answer.
 
 Append a one-line summary to `notes.md` after every US action or decision.

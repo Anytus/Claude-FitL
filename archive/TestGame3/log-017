@@ -1,0 +1,74 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #118 - Korean War Arms (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: Ambassador Taylor",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Increase US Aid by +9 to 25",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +9 to 13",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 1 US Base from OUT OF PLAY into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 US Base from OUT OF PLAY into Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

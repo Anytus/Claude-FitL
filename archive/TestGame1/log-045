@@ -1,0 +1,78 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #6 - Aces (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #34 - SA-2s (NVA, US, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: Aces",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Number of hits = 6",
+      "color": null
+    },
+    {
+      "text": "\nUS Air Strikes The Parrot's Beak",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 6 NVA Troops from The Parrot's Beak to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Degrade the trail by 2 boxes to 2",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

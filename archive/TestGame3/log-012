@@ -1,0 +1,78 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Unshaded Event: Brinks Hotel",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -4 to 14",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +4 to 16",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 43 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

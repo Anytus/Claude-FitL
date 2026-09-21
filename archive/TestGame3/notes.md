@@ -1,0 +1,53 @@
+# notes.md — one line per US turn (cross-session memory)
+
+Format: `card #<n> <title>: <action in a few words> — <why, ten words or fewer>`
+
+Also log here: session resumes (with the save number resumed from), vetoes,
+and anything Kevin asked administratively. Previous games' notes are under
+`archive/`.
+
+## TestGame3 (Full 1964-1972, US human, human win allowed in any Coup, harness-drawn deck)
+Session 1 (2026-09-21): new game created (save-000). Agitate Total d3 = 2. First cards drawn: #29 Tribesmen (current), #93 Senator Fulbright (on deck). Stopped at first US decision, awaiting Kevin.
+Kevin (admin note before turn 1): as first eligible, an Op Only denies the second eligible both the Event and a Special Activity (LimOp only). Keep in mind.
+card #29 Tribesmen: Event unshaded, removed VC Bases in Pleiku/Binh Dinh/Quang Tri + 1 Guerrilla — deny VC Critical shaded, -3 VC, Pleiku Control
+card #93 Senator Fulbright: US Ineligible (VC passed, NVA Rally + Infiltrate)
+card #107 Burning Bonze: US eligible but 4th in order; VC shaded Event + ARVN Op squeezed US out
+card #97 Brinks Hotel: Train (3 Irregulars) + Advise removals Quang Tri, Binh Dinh — Control in two pop-2 Highlands, left event to NVA
+card #15 Medevac: US Ineligible (ARVN Sweep + Raid, VC shaded Medevac: no Air Lift until Coup)
+Kevin (rules note after #97): US Train of ARVN cubes is gated by ARVN Resources > Econ, not by ARVN Available; up to 6 cubes may be placed regardless of Available, pulling the excess from anywhere on the map.
+Kevin (note): ARVN tends to pile cubes in Saigon/Hue; US Air Lift and US Train are the tools to move those cubes where the US wants them.
+Kevin (note): with Air Lift banned, Sweep and Patrol are the remaining ways to relocate pieces; neither tried yet.
+card #66 Ambassador Taylor: Event unshaded, Aid +9, ARVN Res +9, 2 US Bases from Out of Play into Quang Tri and Binh Dinh — free Bases, deny -4 shaded
+card #118 Korean War Arms: US Ineligible (VC shaded: 3 VC Bases; ARVN Sweep + Raid)
+card #55 Trucks: Pass — turn order guarantees first on Claymores; protect Pleiku Base, stay Eligible
+card #17 Claymores: Event unshaded — stay Eligible, protect Pleiku Base, tax Marches
+card #75 Sihanouk: US eligible but squeezed out (ARVN Op+SA, NVA shaded event: NVA Control Kien Phong + Quang Tin)
+Kevin (rules note after #75): at Trail 4 the NVA Marches for free outside South Vietnam, which is how the Parrot's Beak stack reached Quang Tin. Trail degrade is worth more than I priced on #55.
+card #51 301st Supply Bn: Event unshaded, 6 NVA Troops out of Central Laos — protect Quang Tri Base
+card #110 No Contact: US Ineligible (NVA Infiltrate: NVA Base in Quang Tin; ARVN pass). Coup #126 Young Turks drawn.
+Coup 1: Support: pacified Saigon (1), Da Nang (2), Kontum (2) for 15 Res, +12 — cheapest points; Commitment: Saigon Base to Available (+1, no penalty), no Troops. Nobody won. US 50.
+card #73 Great Society: US squeezed out (ARVN Sweep+Raid, NVA shaded: 3 US Troops from Available to Out of Play, US 47)
+Session 1: program process died between the report on #9 and my action; resumed TestGame3 from save-044 (US turn on #9, identical to the reported state). Nothing replayed.
+card #9 Psychedelic Cookie: Train-pacify Quang Tri aborted (only 1 level offered at 18 Res / Econ 13), then Event unshaded: 3 Troops Out of Play -> Available, US 50 — pacify money is scarce, event points are certain
+card #95 Westmoreland: US Ineligible (VC shaded: Pleiku Active Opposition; NVA Rally + Bombard, 2 US Troops to Casualties). Coup #127 Nguyen Cao Ky drawn immediately.
+Coup 2: Victory: nobody above 0 (US exactly 50). Support: Quang Tri 2 levels (+4, 8 Res). Commitment: casualties to Hue and Binh Dinh, nothing moved. US 54.
+Pivotal (draw of #46): played Linebacker II, replacing #105 Rural Pressure (VC Critical shaded vs my Police Support) — NVA -2, NVA out two cards
+card #46 559th Transport Grp: US Ineligible (ARVN Sweep 12 Troops into Tay Ninh/Kien Phong + Raid)
+Easter Offensive (NVA pivotal at draw of #5, replaced #22 Da Nang): NVA took Binh Dinh, Quang Nam, Da Nang, Kien Giang, Tay Ninh; NVA 9 -> 17; 2 US Troops to Casualties
+card #5 Wild Weasels: Train Hue (pacify +2) + Advise removals Binh Dinh, Da Nang — NVA 17 -> 14, US 56
+card #47 Chu Luc: US last in order, no action (NVA Rally + Bombard; VC March)
+card #23 Operation Attleboro: Train Binh Dinh (6 ARVN cubes, pacify 2 levels +4) + Advise Quang Tri, Pleiku — US 60, cubes where I want them
+card #6 Aces: US Ineligible (NVA passed; VC Terror + Tax, Agitate 16)
+Vietnamization (ARVN pivotal at draw of #39, replaced #34 SA-2s): ARVN Res 38, Aid 43, ARVN OOP to Available
+card #109 Nguyen Huu Tho: Assault Pleiku (mis-sent, kept) + Da Nang, Air Lift 3 Troops into Saigon; Saigon VC Base not assaultable behind an Underground Guerrilla — US 60, NVA 14
+card #81 CIDG: LimOp Sweep in Saigon — Activate the VC Guerrilla, no Terror on my 12 points
+card #108 Draft Dodgers: LimOp Train Saigon wasted — chained a send into the two-entry final menu and hit Finished instead of Transfer patronage (TestGame2 #59 repeated)
+card #64 Honolulu Conference: Event — Aid +10, Patronage -5, pacified Quang Tri 2 levels; US 56, ARVN 38
+card #10 Rolling Thunder: US Ineligible (NVA March: Saigon uncontrolled, Quang Duc + Kien Giang NVA; ARVN unshaded event, Trail 0). Coup #125 drawn.
+card #72 Body Count (Monsoon): Train Binh Dinh 1 level (+2) + Advise Pleiku with a Ranger (2 NVA Troops, Control) — US 58; VC shaded event
+Coup 3 (#125 Nguyen Khanh): Victory phase — US wins with a victory margin of 8. Continue prompt left unanswered for Kevin.
+Kevin: continue the game past the win to the next US turn, explore Sweep prompts and abort, then explore Patrol.
+Session 1: program process died again after the win; resumed TestGame3 from save-110 (Coup 3 prompt). Nothing replayed.
+Coup 3 continued: Commitment casualties to Hue (2) and Da Nang (2); VC pivotal Tet Offensive followed (9 Terrors, Bases into Saigon and Hue, my 2 Hue Troops killed) — US 46, VC 34
+card #28 Search and Destroy: explored Sweep (aborted, no state change) and Patrol (rolled back by a container loss), then Train Saigon + Advise — ARVN Assault killed Hue's undefended VC Base, Saigon pacified terror+2 levels: US 52, VC 27
+Kevin: asked me to fold the TestGame3 findings into RULES_LEARNED.md — done (header, sections 1-6, 8; Sweep and Patrol rewritten from stubs).

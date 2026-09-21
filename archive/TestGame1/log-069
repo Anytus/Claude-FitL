@@ -1,0 +1,146 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #70 - ROKs (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #99 - Masher\/White Wing (VC, US, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: ROKs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses US to carry out the Sweeps and Assaults",
+      "color": null
+    },
+    {
+      "text": "\nBinh Dinh selected for Sweep",
+      "color": null
+    },
+    {
+      "text": "\n",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Police from Kontum to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Da Nang to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nActivating guerrillas in Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 2 VC Underground Guerrillas in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nUS assaults in Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 1 hit",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Troop from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS assaults in Qui Nhon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 2 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Qui Nhon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 17 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

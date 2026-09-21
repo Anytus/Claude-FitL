@@ -1,0 +1,294 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #47 - Chu Luc (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - Q",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 <= Available NVA Guerrillas (2): 9 [No]",
+      "color": null
+    },
+    {
+      "text": "Trung check: d3 >= the Trail (1): 2 [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - QQ",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Kien Giang-An Xuyen for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Underground Guerrillas from Kien Giang-An Xuyen to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Base from AVAILABLE into Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 14 to 13",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects The Parrot's Beak for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Base from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 13 to 14",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Kien Phong for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 2 NVA Underground Guerrillas from AVAILABLE into Kien Phong",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Southern Laos for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 3 NVA Underground Guerrillas from AVAILABLE into Southern Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nNVA improves the trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Improve the trail by 1 box to 2",
+      "color": "Blue"
+    },
+    {
+      "text": "Trung check: 3d6 <= Available NVA Troops (11): 14 [No]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Bombard special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Bombards Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 US Troop from Saigon to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Bombards Kien Phong",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of NVA Bombard activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

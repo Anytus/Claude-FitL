@@ -1,0 +1,114 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #99 - Masher\/White Wing (VC, US, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #7 - ADSID (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : US, NVA",
+      "color": null
+    },
+    {
+      "text": "\nARVN executes the Unshaded Event: Masher\/White Wing",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Hue as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 ARVN Troops from Quang Tri-Thua Thien to Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Hue",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 37 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN assaults in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 3 hits",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 2 VC Active Guerrillas from Hue to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Advise special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nAdvise in Quang Tri-Thua Thien using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Quang Tri-Thua Thien to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 VC Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Quang Tri-Thua Thien",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 39 to 41",
+      "color": "Blue"
+    },
+    {
+      "text": "\nAdvise in Binh Dinh using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 VC Underground Guerrillas from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 41 to 43",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase US Aid by +6 to 16",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS selects Pleiku-Darlac for Training",
+      "color": null
+    },
+    {
+      "text": "Place 2 US Underground Irregulars from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS selects Da Nang for Training",
+      "color": null
+    },
+    {
+      "text": "Place 1 US Underground Irregular from AVAILABLE into Da Nang",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nPacifying in Da Nang",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nMove the US cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

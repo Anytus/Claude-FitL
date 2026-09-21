@@ -1,0 +1,18 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "\nAdjustment: Move pieces from Available to Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Pieces: 2 US Bases, 4 ARVN Police",
+      "color": null
+    }
+  ]
+}

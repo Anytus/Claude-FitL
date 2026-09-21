@@ -1,0 +1,134 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #72 - Body Count (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #125 - Coup! Nguyen Khanh",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Body Count",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Binh Tuy-Binh Thuan",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Quang Duc-Long Khanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 2 NVA Troops from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 2 NVA Troops from AVAILABLE into Southern Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 2 NVA Troops from AVAILABLE into Central Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 2 NVA Troops from AVAILABLE into The Fishhook",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Troop from AVAILABLE into Sihanoukville",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove COIN Control marker from Pleiku-Darlac",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove NVA Control marker from Quang Duc-Long Khanh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place NVA Control marker in Sihanoukville",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 32 to 31",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 14 to 11",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the VC cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

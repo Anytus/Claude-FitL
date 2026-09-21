@@ -1,0 +1,106 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #56 - Vo Nguyen Giap (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #40 - PoWs (NVA, US, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - V",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space not at Active Opposition? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - Z",
+      "color": null
+    },
+    {
+      "text": "Trung check: 15+ VC Guerrillas on the map? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3+ VC Guerrillas in any space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses March operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 VC Underground Guerrillas from Tay Ninh to LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the VC cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

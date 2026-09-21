@@ -1,0 +1,186 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #56 - Vo Nguyen Giap (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #40 - PoWs (NVA, US, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - R",
+      "color": null
+    },
+    {
+      "text": "Trung check: Support + Available >= 42? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available NVA Troops (0): 11 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - RR",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground NVA Guerrillas in space with Support? [No]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses March operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects LOC Kontum -- Dak To as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from Southern Laos to LOC Kontum -- Dak To",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects Quang Tin-Quang Ngai as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 6 NVA Troops from Southern Laos to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 NVA Underground Guerrillas from Southern Laos to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Quang Tin-Quang Ngai",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 15 to 17",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 2 [Failure]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Can Ambush in March destinations? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Ambush special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Ambushes in LOC Kontum -- Dak To, targeting Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 NVA Underground Guerrilla in LOC Kontum -- Dak To to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 US Underground Irregular from Binh Dinh to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #15 - Medevac (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Air Strike special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Die roll to determine the number of hits = 6",
+      "color": null
+    },
+    {
+      "text": "\nUS Air Strikes The Trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Degrade the trail by 1 box to 3",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS Air Strikes LOC Ban Me Thuot -- Da Lat",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from LOC Ban Me Thuot -- Da Lat to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS Air Strikes LOC Can Tho -- Chau Doc",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from LOC Can Tho -- Chau Doc to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS Air Strikes LOC Da Nang -- Dak To",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from LOC Da Nang -- Dak To to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS Air Strikes LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS assaults in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 4 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 2 VC Active Guerrillas from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nARVN executes its Pivotal Event: Vietnamization",
+      "color": "Red"
+    },
+    {
+      "text": "\n+12 ARVN Resources and +12 US Aid",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Increase ARVN resources by +12 to 23",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase US Aid by +12 to 30",
+      "color": "Blue"
+    },
+    {
+      "text": "\nAll Out of Play ARVN pieces to Available",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Move 10 ARVN Troops from OUT OF PLAY to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 3 ARVN Underground Rangers from OUT OF PLAY to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nPlace 4 ARVN Cubes anywhere",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Place 1 ARVN Police from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Police from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Police from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Police from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Tay Ninh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 15 to 13",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}
