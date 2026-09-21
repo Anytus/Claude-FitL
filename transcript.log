@@ -6,284 +6,126 @@ Which game would you like to play:
 ====================================================
 1) Start a new game
 2) Resume 'TestGame1', Full: 1964-1972  [#129 - Coup! Failed Attempt] The game has ended with a VC Bot victory
-3) Resume 'TestGame2', Full: 1964-1972  [#101 - Booby Traps] VC performed Event
+3) Resume 'TestGame2', Full: 1964-1972  [#15 - Medevac] US performed Op/Special Activity
 4) Quit
 ----------------------------------------------------
 Selection: 3
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the US and ARVN cylinders to the Eligible box[0m
-[34mMove the VC and NVA cylinders to the Ineligible box[0m
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 118
+Enter the number of the next On Deck Event card: 29
 
 
->>> US turn (Human) <<<
+>>> VC turn (Bot) <<<
 ====================================================
-Current card  : #15 - Medevac (US, ARVN, NVA, VC)
-                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
-                VC -> (Performed, Shaded)
-On Deck card  : #118 - Korean War Arms (VC, ARVN, NVA, US)
+Current card  : #118 - Korean War Arms (VC, ARVN, NVA, US)
                 VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-Eligible      : US, ARVN
+On Deck card  : #29 - Tribesmen (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : VC, NVA
 Acted         : none
 Passed        : none
-Ineligible    : NVA, VC
+Ineligible    : ARVN, US
 (perform or ?): perform
 
-Choose one:
-====================================================
-1) Event
-2) Op (May add a Special Activity)
-3) Pass
+VC executes the Shaded Event: Korean War Arms
 ----------------------------------------------------
-Selection: 2
-
-Choose operation:
-====================================================
-1) Train
-2) Patrol
-3) Sweep
-4) Assault
-----------------------------------------------------
-Selection: 1
-
-US chooses Train operation
-====================================================
-
-0 spaces selected for Training
-----------------------------------------------------
-
-
-US Training:
-====================================================
-1) Select a space to Train
-2) Perform a Special Activity
-3) Finished selecting spaces
-----------------------------------------------------
-Selection: 1
-
-Train in which space: 
-====================================================
-1) Da Nang
-2) Hue
-3) Kontum
-4) Saigon
-5) Pleiku-Darlac
-6) Quang Nam
-7) Quang Tri-Thua Thien
-8) None of the above
-----------------------------------------------------
-Selection: 5
-
-US selects Pleiku-Darlac for Training
-
-Training in Pleiku-Darlac:
-====================================================
-1) Place Irregulars
-2) Place Rangers
-3) Place ARVN Troops/Police
-4) Do not place forces
-----------------------------------------------------
-Selection: 2
-
-Place how many Rangers (0 - 2): 2
-
-[34mDecrease ARVN resources by -3 to 51[0m
-[35mPlace 2 ARVN Underground Rangers from AVAILABLE into Pleiku-Darlac[0m
-
-1 space selected for Training
-----------------------------------------------------
-Pleiku-Darlac
-
-US Training:
-====================================================
-1) Select a space to Train
-2) Perform a Special Activity
-3) Finished selecting spaces
-----------------------------------------------------
-Selection: 1
-
-Train in which space: 
-====================================================
-1) Da Nang
-2) Hue
-3) Kontum
-4) Saigon
-5) Quang Nam
-6) Quang Tri-Thua Thien
-7) None of the above
-----------------------------------------------------
-Selection: 2
-
-US selects Hue for Training
-
-Training in Hue:
-====================================================
-1) Place Irregulars
-2) Do not place forces
-----------------------------------------------------
-Selection: 2
-
-2 spaces selected for Training
-----------------------------------------------------
-Pleiku-Darlac, Hue
-
-US Training:
-====================================================
-1) Select a space to Train
-2) Perform a Special Activity
-3) Finished selecting spaces
-----------------------------------------------------
-Selection: 2
-
-Choose special activity:
-====================================================
-1) Advise
-2) Air Lift
-3) Air Strike
-4) Do not perform a Special Activity now
-----------------------------------------------------
-Selection: 1
-
-US chooses Advise special activity
-====================================================
-
-0 spaces of 2 selected for Advise
-----------------------------------------------------
-
-
-Choose Advise option:
-====================================================
-1) Sweep a space with ARVN forces
-2) Assault a space with ARVN forces
-3) Use Irregular/Ranger to remove enemy pieces
-4) Finished selecting Advise spaces
-----------------------------------------------------
-Selection: 3
-Use Irregular/Ranger in which space:  Quang Tri-Thua Thien
-
-Advise in Quang Tri-Thua Thien using US Underground Irregular
-----------------------------------------------------
-[36mFlip 1 US Underground Irregular in Quang Tri-Thua Thien to ACTIVE[0m
-
-Remove enemy forces
-----------------------------------------------------
-Select 2 pieces among the following:
-  5 NVA Troops, 1 NVA Underground Guerrilla, 2 VC Underground Guerrillas
-
-How many NVA Troops (0 - 2): 0
-How many NVA Underground Guerrillas (0 - 1): 0
-[35mRemove 2 VC Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Tay Ninh[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Tin-Quang Ngai[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Duc-Long Khanh[0m
 
 Control Changes
 ----------------------------------------------------
-[33mPlace COIN Control marker in Quang Tri-Thua Thien[0m
+[33mRemove NVA Control marker from Quang Tin-Quang Ngai[0m
 
 Score Marker Changes
 ----------------------------------------------------
-[34mMove the 'COIN Control + Patronage' marker from 38 to 40[0m
-
-1 space of 2 selected for Advise
-----------------------------------------------------
-Quang Tri-Thua Thien
-
-Choose Advise option:
-====================================================
-1) Sweep a space with ARVN forces
-2) Assault a space with ARVN forces
-3) Finished selecting Advise spaces
-----------------------------------------------------
-Selection: 2
-ARVN Assault in which space:  Binh Dinh
-
-ARVN assaults in Binh Dinh
-----------------------------------------------------
-The assault inflicts 0 hits
-
-No insurgent pieces were removed in the assault
-
-2 spaces of 2 selected for Advise
-----------------------------------------------------
-Quang Tri-Thua Thien, Binh Dinh
-
-Do you wish to add +6 Aid? (y/n) y
-[34mIncrease US Aid by +6 to 33[0m
-
-2 spaces selected for Training
-----------------------------------------------------
-Pleiku-Darlac, Hue
-
-US Training:
-====================================================
-1) Select a space to Train
-2) Finished selecting spaces
-----------------------------------------------------
-Selection: 2
-
-Choose final Train action:
-====================================================
-1) Pacify
-2) Finished with Train operation
-----------------------------------------------------
-Selection: 1
-
-Pacify in which space:  Hue
-
-Pacifying in Hue
-----------------------------------------------------
-The cost to pacify is 3 per level/terror marker
-
-Pacify:
-====================================================
-1) Shift 1 level to Active Support
-2) Do not pacify in Hue
-----------------------------------------------------
-Selection: 1
-
-US Pacifies 1 level in Hue
-----------------------------------------------------
-[34mDecrease ARVN resources by -3 to 48[0m
-[33mFlip Passive Support marker in Hue to Active Support[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'Support + Avail US' marker from 42 to 44[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 8 to 6[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 31 to 34[0m
 [34m
-Move the US cylinder to the Op/Special Activity box[0m
+Move the VC cylinder to the Event box[0m
 
-Finished with US turn
+Finished with VC turn
 
 
->>> ARVN turn (Bot) <<<
+>>> NVA turn (Bot) <<<
 ====================================================
-Current card  : #15 - Medevac (US, ARVN, NVA, VC)
-                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
-                VC -> (Performed, Shaded)
-On Deck card  : #118 - Korean War Arms (VC, ARVN, NVA, US)
+Current card  : #118 - Korean War Arms (VC, ARVN, NVA, US)
                 VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-Eligible      : ARVN
-Acted         : US -> Op/Special Activity
+On Deck card  : #29 - Tribesmen (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : NVA
+Acted         : VC -> Event
 Passed        : none
-Ineligible    : NVA, VC
+Ineligible    : ARVN, US
 (perform or ?): perform
-
-ARVN executes the Unshaded Event: Medevac
-----------------------------------------------------
 [31m
-Momentum: '#15 Medevac (unshaded)' is now in play[0m
-[34m
-Move the ARVN cylinder to the LimOp or Event box[0m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (14): 2 [Yes]
 
-Finished with ARVN turn
+NVA chooses Rally operation
+====================================================
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 4[0m
+Trung check: 3d6 <= Available NVA Troops (24): 12 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Binh Dinh
+----------------------------------------------------
+[35mRemove 1 VC Base from Binh Dinh to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 6 to 9[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 34 to 33[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mRemove 4 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 10 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the VC and NVA cylinders to the Eligible box[0m
-[34mMove the US and ARVN cylinders to the Ineligible box[0m
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
 
 Draw event card
 ----------------------------------------------------

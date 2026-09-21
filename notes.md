@@ -22,3 +22,5 @@ card #101 Booby Traps: US ineligible. VC played shaded (capability: Sweep costs 
 resumed: second container/program loss at the card prompt; ctl.py resume TestGame2 reloaded save-019 (post-NVA-attack state confirmed by render). Nothing replayed.
 card #15 Medevac: US first eligible, took Op+SA. Train: 2 Rangers into Pleiku, Pacified Hue to Active Support (+2). Advise: chose 2 VC Guerrillas off Quang Tri -> COIN Control there (pop 2, Neutral, now a +4 pacify target); +6 Aid. ARVN then played Medevac unshaded, so all Troop Casualties reach Available at Coup 2 anyway.
   learned: Train space test is US pieces not Troops; Advise removal lets you pick the pieces; ARVN Police assault in Highland = 0 hits.
+resumed: third program loss at the card prompt; resume reloaded save-022 (Medevac momentum intact).
+card #118 Korean War Arms: US ineligible. VC shaded placed 3 VC Bases (Tay Ninh, Quang Tin, Quang Duc) -> VC 31 -> 34. NVA Rally/Infiltrate: swapped the VC Base in Binh Dinh for an NVA Base (NVA Control), built 10 Troops in the Parrot's Beak, Trail to 4. VC 33, US 44.
