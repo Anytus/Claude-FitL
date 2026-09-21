@@ -12,3 +12,5 @@ Kevin (admin note before turn 1): as first eligible, an Op Only denies the secon
 card #29 Tribesmen: Event unshaded, removed VC Bases in Pleiku/Binh Dinh/Quang Tri + 1 Guerrilla — deny VC Critical shaded, -3 VC, Pleiku Control
 card #93 Senator Fulbright: US Ineligible (VC passed, NVA Rally + Infiltrate)
 card #107 Burning Bonze: US eligible but 4th in order; VC shaded Event + ARVN Op squeezed US out
+card #97 Brinks Hotel: Train (3 Irregulars) + Advise removals Quang Tri, Binh Dinh — Control in two pop-2 Highlands, left event to NVA
+card #15 Medevac: US Ineligible (ARVN Sweep + Raid, VC shaded Medevac: no Air Lift until Coup)
