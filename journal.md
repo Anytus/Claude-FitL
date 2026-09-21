@@ -930,3 +930,65 @@ worth +12 US **after** the Victory check, so they matter for Coup 3, not Coup 2.
 Standing: **US 47 (-3), VC 31 (-4), NVA 17 (-1), ARVN 39 (-11).** Nobody is above
 0, so a Coup now would pass with no winner — which is the outcome I was playing
 for two cards ago.
+
+## Coup 2 (card #128 Nguyen Van Thieu) — Commitment phase — mid-Coup, no save yet
+**Situation.** Victory passed with nobody above 0, which is what the last three
+cards were spent buying. ARVN earned +41 (Resources 62), and the Casualties
+box took **Aid to 0** — which incidentally kills Govern, since Govern converts
+Aid into Patronage and there is none left to convert. The Support phase found
+**no eligible US pacification space at all** (the program printed "US does not
+pacify any spaces" without prompting me), exactly as I predicted on card #64;
+ARVN pacified Qui Nhon and the VC agitated Kien Hoa-Vinh Binh back to Passive
+Opposition. Then Medevac paid out: **12 US Troops and the Irregular from
+Casualties to Available**, taking US Available to 27 Troops, 1 Irregular and 2
+Bases and the US marker to about **60**. NVA's Redeploy pushed 5 Troops back
+into Binh Dinh and retook the Control I broke, so it is 19 (+1) again — but
+that is a Coup 3 problem, not a Coup 2 one.
+**What the numbers say.** At roughly 60 I am +10; the NVA is +1 and everyone
+else is negative. To lose at Coup 3 someone must exceed +10 (VC 46, NVA 29,
+ARVN 61 — all far away); to fail to win it, I must shed 10 points of Support.
+So the Commitment question is not "how much army do I want" but "how much of a
+10-point cushion am I willing to spend, and on what".
+**The constraint that decides it.** Available-to-map moves happen **only** in
+Commitment. Air Lift can shuffle pieces around the map but cannot reach into the
+box, so whatever I leave in Available is frozen there for the whole of campaign
+3. Troops in the box are points; troops on the map are options.
+**Plan.** Move **6 US Troops, no Bases**: **5 into Saigon** and **1 into Hue**.
+**Rationale.** Saigon is 12 of my 31 Support points and the only space Govern
+can never touch; it is also the one place where a US Base doubles Assault, so
+Troops there are the answer to a VC Guerrilla walking in to Terror it — and,
+since Air Lift can move them anywhere on the map afterwards, 5 Troops in Saigon
+are a mobile reserve rather than a garrison. Hue is 4 points held entirely by
+ARVN, and a single US Troop makes it a legal Train space so I can re-pacify it
+if it is Terrorised; that is repair capability, which is what actually protects
+Support, since nothing prevents Terror.
+I wanted 2 Troops in Kien Hoa-Vinh Binh — Passive Opposition, pop 2, with one
+lone Active VC Guerrilla left after its attack — but Commitment destinations must
+be COIN-controlled spaces, LoCs or Saigon, and it is Uncontrolled. I will Air
+Lift them out of the Saigon reserve instead.
+No Bases: #53 Sappers is on deck and its shaded side removes a US Base from a
+Province to Casualties (the VC is marked Performed for it), ARVN's Available is
+down to 4 Troops and no Police so a Base unlocks almost no placement, and each
+Base in the box is a point.
+That leaves US at about **54**, four clear of the threshold with a campaign to
+rebuild in and 56 ARVN Resources to do it with.
+**Execution.** No rejections, no aborts; one send per command with the
+destination menu printed before each answer. Withdrawal reported "0 pieces were
+removed to Available", so nothing shifted toward Opposition.
+**Result.** 5 US Troops into Saigon, 1 into Hue; marker 48 -> **54**. Reset then
+degraded the Trail 4 -> 3, flipped everything Underground, **removed both
+momentum markers — Medevac is gone, so from here a third of US Troop Casualties
+go Out of Play permanently**, and rolled the new Agitate Total at 2.
+Standing into campaign 3: **US 54 (+4)**, NVA 19 (+1), VC 32 (-3), ARVN 41 (-9).
+I lead, and I am the only faction whose score is comfortably above its
+threshold. The shape of the next campaign is therefore defensive: **hold 31
+points of Support and 23 points of force pool, and keep the NVA from turning
++1 into more than +4.**
+Three things I will be working with. Aid is **0**, which idles ARVN's Govern
+entirely — the engine that cost me 3 Support points — until an event refills it,
+so I should not hand out +6 Aid from Advise without a reason. ARVN holds 56
+Resources, which is my pacification budget as much as its own. And the NVA's
+19 rests on six pop-2 Controls, of which Quang Tin-Quang Ngai, Tay Ninh, Kien
+Phong and Kien Giang-An Xuyen are each within a piece or two of collapsing
+because the VC's own stacks contest them — but none holds a COIN piece I can
+act from, so reaching them means Air Lifting out of the Saigon reserve.
