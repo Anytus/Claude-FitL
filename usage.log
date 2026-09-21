@@ -186,3 +186,8 @@
 2026-09-21T19:51:40	Bash	python3 tools/ctl.py advance 2>&1 | tail -60	97	3474
 2026-09-21T19:51:49	Bash	python3 tools/report.py 2>&1 | tail -3 && python3 tools/render.py 2>&1 | sed -n 	160	3995
 2026-09-21T19:51:59	Bash	cat >> journal.md <<'EOF'  ## Coup 2 — #125 Nguyen Khanh — Victory phase `Game o	993	1956
+2026-09-21T19:52:25	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T22:57:04	Bash	ls -la /root/.claude/projects/-home-user-Claude-FitL/ 2>&1 | head -20; echo "---	220	465
+2026-09-21T22:57:17	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json,col	800	667
+2026-09-21T22:57:40	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json f='	1339	376
+2026-09-21T22:58:04	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json f='	2050	506
