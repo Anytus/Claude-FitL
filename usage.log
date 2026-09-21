@@ -152,3 +152,9 @@
 2026-09-21T19:37:42	Bash	python3 tools/ctl.py seq "Finished moving forces out of Kien Hoa-Vinh Binh=>#Fin	318	2314
 2026-09-21T19:37:50	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" "Place how many I	308	2168
 2026-09-21T19:38:00	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	153	6127
+2026-09-21T19:38:32	Bash	git add -A && git commit -q -m "card #38: pacify Quang Nam, Air Lift Irregular i	205	21362
+2026-09-21T19:38:50	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && python3 tools/render.	492	1459
+2026-09-21T19:39:26	Bash	python3 tools/map.py "Quang Tin-Quang Ngai" && python3 tools/render.py 2>&1 | gr	198	780
+2026-09-21T19:40:19	Bash	cat >> journal.md <<'EOF'  ## Turn 11 — card #24 Operation Starlite — before sav	2707	4514
+2026-09-21T19:40:47	Bash	python3 tools/ctl.py seq "Execute which part=>#Unshaded" 2>&1 | tail -20	123	1328
+2026-09-21T19:41:08	Bash	python3 tools/ctl.py seq "Execute event in which space=>#Quang Tin" 2>&1 | tail 	145	5102

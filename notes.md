@@ -18,3 +18,5 @@ RESUMED after container loss: ctl.py resume TestGame4 from save-037, at the card
 Coup 1 (#126 Young Turks): no winner (US 50=+0). Pacified Kien Hoa +4 and Kontum +2; placed 4 free casualty Troops (Kien Hoa 2, Saigon 1, Da Nang 1) and 1 Base from Available into Kien Hoa. US 56 -> 55.
 card #105 Rural Pressure: Train Kien Hoa (2 Irregulars, pacify to Active) + Advise Binh Dinh (VC Base + NVA Guerrilla, COIN control) and Quang Nam (broke NVA control) — US 52->54
 card #86 Mandate of Heaven: Train Da Nang (pacify 2 levels) + Air Lift Kontum->Hue and Kien Hoa->Quang Nam — US 54->56, NVA 18->15 (two controls broken)
+card #38 McNamara Line: Train Quang Nam (pacify 2 levels) + Air Lift Irregular into Hue — only pacify on board; set up Advise on Hue VC base
+card #24 Operation Starlite: Event unshaded, cleared all VC from Quang Tin-Quang Ngai (2 Bases, 4 Guerrillas) — VC 32->30, opens a pop-2 project

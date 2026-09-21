@@ -726,3 +726,44 @@ pieces. It comes from Kien Hoa rather than Binh Dinh on purpose: Binh Dinh's
 lone Irregular is the only COIN piece holding Control of a pop-2 Active Support
 space, and moving it would hand back the Control I bought two cards ago, while
 Kien Hoa still has 2 Troops, a Base and 2 Police after giving one up.
+
+## Turn 11 — card #24 Operation Starlite — before save-053
+**Situation.** The VC took Honolulu Conference itself, choosing **Aid -10 to 0**
+and Patronage -5, which strips ARVN's Coup income to Econ alone and has already
+cut its Resources to 17 against Econ 12 — **one level of pacification per action
+is now all I can afford**. ARVN played McNamara Line. The NVA has marched 5
+Troops into Quang Nam and taken Control there, though my pacification holds at
+Active Support. Binh Dinh is down to a single Active Irregular holding COIN
+Control of a pop-2 space.
+Scores: **US 58 (+8)**, VC 32 (-3), NVA 16 (-2), ARVN 23 (-27). I am first
+eligible on #24.
+
+**Options considered.**
+- *Op + Advise.* Advise Hue (the Irregular I flew in last card removes the VC
+  Base and Guerrilla, VC -1, and ends the Terror threat to 4 points of Active
+  Support) and Advise Quang Nam (2 Underground Irregulars take 2 NVA Troops,
+  restoring COIN Control, NVA -1). Worth -2 enemy points and real protection —
+  but the Op itself would be empty, because **no space on the board is both
+  COIN-controlled with a US piece and below Active Support**, so there is again
+  no pacification to be had.
+- *Operation Starlite unshaded.* Taken.
+
+**Plan.** **Event, unshaded: remove all VC from Quang Tin-Quang Ngai** — 4 VC
+Guerrillas and **2 VC Bases**. The space is coastal and adjacent to both Quang
+Nam and Da Nang, each holding a US Troop, so it qualifies.
+Expected: **VC 32 -> 30**, and the VC's entire I Corps base area gone.
+
+**Rationale.** The deciding thought is that **Advise keeps and an Event does
+not.** The Irregular sitting Underground in Hue will still be there next action,
+and Quang Nam's two will too; Operation Starlite exists only on this card. And
+it is the larger hit: two Bases against the one Advise would take, from a
+faction holding **0 Bases in Available**, so these cannot be replaced except by
+a Rally that first strips two Guerrillas — and I am removing its four
+Guerrillas there in the same stroke. Taking it also denies the VC the shaded
+side it is marked for.
+Against that I am accepting the Hue Terror risk for a card. That is affordable
+precisely because of where the score stands: at +8, with the VC at -3 and the
+NVA at -2, no rival can pass me without gaining a dozen points, so the loss I
+should fear is my own Support collapsing, and a single Terror in Hue is -2 of a
+36-point Support total. A two-Base hit on the faction nearest me is worth more
+than insuring against that.
