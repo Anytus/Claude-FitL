@@ -20,3 +20,5 @@ Kevin (note): with Air Lift banned, Sweep and Patrol are the remaining ways to r
 card #66 Ambassador Taylor: Event unshaded, Aid +9, ARVN Res +9, 2 US Bases from Out of Play into Quang Tri and Binh Dinh — free Bases, deny -4 shaded
 card #118 Korean War Arms: US Ineligible (VC shaded: 3 VC Bases; ARVN Sweep + Raid)
 card #55 Trucks: Pass — turn order guarantees first on Claymores; protect Pleiku Base, stay Eligible
+card #17 Claymores: Event unshaded — stay Eligible, protect Pleiku Base, tax Marches
+card #75 Sihanouk: US eligible but squeezed out (ARVN Op+SA, NVA shaded event: NVA Control Kien Phong + Quang Tin)

@@ -59,3 +59,13 @@ Sent: perform, 1 (Event), 1 (Unshaded), 1 (US pieces from Out of Play), 2 (count
 **Execution.** (below)
 Sent: perform, 3 (Pass). No rejections.
 **Result.** As planned: ARVN Resources 1 -> 4, card ended, #75 Sihanouk drawn; US first on #17 Claymores with ARVN and VC behind.
+
+## Turn 5 — card #17 Claymores — before save-025
+**Situation.** US first; ARVN (Performed/Unshaded) and VC (Performed/Shaded) behind; NVA Ineligible. ARVN Resources 4, so no pacification. On deck #75 Sihanouk (ARVN, NVA, US, VC): NVA and VC Performed/Shaded (free VC then NVA Rally in Cambodia and March out); I am third there, so I will likely be squeezed out whatever happens.
+**Options considered.** Event unshaded (stay Eligible, no Ambush until Coup, each Marching group that Activates loses a Guerrilla; denies the shaded removal of my Pleiku Base). Op + SA: nothing to pacify, nothing to remove that Advise can reach except the single Underground Guerrilla in Pleiku (a Train + Advise there would clear it, but the Base stays exposed to shaded Claymores from the VC). Pass: pointless, I am already first.
+**Plan.** Event, unshaded.
+**Expected effect.** No score change. Momentum Claymores (unshaded) until the Coup. US remains Eligible for #75.
+**Rationale.** As in the turn-4 entry: protects a Base from permanent loss, taxes the NVA/VC Marches that Sihanouk shaded will produce, and costs no eligibility.
+**Execution.** (below)
+Sent: perform, 1 (Event), 1 (Unshaded). No rejections.
+**Result.** As planned: Momentum Claymores in play, US stays Eligible (shown as US(+)). ARVN then passed (Resources 7), VC Rallied 4 Guerrillas into Quang Tin and Taxed it (Agitate 4, Quang Tin to Passive Opposition). On #75 Sihanouk I was squeezed out as expected: ARVN Transport + Assault (Kien Giang Control, 4 Guerrillas killed, Resources 1), then NVA shaded Sihanouk: VC and NVA free Rally in Cambodia and March: NVA took Kien Phong (4 Troops) and Quang Tin-Quang Ngai (5 Troops + 4 Guerrillas) for NVA Control, NVA 7 -> 11; a VC Guerrilla marched into Pleiku, an NVA Guerrilla into Binh Dinh. Claymores' March penalty did not fire (no Marching group Activated). On #51 the VC Terrored and Taxed Quang Tin (Agitate 6).

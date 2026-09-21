@@ -1,0 +1,390 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #75 - Sihanouk (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #51 - 301st Supply Bn (NVA, VC, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: Sihanouk",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Sihanoukville for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Sihanoukville",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects Northeast Cambodia for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Northeast Cambodia",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects The Fishhook for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into The Fishhook",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects The Parrot's Beak for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from The Fishhook to LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects LOC Can Tho -- Chau Doc as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from The Parrot's Beak to LOC Can Tho -- Chau Doc",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects Pleiku-Darlac as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Northeast Cambodia to Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects Kien Giang-An Xuyen as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Sihanoukville to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects The Parrot's Beak for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 6 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects The Fishhook for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into The Fishhook",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in The Fishhook",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNVA selects Sihanoukville for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Sihanoukville",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Sihanoukville",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNVA selects Northeast Cambodia for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Northeast Cambodia",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Northeast Cambodia",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNo trail improvement. The Trail is at 4.",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects LOC Da Nang -- Dak To as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from The Parrot's Beak to LOC Da Nang -- Dak To",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects Kien Phong as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 4 NVA Troops from The Parrot's Beak to Kien Phong",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 NVA Underground Guerrillas from The Parrot's Beak to Kien Phong",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Kien Phong to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 46 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 7 to 9",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects Tay Ninh as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from The Parrot's Beak to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects Quang Tin-Quang Ngai as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 5 NVA Troops from The Parrot's Beak to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 NVA Underground Guerrillas from The Parrot's Beak to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from Northeast Cambodia to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from Sihanoukville to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Northeast Cambodia",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place NVA Control marker in Quang Tin-Quang Ngai",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove NVA Control marker from Sihanoukville",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 9 to 11",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects Binh Dinh as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from The Fishhook to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from The Fishhook",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}
