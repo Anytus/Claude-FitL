@@ -6,7 +6,8 @@ Usage:
   diff.py <game>             latest two saves of that game
   diff.py <game> <a> <b>     save-<a> -> save-<b>
   diff.py <game> <a>         save-<a> -> latest
-  diff.py --no-log ...       omit the program log lines
+  diff.py --log ...          append the program's log lines for the segments
+                             (off by default: advance already showed them)
 
 The output is what the human observer updates the physical board from, so it
 is pasted verbatim into reports. Per space: piece changes, support, terror,
@@ -207,10 +208,8 @@ def diff(game, a, b, with_log=True):
 
 def main():
     argv = sys.argv[1:]
-    with_log = True
-    if "--no-log" in argv:
-        with_log = False
-        argv = [x for x in argv if x != "--no-log"]
+    with_log = "--log" in argv
+    argv = [x for x in argv if x not in ("--log", "--no-log")]
     game, a, b = resolve(argv)
     print(diff(game, a, b, with_log))
 

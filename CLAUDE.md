@@ -25,8 +25,8 @@ any Coup Victory phase is allowed.
      Every completed faction action, Coup round, and card draw is saved
      the moment it finishes, so at most a half-entered action of yours is
      lost. Append a line to `notes.md` saying you resumed, tell Kevin which
-     save you resumed from, and run `diff.py` for anything Kevin has not yet
-     seen.
+     save you resumed from, and run `report.py` so anything Kevin has not
+     yet seen is in a report file.
    - If `games/TestGame1` does not exist: `python3 tools/ctl.py new-game TestGame1`,
      then `python3 tools/ctl.py advance`, which draws the first two cards and
      runs the bots up to the first decision. This happens once.
@@ -37,7 +37,7 @@ any Coup Victory phase is allowed.
 
 You get what a human player at the table has, and nothing more.
 
-**You may read:** the output of `render.py`, `diff.py` and `map.py`,
+**You may read:** the output of `render.py`, `diff.py`, `report.py` and `map.py`,
 `cards.json`, `map.json`, `notes.md`, `journal.md`, everything the program
 prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
 program's `show` / `history` commands. The map is the printed board:
@@ -73,8 +73,12 @@ the physical bot cards, so they are fair.
   of your action to the program.
 - **Report every rejected answer** verbatim, and what you did instead. Never
   silently retry.
-- **Paste `diff.py` output verbatim.** You may add a one-sentence gloss
-  above it, never paraphrase it.
+- **Never retype or paraphrase the program's narration.** Kevin updates
+  the physical board from the program's own lines. `report.py` writes them
+  into a report file for every save since the last report; your reply
+  points at that file. Do not paste narration or `diff.py` output into
+  chat, and never describe a board change in your own words in place of
+  the program's line.
 - **Commit and push after every report** so nothing is lost if the container
   is reclaimed: `git add -A && git commit -q -m "card #<n>: <one line>" && git push -q`.
 
@@ -87,13 +91,20 @@ All interaction goes through `python3 tools/ctl.py`:
 | `send <text>` | Type `<text>` and Enter, wait for output, print it. |
 | `enter` | Press Enter (for `>>>>> [ Press Enter to continue... ] <<<<<`). |
 | `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds, and draws event cards when the program asks for one. Stops at any prompt that needs *you*. Prints everything. Use this instead of stepping through bot turns by hand. |
+| `seq "<expected>=><answer>" ...` | Answer several prompts in one call. Each step is sent only if `<expected>` appears in the current prompt; otherwise the sequence stops, sends nothing more, and prints the screen. An answer of `#<label>` picks the menu entry whose label starts with `<label>`, so renumbered menus cannot bite. Use this for your whole action; one `send` per prompt is the fallback. |
 | `read` | Print program output since the last read. |
 | `screen` | Print the current visible screen (the current prompt). |
 | `status` | Running? Cursor? Last lines. |
 
 Interface facts:
 
-- Menus take the **number** of the choice, not the text.
+- Menus take the **number** of the choice, not the text. With `seq` you
+  answer by label (`#Train`, `#Finished`, `#Saigon`) and the controller
+  finds the number; prefer that.
+- `render.py` is brief by default: empty LoCs are collapsed and adjacency
+  is omitted (`map.py <space>` for neighbours; `render.py --full` for all).
+- `diff.py` shows only the mechanical delta; `--log` adds the program's
+  lines, which you already saw in the `advance` output.
 - Yes/no prompts take `y` or `n`.
 - At a `(perform or ?)` prompt you may type `show summary`, `show pieces`,
   `show events`, `show <space name>`, `show all`, or `history` to see the
@@ -130,15 +141,18 @@ For each card:
    a. `render.py`. Study the board, both cards, the sequence of play, and
       what the bots have done this card.
    b. Write the plan entry in `journal.md` (format below).
-   c. `ctl.py send perform`, then answer the prompts to execute the plan.
-      Record every rejection and every deviation in the journal entry's
-      "Execution" section.
+   c. `ctl.py send perform`, then execute the plan with one `seq` call
+      whose steps name the prompts you expect (the prompt chains are in
+      `RULES_LEARNED.md`); if it stops, read the screen it printed and
+      continue with a new `seq` or single `send`s. Record every stop,
+      rejection and deviation in the journal entry's "Execution" section.
    d. `ctl.py advance` again for any remaining bot actions.
 4. When `advance` has drawn the next card (a `[deck]` line appears) the card
-   is finished: run `diff.py` for every new save since your last report,
-   write the card's report section, and append to `notes.md`. Then stop, or
-   continue with the next card if Kevin asked for more. Commit and push at
-   the end of your reply.
+   is finished: run `python3 tools/report.py`, which writes every new
+   segment's narration and the board summary to `reports/<game>/`, write
+   the card's section of your reply, and append to `notes.md`. Then stop,
+   or continue with the next card if Kevin asked for more. Commit and push
+   at the end of your reply.
 5. Coup rounds: `advance` sends `coup`. The program will stop whenever the
    US has a decision to make. Seen so far: the Support phase (which spaces
    to Pacify, if any) and the Commitment phase (which US Troops and Bases to
@@ -154,17 +168,21 @@ Append a one-line summary to `notes.md` after every US action or decision.
 
 Fixed order, so Kevin can update the board without hunting:
 
-1. **Card played** — number, title, faction order, Tru'ng markings that applied.
-2. **Per faction action**, in the order they occurred: faction, action taken
-   (Event unshaded/shaded, Op, Op + Special Activity, LimOp, Pass), then the
-   `diff.py` output for that segment verbatim (it includes the program's log
-   lines). For your own action: the plan and rationale first, then the diff.
-3. **Coup round**, when one occurred: the single Coup-round diff (it covers
-   all phases: Victory, Resources, Support, Redeploy, Commitment, Reset),
-   plus your Coup-phase decisions and their rationale.
-4. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
+1. **Card played** — number, title, faction order, Tru'ng markings that
+   applied, and the `[deck]` line for any card drawn.
+2. **Per faction action**, in the order they occurred: one line each with
+   the faction and the action taken (Event unshaded/shaded, Op, Op +
+   Special Activity, LimOp, Pass) and its one-sentence outcome. For your
+   own action: the plan and rationale in a short paragraph (the full entry
+   is in `journal.md`), plus every rejection, stop and deviation.
+3. **Coup round**, when one occurred: your Coup-phase decisions and their
+   rationale, one line per phase outcome.
+4. **Report file** — the path `report.py` printed. That file holds the
+   program's narration for every segment and the board summary; it is
+   what Kevin updates the board from.
+5. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
    sections of `render.py`, plus the `--- Sequence of play ---` section.
-5. **Stopped at** — exactly one of:
+6. **Stopped at** — exactly one of:
    - "Stopped after card #<n>. Current card #<a>, on deck #<b>. Say
      'continue' for one more card, or how far to play."
    - "Stopped inside card #<n> at <prompt>, because <reason>." (only if
@@ -186,7 +204,8 @@ effect on Support, Control, Available, and the US score.
 **Rationale.** One paragraph.
 **Execution.** Every prompt you were unsure about, every rejection verbatim,
 every abort, every deviation from the plan.
-**Result.** One line: what the diff shows versus what you expected.
+**Result.** One line: what `diff.py` and `render.py` show versus what you
+expected.
 ```
 
 Coup-round decisions and pivotal-event decisions get shorter entries with

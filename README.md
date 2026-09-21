@@ -25,11 +25,12 @@ short version:
 | `CLAUDE.md` | Standing instructions for the *playing* session. Read it first. |
 | `fitl/lib/` | `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl) with one patch applied, see below. No build step to run. |
 | `fitl/fitl-1.53-harness.patch` | The patch applied to the program (against v1.53): save after every action and Coup round *before* asking for the next card, make the card draw its own saved step, and close the adjacency table under symmetry. `save-before-draw.patch` is the first half, kept for reference. |
-| `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `enter`, `advance`, `read`, `screen`, `status`. `advance` also draws event cards. |
+| `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `seq`, `enter`, `advance`, `read`, `screen`, `status`. `advance` also draws event cards; `seq` answers a whole action's prompts in one guarded call, by menu label. |
 | `tools/deck.py` | Lazy event-card draws: uniform over what can legally be next in the current pile, decided at request time with the OS random source. `selftest` simulates thousands of decks. |
 | `tools/apply_periods.py` | Records each card's period marking (1964/1965/1968) in `cards.json`. |
-| `tools/render.py` | Renders the latest save as the board view, with derived scores. |
-| `tools/diff.py` | Mechanical delta between two saves plus the program's log lines. |
+| `tools/render.py` | Renders the latest save as the board view, with derived scores. Brief by default; `--full` adds every LoC and the adjacency table. |
+| `tools/diff.py` | Mechanical delta between two saves (`--log` adds the program's lines). |
+| `tools/report.py` | Writes the observer's report for every save since the last one: the program's narration verbatim plus the board summary, under `reports/<game>/`. |
 | `tools/fitl_state.py` | Shared save-loading, piece manifest, regions, scoring. |
 | `tools/build_cards.py` | Build-time only. Produced `cards.json` from the program's source. |
 | `cards.json` | All 130 cards: text, faction order, Tru'ng markings, pivotal conditions, period marking. |
@@ -37,6 +38,7 @@ short version:
 | `tools/map.py` | Adjacency queries: one space's neighbours, whether two spaces touch, the whole map. |
 | `tools/build_map.py` | Build-time only. Produced `map.json` from the program's source and reports one-way entries. |
 | `games/<name>/` | The program's own saves (`save-NNN`, `log-NNN`). Committed after every US action. |
+| `reports/<game>/` | One file per report: the program's narration for every save since the last report, plus the board summary. Written by `report.py`; what the observer updates the board from. |
 | `journal.md` | Full turn plans, rationales, rejections. The audit artifact. |
 | `notes.md` | One line per model turn. Cross-session memory. |
 | `transcript.log` | Everything the program printed, via tmux pipe-pane. |
@@ -55,6 +57,25 @@ python3 tools/diff.py                       # last two saves + program log
 
 The program runs with the repository root as its working directory, so saves
 land in `games/<name>/`.
+
+## Token cost
+
+The playing session's cost is dominated by cache reads, which scale with
+the number of tool calls times the length of the conversation, so the cost
+of a game grows faster than linearly with its length. Measured on TestGame3
+(37 cards): 186 million cache-read tokens against 0.67 million output
+tokens, with the context reaching 581 thousand tokens.
+
+What the harness does about it: `report.py` writes the observer's report
+from the program's own logs so the model never retypes narration; `diff.py`
+no longer repeats the log lines; `render.py` is brief by default; and
+`ctl.py seq` answers a whole action's prompts in one guarded call instead of
+one call per menu.
+
+What the operator should do about it: **start a fresh session at every
+Coup round.** The game, journal and notes live in the repo, so nothing is
+lost, and a session that never grows past one campaign keeps the context,
+and therefore every subsequent call, several times cheaper.
 
 ## The map
 

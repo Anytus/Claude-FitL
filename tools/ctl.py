@@ -17,6 +17,24 @@ Commands
                         prompt that needs a human decision. Prints everything.
                         Set FITL_MANUAL_DECK=1 to stop at card prompts instead
                         (a human then supplies the number with `send`).
+  seq <step> [<step>...]
+                        Answer several prompts in one call, each guarded:
+                        a step is "<expected text>=><answer>". The expected
+                        text must appear in the current prompt block (the
+                        output since the previous answer) or the sequence
+                        stops there and prints the screen. An answer of
+                        "#<label>" picks the menu entry whose label starts
+                        with <label>, so menus that renumber are safe. An
+                        empty answer presses Enter. "Press Enter" pauses
+                        between steps are handled automatically.
+                        Example:
+                          seq "Choose one=>#Op" "Choose operation=>#Train" \
+                              "Train in which space=>#Saigon" \
+                              "Training in Saigon=>#Place Irregulars" \
+                              "how many Irregulars=>2" \
+                              "US Training=>#Finished selecting" \
+                              "final Train action=>#Finished" \
+                              "special activity=>n"
   new-game <name>       Scripted setup: Full scenario, 1 human (US),
                         human may win in any Coup Victory phase, game name.
   resume <name>         Scripted: pick "Resume '<name>'" at the startup menu.
@@ -40,6 +58,7 @@ MANUAL_DECK = os.environ.get("FITL_MANUAL_DECK") == "1"
 CARD_PROMPT_RE = re.compile(r"Enter the number of the (1st|2nd|next On Deck) Event card:")
 TRANSCRIPT = os.path.join(ROOT, "transcript.log")
 CURSOR = os.path.join(ROOT, ".ctl-cursor")
+BLOCK = os.path.join(ROOT, ".ctl-block")     # transcript offset at the last send
 LIBDIR = os.path.join(ROOT, "fitl", "lib")
 ANSI_RE = re.compile(r'\x1b\[[0-9;?]*[A-Za-z]|\x1b\][^\x07]*\x07|\r')
 
@@ -71,6 +90,23 @@ def write_cursor(n):
         f.write(str(n))
 
 
+def mark_block():
+    """Remember where the transcript stood when the last answer was sent, so
+    'the current prompt block' is exactly what the program printed since."""
+    with open(BLOCK, "w") as f:
+        f.write(str(transcript_size()))
+
+
+def current_block():
+    try:
+        with open(BLOCK) as f:
+            off = int(f.read().strip() or 0)
+    except FileNotFoundError:
+        off = 0
+    text, _ = read_since(off)
+    return text
+
+
 def transcript_size():
     try:
         return os.path.getsize(TRANSCRIPT)
@@ -98,6 +134,8 @@ def cmd_start():
     if os.path.exists(TRANSCRIPT):
         os.rename(TRANSCRIPT, TRANSCRIPT + "." + time.strftime("%Y%m%d-%H%M%S"))
     write_cursor(0)
+    with open(BLOCK, "w") as f:
+        f.write("0")
     # JAVA_TOOL_OPTIONS is sandbox proxy chatter the program does not need.
     java = 'env -u JAVA_TOOL_OPTIONS TERM=dumb java -cp "fitl/lib/*" fitl.FireInTheLake'
     tmux("new-session", "-d", "-s", SESSION, "-x", "200", "-y", "50",
@@ -137,6 +175,7 @@ def cmd_send(text):
     if not MANUAL_DECK and CARD_PROMPT_RE.search(last_nonblank_screen_line()):
         print("ERROR: the program is asking for a card number. Card draws are automatic: run `advance`.")
         return 1
+    mark_block()
     if text:
         tmux("send-keys", "-t", SESSION, "-l", text)
     tmux("send-keys", "-t", SESSION, "Enter")
@@ -286,6 +325,7 @@ def cmd_resume(name):
 
 
 def send_raw(text, echo=False):
+    mark_block()
     if text:
         tmux("send-keys", "-t", SESSION, "-l", text)
     tmux("send-keys", "-t", SESSION, "Enter")
@@ -340,6 +380,57 @@ def cmd_advance():
     return 0
 
 
+def cmd_seq(steps):
+    """Guarded multi-answer send. See the module docstring."""
+    if not running():
+        print("ERROR: program is not running.")
+        return 1
+    parsed = []
+    for st in steps:
+        if "=>" not in st:
+            print(f"ERROR: step {st!r} is not of the form 'expected=>answer'")
+            return 2
+        exp, ans = st.split("=>", 1)
+        parsed.append((exp.strip(), ans.strip()))
+    # The current prompt block is everything the program printed since the
+    # last answer was sent (never the whole screen: stale menus above the
+    # current one would otherwise match a label and give the wrong number).
+    pending, off = read_since(read_cursor())
+    write_cursor(off)
+    print(pending, end="")
+    block = current_block()
+    for k, (exp, ans) in enumerate(parsed, 1):
+        # step over pauses the program inserts between narration and prompt
+        guard = 0
+        while "Press Enter to continue" in last_nonblank_screen_line() and guard < 20:
+            out = send_raw("")
+            print(out, end="")
+            block = out
+            guard += 1
+        if not MANUAL_DECK and CARD_PROMPT_RE.search(last_nonblank_screen_line()):
+            print(f"\n[ctl] seq stopped before step {k}: the program wants a card number; run `advance`.")
+            return 1
+        if exp and exp.lower() not in block.lower():
+            print(f"\n[ctl] seq stopped at step {k} ({exp!r} => {ans!r}): expected text not in the "
+                  f"current prompt. Nothing sent for this step. Current screen:\n")
+            print(screen_text().rstrip())
+            return 1
+        if ans.startswith("#"):
+            num = menu_number(block, re.escape(ans[1:]))
+            if num is None:
+                print(f"\n[ctl] seq stopped at step {k}: no menu entry starting with {ans[1:]!r}. "
+                      f"Nothing sent for this step. Current screen:\n")
+                print(screen_text().rstrip())
+                return 1
+            print(f"\n[ctl] step {k}: {ans} -> {num}")
+            ans = num
+        out = send_raw(ans)
+        print(out, end="")
+        block = out
+    print(f"\n[ctl] seq finished {len(parsed)} steps; stopped at: {last_nonblank_screen_line()}")
+    return 0
+
+
 def cmd_stop():
     if running():
         tmux("kill-session", "-t", SESSION)
@@ -368,6 +459,8 @@ def main(argv):
         return cmd_send("")
     if cmd == "advance":
         return cmd_advance()
+    if cmd == "seq":
+        return cmd_seq(args)
     if cmd == "new-game":
         if not args:
             print("usage: ctl.py new-game <name>")
