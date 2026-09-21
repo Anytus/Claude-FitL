@@ -1,0 +1,394 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #118 - Korean War Arms (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #55 - Trucks (NVA, VC, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - L",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Base or NVA Control in any 2+ Pop space? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - H",
+      "color": null
+    },
+    {
+      "text": "Trung check: 5+ ARVN Troops + Rangers in any one space? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - K",
+      "color": null
+    },
+    {
+      "text": "Trung check: COIN-Controlled Pop + Patronage >= 42? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - G",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (1): 8 [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - M",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Control + NVA Bases >= 14? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - J",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (1): 10 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - JJ",
+      "color": null
+    },
+    {
+      "text": "Trung check: All routes from Can Tho to Hue blocked? [No]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Sweep operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Tay Ninh as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from An Loc to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Tay Ninh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 41 to 43",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Quang Duc-Long Khanh as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from Cam Ranh to Quang Duc-Long Khanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Quang Duc-Long Khanh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 43 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Binh Tuy-Binh Thuan as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from Saigon to Binh Tuy-Binh Thuan",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 4 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Phuoc Long as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from An Loc to Phuoc Long",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Phuoc Long",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nActivating guerrillas in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 2 VC Underground Guerrillas in Tay Ninh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nARVN pays for 4 sweep destinations",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -12 to 1",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN chooses Raid special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN conducts raid in Quang Duc-Long Khanh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Underground Ranger from Saigon to Quang Duc-Long Khanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Flip 1 ARVN Underground Ranger in Quang Duc-Long Khanh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 VC Base from Quang Duc-Long Khanh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 27 to 26",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Raid activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

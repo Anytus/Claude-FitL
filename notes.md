@@ -17,3 +17,5 @@ card #15 Medevac: US Ineligible (ARVN Sweep + Raid, VC shaded Medevac: no Air Li
 Kevin (rules note after #97): US Train of ARVN cubes is gated by ARVN Resources > Econ, not by ARVN Available; up to 6 cubes may be placed regardless of Available, pulling the excess from anywhere on the map.
 Kevin (note): ARVN tends to pile cubes in Saigon/Hue; US Air Lift and US Train are the tools to move those cubes where the US wants them.
 Kevin (note): with Air Lift banned, Sweep and Patrol are the remaining ways to relocate pieces; neither tried yet.
+card #66 Ambassador Taylor: Event unshaded, Aid +9, ARVN Res +9, 2 US Bases from Out of Play into Quang Tri and Binh Dinh — free Bases, deny -4 shaded
+card #118 Korean War Arms: US Ineligible (VC shaded: 3 VC Bases; ARVN Sweep + Raid)
