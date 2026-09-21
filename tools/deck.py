@@ -8,11 +8,13 @@ same as drawing from a physically shuffled deck, and there is nothing on
 disk or in memory that could reveal a future card.
 
 Full 1964-1972 scenario deck (rules 2.1):
-  six piles of 13 cards, stacked 1964, 1964, 1965, 1965, 1968, 1968.
+  six piles of 13 cards, stacked 1964, 1965, 1965, 1968, 1968, 1968.
   Each pile: 12 event cards of its period (a random 12-subset of that
   period's cards not used by an earlier pile), plus 1 Coup! card (#125-130,
   each used once, assigned to piles at random), shuffled together.
-  Pivotal events (#121-124) are never in the deck.
+  The periods hold 24, 48 and 48 cards, so only 12 of the 1964 cards, 24 of
+  the 1965 cards and 36 of the 1968 cards appear in any game; no event is
+  ever guaranteed to come up. Pivotal events (#121-124) are never in the deck.
 
 The lazy equivalent: for draw number k (0-based), the pile is k // 13. The
 candidates are the period's cards not yet drawn (if fewer than 12 events
@@ -39,7 +41,7 @@ CARDS_PER_PILE = 13
 EVENTS_PER_PILE = 12
 COUP_CARDS = [125, 126, 127, 128, 129, 130]
 PIVOTAL_CARDS = [121, 122, 123, 124]
-FULL_PILES = ["1964", "1964", "1965", "1965", "1968", "1968"]
+FULL_PILES = ["1964", "1965", "1965", "1968", "1968", "1968"]
 
 _rng = secrets.SystemRandom()
 

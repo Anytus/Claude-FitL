@@ -62,9 +62,11 @@ cards drawn so far (from the program's latest save), works out which pile
 the next card comes from, and picks uniformly at random, using the OS
 cryptographic random source, among the cards that can legally be next:
 
-- Full 1964–1972 scenario: six piles of 13, stacked 1964, 1964, 1965,
-  1965, 1968, 1968. Each pile holds 12 event cards of its period, none
+- Full 1964–1972 scenario: six piles of 13, stacked 1964, 1965, 1965,
+  1968, 1968, 1968. Each pile holds 12 event cards of its period, none
   repeated across piles, plus one of the six Coup! cards, each used once.
+  The periods hold 24, 48 and 48 cards, so a game uses only 12, 24 and 36
+  of them: no event is guaranteed to appear.
 - Within a pile, the Coup card is one of the 13 - e - c remaining physical
   cards (e events and c Coup drawn so far from the pile), so it is equally
   likely in every position. Event candidates are the period's cards not yet

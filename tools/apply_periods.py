@@ -88,7 +88,7 @@ def main(argv):
         json.dump(cards, f, indent=1, ensure_ascii=False)
     counts = {p: sum(1 for v in periods.values() if v == p) for p in ("1964", "1965", "1968")}
     print(f"periods written to cards.json: {counts}")
-    for p, need in (("1964", 24), ("1965", 24), ("1968", 24)):
+    for p, need in (("1964", 12), ("1965", 24), ("1968", 36)):
         if counts[p] < need:
             print(f"WARNING: only {counts[p]} cards marked {p}; the Full deck needs at least {need}")
     return 0
