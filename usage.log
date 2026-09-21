@@ -1,0 +1,25 @@
+2026-09-21T17:57:06	Bash	python3 tools/ctl.py new-game TestGame4 2>&1 | tail -60	113	3544
+2026-09-21T17:57:17	Bash	python3 tools/ctl.py advance 2>&1 | tail -80	106	22441
+2026-09-21T17:57:24	Bash	head -120 transcript.log	94	4423
+2026-09-21T17:57:27	Bash	python3 tools/render.py 2>&1	74	6747
+2026-09-21T18:00:54	Bash	python3 tools/map.py "Quang Tri-Thua Thien" && echo "---" && python3 tools/map.p	223	1333
+2026-09-21T18:01:54	Bash	cat >> journal.md <<'EOF'  ## Turn 1 — card #17 Claymores — before save-003 **Si	4293	4887
+2026-09-21T18:02:00	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Event=>#Op" 2>&1 | tail -30	141	1466
+2026-09-21T18:02:05	Bash	python3 tools/ctl.py seq "Train=>#Train" 2>&1 | tail -30	114	1438
+2026-09-21T18:02:09	Bash	python3 tools/ctl.py seq "Select a space to Train=>#Select a space" 2>&1 | tail 	144	1191
+2026-09-21T18:02:13	Bash	python3 tools/ctl.py seq "Train in which space=>#Quang Tri" 2>&1 | tail -30	148	1139
+2026-09-21T18:02:18	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" 2>&1 | tail -20	150	756
+2026-09-21T18:02:31	Bash	python3 tools/ctl.py seq "Place how many Irregulars=>2" 2>&1 | tail -30	138	2130
+2026-09-21T18:02:55	Bash	python3 tools/ctl.py seq "Select a space to Train=>#Select a space" "Train in wh	176	1763
+2026-09-21T18:03:18	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" "Perform a Special	216	1897
+2026-09-21T18:03:22	Bash	python3 tools/ctl.py seq "Advise=>#Advise" 2>&1 | tail -30	107	1501
+2026-09-21T18:03:29	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger=>#Use Irregular" 2>&1 | tail -30	145	1097
+2026-09-21T18:03:33	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>#Pleiku" 2>&1 | t	154	2133
+2026-09-21T18:03:39	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger=>#Use Irregular" 2>&1 | tail -30	134	2240
+2026-09-21T18:03:47	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" 2>&1 | tail -30	105	1397
+2026-09-21T18:03:59	Bash	python3 tools/ctl.py seq "Finished selecting spaces=>#Finished selecting" 2>&1 |	154	1126
+2026-09-21T18:04:03	Bash	python3 tools/ctl.py seq "Choose final Train action=>#Pacify" 2>&1 | tail -30	126	1069
+2026-09-21T18:04:07	Bash	python3 tools/ctl.py seq "Pacify in which space=>#Saigon" 2>&1 | tail -30	122	1288
+2026-09-21T18:04:12	Bash	python3 tools/ctl.py seq "Shift 1 level to Active Support=>#Shift 1 level" 2>&1 	156	9519
+2026-09-21T18:04:28	Bash	python3 tools/report.py 2>&1 | tail -5	93	9934
+2026-09-21T18:04:32	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers ---/,$p' | grep -v '^--- Ad	145	2294
