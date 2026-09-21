@@ -109,3 +109,27 @@
 2026-09-21T19:03:53	Bash	git status --short; echo "---"; git log --oneline -1	116	143
 2026-09-21T19:05:10	Bash	git status --short && echo "---" && git log --oneline -1 && echo "---" && git di	162	203
 2026-09-21T19:13:53	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	176	100
+2026-09-21T19:14:51	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T19:20:14	Bash	python3 tools/ctl.py advance 2>&1 | tail -60	108	125
+2026-09-21T19:20:51	Bash	python3 tools/ctl.py status && ls games/TestGame4 | tail -3	121	221
+2026-09-21T19:21:05	Bash	python3 tools/ctl.py resume TestGame4 2>&1 | tail -25	103	990
+2026-09-21T19:21:42	Bash	cat >> notes.md <<'EOF' RESUMED after container loss: ctl.py resume TestGame4 fr	283	7148
+2026-09-21T19:22:21	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — #126 Young Turks — Support phase **Situat	1587	3267
+2026-09-21T19:22:28	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" "Ch	252	2767
+2026-09-21T19:22:42	Bash	python3 tools/ctl.py advance 2>&1 | tail -60	105	6918
+2026-09-21T19:23:22	Bash	python3 tools/render.py 2>&1 | sed -n '1,40p'	109	4516
+2026-09-21T19:26:03	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — #126 Young Turks — Commitment phase **Sit	2839	3926
+2026-09-21T19:26:13	Bash	python3 tools/ctl.py seq "Move how many Troops to Kien Hoa-Vinh Binh=>2" "Choose	316	4262
+2026-09-21T19:26:18	Bash	python3 tools/ctl.py seq "Move a base=>#Move a base" 2>&1 | tail -20	118	1028
+2026-09-21T19:26:24	Bash	python3 tools/ctl.py seq "Move Base from which space=>#Available" 2>&1 | tail -2	143	1288
+2026-09-21T19:26:30	Bash	python3 tools/ctl.py seq "Move the Base to which space=>#Kien Hoa" "Choose one=>	199	2035
+2026-09-21T19:26:39	Bash	sed -i 's/far more than the点 it/far more than the point it/' journal.md && pytho	192	11344
+2026-09-21T19:27:01	Bash	awk '/Reset Phase|RESET/{f=1} f' transcript.log | sed -e 's/\x1b\[[0-9;]*m//g' |	197	2984
+2026-09-21T19:27:17	Bash	python3 tools/render.py 2>&1 | sed -n '1,33p' && python3 -c " import json c=json	357	4015
+2026-09-21T19:29:09	Bash	cat >> journal.md <<'EOF'  ## Turn 8 — card #105 Rural Pressure — before save-04	3590	6333
+2026-09-21T19:29:36	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" "Place how many I	177	1593
+2026-09-21T19:29:44	Bash	python3 tools/ctl.py seq "Perform a Special Activity=>#Perform a Special" "Advis	210	2190
+2026-09-21T19:29:49	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>#Binh Dinh" 2>&1 	145	2422
+2026-09-21T19:29:57	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger=>#Use Irregular" 2>&1 | tail -22	134	2197
+2026-09-21T19:30:12	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" "US Training=>#Finished selecting" "Cho	198	2343
+2026-09-21T19:30:17	Bash	python3 tools/ctl.py seq "Shift 1 level to Active Support=>#Shift 1 level" 2>&1 	159	8887

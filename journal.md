@@ -523,3 +523,114 @@ Police under COIN Control, which makes it the second space qualifying for the
 Coup Support phase's strict test alongside Kien Hoa-Vinh Binh. Acting rather
 than passing ended the card at two factions and **denied the VC its last turn
 before the Coup**.
+
+## Coup 1 — #126 Young Turks — Support phase
+**Situation.** Victory phase: `None of the Factions has achieved its victory
+condition` — US 50 against a threshold of 50 is score +0, not a win, exactly as
+forecast. The VC then sabotaged four LoCs, which **cut Econ from 15 to 12** —
+the VC spiting ARVN's income widens my pacification floor, as the last
+post-mortem noted. ARVN earned +38 to **53 Resources**, and Aid fell 26 -> 2 on
+the 8 pieces in Casualties. Pacification headroom is 53 - 12 = 41, about
+thirteen levels, so money is not the constraint; spaces are. The program offers
+exactly the two I spent the last two actions manufacturing: **Kontum** and
+**Kien Hoa-Vinh Binh**.
+**Plan.** Pacify **both, two levels each**: Kien Hoa-Vinh Binh Neutral ->
+Active Support (pop 2, +4) and Kontum Neutral -> Active Support (pop 1, +2),
+12 Resources in total. Expected Total Support 27 -> 33, **US 50 -> 56**.
+**Rationale.** Nothing competes for these Resources — the US pacifies first in
+this phase and ARVN would otherwise spend them on its own Ops. Both spaces hold
+a single ARVN Police, so both are Govern-reachable afterwards, but Govern takes
+one level at a time and +6 banked now against that risk is a trade worth making.
+This is the pay-off for reading the Coup's phase order correctly: Support comes
+before Commitment, so these targets had to exist *before* the card turned, and
+they did.
+
+## Coup 1 — #126 Young Turks — Commitment phase
+**Situation.** Rotation sent 1 Troop Out of Play and returned all 3 Irregulars
+to Available; **4 Troop casualties are mine to place free** on any
+COIN-controlled space, LoC or Saigon. Then up to 10 Troops and 2 Bases may move
+between Available and the map, at **1 US point per piece taken out of the box**.
+ARVN's Redeploy has meanwhile placed COIN Control in Da Nang and **removed it
+from Binh Dinh** (Binh Dinh is absent from the placement list, which confirms
+it). US stands at 56 after the two pacifications: 33 Support + 23 in the box.
+
+**Plan.**
+- Free casualties: **2 to Kien Hoa-Vinh Binh, 1 to Saigon, 1 to Da Nang.**
+- Move out of Available: **1 US Base to Kien Hoa-Vinh Binh** (-1 US, to 55).
+  No Troops moved, either direction.
+
+**Rationale.** The free Troops cost nothing and should buy position the box
+cannot. Kien Hoa-Vinh Binh takes two: it is the pop-2 space I just lifted to
+Active Support and it is held by a bare 2 COIN pieces against a VC Guerrilla,
+so it is both the most valuable and the thinnest thing I own — and it is
+**adjacent to Kien Phong**, the one large Support project left on the board
+(pop 2 at Active Opposition, held by only 3 enemy pieces, an 8-point swing if
+it can be taken and pacified). Saigon takes one because 12 of my 33 Support
+points sit there next to Tay Ninh's 15 enemy pieces; the Support itself
+survives a change of Control, but **losing COIN Control there would leave me
+unable to repair Saigon if Terror knocks it down**, and that is the loss worth
+insuring against. Da Nang takes one purely to make it a Train space: Neutral at
+pop 1 and newly COIN-controlled, it is worth +2 and is otherwise unreachable,
+since Train needs a US piece present.
+The Base is the one point I will spend. ARVN has 41 Resources against Econ 12
+and no use for them that helps me; a US Base converts that dead money into
+force, because Train may place up to 6 ARVN cubes in a space holding one, for 3
+Resources. In Kien Hoa that means a pop-2 Active Support space held by a real
+margin instead of a tie, Police on the ground for the Coup 2 strict test, and a
+staging stack next door to Kien Phong. One point for six cubes and the only
+route to a pop-2 gain is the right price.
+I am **not** moving Troops out of Available, and not moving any to it. Each
+Troop out is a point for a piece with no specific job; and pieces moved *to*
+Available trigger the withdrawal penalty — the VC shifts a population toward
+Active Opposition — which at Saigon's pop 6 could cost far more than the point it
+pays. The box stays at 21 Troops and 1 Base.
+
+## Turn 8 — card #105 Rural Pressure — before save-042
+**Situation.** Coup 1 passed with no winner. The Reset degraded the Trail to 3,
+cleared the sabotage, flipped everything Underground and reshuffled; the Agitate
+Total is 2. The VC opened campaign 2 with its Critical shaded Rural Pressure:
+Ba Xuyen to Passive Opposition, Phu Bon-Phu Yen's Support removed, Kien Hoa
+knocked from Active back to Passive Support, Patronage -6. **US 55 -> 52**,
+ARVN 39 -> 33, VC 31 -> 32. The NVA passed, so I am the second actor.
+My Advise engine is back: the Reset flipped the returned Irregulars Underground,
+so Binh Dinh holds **2 Underground Irregulars** and Pleiku 1, and Saigon still
+has 2 Underground ARVN Rangers. Aid is down to 2, which as a side effect has
+all but disabled ARVN's Govern — there is nothing left to transfer.
+On deck is **#109 Nguyen Huu Tho, VC Critical/Shaded: "Place a VC Base and a VC
+Guerrilla in Saigon. Stay Eligible."** The VC leads that card and I am last in
+its order, so this cannot be denied — it is TestGame3's Saigon problem arriving
+on schedule.
+
+**Options considered.**
+- *Pass.* Pointless: passing does not improve my position on #109, where the VC
+  acts first whatever I do, and it wastes this card.
+- *Train + Advise.* Taken.
+
+**Plan.** **Op: Train. Special Activity: Advise.**
+- Train space: **Kien Hoa-Vinh Binh**. Place 2 Irregulars (free).
+- Final Train action: **Pacify Kien Hoa 1 level**, Passive -> Active Support,
+  pop 2, +2 US for 3 Resources (41 against Econ 12 — no constraint now).
+- Advise in **Binh Dinh** (2 Underground Irregulars against 1 NVA Underground
+  Guerrilla and a VC Base) and **Quang Nam** (1 Underground ARVN Ranger against
+  3 NVA Underground Guerrillas). Take the +6 Aid.
+Expected: US 52 -> 54. Binh Dinh becomes COIN-controlled once the Guerrilla
+goes (2 Irregulars against a lone Base), securing 4 points of Active Support and
+ARVN +2; Quang Nam falls to 1 Ranger against 1 Guerrilla, a tie, so **NVA
+Control breaks there**, NVA -1. If the Base in Binh Dinh is also removable the
+VC drops a point as well.
+
+**Rationale.** Kien Hoa rather than Da Nang for the pacification, although both
+are worth +2. Da Nang's two levels cost 6 Resources and would put the points in
+a Neutral pop-1 city with one US Troop, next door to Quang Nam's NVA Guerrillas
+and two LoCs the NVA is sitting on. Kien Hoa's single level costs 3 and puts
+them in a pop-2 space holding 3 US Troops, a US Base and 2 ARVN Police — the
+strongest position I have. Support persists through Control changes but not
+through Terror, so the question is which space the enemy can reach, and the
+answer is Da Nang. Da Nang keeps for later; it is not going anywhere.
+The Advise pair is the real value. Binh Dinh is 4 points of Active Support
+currently sitting **Uncontrolled** after ARVN's Redeploy pulled its Troops out,
+defended by nothing but my 2 Irregulars; removing the NVA Guerrilla restores
+COIN Control on the spot. The Bases-last rule may mean only the Guerrilla is
+offered, in which case the VC Base stays and my second Underground Irregular
+kills it next action. Quang Nam is the cheapest point on the board: one Ranger
+already standing there converts two removals into a broken NVA Control.
