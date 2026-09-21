@@ -1,0 +1,18 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "\nAdjustment: Move pieces from Available to An Loc",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Pieces: 1 ARVN Police",
+      "color": null
+    }
+  ]
+}

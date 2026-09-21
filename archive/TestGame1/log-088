@@ -1,0 +1,66 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #129 - Coup! Failed Attempt",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Operation Attleboro",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nRolling d6 to determine number of US Troops to remove: 3",
+      "color": null
+    },
+    {
+      "text": "Remove 2 US Troops from Saigon to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the VC cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

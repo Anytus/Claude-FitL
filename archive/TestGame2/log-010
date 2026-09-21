@@ -1,0 +1,446 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "Coup! Card: #125 - Coup! Nguyen Khanh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nPlace #125 - Coup! Nguyen Khanh in the RVN Leader Box",
+      "color": "Red"
+    },
+    {
+      "text": "\nConduct a Coup! Round",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVictory Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "None of the Factions has achieved its victory condition",
+      "color": null
+    },
+    {
+      "text": "\nResources Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nSabotage LoCs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no LoCs that can be sabotaged",
+      "color": null
+    },
+    {
+      "text": "\nDegrade the Trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no COIN controlled spaces in Laos or Cambodia",
+      "color": null
+    },
+    {
+      "text": "\nARVN Earnings",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Set Econ marker to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +48 to 72",
+      "color": "Blue"
+    },
+    {
+      "text": "\nInsurgent Earnings",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "VC resources are not being tracked",
+      "color": null
+    },
+    {
+      "text": "NVA resources are not being tracked",
+      "color": null
+    },
+    {
+      "text": "\nCasualties and Aid",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no pieces in the Casualties Box",
+      "color": null
+    },
+    {
+      "text": "\nSupport Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nPacification",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nPacifying in Da Nang",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 2 levels in Da Nang",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -6 to 66",
+      "color": "Blue"
+    },
+    {
+      "text": "Place Active Support marker in Da Nang",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nPacifying in Kontum",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 2 levels in Kontum",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -6 to 60",
+      "color": "Blue"
+    },
+    {
+      "text": "Place Active Support marker in Kontum",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nARVN Pacifies 1 level in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 57",
+      "color": "Blue"
+    },
+    {
+      "text": "Place Passive Support marker in Hue",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nAgitation",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVC Agitates 2 levels in Kien Hoa-Vinh Binh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place Active Opposition marker in Kien Hoa-Vinh Binh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Decrease Agitate Total by -2 to 1",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC Agitates 1 level in Phu Bon-Phu Yen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place Passive Opposition marker in Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Decrease Agitate Total by -1 to 0",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 42 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 27 to 32",
+      "color": "Blue"
+    },
+    {
+      "text": "\nRedeploy Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nLaos and Cambodia",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "No COIN forces in Laos or Cambodia",
+      "color": null
+    },
+    {
+      "text": "\nARVN Redeploy",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 ARVN Police from Saigon to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 ARVN Police from Cam Ranh to Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 ARVN Police from Can Tho to Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Redeploy",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Rolling 3d6 for number of troops per destination: 11",
+      "color": null
+    },
+    {
+      "text": "Move 3 NVA Troops from Central Laos to Southern Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nCommitment Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nROTATION: Move US base Casualties and 1\/3 US Troop Casualties to Out of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no US bases or Troops to move Out of Play",
+      "color": null
+    },
+    {
+      "text": "\nROTATION: Move US Irregular Casualties to Available",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no US Irregulars in the Casualties box",
+      "color": null
+    },
+    {
+      "text": "\nROTATION: Move up to 10 US Troops and",
+      "color": null
+    },
+    {
+      "text": "up to 2 bases among Available box, COIN controlled spaces, LoCs and Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 3 US Troops from AVAILABLE into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 US Troop from AVAILABLE into Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 US Troop from AVAILABLE into Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 US Troop from AVAILABLE into Quang Nam",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nWITHDRAWAL: For every 2 US pieces just removed to Available, VC shifts",
+      "color": null
+    },
+    {
+      "text": "1 population of support by 1 level toward Active Opposition",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "0 pieces were removed to Available",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "No shifts in support possible",
+      "color": null
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 48 to 42",
+      "color": "Blue"
+    },
+    {
+      "text": "\nReset Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Active Irregular in Binh Dinh to UNDERGROUND",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip 1 VC Active Guerrilla in Kien Hoa-Vinh Binh to UNDERGROUND",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nMove all faction cylinders to the Eligible Factions box.",
+      "color": null
+    },
+    {
+      "text": "\nRolling d3 to set the Agitate Total: 1",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Set Agitate Total (VC resources cylinder) to 1",
+      "color": "Blue"
+    },
+    {
+      "text": "\nThe Trung deck has been reshuffled",
+      "color": null
+    }
+  ]
+}
