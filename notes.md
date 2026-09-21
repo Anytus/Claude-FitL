@@ -22,3 +22,4 @@ card #38 McNamara Line: Train Quang Nam (pacify 2 levels) + Air Lift Irregular i
 card #24 Operation Starlite: Event unshaded, cleared all VC from Quang Tin-Quang Ngai (2 Bases, 4 Guerrillas) — VC 32->30, opens a pop-2 project
 card #14 M-48 Patton: Patrol 2 Troops Kien Hoa->Saigon + Advise (Quang Nam removal restores COIN control, ARVN Assault Saigon kills 2 VC) — defended Saigon, NVA 15->14
 card #67 Amphib Landing: LimOp Train Saigon -> Transfer patronage 3 (capped at 3) — ends card so VC cannot act before Victory check; ARVN 34->31
+Coup 2 (#125 Nguyen Khanh): GAME OVER — US wins with a victory margin of 6 (US 56, VC 30, NVA 14, ARVN 31). Program awaiting "continue playing? (y/n)" — unanswered, Kevin's call.

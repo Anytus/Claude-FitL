@@ -2612,4 +2612,26 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 
+Enter the number of the next On Deck Event card: 10
+
+
+>>> 2nd Coup Round <<<
+====================================================
+Current card: #125 - Coup! Nguyen Khanh
+(coup or ?): coup
+Coup! Card: #125 - Coup! Nguyen Khanh
+----------------------------------------------------
+[31m
+Place #125 - Coup! Nguyen Khanh in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+
+[33m====================================================[0m
+Game over in the 2nd Coup! round
+[33mUS wins with a victory margin of 6![0m
+
+Do you want to continue playing this game? (y/n)

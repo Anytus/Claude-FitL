@@ -887,3 +887,12 @@ step that wasted an action in TestGame3; every answer here goes by label.
 **Result.** The card ended at two acting factions and **the VC never moved**.
 Going into the Coup 2 Victory check: **US 56 (+6)**, VC 30 (-5), NVA 14 (-4),
 ARVN 31 (-19).
+
+## Coup 2 — #125 Nguyen Khanh — Victory phase
+`Game over in the 2nd Coup! round / US wins with a victory margin of 6!`
+Final check: **US 56 (+6)** — Total Support 34 plus 22 in the force pool —
+against VC 30 (-5), NVA 14 (-4), ARVN 31 (-19). The earliest win of the four
+games: TestGame1 lost at the 3rd Coup, TestGame2 and TestGame3 won at the 3rd.
+The program is holding at `Do you want to continue playing this game? (y/n)`.
+**Not answered** — continuing past a win, as Kevin did in TestGame3 for rules
+exploration, is his call and not mine, and `n` is irreversible.
