@@ -818,3 +818,44 @@ both of which Train can reach because Train accepts Irregulars, and both of
 which are Govern targets. The other lever is Kien Hoa-Vinh Binh: Neutral, pop 2,
 3 US Troops against 3 VC Guerrillas, needing one more US piece for COIN Control
 and then 2 levels of Train Pacify for **+4 US**.
+
+## Turn 11 — card #83 Election — before save-060
+**Situation.** NVA 19 (+1), VC 31, US 46, ARVN 39. The NVA wins at the next Coup
+Victory check unless I take a point off it, and out-scoring it is not a
+substitute: at exactly 50 my score is 0, not above 0, and at 51 we would both be
++1 with the tie going to the NVA. ARVN has just taken **Op Only** (Patrol along
+the Saigon-Can Tho LoC, one NVA Guerrilla killed), so my menu is Limited Op or
+Pass — no Event, and crucially **no Special Activity**.
+**Options considered.**
+- *Limited Op.* Everything useful is out of reach. Train can only select spaces
+  holding US pieces, and Binh Dinh — the space I need — holds nothing but ARVN.
+  Assault needs US Troops beside removable enemies, and the only US Troops
+  co-located with anything are the 2 in Kien Hoa-Vinh Binh facing 3 *Underground*
+  Guerrillas. Sweep is taxed by Booby Traps. What is left is Train-Pacify
+  Pleiku-Darlac, Passive -> Active Support at pop 1: **+1 US**, and the NVA still
+  at 19.
+- *Pass.*
+**Plan.** **Pass.**
+**Rationale.** On deck is #67 Amphib Landing, order ARVN, US, VC, NVA. ARVN has
+just acted and is Ineligible there; the VC and NVA are behind me in the order.
+So if I stay Eligible I am **first eligible on #67 with the full menu, guaranteed
+by turn order** — nobody precedes me, and this does not depend on a bot's choice
+the way card #29 did.
+The alternative is far worse than its +1 suggests. If I spend a Limited Op here I
+am Ineligible on #67, where the eligible factions would be exactly VC and NVA —
+so the NVA gets a free action to build on 19 and I would have no way to touch it
+before the Coup, which could be the very next card. Passing keeps the NVA's score
+at 19 for one more card but guarantees me the action that can cut it.
+What that action can be: **Advise in Binh Dinh**. It is NVA 8 pieces against 6
+COIN, and ARVN's Transport left **2 Underground Rangers** sitting there, so the
+Irregular/Ranger removal takes 2 NVA pieces, leaves 6 against 6, and breaks NVA
+Control for **-2, taking the NVA to 17 and below its threshold.** #67's own
+unshaded side is a second route to the same end — relocate US Troops among
+coastal spaces, then a free Sweep and Assault in one coastal space, with Binh
+Dinh, Quang Tri-Thua Thien and Quang Tin-Quang Ngai all coastal — so I will have
+two ways to do it and can pick on the board I see.
+**Execution.** Passed (2). No rejections. Eligibility confirmed as the plan
+requires: US, VC and NVA Eligible, ARVN Ineligible — so on #67 the order is
+ARVN (out), **US**, VC, NVA and I act first.
+**Result.** +3 ARVN Resources (24). No board change. NVA stays at 19 (+1) for
+one more card, which is the price of the guaranteed action.

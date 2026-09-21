@@ -179,4 +179,140 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 67
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #83 - Election (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+Eligible      : ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (5): 13 [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - H
+Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - HH
+Trung check: 3d6 <= Available ARVN pieces (5): 7 [No]
+
+No spaces found for ARVN Assault
+[31m
+The operation for Trung: ARVN - H would be ineffective.[0m
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (5): 7 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - MM
+Trung check: All routes from Can Tho to Hue blocked? [Yes]
+
+ARVN chooses Patrol operation
+====================================================
+[34mDecrease ARVN resources by -3 to 21[0m
+
+ARVN selects LOC Saigon -- An Loc -- Ban Me Thuot as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[35mMove 1 ARVN Police from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Da Nang -- Qui Nhon as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Saigon to LOC Da Nang -- Qui Nhon[0m
+[35mMove 1 ARVN Police from Saigon to LOC Da Nang -- Qui Nhon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Kontum -- Dak To as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Saigon to LOC Kontum -- Dak To[0m
+[35mMove 1 ARVN Police from Saigon to LOC Kontum -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Saigon -- Can Tho as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Saigon to LOC Saigon -- Can Tho[0m
+[35mMove 1 ARVN Police from Saigon to LOC Saigon -- Can Tho[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Patrol - Activating guerrillas on LOCs
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Saigon -- Can Tho to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[36mFlip 1 NVA Underground Guerrilla in LOC Da Nang -- Qui Nhon to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[36mFlip 1 NVA Underground Guerrilla in LOC Saigon -- An Loc -- Ban Me Thuot to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN assaults in LOC Saigon -- Can Tho
+----------------------------------------------------
+The assault inflicts 1 hit
+
+[35mRemove 1 NVA Active Guerrilla from LOC Saigon -- Can Tho to AVAILABLE[0m
+[34m
+Move the ARVN cylinder to the Op Only box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #83 - Election (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+Eligible      : US
+Acted         : ARVN -> Op Only
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 24[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
