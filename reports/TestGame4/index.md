@@ -1,3 +1,4 @@
 - report-001-004.md: #48 - Nam Dong; #17 - Claymores
 - report-005-016.md: #17 - Claymores; #118 - Korean War Arms; #116 - Cadres; #26 - LRRP; #1 - Gulf of Tonkin
 - report-017-027.md: #1 - Gulf of Tonkin; #79 - Henry Cabot Lodge; #112 - Colonel Chau; #66 - Ambassador Taylor
+- report-028-037.md: #66 - Ambassador Taylor; #51 - 301st Supply Bn; #75 - Sihanouk; #43 - Economic Aid

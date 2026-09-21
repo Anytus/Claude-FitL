@@ -316,3 +316,210 @@ Control break lasted one bot action because it was bought with a tie, and a
 tie is one Bombard wide. **Breaking Control by adding pieces is only as durable
 as the thinnest margin in the stack — prefer removing enemy pieces, or add
 enough to hold a real margin.**
+
+## Turn 5 — card #66 Ambassador Taylor — before save-027
+**Situation.** ARVN opened #66 with an **Op Only** (Training Rangers into Saigon
+and 3 Troops + 3 Police into Hue), which closes both the Event and any Special
+Activity to me: my menu is Limited Op or Pass. That is expensive, because
+Ambassador Taylor unshaded is the card TestGame3 built its game on — "up to 2
+US pieces from out-of-play to South Vietnam" is exactly the Province Base I
+need — and I cannot reach it. Meanwhile the VC's Colonel Chau has taken
+Ba Xuyen, Khanh Hoa and Kien Hoa-Vinh Binh from Passive Support to Neutral and
+dropped a Guerrilla into each, breaking COIN Control in all three, and the NVA's
+Bombard has put the Trail at 4 and 2 US Troops in Casualties.
+**US is back to exactly 50, score +0.** Pile 1 has three cards left and one of
+them is the Coup, so I have perhaps two more actions to find a point.
+
+**Options considered.**
+- *Pass.* +3 Resources, but on deck is #51 in the order NVA, VC, US, ARVN with
+  both the NVA and the VC marked **Ignored**, which means an Op from each every
+  time; two bots act and the card ends before my slot. Passing here buys
+  nothing and loses this card too.
+- *Limited Op Train + Pacify.* **Not available.** The Train list is every space
+  holding a US piece — Hue, Saigon, Pleiku-Darlac, Binh Dinh, Quang Tri — and of
+  those the three COIN-controlled ones are all already at Active Support, while
+  Binh Dinh and Quang Tri are under NVA Control. Da Nang and Kontum are
+  COIN-controlled and Neutral but I emptied them of US Troops last action, so
+  they are not Train spaces. There is no pacification on the board this card.
+- *Limited Op Assault in Binh Dinh.* Two US cubes in Highland is about 1 hit,
+  enough to take NVA from 6 pieces to 5 against 5 others and break Control for
+  -2 NVA. Rejected: it is the same tie-width gain the Bombard just undid, and
+  it does nothing for a US score sitting exactly on the threshold.
+- *Limited Op Train in Saigon -> Transfer patronage.* Tempting as the one
+  untested US tool and it would raise the Resources that are now capping my
+  pacification, but it scores nothing and builds nothing.
+
+**Plan.** **Limited Op: Sweep in Kien Hoa-Vinh Binh, moving 1 US Troop from
+Saigon.**
+Expected: Kien Hoa-Vinh Binh becomes COIN-controlled (1 US Troop + 1 ARVN
+Police against 1 VC Guerrilla), ARVN +2, and the Guerrilla flips Active. No US
+points this card.
+Fallback: if a Limited Op Sweep turns out not to offer troop movement, `abort`
+at the operation menu — which reverses with no state change — and Patrol 1 US
+Troop from Hue to Da Nang instead, which is certain and sets up +1 or +2.
+
+**Rationale.** With no pacification available, the only thing worth doing with
+a Limited Op is to manufacture one for the next action, and the question is
+which target. Kien Hoa-Vinh Binh is **pop 2** and one COIN piece short of
+Control: a single US Troop makes it 2 against 1, turns it into a Train space,
+and puts a two-level shift from Neutral worth **+4** within reach, against
+Da Nang's or Kontum's +2 at pop 1. It is also the space the VC just took off
+me, so it is a repair rather than a new commitment.
+One Troop, not two, and from Saigon rather than Hue. Saigon carries 12 of my
+27 Support points and sits adjacent to Tay Ninh, where the VC now has 6
+Guerrillas; at 8 COIN pieces it is untouchable, at 7 it still is, but at 6 a
+six-Guerrilla March would tie it and strip COIN Control. One Troop keeps Saigon
+at 7 and safely out of reach, and Kien Hoa only needs one.
+The Resource position is the real constraint now and it is worth naming: 18
+against Econ 15 leaves headroom for a **single** level, so even next card
+Kien Hoa is +2 rather than +4 unless ARVN's Resources recover. That is the
+argument for making the target a pop-2 space rather than a pop-1 one — at one
+affordable level, pop 2 pays double.
+
+**Execution.** No rejection, no abort, no deviation. **A Limited Op Sweep does
+offer troop movement** — the fallback was not needed. Flow: `US Sweep space` ->
+bare `Sweep in which space` -> `US Sweep Troops into` -> `US Move troops to
+<space> from` (adjacent spaces holding US Troops) -> a count. Saigon was the
+only source offered, confirming Sweep movement is one space.
+
+**Result.** `Place COIN Control marker in Kien Hoa-Vinh Binh`, ARVN 38 -> 40,
+and the VC Guerrilla there flipped Active. US unchanged at 50, as planned.
+
+## Turn 6 — card #75 Sihanouk — before save-033
+**Situation.** The Trail reached 4 and the NVA showed what that means: on #51
+it Marched to **ten destinations in a single operation**, taking Control of
+Quang Tin-Quang Ngai, Tay Ninh, Quang Nam, Quang Duc-Long Khanh, Phuoc Long and
+three Cambodian spaces, and Ambushing the Police out of Da Nang and Quang Nam.
+**NVA 14 -> 20**, above its threshold of 18, before ARVN's Assaults on #75
+pulled it back to 16. ARVN has also spent itself down: **ARVN Resources are 12
+against Econ 15**, which means pacification is not merely limited but
+*refused* — the program rejects it outright below Econ. US sits on exactly 50.
+The deck now says 12 of pile 1's 13 cards are drawn and all 12 were events, so
+**card 13 is the Coup**: #43 Economic Aid is the last event card of the
+campaign, and I have at most two decisions left.
+I am the only Eligible faction on #75 — ARVN acted, NVA and VC are Ineligible.
+
+**Options considered.**
+- *Sihanouk unshaded* ("free Sweep into or in any Cambodia spaces, then free
+  Assaults in one"). No denial value at all: both bots marked for the shaded
+  side are Ineligible, so nobody can cast it whatever I do. And the effect is
+  nearly empty for me — Cambodia is pop 0, so NVA Control there is worth 0
+  points, and I have no US Troops adjacent to Cambodia to Sweep with.
+- *Limited Op.* **Worthless this card.** Every Train action is gated on ARVN
+  Resources exceeding Econ, and 12 against 15 fails the test, so neither Pacify
+  nor cube placement is available; an Assault in Binh Dinh would remove one NVA
+  piece from a space that is already COIN-controlled, for no points.
+- *Pass.* Taken.
+
+**Plan.** **Pass.** +3 ARVN Resources (12 -> 15), and stay Eligible for #43.
+
+**Rationale.** This is the pass that the whole campaign turns on. **#43 Economic
+Aid unshaded reads "2 ARVN or 2 US Bases out-of-play to Available. Then ARVN
+Resources +6 or Aid +12."** US Bases in Available count for the US score and
+Out-of-Play pieces count nothing, so moving my 2 Out-of-Play Bases into the box
+is **+2 US, straight to 52**, which is the difference between winning Coup 1 and
+repeating TestGame3's exact mistake of sitting on the threshold. Acting here
+makes me Ineligible on #43 and the card would go unplayed — both bots are
+marked *Ignored* on it, which means an Op every time — leaving me at 50 and
+score +0 at the Victory check.
+Passing keeps me Eligible, and on #43 the order is NVA, ARVN, US, VC with ARVN
+Ineligible, so only the NVA acts ahead of me. The one risk is an NVA **Op Only**,
+which would close the Event; but its Special Activity chain is reliable — when
+the `3d6 <= Available NVA Troops` check fails it simply Bombards instead, as it
+did on #112 — so it has taken an Op *with* a Special Activity on every card of
+this game.
+If the Event is reached I will take the **2 US Bases** and then **Aid +12**
+rather than Resources +6: the Coup's Resources phase adds Econ + Aid to ARVN's
+pile, so Aid is worth its face value in Resources at the Coup *and* keeps
+paying at the next one, while +6 Resources is a one-off. Neither affects the
+Victory check, which is the first phase; the Bases do.
+
+**Execution.** Passed as planned; ARVN Resources 12 -> 15.
+
+**Result.** **The risk I named came in.** The NVA's Special Activity chain broke
+for once — `3d6 <= Available NVA Troops (2)` failed and, with no March to Ambush
+from, it took an **Op Only** instead of Bombarding — so Economic Aid is closed
+to me and the +2 US Bases are gone. Its Attack then removed 2 US Troops from
+Binh Dinh and **1 Troop plus all 3 Underground Irregulars from Quang
+Tri-Thua Thien**, which is my Advise engine destroyed in one operation: 5 US
+Troops and 3 Irregulars now sit in Casualties and I have **no Irregulars
+anywhere**. The pass itself was still the right price — a Limited Op at 12
+Resources against Econ 15 could do nothing at all — but the plan rested on a
+bot habit rather than on a rule, and the habit broke.
+
+## Turn 7 — card #43 Economic Aid [MONSOON] — before save-035
+**Situation.** Last event card of the campaign: **#126 Coup! Young Turks is on
+deck.** The NVA's Op Only leaves me Limited Op or Pass. ARVN Resources are
+**15 against Econ 15**, and the gate is Resources *exceeding* Econ, so
+pacification is refused outright — there is no move on this board that raises
+Total Support. Available holds 21 Troops and 2 Bases and no Op can add to it.
+**So US stands at exactly 50, score +0, and cannot reach 51 before the Victory
+check.** Nobody else is above 0 either — NVA 16 (-2), VC 29 (-6), ARVN 40
+(-10) — so Coup 1 will pass with no winner and the game goes to campaign 2.
+Accepting that, this action is worth exactly what it does for **Coup 2**.
+
+**Options considered.**
+- *Train in Kien Hoa-Vinh Binh and Pacify.* The one line that would win the game
+  now, and it is closed: 15 is not greater than 15, and even a single level
+  would leave 12, below Econ. Not worth spending the action to watch the menu
+  refuse it.
+- *Train in Saigon -> Transfer patronage to ARVN resources.* Still the one
+  untested US tool, and it would cut ARVN's Patronage. Deferred: the Coup's
+  Resources phase is about to hand ARVN roughly +41 anyway, so the Resources
+  half is worthless this card, and ARVN at -10 is not the faction to attack.
+- *Assault.* Not available where it matters — the NVA's Attack left **no US
+  Troops in Binh Dinh**, and US Assault needs them.
+- *Pass.* Rejected, and this is the point: the NVA has acted, so **my acting
+  ends the card at two factions and the VC never gets its turn**. Passing would
+  hand the VC a free Limited Op immediately before the Victory check.
+
+**Plan.** **Limited Op: Patrol. Move 1 US Troop from Hue to Kontum.** If the
+Limited Op allows a second destination, also move Pleiku-Darlac's Troop to
+Qui Nhon.
+Expected: no score change now; Kontum becomes a qualifying space for the Coup
+Support phase.
+
+**Rationale.** The Coup's phase order decides this. Victory is first, so nothing
+I do now can win Coup 1; **Support comes third, before Commitment**, so the
+free Troop casualties I get to place on the map arrive *too late* to create
+pacification targets for this Coup's Support phase. Anything I want to pacify
+at the Coup has to have US Troops and ARVN Police standing in it **before the
+card turns**, and that is this action's only real job.
+The Resources phase will give ARVN Econ + Aid — roughly +41 on Aid 26 — so at
+the Support phase I will have something like 56 against Econ 15 and can afford
+a dozen levels; the binding constraint will be **qualifying spaces, not money**.
+Today only three qualify (Hue, Saigon, Kien Hoa-Vinh Binh) and the first two
+are already at Active Support, so the phase would pacify Kien Hoa for +4 and
+then stop with three of its four slots unused. Moving one idle Troop into
+Kontum — COIN-controlled, Neutral, ARVN Police already there — adds a second
+slot worth +2, and leaves US Troops in a II Corps city for the whole of
+campaign 2. Hue's Troop is the right one to spend: Hue is already at Active
+Support with 5 ARVN Police holding Control, so the Troop is doing nothing
+there, whereas Saigon's last Troop is load-bearing with 6 VC Guerrillas and an
+NVA stack next door in Tay Ninh.
+
+**Execution.** Monsoon printed `Sweep is prohibited [Not allowed in Monsoon]`
+and the operation menu listed only Train, Patrol, Assault. The Hue -> Kontum
+move went as planned. **Then a deviation, and it was mine.** I tried to send
+Pleiku-Darlac's Troop on to Qui Nhon for a second qualifying space; the program
+never offered `Select destination` and moved it straight to **Kontum**. A
+**Limited Op Patrol funnels every move into the one space** — that is what
+"a single space" means for Patrol, and I should have seen it before spending
+the second Troop. The `seq` guard did its job: the step expecting `Select
+destination` found the Move-cubes menu instead and stopped without sending
+`Qui Nhon` into it, so the mistake cost a wasted Troop move and nothing worse.
+Net effect: Kontum holds 2 US Troops where 1 would have done, Pleiku-Darlac is
+down to its Base and an Active Irregular (still COIN-controlled, still a Train
+space through the Base), and the Qui Nhon +1 was never available.
+One new fact for the record: the Patrol's closing `Assault at one LOC` resolved
+as **`US assaults in Kontum`** — the Patrol destination, a City, not a LoC —
+and **2 US Troops in a City inflicted 2 hits**, confirming roughly one hit per
+cube in a City. Nothing was there to remove, so it was a harmless no-op.
+
+**Result.** No score change, as expected: **US 50, score +0 going into the
+Victory check**, with NVA 16 (-2), VC 29 (-6), ARVN 40 (-10) — no faction above
+0, so Coup 1 will produce no winner. Kontum now has US Troops beside its ARVN
+Police under COIN Control, which makes it the second space qualifying for the
+Coup Support phase's strict test alongside Kien Hoa-Vinh Binh. Acting rather
+than passing ended the card at two factions and **denied the VC its last turn
+before the Coup**.
