@@ -553,3 +553,59 @@ configuration the plan depends on.
 **Result.** +3 ARVN Resources (45). No board change. #72 Body Count is current
 with US, VC and NVA eligible and ARVN out; NVA acts first, I act second, and the
 card ends before the VC.
+
+## Turn 7 — card #72 Body Count — before save-039
+**Situation.** NVA took Op + Special Activity (Infiltrate 6 Troops into North
+Vietnam; March a Guerrilla out of Quang Tri onto the Saigon-An Loc LoC and 3
+Troops from the Parrot's Beak into Kien Giang-An Xuyen for NVA Control, NVA 11
+-> 13). As second eligible after an Op + SA my menu is Event, Limited Op or
+Pass — no Special Activity, so the Air Lift that the Kien Hoa-Vinh Binh plan
+needs is not available this card. US 47, VC 33, ARVN 43, NVA 13.
+**The redundancy that decides this.** A Limited Op's only scoring content is
+Train in Quang Nam, pacifying it 2 levels from Neutral to Active Support for
++2. But Quang Nam holds COIN Control, a US Troop and an ARVN Police, which is
+exactly the Coup Support phase's test — **the Coup will pacify it for me
+anyway**, and it is my only candidate against four slots there. The +2 would
+only be worth something if it carried me over 50 at the Coup 2 Victory check,
+and 47 + 2 = 49. So the Limited Op is worth close to nothing.
+**Options considered.**
+- *Event.* Body Count unshaded is a momentum making Assault and Patrol cost 0
+  with +3 Aid per Guerrilla removed. I have almost no Assault targets that are
+  not Underground. Worthless. The shaded side is obviously not mine to play, and
+  the VC cannot reach it either: NVA has acted, so my acting ends the card.
+- *Limited Op -> Quang Nam.* +2, redundant as above.
+- *Limited Op -> Train Saigon, transfer Patronage to ARVN Resources.* Not
+  redundant — the Coup cannot do it — but it is aimed at ARVN on 43 needing 51,
+  not at the VC on 33 needing 36.
+- *Pass.*
+**Plan.** **Pass.**
+**Rationale.** The VC is the only faction that can end the game at the Coup 2
+Victory check, and it needs 3 points it can plausibly find: Terror in Khanh Hoa
+(Neutral, pop 1, VC Guerrilla present) is +1, Terror in Phu Bon-Phu Yen
+(Passive -> Active Opposition) is +1, and it still holds a Base in Available
+worth +1 if it Rallies one out. Taking 4 points off it at Kien Hoa-Vinh Binh —
+Air Lift 2 US Troops from Saigon, which ARVN has just garrisoned with 5 Troops
+and 4 Police, then Train-Pacify 2 levels from Active Opposition to Neutral —
+puts the VC on 29 and out of reach. That needs a full Op + Special Activity,
+which #59 can give me: NVA has acted and so is Ineligible there, ARVN acts
+first, I act second, and ARVN is marked Performed/Unshaded, so the likeliest
+branch hands me the Op + SA.
+**The dependency, stated plainly.** This is *not* the guaranteed-by-turn-order
+case I had on #66. It needs **the VC to act on #72**, so that it is Ineligible
+on #59 and does not take the slot ahead of me. If the VC passes, #59 is VC then
+ARVN and I am shut out — the #29 failure exactly. The VC has acted on all four
+cards it was eligible for this game, but ARVN was four-for-four before it passed
+on me. What makes the bet defensible this time is not a better read of the bot,
+it is that the thing I am risking is worth almost nothing: the Limited Op I am
+declining duplicates a Coup pacification I will get for free. I am wagering ~0
+for a ~4-point cut in the only score that can beat me.
+**Execution.** Passed (3). No rejections.
+**Result.** The dependency held: **the VC acted**, taking Body Count shaded, so
+it is Ineligible on #59 and my slot there is now secured by turn order — #59 is
+ARVN then US, and nobody else is eligible. The event itself placed 6 Guerrillas
+into Active Opposition spaces and 2 NVA Troops into the Parrot's Beak, which
+cost the **NVA** two Control markers (Kien Giang-An Xuyen and Kien Phong, NVA
+13 -> 9) and left the VC score untouched at 33, since Guerrillas do not score.
+The one thing that matters for my plan: Kien Hoa-Vinh Binh now holds 3 VC
+Guerrillas against my 2 US Troops, so COIN Control there needs 4 US pieces, not
+3 — the Air Lift has to bring 2 Troops, not 1.
