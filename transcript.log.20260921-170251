@@ -1,0 +1,906 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+sbd)
+----------------------------------------------------
+
+Which game would you like to play:
+====================================================
+1) Start a new game
+2) Resume 'TestGame3', Full: 1964-1972  [#125 - Coup! Nguyen Khanh] 3rd Coup! round
+3) Quit
+----------------------------------------------------
+Selection: 2
+
+
+>>> 3rd Coup Round <<<
+====================================================
+Current card: #125 - Coup! Nguyen Khanh
+(coup or ?): coup
+Coup! Card: #125 - Coup! Nguyen Khanh
+----------------------------------------------------
+[31m
+Place #125 - Coup! Nguyen Khanh in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+
+[33m====================================================[0m
+Game over in the 3rd Coup! round
+[33mUS wins with a victory margin of 8![0m
+
+Do you want to continue playing this game? (y/n)y
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Saigon -- Can Tho[0m
+[33mAdd 1 sabotage marker to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[33mAdd 1 sabotage marker to LOC Saigon -- Da Lat[0m
+[33mAdd 1 sabotage marker to LOC Saigon -- Cam Ranh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 10[0m
+[34mIncrease ARVN resources by +67 to 75[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+[34mDecrease US Aid by -21 to 36[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+
+US does not pacify any spaces
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN does not pacify any spaces
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Agitation
+----------------------------------------------------
+
+VC Agitates 2 levels in Saigon
+----------------------------------------------------
+[33mRemove Active Support marker from Saigon[0m
+[34mDecrease Agitate Total by -2 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Agitates 2 levels in Tay Ninh
+----------------------------------------------------
+[33mRemove 1 terror marker from Tay Ninh[0m
+[33mPlace Active Opposition marker in Tay Ninh[0m
+[34mDecrease Agitate Total by -3 to 13[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Agitates 2 levels in Quang Tin-Quang Ngai
+----------------------------------------------------
+[33mRemove 1 terror marker from Quang Tin-Quang Ngai[0m
+[33mPlace Active Opposition marker in Quang Tin-Quang Ngai[0m
+[34mDecrease Agitate Total by -3 to 10[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 58 to 46[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 18 to 26[0m
+
+Redeploy Phase
+====================================================
+
+Laos and Cambodia
+----------------------------------------------------
+No COIN forces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Redeploy
+----------------------------------------------------
+[35mMove 3 ARVN Troops from Kien Phong to Saigon[0m
+[35mMove 2 ARVN Troops from LOC Saigon -- An Loc -- Ban Me Thuot to Saigon[0m
+[35mMove 1 ARVN Troop from LOC Da Nang -- Dak To to Pleiku-Darlac[0m
+[35mMove 1 ARVN Troop from LOC Saigon -- Can Tho to Saigon[0m
+[35mMove 1 ARVN Troop from LOC Saigon -- An Loc -- Ban Me Thuot to Saigon[0m
+[35mMove 1 ARVN Troop from LOC Saigon -- Can Tho to Saigon[0m
+[35mMove 1 ARVN Troop from LOC Saigon -- Can Tho to Saigon[0m
+[35mMove 1 ARVN Police from Hue to LOC Saigon -- Cam Ranh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Redeploy
+----------------------------------------------------
+Rolling 3d6 for number of troops per destination: 10
+[35mMove 5 NVA Troops from Tay Ninh to Southern Laos[0m
+[35mMove 2 NVA Troops from Saigon to Southern Laos[0m
+[35mMove 3 NVA Troops from Pleiku-Darlac to The Parrot's Beak[0m
+[35mMove 5 NVA Troops from Quang Tin-Quang Ngai to The Parrot's Beak[0m
+[35mMove 1 NVA Troop from Quang Tin-Quang Ngai to Kien Giang-An Xuyen[0m
+[35mMove 2 NVA Troops from Saigon to Kien Giang-An Xuyen[0m
+[35mMove 2 NVA Troops from Quang Duc-Long Khanh to Kien Giang-An Xuyen[0m
+[35mMove 2 NVA Troops from The Fishhook to Kien Giang-An Xuyen[0m
+[35mMove 2 NVA Troops from Central Laos to Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Kien Giang-An Xuyen[0m
+[33mPlace COIN Control marker in Pleiku-Darlac[0m
+[33mPlace COIN Control marker in Saigon[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 31 to 38[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 11 to 13[0m
+
+Commitment Phase
+====================================================
+
+ROTATION: Move US base Casualties and 1/3 US Troop Casualties to Out of Play
+----------------------------------------------------
+[35mMove 1 US Troop from CASUALTIES to OUT OF PLAY[0m
+
+ROTATION: Move US Irregular Casualties to Available
+----------------------------------------------------
+[35mMove 2 US Underground Irregulars from CASUALTIES to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ROTATION: Place the remaining US Troop Casualties on the map
+----------------------------------------------------
+
+4 Troop casualties remaining to place on the map
+Choose space to place Troops
+====================================================
+ 1) An Loc
+ 2) Cam Ranh
+ 3) Can Tho
+ 4) Da Nang
+ 5) Hue
+ 6) Kontum
+ 7) Qui Nhon
+ 8) Saigon
+ 9) Ba Xuyen
+10) Binh Dinh
+11) Khanh Hoa
+12) Phu Bon-Phu Yen
+13) Pleiku-Darlac
+14) Quang Tri-Thua Thien
+15) LOC Ban Me Thuot -- Da Lat
+16) LOC Cam Ranh -- Da Lat
+17) LOC Can Tho -- Bac Lieu
+18) LOC Can Tho -- Chau Doc
+19) LOC Can Tho -- Long Phu
+20) LOC Da Nang -- Dak To
+21) LOC Da Nang -- Qui Nhon
+22) LOC Hue -- Da Nang
+23) LOC Hue -- Khe Sanh
+24) LOC Kontum -- Ban Me Thuot
+25) LOC Kontum -- Dak To
+26) LOC Kontum -- Qui Nhon
+27) LOC Qui Nhon -- Cam Ranh
+28) LOC Saigon -- An Loc -- Ban Me Thuot
+29) LOC Saigon -- Cam Ranh
+30) LOC Saigon -- Can Tho
+31) LOC Saigon -- Da Lat
+----------------------------------------------------
+Selection: 5
+Move how many Troops to Hue (0 - 4): 2
+[35mMove 2 US Troops from CASUALTIES to Hue[0m
+
+2 Troop casualties remaining to place on the map
+Choose space to place Troops
+====================================================
+ 1) An Loc
+ 2) Cam Ranh
+ 3) Can Tho
+ 4) Da Nang
+ 5) Hue
+ 6) Kontum
+ 7) Qui Nhon
+ 8) Saigon
+ 9) Ba Xuyen
+10) Binh Dinh
+11) Khanh Hoa
+12) Phu Bon-Phu Yen
+13) Pleiku-Darlac
+14) Quang Tri-Thua Thien
+15) LOC Ban Me Thuot -- Da Lat
+16) LOC Cam Ranh -- Da Lat
+17) LOC Can Tho -- Bac Lieu
+18) LOC Can Tho -- Chau Doc
+19) LOC Can Tho -- Long Phu
+20) LOC Da Nang -- Dak To
+21) LOC Da Nang -- Qui Nhon
+22) LOC Hue -- Da Nang
+23) LOC Hue -- Khe Sanh
+24) LOC Kontum -- Ban Me Thuot
+25) LOC Kontum -- Dak To
+26) LOC Kontum -- Qui Nhon
+27) LOC Qui Nhon -- Cam Ranh
+28) LOC Saigon -- An Loc -- Ban Me Thuot
+29) LOC Saigon -- Cam Ranh
+30) LOC Saigon -- Can Tho
+31) LOC Saigon -- Da Lat
+----------------------------------------------------
+Selection: 4
+Move how many Troops to Da Nang (0 - 2): 2
+[35mMove 2 US Troops from CASUALTIES to Da Nang[0m
+
+ROTATION: Move up to 6 US Troops and
+up to 2 bases among Available box, COIN controlled spaces, LoCs and Saigon
+----------------------------------------------------
+
+Moved so far: 0/6 troops and 0/2 bases
+Choose one:
+====================================================
+1) Move troops
+2) Move a base
+3) Finished moving pieces
+----------------------------------------------------
+Selection: 3
+No pieces were moved
+
+WITHDRAWAL: For every 2 US pieces just removed to Available, VC shifts
+1 population of support by 1 level toward Active Opposition
+
+0 pieces were removed to Available
+----------------------------------------------------
+No shifts in support possible
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Reset Phase
+====================================================
+The Trail is in 0 box
+[34mImprove the trail by 1 box to 1[0m
+[33mRemove 1 terror marker from Binh Tuy-Binh Thuan[0m
+[33mRemove 1 sabotage marker from LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[33mRemove 1 sabotage marker from LOC Saigon -- Cam Ranh[0m
+[33mRemove 1 sabotage marker from LOC Saigon -- Can Tho[0m
+[33mRemove 1 sabotage marker from LOC Saigon -- Da Lat[0m
+[36mFlip 1 US Active Irregular in Da Nang to UNDERGROUND[0m
+[36mFlip 1 NVA Active Guerrilla in Saigon to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in Saigon to UNDERGROUND[0m
+[36mFlip 1 US Active Irregular in Binh Dinh to UNDERGROUND[0m
+[36mFlip 1 ARVN Active Ranger in Binh Tuy-Binh Thuan to UNDERGROUND[0m
+[36mFlip 1 NVA Active Guerrilla in Kien Hoa-Vinh Binh to UNDERGROUND[0m
+[36mFlip 1 US Active Irregular in Pleiku-Darlac to UNDERGROUND[0m
+[36mFlip 1 ARVN Active Ranger in Pleiku-Darlac to UNDERGROUND[0m
+[36mFlip 5 VC Active Guerrillas in Quang Tin-Quang Ngai to UNDERGROUND[0m
+[36mFlip 1 US Active Irregular in Quang Tri-Thua Thien to UNDERGROUND[0m
+[36mFlip 2 VC Active Guerrillas in Tay Ninh to UNDERGROUND[0m
+[36mFlip 2 VC Active Guerrillas in LOC Can Tho -- Chau Doc to UNDERGROUND[0m
+[36mFlip 3 NVA Active Guerrillas in LOC Da Nang -- Dak To to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in LOC Saigon -- Cam Ranh to UNDERGROUND[0m
+
+Move all faction cylinders to the Eligible Factions box.
+
+The Trung deck has been reshuffled
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 28
+
+VC Bot Pivotal Event die roll: 2  [Success] (3 cards in leader box)
+
+====================================================
+VC elects to play their Pivotal Event
+====================================================
+[31mReplace the current event card with #124 - Tet Offensive[0m
+
+
+>>> VC turn (Bot) [PIVOTAL EVENT] <<<
+====================================================
+Current card  : #124 - Tet Offensive (VC, NVA, US, ARVN)
+                VC -> (Critical), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+Eligible      : VC, NVA, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+[31m
+VC executes its Pivotal Event: Tet Offensive[0m
+
+Free Terror with 1 Underground VC per space
+====================================================
+
+VC selects LOC Saigon -- Cam Ranh for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Saigon -- Cam Ranh to ACTIVE[0m
+[33mAdd 1 sabotage marker to LOC Saigon -- Cam Ranh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Can Tho -- Chau Doc for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Can Tho -- Chau Doc to ACTIVE[0m
+[33mAdd 1 sabotage marker to LOC Can Tho -- Chau Doc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Tay Ninh for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mAdd 1 terror marker to Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Quang Tin-Quang Ngai for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mAdd 1 terror marker to Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Pleiku-Darlac for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Pleiku-Darlac to ACTIVE[0m
+[33mAdd 1 terror marker to Pleiku-Darlac[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Binh Tuy-Binh Thuan for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+[33mAdd 1 terror marker to Binh Tuy-Binh Thuan[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Saigon to ACTIVE[0m
+[33mAdd 1 terror marker to Saigon[0m
+[33mPlace Passive Opposition marker in Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Kien Giang-An Xuyen for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE[0m
+[33mAdd 1 terror marker to Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Quang Duc-Long Khanh for Terror
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Duc-Long Khanh to ACTIVE[0m
+[33mAdd 1 terror marker to Quang Duc-Long Khanh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 26 to 32[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Place 6 VC Pieces in any Cities
+====================================================
+[35mPlace 2 VC Underground Guerrillas from AVAILABLE into Saigon[0m
+[35mPlace 1 VC Base from AVAILABLE into Saigon[0m
+[35mPlace 2 VC Underground Guerrillas from AVAILABLE into Hue[0m
+[35mPlace 1 VC Base from AVAILABLE into Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 32 to 34[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Guerrillas free Attack where there are enemies
+====================================================
+
+VC + NVA Attack in Hue
+----------------------------------------------------
+[36mFlip 2 VC Underground Guerrillas in Hue to ACTIVE[0m
+
+Die roll (2 Guerrillas): 1 [Success!]
+[35mRemove 2 US Troops from Hue to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 2 VC Active Guerrillas from Hue to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in Saigon
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Saigon to ACTIVE[0m
+[36mFlip 2 VC Underground Guerrillas in Saigon to ACTIVE[0m
+
+Die roll (4 Guerrillas): 6 [Failure]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in Quang Duc-Long Khanh
+----------------------------------------------------
+
+Die roll (1 Guerrilla): 4 [Failure]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in Binh Tuy-Binh Thuan
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+
+Die roll (2 Guerrillas): 4 [Failure]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in Pleiku-Darlac
+----------------------------------------------------
+
+Die roll (1 Guerrilla): 6 [Failure]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in LOC Can Tho -- Chau Doc
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Can Tho -- Chau Doc to ACTIVE[0m
+
+Die roll (2 Guerrillas): 6 [Failure]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in LOC Saigon -- Cam Ranh
+----------------------------------------------------
+
+Die roll (1 Guerrilla): 1 [Success!]
+[35mRemove 1 ARVN Police from LOC Saigon -- Cam Ranh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in LOC Da Nang -- Dak To
+----------------------------------------------------
+[36mFlip 3 NVA Underground Guerrillas in LOC Da Nang -- Dak To to ACTIVE[0m
+
+Die roll (3 Guerrillas): 6 [Failure]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC + NVA Attack in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE[0m
+
+Die roll (1 Guerrilla): 1 [Success!]
+[35mRemove 1 ARVN Police from Kien Hoa-Vinh Binh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 13 to 15[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #124 - Tet Offensive (VC, NVA, US, ARVN)
+                VC -> (Critical), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+Eligible      : NVA, US, ARVN
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (9): 10 [No]
+Trung check: d3 >= the Trail (1): 3 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mPlace 3 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mPlace 3 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Kien Phong for Rally
+----------------------------------------------------
+[35mPlace 2 NVA Underground Guerrillas from AVAILABLE into Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 2[0m
+Trung check: 3d6 <= Available NVA Troops (0): 14 [No]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Pleiku-Darlac
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 56
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #56 - Vo Nguyen Giap (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Ignored)
+Eligible      : US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Quang Tin-Quang Ngai
+
+Quang Tin-Quang Ngai selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Quang Tin-Quang Ngai
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Quang Nam
+
+Quang Nam selected for Sweep
+
+2 spaces selected for Sweep
+----------------------------------------------------
+Quang Tin-Quang Ngai, Quang Nam
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Quang Nam
+2) Quang Tin-Quang Ngai
+3) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Quang Nam from:
+====================================================
+1) Da Nang
+2) Quang Tri-Thua Thien
+3) Finished moving troops to Quang Nam
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 3): 0
+
+US Move troops to Quang Nam from:
+====================================================
+1) Da Nang
+2) Quang Tri-Thua Thien
+3) Finished moving troops to Quang Nam
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 1): 0
+
+US Move troops to Quang Nam from:
+====================================================
+1) Da Nang
+2) Quang Tri-Thua Thien
+3) Finished moving troops to Quang Nam
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Quang Nam
+2) Quang Tin-Quang Ngai
+3) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+US Move troops to Quang Tin-Quang Ngai from:
+====================================================
+1) Da Nang
+2) Finished moving troops to Quang Tin-Quang Ngai
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 3): 3
+
+
+[35mMove 3 US Troops from Da Nang to Quang Tin-Quang Ngai[0m
+
+US Sweep Troops into:
+====================================================
+1) Quang Nam
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+Sweep activation:
+====================================================
+1) Resolve all remaining Sweep spaces
+2) Perform a Special Activity
+3) Resolve Sweep in Quang Nam
+4) Resolve Sweep in Quang Tin-Quang Ngai
+----------------------------------------------------
+Selection: 4
+
+Activating guerrillas in Quang Tin-Quang Ngai
+----------------------------------------------------
+[36mFlip 3 VC Underground Guerrillas in Quang Tin-Quang Ngai to ACTIVE[0m
+
+Sweep activation:
+====================================================
+1) Resolve all remaining Sweep spaces
+2) Perform a Special Activity
+3) Resolve Sweep in Quang Nam
+----------------------------------------------------
+Selection: abort
+Really abort (y/n)? y
+
+>>>> Aborting the current action <<<<
+====================================================
+
+======================================================
+The following changes should be made to the game board
+======================================================
+
+Remove from Quang Tin-Quang Ngai to Available:
+----------------------------------------------------
+Remove 3 US Troops, 3 VC Active Guerrillas
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Changes to Da Nang:
+----------------------------------------------------
+Add 3 US Troops
+
+
+Current Status: Da Nang (City)
+----------------------------------------------------
+Population: 1
+Control   : COIN Control
+Support   : Active Support
+Terror    : 0
+Pieces    : 1 US Underground Irregular, 1 ARVN Police
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Changes to Quang Tin-Quang Ngai:
+----------------------------------------------------
+Add 3 VC Underground Guerrillas
+
+
+Current Status: Quang Tin-Quang Ngai (Lowland Province)
+----------------------------------------------------
+Population: 2
+Control   : Uncontrolled
+Support   : Active Opposition
+Terror    : 1
+Pieces    : 3 US Troops, 2 VC Underground Guerrillas, 4 VC Active Guerrillas, 1 VC Base
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+
+Current Available Pieces
+----------------------------------------------------
+21 US Troops, 2 US Underground Irregulars, 3 US Bases, 11 ARVN Troops, 2 ARVN Police, 
+3 ARVN Underground Rangers, 3 ARVN Bases, 1 NVA Underground Guerrilla, 1 NVA Base, 
+6 VC Underground Guerrillas, 1 VC Base
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #56 - Vo Nguyen Giap (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Ignored)
+Eligible      : US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 2
+
+US chooses Patrol operation
+====================================================
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Perform a Special Activity
+3) Finished moving cubes
+----------------------------------------------------
+Selection: 1
+
+Move cubes out of which space: 
+====================================================
+1) Da Nang
+2) Saigon
+3) Quang Tri-Thua Thien
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+US Moving Patrol cubes out of Da Nang
+----------------------------------------------------
+These cubes can move   : 3 US Troops
+
+Move how many cubes out of Da Nang (0 - 3): 1
+
+Select destination: Quang Nam
+'Quang Nam' is not valid. Must be one of:
+An Loc, Cam Ranh, Hue, Kontum, LOC Ban Me Thuot -- Da Lat, LOC Cam Ranh -- Da Lat, LOC Da Nang -- Dak To, LOC Da Nang -- Qui Nhon, LOC Hue -- Da Nang, LOC Kontum -- Ban Me Thuot, LOC Kontum -- Dak To, LOC Kontum -- Qui Nhon, LOC Qui Nhon -- Cam Ranh, LOC Saigon -- An Loc -- Ban Me Thuot, LOC Saigon -- Cam Ranh, LOC Saigon -- Da Lat, Qui Nhon, Saigon, or abort
+
+Select destination: LOC Da Nang -- Dak To
+[35mMove 1 US Troop from Da Nang to LOC Da Nang -- Dak To[0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Perform a Special Activity
+3) Finished moving cubes
+----------------------------------------------------
+Selection: 3
+
+US Patrol - Activating guerrillas on LOCs
+----------------------------------------------------
+No guerrillas are activated
+
+Choose one:
+====================================================
+1) Assault at one LOC
+2) Perform a Special Activity
+3) Do not Assault at one LOC
+----------------------------------------------------
+Selection: 1
+
+US assaults in LOC Da Nang -- Dak To
+----------------------------------------------------
+The assault inflicts 1 hit
+[35mRemove 1 NVA Active Guerrilla from LOC Da Nang -- Dak To to AVAILABLE[0m
+
+Do you wish to perform a special activity? (y/n) 

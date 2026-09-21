@@ -46,3 +46,7 @@ card #64 Honolulu Conference: Event — Aid +10, Patronage -5, pacified Quang Tr
 card #10 Rolling Thunder: US Ineligible (NVA March: Saigon uncontrolled, Quang Duc + Kien Giang NVA; ARVN unshaded event, Trail 0). Coup #125 drawn.
 card #72 Body Count (Monsoon): Train Binh Dinh 1 level (+2) + Advise Pleiku with a Ranger (2 NVA Troops, Control) — US 58; VC shaded event
 Coup 3 (#125 Nguyen Khanh): Victory phase — US wins with a victory margin of 8. Continue prompt left unanswered for Kevin.
+Kevin: continue the game past the win to the next US turn, explore Sweep prompts and abort, then explore Patrol.
+Session 1: program process died again after the win; resumed TestGame3 from save-110 (Coup 3 prompt). Nothing replayed.
+Coup 3 continued: Commitment casualties to Hue (2) and Da Nang (2); VC pivotal Tet Offensive followed (9 Terrors, Bases into Saigon and Hue, my 2 Hue Troops killed) — US 46, VC 34
+card #28 Search and Destroy: explored Sweep (aborted, no state change) and Patrol (rolled back by a container loss), then Train Saigon + Advise — ARVN Assault killed Hue's undefended VC Base, Saigon pacified terror+2 levels: US 52, VC 27
