@@ -763,3 +763,58 @@ VC at 28, taking it to 31 — 5 short of the 36 it needed. The existential threa
 on this card is closed.
 Standing: ARVN 48 (-2), NVA 13 (-5), VC 28 (-7), US 42 (-8). **ARVN is now the
 faction to beat**, and 27 of its 48 is Patronage.
+
+## Turn 10 — card #64 Honolulu Conference — before save-056
+**Situation.** ARVN took Op + SA (Transport, shifting 2 Troops and 2 Rangers
+from Pleiku-Darlac into Binh Dinh; its Assault found no space), so the Event is
+open to me as second eligible. US 42, ARVN 46, VC 31, NVA 13. NVA's Bombard has
+stripped Kien Hoa-Vinh Binh back to 3 US Troops against 3 VC Guerrillas and
+taken the COIN Control marker off — but the Neutral marker stays, so the 4
+points I took off the VC there are not refunded.
+**The card.** Single text: "Aid +10 or -10. Patronage +3 or -5. If US or ARVN
+executing, that Faction Pacifies as if Support Phase."
+**Plan.** Take the **Event**.
+- **Patronage -5**: ARVN 46 -> 41. Obvious; ARVN is the closest to victory and
+  27 of its 46 is Patronage.
+- **Aid -10**: 30 -> 20.
+- **Pacify as if Support Phase.** That phase's test is COIN Control + US Troops
+  + ARVN Police, which on the current board is satisfied by **Da Nang** (Neutral,
+  pop 1) and **Quang Nam** (Neutral, pop 1), each 2 levels to Active Support for
+  6 Resources: **+4 US, 42 -> 46**. Kontum qualifies but is already Active.
+  Quang Tri-Thua Thien (Passive Support, pop 2) and Pleiku-Darlac (Passive
+  Support, pop 1) would be worth +3 between them but hold no US Troops —
+  Bombard took the last one out of Pleiku — so I expect them to be refused; if
+  the program offers them I will take them.
+**Rationale on Aid, which is the one genuinely close call.** The instinct is
++10, because Aid becomes ARVN Resources in the Coup Resources phase and
+Resources buy pacification. But I checked what I will actually have to spend
+them on: after this event puts Da Nang and Quang Nam at Active Support, the
+Coup 2 Support phase has **no eligible US pacification space left** — Kontum,
+Saigon and Hue are already Active, and Quang Tri-Thua Thien and Pleiku-Darlac
+both fail the US Troops test. I hold 36 Resources and will not get near the
+bottom of them. Aid I do not need is Aid that ARVN's **Govern** converts into
+Patronage at 1 point of its score per population, which is the engine that took
+3 points off me two cards ago. So I take -10 and starve it rather than +10 and
+feed it.
+**Expected after the card:** US 46, ARVN 41, VC 31, NVA 13. That is the first
+time this game I would be the leader.
+**Execution.** One send per command, screen printed before every answer. No
+rejections, no aborts. The pacification offered exactly the two spaces I
+predicted — Da Nang and Quang Nam — and refused Quang Tri-Thua Thien and
+Pleiku-Darlac, confirming that the Support-phase test really is COIN Control +
+US Troops + ARVN Police and that Irregulars do not substitute for Troops there,
+even though they do for Train.
+**Result.** Exactly as planned. Aid 30 -> 20, Patronage 27 -> 22 (ARVN 46 ->
+41), Da Nang and Quang Nam both to Active Support for 12 Resources (US 42 ->
+46). Standing: **US 46 (-4), VC 31 (-4), NVA 13 (-5), ARVN 41 (-9).** For the
+first time this game the US is level at the top, and the faction that was 2
+points from winning three cards ago is now 9 away.
+**Where the remaining points are.** At the Coup 2 Victory check I need 51. The
+Commitment phase returns all 9 Troop Casualties to Available under Medevac —
++9 US — but Commitment comes *after* Victory, so that lands for Coup 3, not
+Coup 2. Before then my only pacification targets are Quang Tri-Thua Thien
+(Passive Support, pop 2, +2) and Pleiku-Darlac (Passive Support, pop 1, +1),
+both of which Train can reach because Train accepts Irregulars, and both of
+which are Govern targets. The other lever is Kien Hoa-Vinh Binh: Neutral, pop 2,
+3 US Troops against 3 VC Guerrillas, needing one more US piece for COIN Control
+and then 2 levels of Train Pacify for **+4 US**.

@@ -1077,4 +1077,173 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 104
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+On Deck card  : #104 - Main Force Bns (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (4): 10 [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - H
+Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]
+
+ARVN chooses Transport special activity
+====================================================
+
+ARVN selects Binh Dinh as Transport destination
+----------------------------------------------------
+[35mMove 2 ARVN Troops from Pleiku-Darlac to Binh Dinh[0m
+[35mMove 2 ARVN Underground Rangers from Pleiku-Darlac to Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Flip all Rangers underground
+----------------------------------------------------
+There are no Active Rangers on the map
+
+----------------------------------------------------
+End of ARVN Transport activity
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - HH
+Trung check: 3d6 <= Available ARVN pieces (4): 16 [No]
+
+No spaces found for ARVN Assault
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+On Deck card  : #104 - Main Force Bns (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : US
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+US executes the Event: Honolulu Conference
+----------------------------------------------------
+
+Choose one:
+====================================================
+1) Increase US Aid +10
+2) Decrease US Aid -10
+----------------------------------------------------
+Selection: 2
+
+Choose one:
+====================================================
+1) Increase Patronage +3
+2) Decrease Patronage -5
+----------------------------------------------------
+Selection: 2
+
+[34mDecrease US Aid by -10 to 20[0m
+[34mDecrease Patronage by -5 to 22[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 46 to 41[0m
+
+Pacification
+----------------------------------------------------
+
+US Pacification (4 spaces remaining, 36 ARVN resources, Econ is 15)
+Choose space to pacify:
+====================================================
+1) Da Nang
+2) Quang Nam
+3) Finished pacifying spaces
+----------------------------------------------------
+Selection: 1
+
+Pacifying in Da Nang
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Da Nang
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Da Nang
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 30[0m
+[33mPlace Active Support marker in Da Nang[0m
+
+US Pacification (3 spaces remaining, 30 ARVN resources, Econ is 15)
+Choose space to pacify:
+====================================================
+1) Quang Nam
+2) Finished pacifying spaces
+----------------------------------------------------
+Selection: 1
+
+Pacifying in Quang Nam
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Quang Nam
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Quang Nam
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 24[0m
+[33mPlace Active Support marker in Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 42 to 46[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
