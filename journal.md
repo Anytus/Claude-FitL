@@ -418,3 +418,75 @@ certain, and denial by proxy — relying on a bot to spend its own eligibility �
 never is. Where I can deny a card by acting on it myself, that is the version
 worth taking.
 Position unchanged: US 44, VC 33, NVA 9, ARVN 40 (Resources 54).
+
+## Turn 5 — card #63 Fact Finding — before save-027
+**Situation.** ARVN played the shaded side but chose **Qui Nhon** (Passive
+Support, pop 1) rather than Hue, so the damage was -1, not the -4 I had priced;
+Patronage to 25, ARVN 44. US 43, VC 33, NVA 9. I am second eligible after an
+Event, so the menu is Op (may add a Special Activity) or Pass; the Event is
+gone, and with it the worry about who else could use it.
+**The clock, recalculated.** The Coup round resolves Victory *first*, before
+Resources, Support, Redeploy and Commitment. So the 6 Troop Casualties that
+Medevac will send to Available, and everything the Coup Support phase pacifies,
+count for Coup **3**, not Coup 2. To win at Coup 2 I need US above 50 on
+ordinary card play alone, from 43 — and the VC, on 33, needs only 36 to take it
+first on a tie. That reframes what my remaining two or three actions are for.
+**Options considered.**
+- *Pass again.* No. On deck #17 Claymores has no legal target for its shaded
+  side (it needs a space holding both a COIN Base and an Underground Insurgent;
+  Saigon and Pleiku-Darlac, my only COIN Bases, have no insurgents at all), so
+  there is nothing to deny and nothing to gain by staying Eligible.
+- *Advise as the Special Activity.* Quang Tri-Thua Thien is the only space with
+  Underground Irregulars beside enemies, and it is the space I want to Train in
+  — the two cannot share. That leaves Advise worth a 0-hit ARVN Assault and
+  +6 Aid, and Aid is nearly worthless with ARVN already holding 54 Resources.
+- *Air Strike.* Still refused: every reachable stack sits in a populated space
+  that would shift a level toward Active Opposition, paying the VC 2 a space.
+**Plan.** Op + Special Activity.
+Operation **Train** in **Quang Tri-Thua Thien** (no placement — 0 Irregulars in
+Available), then **Pacify it 2 levels, Neutral -> Passive -> Active Support**,
+6 Resources, **+4 US**. If the program refuses the space because its only US
+pieces are Irregulars rather than Troops, I fall back to Quang Nam for +2 and
+record the refusal.
+Special Activity **Air Lift**: move 2 US Troops, one from Da Nang and one from
+Kontum, into **Kien Hoa-Vinh Binh**.
+**Rationale.** Quang Tri first because the +4 is already set up and its COIN
+Control is the fragile part — 5 NVA Troops and a Guerrilla are still standing in
+it — and because Support persists through a change of Control, so once the
+marker is on Active Support only Terror can take it back, and the VC has nothing
+but a Base left in the space to do that with.
+The Air Lift is the more important half. Kien Hoa-Vinh Binh is Active Opposition
+at pop 2 — 4 of the VC's 33 points — held by one Underground VC Guerrilla
+against a lone ARVN Police, which is why it is Uncontrolled. Two US Troops make
+it COIN-controlled 3 pieces to 1 and supply the US Troops that pacification
+demands; a Train next card then shifts it 2 levels to Neutral and takes **4
+points straight off the VC**, with a further 2 available later if I push it to
+Passive Support. That is the same size of swing as a pacification of my own
+spaces but aimed at the faction that is 3 points from winning, and there is no
+other VC-held space I can reach this cheaply — every VC Base on the map is
+buried behind Guerrillas or NVA Troops, and Underground Guerrillas are immune to
+both Assault and Air Strike. The cost is that Da Nang and Kontum fall to one US
+Troop plus one ARVN Police each; both are pop-1 Cities at Active Support, so the
+exposure is 2 points apiece and only to Terror.
+**Execution.** No rejections, no aborts. Two notes.
+(1) **Train Pacify does not require US Troops.** Quang Tri-Thua Thien was
+offered and pacified with nothing but 4 Irregulars and 4 ARVN Police in it, so
+the fallback to Quang Nam was never needed. The Coup Support phase is the strict
+one (COIN Control + US Troops + ARVN Police); Train's is looser.
+(2) The "Air Lift in which space:" prompt arrived in the **bare, listless form**
+again, so I typed the space names. Air Lift selects up to 4 spaces first and
+then moves pieces among them in any direction, and it is not
+adjacency-limited — Da Nang and Kontum in I and II Corps lifted straight into
+Kien Hoa-Vinh Binh in IV Corps.
+**Result.** Everything as planned. Quang Tri-Thua Thien is **Active Support**
+(US 43 -> 47, Total Support 30) for 6 Resources; Kien Hoa-Vinh Binh is
+**COIN-controlled** with 2 US Troops beside the ARVN Police against 1 VC
+Guerrilla, and ARVN's marker moved 44 -> 46 on the control gain. Da Nang and
+Kontum are each down to 1 US Troop and 1 ARVN Police.
+Standing: US 47 (-3), ARVN 46 (-4), VC 33 (-2), NVA 9 (-9). Three factions are
+now within 4 points of their thresholds, and ARVN's climb is entirely Patronage
+— 25 of its 46 — which is the part of its score I cannot touch.
+**Next card's aim:** Train-Pacify **Kien Hoa-Vinh Binh** 2 levels, Active
+Opposition -> Neutral, for **-4 VC**. That is the single largest swing available
+to me and it is aimed at the only faction that can win at the Coup 2 Victory
+check.
