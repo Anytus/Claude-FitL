@@ -315,4 +315,269 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: perform
+'perform' is not a card number
+Enter the number of the next On Deck Event card: 76
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+On Deck card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US, VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Notes:
+----------------------------------------------------
+[31mMomentum: #22 Da Nang prohibits Air Strike[0m
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Binh Dinh
+2) Quang Tri-Thua Thien
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Binh Dinh using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Binh Dinh to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  3 NVA Troops, 4 NVA Underground Guerrillas
+
+How many NVA Troops (0 - 2): 2
+[35mRemove 2 NVA Troops from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 19 to 17[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space:  Quang Tri-Thua Thien
+
+Advise in Quang Tri-Thua Thien using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Quang Tri-Thua Thien to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  9 NVA Troops, 3 NVA Active Guerrillas
+
+How many NVA Troops (0 - 2): 2
+[35mRemove 2 NVA Troops from Quang Tri-Thua Thien to AVAILABLE[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh, Quang Tri-Thua Thien
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 26[0m
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Kien Hoa-Vinh Binh
+5) Pleiku-Darlac
+6) Quang Nam
+7) None of the above
+----------------------------------------------------
+Selection: 5
+
+US selects Pleiku-Darlac for Training
+
+Training in Pleiku-Darlac:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+1 space selected for Training
+----------------------------------------------------
+Pleiku-Darlac
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Pleiku-Darlac
+
+Pacifying in Pleiku-Darlac
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Pleiku-Darlac
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Pleiku-Darlac
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 21[0m
+[33mFlip Passive Support marker in Pleiku-Darlac to Active Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 46 to 47[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+On Deck card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : VC, NVA
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (2): 15 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - VV
+Trung check: 3+ VC Guerrillas in any spaces with US Troops and no VC Base? [Yes]
+
+VC chooses Attack operation
+====================================================
+
+VC Attacks in Kien Hoa-Vinh Binh
+----------------------------------------------------
+Die roll 3 Guerrillas): 1 [Success!]
+[36mFlip 3 VC Underground Guerrillas in Kien Hoa-Vinh Binh to ACTIVE[0m
+[35mRemove 2 US Troops from Kien Hoa-Vinh Binh to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 2 VC Active Guerrillas from Kien Hoa-Vinh Binh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 

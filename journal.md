@@ -859,3 +859,74 @@ requires: US, VC and NVA Eligible, ARVN Ineligible — so on #67 the order is
 ARVN (out), **US**, VC, NVA and I act first.
 **Result.** +3 ARVN Resources (24). No board change. NVA stays at 19 (+1) for
 one more card, which is the price of the guaranteed action.
+
+## Turn 12 — card #67 Amphib Landing — before save-061
+**Situation.** NVA 19 (+1) and winning at the next Victory check; US 46, VC 31,
+ARVN 39. I am first eligible with the full menu, exactly as the pass bought.
+On deck is **#76 Annam**, whose shaded side (NVA and VC both Performed) removes
+Support from **Hue, Da Nang and an adjacent Province** — up to **-8 US**. ARVN is
+marked Critical/Unshaded there and acts first in that card's order, so I expect
+it to take the unshaded side and deny the shaded; I cannot influence it either
+way, since ARVN precedes me on #76 and I will be Ineligible after acting here.
+**Options considered.**
+- *Event, Amphib Landing unshaded* ("US or ARVN relocates any of its Troops among
+  coastal spaces, then free Sweeps and Assaults in 1 coastal space"). I could
+  gather all 4 coastal US Troops — Da Nang, Quang Nam and the 2 in Kien Hoa-Vinh
+  Binh — into Binh Dinh, which alone makes COIN 10 against NVA 8 and breaks the
+  Control, then Sweep and Assault for 2 more hits. It works, but it costs my +1,
+  it hands ARVN 2 points of COIN Control, it empties Kien Hoa-Vinh Binh, and the
+  Sweep pays Booby Traps a 50% chance of a Troop.
+- *Op + Special Activity.* The same -2 for less.
+**Plan.** Op + Special Activity.
+Operation **Train** in **Pleiku-Darlac** (US Irregular and Base there make it a
+legal Train space), no placement — every Available pool is empty — then
+**Pacify 1 level, Passive -> Active Support**, pop 1, 3 Resources: **+1 US**.
+Special Activity **Advise**, two Irregular/Ranger removals:
+1. **Binh Dinh** — 2 ARVN Underground Rangers are sitting there and the removal
+   takes 2 enemy pieces. NVA 8 -> 6 against ARVN's 6, and Control needs *more*
+   than every other faction combined, so **NVA Control breaks: -2 NVA, 19 -> 17,
+   back under its threshold.** Note it leaves the space Uncontrolled rather than
+   COIN-controlled, so ARVN gains nothing from it either.
+2. **Quang Tri-Thua Thien** — 3 Underground Irregulars there; 2 more NVA pieces
+   off the 12-piece stack. No score change (NVA 10 still beats COIN 8) but it
+   brings that Control within reach of a later break, at 8.
+Then take the **+6 Aid**.
+**Rationale.** Breaking a Control is worth 2 and costs me one Special Activity
+slot; finding 2 points of my own Support costs a whole Op and I have almost no
+targets left. The honest weakness is that it may not hold: the NVA has 0 Troops
+and 1 Guerrilla in Available, so to retake Binh Dinh it must March pieces in
+from Quang Tin-Quang Ngai, Tay Ninh or Quang Tri-Thua Thien — and each of those
+Controls is itself only 1 piece clear of the VC stack contesting it (10 v 9,
+10 v 9, 12 v 8), so moving pieces out to restore one Control tends to lose
+another. That is why the second Advise goes into thinning Quang Tri rather than
+anywhere more spectacular.
+**On the Aid, correcting myself.** I declined Aid on card #64 to starve ARVN's
+Govern. Re-examining: Govern converts Aid to Patronage at 1 point per
+population, and at Aid 20 it is nowhere near constrained — the +6 would not buy
+ARVN a single extra Govern it could not already afford. What Aid does change is
+ARVN Resources in the Coup Resources phase, which is the pool **my** Train
+Pacify spends from. So the -10 at Honolulu was not as clearly right as I wrote
+it up; it was roughly neutral, not a clean win. I take the +6 here.
+**Execution.** One rejection, entirely mine: I had looked up card #76 but never
+sent it, so my first `perform` went to the card prompt and came back
+`'perform' is not a card number`. Harmless — the program simply re-asked — and
+I sent 76, then performed. Everything after that was one send per command with
+the screen printed first. I ran the Special Activity **before** selecting Train
+spaces this time, so that the Train/Advise space conflict could not bite.
+The removals let me choose the pieces again; I took **NVA Troops** in both
+spaces rather than Guerrillas, since they are identical for Control but Troops
+are what March and Attack.
+**Result.** Binh Dinh: 2 NVA Troops removed, NVA 8 pieces to 6 against ARVN's 6,
+**"Remove NVA Control marker from Binh Dinh"** and the marker moved **19 -> 17.
+The NVA is back under its threshold.** As predicted, the space went to
+Uncontrolled rather than COIN Control, so ARVN gained nothing. Quang Tri-Thua
+Thien: 2 more NVA Troops off, 12 pieces to 10 — no Control change, but the
+break-point there is now 8. Pleiku-Darlac pacified to Active Support, US 46 ->
+47. Aid 20 -> 26.
+The VC then Attacked Kien Hoa-Vinh Binh and took my last 2 US Troops there into
+Casualties, losing 2 Guerrillas to attrition. Casualties are now 12 Troops and an
+Irregular — all of which Medevac returns to Available at the Coup Commitment,
+worth +12 US **after** the Victory check, so they matter for Coup 3, not Coup 2.
+Standing: **US 47 (-3), VC 31 (-4), NVA 17 (-1), ARVN 39 (-11).** Nobody is above
+0, so a Coup now would pass with no winner — which is the outcome I was playing
+for two cards ago.
