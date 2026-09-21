@@ -689,3 +689,77 @@ do not know what the transfer is worth. The one consolation is small and does
 not excuse it: a Limited Op Train could not have pacified Quang Tri-Thua Thien
 either, since only the single selected space is eligible for the final action,
 so the alternative plan I was weighing was worth less than I thought.
+
+## Turn 9 — card #24 Operation Starlite — before save-049
+**Situation.** US 42, ARVN 46, VC 33, NVA 13. I am first eligible with the full
+menu for the first time since card #15. On deck is **#70 ROKs**, VC
+Critical/Shaded: "shift Qui Nhon, Phu Bon-Phu Yen and Khanh Hoa each 1 level
+toward Active Opposition". Those are Neutral, Passive Opposition and Neutral at
+pop 1 each, so that event is **+3 VC — exactly 36, over the threshold, and the
+VC wins at the Coup 2 Victory check.** Whatever I do here has to leave the VC
+unable to reach 36.
+**Can I deny ROKs?** Not reliably. If I act here I am Ineligible on #70 and the
+VC, second in that card's order behind an ARVN marked Ignored, gets it. Passing
+to take ROKs unshaded myself would work — but it costs this action, and I can
+instead simply put the VC out of range.
+**Options considered.**
+- *Starlite unshaded on Quang Tin-Quang Ngai* ("remove all VC from a coastal
+  Province with or adjacent to US Troops"; Quang Nam and Da Nang both hold a US
+  Troop and both are adjacent). It kills 7 VC Guerrillas and 2 VC Bases — but
+  Guerrillas do not score and Opposition markers persist, so it is only -2 VC,
+  and it leaves 4 NVA Troops alone in the space, handing the **NVA** Control of
+  a pop-2 Province: +2 NVA, taking them from 13 to 15 against a threshold of 18.
+  Trading 2 VC points for 2 NVA points is not a bargain.
+- *Starlite unshaded on Kien Hoa-Vinh Binh.* Removes the 3 Guerrillas and gives
+  me COIN Control, but scores nothing this card and spends the action that could
+  have converted it.
+- *Op + Special Activity: Air Lift then Train-Pacify Kien Hoa-Vinh Binh.*
+**Plan.** Op + Special Activity.
+Operation **Train**, space **Kien Hoa-Vinh Binh** (2 US Troops there make it a
+legal Train space), no placement — every Available pool is empty, ARVN has 0
+Troops, 0 Police, 0 Rangers and I have 0 Irregulars.
+Special Activity **Air Lift**: 2 US Troops from **Saigon** to Kien Hoa-Vinh
+Binh, taking it to 4 US pieces against 3 VC Guerrillas and therefore **COIN
+Control**.
+Final Train action: **Pacify Kien Hoa-Vinh Binh 2 levels, Active Opposition ->
+Passive Opposition -> Neutral**, 6 ARVN Resources of 42. **-4 VC, 33 -> 29.**
+**Rationale.** This is the largest swing available and it is aimed at the only
+faction that can win at the next Victory check. At 29 the VC cannot reach 36
+even after ROKs gives it +3 on the next card — 32 — which is the whole point:
+rather than spend my action denying one event, I move the target out of range of
+that event and everything else it might find. Saigon can spare the Troops: ARVN
+has just trained 8 Troops and 7 Police into it and my Base stays.
+Two further reasons this space and not Quang Tri-Thua Thien's +2. First,
+pacifying Opposition is a double-ended lever — this is -4 now and, once the
+marker is on Neutral, a further +4 US later if I can push it to Active Support,
+where pacifying my own Passive Support spaces only ever pays once. Second and
+more important after last card: Kien Hoa-Vinh Binh will hold **no ARVN cubes**,
+and Govern needs ARVN cubes in a COIN-controlled space outside Saigon. It is the
+one piece of Support I can build that ARVN cannot take back.
+**Execution.** One send per command, screen printed before every answer, as the
+rule now requires. No rejections, no aborts. Three findings.
+(1) The Special Activity menu now reads "1) Advise  2) Air Lift  3) Do not
+perform", with a note "Momentum: #22 Da Nang prohibits Air Strike" — the program
+removes the banned activity from the list rather than refusing it later, which
+is another way menus renumber.
+(2) **Air Lift can move ARVN Troops as well as US Troops and Irregulars/Rangers.**
+I declined and moved US Troops, deliberately: a garrison with no ARVN cubes is
+immune both to Govern, which needs ARVN cubes, and to VC Subvert, which removes
+ARVN cubes. Kien Hoa-Vinh Binh is now an all-US space.
+(3) The final Train menu offered only "1) Pacify  2) Finished" — no Patronage
+transfer — which confirms Kevin's note precisely: **the transfer requires Saigon
+to be one of the selected Train spaces.**
+**The cost I had underweighted.** Taking COIN Control of Kien Hoa-Vinh Binh moved
+the 'COIN Control + Patronage' marker from 46 to **48**. Control is ARVN's
+score, so every space I bring under control feeds the faction now 3 points from
+winning. Pacifying afterwards added nothing further to ARVN, but the lesson
+generalises: from here, control gains are a real cost to be priced, not a free
+by-product, and the Patronage transfer in Saigon is the counterweight.
+**Result.** Kien Hoa-Vinh Binh: COIN Control, pacified 2 levels from Active
+Opposition to **Neutral**, 6 Resources. **VC 33 -> 29.** ARVN then played
+Operation Starlite unshaded on Quang Tri-Thua Thien and removed the VC Base
+there: **VC 29 -> 28**, and ARVN is Ineligible on #70. So the ROKs +3 lands on a
+VC at 28, taking it to 31 — 5 short of the 36 it needed. The existential threat
+on this card is closed.
+Standing: ARVN 48 (-2), NVA 13 (-5), VC 28 (-7), US 42 (-8). **ARVN is now the
+faction to beat**, and 27 of its 48 is Patronage.
