@@ -490,3 +490,13 @@ now within 4 points of their thresholds, and ARVN's climb is entirely Patronage
 Opposition -> Neutral, for **-4 VC**. That is the single largest swing available
 to me and it is aimed at the only faction that can win at the Coup 2 Victory
 check.
+
+### Kevin note (administrative, after card #63)
+"You can reduce patronage by training in Saigon." Correct and I had missed it:
+the Train final-action menu offers "Transfer patronage to ARVN resources"
+alongside Pacify, and I have skipped past it every single Train. ARVN is at 46
+of 50 with **25 of those points in Patronage**, so that transfer is a direct
+reduction of the second-closest faction to victory — and I wrote in the last
+report that Patronage was the part of ARVN's score I could not touch, which was
+simply wrong. It costs the one final Train action, so it competes head-on with
+Pacify; from here I price both every turn instead of assuming Pacify.
