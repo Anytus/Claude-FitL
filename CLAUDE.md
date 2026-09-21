@@ -100,7 +100,10 @@ Interface facts:
 
 - Menus take the **number** of the choice, not the text. With `seq` you
   answer by label (`#Train`, `#Finished`, `#Saigon`) and the controller
-  finds the number; prefer that.
+  finds the number; prefer that. Do **not** run `screen` before every
+  answer: `seq` checks each prompt for you and stops if it is not the one
+  you expected, which is the check the screen call used to provide. Use
+  `screen` only when a `seq` has stopped and you need to see why.
 - `render.py` is brief by default: empty LoCs are collapsed and adjacency
   is omitted (`map.py <space>` for neighbours; `render.py --full` for all).
 - `diff.py` shows only the mechanical delta; `--log` adds the program's

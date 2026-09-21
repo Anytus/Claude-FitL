@@ -72,6 +72,12 @@ no longer repeats the log lines; `render.py` is brief by default; and
 `ctl.py seq` answers a whole action's prompts in one guarded call instead of
 one call per menu.
 
+Every tool call is logged by a `PostToolUse` hook (`.claude/settings.json`
+runs `tools/usage_hook.py`) to `usage.log`, one line per call with the
+input and output size; `python3 tools/usage_report.py` summarises it by
+kind of call. Commit the log with the game so the next cost question can be
+answered from data.
+
 What the operator should do about it: **start a fresh session at every
 Coup round.** The game, journal and notes live in the repo, so nothing is
 lost, and a session that never grows past one campaign keeps the context,
