@@ -1,0 +1,116 @@
+diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
+index b1dc7c3..3e120d3 100644
+--- a/src/main/scala/fitl/FireInTheLake.scala
++++ b/src/main/scala/fitl/FireInTheLake.scala
+@@ -345,7 +345,7 @@ object FireInTheLake {
+   }
+ 
+   // A space name and a list of adjacent space names
+-  val adjacencyMap: Map[String, Set[String]] = Map(
++  private val adjacencyMapRaw: Map[String, Set[String]] = Map(
+     // Cities
+     Hue                         -> Set(QuangTri_ThuaThien, LOC_Hue_KheSanh, LOC_Hue_DaNang),
+     DaNang                      -> Set(QuangNam, QuangTin_QuangNgai, LOC_Hue_DaNang, LOC_DaNang_QuiNhon,
+@@ -439,6 +439,14 @@ object FireInTheLake {
+     LOC_CanTho_LongPhu          -> Set(CanTho, BaXuyen, KienHoa_VinhBinh)
+   )
+ 
++  // Adjacency is symmetric (rules 1.3.6: spaces that touch, Provinces across a
++  // LoC, and LoCs or Provinces separated by a Town are adjacent).  The table
++  // above listed three junction adjacencies in one direction only, so close
++  // it under symmetry rather than relying on every entry having its mirror.
++  val adjacencyMap: Map[String, Set[String]] = adjacencyMapRaw map { case (name, adj) =>
++    name -> (adj ++ adjacencyMapRaw.collect { case (other, otherAdj) if otherAdj(name) => other })
++  }
++
+   def getAdjacent(name: String): Set[String] = adjacencyMap(name)
+   def areAdjacent(name1: String, name2: String): Boolean = getAdjacent(name1) contains name2
+   def getAdjacentLOCs(name: String): Set[String] = getAdjacent(name) filter { x => game.getSpace(x).isLoC }
+@@ -2189,6 +2197,7 @@ object FireInTheLake {
+     botIntents: BotIntents            = BotIntentsVerbose,
+     history: Vector[GameSegment]      = Vector.empty,
+     showColor: Boolean                = !scala.util.Properties.isWin, // Default true except on Windows
++    needsCardDraw: Boolean            = false, // Card exhausted/Coup resolved; next card not yet drawn
+     log: Vector[LogEntry]               = Vector.empty) {  // Log of the cuurent game segment
+ 
+ 
+@@ -3157,6 +3166,11 @@ object FireInTheLake {
+   // Prompt the user for one or two cards if necessary.
+   // Then update the game state with the new card numbers.
+   def drawNextCard(): Unit = {
++    drawNextCardImpl()
++    game = game.copy(needsCardDraw = false)
++  }
++
++  private def drawNextCardImpl(): Unit = {
+     if (game.numCardsDrawn == 0) {
+       println("\nDraw event cards")
+       println(separator())
+@@ -4096,6 +4110,16 @@ object FireInTheLake {
+ 
+ 
+   @tailrec def mainLoop(): Unit = {
++    // If the previous segment left the card exhausted (or a Coup round
++    // resolved) the next card has not been drawn yet.  Draw it now as its
++    // own saved step.  Every faction action is therefore already on disk
++    // before the program asks for a card number, and a resumed game never
++    // has to replay an action.
++    if (game.needsCardDraw && !game.gameOver) {
++      drawNextCard()
++      saveGameState()
++    }
++
+     // Does any faction wish to play their pivotal event?
+     // Will alwasy return None if Coup round or Coup card on deck
+     // or any faction has already acted.
+@@ -4139,19 +4163,20 @@ object FireInTheLake {
+             endgameCommand() // Does not return, throws ExitGame or Rollback
+           }
+           else {
+-            drawNextCard()
++            // Save the resolved Coup round first; the card draw happens at
++            // the top of the next mainLoop iteration.
++            game = game.copy(needsCardDraw = true)
+             saveGameState()
+           }
+         }
+         else {
+           processActorCommand()
+ 
+-          // If the final Coup card is on deck then move it
+-          // to the current card.
+-          // Otherwise if no more factions can act on the current card
+-          // prompt prompt for a new Event card.
++          // If no more factions can act on the current card, flag that the
++          // next card must be drawn.  The draw itself happens at the top of
++          // the next mainLoop iteration, after this action has been saved.
+           if (game.sequence.exhausted)
+-            drawNextCard()
++            game = game.copy(needsCardDraw = true)
+ 
+           // Now create a save point to capture the action
+           saveGameState()
+diff --git a/src/main/scala/fitl/SavedGame.scala b/src/main/scala/fitl/SavedGame.scala
+index 8fd9366..a1752b9 100644
+--- a/src/main/scala/fitl/SavedGame.scala
++++ b/src/main/scala/fitl/SavedGame.scala
+@@ -253,7 +253,8 @@ object SavedGame {
+       "logTrung"               -> gameState.logTrung,
+       "botIntents"             -> gameState.botIntents.toString,
+       "history"                -> (gameState.history map gameSegmentToMap),
+-      "showColor"              -> gameState.showColor
++      "showColor"              -> gameState.showColor,
++      "needsCardDraw"          -> gameState.needsCardDraw
+     )
+   }
+     
+@@ -295,7 +296,8 @@ object SavedGame {
+       asBoolean(data.get("logTrung") getOrElse true),
+       BotIntents(asString(data.get("botIntents") getOrElse BotIntentsVerbose.toString)),
+       (asList(data("history")) map (s => gameSegmentFromMap(asMap(s)))).toVector,
+-      asBoolean(data.get("showColor") getOrElse true)
++      asBoolean(data.get("showColor") getOrElse true),
++      asBoolean(data.get("needsCardDraw") getOrElse false)
+     )
+   }
+ 

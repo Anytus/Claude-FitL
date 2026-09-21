@@ -46,31 +46,35 @@ def main():
     start = text.index("val adjacencyMap")
     end = text.index("def getAdjacent(", start)
     body = text[start:end]
+    raw = {}
     for m in re.finditer(r'(\w+)\s*->\s*Set\(([^)]*)\)', body):
         key = consts[m.group(1)]
-        neigh = [consts[x.strip()] for x in m.group(2).split(",") if x.strip()]
-        spaces[key]["adjacent"] = sorted(neigh)
+        raw[key] = {consts[x.strip()] for x in m.group(2).split(",") if x.strip()}
 
-    # checks: 47 spaces, every neighbour known, adjacency symmetric.
-    # The program's table is what governs legal moves, so it is stored as is;
-    # one-way entries are recorded so the board view can flag them.
+    # Adjacency is symmetric (rules 1.3.6). The release table listed three
+    # junction adjacencies in one direction only; the harness's program patch
+    # closes the table under symmetry, and so does this builder. The raw
+    # one-way entries are recorded for the record.
     problems = []
     one_way = []
     if len(spaces) != 47:
         problems.append(f"expected 47 spaces, found {len(spaces)}")
-    for name, sp in sorted(spaces.items()):
-        if not sp["adjacent"]:
-            problems.append(f"{name}: no adjacency entry")
-        for n in sp["adjacent"]:
+    for name in sorted(raw):
+        for n in raw[name]:
             if n not in spaces:
                 problems.append(f"{name}: unknown neighbour {n}")
-            elif name not in spaces[n]["adjacent"]:
+            elif name not in raw.get(n, ()):
                 one_way.append([name, n])
+    for name in spaces:
+        adj = set(raw.get(name, ())) | {o for o, oa in raw.items() if name in oa}
+        if not adj:
+            problems.append(f"{name}: no adjacency entry")
+        spaces[name]["adjacent"] = sorted(adj)
 
-    out = {"spaces": spaces, "one_way": one_way,
-           "note": "Adjacency as the fitl program has it (v1.53). Entries in one_way are "
-                   "listed from the first space to the second but not back; the printed "
-                   "board decides which direction is right."}
+    out = {"spaces": spaces, "one_way": [],
+           "raw_one_way_in_release_table": one_way,
+           "note": "Adjacency per rules 1.3.6, symmetric. Built from the fitl program's table "
+                   "closed under symmetry (the harness build of the program does the same)."}
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=1, ensure_ascii=False, sort_keys=True)
     print(f"wrote {len(spaces)} spaces to {out_path}")

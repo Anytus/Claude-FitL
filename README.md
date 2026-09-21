@@ -24,7 +24,7 @@ short version:
 | --- | --- |
 | `CLAUDE.md` | Standing instructions for the *playing* session. Read it first. |
 | `fitl/lib/` | `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl) with one patch applied, see below. No build step to run. |
-| `fitl/save-before-draw.patch` | The patch applied to the program: save after every action and Coup round *before* asking for the next card, and make the card draw its own saved step. |
+| `fitl/fitl-1.53-harness.patch` | The patch applied to the program (against v1.53): save after every action and Coup round *before* asking for the next card, make the card draw its own saved step, and close the adjacency table under symmetry. `save-before-draw.patch` is the first half, kept for reference. |
 | `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `enter`, `advance`, `read`, `screen`, `status`. `advance` also draws event cards. |
 | `tools/deck.py` | Lazy event-card draws: uniform over what can legally be next in the current pile, decided at request time with the OS random source. `selftest` simulates thousands of decks. |
 | `tools/apply_periods.py` | Records each card's period marking (1964/1965/1968) in `cards.json`. |
@@ -61,12 +61,17 @@ land in `games/<name>/`.
 State alone does not tell a player what is next to what. `render.py` ends
 with an adjacency section and `tools/map.py` answers single questions. The
 data is the program's own adjacency table, which is what it uses to decide
-legal moves. That table has three one-way entries, marked `*` in the output:
-`LOC Cam Ranh -- Da Lat` lists Quang Duc-Long Khanh, `LOC Da Nang -- Dak To`
-lists `LOC Kontum -- Dak To`, and `LOC Saigon -- An Loc -- Ban Me Thuot`
-lists Khanh Hoa, none of them listed back. The printed board decides which
-direction is correct; until checked, the program's behaviour follows its
-table.
+legal moves, closed under symmetry.
+
+The release table listed three junction adjacencies in one direction only:
+`LOC Cam Ranh -- Da Lat` to Quang Duc-Long Khanh (via Da Lat), `LOC Da Nang
+-- Dak To` to `LOC Kontum -- Dak To` (via Dak To), and `LOC Saigon -- An Loc
+-- Ban Me Thuot` to Khanh Hoa (via Ban Me Thuot). Rules 1.3.6 makes "LoCs or
+Provinces separated by Towns" adjacent, and its own example is the Da Lat
+case, so those are adjacencies with the mirror entry missing. The effect in
+the release program was that pieces could move from each road into the space
+but not from the space onto the road. The harness build of the program
+closes the table under symmetry (see the patch), and `map.json` matches it.
 
 ## The event deck
 
@@ -110,9 +115,9 @@ saves as soon as an action or Coup round completes, records in the save that
 a card draw is pending, and performs the draw as its own saved step at the
 top of its main loop. A resumed game goes straight to the card prompt.
 
-The jar `fire-in-the-lake_2.13-1.53-sbd.jar` was compiled from the v1.53
-source with that patch using scalac 2.13.18 and reports its version as
-`1.53+sbd`. To rebuild: clone github.com/sellmerfud/fitl at v1.53, apply the
+The jar `fire-in-the-lake_2.13-1.53-harness.jar` was compiled from the v1.53
+source with `fitl/fitl-1.53-harness.patch` (save timing plus symmetric
+adjacency) using scalac 2.13.18 and reports its version as `1.53+harness`. To rebuild: clone github.com/sellmerfud/fitl at v1.53, apply the
 patch, compile `src/main/scala/**/*.scala` against `scala-library` and
 `scala-parser-combinators`, and jar the classes together with a `version`
 resource file.

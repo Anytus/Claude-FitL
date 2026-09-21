@@ -1,6 +1,7 @@
 {
- "note": "Adjacency as the fitl program has it (v1.53). Entries in one_way are listed from the first space to the second but not back; the printed board decides which direction is right.",
- "one_way": [
+ "note": "Adjacency per rules 1.3.6, symmetric. Built from the fitl program's table closed under symmetry (the harness build of the program does the same).",
+ "one_way": [],
+ "raw_one_way_in_release_table": [
   [
    "LOC Cam Ranh -- Da Lat",
    "Quang Duc-Long Khanh"
@@ -139,6 +140,7 @@
     "LOC Cam Ranh -- Da Lat",
     "LOC Kontum -- Ban Me Thuot",
     "LOC Qui Nhon -- Cam Ranh",
+    "LOC Saigon -- An Loc -- Ban Me Thuot",
     "LOC Saigon -- Da Lat",
     "Phu Bon-Phu Yen",
     "Pleiku-Darlac",
@@ -327,6 +329,7 @@
    "adjacent": [
     "Binh Dinh",
     "Kontum",
+    "LOC Da Nang -- Dak To",
     "Pleiku-Darlac",
     "Southern Laos"
    ],
@@ -479,6 +482,7 @@
     "Binh Tuy-Binh Thuan",
     "Khanh Hoa",
     "LOC Ban Me Thuot -- Da Lat",
+    "LOC Cam Ranh -- Da Lat",
     "LOC Kontum -- Ban Me Thuot",
     "LOC Saigon -- An Loc -- Ban Me Thuot",
     "LOC Saigon -- Da Lat",

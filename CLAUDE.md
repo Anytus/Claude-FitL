@@ -43,9 +43,7 @@ prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
 program's `show` / `history` commands. The map is the printed board:
 `render.py` ends with every space's neighbours, and
 `python3 tools/map.py <space>` (or `map.py <space> <space>`) answers an
-adjacency question directly. Do not work from a remembered map; check.
-Three adjacencies are listed by the program in one direction only and are
-marked `*`; the program's table decides what it will let you do. The Tru'ng markings and the "Trung check" narration are printed on
+adjacency question directly. Do not work from a remembered map; check. The Tru'ng markings and the "Trung check" narration are printed on
 the physical bot cards, so they are fair.
 
 **You may not:**
@@ -105,7 +103,7 @@ Interface facts:
   with **no state change** and returns to the `(perform or ?)` prompt. Use it
   if you discover mid-action that your plan cannot be executed; then re-plan
   in `journal.md` and note the abort.
-- The program (a patched build, version 1.53+sbd) writes a save after every
+- The program (a patched build, version 1.53+harness) writes a save after every
   faction action, after a pivotal event substitution, once for a whole Coup
   round, and once for each card draw. The save for an action is on disk
   before the program asks for the next card number, so every segment's
