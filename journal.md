@@ -992,3 +992,60 @@ Resources, which is my pacification budget as much as its own. And the NVA's
 Phong and Kien Giang-An Xuyen are each within a piece or two of collapsing
 because the VC's own stacks contest them — but none holds a COIN piece I can
 act from, so reaching them means Air Lifting out of the Saigon reserve.
+
+## Turn 13 — card #123 Vietnamization (ARVN pivotal) — before save-074
+**Situation.** ARVN played its **pivotal event**, which replaced #53 Sappers
+outright — so the VC's Performed/Shaded side of Sappers, which would have taken
+my Pleiku-Darlac Base to Casualties, never happened. Vietnamization gave ARVN
++12 Resources (68), +12 Aid (12, so **Govern is alive again**), returned its
+entire Out-of-Play box to Available (10 Troops, 3 Rangers) and placed 4 Troops
+into Binh Dinh. I am second eligible after an Event, so I have a full Op +
+Special Activity.
+Standing: **US 54 (+4)**, NVA 19 (+1), VC 32 (-3), ARVN 41 (-9). As things
+stand I win the next Victory check on the highest score, so this campaign is
+about protecting that, not chasing it.
+**Options considered.**
+- *Train + Pacify something.* There is nothing to pacify. Every COIN-controlled
+  space holding a US piece — Hue, Da Nang, Kontum, Quang Nam, Pleiku-Darlac,
+  Saigon — is already at Active Support, and Qui Nhon, Cam Ranh, An Loc, Can Tho
+  and Ba Xuyen hold no US piece so they cannot even be selected.
+- *Assault.* No legal space: none of my Troops shares a space with an enemy.
+- *Advise.* Quang Tri-Thua Thien has 4 Underground Irregulars against NVA 10
+  and COIN 8, so removing 2 breaks NVA Control: **-2 NVA, 19 -> 17.** That is
+  the other candidate, and its merit is real — the NVA is the only other faction
+  above 0, so it is the backstop winner if my Support ever collapses.
+- *Air Lift + Train-Pacify Kien Hoa-Vinh Binh.*
+**Plan.** Op + Special Activity.
+Special Activity **Air Lift** first: 2 US Troops from **Saigon** (which holds 5
+and a Base) to **Kien Hoa-Vinh Binh**, where a single Underground VC Guerrilla
+is all that stands there — 2 COIN against 1 gives **COIN Control**.
+Operation **Train** in Kien Hoa-Vinh Binh, no placement, then **Pacify 2 levels,
+Passive Opposition -> Neutral -> Passive Support**, 6 of 68 Resources:
+**+2 US and -2 VC.**
+**Rationale.** Both candidates move the margin by the same amount against the
+faction they target, so the tie-breaks decide. First, durability: the Quang Tri
+break leaves NVA 8 against COIN 8, and the NVA holds 4 Troops in Available and
+two large stacks within a March, so it buys back the Control almost at will —
+whereas a Support marker persists through everything except Terror and Agitate,
+and is not returned if the space later changes hands. Second, breadth: the Air
+Lift swings **two** scoreboards, taking 2 off the VC at the same time as adding
+2 to me, where Advise only touches the NVA. Third, price: Air Lift moves pieces
+map-to-map, so it costs me nothing in Available — the +2 is free, where every
+Commitment deployment cost a point each.
+The cost is that the NVA stays at +1 and my 2 Troops in Kien Hoa are exposed to
+the Attack that killed the last pair there — and with Medevac gone, a third of
+any Troop Casualties now leave play permanently. I accept that because the
+Support is banked the moment the marker moves: Control matters only at the
+instant of pacification, so I can Air Lift them back out later and keep the
+points.
+**Execution.** One send per command, screen printed before every answer. No
+rejections, no aborts. Running the Air Lift before selecting Train spaces worked
+cleanly: Kien Hoa-Vinh Binh had no US pieces at all when the operation began, so
+it could not have been chosen as a Train space first.
+**Result.** Exactly as planned. 2 US Troops Saigon -> Kien Hoa-Vinh Binh gave
+COIN Control, and the Pacify shifted it 2 levels from Passive Opposition to
+**Passive Support** for 6 Resources: **US 54 -> 56, VC 32 -> 30.** ARVN picked up
+2 for the Control (41 -> 43).
+Standing: **US 56 (+6)**, NVA 19 (+1), ARVN 43 (-7), VC 30 (-5). I am 6 clear of
+my threshold and 5 clear of the only other faction above its own, and the whole
++6 was bought without spending a single piece out of Available.

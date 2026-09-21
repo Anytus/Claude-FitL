@@ -965,4 +965,269 @@ The Trung deck has been reshuffled
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 10
+
+VC Bot Pivotal Event die roll: 5  [Failure] (2 cards in leader box)
+
+ARVN Bot Pivotal Event die roll: 1  [Success] (2 cards in leader box)
+
+====================================================
+ARVN elects to play their Pivotal Event
+====================================================
+[31mReplace the current event card with #123 - Vietnamization[0m
+
+
+>>> ARVN turn (Bot) [PIVOTAL EVENT] <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, US, NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+[31m
+ARVN executes its Pivotal Event: Vietnamization[0m
+
++12 ARVN Resources and +12 US Aid
+====================================================
+[34mIncrease ARVN resources by +12 to 68[0m
+[34mIncrease US Aid by +12 to 12[0m
+
+All Out of Play ARVN pieces to Available
+====================================================
+[35mMove 10 ARVN Troops from OUT OF PLAY to AVAILABLE[0m
+[35mMove 3 ARVN Underground Rangers from OUT OF PLAY to AVAILABLE[0m
+
+Place 4 ARVN Cubes anywhere
+====================================================
+[35mPlace 1 ARVN Troop from AVAILABLE into Binh Dinh[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Binh Dinh[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Binh Dinh[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Binh Dinh[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+Eligible      : US, NVA, VC
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Saigon
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Hoa-Vinh Binh
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Kien Hoa-Vinh Binh
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Saigon to Kien Hoa-Vinh Binh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 5): 2
+[35mMove 2 US Troops from Saigon to Kien Hoa-Vinh Binh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 41 to 43[0m
+
+Air Lifting forces from Saigon to Kien Hoa-Vinh Binh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 3
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Lift forces out of Kien Hoa-Vinh Binh
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Hoa-Vinh Binh
+
+US selects Kien Hoa-Vinh Binh for Training
+
+Training in Kien Hoa-Vinh Binh:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Kien Hoa-Vinh Binh
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Hoa-Vinh Binh
+
+Pacifying in Kien Hoa-Vinh Binh
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Passive Support
+2) Shift 1 level to Neutral
+3) Do not pacify in Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 62[0m
+[33mReplace Passive Opposition marker in Kien Hoa-Vinh Binh with Passive Support marker[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 54 to 56[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 32 to 30[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
