@@ -1,0 +1,22 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "\nAdjust eligiblity",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the US, ARVN, and VC cylinders to the Eligible box",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the NVA cylinder to the Ineligible box",
+      "color": "Blue"
+    }
+  ]
+}

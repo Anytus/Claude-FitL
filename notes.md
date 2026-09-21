@@ -8,3 +8,7 @@ and anything Kevin asked administratively. Previous games' notes are under
 
 ## TestGame3 (Full 1964-1972, US human, human win allowed in any Coup, harness-drawn deck)
 Session 1 (2026-09-21): new game created (save-000). Agitate Total d3 = 2. First cards drawn: #29 Tribesmen (current), #93 Senator Fulbright (on deck). Stopped at first US decision, awaiting Kevin.
+Kevin (admin note before turn 1): as first eligible, an Op Only denies the second eligible both the Event and a Special Activity (LimOp only). Keep in mind.
+card #29 Tribesmen: Event unshaded, removed VC Bases in Pleiku/Binh Dinh/Quang Tri + 1 Guerrilla — deny VC Critical shaded, -3 VC, Pleiku Control
+card #93 Senator Fulbright: US Ineligible (VC passed, NVA Rally + Infiltrate)
+card #107 Burning Bonze: US eligible but 4th in order; VC shaded Event + ARVN Op squeezed US out
