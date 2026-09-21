@@ -7,3 +7,4 @@ and anything Kevin asked administratively. Previous games' notes are under
 `archive/`.
 
 ## TestGame3 (Full 1964-1972, US human, human win allowed in any Coup, harness-drawn deck)
+Session 1 (2026-09-21): new game created (save-000). Agitate Total d3 = 2. First cards drawn: #29 Tribesmen (current), #93 Senator Fulbright (on deck). Stopped at first US decision, awaiting Kevin.
