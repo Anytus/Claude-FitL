@@ -1,0 +1,222 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #39 - Oriskany (NVA, US, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : US, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - R",
+      "color": null
+    },
+    {
+      "text": "Trung check: Support + Available >= 42? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available NVA Troops (12): 11 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Infiltrate special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Infiltrates in Southern Laos",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Underground Guerrillas from Southern Laos to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 6 NVA Troops from AVAILABLE into Southern Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Infiltrates in Kien Phong",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Active Guerrilla from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 4 NVA Troops from AVAILABLE into Kien Phong",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Kien Phong",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 38 to 36",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of NVA Infiltrate activity",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses March operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects LOC Da Nang -- Dak To as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from Southern Laos to LOC Da Nang -- Dak To",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 NVA Active Guerrilla from Binh Dinh to LOC Da Nang -- Dak To",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects Pleiku-Darlac as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 8 NVA Troops from Southern Laos to Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Pleiku-Darlac to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 36 to 35",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 14 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

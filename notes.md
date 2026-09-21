@@ -39,3 +39,10 @@ card #47 Chu Luc: US last in order, no action (NVA Rally + Bombard; VC March)
 card #23 Operation Attleboro: Train Binh Dinh (6 ARVN cubes, pacify 2 levels +4) + Advise Quang Tri, Pleiku — US 60, cubes where I want them
 card #6 Aces: US Ineligible (NVA passed; VC Terror + Tax, Agitate 16)
 Vietnamization (ARVN pivotal at draw of #39, replaced #34 SA-2s): ARVN Res 38, Aid 43, ARVN OOP to Available
+card #109 Nguyen Huu Tho: Assault Pleiku (mis-sent, kept) + Da Nang, Air Lift 3 Troops into Saigon; Saigon VC Base not assaultable behind an Underground Guerrilla — US 60, NVA 14
+card #81 CIDG: LimOp Sweep in Saigon — Activate the VC Guerrilla, no Terror on my 12 points
+card #108 Draft Dodgers: LimOp Train Saigon wasted — chained a send into the two-entry final menu and hit Finished instead of Transfer patronage (TestGame2 #59 repeated)
+card #64 Honolulu Conference: Event — Aid +10, Patronage -5, pacified Quang Tri 2 levels; US 56, ARVN 38
+card #10 Rolling Thunder: US Ineligible (NVA March: Saigon uncontrolled, Quang Duc + Kien Giang NVA; ARVN unshaded event, Trail 0). Coup #125 drawn.
+card #72 Body Count (Monsoon): Train Binh Dinh 1 level (+2) + Advise Pleiku with a Ranger (2 NVA Troops, Control) — US 58; VC shaded event
+Coup 3 (#125 Nguyen Khanh): Victory phase — US wins with a victory margin of 8. Continue prompt left unanswered for Kevin.
