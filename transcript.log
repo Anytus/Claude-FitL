@@ -1196,4 +1196,354 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 
+Enter the number of the next On Deck Event card: 38
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - X
+Trung check: Any 2+ Pop space without VC Guerrillas? [Yes]
+Trung check: 3d6 <= Available VC pieces (10): 12 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - XX
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Da Nang -- Dak To as March destination
+----------------------------------------------------
+[35mMove 2 VC Underground Guerrillas from Quang Tin-Quang Ngai to LOC Da Nang -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Cam Ranh -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Binh Tuy-Binh Thuan to LOC Cam Ranh -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 3 VC Underground Guerrillas from Tay Ninh to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 3 VC Underground Guerrillas in Saigon to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+Trung check: Can Ambush in March destinations? [Yes]
+
+VC chooses Ambush special activity
+====================================================
+
+VC Ambushes in LOC Da Nang -- Dak To, targeting Binh Dinh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Da Nang -- Dak To to ACTIVE[0m
+[35mRemove 1 US Underground Irregular from Binh Dinh to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Ambushes in LOC Cam Ranh -- Da Lat, targeting Khanh Hoa
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Cam Ranh -- Da Lat to ACTIVE[0m
+[35mRemove 1 ARVN Police from Khanh Hoa to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+Eligible      : NVA
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+NVA executes the Shaded Event: Nguyen Chanh Thi
+----------------------------------------------------
+
+[35mRemove 1 ARVN Police from Hue to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Hue[0m
+
+[35mRemove 1 ARVN Police from Hue to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Hue[0m
+
+[34mDecrease Patronage by -4 to 11[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 29[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 31 to 32[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 64
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+On Deck card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+Eligible      : US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Hoa-Vinh Binh
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 2
+Move how many US Underground Irregulars (0 - 1): 1
+[35mMove 1 US Underground Irregular from Kien Hoa-Vinh Binh to Hue[0m
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 2
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Hue
+3) Saigon
+4) Binh Dinh
+5) Kien Hoa-Vinh Binh
+6) Pleiku-Darlac
+7) Quang Nam
+8) None of the above
+----------------------------------------------------
+Selection: 7
+
+US selects Quang Nam for Training
+
+Training in Quang Nam:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 1
+[35mPlace 1 US Underground Irregular from AVAILABLE into Quang Nam[0m
+
+1 space selected for Training
+----------------------------------------------------
+Quang Nam
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Quang Nam
+
+Pacifying in Quang Nam
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Quang Nam
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Quang Nam
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 29[0m
+[33mPlace Active Support marker in Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 56 to 58[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+On Deck card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): 

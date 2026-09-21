@@ -144,3 +144,11 @@
 2026-09-21T19:33:42	Bash	python3 tools/ctl.py seq "Finished moving forces out of Kien Hoa-Vinh Binh=>#Fin	325	2343
 2026-09-21T19:33:51	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" "Finished selectin	267	2016
 2026-09-21T19:33:56	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	151	8352
+2026-09-21T19:34:12	Bash	cat >> notes.md <<'EOF' card #86 Mandate of Heaven: Train Da Nang (pacify 2 leve	408	16324
+2026-09-21T19:34:34	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && python3 -c " import j	448	2346
+2026-09-21T19:35:19	Bash	python3 -c " import json c=json.load(open('cards.json')) d=c if isinstance(c,dic	253	2032
+2026-09-21T19:37:17	Bash	cat >> journal.md <<'EOF'  ## Turn 10 — card #38 McNamara Line — before save-050	3367	6903
+2026-09-21T19:37:26	Bash	python3 tools/ctl.py seq "Lift forces out of Kien Hoa-Vinh Binh=>#Lift forces ou	290	2195
+2026-09-21T19:37:42	Bash	python3 tools/ctl.py seq "Finished moving forces out of Kien Hoa-Vinh Binh=>#Fin	318	2314
+2026-09-21T19:37:50	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" "Place how many I	308	2168
+2026-09-21T19:38:00	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	153	6127

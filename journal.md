@@ -680,3 +680,49 @@ worth — the Binh Dinh tie I bought on card #79 was undone by a single Bombard
 on the same card. Five against four is a real margin. Quang Nam gets the tie
 treatment only because it is worth 1 point and I have nothing better for the
 fourth slot.
+
+## Turn 10 — card #38 McNamara Line — before save-050
+**Situation.** The NVA took Nguyen Chanh Thi **shaded**, replacing 2 ARVN Police
+in Hue with a **VC Base and a VC Guerrilla** — so the Saigon problem I dodged on
+#109 has arrived in Hue instead. Hue is now Uncontrolled: COIN 3 against NVA 4
+and VC 2. ARVN 35 -> 29, VC 31 -> 32. I am first among the eligible on #38, with
+only ARVN behind me.
+Scores: **US 56 (+6)**, VC 32 (-3), NVA 15 (-3), ARVN 29 (-21).
+
+**Options considered.**
+- *McNamara Line* (single event): redeploys COIN forces out of Laos/Cambodia —
+  I have none there, so that half is dead — costs ARVN 12 Resources, and bars
+  NVA Infiltrate and Trail improvement until the Coup. Real but not points, and
+  the Resource hit lands on my own pacification budget.
+- *Pass, to take #64 Honolulu Conference next card.* Seriously considered and
+  rejected. Honolulu's prize is "Pacifies as if Support Phase" — the **strict**
+  test, needing COIN Control **and US Troops and ARVN Police** together — and
+  **not one space on the board currently qualifies with anything to gain**.
+  Every space that has both is already at Active Support; every space below it
+  (Qui Nhon, Cam Ranh, An Loc, Can Tho, Phu Bon-Phu Yen) has ARVN Police but no
+  US Troops. The trap is that I cannot both build those spaces and use the card:
+  acting here to create them makes me Ineligible on #64, and passing to keep #64
+  leaves nothing for it to pacify. Since the event would then pay only Aid +10
+  and Patronage -5, the +2 on the table now is worth more.
+- *Op + Special Activity.* Taken.
+
+**Plan.** **Op: Train. Special Activity: Air Lift.**
+- Train space: **Quang Nam**. Pacify **2 levels**, Neutral -> Active Support,
+  pop 1, **+2 US** for 6 Resources.
+- Air Lift: 1 **Underground Irregular, Kien Hoa-Vinh Binh -> Hue**.
+Expected: **US 56 -> 58.**
+
+**Rationale.** Quang Nam is the only Train-Pacify left anywhere — everything
+else COIN-controlled with a US piece is already maxed — so the Op chooses
+itself, and the Air Lift I broke NVA Control with last card is what made it
+possible.
+The Irregular into Hue is the setup that matters. Hue holds 4 points of Active
+Support with a **VC Base and an Underground Guerrilla** sitting in it, which is
+both a VC point and a standing Terror threat against my Support; Advise is the
+only tool that reaches an Underground Guerrilla and a Base, and it needs an
+Underground Irregular or Ranger **in the space**, which Hue has not got. One
+Irregular delivered now turns next action's Advise into the removal of both
+pieces. It comes from Kien Hoa rather than Binh Dinh on purpose: Binh Dinh's
+lone Irregular is the only COIN piece holding Control of a pop-2 Active Support
+space, and moving it would hand back the Control I bought two cards ago, while
+Kien Hoa still has 2 Troops, a Base and 2 Police after giving one up.
