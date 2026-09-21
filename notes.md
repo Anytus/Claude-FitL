@@ -27,3 +27,12 @@ card #51 301st Supply Bn: Event unshaded, 6 NVA Troops out of Central Laos — p
 card #110 No Contact: US Ineligible (NVA Infiltrate: NVA Base in Quang Tin; ARVN pass). Coup #126 Young Turks drawn.
 Coup 1: Support: pacified Saigon (1), Da Nang (2), Kontum (2) for 15 Res, +12 — cheapest points; Commitment: Saigon Base to Available (+1, no penalty), no Troops. Nobody won. US 50.
 card #73 Great Society: US squeezed out (ARVN Sweep+Raid, NVA shaded: 3 US Troops from Available to Out of Play, US 47)
+Session 1: program process died between the report on #9 and my action; resumed TestGame3 from save-044 (US turn on #9, identical to the reported state). Nothing replayed.
+card #9 Psychedelic Cookie: Train-pacify Quang Tri aborted (only 1 level offered at 18 Res / Econ 13), then Event unshaded: 3 Troops Out of Play -> Available, US 50 — pacify money is scarce, event points are certain
+card #95 Westmoreland: US Ineligible (VC shaded: Pleiku Active Opposition; NVA Rally + Bombard, 2 US Troops to Casualties). Coup #127 Nguyen Cao Ky drawn immediately.
+Coup 2: Victory: nobody above 0 (US exactly 50). Support: Quang Tri 2 levels (+4, 8 Res). Commitment: casualties to Hue and Binh Dinh, nothing moved. US 54.
+Pivotal (draw of #46): played Linebacker II, replacing #105 Rural Pressure (VC Critical shaded vs my Police Support) — NVA -2, NVA out two cards
+card #46 559th Transport Grp: US Ineligible (ARVN Sweep 12 Troops into Tay Ninh/Kien Phong + Raid)
+Easter Offensive (NVA pivotal at draw of #5, replaced #22 Da Nang): NVA took Binh Dinh, Quang Nam, Da Nang, Kien Giang, Tay Ninh; NVA 9 -> 17; 2 US Troops to Casualties
+card #5 Wild Weasels: Train Hue (pacify +2) + Advise removals Binh Dinh, Da Nang — NVA 17 -> 14, US 56
+card #47 Chu Luc: US last in order, no action (NVA Rally + Bombard; VC March)
