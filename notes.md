@@ -22,3 +22,4 @@ card #118 Korean War Arms: US Ineligible (VC shaded: 3 VC Bases; ARVN Sweep + Ra
 card #55 Trucks: Pass — turn order guarantees first on Claymores; protect Pleiku Base, stay Eligible
 card #17 Claymores: Event unshaded — stay Eligible, protect Pleiku Base, tax Marches
 card #75 Sihanouk: US eligible but squeezed out (ARVN Op+SA, NVA shaded event: NVA Control Kien Phong + Quang Tin)
+Kevin (rules note after #75): at Trail 4 the NVA Marches for free outside South Vietnam, which is how the Parrot's Beak stack reached Quang Tin. Trail degrade is worth more than I priced on #55.
