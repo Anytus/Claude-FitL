@@ -36,3 +36,6 @@ card #46 559th Transport Grp: US Ineligible (ARVN Sweep 12 Troops into Tay Ninh/
 Easter Offensive (NVA pivotal at draw of #5, replaced #22 Da Nang): NVA took Binh Dinh, Quang Nam, Da Nang, Kien Giang, Tay Ninh; NVA 9 -> 17; 2 US Troops to Casualties
 card #5 Wild Weasels: Train Hue (pacify +2) + Advise removals Binh Dinh, Da Nang — NVA 17 -> 14, US 56
 card #47 Chu Luc: US last in order, no action (NVA Rally + Bombard; VC March)
+card #23 Operation Attleboro: Train Binh Dinh (6 ARVN cubes, pacify 2 levels +4) + Advise Quang Tri, Pleiku — US 60, cubes where I want them
+card #6 Aces: US Ineligible (NVA passed; VC Terror + Tax, Agitate 16)
+Vietnamization (ARVN pivotal at draw of #39, replaced #34 SA-2s): ARVN Res 38, Aid 43, ARVN OOP to Available

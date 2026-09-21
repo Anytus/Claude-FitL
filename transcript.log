@@ -1631,4 +1631,426 @@ Eligible      : US, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+Pacification costs 4 resources per terror/level [Leader: Nguyen Cao Ky]
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Pleiku-Darlac
+2) Quang Tri-Thua Thien
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+Advise in Quang Tri-Thua Thien using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Quang Tri-Thua Thien to ACTIVE[0m
+[35mRemove 1 NVA Active Guerrilla from Quang Tri-Thua Thien to AVAILABLE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space:  Pleiku-Darlac
+
+Advise in Pleiku-Darlac using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE[0m
+[35mRemove 1 NVA Underground Guerrilla from Pleiku-Darlac to AVAILABLE[0m
+[35mRemove 1 VC Underground Guerrilla from Pleiku-Darlac to AVAILABLE[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Quang Tri-Thua Thien, Pleiku-Darlac
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 31[0m
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Hue
+3) Kontum
+4) Binh Dinh
+5) None of the above
+----------------------------------------------------
+Selection: 4
+
+US selects Binh Dinh for Training
+
+Training in Binh Dinh:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 3
+
+Place how many ARVN Troops in Binh Dinh?  (0 - 6): 5
+
+Place how many ARVN Police in Binh Dinh?  (0 - 1): 1
+
+[34mDecrease ARVN resources by -3 to 37[0m
+[35mPlace 5 ARVN Troops from AVAILABLE into Binh Dinh[0m
+[35mPlace 1 ARVN Police from AVAILABLE into Binh Dinh[0m
+
+1 space selected for Training
+----------------------------------------------------
+Binh Dinh
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Binh Dinh
+
+Pacifying in Binh Dinh
+----------------------------------------------------
+The cost to pacify is 4 per level/terror marker [Leader: Nguyen Cao Ky]
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Binh Dinh
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Binh Dinh
+----------------------------------------------------
+[34mDecrease ARVN resources by -8 to 29[0m
+[33mPlace Active Support marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 56 to 60[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - H
+Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - HH
+Trung check: 3d6 <= Available ARVN pieces (3): 7 [No]
+
+ARVN chooses Assault operation
+====================================================
+
+ARVN assaults in Binh Dinh
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 26[0m
+The assault inflicts 1 hit
+
+[35mRemove 1 NVA Troop from Binh Dinh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 34
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #34 - SA-2s (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #34 - SA-2s (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : VC
+Acted         : none
+Passed        : NVA
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Quang Tin-Quang Ngai for Terror
+[36mFlip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mAdd 1 terror marker to Quang Tin-Quang Ngai[0m
+[33mPlace Passive Opposition marker in Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 18 to 20[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+VC selects Tay Ninh for Terror
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mAdd 1 terror marker to Tay Ninh[0m
+[33mFlip Passive Opposition marker in Tay Ninh to Active Opposition[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 20 to 22[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Binh Tuy-Binh Thuan for Terror
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+[33mAdd 1 terror marker to Binh Tuy-Binh Thuan[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+Trung check: Patronage >= 17? [No]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Tay Ninh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 13[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 22 to 20[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Quang Tin-Quang Ngai
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mRemove Passive Opposition marker from Quang Tin-Quang Ngai[0m
+[34mIncrease Agitate Total by +2 to 15[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 20 to 18[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in LOC Can Tho -- Chau Doc
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Can Tho -- Chau Doc to ACTIVE[0m
+[34mIncrease Agitate Total by +1 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 39
+
+ARVN Bot Pivotal Event die roll: 1  [Success] (2 cards in leader box)
+
+====================================================
+ARVN elects to play their Pivotal Event
+====================================================
+[31mReplace the current event card with #123 - Vietnamization[0m
+
+
+>>> ARVN turn (Bot) [PIVOTAL EVENT] <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #39 - Oriskany (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+ARVN executes its Pivotal Event: Vietnamization[0m
+
++12 ARVN Resources and +12 US Aid
+====================================================
+[34mIncrease ARVN resources by +12 to 38[0m
+[34mIncrease US Aid by +12 to 43[0m
+
+All Out of Play ARVN pieces to Available
+====================================================
+[35mMove 10 ARVN Troops from OUT OF PLAY to AVAILABLE[0m
+[35mMove 3 ARVN Underground Rangers from OUT OF PLAY to AVAILABLE[0m
+[35mMove 2 ARVN Bases from OUT OF PLAY to AVAILABLE[0m
+
+Place 4 ARVN Cubes anywhere
+====================================================
+[35mPlace 1 ARVN Troop from AVAILABLE into Kien Giang-An Xuyen[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Kien Giang-An Xuyen[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Kien Giang-An Xuyen[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Kien Giang-An Xuyen[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #39 - Oriskany (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : US, NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC
 (perform or ?): 
