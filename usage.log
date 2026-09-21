@@ -133,3 +133,14 @@
 2026-09-21T19:29:57	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger=>#Use Irregular" 2>&1 | tail -22	134	2197
 2026-09-21T19:30:12	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" "US Training=>#Finished selecting" "Cho	198	2343
 2026-09-21T19:30:17	Bash	python3 tools/ctl.py seq "Shift 1 level to Active Support=>#Shift 1 level" 2>&1 	159	8887
+2026-09-21T19:30:49	Bash	cat >> notes.md <<'EOF' Coup 1 (#126 Young Turks): no winner (US 50=+0). Pacifie	674	23641
+2026-09-21T19:30:59	Bash	awk '/Current card  : #109 - Nguyen Huu Tho/{f=1} f' transcript.log | sed -e 's/	201	2729
+2026-09-21T19:31:13	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && echo "===" && python3	487	1491
+2026-09-21T19:32:37	Bash	cat >> journal.md <<'EOF'  ## Turn 9 — card #86 Mandate of Heaven — before save-	3259	6358
+2026-09-21T19:32:56	Bash	python3 tools/ctl.py seq "Select an Air Lift space=>#Select an Air Lift" "Air Li	376	2555
+2026-09-21T19:33:10	Bash	python3 tools/ctl.py seq "Lift forces out of Kontum=>#Lift forces out of Kontum"	271	2787
+2026-09-21T19:33:17	Bash	python3 tools/ctl.py seq "Lift forces out of Kien Hoa-Vinh Binh=>#Lift forces ou	298	2633
+2026-09-21T19:33:30	Bash	python3 tools/ctl.py seq "Air Lift US Underground Irregulars=>#Air Lift US Under	190	2115
+2026-09-21T19:33:42	Bash	python3 tools/ctl.py seq "Finished moving forces out of Kien Hoa-Vinh Binh=>#Fin	325	2343
+2026-09-21T19:33:51	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" "Finished selectin	267	2016
+2026-09-21T19:33:56	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	151	8352

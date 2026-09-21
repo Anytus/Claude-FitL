@@ -1,0 +1,62 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, VC, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nARVN executes the Unshaded Event: Mandate of Heaven",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nCapability: '#86 Mandate of Heaven (unshaded)' is now in effect",
+      "color": "Red"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

@@ -634,3 +634,49 @@ COIN Control on the spot. The Bases-last rule may mean only the Guerrilla is
 offered, in which case the VC Base stays and my second Underground Irregular
 kills it next action. Quang Nam is the cheapest point on the board: one Ranger
 already standing there converts two removals into a broken NVA Control.
+
+## Turn 9 — card #86 Mandate of Heaven — before save-046
+**Situation.** Two strokes of luck and one blow. **#109 Nguyen Huu Tho — the VC
+Critical shaded card that would have put a VC Base and Guerrilla in Saigon —
+went unplayed, because the VC was Ineligible on it.** The blow came from the
+NVA instead: it Marched 4 Troops out of Quang Tri into **Hue**, taking NVA
+Control of a pop-2 City, and another Troop into Quang Nam. **NVA 15 -> 18,
+exactly its threshold.** ARVN then took Mandate of Heaven unshaded (a Govern
+capability, of little use to it with Aid at 8) and the VC passed, leaving me
+sole eligible, second after an Event.
+Scores: **US 54 (+4)**, NVA 18 (+0), VC 31 (-4), ARVN 32 (-18). Worth stating
+plainly: victory goes to the highest score above 0, so the NVA at +0 does not
+beat me at +4 — it would need **25 points** to do that. My own score is the
+thing to protect and grow.
+
+**Options considered.**
+- *Pass.* Useless again: on deck is #87 in the order ARVN, VC, NVA, US, and
+  ARVN is Critical/Shaded on it. I am last in that order either way.
+- *Advise.* Weak targets this card — Binh Dinh and Saigon are now clear of
+  enemies, and Kien Hoa holds a single VC Guerrilla. Not worth the slot.
+- *Train + Air Lift.* Taken.
+
+**Plan.** **Op: Train. Special Activity: Air Lift.**
+- Air Lift, 4 spaces: **Kontum, Hue, Kien Hoa-Vinh Binh, Quang Nam**.
+  2 US Troops **Kontum -> Hue**; 1 US Troop **Kien Hoa -> Quang Nam**.
+- Train space: **Da Nang**. No forces to place.
+- Final Train action: **Pacify Da Nang 2 levels**, Neutral -> Active Support,
+  pop 1, +2 US for 6 of ARVN's 41 Resources.
+Expected: **US 54 -> 56**. Hue goes to 5 COIN against 4 NVA, so **COIN Control
+returns** (NVA -2, ARVN +2); Quang Nam goes to 2 against 2, a tie, so NVA
+Control breaks there too (NVA -1). **NVA 18 -> 15.**
+
+**Rationale.** Da Nang is the only Train-Pacify left on the board — every other
+COIN-controlled space holding a US piece is already at Active Support, and the
+Passive-Support pop-1 cities have no US piece to make them Train spaces. So the
+Op is settled and the question is what the Special Activity buys.
+Air Lift over Advise because it converts idle Troops into two broken NVA
+Controls in one activity. Kontum's 2 Troops are doing nothing — it is Active
+Support at pop 1 with no enemy near and an ARVN Police to hold it — whereas in
+Hue they are the margin between NVA Control of a pop-2 City and COIN Control of
+it. I am buying Hue with **two** Troops rather than one deliberately: one would
+only tie at 4-all, and I have already been taught this campaign what a tie is
+worth — the Binh Dinh tie I bought on card #79 was undone by a single Bombard
+on the same card. Five against four is a real margin. Quang Nam gets the tie
+treatment only because it is worth 1 point and I have nothing better for the
+fourth slot.

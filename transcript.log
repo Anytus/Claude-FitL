@@ -677,4 +677,523 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 86
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (4): 6 [No]
+Trung check: d3 >= the Trail (3): 1 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - SS
+Trung check: 6+ NVA Troops in any space with COIN Pieces? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from An Loc to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Quang Nam as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from Central Laos to Quang Nam[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Hue as March destination
+----------------------------------------------------
+[35mMove 4 NVA Troops from Quang Tri-Thua Thien to Hue[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Hue to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 33[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 18[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Phuoc Long as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from An Loc to Phuoc Long[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Pleiku-Darlac as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from LOC Da Nang -- Dak To to Pleiku-Darlac[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+Trung check: Can Ambush in March destinations? [Yes]
+
+NVA chooses Ambush special activity
+====================================================
+
+NVA Ambushes in LOC Saigon -- An Loc -- Ban Me Thuot, targeting Saigon
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Saigon -- An Loc -- Ban Me Thuot to ACTIVE[0m
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Ambushes in Pleiku-Darlac
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Pleiku-Darlac to ACTIVE[0m
+[35mRemove 1 US Underground Irregular from Pleiku-Darlac to CASUALTIES[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 33 to 32[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : ARVN
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 41[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 87
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : ARVN, VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Mandate of Heaven
+----------------------------------------------------
+[31m
+Capability: '#86 Mandate of Heaven (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC, US
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US
+Acted         : ARVN -> Event
+Passed        : VC
+Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kontum
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Kontum
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kontum, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kontum
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Hoa-Vinh Binh
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kontum, Hue, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kontum
+3) Lift forces out of Hue
+4) Lift forces out of Kien Hoa-Vinh Binh
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Nam
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kontum, Hue, Kien Hoa-Vinh Binh, Quang Nam
+
+Select one:
+====================================================
+1) Lift forces out of Kontum
+2) Lift forces out of Hue
+3) Lift forces out of Kien Hoa-Vinh Binh
+4) Lift forces out of Quang Nam
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Kien Hoa-Vinh Binh
+3) Quang Nam
+4) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kontum to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kontum
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 2
+[35mMove 2 US Troops from Kontum to Hue[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Hue to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 32 to 34[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 18 to 16[0m
+
+Air Lifting forces from Kontum to Hue
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kontum, Hue, Kien Hoa-Vinh Binh, Quang Nam
+
+Select one:
+====================================================
+1) Lift forces out of Hue
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Lift forces out of Quang Nam
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Kontum
+2) Hue
+3) Quang Nam
+4) Do not move forces now
+----------------------------------------------------
+Selection: 3
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Quang Nam
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 3): 1
+[35mMove 1 US Troop from Kien Hoa-Vinh Binh to Quang Nam[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 15[0m
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Quang Nam
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 2
+Move how many US Underground Irregulars (0 - 2): 1
+[35mMove 1 US Underground Irregular from Kien Hoa-Vinh Binh to Quang Nam[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 34 to 35[0m
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Quang Nam
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kontum, Hue, Kien Hoa-Vinh Binh, Quang Nam
+
+Select one:
+====================================================
+1) Lift forces out of Hue
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Lift forces out of Quang Nam
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Hue
+3) Saigon
+4) Binh Dinh
+5) Kien Hoa-Vinh Binh
+6) Pleiku-Darlac
+7) Quang Nam
+8) None of the above
+----------------------------------------------------
+Selection: 1
+
+US selects Da Nang for Training
+
+Training in Da Nang:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Da Nang
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Da Nang
+
+Pacifying in Da Nang
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Da Nang
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Da Nang
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 35[0m
+[33mPlace Active Support marker in Da Nang[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 54 to 56[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
