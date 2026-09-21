@@ -70,3 +70,43 @@ Sent: perform, 3 (Pass). No rejections.
 Sent: perform, 1 (Event), 1 (Unshaded). No rejections.
 **Result.** As planned: Momentum Claymores in play, US stays Eligible (shown as US(+)). ARVN then passed (Resources 7), VC Rallied 4 Guerrillas into Quang Tin and Taxed it (Agitate 4, Quang Tin to Passive Opposition). On #75 Sihanouk I was squeezed out as expected: ARVN Transport + Assault (Kien Giang Control, 4 Guerrillas killed, Resources 1), then NVA shaded Sihanouk: VC and NVA free Rally in Cambodia and March: NVA took Kien Phong (4 Troops) and Quang Tin-Quang Ngai (5 Troops + 4 Guerrillas) for NVA Control, NVA 7 -> 11; a VC Guerrilla marched into Pleiku, an NVA Guerrilla into Binh Dinh. Claymores' March penalty did not fire (no Marching group Activated). On #51 the VC Terrored and Taxed Quang Tin (Agitate 6).
 **Note (Kevin, after #75).** At Trail 4 the NVA Marches for free outside South Vietnam; that is how the Parrot's Beak stack reached Quang Tin-Quang Ngai in one March. My turn-4 pricing of Trucks unshaded (Trail 4 -> 2) as "transient" undervalued it.
+
+## Turn 6 — card #51 301st Supply Bn — before save-034
+**Situation.** VC has acted (Op + SA); NVA and ARVN Ineligible; I am last on the card, menu Event / Limited Op / Pass. The Coup card is the one card left in pile 1 after #110, so the Coup follows #110. On #110 No Contact I am last in order behind VC, NVA (Performed/Shaded) and ARVN, so I will almost certainly not act on it whatever I do here. ARVN Resources 1; the Coup pays Econ 15 + Aid 25. 10 NVA Troops in Central Laos beside my Quang Tri Base (1 Troop, 1 Active Irregular); 14 in Southern Laos; Trail 4 so they move for free.
+**Options considered.**
+- Event unshaded: remove 6 non-Base Insurgent pieces from outside South Vietnam. Six NVA Troops out of Central Laos leaves 4 there, under the NVA's "8+ Troops outside the South" March trigger, and under the 6 it needs to Attack my Base if it does march.
+- Limited Op: nothing pacifiable, no Assault target with Active enemies, one space only. Worthless.
+- Pass: +3 ARVN Resources, eligibility on a card where I am last. Worth almost nothing.
+**Plan.** Event, unshaded. Remove 6 NVA Troops from Central Laos. If the program restricts choice, prefer Troops over Guerrillas and Central Laos over Southern Laos.
+**Expected effect.** No score change (NVA Control in Central Laos is pop 0 and survives anyway). Central Laos 10 -> 4 Troops. US Ineligible on #110.
+**Rationale.** The NVA offensive is the threat to my Bases and Troops, and Aid falls 3 per Casualty at the Coup. This is the only action available that changes that, and it costs me nothing I could use.
+**Execution.** (below)
+Sent: perform, 1 (Event), 1 (Unshaded), 1 (Central Laos), 6, 6 (Troops; the prompt's minimum was 4 Troops since only 2 Guerrillas were there). No rejections.
+**Result.** As planned: 6 NVA Troops from Central Laos to Available. On #110 (Monsoon) the NVA did not take the shaded event: Infiltrate replaced the VC Base in Quang Tin with an NVA Base and removed Passive Opposition there (NVA 12, VC 21), and put 6 Troops back into Southern Laos. ARVN found every operation ineffective and passed. Coup #126 Young Turks drawn; #73 on deck for after the Coup.
+
+## Coup 1 (#126 Young Turks) — Support phase — before the Coup save
+**Situation.** Victory phase: nobody above 0. Resources: Econ set to 13, ARVN +38 to 42, no Casualties. US Pacification offered in Da Nang (Neutral, pop 1), Kontum (Neutral, pop 1), Saigon (Passive Support, pop 6); 42 Resources, Econ 13, cost 3 per level.
+**Plan.** Saigon 1 level (Passive -> Active Support, +6 for 3), Da Nang 2 levels (Neutral -> Active, +2 for 6), Kontum 2 levels (+2 for 6). Total 15 Resources, leaving 27, still above Econ for ARVN's own pacification.
+**Expected effect.** US Support 14 -> 24, US 37 -> 47 before Commitment. The VC's Agitate Total of 6 will then spend against spaces with its Guerrillas.
+**Rationale.** The cheapest points in the game, paid with a bot's money that it would otherwise spend on four-space Sweeps. Saigon Active Support is Govern-proof.
+**Execution.** (below)
+Sent: 3 (Saigon), 1 (1 level to Active), 1 (Da Nang), 1 (2 levels), 1 (Kontum), 1 (2 levels). No rejections. Result as planned: +12 Support, Resources 42 -> 27. ARVN pacified Kien Hoa to Passive; VC Agitated Quang Tin back to Active Opposition (Agitate 6 -> 3). US 37 -> 49, VC 25.
+
+## Coup 1 — Commitment phase
+**Situation.** US 49 (Support 26 + 23 in the box). ARVN Redeploy pulled 17 Troops into Saigon and dropped a Troop and a Police into each of Quang Tri-Thua Thien and Binh Dinh, which makes both pass the strict Coup pacification test next time. NVA Redeploy moved 8 Troops from Southern Laos into Quang Tin-Quang Ngai: 13 NVA Troops with an NVA Base, adjacent to Binh Dinh and Kontum. ARVN lost four Controls (44 -> 38). No Casualties.
+**Options considered.**
+- Deploy Troops to Quang Tri/Binh Dinh: each costs 1 point now, and 13 NVA Troops next door make a 2-3 Troop garrison casualties, not a defence. Air Lift is free again after the Reset and can move the 6 Troops already on the map if a space needs holding.
+- Troop to Hue for a +2 Coup pacification: Hue is Govern-exposed (ARVN cubes exceed US cubes there); net +1 at best.
+- Nothing: stay at 49.
+- Saigon's Base to Available: +1 US (49 -> 50), no withdrawal shift (the penalty is 1 shift per 2 pieces), and Saigon can Train ARVN cubes with or without a US Base. Saigon Control is 26 ARVN cubes deep. The Base's only remaining job there was Assault doubling against enemies Saigon does not have.
+**Plan.** Move the US Base from Saigon to Available. Move no Troops. Finished.
+**Expected effect.** US 50 (score 0). Bases on the map 3 (Pleiku, Quang Tri, Binh Dinh), Available 3. Next Coup: Quang Tri and Binh Dinh pacifiable under the strict test (+4 each), which is the path above 50.
+**Rationale.** A certain point now, at no cost to any plan; the deployment question is better answered with free Air Lifts during the campaign once the NVA stack shows where it is going.
+**Execution.** (below)
+Sent: 2 (Move a base), 2 (Saigon), 1 (Available box), 3 (Finished). No rejections. Withdrawal: "1 piece was removed to Available / No shifts in support possible". US 49 -> 50. Reset: Trail 4 -> 3, both Momentum removed, Irregulars flipped Underground, all Eligible.
+
+## Card #73 Great Society — NVA shaded event, US choice — after the Coup
+**Situation.** ARVN Swept Tay Ninh and Quang Tin and Raided (VC 24); the NVA played Great Society shaded: US moves 3 pieces from Available to Out of Play, my choice among 21 Troops and 3 Bases. Every piece is worth 1 point either way.
+**Plan.** 3 Troops. Bases are the scarce piece (3 Available, none in Out of Play now), the only kind that unlocks ARVN cube placement in a Province, and the only kind an event can take from the box permanently. Troops in Out of Play can come back via events like Psychedelic Cookie unshaded, which is on deck.
+**Expected effect.** US 50 -> 47. Out of Play 13 Troops.
+**Result.** 3 Troops to Out of Play, US 47. Card ended (ARVN Op, NVA Event); I was squeezed out of #73.

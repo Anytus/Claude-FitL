@@ -23,3 +23,7 @@ card #55 Trucks: Pass — turn order guarantees first on Claymores; protect Plei
 card #17 Claymores: Event unshaded — stay Eligible, protect Pleiku Base, tax Marches
 card #75 Sihanouk: US eligible but squeezed out (ARVN Op+SA, NVA shaded event: NVA Control Kien Phong + Quang Tin)
 Kevin (rules note after #75): at Trail 4 the NVA Marches for free outside South Vietnam, which is how the Parrot's Beak stack reached Quang Tin. Trail degrade is worth more than I priced on #55.
+card #51 301st Supply Bn: Event unshaded, 6 NVA Troops out of Central Laos — protect Quang Tri Base
+card #110 No Contact: US Ineligible (NVA Infiltrate: NVA Base in Quang Tin; ARVN pass). Coup #126 Young Turks drawn.
+Coup 1: Support: pacified Saigon (1), Da Nang (2), Kontum (2) for 15 Res, +12 — cheapest points; Commitment: Saigon Base to Available (+1, no penalty), no Troops. Nobody won. US 50.
+card #73 Great Society: US squeezed out (ARVN Sweep+Raid, NVA shaded: 3 US Troops from Available to Out of Play, US 47)
