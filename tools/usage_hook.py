@@ -39,6 +39,10 @@ def size(x):
 
 
 def main():
+    # Only log while a game is in progress (games/ exists); build and
+    # maintenance sessions in this repo are not what we are measuring.
+    if not os.path.isdir(os.path.join(ROOT, "games")):
+        return 0
     try:
         data = json.load(sys.stdin)
     except Exception:
