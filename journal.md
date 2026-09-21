@@ -609,3 +609,83 @@ cost the **NVA** two Control markers (Kien Giang-An Xuyen and Kien Phong, NVA
 The one thing that matters for my plan: Kien Hoa-Vinh Binh now holds 3 VC
 Guerrillas against my 2 US Troops, so COIN Control there needs 4 US pieces, not
 3 — the Air Lift has to bring 2 Troops, not 1.
+
+## Turn 8 — card #59 Plei Mei — before save-041
+**Situation.** ARVN took Op + Special Activity and the Special Activity was
+**Govern**: it flipped Quang Tri-Thua Thien and Pleiku-Darlac from Active to
+Passive Support and moved their population value from Aid to Patronage. US 47
+-> 44, ARVN 43 -> 46, Aid 33 -> 30, Patronage 27. That is the post-mortem's
+warning happening on the board, and it changes the standings: **ARVN is now the
+faction closest to winning**, 46 against 50, and its engine is a double swing —
+every point it takes comes off me. The VC is 33 against 35. Because ARVN took
+an Op + SA, my menu is Event, Limited Op or Pass; the Air Lift the Kien Hoa plan
+needed is out of reach for a third card, so that plan is shelved.
+**Options considered.**
+- *Event, Plei Mei unshaded* ("remove any 3 NVA pieces from a space with or
+  adjacent to a COIN Base"). It would take the 3 NVA Troops off Binh Dinh,
+  leaving a naked NVA Base against 2 ARVN Police — which flips Binh Dinh to
+  **COIN Control**, and COIN Control is ARVN's score, not mine. It would cost
+  the NVA 2 points (9 -> 7, a faction 9 short of winning) and hand ARVN +2 (46
+  -> 48, a faction 4 short). I am not playing an event that promotes the leader.
+- *Limited Op, pacify Quang Tri-Thua Thien 1 level* (Passive -> Active Support,
+  pop 2, 3 Resources). +2 US, and **not** redundant with the Coup: Quang Tri has
+  4 Irregulars and 4 ARVN Police but no US Troops, and the Coup Support phase
+  requires US Troops, so Train is the only way to pacify it. The catch is that
+  it is exactly a Govern target — COIN-controlled, ARVN cubes, outside Saigon —
+  so I would be restocking the shelf ARVN just robbed.
+- *Limited Op, Train Saigon, transfer Patronage to ARVN Resources.* The lever
+  Kevin pointed out. Patronage is 27 of ARVN's 46, and Saigon is the one space
+  Govern cannot touch, so this is the only move on the board that takes points
+  off the leader without feeding it back.
+**Plan.** **Limited Op -> Train in Saigon -> Transfer Patronage to ARVN
+Resources.** I do not know the size of the transfer; I will read the prompt, and
+if it turns out to be trivial I will **abort** and re-run the Limited Op as the
+Quang Tri-Thua Thien pacification instead, recording the abort.
+**Rationale.** Support outside Saigon is a revolving door while ARVN Governs:
+anything I pacify in a space holding ARVN cubes can be taken straight back for
+ARVN's gain, so +2 there is worth appreciably less than +2 on the scoreboard
+suggests. Patronage is the opposite — it is a third of ARVN's total, it sits
+where Govern cannot restock it from, and cutting it is the only way I have to
+push the nearest faction away from its threshold. It is also a mechanic I have
+never used in two games, and knowing what it is worth changes how I price every
+remaining Train.
+On deck is #22 Da Nang with VC Critical/Shaded, "remove all Support within 1
+space of Da Nang; no Air Strike until Coup". I read the affected spaces as Da
+Nang itself plus Quang Nam, Quang Tin-Quang Ngai and three LoCs — Hue and Quang
+Tri-Thua Thien are two spaces away, reached through the Hue-Da Nang LoC — so the
+cost should be the 2 points of Da Nang's Active Support and a ban on an
+operation I have refused to use all game. Not worth a third consecutive pass to
+deny, especially as passing would leave me eligible but with nothing built.
+**Execution — I threw the action away.** The final Train action menu appeared as
+I hoped, but **with only two entries**, because Saigon is already at Active
+Support and so had no Pacify available:
+
+    Choose final Train action:
+    ====================================================
+    1) Transfer patronage to ARVN resources
+    2) Finished with Train operation
+    ----------------------------------------------------
+    Selection: 2
+
+I sent **2**, intending "Transfer patronage", from the three-entry shape I had
+seen on every previous Train — `1) Pacify  2) Transfer patronage  3) Finished`.
+Pacify was absent, the menu renumbered, and 2 was "Finished with Train
+operation". No rejection, no abort, no warning: the turn simply ended with a
+Train in Saigon that placed nothing and transferred nothing.
+
+The cause is not the interface, it is me. I chained the two sends with output
+discarded and only printed the screen afterwards, so I answered a menu I had
+never read — the exact failure the post-mortem lists as the decisive mistake of
+the last game, committed on the same turn I wrote "I will read the prompt". The
+program's menus renumber whenever an option is unavailable, and the final Train
+menu drops Pacify when no selected space can be pacified.
+
+**Rule adopted, without exception: one send per command, and print the screen
+immediately before every answer. Never chain sends.**
+
+**Result.** Nothing. US 44, ARVN 46, VC 33, NVA 9; ARVN Resources 48 unchanged,
+Patronage still 27. A wasted action with ARVN 4 points from victory, and I still
+do not know what the transfer is worth. The one consolation is small and does
+not excuse it: a Limited Op Train could not have pacified Quang Tri-Thua Thien
+either, since only the single selected space is eligible for the final action,
+so the alternative plan I was weighing was worth less than I thought.

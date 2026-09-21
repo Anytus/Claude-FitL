@@ -412,4 +412,164 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 22
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #22 - Da Nang (US, VC, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (10): 5 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 45[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 42[0m
+[35mPlace 1 ARVN Police from AVAILABLE into Hue[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Quang Tri-Thua Thien (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 31[0m
+[34mIncrease Patronage by +2 to 26[0m
+[33mFlip Active Support marker in Quang Tri-Thua Thien to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 47 to 45[0m
+[34mMove the 'COIN Control + Patronage' marker from 43 to 45[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Pleiku-Darlac (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 30[0m
+[34mIncrease Patronage by +1 to 27[0m
+[33mFlip Active Support marker in Pleiku-Darlac to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 45 to 44[0m
+[34mMove the 'COIN Control + Patronage' marker from 45 to 46[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #22 - Da Nang (US, VC, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : US
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Saigon
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+Choose final Train action:
+====================================================
+1) Transfer patronage to ARVN resources
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 2
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
