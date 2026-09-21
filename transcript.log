@@ -163,4 +163,106 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 72
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #72 - Body Count (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - H
+Trung check: 5+ ARVN Troops + Rangers in any one space? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: All routes from Can Tho to Hue blocked? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - KK
+Trung check: ARVN Assault would add COIN Control? [No]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 45[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 42[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Hue[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Hue[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 3 [Failure]
+[34m
+Move the ARVN cylinder to the Op Only box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #72 - Body Count (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US
+Acted         : ARVN -> Op Only
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 45[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 

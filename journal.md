@@ -500,3 +500,56 @@ reduction of the second-closest faction to victory — and I wrote in the last
 report that Patronage was the part of ARVN's score I could not touch, which was
 simply wrong. It costs the one final Train action, so it competes head-on with
 Pacify; from here I price both every turn instead of assuming Pacify.
+
+## Turn 6 — card #66 Ambassador Taylor — before save-037
+**Situation.** ARVN took **Op Only** (Train, stacking 3 Troops + 3 Police into
+each of Saigon and Hue), which confirms the TestGame1 note: as second eligible
+after an Op Only my menu is "1) Limited Op  2) Pass" and the Event is closed to
+me. So Ambassador Taylor's unshaded side — 2 US pieces out of the Out-of-Play
+box, or Patronage -3 — is not available. US 47, VC 33, ARVN 43, NVA 11.
+Last card's Subvert stripped the ARVN Police out of Kien Hoa-Vinh Binh and put a
+Guerrilla in, so my 2 US Troops there face 2 VC Guerrillas and nobody controls
+it; the -4 pacification needs one more COIN piece in the space first, which
+means an Air Lift, which a Limited Op cannot carry.
+**What actually decides this.** The VC is 3 points from winning outright at the
+Coup 2 Victory check, and that check happens before anything else in the Coup.
+Denying the VC points is existential in a way that adding 2 to my own total is
+not.
+**Options considered.**
+- *Limited Op now.* The only real content is Train in Quang Nam and pacify it 2
+  levels, Neutral -> Active Support, +2 US for 6 Resources. Kien Hoa-Vinh Binh
+  is not pacifiable (Uncontrolled), Qui Nhon, Cam Ranh, An Loc, Can Tho and Ba
+  Xuyen hold no US pieces so they cannot even be Train spaces, and the transfer
+  of Patronage to ARVN Resources that Kevin pointed out costs the same single
+  action while ARVN, at 43 with 8 to go, is not the faction about to win.
+- *Pass.* On deck is #72 Body Count (ARVN, NVA, US, VC). ARVN is Ineligible
+  there, having just acted. If I stay Eligible the order is NVA, then me, then
+  VC — and a card ends after two factions act.
+**Plan.** **Pass.**
+**Rationale.** Two things follow from that turn order, and the first is the one
+I got wrong on card #29. **My action on #72 is guaranteed by the order itself,
+not by a bot's choice**: only NVA stands ahead of me among the eligible, so the
+only way I could be squeezed out is if NVA and VC both acted first, and VC is
+behind me. On #29 I passed and left the denial resting on ARVN choosing to
+spend its eligibility; here nothing rests on anyone.
+Second, passing takes the VC's turn away from it. If I act now, #72 is NVA and
+VC; if I pass, it is NVA and me, and the VC — 3 points from victory, with Terror
+available in Khanh Hoa and Phu Bon-Phu Yen and one Base still in Available —
+gets nothing.
+And the action I am buying is bigger. As second eligible after an NVA Event I
+get a full Op + Special Activity: Air Lift 2 US Troops out of Saigon (which ARVN
+has just garrisoned with 5 Troops and 4 Police, so it can spare them) into Kien
+Hoa-Vinh Binh for COIN Control, then Train-Pacify it 2 levels from Active
+Opposition to Neutral — **-4 VC**, taking them to 29 and out of reach of the
+Coup 2 check. Even the worst case is not a loss: if NVA takes an Op with a
+Special Activity I fall back to a Limited Op and pacify Quang Nam for the same
++2 I would have had here, one card later.
+The real cost is tempo — acting on #66 would leave me eligible again two cards
+out, and passing spends that. I am paying it because a VC at 29 cannot win at
+Coup 2 and a US at 49 cannot either.
+**Execution.** Passed (2). No rejections. The program confirmed eligibility:
+US, VC and NVA to the Eligible box, ARVN to Ineligible — exactly the
+configuration the plan depends on.
+**Result.** +3 ARVN Resources (45). No board change. #72 Body Count is current
+with US, VC and NVA eligible and ARVN out; NVA acts first, I act second, and the
+card ends before the VC.
