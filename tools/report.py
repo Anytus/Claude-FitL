@@ -123,8 +123,18 @@ def main(argv):
     with open(os.path.join(d, "index.md"), "a", encoding="utf-8") as f:
         f.write(f"- {name}: {cards_line[len('Cards: '):]}\n")
     save_last(game, b)
+    sync_usage_log(d)
     print(f"wrote reports/{game}/{name} ({b - a} segments; {cards_line})")
     return 0
+
+
+def sync_usage_log(report_dir):
+    """Copy the tool-usage log (kept outside the tree by usage_hook.py) into
+    the game's report directory so it is committed with the game."""
+    import shutil
+    src = os.path.join(os.path.expanduser("~"), ".fitl-usage.log")
+    if os.path.isfile(src):
+        shutil.copyfile(src, os.path.join(report_dir, "usage.log"))
 
 
 if __name__ == "__main__":

@@ -6,7 +6,8 @@ diff, report, git, file edits...), the number of calls and the input and
 output volume in characters and estimated tokens (chars / 4). Also the
 grand totals, so 'unattributed' context growth can be pinned down.
 
-Usage: usage_report.py [usage.log]
+Usage: usage_report.py [path]   (default: reports/<game>/usage.log if one
+                                 game is present, else ~/.fitl-usage.log)
 """
 import os
 import re
@@ -31,7 +32,13 @@ def kind(tool, label):
 
 
 def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "usage.log")
+    path = sys.argv[1] if len(sys.argv) > 1 else None
+    if path is None:
+        games = sorted(d for d in os.listdir(os.path.join(ROOT, "reports")) if
+                       os.path.isfile(os.path.join(ROOT, "reports", d, "usage.log"))) \
+            if os.path.isdir(os.path.join(ROOT, "reports")) else []
+        path = os.path.join(ROOT, "reports", games[0], "usage.log") if len(games) == 1 \
+            else os.path.join(os.path.expanduser("~"), ".fitl-usage.log")
     calls = defaultdict(int)
     inp = defaultdict(int)
     out = defaultdict(int)

@@ -3,9 +3,15 @@
 
 Claude Code runs this after each tool call with a JSON object on stdin
 (tool_name, tool_input, tool_response, ...). It appends one line per call to
-usage.log: timestamp, tool, a short label (the command or file), input size
-and output size in characters. Characters divided by four is a fair token
-estimate. tools/usage_report.py summarises the log.
+a log OUTSIDE the repository (~/.fitl-usage.log): timestamp, tool, a short
+label (the command or file), input size and output size in characters.
+Characters divided by four is a fair token estimate.
+
+The log lives outside the working tree on purpose: a git commit is itself a
+tool call, so a log inside the tree would be dirty again the instant a
+commit finished. report.py copies the log into reports/<game>/usage.log
+each time it runs, which is once per card, so the committed copy lags by a
+few calls at most. tools/usage_report.py summarises either copy.
 
 This is measurement only; it never changes what a tool does.
 """
@@ -14,8 +20,7 @@ import os
 import sys
 import time
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOG = os.path.join(ROOT, "usage.log")
+LOG = os.path.join(os.path.expanduser("~"), ".fitl-usage.log")
 
 
 def label(tool, inp):
@@ -39,10 +44,6 @@ def size(x):
 
 
 def main():
-    # Only log while a game is in progress (games/ exists); build and
-    # maintenance sessions in this repo are not what we are measuring.
-    if not os.path.isdir(os.path.join(ROOT, "games")):
-        return 0
     try:
         data = json.load(sys.stdin)
     except Exception:

@@ -3,3 +3,4 @@ __pycache__/
 .ctl-cursor
 .ctl-game
 .ctl-block
+/usage.log

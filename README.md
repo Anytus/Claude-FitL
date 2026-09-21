@@ -73,10 +73,12 @@ no longer repeats the log lines; `render.py` is brief by default; and
 one call per menu.
 
 Every tool call is logged by a `PostToolUse` hook (`.claude/settings.json`
-runs `tools/usage_hook.py`) to `usage.log`, one line per call with the
-input and output size; `python3 tools/usage_report.py` summarises it by
-kind of call. Commit the log with the game so the next cost question can be
-answered from data.
+runs `tools/usage_hook.py`) to `~/.fitl-usage.log`, outside the working
+tree, one line per call with the input and output size. `report.py` copies
+it to `reports/<game>/usage.log` each time it runs, so it is committed with
+the game without ever making the tree dirty on its own (a commit is itself a
+tool call, which is why the log cannot live in the tree). `python3
+tools/usage_report.py` summarises it by kind of call.
 
 What the operator should do about it: **start a fresh session at every
 Coup round.** The game, journal and notes live in the repo, so nothing is

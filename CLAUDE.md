@@ -91,7 +91,7 @@ All interaction goes through `python3 tools/ctl.py`:
 | `send <text>` | Type `<text>` and Enter, wait for output, print it. |
 | `enter` | Press Enter (for `>>>>> [ Press Enter to continue... ] <<<<<`). |
 | `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds, and draws event cards when the program asks for one. Stops at any prompt that needs *you*. Prints everything. Use this instead of stepping through bot turns by hand. |
-| `seq "<expected>=><answer>" ...` | Answer several prompts in one call. Each step is sent only if `<expected>` appears in the current prompt; otherwise the sequence stops, sends nothing more, and prints the screen. An answer of `#<label>` picks the menu entry whose label starts with `<label>`, so renumbered menus cannot bite. Use this for your whole action; one `send` per prompt is the fallback. |
+| `seq "<expected>=><answer>" ...` | Answer several prompts in one call. Each step is sent only if `<expected>` appears in the current prompt; otherwise the sequence stops, sends nothing more, and prints the screen. An answer of `#<label>` picks the menu entry whose label starts with `<label>`, so renumbered menus cannot bite. **One `seq` per action**, with every step of the action in it: a `seq` with a single step is just a slow `send`, and is only right when the previous `seq` stopped and you are continuing from where it stopped. |
 | `read` | Print program output since the last read. |
 | `screen` | Print the current visible screen (the current prompt). |
 | `status` | Running? Cursor? Last lines. |
@@ -140,29 +140,49 @@ For each card:
 
 1. `ctl.py advance`. It draws a card if one is due and runs the bots. Read
    what the bots did.
-3. If it stops at `>>> US turn (Human) <<<`:
+2. If it stops at `>>> US turn (Human) <<<`:
    a. `render.py`. Study the board, both cards, the sequence of play, and
       what the bots have done this card.
    b. Write the plan entry in `journal.md` (format below).
-   c. `ctl.py send perform`, then execute the plan with one `seq` call
-      whose steps name the prompts you expect (the prompt chains are in
-      `RULES_LEARNED.md`); if it stops, read the screen it printed and
-      continue with a new `seq` or single `send`s. Record every stop,
-      rejection and deviation in the journal entry's "Execution" section.
+   c. Execute the plan with **one** `seq` call containing every step from
+      `perform` to the end of the action; if it stops, read the screen it
+      printed and continue with a second `seq` from that point. Record
+      every stop, rejection and deviation in the journal entry's
+      "Execution" section. The common chains:
+      - Op + Train: `"(perform or ?)=>perform" "Choose one=>#Op"
+        "Choose operation=>#Train" "US Training=>#Select a space"
+        "Train in which space=>#<space>" "Training in=>#Place Irregulars"
+        "how many Irregulars=>2"` ... repeat select/place per space ...
+        `"US Training=>#Finished selecting" "final Train action=>#Pacify"`
+        (or `#Transfer` or `#Finished`) ... `"special activity=>y"`
+        `"Choose special activity=>#Advise"` ... The final Train menu
+        and the special-activity prompts follow.
+      - Limited Op: the same, but there is no "US Training" menu: after the
+        one space's placement the "final Train action" menu comes next.
+      - Second eligible: the first menu offers `#Limited` or `#Pass`, or
+        `#Event`, `#Limited`, `#Pass`, depending on what the first actor
+        did; `#Op` is not there.
+      Bare prompts that want a typed name take a plain answer
+      (`Train in which space=>Saigon`); numbered ones take `#Saigon`.
    d. `ctl.py advance` again for any remaining bot actions.
-4. When `advance` has drawn the next card (a `[deck]` line appears) the card
+3. When `advance` has drawn the next card (a `[deck]` line appears) the card
    is finished: run `python3 tools/report.py`, which writes every new
    segment's narration and the board summary to `reports/<game>/`, write
    the card's section of your reply, and append to `notes.md`. Then stop,
    or continue with the next card if Kevin asked for more. Commit and push
-   at the end of your reply.
-5. Coup rounds: `advance` sends `coup`. The program will stop whenever the
+   at the end of your reply. Do not extract narration from
+   `transcript.log` or the `advance` output for your reply: the report
+   file is the narration, and the reply names the file.
+4. Coup rounds: `advance` sends `coup`. The program will stop whenever the
    US has a decision to make. Seen so far: the Support phase (which spaces
    to Pacify, if any) and the Commitment phase (which US Troops and Bases to
    move among Available, COIN-controlled spaces, LoCs and Saigon). Write a
    short plan for each such decision in `journal.md`, answer, then `advance`
-   again. The Coup round ends with the next card being drawn.
-6. Pivotal event: if the program asks whether the US wants to play
+   again. The Coup round ends with the next card being drawn. After the
+   Coup round's report, tell Kevin it is a good point to start a fresh
+   session: the game lives in the repo, and a session that never grows past
+   one campaign costs a fraction of one that runs the whole game.
+5. Pivotal event: if the program asks whether the US wants to play
    Linebacker II, decide, log it in the journal, and answer.
 
 Append a one-line summary to `notes.md` after every US action or decision.
