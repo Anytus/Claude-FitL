@@ -50,3 +50,4 @@ Kevin: continue the game past the win to the next US turn, explore Sweep prompts
 Session 1: program process died again after the win; resumed TestGame3 from save-110 (Coup 3 prompt). Nothing replayed.
 Coup 3 continued: Commitment casualties to Hue (2) and Da Nang (2); VC pivotal Tet Offensive followed (9 Terrors, Bases into Saigon and Hue, my 2 Hue Troops killed) — US 46, VC 34
 card #28 Search and Destroy: explored Sweep (aborted, no state change) and Patrol (rolled back by a container loss), then Train Saigon + Advise — ARVN Assault killed Hue's undefended VC Base, Saigon pacified terror+2 levels: US 52, VC 27
+Kevin: asked me to fold the TestGame3 findings into RULES_LEARNED.md — done (header, sections 1-6, 8; Sweep and Patrol rewritten from stubs).
