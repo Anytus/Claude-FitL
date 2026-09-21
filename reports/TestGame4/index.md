@@ -1,1 +1,2 @@
 - report-001-004.md: #48 - Nam Dong; #17 - Claymores
+- report-005-016.md: #17 - Claymores; #118 - Korean War Arms; #116 - Cadres; #26 - LRRP; #1 - Gulf of Tonkin

@@ -97,3 +97,131 @@ Pleiku-Darlac). ARVN 36 -> 40 (COIN Control 21 -> 25: Quang Tri-Thua Thien
 from the Irregulars, Binh Dinh from the Advise). Aid 15 -> 21, ARVN
 Resources 30 -> 27, US Irregulars Available 3 -> 1. Four VC pieces off the
 map for no US loss beyond two Irregulars flipped Active.
+
+## Turn 2 — card #116 Cadres — before save-011
+**Situation.** Three cards since my last action. On #17 the VC **passed** rather
+than take Claymores unshaded, which I had thought it might; it banked its
+eligibility and cast its Critical shaded Korean War Arms on #118, placing VC
+Bases in Tay Ninh, Quang Tin-Quang Ngai and Quang Tri-Thua Thien — VC 26 -> 29
+and my new Quang Tri Control gone to a 4-4 tie. ARVN passed; the NVA Rallied
+Guerrillas into all four sanctuaries, improved the Trail to 3, then Infiltrated
+them into 8 Troops each in Southern Laos and the Parrot's Beak. On #116 ARVN
+took Cadres **unshaded** as a Capability — "VC to Terror or Agitate must remove
+2 VC Guerrillas per space" — which taxes the VC's whole Opposition engine,
+including its Agitate in the Coup Support phase, for the rest of the game. I am
+the only Eligible faction, second after an Event, so my menu is Op (may add a
+Special Activity) or Pass.
+
+**Options considered.**
+- *Op + Special Activity now.* Train Binh Dinh (COIN-controlled, Neutral, pop 2)
+  and Pacify 2 levels to Active Support, +4; Advise in Quang Tri-Thua Thien to
+  remove the 2 VC Underground Guerrillas, restoring Control and leaving 2
+  undefended VC Bases there. Worth roughly +4 US and +2 ARVN.
+- *Pass.* +3 ARVN Resources, and first eligibility on the on-deck card.
+
+**Plan.** **Pass.**
+
+**Rationale.** The on-deck card is **#26 LRRP, in the order US, VC, ARVN, NVA,
+and the VC is marked Critical/Shaded on it.** Its shaded side reads "3
+Irregulars map to Casualties. Shift each space they were in 1 level toward
+Active Opposition." I have exactly 4 Irregulars on the map — 3 of them the
+Quang Tri stack I have been building — so that card would take my Advise engine
+and shift Quang Tri and Binh Dinh from Neutral to Passive Opposition and Pleiku
+from Active to Passive Support: about +4 VC and -1 US, putting the VC on 33
+against a threshold of 35 on the fifth card of the game. If I act here I am
+Ineligible on #26 and the VC, first among the eligible, casts it.
+If I pass, ARVN is Ineligible next card and the eligible are US, VC, NVA — and
+the printed order puts **US first**, so the action is guaranteed by the card,
+not by a bot's choice, which is the only kind of pass the last three
+post-mortems endorse. I then get to decide on #26 whether to deny by taking
+LRRP unshaded outright or by running an Op Only, which closes the Event to the
+faction behind me. Either way I act on #26 instead of #116, so the pass costs me
+no action at all — the Binh Dinh pacification is still there next card — and
+buys the denial plus 3 ARVN Resources. Sixteen idle cards was the charge against
+the last game; this is the opposite, a pass that converts a card I would lose
+into the card I want.
+
+**Execution.**
+**Result.**
+
+## Turn 3 — card #26 LRRP — before save-013
+**Situation.** The pass worked exactly as the printed order promised: US first
+eligible on #26, with VC and NVA behind me and ARVN Ineligible. But the draw
+put **#1 Gulf of Tonkin on deck, also led by the US**, and acting here makes me
+Ineligible there. Two US-led cards back to back and one action to spend.
+
+**Options considered.**
+- *Pass again*, keeping #1. Rejected outright: passing hands the first-eligible
+  slot to the VC, which is Critical/Shaded on LRRP and would cast it. Priced
+  below.
+- *LRRP unshaded* ("US places 3 Irregulars outside the South then free Air
+  Strikes"). Airtight denial, and the free Strike could degrade the Trail from
+  3 without any Support shift, since Laos and Cambodia are pop 0. Rejected on
+  the placement: I hold **1** Irregular in Available and 5 on the map, and the
+  program's Train behaviour with an empty box is `There are not enough US
+  Irregulars in the available box / You must remove 1 US Irregular from the
+  map`. Placing 3 outside the South would therefore drag two Irregulars out of
+  Quang Tri-Thua Thien and strand them in Laos — I would be dismantling my own
+  Advise engine to stop the VC dismantling it.
+- *Op + Special Activity.* The Advise is worth having (Quang Tri's 2 Guerrillas,
+  which would restore Control and leave 2 undefended VC Bases), but it leaves
+  the Event open to the faction behind me and the VC takes it.
+- *Op Only.* Taken.
+
+**Plan.** **Op Only: Train. No Special Activity.**
+- Train space: **Binh Dinh**. Place 1 Irregular (my last in Available).
+- Final Train action: **Pacify Binh Dinh 2 levels**, Neutral -> Active Support,
+  6 ARVN Resources (33 against Econ 15; headroom is 18, enough for six levels,
+  so both levels should be offered).
+Expected: Total Support 23 -> 27, US 46 -> 50. Binh Dinh 3 COIN pieces against
+the lone VC Base. ARVN Resources 33 -> 27.
+
+**Rationale.** The denial has to happen. LRRP shaded sends 3 Irregulars to
+Casualties and shifts each space they came from one level toward Active
+Opposition; a bot picking to hurt takes one from each of Quang Tri, Binh Dinh
+and Pleiku, which is +4 VC (two Neutrals to Passive Opposition), -1 US (Pleiku
+off Active Support), -2 ARVN, and Binh Dinh's Control gone with it — the VC on
+33 against a threshold of 35 on card six. That is the shape of the game I lost
+in TestGame1 and it is not worth Gulf of Tonkin, whose unshaded side is
+position rather than points (Out-of-Play pieces score nothing in the box and
+nothing on the map; they only earn later through Support) and whose shaded
+side is currently **null**, since the Casualties box is empty — so the bots
+gain nothing from the card I am giving up, they simply waste it.
+Op Only rather than the Event because it denies *and* pays. The evidence that
+it denies is from this game: on #118 the VC took the Event, ARVN then
+**passed**, and the NVA still received the full `Op (may add SA)` second-eligible
+menu — the slot survives a pass and attaches to whoever acts second, so an Op
+Only closes the Event to the VC and to the NVA behind it. And the worst case if
+I have that wrong is exactly the outcome I would have had by playing Op + SA
+anyway, with +4 points in hand instead of an Advise.
+The last Irregular goes to Binh Dinh rather than Quang Tri deliberately. Quang
+Tri Control bought with a fifth piece would be 5 against 4 and the VC has two
+Bases there to Rally onto, so it would not survive a single Guerrilla; Control
+there has to come from removing VC pieces, not adding mine. In Binh Dinh the
+Irregular arrives **Underground** beside an **undefended VC Base**, which is
+next action's Advise and one more VC point, and it thickens the Control that
+protects the Support I am buying. Support persists through changes of Control,
+so the +4 is banked whatever happens to Binh Dinh afterwards.
+
+**Execution.** No rejection, no abort, no deviation. Three things learned.
+(1) The final Train menu **also** carries a `Perform a Special Activity` entry,
+so Op Only has to be declined twice — and after the Pacify the program asked
+outright, `Do you wish to perform a special activity? (y/n)`. Answering `n`
+printed **`Move the US cylinder to the Op Only box`**, which is the first time
+this harness has seen that box used by the US.
+(2) **The denial worked.** The VC drew `Trung: VC - W` and was held to
+`Move the VC cylinder to the LimOp box` — a single Rally of 4 Guerrillas into
+Tay Ninh. Its Critical shaded LRRP was never castable. The inference from
+card #118 was right: an Op Only closes the Event to the whole second-eligible
+slot.
+(3) Operator note to self: do not pipe `ctl.py advance` into `head`, which
+truncates the stream and leaves the controller parked at an Enter prompt.
+
+**Result.** As planned. Binh Dinh Neutral -> **Active Support**, Total Support
+23 -> 27, **US 46 -> 50**. ARVN Resources 33 -> 27. US Irregulars in Available
+0. VC held to a Limited Op; it now has **0 Bases in Available** (all 9 on the
+map), so any Base I remove cannot be replaced except by a Rally that first
+strips 2 Guerrillas from the space.
+**Standing warning for the rest of the campaign: US 50 is score +0, and
+victory requires strictly more than the threshold. Fifty is the number that
+cost TestGame3 an entire extra campaign. The target is 51.**
