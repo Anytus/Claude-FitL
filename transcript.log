@@ -1230,4 +1230,148 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 127
+
+
+>>> NVA turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+On Deck card  : #127 - Coup! Nguyen Cao Ky
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (4): 15 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - RR
+Trung check: Underground NVA Guerrillas in space with Support? [Yes]
+
+NVA chooses Terror operation
+====================================================
+
+NVA selects Quang Tri-Thua Thien for Terror
+[36mFlip 1 NVA Underground Guerrilla in Quang Tri-Thua Thien to ACTIVE[0m
+[33mAdd 1 terror marker to Quang Tri-Thua Thien[0m
+[33mRemove Passive Support marker from Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 56 to 54[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Binh Dinh for Terror
+[36mFlip 1 NVA Underground Guerrilla in Binh Dinh to ACTIVE[0m
+[33mAdd 1 terror marker to Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Tay Ninh for Terror
+[36mFlip 1 NVA Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mAdd 1 terror marker to Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Quang Tin-Quang Ngai for Terror
+[36mFlip 1 NVA Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mAdd 1 terror marker to Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Kien Giang-An Xuyen for Terror
+[33mAdd 1 terror marker to Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Kien Phong for Terror
+[33mAdd 1 terror marker to Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Hue
+----------------------------------------------------
+[35mRemove 1 US Troop from Hue to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+On Deck card  : #127 - Coup! Nguyen Cao Ky
+Eligible      : VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+VC executes the Shaded Event: Rolling Thunder
+----------------------------------------------------
+[34mDecrease ARVN resources by -5 to 57[0m
+[31m
+Momentum: '#10 Rolling Thunder' is now in play[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 
