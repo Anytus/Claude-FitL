@@ -16,3 +16,4 @@ card #97 Brinks Hotel: Train (3 Irregulars) + Advise removals Quang Tri, Binh Di
 card #15 Medevac: US Ineligible (ARVN Sweep + Raid, VC shaded Medevac: no Air Lift until Coup)
 Kevin (rules note after #97): US Train of ARVN cubes is gated by ARVN Resources > Econ, not by ARVN Available; up to 6 cubes may be placed regardless of Available, pulling the excess from anywhere on the map.
 Kevin (note): ARVN tends to pile cubes in Saigon/Hue; US Air Lift and US Train are the tools to move those cubes where the US wants them.
+Kevin (note): with Air Lift banned, Sweep and Patrol are the remaining ways to relocate pieces; neither tried yet.
