@@ -767,3 +767,49 @@ NVA at -2, no rival can pass me without gaining a dozen points, so the loss I
 should fear is my own Support collapsing, and a single Terror in Hue is -2 of a
 36-point Support total. A two-Base hit on the faction nearest me is worth more
 than insuring against that.
+
+## Turn 12 — card #14 M-48 Patton — before save-057
+**Situation.** ARVN Trained 6 cubes into Hue and took Control back there, but
+**Saigon has lost both its US Troops** and now stands at 7 COIN pieces (a US
+Base, 1 ARVN Troop, 3 Police, 2 Rangers) against **6 Active enemy Guerrillas,
+3 NVA and 3 VC**. That is 12 of my 36 Support points one piece away from losing
+COIN Control — and once Control is gone I cannot repair Saigon if it is ever
+Terrorised. **ARVN Resources are 11 against Econ 12, so pacification is refused
+outright**: there are no US points to be had this card at all.
+Scores: US 58 (+8), VC 30 (-5), NVA 15 (-3), ARVN 27 (-23).
+
+**Options considered.**
+- *M-48 Patton unshaded* ("2 non-Lowland US Assault spaces each remove 2 extra
+  enemy pieces"). Both bots are Critical/Shaded on this card, so there is denial
+  value in taking it — but I have **4 US Troops on the whole map** and Assault
+  has been worthless all game, so the unshaded side would sit unused, and the
+  shaded side (RPGs punishing Patrol) only bites if I keep Patrolling.
+- *Op + Special Activity.* Taken. With no pacification available this is a
+  defensive card, and Saigon is what needs defending.
+
+**Plan.** **Op: Patrol. Special Activity: Advise.**
+- Patrol: move **2 US Troops Kien Hoa-Vinh Binh -> Saigon**, then take the free
+  Assault, which this program resolves **in the Patrol destination** (learned on
+  card #43, where it assaulted Kontum rather than a LoC). 2 US cubes in a City
+  is about 2 hits, removing 2 Active Guerrillas.
+- Advise in **Quang Nam** (Irregular/Ranger removal: 2 of the 5 NVA Troops,
+  leaving 3 against my 4 COIN pieces, so **COIN Control returns**, NVA -1) and
+  in **Saigon** ("Assault a space with ARVN forces": 4 ARVN cubes in a City,
+  about 2 more hits).
+Expected: Saigon goes to roughly 9 COIN against 2 enemy; **NVA 15 -> 14**; no
+change to US points.
+
+**Rationale.** Every Guerrilla in Saigon is **Active**, which is the window:
+Assault removes Active Guerrillas and nothing else, and at the next Coup Reset
+they all flip back Underground, where they are untouchable by Assault and able
+to Terror. Four hits between the Patrol and the Advise takes the stack from 6
+to 2 and puts Control out of reach. Kien Hoa can afford the two Troops — it
+keeps a US Base and 2 ARVN Police against a single VC Guerrilla, which still
+holds Control.
+Quang Nam takes the second Advise slot ahead of Hue. Hue looks more dramatic —
+13 ARVN cubes there would inflict about 6 hits and clear all 5 NVA Troops — but
+Hue is already COIN-controlled and safe, so that would be tidying rather than
+scoring, while Quang Nam converts two removals into a broken NVA Control worth
+a point. The VC Base in Hue that I flew an Irregular in for will have to wait:
+Bases are removed last and Hue still holds NVA Troops and Guerrillas, so the
+Irregular cannot reach it yet.

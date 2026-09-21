@@ -20,3 +20,4 @@ card #105 Rural Pressure: Train Kien Hoa (2 Irregulars, pacify to Active) + Advi
 card #86 Mandate of Heaven: Train Da Nang (pacify 2 levels) + Air Lift Kontum->Hue and Kien Hoa->Quang Nam — US 54->56, NVA 18->15 (two controls broken)
 card #38 McNamara Line: Train Quang Nam (pacify 2 levels) + Air Lift Irregular into Hue — only pacify on board; set up Advise on Hue VC base
 card #24 Operation Starlite: Event unshaded, cleared all VC from Quang Tin-Quang Ngai (2 Bases, 4 Guerrillas) — VC 32->30, opens a pop-2 project
+card #14 M-48 Patton: Patrol 2 Troops Kien Hoa->Saigon + Advise (Quang Nam removal restores COIN control, ARVN Assault Saigon kills 2 VC) — defended Saigon, NVA 15->14
