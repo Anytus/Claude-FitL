@@ -181,3 +181,4 @@
 2026-09-21T19:48:37	Bash	python3 tools/ctl.py seq "Choose final Train action=>#Transfer patronage" 2>&1 |	155	841
 2026-09-21T19:48:51	Bash	python3 tools/ctl.py seq "Transfer how much patronage=>3" 2>&1 | tail -20	129	5131
 2026-09-21T19:49:08	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() s += """ **Execution (turns 12-	2409	7051
+2026-09-21T19:49:30	Bash	git add -A && git commit -q -m "card #67: Patronage transfer executed (capped at	189	101
