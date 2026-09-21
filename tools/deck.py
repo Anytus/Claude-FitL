@@ -22,7 +22,8 @@ choose uniformly among the Coup cards not yet seen.
 
 Usage:
   deck.py next <seen cards...>      print the next card number
-  deck.py selftest                  simulate many decks and check every rule
+  deck.py selftest [--real]         simulate many decks and check every rule
+                                    (--real uses the markings in cards.json)
   deck.py explain <seen cards...>   show pile/position and candidate counts
                                     (never the future: counts only)
 """
@@ -194,7 +195,7 @@ def main(argv):
         return 2
     cmd, args = argv[0], argv[1:]
     if cmd == "selftest":
-        return selftest()
+        return selftest(load_periods() if "--real" in args else None)
     seen = [int(a) for a in args]
     deck = Deck(load_periods())
     if cmd == "next":
