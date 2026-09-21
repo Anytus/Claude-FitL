@@ -24,3 +24,5 @@ card #15 Medevac: US first eligible, took Op+SA. Train: 2 Rangers into Pleiku, P
   learned: Train space test is US pieces not Troops; Advise removal lets you pick the pieces; ARVN Police assault in Highland = 0 hits.
 resumed: third program loss at the card prompt; resume reloaded save-022 (Medevac momentum intact).
 card #118 Korean War Arms: US ineligible. VC shaded placed 3 VC Bases (Tay Ninh, Quang Tin, Quang Duc) -> VC 31 -> 34. NVA Rally/Infiltrate: swapped the VC Base in Binh Dinh for an NVA Base (NVA Control), built 10 Troops in the Parrot's Beak, Trail to 4. VC 33, US 44.
+resumed: fourth program loss at the card prompt; reloaded save-025.
+card #29 Tribesmen: US PASSED to deny ARVN eligibility on #63 and set up Fact Finding unshaded — ARVN passed too, so the card was a null and ARVN is still eligible to play the -4 shaded event. Prediction failed; Performed != certain.

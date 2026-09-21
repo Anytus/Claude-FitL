@@ -6,126 +6,73 @@ Which game would you like to play:
 ====================================================
 1) Start a new game
 2) Resume 'TestGame1', Full: 1964-1972  [#129 - Coup! Failed Attempt] The game has ended with a VC Bot victory
-3) Resume 'TestGame2', Full: 1964-1972  [#15 - Medevac] US performed Op/Special Activity
+3) Resume 'TestGame2', Full: 1964-1972  [#118 - Korean War Arms] VC performed Event
 4) Quit
 ----------------------------------------------------
 Selection: 3
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the VC and NVA cylinders to the Eligible box[0m
-[34mMove the US and ARVN cylinders to the Ineligible box[0m
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 29
+Enter the number of the next On Deck Event card: 63
 
 
->>> VC turn (Bot) <<<
+>>> US turn (Human) <<<
 ====================================================
-Current card  : #118 - Korean War Arms (VC, ARVN, NVA, US)
+Current card  : #29 - Tribesmen (US, VC, ARVN, NVA)
                 VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-On Deck card  : #29 - Tribesmen (US, VC, ARVN, NVA)
-                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-Eligible      : VC, NVA
+On Deck card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US, ARVN
 Acted         : none
 Passed        : none
-Ineligible    : ARVN, US
+Ineligible    : VC, NVA
 (perform or ?): perform
 
-VC executes the Shaded Event: Korean War Arms
-----------------------------------------------------
-[35mPlace 1 VC Base from AVAILABLE into Tay Ninh[0m
-[35mPlace 1 VC Base from AVAILABLE into Quang Tin-Quang Ngai[0m
-[35mPlace 1 VC Base from AVAILABLE into Quang Duc-Long Khanh[0m
-
-Control Changes
-----------------------------------------------------
-[33mRemove NVA Control marker from Quang Tin-Quang Ngai[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'NVA Control + NVA Bases' marker from 8 to 6[0m
-[34mMove the 'Total Opposition + VC Bases' marker from 31 to 34[0m
-[34m
-Move the VC cylinder to the Event box[0m
-
-Finished with VC turn
-
-
->>> NVA turn (Bot) <<<
+Choose one:
 ====================================================
-Current card  : #118 - Korean War Arms (VC, ARVN, NVA, US)
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 51[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #29 - Tribesmen (US, VC, ARVN, NVA)
                 VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-On Deck card  : #29 - Tribesmen (US, VC, ARVN, NVA)
-                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
-Eligible      : NVA
-Acted         : VC -> Event
-Passed        : none
-Ineligible    : ARVN, US
+On Deck card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : ARVN
+Acted         : none
+Passed        : US
+Ineligible    : VC, NVA
 (perform or ?): perform
-[31m
-Drawing Trung Card for NVA[0m
+
+ARVN faction passes
 ----------------------------------------------------
-Trung: NVA - S
-Trung check: Any 2-Pop space without COIN Control? [Yes]
-Trung check: 2d6 <= Available NVA Guerrillas (14): 2 [Yes]
-
-NVA chooses Rally operation
-====================================================
-
-NVA selects The Parrot's Beak for Rally
-----------------------------------------------------
-[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-NVA activation roll against activation number of 2
-----------------------------------------------------
-Die roll: 2 [Failure]
-
-NVA improves the trail
-----------------------------------------------------
-[34mImprove the trail by 1 box to 4[0m
-Trung check: 3d6 <= Available NVA Troops (24): 12 [Yes]
-
-NVA chooses Infiltrate special activity
-====================================================
-
-NVA Infiltrates in Binh Dinh
-----------------------------------------------------
-[35mRemove 1 VC Base from Binh Dinh to AVAILABLE[0m
-[35mPlace 1 NVA Base from AVAILABLE into Binh Dinh[0m
-
-Control Changes
-----------------------------------------------------
-[33mPlace NVA Control marker in Binh Dinh[0m
-
-Score Marker Changes
-----------------------------------------------------
-[34mMove the 'NVA Control + NVA Bases' marker from 6 to 9[0m
-[34mMove the 'Total Opposition + VC Bases' marker from 34 to 33[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-NVA Infiltrates in The Parrot's Beak
-----------------------------------------------------
-[35mRemove 4 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
-[35mPlace 10 NVA Troops from AVAILABLE into The Parrot's Beak[0m
-
-[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
-
-----------------------------------------------------
-End of NVA Infiltrate activity
+[34mIncrease ARVN resources by +3 to 54[0m
 [34m
-Move the NVA cylinder to the Op - May add Special Activity box[0m
+Move the ARVN cylinder to the Pass box[0m
 
-Finished with NVA turn
+Finished with ARVN turn
 
 Adjust eligiblity
 ----------------------------------------------------
-[34mMove the US and ARVN cylinders to the Eligible box[0m
-[34mMove the VC and NVA cylinders to the Ineligible box[0m
+[34mMove the US, ARVN, VC, and NVA cylinders to the Eligible box[0m
 
 Draw event card
 ----------------------------------------------------

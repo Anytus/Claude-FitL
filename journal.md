@@ -352,3 +352,69 @@ Standing: US 44 (-6), ARVN 40 (-10), VC 31 (-4), NVA 8 (-10).
 Train-Pacify there is +4 if the program will pacify a space whose only US pieces
 are Irregulars; if it refuses, that tells me US Troops are required and the
 Coup 2 Support phase will refuse it too.
+
+## Turn 4 — card #29 Tribesmen — before save-026
+**Situation.** VC 33 against a threshold of 35, and 8 of those 33 are Bases it
+placed for free last card. US 44, NVA 9, ARVN 40. I am first eligible on #29
+(US, VC, ARVN, NVA); VC and NVA are Ineligible, so the shaded side that would
+replace all my Irregulars with VC Guerrillas cannot be played by anyone this
+card. Unshaded removes any 4 Insurgent pieces from spaces with Irregulars — and
+my only Irregulars are the 4 in Quang Tri-Thua Thien (the Pleiku-Darlac one has
+no insurgents beside it), so all 4 removals would come out of that one stack of
+5 NVA Troops, 1 NVA Guerrilla and the VC Base.
+On deck is **#63 Fact Finding** (ARVN, US, NVA, VC). Its shaded side — ARVN
+Critical, NVA and VC both Performed — is "Remove Support from a COIN-Controlled
+City outside Saigon, Patronage +4", which against Hue is -4 US. Its unshaded
+side is "2 US pieces from out-of-play to South Vietnam, or transfer a die roll
+from Patronage to ARVN Resources. Aid +6."
+**Options considered.**
+- *Take Tribesmen unshaded now (Line A).* I pick the 4 removals myself — the VC
+  Base (-1 VC) and 3 NVA Troops. But it makes me Ineligible on #63, where the
+  shaded side then lands from ARVN, NVA or VC whichever is eligible: -4 US.
+  Net roughly VC -1, US -4.
+- *Train + Pacify Quang Tri-Thua Thien (Line C).* It is pop-2, Neutral and
+  COIN-controlled, so 2 levels is +4 US — if the program will pacify a space
+  whose only US pieces are Irregulars. Same flaw: Ineligible on #63, -4 back.
+- *Pass (Line B).* Passing keeps me Eligible and makes ARVN first eligible on
+  this card. ARVN is marked Performed/Unshaded here, and it has taken the Event
+  on all four cards where it was marked Performed or Critical this game, so it
+  should play Tribesmen unshaded itself — the 4 removals still come off my Quang
+  Tri stack, just with the bot choosing which. More importantly, **any** ARVN
+  action on #29, Event or Op, makes ARVN Ineligible on #63, which leaves me
+  first among the eligible there.
+**Plan.** **Pass.** Then on #63 take the unshaded Event: 2 US pieces from Out of
+Play into South Vietnam, plus Aid +6.
+**Rationale.** The Out-of-Play box holds 10 US Troops and 2 US Bases that no
+Commitment phase can ever reach — they are worth 0 points where they sit, so
+moving them onto the map is the one deployment in this game that costs nothing.
+Fact Finding unshaded is therefore the free version of the thing I talked myself
+out of at Coup 1: a US Base and a Troop into Quang Tri-Thua Thien, which is
+already COIN-controlled with 4 ARVN Police, would make it pacifiable for +4 in
+the Coup 2 Support phase (that phase demands US Troops, which Quang Tri no
+longer has) and give me the durable Province Base Kevin was right to ask about.
+Taking the unshaded side also denies the shaded -4 to all three bots at once,
+which an Op on #63 would not: if I took an Op there, NVA is second in line and
+is marked Performed/Shaded.
+The risk is precise and bounded: if ARVN *also* passes, #29 is wasted and ARVN
+plays the shaded side on #63 for -4 anyway. I am pricing that at low
+probability on four-for-four evidence, against a swing of about 4 US points plus
+two free pieces.
+**Execution.** Passed at the first menu (3). No rejections.
+**Result.** **The branch I priced as unlikely is the one that happened: ARVN
+passed as well.** Nobody acted on #29, so the 4 insurgent removals were never
+made, all four factions are Eligible again, and ARVN — still Eligible — will
+take its Critical/Shaded side of #63 first in that card's order and strip
+Support from a City outside Saigon for -4 US. The pass earned +3 ARVN Resources
+each for me and ARVN and nothing else; VC and NVA were Ineligible so the card
+was a null for everyone.
+My prediction was based on ARVN having taken the Event on all four cards where
+it was marked Performed or Critical. That is now four-for-five, and the
+counter-example came with a "Performed" marking rather than "Critical" — worth
+remembering: **Performed is a preference, not a commitment, and a bot that is
+sole eligible may simply bank the +3.** The deeper error is that I let a
+one-sided read of the bot carry a plan whose downside was the same -4 I was
+trying to dodge plus a dead card; the sequencing play only pays if the denial is
+certain, and denial by proxy — relying on a bot to spend its own eligibility —
+never is. Where I can deny a card by acting on it myself, that is the version
+worth taking.
+Position unchanged: US 44, VC 33, NVA 9, ARVN 40 (Resources 54).
