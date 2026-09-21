@@ -173,3 +173,11 @@
 2026-09-21T19:45:52	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>#Saigon" 2>&1 | tail -22	137	1383
 2026-09-21T19:46:14	Bash	python3 tools/ctl.py seq "How many NVA Active Guerrillas=>0" 2>&1 | tail -20	141	1214
 2026-09-21T19:46:21	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" "Choose one=>#Do not Assault" 2>&1 | ta	147	6691
+2026-09-21T19:46:47	Bash	cat >> notes.md <<'EOF' card #14 M-48 Patton: Patrol 2 Troops Kien Hoa->Saigon +	418	14919
+2026-09-21T19:47:04	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && python3 tools/render.	461	1248
+2026-09-21T19:48:20	Bash	cat >> journal.md <<'EOF'  ## Turn 13 — card #67 Amphib Landing [MONSOON] — befo	3119	5375
+2026-09-21T19:48:26	Bash	python3 tools/ctl.py seq "Select a space to Train=>#Select a space" "Train in wh	166	1531
+2026-09-21T19:48:31	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" 2>&1 | tail -16	154	1292
+2026-09-21T19:48:37	Bash	python3 tools/ctl.py seq "Choose final Train action=>#Transfer patronage" 2>&1 |	155	841
+2026-09-21T19:48:51	Bash	python3 tools/ctl.py seq "Transfer how much patronage=>3" 2>&1 | tail -20	129	5131
+2026-09-21T19:49:08	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() s += """ **Execution (turns 12-	2409	7051

@@ -21,3 +21,4 @@ card #86 Mandate of Heaven: Train Da Nang (pacify 2 levels) + Air Lift Kontum->H
 card #38 McNamara Line: Train Quang Nam (pacify 2 levels) + Air Lift Irregular into Hue — only pacify on board; set up Advise on Hue VC base
 card #24 Operation Starlite: Event unshaded, cleared all VC from Quang Tin-Quang Ngai (2 Bases, 4 Guerrillas) — VC 32->30, opens a pop-2 project
 card #14 M-48 Patton: Patrol 2 Troops Kien Hoa->Saigon + Advise (Quang Nam removal restores COIN control, ARVN Assault Saigon kills 2 VC) — defended Saigon, NVA 15->14
+card #67 Amphib Landing: LimOp Train Saigon -> Transfer patronage 3 (capped at 3) — ends card so VC cannot act before Victory check; ARVN 34->31

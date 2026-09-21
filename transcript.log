@@ -2324,4 +2324,292 @@ Eligible      : VC
 Acted         : US -> Op/Special Activity
 Passed        : none
 Ineligible    : ARVN, NVA
-(perform or ?): 
+(perform or ?): perform
+
+VC executes the Shaded Event: M-48 Patton
+----------------------------------------------------
+[31m
+Capability: '#14 M-48 Patton (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 67
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #34 - SA-2s (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+Eligible      : NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+NVA executes the Shaded Event: SA-2s
+----------------------------------------------------
+[31m
+Capability: '#34 SA-2s (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the Event box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #34 - SA-2s (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+Eligible      : ARVN
+Acted         : NVA -> Event
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 14[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 125
+
+
+>>> ARVN turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : ARVN, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (11): 12 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - MM
+Trung check: All routes from Can Tho to Hue blocked? [Yes]
+
+ARVN chooses Patrol operation
+====================================================
+[34mDecrease ARVN resources by -3 to 11[0m
+
+ARVN selects LOC Da Nang -- Dak To as Patrol destination
+----------------------------------------------------
+[35mMove 2 ARVN Troops from Qui Nhon to LOC Da Nang -- Dak To[0m
+[35mMove 1 ARVN Police from Qui Nhon to LOC Da Nang -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Hue -- Da Nang as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Hue to LOC Hue -- Da Nang[0m
+[35mMove 1 ARVN Police from Hue to LOC Hue -- Da Nang[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Cam Ranh -- Da Lat as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Cam Ranh to LOC Cam Ranh -- Da Lat[0m
+[35mMove 1 ARVN Police from Cam Ranh to LOC Cam Ranh -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN selects LOC Saigon -- An Loc -- Ban Me Thuot as Patrol destination
+----------------------------------------------------
+[35mMove 1 ARVN Troop from An Loc to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[35mMove 1 ARVN Police from An Loc to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Patrol - Activating guerrillas on LOCs
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Hue -- Da Nang to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[36mFlip 1 VC Underground Guerrilla in LOC Da Nang -- Dak To to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN assaults in LOC Da Nang -- Dak To
+----------------------------------------------------
+The assault inflicts 2 hits
+
+[35mRemove 2 VC Active Guerrillas from LOC Da Nang -- Dak To to AVAILABLE[0m
+
+NVA removes two cubes that moved [#14 M-48 Patton (shaded)]
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from LOC Da Nang -- Dak To to AVAILABLE[0m
+[35mRemove 1 ARVN Police from LOC Da Nang -- Dak To to AVAILABLE[0m
+Trung check: All routes from Can Tho to Hue blocked? [Yes]
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Hue (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 16[0m
+[34mIncrease Patronage by +2 to 10[0m
+[31mNo shift in support. Using [#86 Mandate of Heaven (unshaded)][0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 28 to 30[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Kien Hoa-Vinh Binh (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 14[0m
+[34mIncrease Patronage by +2 to 12[0m
+[33mFlip Active Support marker in Kien Hoa-Vinh Binh to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 58 to 56[0m
+[34mMove the 'COIN Control + Patronage' marker from 30 to 32[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[31mYoung Turks leader effect triggers[0m
+[34mIncrease Patronage by +2 to 14[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 32 to 34[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : US, VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Hue
+3) Saigon
+4) Binh Dinh
+5) Kien Hoa-Vinh Binh
+6) Pleiku-Darlac
+7) Quang Nam
+8) None of the above
+----------------------------------------------------
+Selection: 3
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+Choose final Train action:
+====================================================
+1) Transfer patronage to ARVN resources
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+Transfer how much patronage to ARVN resources (0 - 3): 3
+
+[34mDecrease Patronage by -3 to 11[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 34 to 31[0m
+[34mIncrease ARVN resources by +3 to 14[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 

@@ -813,3 +813,77 @@ scoring, while Quang Nam converts two removals into a broken NVA Control worth
 a point. The VC Base in Hue that I flew an Irregular in for will have to wait:
 Bases are removed last and Hue still holds NVA Troops and Guerrillas, so the
 Irregular cannot reach it yet.
+
+## Turn 13 — card #67 Amphib Landing [MONSOON] — before save-060
+**Situation.** **#125 Coup! Nguyen Khanh is on deck**, so this is the last event
+card of campaign 2. ARVN opened with Op + Special Activity and Governed Kien
+Hoa-Vinh Binh back from Active to Passive Support, US 58 -> 56. I am second
+eligible: Event, Limited Op or Pass.
+Scores at the check as they stand: **US 56 (+6)**, VC 30 (-5), NVA 14 (-4),
+ARVN 34 (-16). Victory goes to the highest score above 0, so **as the board
+stands now the US wins Coup 2**. Nothing can be gained: ARVN Resources are 11
+against Econ 12, so pacification is refused, and no operation adds to the
+Available box. So this action is about **not losing**, and about one piece of
+unfinished business.
+
+**Options considered.**
+- *Pass.* **The one clearly wrong move.** A pass is not "acting", so the card
+  would not end — the VC, still Eligible, would get a free action immediately
+  before the Victory check. Saigon alone is 12 of my 34 Support points; a single
+  Terror there is -6 and takes US to exactly 50, which is score +0 and **no
+  winner at all**. That is precisely how TestGame3 lost a campaign.
+- *Amphib Landing unshaded* (relocate US Troops among coastal spaces, then free
+  Sweep and Assault in one coastal space). Safe, and the Sweep would activate
+  the VC Guerrilla shielding the Base in Hue so the Assault could reach it — but
+  with 4 US Troops on the whole map that is about 4 hits against 8 enemy pieces,
+  so the Base survives and the card buys nothing that matters.
+- *Limited Op: Train in Saigon -> Transfer patronage to ARVN resources.* Taken.
+
+**Plan.** **Limited Op: Train in Saigon**, place nothing, final Train action
+**Transfer patronage to ARVN resources.**
+Expected: no change to US points. ARVN's Patronage falls, which is ARVN score,
+and its Resources rise.
+
+**Rationale.** Any action ends the card, because ARVN has already acted and two
+acting factions close it — so the VC never moves before the Victory check and
+the +6 is locked. Given that every legal action is equally sufficient for that,
+I am choosing the one that also answers a question: **"Transfer patronage to
+ARVN resources" has been offered in all four games and executed in none** —
+twice lost to a chained send in TestGame3, once declined for a pacification,
+once declined by me on card #17. RULES_LEARNED lists it as the outstanding
+unknown of the US toolkit. It is the only US tool that reduces ARVN's score
+directly, and with Saigon selected and nothing else to spend the action on,
+this is the moment to find out what it does at no cost.
+Note the Limited Op quirk: it **skips "Finished selecting spaces"**, so the
+final Train menu arrives straight after the placement choice. That is the exact
+step that wasted an action in TestGame3; every answer here goes by label.
+
+**Execution (turns 12-13) and corrections.**
+- **Card #14, rejection, verbatim.** The Patrol destination prompt arrived
+  **numbered** this time, and the typed name was refused:
+  `'Saigon' is not valid. Must be one of: 1, 2, 3, 4, 5, 6, 7, or abort`.
+  The `#Saigon` label form did not resolve against it either. I printed the
+  screen, confirmed `6) Saigon`, and sent 6. **Correction to RULES_LEARNED:**
+  Patrol destinations are *not* "anywhere on the map" — from Kien Hoa the list
+  was Can Tho, four LoCs and Saigon, i.e. the connected LoC route only.
+- **Card #14, deviation.** The Patrol's closing menu offered only `Perform a
+  Special Activity` and `Do not Assault at one LOC` — **the free Assault was
+  absent**, so the 2 hits I had planned in Saigon never happened. On card #43
+  the same option had resolved as an Assault in the Patrol destination, so it
+  is conditional on something I have not identified. The Advise's ARVN Assault
+  still removed 2 VC Active Guerrillas.
+- **Card #67: the Patronage transfer, executed at last.** Four games, four
+  offers, three failures; the answer is that the prompt reads **`Transfer how
+  much patronage to ARVN resources (0 - 3)`** — it is **capped at 3**, one for
+  one. I took 3: Patronage 14 -> 11, ARVN Resources 11 -> 14, **ARVN 34 -> 31**.
+  So it is a small, reliable way to take 3 points off ARVN and lift Resources
+  back over the Econ floor — worth remembering for a game where ARVN is the
+  faction to beat, but never worth a pacification.
+  The final Train menu was the two-entry shape (`1) Transfer patronage
+  2) Finished`) that wasted an action in each of the last two games, with
+  Pacify absent because Resources were below Econ. The label answer took it
+  cleanly.
+
+**Result.** The card ended at two acting factions and **the VC never moved**.
+Going into the Coup 2 Victory check: **US 56 (+6)**, VC 30 (-5), NVA 14 (-4),
+ARVN 31 (-19).
