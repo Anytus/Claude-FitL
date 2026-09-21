@@ -225,3 +225,94 @@ strips 2 Guerrillas from the space.
 **Standing warning for the rest of the campaign: US 50 is score +0, and
 victory requires strictly more than the threshold. Fifty is the number that
 cost TestGame3 an entire extra campaign. The target is 51.**
+
+## Turn 4 — card #79 Henry Cabot Lodge — before save-021
+**Situation.** Card #1 was the NVA's card and it was brutal. It Infiltrated 7
+Troops each into Central Laos and North Vietnam, then Marched four times:
+9 Troops into **Quang Tri-Thua Thien**, 5 into **Binh Dinh**, and small
+detachments into Kien Phong and Kien Giang-An Xuyen, taking NVA Control of all
+four. **NVA 6 -> 14 in a single card**, and it is now the nearest rival at -4.
+Binh Dinh, which I pacified to Active Support last action, is under NVA Control
+— though Support persists through changes of Control, so the 4 points are
+intact. On #79 ARVN played Henry Cabot Lodge **shaded** against itself,
+removing 3 of its own cubes for Patronage +6 (ARVN 36 -> 42) and going
+Ineligible through the next card; the VC passed; I am sole eligible, second
+after an Event, so Op (may add SA) or Pass.
+Scores: US 50 (+0), NVA 14 (-4), VC 29 (-6), ARVN 42 (-8). The deck says the
+on-deck card is card 8 of 13 in pile 1, so **Coup 1 is between one and six
+cards away**.
+
+**Options considered.**
+- *Pass.* Rejected. On deck is #112 Colonel Chau in the order VC, ARVN, US, NVA
+  with ARVN Ineligible, so passing does **not** buy me the first slot — the VC
+  is ahead of me in the printed order and casts its Critical shaded side either
+  way. Passing would only move my action from this card to the next one, and
+  the board needs fixing now.
+- *Train + Advise.* Advise in Quang Tri (3 Underground Irregulars) and Binh
+  Dinh (1) could take 2 NVA Troops from each, breaking **both** NVA Controls
+  for -4 NVA; but the Op would then be a Train whose best Pacify is Da Nang or
+  Kontum at pop 1, +2. Net US 52, NVA 10.
+- *Train + Air Lift.* Taken. Priced below.
+
+**Plan.** **Op: Train. Special Activity: Air Lift (performed first).**
+- Air Lift, 4 spaces: **Da Nang, Hue, Kontum, Binh Dinh**. Lift **2 US Troops
+  Da Nang -> Hue** and **2 US Troops Kontum -> Binh Dinh**.
+- Train space: **Hue** (now holding US Troops). No forces to place — no US Base
+  there and 0 Irregulars in Available — so "Do not place forces".
+- Final Train action: **Pacify Hue 2 levels**, Neutral -> Active Support, 6 ARVN
+  Resources (30 against Econ 15; 24 left, clear of the floor).
+Expected: Total Support 27 -> 31, **US 50 -> 54**. Binh Dinh: NVA 6 pieces
+against 6 others once the Troops land, so **NVA Control breaks**, NVA 14 -> 12.
+ARVN Resources 30 -> 24.
+
+**Rationale.** Two corrections to how I have been valuing things.
+First, **the Victory check is the first phase of the Coup, so pacification done
+in the Coup's own Support phase cannot win that Coup** — it counts only for the
+next one. With the Coup possibly one card away, every point has to be bought
+*before* the card turns. That kills the tempting alternative of saving Hue as a
+strict-test space for the Coup Support phase and demotes Da Nang's and Kontum's
+US Troops, whose only near-term worth was qualifying them for that same phase.
+Second, victory goes to the **highest** score above 0, not merely to anyone
+above 0, so a point of my own is worth as much as a point denied to a rival,
+and worth it against *all three* rivals at once. Working that through: the
+Air Lift line leaves the NVA needing 23 points to beat me and the Advise line
+also leaves it needing 23 — identical against the NVA — but the Air Lift line
+puts the VC's bar at 40 instead of 38 and ARVN's at 55 instead of 53. Two extra
+US points beat two denied NVA points because they count against everybody.
+Air Lift breaks Control by *adding* pieces rather than removing them, which is
+the trick that makes both effects fit in one action: Binh Dinh is NVA 6 against
+4 others, so two US Troops landing there make it 6 against 6 and the marker
+comes off. Hue is the only pop-2 space on the board that is COIN-controlled,
+below Active Support, and reachable — worth 4 points where Da Nang and Kontum
+are worth 2 — and it needs only a US piece present to become a Train space.
+Sources: Kontum and Da Nang rather than Saigon. Saigon is adjacent to Tay Ninh,
+where the VC now has 6 Guerrillas and 2 Bases, and it carries 12 points of
+Active Support; stripping its US Troops would leave 4 COIN pieces against a
+stack that can already field 6. Da Nang is not adjacent to the Quang Tri
+stack, and Kontum is Neutral at pop 1, so both are cheap to thin.
+The Advise is not lost, only deferred: Quang Tri still holds 3 Underground
+Irregulars and Binh Dinh 1, and breaking Control is a just-in-time play — the
+NVA re-marches, but pacified Support persists.
+
+**Execution.** No rejection, no abort, no deviation. The Air Lift space prompt
+was bare (typed names accepted); its inner prompts are all numbered menus.
+Selecting all four spaces first and then lifting worked as documented, and Hue
+appeared in the Train list immediately after receiving Troops, confirming that
+Air Lift and Train may share a space.
+
+**Result.** As planned at the time: 2 Troops Da Nang -> Hue and 2 Kontum ->
+Binh Dinh, `Remove NVA Control marker from Binh Dinh` (NVA 14 -> 12), Hue
+Neutral -> Active Support, **US 50 -> 54**. ARVN Resources 30 -> 24.
+**Both halves were then undone within one card, and the manner matters.**
+The VC cast Colonel Chau shaded exactly as forecast, stripping Passive Support
+from Ba Xuyen, Khanh Hoa and Kien Hoa-Vinh Binh and dropping a Guerrilla into
+each: US 54 -> 50, ARVN 42 -> 38. The NVA then Rallied, took the **Trail to 4**,
+and Bombarded Hue and Binh Dinh for 2 US Troops to Casualties — and the Binh
+Dinh Troop was the piece holding the 6-against-6 tie, so **NVA Control returned
+there and the NVA is back to 14**.
+The lesson is about *which kind* of gain survives. The Hue pacification is
+still on the board and will be until something Terrors or Governs it; the
+Control break lasted one bot action because it was bought with a tie, and a
+tie is one Bombard wide. **Breaking Control by adding pieces is only as durable
+as the thinnest margin in the stack — prefer removing enemy pieces, or add
+enough to hold a real margin.**

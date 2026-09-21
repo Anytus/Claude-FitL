@@ -47,3 +47,25 @@
 2026-09-21T18:14:06	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() old = s.rsplit("**Execution.**\	2144	2757
 2026-09-21T18:14:11	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
 2026-09-21T18:14:36	Bash	git status --short	77	107
+2026-09-21T18:14:44	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T18:17:05	Bash	python3 tools/ctl.py advance 2>&1 | tail -70	105	26263
+2026-09-21T18:17:14	Bash	awk '/Current card  : #1 - Gulf of Tonkin/{f=1} f' transcript.log | sed -e 's/\x	201	3622
+2026-09-21T18:17:18	Bash	awk '/NVA selects Binh Dinh as March destination/{f=1} f' transcript.log | sed -	217	2948
+2026-09-21T18:17:27	Bash	python3 tools/render.py 2>&1 | sed -n '1,48p'	91	4807
+2026-09-21T18:17:32	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && echo "===112===" && p	390	945
+2026-09-21T18:20:39	Bash	python3 tools/map.py "Saigon" && echo "---" && python3 tools/map.py "Hue"	143	647
+2026-09-21T18:22:13	Bash	cat >> journal.md <<'EOF'  ## Turn 4 — card #79 Henry Cabot Lodge — before save-	4709	5381
+2026-09-21T18:22:21	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Op (May add a Special Activi	262	2772
+2026-09-21T18:22:26	Bash	python3 tools/ctl.py seq "Select an Air Lift space=>#Select an Air Lift" 2>&1 | 	150	741
+2026-09-21T18:22:36	Bash	python3 tools/ctl.py seq "Air Lift in which space=>Da Nang" "Select an Air Lift 	396	3137
+2026-09-21T18:22:41	Bash	python3 tools/ctl.py seq "Lift forces out of Da Nang=>#Lift forces out of Da Nan	153	1093
+2026-09-21T18:22:46	Bash	python3 tools/ctl.py seq "Lift forces to which space=>#Hue" 2>&1 | tail -20	125	1104
+2026-09-21T18:22:50	Bash	python3 tools/ctl.py seq "Air Lift US Troops=>#Air Lift US Troops" 2>&1 | tail -	134	765
+2026-09-21T18:22:54	Bash	python3 tools/ctl.py seq "Move how many US Troops=>2" 2>&1 | tail -20	125	1681
+2026-09-21T18:23:02	Bash	python3 tools/ctl.py seq "Lift forces out of Kontum=>#Lift forces out of Kontum"	283	2745
+2026-09-21T18:23:09	Bash	python3 tools/ctl.py seq "Finished with Air Lift=>#Finished with Air Lift" "Sele	239	2006
+2026-09-21T18:23:15	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" "Finished selectin	233	2203
+2026-09-21T18:23:20	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	147	6855
+2026-09-21T18:23:48	Bash	python3 tools/ctl.py advance 2>&1 | tail -75	100	23274
+2026-09-21T18:23:58	Bash	awk '/Current card  : #112 - Colonel Chau/{f=1} f' transcript.log | sed -e 's/\x	195	3680
+2026-09-21T18:24:09	Bash	python3 tools/report.py 2>&1 | tail -3 && python3 tools/render.py 2>&1 | sed -n 	183	3313
