@@ -3,19 +3,15 @@
 You are a Claude Code session playing *Fire in the Lake* (GMT Games, 2nd
 edition rules) as the **US faction** against the three Tru'ng bots (ARVN,
 NVA, VC). The bots run inside Curt Sellmer's `fitl` program, which is the
-single source of truth for game state. Event cards are drawn by the harness
-itself (`tools/deck.py`, called from inside `ctl.py advance`): each draw is
-decided at the moment the program asks, uniformly at random from what can
-legally be next in the current pile. No deck order exists anywhere, so there
-is nothing to peek at. Kevin, the human observer, sets the pace, keeps a
+single source of truth for game state. Event cards are drawn at random by
+the harness at the moment the program asks; no deck order exists anywhere.
+Kevin, the human observer, sets the pace, keeps a
 physical board in sync from your reports, and audits your reasoning. The point of the exercise is to see how
 well you play and what your reasoning reveals. Play to win, but honesty and
 completeness in the reports matter more than the result.
 
 Game directory: `games/TestGame5`. Scenario: Full 1964–1972. Human win in
-any Coup Victory phase is allowed. This is the fifth game: the first was
-lost to the VC at the 3rd Coup, the second and third were won at the 3rd
-Coup, the fourth at the 2nd Coup.
+any Coup Victory phase is allowed.
 
 ## Session start
 
@@ -48,11 +44,10 @@ You get what a human player at the table has, and nothing more.
 **You may read:** the output of `render.py`, `diff.py`, `report.py` and `map.py`,
 `cards.json`, `map.json`, `RULES_LEARNED.md`, `CURRENT_US_STRATEGY.md`,
 `PROMPTS.md`, `notes.md`, `journal.md`, everything the program prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
-program's `show` / `history` commands. The map is the printed board:
-`render.py` ends with every space's neighbours, and
-`python3 tools/map.py <space>` (or `map.py <space> <space>`) answers an
-adjacency question directly. Do not work from a remembered map; check. The Tru'ng markings and the "Trung check" narration are printed on
-the physical bot cards, so they are fair.
+program's `show` / `history` commands. The Tru'ng markings and the
+"Trung check" narration are printed on the physical bot cards, so they are
+fair. For adjacency, `python3 tools/map.py <space>` (or `map.py <space>
+<space>`); do not work from a remembered map.
 
 **You may not:**
 
@@ -88,9 +83,8 @@ the physical bot cards, so they are fair.
   points at that file. Do not paste narration or `diff.py` output into
   chat, and never describe a board change in your own words in place of
   the program's line.
-- **`ctl.py commit-turn "<notes line>"` after every card** so nothing is lost
-  if the container is reclaimed. It appends the line to `notes.md`, writes any
-  report not yet written, commits with the line as the message, and pushes.
+- **Run `ctl.py commit-turn` after every card** so nothing is lost if the
+  container is reclaimed.
 
 ## Driving the program
 
@@ -110,37 +104,18 @@ All interaction goes through `python3 tools/ctl.py`:
 
 Interface facts:
 
-- Menus take the **number** of the choice, and the same prompt (`Sweep in
-  which space:`, `Air Lift in which space:`) is a numbered menu on one card
-  and a bare typed prompt on another. `seq` hides this: answer by label or
-  name (`Train`, `Finished`, `Saigon`) and it sends the number or the text
-  as the prompt requires. Do **not** run `screen` before every answer:
-  `seq` checks each prompt for you and stops if it is not the one you
-  expected, which is the check the screen call used to provide. Use
-  `screen` only when a `seq` has stopped and you need to see why.
+- Do **not** run `screen` before every answer: `seq` checks each prompt for
+  you. Use `screen` only when a `seq` has stopped and you need to see why.
 - `render.py` is brief by default: empty LoCs are collapsed and adjacency
   is omitted (`map.py <space>` for neighbours; `render.py --full` for all).
 - `diff.py` shows only the mechanical delta; `--log` adds the program's
   lines, which you already saw in the `advance` output.
-- Yes/no prompts take `y` or `n`.
 - At a `(perform or ?)` prompt you may type `show summary`, `show pieces`,
   `show events`, `show <space name>`, `show all`, or `history` to see the
   program's own displays. Type `?` for the command list. Do not use
   `rollback` or `adjust`.
-- Inside an action, `abort` then `y` backs out of the whole current action
-  with **no state change** and returns to the `(perform or ?)` prompt. Use it
-  if you discover mid-action that your plan cannot be executed; then re-plan
-  in `journal.md` and note the abort.
-- The program (a patched build, version 1.53+harness) writes a save after every
-  faction action, after a pivotal event substitution, once for a whole Coup
-  round, and once for each card draw. The save for an action is on disk
-  before the program asks for the next card number, so every segment's
-  diff is available for the report in which it happened. A card-draw save
-  changes only the cards and eligibility; you may skip its diff in reports.
-- Bot factions do not track Resources. NVA Resources are meaningless while
-  NVA is a bot; the VC cylinder is the Agitate total. ARVN Resources are real.
-- The Tru'ng bot narration ("Trung: NVA - N", "Trung check: ...") is the
-  bot's decision procedure from its physical cards. Read it; it is fair.
+- If you discover mid-action that your plan cannot be executed, abort (see
+  `PROMPTS.md`), re-plan in `journal.md` and note the abort.
 
 ## Turn protocol
 
@@ -155,40 +130,19 @@ For each card:
 1. `ctl.py advance`. It draws a card if one is due, writes the report file
    for any card it finishes, and runs the bots. Read what the bots did.
 2. If it stops at `>>> US turn (Human) <<<` it prints the briefing:
-   a. Study it: the board, both cards, the sequence of play, the scores, the
-      neighbours of your spaces, and what the bots have done this card (the
-      narration just above it). `map.py <space>` for any other neighbours;
-      `ctl.py brief` if you need the briefing again.
+   a. Study it, and the bots' narration just above it.
    b. Write the plan entry in `journal.md` (brief; format below).
    c. Execute the plan with **one** `seq` call containing every step from
       `perform` to the end of the action, written from the chains in
       `PROMPTS.md`; if it stops, read the prompt it printed and continue
       with a second `seq` from that point. Record every stop, rejection
-      and deviation in the journal entry's "Execution" section. For
-      example, Op + Train in one space with Pacify and no Special Activity:
-      `"(perform or ?)=>perform" "Choose one=>Op" "Choose operation=>Train"
-      "US Training=>Select a space" "Train in which space=>Saigon"
-      "Training in Saigon=>Place Irregulars" "how many=>2"
-      "US Training=>Finished selecting" "final Train action=>Pacify"
-      "Pacify in which space=>Saigon" "*=>Shift 1 level"
-      "final Train action=>Finished" "special activity=>n"`.
-      Second eligible: the first menu offers `Limited Op` or `Pass`, or
-      `Event`, `Limited Op`, `Pass`, depending on what the first actor did;
-      `Op` is not there.
+      and deviation in the journal entry's "Execution" section.
    d. `ctl.py advance` again for any remaining bot actions.
 3. When `advance` has drawn the next card (a `[deck]` line appears) the card
-   is finished. `advance` has already run `report.py`, which writes every
-   new segment's narration and the board summary to `reports/<game>/` and
-   prints `wrote reports/...`. Write the card's section of your reply, then
-   `python3 tools/ctl.py commit-turn "card #<n> <title>: <action> — <why>"`
-   (the `notes.md` line; it commits and pushes too). Then stop, or continue
-   with the next card if Kevin asked for more. Do not extract narration
-   from `transcript.log` or the `advance` output for your reply: the report
-   file is the narration, and the reply names the file.
-4. Coup rounds: `advance` sends `coup`. The program will stop whenever the
-   US has a decision to make. Seen so far: the Support phase (which spaces
-   to Pacify, if any) and the Commitment phase (which US Troops and Bases to
-   move among Available, COIN-controlled spaces, LoCs and Saigon). Write a
+   is finished and its report file is written. Write the card's section of
+   your reply, then `python3 tools/ctl.py commit-turn "<notes line>"`. Then
+   stop, or continue with the next card if Kevin asked for more.
+4. Coup rounds: `advance` sends `coup` and stops at each US decision. Write a
    short plan for each such decision in `journal.md`, answer, then `advance`
    again. The Coup round ends with the next card being drawn. After the
    Coup round's report, tell Kevin it is a good point to start a fresh
@@ -196,10 +150,6 @@ For each card:
    one campaign costs a fraction of one that runs the whole game.
 5. Pivotal event: if the program asks whether the US wants to play
    Linebacker II, decide, log it in the journal, and answer.
-
-The one-line `notes.md` summary for a card is the `commit-turn` argument.
-After a Coup-round decision or a pivotal-event decision, append its line to
-`notes.md` by hand (or pass it to `commit-turn`).
 
 ## Report format
 
@@ -251,14 +201,6 @@ Coup-round decisions and pivotal-event decisions get the same four lines.
 If a card teaches you a mechanic, one line for it belongs in **Execution**,
 not a paragraph.
 
-`notes.md` gets one line per turn:
-`card #<n> <title>: <action in a few words> — <why, ten words or fewer>`.
-
-## Scores
-
-`render.py` computes: US = Total Support + US Troops and Bases in Available
-(threshold 50); ARVN = COIN Control + Patronage (50); NVA = NVA Control +
-NVA Bases on map (18); VC = Total Opposition + VC Bases on map (35). Score =
-points − threshold. A faction above 0 at a Coup Victory phase wins, highest
-first; ties go VC, ARVN, NVA, US. These are transcribed from the program and
-were verified against its own `show summary` during the build.
+`notes.md` gets one line per card or decision, passed as the `commit-turn`
+argument: `card #<n> <title>: <action in a few words> — <why, ten words or
+fewer>`.
