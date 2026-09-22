@@ -40,6 +40,7 @@ short version:
 | `games/<name>/` | The program's own saves (`save-NNN`, `log-NNN`). Committed after every US action. |
 | `reports/<game>/` | One file per report: the program's narration for every save since the last report, plus the board summary. Written by `report.py`; what the observer updates the board from. |
 | `journal.md` | Full turn plans, rationales, rejections. The audit artifact. |
+| `BUG_REPORTS.md` | Program bugs found while playing, each written up as a ready-to-post upstream issue with its status. Presented upstream in batches. |
 | `notes.md` | One line per model turn. Cross-session memory. |
 | `transcript.log` | Everything the program printed, via tmux pipe-pane. |
 
