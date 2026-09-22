@@ -30,3 +30,5 @@
 - report-076-077.md: #73 - Great Society
 - report-078-081.md: #106 - Binh Duong; #122 - Easter Offensive
 - report-082-084.md: #86 - Mandate of Heaven
+- report-085-087.md: #90 - Walt Rostow
+- report-088-089.md: #5 - Wild Weasels

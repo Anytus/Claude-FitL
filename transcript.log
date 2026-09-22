@@ -605,4 +605,365 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 
+Enter the number of the next On Deck Event card: 5
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #90 - Walt Rostow (ARVN, VC, NVA, US)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #5 - Wild Weasels (US, NVA, ARVN, VC)
+                NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded), 
+                VC -> (Performed, Shaded)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Hue for Terror
+[36mFlip 1 VC Underground Guerrilla in Hue to ACTIVE[0m
+[33mAdd 1 terror marker to Hue[0m
+[33mFlip Active Support marker in Hue to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 60 to 58[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Patronage >= 17? [No]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Kien Giang-An Xuyen
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE[0m
+[33mRemove Passive Opposition marker from Kien Giang-An Xuyen[0m
+[34mIncrease Agitate Total by +2 to 17[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 19 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Binh Tuy-Binh Thuan
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+[33mRemove Passive Opposition marker from Binh Tuy-Binh Thuan[0m
+[34mIncrease Agitate Total by +1 to 18[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 17 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in LOC Da Nang -- Qui Nhon
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Da Nang -- Qui Nhon to ACTIVE[0m
+[34mIncrease Agitate Total by +1 to 19[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #90 - Walt Rostow (ARVN, VC, NVA, US)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #5 - Wild Weasels (US, NVA, ARVN, VC)
+                NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded), 
+                VC -> (Performed, Shaded)
+Eligible      : NVA
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+NVA executes the Shaded Event: Walt Rostow
+----------------------------------------------------
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Quang Tin-Quang Ngai[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Binh Dinh[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Phu Bon-Phu Yen[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Khanh Hoa[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Ba Xuyen[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Quang Nam[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Pleiku-Darlac[0m
+
+ARVN Troops Redeploy (not to COIN bases)
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Pleiku-Darlac to Saigon[0m
+[35mMove 1 ARVN Troop from Pleiku-Darlac to Saigon[0m
+[35mMove 1 ARVN Troop from Pleiku-Darlac to Saigon[0m
+[35mMove 1 ARVN Troop from Pleiku-Darlac to Saigon[0m
+[35mMove 1 ARVN Troop from Pleiku-Darlac to Saigon[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Ba Xuyen[0m
+[33mRemove COIN Control marker from Khanh Hoa[0m
+[33mRemove COIN Control marker from Phu Bon-Phu Yen[0m
+[33mRemove COIN Control marker from Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 34 to 29[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 69
+
+ARVN Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #5 - Wild Weasels (US, NVA, ARVN, VC)
+                NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded), 
+                VC -> (Performed, Shaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Hue
+2) Pleiku-Darlac
+3) Quang Tin-Quang Ngai
+4) None of the above
+----------------------------------------------------
+Selection: 3
+
+US assaults in Quang Tin-Quang Ngai
+----------------------------------------------------
+The assault inflicts 3 hits
+[35mRemove 3 NVA Troops from Quang Tin-Quang Ngai to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 29 to 31[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Quang Tin-Quang Ngai
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Tin-Quang Ngai
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Quang Tin-Quang Ngai
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Quang Tin-Quang Ngai to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Quang Tin-Quang Ngai
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 3): 2
+[35mMove 2 US Troops from Quang Tin-Quang Ngai to Hue[0m
+
+Air Lifting forces from Quang Tin-Quang Ngai to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Quang Tin-Quang Ngai
+----------------------------------------------------
+Selection: 2
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Quang Tin-Quang Ngai
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+Spaces Assaulted
+----------------------------------------------------
+Quang Tin-Quang Ngai
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Hue
+2) Pleiku-Darlac
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+US assaults in Hue
+----------------------------------------------------
+The assault inflicts 3 hits
+[35mRemove 2 NVA Active Guerrillas from Hue to AVAILABLE[0m
+[35mRemove 1 VC Active Guerrilla from Hue to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Quang Tin-Quang Ngai, Hue
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #5 - Wild Weasels (US, NVA, ARVN, VC)
+                NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded), 
+                VC -> (Performed, Shaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): 

@@ -35,3 +35,4 @@ coup 2 complete: +14 Support phase, US 60 (+10); Linebacker II played
 card #121 Linebacker II complete — US 60 (+10) entering campaign 3
 Session note: container reclaimed after card #121; resumed from latest save (#121 Linebacker II, US performed Event) at the card-draw prompt, nothing lost.
 card #86 Mandate of Heaven: Op Train + Air Lift — Quang Tin-Quang Ngai taken and pacified to Active Support, US 56->60, NVA 16->14
+card #5 Wild Weasels: Op Assault (Quang Tin 3 NVA Troops, Hue 3 Guerrillas) + Air Lift — Advise unavailable, Assault closes it

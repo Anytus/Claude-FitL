@@ -1152,3 +1152,45 @@ on the final menu once the Air Lift had restored Control.
 14` on the lift, then `US Pacifies 2 levels in Quang Tin-Quang Ngai` /
 `Move the 'Support + Avail US' marker from 56 to 60`. ARVN Resources 14 -> 8.
 The card ended on my action, so the VC and NVA got nothing.
+
+## Turn 19 — card #5 Wild Weasels — before save-089
+**Plan.** Op + SA. Op: Assault in Quang Tin-Quang Ngai (3 US Troops in a
+Lowland = 3 hits, taking all 3 NVA Troops). SA: Advise — `Assault a space with
+ARVN forces` in **Hue** (1 ARVN Troop + 5 Police in a City, ~3 hits, clearing
+its 2 NVA and 1 VC Active Guerrillas), then `Use Irregular/Ranger` in **Binh
+Dinh** (3 Underground Irregulars there, taking the NVA Underground Guerrilla);
+yes to +6 Aid.
+**Why.** ARVN is on 8 Resources against Econ 7, so **no pacification is
+available at any price** and no action can add a US point this card. Meanwhile
+the NVA has put a Guerrilla into eight of my Support spaces — Quang Nam, Binh
+Dinh, Pleiku-Darlac, Phu Bon-Phu Yen, Khanh Hoa, Kien Hoa-Vinh Binh, Ba Xuyen,
+Quang Tin-Quang Ngai — and its Terror branch triggers on exactly that, having
+already taken Hue from Active to Passive. That is ~11 points of exposure
+against my +8 margin, so defence is the whole value. Assault also restores COIN
+Control of Quang Tin-Quang Ngai (4 COIN against 1 Guerrilla once the Troops
+go). Rejected: the Event, which only removes shaded SA-2s and is near-worthless
+with the Trail already at 1; and a Pass to reach MACV's free Special Activity
+next card, which is worth less than a full Op + SA now.
+**Assumed, not checked at the prompt:** that 3 US Troops in a Lowland give 3
+hits and 6 ARVN cubes in a City give ~3, both from earlier games' data.
+**Execution — deviation: Advise was not on the menu**, which cost me the
+better half of the plan. The Special Activity menu read `Air Lift / Air Strike
+/ Do not perform a Special Activity now`. Cross-checking every occurrence this
+game gives a clean rule I had wrong: Advise was **present** on Turns 8 and 14
+(Op = Train) and **absent** on Turns 12, 13 and 19 (Op = Assault). It
+correlates perfectly with the operation, not with ARVN's Resources — my
+earlier guess of a Resource gate is **wrong** and should be struck from
+RULES_LEARNED. **Choosing Assault closes Advise.** That matters because
+Assault removes only Active pieces while Advise's Irregular/Ranger removal is
+my only tool against **Underground** Guerrillas, so the two I most wanted are
+mutually exclusive. I considered aborting to re-enter with Train, and decided
+against it: the Quang Tin-Quang Ngai Assault was already banked, and a Train
+with no pacification affordable would have bought only the Advise.
+Substituted Air Lift: 2 US Troops Quang Tin-Quang Ngai -> Hue, then Assault
+Hue.
+**Result.** Six enemy pieces, no score change (Troops and Guerrillas do not
+score). Quang Tin-Quang Ngai: 3 NVA Troops removed, `Place COIN Control
+marker`. Hue: `The assault inflicts 3 hits`, 2 NVA and 1 VC Active Guerrillas
+removed — 3 US Troops in a City gave 3 hits, one per Troop, as assumed. The
+eight Underground NVA Guerrillas seeded in my Support spaces all survive, so
+the Terror exposure is untouched; that is the real cost of the deviation.

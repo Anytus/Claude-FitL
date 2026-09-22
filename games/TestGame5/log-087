@@ -1,0 +1,154 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #90 - Walt Rostow (ARVN, VC, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #5 - Wild Weasels (US, NVA, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: Walt Rostow",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Phu Bon-Phu Yen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Khanh Hoa",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Ba Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Quang Nam",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN Troops Redeploy (not to COIN bases)",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from Pleiku-Darlac to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Pleiku-Darlac to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Pleiku-Darlac to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Pleiku-Darlac to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Pleiku-Darlac to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove COIN Control marker from Khanh Hoa",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove COIN Control marker from Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove COIN Control marker from Quang Tin-Quang Ngai",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 34 to 29",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

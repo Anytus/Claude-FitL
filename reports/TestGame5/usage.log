@@ -153,3 +153,16 @@
 2026-09-22T18:25:40	Bash	cat >> journal.md <<'EOF'  ## Turn 18 — card #86 Mandate of Heaven — before save	1750	5980
 2026-09-22T18:25:47	Bash	python3 tools/ctl.py seq \  "*=>Lift forces out of Saigon" "Lift forces to which	247	2568
 2026-09-22T18:25:55	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Saigon" \  "*=>Fin	327	8564
+2026-09-22T18:26:05	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	1035	8711
+2026-09-22T18:31:06	Bash	python3 - <<'PY' import datetime rows=[] for line in open('reports/TestGame5/usa	1059	968
+2026-09-22T18:31:19	Bash	python3 - <<'PY' import datetime rows=[] for line in open('reports/TestGame5/usa	914	1202
+2026-09-22T18:31:42	Bash	python3 - <<'PY' import datetime rows=[] for line in open('reports/TestGame5/usa	1015	958
+2026-09-22T18:31:54	Bash	python3 - <<'PY' import datetime rows=[] for line in open('reports/TestGame5/usa	841	951
+2026-09-22T18:33:59	Bash	python3 - <<'PY' import datetime rows=[] for line in open('reports/TestGame5/usa	809	1590
+2026-09-22T18:35:22	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -40	117	23928
+2026-09-22T18:35:38	Bash	python3 tools/render.py 2>&1 | sed -n '1,40p' && python3 tools/render.py 2>&1 | 	169	4853
+2026-09-22T18:36:31	Bash	cat >> journal.md <<'EOF'  ## Turn 19 — card #5 Wild Weasels — before save-089 *	1798	5269
+2026-09-22T18:36:36	Bash	python3 tools/ctl.py seq \  "US Assault=>Perform a Special Activity" \  "Choose 	254	1223
+2026-09-22T18:37:32	Bash	python3 tools/ctl.py seq \  "Choose special activity=>Air Lift" \  "*=>Select an	440	3248
+2026-09-22T18:37:39	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Quang Tin-Quang Ng	272	2761
+2026-09-22T18:37:44	Bash	python3 tools/ctl.py seq "US Assault=>Finished selecting spaces" 2>&1 | tail -14	133	6212
