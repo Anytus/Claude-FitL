@@ -82,122 +82,52 @@ therefore run from 0 to 24 event cards.
 
 ## 2. US Operations
 
-**Train.** The space list is every space holding **any US piece**: Troops,
-Irregulars, or a Base. In each selected space:
-- with a US Base present: `Place Irregulars / Place Rangers / Place ARVN
-  Troops/Police / Do not place forces`. ARVN cubes are up to 6 in total
-  (`Troops (0 - 6)`, then `Police (0 - 4)` after 2 Troops) and cost 3 ARVN
-  Resources for the space; Rangers cost 3 too. **Saigon is not special**:
-  without a US Base it offers only `Place Irregulars / Do not place forces`;
-- without a US Base: `Place Irregulars / Do not place forces` only;
-- **the cube option is also gated by ARVN Resources exceeding Econ**, the
-  same test as Pacify;
-- **Kevin's note, not yet seen at a prompt:** US Train may place up to 6
-  ARVN cubes *regardless of what is in the ARVN Available box*, taking the
-  excess from anywhere on the map. This is how the US moves ARVN cubes out
-  of the Saigon and Hue garrisons the bot piles up, and the fastest way to
-  empty ARVN's Available box, which is one gate on its Govern activity;
-- **Irregular placement costs nothing.** The cap is 2 per space and the
-  prompt's upper bound is Available *plus* voluntary removals: asking for 2
-  with 1 Available prints `There are not enough US Irregulars in the
-  available box / You must remove 1 US Irregular from the map` and a menu of
-  spaces to take one from. Answer with the same space to net +1 harmlessly.
-- "Do not place forces" costs nothing and still counts the space as trained.
-Final action, in **one** selected space:
-- **Pacify.** Requires only that the space be COIN-controlled and one of the
-  selected Train spaces (Irregulars and Police alone suffice; US Troops with
-  no ARVN Police suffice). Up to 2 levels, 3 Resources per level under Duong
-  Van Minh, Nguyen Khanh and Nguyen Van Thieu, 4 under Nguyen Cao Ky. It
-  works from Opposition: `Shift 2 levels to Neutral` from Active Opposition,
-  `Shift 2 levels to Passive Support` from Passive Opposition; the menu
-  offers the whole shift as one entry. Refused when ARVN Resources do not
-  exceed Econ (`Only 12 ARVN resources available and Econ is 15`). Absent
-  from the menu when no selected space has a level to gain.
-  - **Removing a terror marker does not count against the 2-level cap.**
-    A space at Passive Opposition with one terror marker offers `1) Remove 1
-    terror marker and shift 2 levels to Passive Support`, three steps for 9
-    Resources. Always read the menu: the whole swing may be one entry.
-  - **The number of levels offered depends on the Resource headroom above
-    Econ.** At 18 Resources against Econ 13 only `Shift 1 level` is offered
-    (two levels would leave 12, below Econ). Plan pacification against the
-    headroom, not the total.
-- **Transfer patronage to ARVN resources.** Offered only when Saigon is one
-  of the selected Train spaces (also in a Limited Op Train of Saigon). The
-  prompt is `Transfer how much patronage to ARVN resources (0 - 3)`: **capped
-  at 3, one for one**, Patronage down and ARVN Resources up. A small,
-  reliable 3 points off ARVN's score that also lifts its Resources back over
-  the Econ floor; it is offered with Pacify absent whenever Resources are at
-  or below Econ.
-- A space used for Train cannot also be used by Advise in the same action,
-  and vice versa; a space used by Advise disappears from the Train list. Air
-  Lift has no such restriction, in either order.
+**ARVN Resources.** The US may spend ARVN Resources only above the Econ
+level: any Train placement or pacification that would leave Resources at
+or below Econ is not offered.
 
-**Assault.** Flow: `US Assault: 1) Select a space to Assault 2) Perform a
-Special Activity 3) Finished selecting spaces`, then a numbered list of the
-spaces that qualify; several spaces may be assaulted in one Op, and when only
-one remains the program names and resolves it without a prompt (`Assault in
-which space:  Da Nang`), ending with `There are no more spaces eligible for
-Assault`. It costs the US no Resources. Only spaces with US Troops and
-removable enemies are offered; it removes NVA Troops and Active Guerrillas,
-Bases last.
-Hits observed: 2 US Troops in Saigon with a US Base, 4 hits; 2 cubes in
-Highland, 1 hit; 1 US Troop with a US Base in Highland, 2 hits; 1 US Troop in
-a City, 1 hit. A US Base in the space roughly doubles the count.
-**Underground Guerrillas shield a Base from Assault**: a space holding a VC
-Base, 1 Underground VC Guerrilla and 3 US Troops is simply not on the Assault
-list; a Sweep to Activate that Guerrilla is the way in. An *undefended* Base
-is a legal target. The "add an ARVN Assault at cost 0" option the card tips
-mention has never been prompted.
+**Train.** May be done in any space holding a US piece (Troops, Irregulars
+or a Base). In each selected space:
+- Up to 2 US Irregulars may be placed, at no cost.
+- With a US Base present, ARVN Rangers or up to 6 ARVN cubes (Troops and
+  Police) may be placed instead, for 3 ARVN Resources. Saigon gets no
+  special treatment: without a US Base it offers Irregulars only.
+- Pieces placed by Train are not limited to what is Available: if more are
+  placed than Available holds, pieces on the map are voluntarily removed to
+  make up the difference.
+- Placing nothing still counts the space as trained.
+Then one final action in one selected space:
+- **Pacify**, in a COIN-controlled selected space; no other pieces are
+  required. 3 ARVN Resources to remove a terror marker first, then 3 per
+  level shifted toward Support, up to 2 levels (4 per marker or level under
+  Nguyen Cao Ky). Works from Opposition as well as from Neutral.
+- **Transfer patronage** to ARVN Resources, offered only when Saigon is a
+  selected space: up to 3, one for one.
+A space used for Train cannot be used for Advise in the same action, and
+vice versa. Air Lift may share a space with Train.
 
-**Sweep.** The flow:
-- `US Sweep space: 1) Select a Sweep space 2) Perform a Special Activity
-  3) Finished selecting Sweep spaces`, then the space prompt (bare or
-  numbered). Any number of spaces may be selected before anything moves, and
-  a selected space with no Troops moved in still resolves (a Limited Op
-  Sweep in place just prints `Flip 1 VC Underground Guerrilla in Saigon to
-  ACTIVE` and ends).
-- Then `US Sweep Troops into: <each selected space>`, and per destination
-  `US Move troops to <space> from:` listing the **adjacent** spaces that hold
-  US Troops; nothing further away is listed, so movement is one space.
-- **Only US Troops move.** ARVN Troops in the same source spaces are not
-  offered, so a US Sweep cannot reposition ARVN cubes (Air Lift and Train are
-  the tools for that). A source stays on the list after moving 0.
-- Then `Sweep activation:` with `1) Resolve all remaining Sweep spaces
-  2) Perform a Special Activity 3) Resolve Sweep in <space>` per space, so
-  spaces resolve one at a time. 3 US Troops moved into a Lowland Province
-  flipped 3 Underground Guerrillas Active, one per Troop, with the ARVN cubes
-  already in the space adding nothing. Ratios in Highland, Jungle and City
-  are untested.
-- Sweep is prohibited in Monsoon, and the VC's Booby Traps shaded capability
-  (`Each Sweep space, VC afterward removes 1 Sweeping Troop on roll of 1-3,
-  US to Casualties`) makes it expensive while in play.
-Advise's "Sweep a space with ARVN forces" is a different thing: it only
-Activates Guerrillas in place, and no cube movement is offered.
+**Assault.** Any number of spaces holding US Troops and removable enemy
+pieces; no Resource cost. Removes NVA Troops and Active Guerrillas, then
+Bases. An Underground Guerrilla shields the Base in its space; an undefended
+Base is a legal target. Hits: 2 per US Troop if a US Base is present;
+otherwise 1 per US Troop, or 1 per 2 US Troops in Highland. The "add an
+ARVN Assault" option has never been offered.
 
-**Patrol.** The flow:
-- `US Moving Patrol cubes: 1) Move cubes 2) Perform a Special Activity
-  3) Finished moving cubes`, then `Move cubes out of which space:` listing
-  every space holding US cubes.
-- Per source: `These cubes can move: 3 US Troops` (US cubes only; ARVN Police
-  in the same space are not offered), then a count, then `Select
-  destination:` (bare or numbered).
-- **Destinations are LoCs and Cities only, reachable from the source along a
-  chain of adjacent LoCs and Cities**, which ends at the first space holding
-  an NVA or VC piece. From Saigon the list spans most of the map because
-  Saigon's LoC network does; from Kien Hoa-Vinh Binh it is Can Tho, four
-  LoCs and Saigon. Typing a Province is rejected with the legal list.
-- After `Finished moving cubes`: `US Patrol - Activating guerrillas on LOCs`,
-  then `Choose one: 1) Assault at one LOC 2) Perform a Special Activity
-  3) Do not Assault at one LOC`. The free Assault at a LoC holding 1 US Troop
-  and 3 ARVN Police `inflicts 1 hit`: the US cube alone counts, not the ARVN
-  Police beside it. **The `Assault at one LOC` entry appears only when a LoC
-  holds your cubes**; when it appears after a Limited Op Patrol into a City
-  it is the program bug in the harness notes. Decline it.
-- No Resource deduction is printed: a US Patrol is free. ARVN pays 3 for its
-  own.
-ARVN's Patrol: cubes from Saigon onto LoCs, Guerrillas Activated on each
-destination LoC, then one Assault on a LoC. It can empty Saigon of every ARVN
-cube, which costs COIN Control there.
+**Sweep.** Any number of destination spaces, selected before anything moves;
+a selected space with no Troops moved in still resolves. Only US Troops
+move, from adjacent spaces only; ARVN cubes are never offered. Each space
+resolves separately. In Lowland one Underground Guerrilla is activated per
+US Troop; ARVN cubes add nothing; other terrains untested. Not allowed in
+Monsoon.
+
+**Patrol.** Free for the US (ARVN pays 3). Moves US cubes only, each along a
+chain of adjacent LoCs and Cities that ends at the first space holding an
+enemy piece; a Province is never a destination. Then Guerrillas on LoCs are
+activated, one per US cube there, and one free Assault may follow in a LoC
+holding US cubes, at one hit per US cube (ARVN Police in the LoC do not
+count). The Assault is offered only when such a LoC exists; when it is
+offered after a Limited Op Patrol into a City, that is the program bug
+listed in PROMPTS.md, and it should be declined.
 
 ## 3. US Special Activities
 
