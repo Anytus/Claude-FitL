@@ -172,7 +172,6 @@ level toward Active Opposition (Laos and Cambodia have population 0).
 - "Remove pieces" events count untunneled Bases as pieces. Event-driven
   moves of US pieces to Available do not trigger the Commitment withdrawal
   penalty.
-- A pivotal event replaces the current card, which is never played.
 - Events that bring pieces from Out of Play ask per space and per piece
   type, including whether to place a Base.
 - When an event makes the US lose pieces, the US chooses which.
