@@ -11,3 +11,5 @@
 - report-023-025.md: #29 - Tribesmen
 - report-026-028.md: #97 - Brinks Hotel
 - report-029-031.md: #66 - Ambassador Taylor
+- report-032-034.md: #79 - Henry Cabot Lodge
+- report-035-036.md: #55 - Trucks

@@ -426,3 +426,77 @@ line is to hold 52 to the Coup 2 check rather than to build for Coup 3.
 **Result.** As planned: `Decrease Patronage by -3 to 10`, `Move the 'COIN
 Control + Patronage' marker from 38 to 35`, `Increase ARVN resources by +3 to
 13`. The card ended on my action, so the VC and NVA both got nothing.
+
+## Turn 8 — card #55 Trucks — before save-036
+**Situation.** I am the **sole Eligible faction**, so whatever I do the card
+ends and there is no denial value either way — this is a straight comparison
+of what each choice builds. ARVN Resources 13 against Econ 15: the
+pacification gate is still shut (I need Resources above 18 to afford one
+3-Resource level), so **no US Support can be bought this card or, realistically,
+before the Coup**. My score is frozen at 52 with a margin of +2, and nobody
+else is near their line (VC 25/35, NVA 10/18, ARVN 41/50). The game is
+therefore mine to lose at the Coup 2 Victory check, and the question is purely
+how much of my 52 the bots take back. Since the last card the NVA has taken
+Kien Phong (NVA Control) and a US Troop has gone from Binh Dinh to Casualties.
+
+**The threats to my 52, in order.** VC Terror needs Underground VC Guerrillas
+in a space not at Active Opposition: **Binh Dinh** (Active Support, pop 2, 2
+Underground VC Guerrillas) is worth -2 and **Pleiku-Darlac** (Active Support,
+pop 1, 2 Underground VC Guerrillas) is worth -1. ARVN's Govern can reach Binh
+Dinh, Pleiku-Darlac, Da Nang and Kontum for a level each. My other Support —
+Saigon, Da Nang, Kontum, Kien Hoa-Vinh Binh — has no VC piece in it at all.
+
+**Options considered.**
+- *Event, Trucks unshaded* (Trail 3 -> 1; NVA removes 4 of its pieces each
+  from Laos and Cambodia). Degrading the Trail is worth more than TestGame3
+  gave it credit for, and 8 NVA pieces is a lot. But **the NVA chooses which
+  pieces**, so it will shed Guerrillas and keep Bases, and the NVA at 10
+  against a threshold of 18 is the least dangerous faction on the board. It
+  does nothing about the VC, which is what actually eats my Support.
+- *Pass.* +3 ARVN Resources, to 16 — still short of the 19 I need — and the
+  card ends anyway. It buys a third of a pacification and nothing else.
+- *Op + Special Activity.* The first one I have been offered since turn 1, and
+  the only line that both protects Support and moves ARVN's Resources.
+
+**Plan.** **Op + Special Activity.**
+- **Op: Train in Saigon**, `Do not place forces`, final action **Transfer
+  patronage to ARVN resources, 3** (Patronage 16 -> 13, ARVN 41 -> 38, ARVN
+  Resources 13 -> 16). Pacify will be absent from that menu, as it is whenever
+  Resources are at or below Econ.
+- **Special Activity: Advise**, `Use Irregular/Ranger to remove enemy pieces`
+  in two spaces: **Binh Dinh** (the 2 Underground VC Guerrillas) and
+  **Pleiku-Darlac** (the 2 Underground VC Guerrillas, not the 3 NVA Troops).
+  Then **yes** to `Do you wish to add +6 Aid?` (Aid 12 -> 18).
+Expected: US unchanged at 52, VC and NVA scores unchanged (Guerrillas and
+Troops do not score), ARVN 41 -> 38, Aid 12 -> 18, ARVN Resources 13 -> 16.
+
+**Rationale.** With Support frozen, the best available action is to make my
+Support unreachable rather than to try to add to it. Removing every VC
+Guerrilla from Binh Dinh and Pleiku-Darlac switches off the VC bot's Terror
+branch in both — its trigger is literally "Underground VC Guerrillas in space
+not at Active Opposition" — and those two spaces are 3 of the points standing
+between me and the threshold. I prefer the VC Guerrillas to the NVA Troops in
+Pleiku-Darlac because 3 NVA Troops is below the bot's own `6+ NVA Troops`
+Attack trigger, so the Troops are not yet dangerous while the Guerrillas are.
+The +6 Aid is worth taking because ARVN's Coup earnings are Econ + Aid, and
+Aid at 12 is the lowest it has been. The cost is that the Irregular used in
+Pleiku-Darlac flips Active and will not flip back until the Coup Reset, which
+disarms that space; Binh Dinh has 3 Irregulars so it keeps 2 Underground.
+
+**Execution.** Five calls, no rejections, no aborts. The Train's
+`Transfer patronage` did **not** end the operation the way Pacify does — the
+program went to `Do you wish to perform a special activity? (y/n)` after it,
+so the final-Train menu does not return but the Special Activity question
+still does. In Binh Dinh the removal auto-resolved with no piece prompt at all
+(only one enemy type present); in Pleiku-Darlac, with two types present, it
+asked `How many NVA Troops (0 - 2)` first and I answered **0**, which filled
+the remainder from the VC Guerrillas automatically, exactly as
+RULES_LEARNED describes.
+
+**Result.** Everything as planned. `Decrease Patronage by -3 to 13` / `Move
+the 'COIN Control + Patronage' marker from 41 to 38` / `Increase ARVN
+resources by +3 to 16`; `Remove 2 VC Underground Guerrillas from Binh Dinh to
+AVAILABLE`; `Remove 2 VC Underground Guerrillas from Pleiku-Darlac to
+AVAILABLE`; `Increase US Aid by +6 to 18`. Both of my Active Support Highlands
+are now clear of VC pieces, so the VC bot's Terror branch cannot reach them,
+and US stands unchanged at 52.

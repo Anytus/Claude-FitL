@@ -60,3 +60,11 @@
 2026-09-22T17:11:02	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers/,/--- Casualties/p' && echo	311	3305
 2026-09-22T17:11:47	Bash	python3 tools/render.py 2>&1 | sed -n '1,35p'	90	3949
 2026-09-22T17:12:50	Bash	cat >> journal.md <<'EOF'  ## Turn 7 — card #66 Ambassador Taylor — before save-	3791	10783
+2026-09-22T17:13:00	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	916	7750
+2026-09-22T17:13:11	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -40	117	20065
+2026-09-22T17:13:24	Bash	python3 tools/render.py 2>&1 | sed -n '1,32p;/--- Trackers/,/--- Casualties/p' |	141	4000
+2026-09-22T17:14:46	Bash	cat >> journal.md <<'EOF'  ## Turn 8 — card #55 Trucks — before save-036 **Situa	4245	8341
+2026-09-22T17:14:53	Bash	python3 tools/ctl.py seq \  "special activity=>y" \  "Choose special activity=>A	283	3429
+2026-09-22T17:14:59	Bash	python3 tools/ctl.py seq \  "Choose Advise option=>Use Irregular" \  "Use Irregu	212	2107
+2026-09-22T17:15:03	Bash	python3 tools/ctl.py send 0 2>&1 | tail -15	118	1076
+2026-09-22T17:15:07	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" 2>&1 | tail -20	107	5948
