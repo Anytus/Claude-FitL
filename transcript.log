@@ -3185,4 +3185,454 @@ Eligible      : US, NVA
 Acted         : none
 Passed        : none
 Ineligible    : ARVN, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) An Loc
+2) Qui Nhon
+3) Saigon
+4) Pleiku-Darlac
+5) None of the above
+----------------------------------------------------
+Selection: 3
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Rangers
+2) Place ARVN Troops/Police
+3) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+Place how many ARVN Troops in Saigon?  (0 - 6): 6
+
+[34mDecrease ARVN resources by -3 to 31[0m
+[35mPlace 6 ARVN Troops from AVAILABLE into Saigon[0m
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) An Loc
+2) Qui Nhon
+3) Pleiku-Darlac
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+US selects Qui Nhon for Training
+
+2 spaces selected for Training
+----------------------------------------------------
+Saigon, Qui Nhon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Transfer patronage to ARVN resources
+3) Perform a Special Activity
+4) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Qui Nhon
+
+Pacifying in Qui Nhon
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Qui Nhon
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Qui Nhon
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 25[0m
+[33mPlace Active Support marker in Qui Nhon[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 50 to 52[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Saigon
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Tay Ninh
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Tay Ninh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Binh Dinh
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Tay Ninh, Binh Dinh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Phong
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Tay Ninh, Binh Dinh, Kien Phong
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Tay Ninh
+2) Binh Dinh
+3) Kien Phong
+4) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Saigon to Tay Ninh
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many ARVN Troops (0 - 4): 2
+[35mMove 2 ARVN Troops from Saigon to Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 20 to 18[0m
+
+Air Lifting forces from Saigon to Tay Ninh
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Tay Ninh, Binh Dinh, Kien Phong
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Tay Ninh
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Tay Ninh
+2) Binh Dinh
+3) Kien Phong
+4) Do not move forces now
+----------------------------------------------------
+Selection: 2
+
+Air Lifting forces from Saigon to Binh Dinh
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many ARVN Troops (0 - 2): 2
+[35mMove 2 ARVN Troops from Saigon to Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 18 to 16[0m
+
+Air Lifting forces from Saigon to Binh Dinh
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Tay Ninh, Binh Dinh, Kien Phong
+
+Select one:
+====================================================
+1) Lift forces out of Tay Ninh
+2) Lift forces out of Binh Dinh
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 3
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #67 - Amphib Landing (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+On Deck card  : #46 - 559th Transport Grp (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the US cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 10
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #46 - 559th Transport Grp (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+Eligible      : NVA, ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - N
+Trung check: 3d6 <= Available NVA Troops (5): 10 [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - TT
+Trung check: Underground NVA Guerrillas in 2 or more spaces with Support? [No]
+Trung check: 3d6 <= Available NVA Troops (5): 12 [No]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Saigon to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards An Loc
+----------------------------------------------------
+[35mRemove 1 US Troop from An Loc to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Kontum -- Qui Nhon as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Kontum to LOC Kontum -- Qui Nhon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Saigon as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Tay Ninh to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Saigon to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #46 - 559th Transport Grp (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: 559th Transport Grp
+----------------------------------------------------
+[34mDegrade the trail by 2 boxes to 2[0m
+[31m
+Momentum: '#46 559th Transport Grp' is now in play[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US cylinder to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 128
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+On Deck card  : #128 - Coup! Nguyen Van Thieu
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
 (perform or ?): 

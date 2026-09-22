@@ -76,3 +76,17 @@
 2026-09-22T23:52:39	Bash	python3 tools/ctl.py seq "How many NVA Troops=>1" 2>&1 | grep -v "^\s*$" | tail 	122	1284
 2026-09-22T23:52:43	Bash	python3 tools/ctl.py seq "+6 Aid=>y" 2>&1 | grep -v "^\s*$" | tail -12; grep -n 	163	6629
 2026-09-22T23:53:09	Bash	printf '**Execution.** Deviation: second Advise went to Quang Nam (Ranger: 1 NVA	669	17871
+2026-09-22T23:53:21	Bash	python3 tools/ctl.py commit-turn "card #95 Westmoreland: Train/Pacify An Loc, Ad	679	12797
+2026-09-22T23:54:04	Bash	cat >> journal.md <<'EOF'  ## Turn 11 — card #67 Amphib Landing — before save-06	780	4373
+2026-09-22T23:54:09	Bash	python3 tools/ctl.py seq "US Training=>Select a space" "Train in which space=>Qu	332	1668
+2026-09-22T23:54:13	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting" "final Train action=>	226	1801
+2026-09-22T23:54:17	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" 2>&1 | grep -v "^\s*$" | tail	123	1477
+2026-09-22T23:54:22	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	199	1955
+2026-09-22T23:54:32	Bash	python3 tools/ctl.py seq "Air Lift in which space=>Saigon" "Select one=>Select a	353	2777
+2026-09-22T23:54:36	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Saigon" "Lift forces to	178	1641
+2026-09-22T23:54:39	Bash	python3 tools/ctl.py seq "Choose one=>Air Lift ARVN Troops" 2>&1 | grep -v "^\s*	131	808
+2026-09-22T23:54:46	Bash	python3 tools/ctl.py seq "Move how many ARVN Troops=>2" 2>&1 | grep -v "^\s*$" |	128	1803
+2026-09-22T23:54:52	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving forces" "Select one=>Lift 	255	2110
+2026-09-22T23:54:56	Bash	python3 tools/ctl.py seq "Move how many ARVN Troops=>2" "Choose one=>Finished mo	167	2119
+2026-09-22T23:54:59	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift" 2>&1 | grep -v "^\	134	7597
+2026-09-22T23:55:11	Bash	printf '**Execution.** Deviation: Air Lift caps ARVN at 4 Troops ("Move how many	695	18548

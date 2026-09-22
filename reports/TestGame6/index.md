@@ -29,3 +29,6 @@
 - report-054-056.md: #39 - Oriskany
 - report-057-059.md: #87 - Nguyen Chanh Thi
 - report-060-060.md: #67 - Amphib Landing
+- report-061-062.md: #67 - Amphib Landing
+- report-063-065.md: #46 - 559th Transport Grp
+- report-066-066.md: #10 - Rolling Thunder

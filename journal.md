@@ -76,3 +76,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** VC is at 34 (wins at 36) and US at 48 with a Coup possible any card. +2 US now; clearing Saigon denies VC the pop-6 Terror/Agitate target after the Reset; thinning Quang Tri (Passive Opp, pop 2) cuts a +2 VC Terror. Qui Nhon pacify rejected as more exposed (Phu Bon, Binh Dinh next door).
 **Execution.** Deviation: second Advise went to Quang Nam (Ranger: 1 NVA Troop + its only Underground VC Guerrilla), not Quang Tri, because Quang Tri would keep 1 Underground VC and could still be Terrorized; Quang Nam removal kills a +1 VC Terror outright. No rejections.
 **Result.** An Loc Active (US 50), 3 VC out of Saigon (4 hits), Quang Nam VC gone, Aid 38.
+
+## Turn 11 — card #67 Amphib Landing — before save-060
+**Plan.** Op + SA: Train Saigon (place 6 ARVN Troops) and Qui Nhon (none); Pacify Qui Nhon Neutral→Active; Air Lift 3 ARVN Troops each from Saigon to Tay Ninh, Binh Dinh and Kien Phong.
+**Why.** NVA is at 20 (+2) and would win a Coup now. Breaking NVA Control in three pop-2 spaces is −6 NVA (to 14), and the Pacify puts US at 52. The Event (coastal relocation) is weak with 2 US Troops on the map.
+**Execution.** Deviation: Air Lift caps ARVN at 4 Troops ("Move how many ARVN Troops (0 - 4)"), so Kien Phong got none: 2 to Tay Ninh, 2 to Binh Dinh. Mechanic: Air Lift moves at most 4 ARVN Troops in total. Other stops were menus skipped when there was one choice (Qui Nhon placement, Pacify space); no rejections.
+**Result.** US 52, NVA 20 → 16 (Tay Ninh and Binh Dinh Control broken).

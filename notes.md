@@ -29,3 +29,4 @@ card #81 CIDG: US ineligible (ARVN Train+Govern Hue/An Loc, VC pass)
 card #95 Westmoreland: Train/Pacify An Loc, Advise ARVN Assault Saigon + Ranger Quang Nam — US 50, VC Terror targets cut
 card #39 Oriskany: US ineligible (NVA March 9 spaces + Ambush, ARVN pass)
 card #87 Nguyen Chanh Thi: US Eligible but card closed by ARVN Event + VC Subvert/March
+card #67 Amphib Landing: Train Saigon + Pacify Qui Nhon, Air Lift 4 ARVN Troops to Tay Ninh/Binh Dinh — NVA 20→16, US 52
