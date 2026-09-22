@@ -94,3 +94,13 @@
 2026-09-22T17:22:18	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Binh Dinh" \  "*=>	309	2444
 2026-09-22T17:22:23	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Kien Hoa-Vinh Binh	189	2058
 2026-09-22T17:22:36	Bash	python3 tools/ctl.py seq "*=>Finished moving troops" 2>&1 | tail -22	144	6573
+2026-09-22T17:22:54	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	2222	10593
+2026-09-22T17:23:04	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -28	117	21660
+2026-09-22T17:23:15	Bash	grep -nE "marker from|Terror|Agitat|Support marker|executes|Trung:|chooses" repo	474	2156
+2026-09-22T17:24:38	Bash	cat >> journal.md <<'EOF'  ## Turn 12 — card #89 Tam Chau — before save-053 **Si	4021	7622
+2026-09-22T17:24:43	Bash	python3 tools/ctl.py seq \  "US Assault=>Perform a Special Activity" \  "Choose 	247	1403
+2026-09-22T17:25:12	Bash	python3 tools/ctl.py seq \  "Choose special activity=>Air Lift" \  "*=>Select an	314	2417
+2026-09-22T17:25:19	Bash	python3 tools/ctl.py seq \  "*=>Lift forces out of Quang Tin-Quang Ngai" "Lift f	242	1942
+2026-09-22T17:25:24	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Quang Tin-Quang Ng	208	1868
+2026-09-22T17:25:28	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>S	176	7178
+2026-09-22T17:25:31	Bash	grep -nE "assaults in Saigon|inflicts|Remove .*Base|Aid by" transcript.log | tai	152	380

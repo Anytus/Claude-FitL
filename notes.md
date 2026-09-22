@@ -26,3 +26,4 @@ card #55 Trucks: Op+Advise — cleared VC Guerrillas from Binh Dinh and Pleiku, 
 card #34 SA-2s: Op Assault (Saigon 3 VC Guerrillas, Pleiku 2 NVA Troops) + Air Lift 2 Troops to Binh Dinh — closed the Terror and Govern threats
 card #6 Aces: US ineligible, but ARVN unshaded handed me the free Air Strike — 6 NVA Troops off the Parrot Beak, Trail to 1.
 card #44 la Drang: Event unshaded into Quang Tin-Quang Ngai — 4 NVA Troops removed, VC forward base neutered
+card #89 Tam Chau: Op Assault x2 + Air Lift — VC Bases removed from Quang Tin and Saigon, VC 18->16

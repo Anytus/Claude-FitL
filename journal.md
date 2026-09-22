@@ -707,3 +707,100 @@ The 3 VC Guerrillas survived (they were not Activated, so the Assault could
 not touch them) and the VC Base with them, so I did not get the Base I was
 hoping for. I left Binh Dinh and Kien Hoa-Vinh Binh each with 1 US cube
 against 1 ARVN Police, which keeps the Govern check reading No in both.
+
+## Turn 12 — card #89 Tam Chau — before save-053
+**Situation.** A bad card. The VC took **Tam Chau shaded**: a **VC Base placed
+in Saigon** and Saigon shifted Active -> Passive Support. That is **-6**, and
+US has fallen 52 -> 46. The NVA passed, so with only the VC having acted I
+still get a **full Op + Special Activity**. ARVN's Resources have collapsed to
+**4** against Econ 15 — it spent itself on an Assault — so pacification is not
+merely gated, it is out of reach by a distance.
+
+**The honest arithmetic.** I need more than 50 at the Coup 2 Victory check and
+I am on 46. Support is the only lever (Available is 21 and only the Coup's
+Commitment phase can change it, which happens after the check). The only
+pacification that would do it in one stroke is **Saigon, Passive -> Active,
++6**, and that needs ARVN Resources of at least 18. From 4, the routes are
+ARVN passes at +3 each and the Saigon patronage transfer at +3 an action,
+capped by Patronage 7. **I probably cannot win at Coup 2.** I am not going to
+pretend otherwise in this journal: the plan from here is to keep the Saigon
+pacification *possible* if ARVN's Resources recover, and otherwise to arrive
+at Coup 3 in a position that can survive the VC's banked **Agitate Total of
+13**, which will be spent in the Coup 2 Support phase.
+
+**What that makes valuable.** Agitate and Terror both need VC pieces in the
+space. Every VC piece I remove from a Support space is a level of Agitation
+that cannot land there when the 13 is spent. And VC Bases are the VC's only
+scoring pieces and its Rally points.
+
+**Options considered.** A Train in Saigon would transfer 3 Patronage to ARVN
+Resources (4 -> 7), but a space used for Train cannot also be used by Advise,
+and Saigon is where the work is. Removing the Saigon Base is worth more than
+3 Resources that still leave me 11 short.
+
+**Plan.** **Op + Special Activity.**
+- **Op: Assault in Quang Tin-Quang Ngai.** My 4 US Troops there face 3 VC
+  **Active** Guerrillas and a VC Base. Four Troops in a Lowland measured 4
+  hits last card; Active Guerrillas go first and the Base is then undefended,
+  so all four pieces should come off. That is -1 VC and leaves the space
+  US-only: COIN Control of a **Neutral pop-2 Province**, which is a +4
+  pacification target the moment Resources ever allow.
+- **Special Activity: Advise**, two spaces.
+  1. **`Assault a space with ARVN forces` in Saigon** — 7 ARVN cubes in a City
+     measured about 3 hits in TestGame3, and the VC Base there is undefended.
+     I choose this over the Irregular/Ranger removal deliberately: TestGame4
+     established that `Each insurgent base removed adds +6 Aid` fires from
+     **Assault** removals but not from the Irregular/Ranger removal.
+  2. **`Use Irregular/Ranger to remove enemy pieces` in Binh Dinh** — 2
+     Underground Irregulars there against the 1 VC Active Guerrilla that has
+     appeared, protecting 4 points of Active Support from Terror and from the
+     coming Agitation.
+  Then **yes** to `Do you wish to add +6 Aid?`.
+Expected: VC 18 -> 16 (two Bases), US Support unchanged at 25, Aid 18 -> 30,
+and both Saigon and Binh Dinh clear of VC pieces again.
+
+**Rationale.** With no way to add a point this card, the entire value is in
+denying the VC the pieces it needs to spend 13 points of Agitate Total on my
+Support, and in taking its two reachable Bases, which are both score and Rally
+capacity. Aid is the one number I can still move a long way, and it is what
+ARVN's Coup earnings are computed from — which is what will fund the Coup 2
+Support phase and, if the game runs to Coup 3, the campaign after it.
+
+**Execution — a plan that had to be rebuilt mid-action.** The Assault in
+Quang Tin-Quang Ngai went exactly as predicted: `The assault inflicts 4 hits`,
+3 Active VC Guerrillas and then the exposed `Remove 1 VC Base from Quang
+Tin-Quang Ngai to AVAILABLE`, `Place COIN Control marker in Quang Tin-Quang
+Ngai`, VC 18 -> 17.
+
+Then the Special Activity menu came up as **`1) Air Lift  2) Air Strike  3) Do
+not perform a Special Activity now`** — **Advise was absent.** My `seq` step
+guarded on `Advise` and stopped with nothing sent, which is exactly what the
+guard is for. I do not know why it was absent: Saigon held 7 ARVN cubes
+against an undefended VC Base and Binh Dinh held 2 Underground Irregulars
+against a VC Active Guerrilla, so on everything the previous four games
+recorded, both of Advise's options should have qualified. ARVN's Resources
+were at 4, which is my best guess at the cause — an ARVN operation through
+Advise may need the 3 Resources it would normally cost — but that is a guess
+and I am recording it as one.
+
+I re-planned at the prompt rather than spend the Special Activity badly. The
+Assault menu had said `There are no more spaces eligible for Assault`, and
+Saigon was ineligible only because it held no US Troops. So I took **Air
+Lift** instead: 2 US Troops from Quang Tin-Quang Ngai (which had just been
+emptied of enemies and needed only 2 to hold Control) into **Saigon**. When
+Air Lift ended, the Assault menu had re-opened to `1) Select a space to
+Assault`, and Saigon was on the list — so an Air Lift inside an Assault
+operation can create a new Assault target, which is worth recording.
+
+**Result.** Both Bases taken, by a different route than planned.
+`US assaults in Saigon / The assault inflicts 4 hits / Remove 1 VC Base from
+Saigon to AVAILABLE`. VC 18 -> 16. Quang Tin-Quang Ngai is now a COIN-
+controlled, enemy-free, **Neutral pop-2 Province** — a +4 pacification target
+standing ready — and Saigon is clear of VC pieces with 2 US Troops back in it.
+What I did **not** get: the +6 Aid I was counting on. No `Each insurgent base
+removed adds +6 Aid` line printed for either Base, and no Advise +6 either.
+RULES_LEARNED records that bonus firing from Assault removals; it did not fire
+for a **US** Assault here, so that note is too broad — on this evidence the
+bonus belongs to ARVN Assaults, including ARVN Assaults through Advise, and
+not to the US's own. Aid stays at 18. Binh Dinh's VC Guerrilla also survives,
+since Advise was the tool meant for it.

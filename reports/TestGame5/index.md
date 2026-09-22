@@ -17,3 +17,5 @@
 - report-041-043.md: #34 - SA-2s
 - report-044-046.md: #6 - Aces
 - report-047-049.md: #44 - la Drang
+- report-050-052.md: #18 - Combined Action Platoons
+- report-053-056.md: #89 - Tam Chau
