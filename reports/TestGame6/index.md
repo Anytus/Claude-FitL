@@ -6,3 +6,6 @@
 - report-010-011.md: #31 - AAA
 - report-012-014.md: #112 - Colonel Chau
 - report-015-016.md: #118 - Korean War Arms
+- report-017-017.md: #118 - Korean War Arms
+- report-018-020.md: #50 - Uncle Ho
+- report-021-022.md: #68 - Green Berets

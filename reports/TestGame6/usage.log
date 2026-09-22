@@ -24,3 +24,6 @@
 2026-09-22T23:42:57	Bash	python3 tools/ctl.py send "2" 2>&1 | grep -v "^\s*$" | tail -12	102	662
 2026-09-22T23:43:00	Bash	python3 tools/ctl.py send y 2>&1 | grep -v "^\s*$" | tail -15	98	6388
 2026-09-22T23:43:19	Bash	cat >> journal.md <<'EOF' **Execution.** Stop 1: Irregular placement asked "Plac	767	26849
+2026-09-22T23:43:27	Bash	python3 tools/ctl.py commit-turn "card #31 AAA: Train Kontum+Binh Dinh, Pacify K	490	16057
+2026-09-22T23:43:39	Bash	cat >> journal.md <<'EOF'  ## Turn 4 — card #118 Korean War Arms — before save-0	574	8379
+2026-09-22T23:43:56	Bash	printf '**Execution.** none\n**Result.** As planned: 8 VC Guerrillas removed.\n'	375	14055
