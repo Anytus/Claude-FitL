@@ -9,3 +9,5 @@
 - report-017-017.md: #118 - Korean War Arms
 - report-018-020.md: #50 - Uncle Ho
 - report-021-022.md: #68 - Green Berets
+- report-023-023.md: #68 - Green Berets
+- report-024-024.md: #126 - Coup! Young Turks

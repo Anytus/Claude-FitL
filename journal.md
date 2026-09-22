@@ -28,3 +28,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN Resources sit at Econ (15), so no Pacify is possible; a LimOp has no target. The Event strips 8 Guerrillas, including from Quang Tri and Binh Dinh. Passing gains nothing: on #50 NVA and VC act before US.
 **Execution.** none
 **Result.** As planned: 8 VC Guerrillas removed.
+
+## Turn 5 — card #68 Green Berets (Coup on deck) — before save-022
+**Plan.** LimOp Patrol: 2 US Troops Kontum → Hue (via Qui Nhon and Da Nang); decline any Assault.
+**Why.** Sets up the Coup Support phase: ARVN income (Econ 15 + Aid 35) will leave ~47 above Econ, and Hue (pop 2, COIN, Police, terror) plus Da Nang then qualify for US pacification, worth about +6. ARVN Resources are at 12, so no Pacify now; the Op-only ARVN action closed the Event.
+**Execution.** none (program offered "Assault at one LOC" after the LimOp Patrol into Hue, the known bug; declined).
+**Result.** As planned: 2 US Troops now in Hue.

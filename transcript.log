@@ -873,4 +873,151 @@ Eligible      : US
 Acted         : ARVN -> Op Only
 Passed        : none
 Ineligible    : VC, NVA
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 1
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Assault
+----------------------------------------------------
+Selection: 2
+
+US chooses Patrol operation
+====================================================
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Finished moving cubes
+----------------------------------------------------
+Selection: 1
+
+Move cubes out of which space: 
+====================================================
+1) Da Nang
+2) Kontum
+3) Saigon
+4) Binh Dinh
+5) Pleiku-Darlac
+6) Quang Tri-Thua Thien
+7) None of the above
+----------------------------------------------------
+Selection: 2
+
+US Moving Patrol cubes out of Kontum
+----------------------------------------------------
+These cubes can move   : 2 US Troops
+
+Move how many cubes out of Kontum (0 - 2): 2
+
+Select destination: Hue
+[35mMove 2 US Troops from Kontum to Hue[0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Finished moving cubes
+----------------------------------------------------
+Selection: 2
+
+US Patrol - Activating guerrillas on LOCs
+----------------------------------------------------
+No guerrillas are activated
+
+Choose one:
+====================================================
+1) Assault at one LOC
+2) Do not Assault at one LOC
+----------------------------------------------------
+Selection: 2
+[34m
+Move the US cylinder to the LimOp box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 75
+
+
+>>> 1st Coup Round <<<
+====================================================
+Current card: #126 - Coup! Young Turks
+(coup or ?): coup
+Coup! Card: #126 - Coup! Young Turks
+----------------------------------------------------
+[31m
+Place #126 - Coup! Young Turks in the RVN Leader Box[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Factions has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Kontum -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 14[0m
+[34mIncrease ARVN resources by +49 to 61[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+There are no pieces in the Casualties Box
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+
+US Pacification (4 spaces remaining, 61 ARVN resources, Econ is 14)
+Choose space to pacify:
+====================================================
+1) Da Nang
+2) Hue
+3) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

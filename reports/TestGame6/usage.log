@@ -27,3 +27,8 @@
 2026-09-22T23:43:27	Bash	python3 tools/ctl.py commit-turn "card #31 AAA: Train Kontum+Binh Dinh, Pacify K	490	16057
 2026-09-22T23:43:39	Bash	cat >> journal.md <<'EOF'  ## Turn 4 — card #118 Korean War Arms — before save-0	574	8379
 2026-09-22T23:43:56	Bash	printf '**Execution.** none\n**Result.** As planned: 8 VC Guerrillas removed.\n'	375	14055
+2026-09-22T23:44:20	Bash	python3 tools/ctl.py commit-turn "card #118 Korean War Arms: Event unshaded — st	521	13257
+2026-09-22T23:44:33	Bash	cat >> journal.md <<'EOF'  ## Turn 5 — card #68 Green Berets (Coup on deck) — be	778	3992
+2026-09-22T23:44:36	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished" 2>&1 | grep -v "^\s*	132	1303
+2026-09-22T23:44:41	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault" 2>&1 | grep -v "^\s*$" | t	322	5068
+2026-09-22T23:44:54	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/4229c704-1129-5396-9146-fbf6e2b8e837/scra	253	8579
