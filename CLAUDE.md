@@ -85,30 +85,16 @@ All interaction goes through `python3 tools/ctl.py`:
 
 | Command | Use |
 | --- | --- |
-| `send <text>` | Type `<text>` and Enter, wait for output, print it. |
-| `enter` | Press Enter (for `>>>>> [ Press Enter to continue... ] <<<<<`). |
-| `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds, and draws event cards when the program asks for one. Stops at any prompt that needs *you*. Prints everything. At every card draw it runs `report.py` for the card just finished (`wrote reports/...`), and when it stops at the US turn it prints the briefing. Use this instead of stepping through bot turns by hand. |
-| `brief` | The briefing on demand: board view with both cards' full text and scores, this card's narration so far, and the neighbours of every space with US pieces. `advance` prints it (minus the narration it has just shown) at the US turn, so you rarely need it. |
-| `commit-turn "<notes line>"` | End-of-card bookkeeping: append the line to `notes.md`, write any unwritten report, commit (message = the line), push. |
-| `seq "<expected>=><answer>" ...` | Answer several prompts in one call. Each step is sent only if `<expected>` appears in the current prompt; otherwise the sequence stops, sends nothing more, and prints the prompt. Answers are matched by **label** when the prompt is a numbered menu (exact, else unique prefix; the number is sent for you) and **typed as given** when the prompt is bare, so write `Saigon` or `Finished selecting` and never a number, whichever form the program uses this time. Digits, `y`, `n`, `abort` go through unchanged. An expected text of `*` matches any numbered menu (the label is then the guard). After a rejected answer the re-prompted menu is still matched. A rejection stops the sequence. **One `seq` per action**, with every step from `perform` to the end of the action in it (`PROMPTS.md` lists the chains): a single-step `seq` is just a slow `send`, right only when the previous `seq` stopped and you are continuing from there. |
-| `read` | Print program output since the last read. |
-| `screen` | Print the current visible screen (the current prompt). |
-| `status` | Running? Cursor? Last lines. |
+| `advance` | Runs the bots, draws cards, writes the report at each draw, and stops at the next prompt that needs you, printing the briefing if it is your turn. Do not pipe it through `tail` or `head`: the briefing comes last. |
+| `seq "<expected>=><answer>" ...` | One call per action, every step from `perform` to the end. Each step is sent only if its expected text is in the current prompt; otherwise, or on a rejection, it stops. How answers are matched: `PROMPTS.md`. |
+| `brief` | The briefing again. |
+| `commit-turn "<notes line>"` | End-of-card bookkeeping. |
+| `send <text>` | One answer, when a `seq` has stopped. |
+| `screen` | The current prompt, when a `seq` has stopped and you need to see why. |
+| `read`, `status` | Pending output; whether the program is running. |
 
-Interface facts:
-
-- Do **not** run `screen` before every answer: `seq` checks each prompt for
-  you. Use `screen` only when a `seq` has stopped and you need to see why.
-- `render.py` is brief by default: empty LoCs are collapsed and adjacency
-  is omitted (`map.py <space>` for neighbours; `render.py --full` for all).
-- `diff.py` shows only the mechanical delta; `--log` adds the program's
-  lines, which you already saw in the `advance` output.
-- At a `(perform or ?)` prompt you may type `show summary`, `show pieces`,
-  `show events`, `show <space name>`, `show all`, or `history` to see the
-  program's own displays. Type `?` for the command list. Do not use
-  `rollback` or `adjust`.
-- If you discover mid-action that your plan cannot be executed, abort (see
-  `PROMPTS.md`), re-plan in `journal.md` and note the abort.
+At a `(perform or ?)` prompt, `show summary`, `show <space>`, `show all` and
+`history` print the program's own displays.
 
 ## Turn protocol
 

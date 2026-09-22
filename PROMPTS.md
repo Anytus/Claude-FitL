@@ -1,8 +1,6 @@
 # PROMPTS.md — the program's prompt chains for US actions
 
-Taken from the program's own output (TestGame3 and TestGame4 transcripts and
-harness test runs), not from memory. Use it to write a whole action as one
-`ctl.py seq` call. Read it once per session.
+The program's prompt chains, for writing one `seq` per action.
 
 **How `seq` answers.** Every answer is matched against the menu when the
 prompt is numbered (exact label, else unique prefix) and typed as given when
