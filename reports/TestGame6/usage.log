@@ -1,0 +1,12 @@
+2026-09-22T23:25:49	Bash	git status | head -5 && ls && ls games 2>/dev/null; wc -l RULES_LEARNED.md CURRE	143	482
+2026-09-22T23:25:51	Bash	cat RULES_LEARNED.md CURRENT_US_STRATEGY.md PROMPTS.md notes.md journal.md	89	29263
+2026-09-22T23:26:01	Bash	python3 tools/ctl.py new-game TestGame6 2>&1 | tail -30	89	3031
+2026-09-22T23:26:05	Bash	python3 tools/ctl.py advance 2>&1	67	12389
+2026-09-22T23:26:12	Bash	git status --short | head; echo "- Session 1: new game TestGame6 created; first 	459	668
+2026-09-22T23:28:58	Bash	python3 tools/map.py "Quang Tri-Thua Thien" | head -3; cat >> journal.md <<'EOF'	586	1094
+2026-09-22T23:29:15	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Choose one=>Op" "Choose oper	678	6753
+2026-09-22T23:29:21	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	222	3650
+2026-09-22T23:29:25	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "in which space=>	144	2365
+2026-09-22T23:29:28	Bash	python3 tools/ctl.py send y 2>&1 | tail -15	77	9023
+2026-09-22T23:29:48	Bash	cat >> journal.md <<'EOF' **Execution.** seq stopped at step 15: after Pacify th	766	21047
+2026-09-22T23:29:52	Bash	sed -n 1,310p /tmp/claude-0/-home-user-Claude-FitL/4229c704-1129-5396-9146-fbf6e	169	9628
