@@ -214,27 +214,19 @@ level toward Active Opposition (Laos and Cambodia have population 0).
 The Coup card goes into the RVN Leader box and its leader effect applies
 from then on; the card text says what.
 
-## 6. Scoring and control facts
+## 6. Scoring and control
 
-- US = Total Support + US Troops and Bases in Available. Irregulars,
-  Casualties and Out of Play count nothing. Active Support is population x2,
-  Passive x1.
-- VC = Total Opposition (same doubling) + VC Bases on the map. Guerrillas
-  count nothing, so removing them changes the VC score only through Control.
-- NVA = NVA Control (population) + NVA Bases anywhere on the map. Six pop-2
-  Controls and 7 Bases is 19 = +1; one Control break (-2) undoes it.
-- ARVN = COIN Control (population) + Patronage. **Every COIN Control you
-  create is ARVN score.**
-- Control needs strictly more pieces than every other faction combined; at
-  equality the marker comes off (NVA 6 v COIN 6). A Base counts as a piece
-  for this.
-- **Support and Opposition persist through changes of Control.** Control
-  matters only at the instant of pacification. Only Terror, Agitate, Govern
-  and events move the marker downward.
-- Pacifying an Opposition space is a double swing: Active Opposition ->
-  Neutral is -4 VC at pop 2, and the next two levels are +4 US.
-- Terror markers show in the render as `terror 1` and cost a level each to
-  pacify through.
+- **US** = Total Support + US Troops and Bases in Available. Irregulars,
+  Casualties and Out of Play count nothing.
+- **ARVN** = population under COIN Control + Patronage.
+- **NVA** = population under NVA Control + NVA Bases on the map.
+- **VC** = Total Opposition + VC Bases on the map.
+- Support and Opposition count population x2 at Active, x1 at Passive.
+- **COIN Control**: US and ARVN pieces together outnumber NVA and VC pieces
+  together. **NVA Control**: NVA pieces outnumber all other pieces together.
+  At equality neither holds. Bases count as pieces. The VC never has
+  Control.
+- Support and Opposition persist through changes of Control.
 
 ## 7. What the bots did (their operations, as narrated)
 
