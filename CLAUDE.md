@@ -19,16 +19,12 @@ Coup, the fourth at the 2nd Coup.
 
 ## Session start
 
-1. Read `RULES_LEARNED.md` (what the program taught the previous players,
-   from four games; its harness note at the top says which habits the
-   tools have replaced), then `POSTMORTEM_TestGame4.md`,
-   `POSTMORTEM_TestGame3.md`, `POSTMORTEM_TestGame2.md` and
-   `POSTMORTEM_TestGame1.md` (the strategic accounts, written for you), then
-   `PROMPTS.md` (the program's prompt chains, for writing `seq` calls).
-   Then `notes.md` (all of it) and the last two entries of `journal.md`.
-   The previous games' journals, notes, saves, reports and transcripts are
-   archived under `archive/TestGame1/` to `archive/TestGame4/`; they are
-   not this game, and you do not need to read them.
+1. Read `RULES_LEARNED.md` (the rules as the program implements them, from
+   earlier games), `CURRENT_US_STRATEGY.md` (advice from earlier games, not
+   a requirement), and `PROMPTS.md` (the program's prompt chains, for writing
+   `seq` calls). Then `notes.md` (all of it) and the last two entries of
+   `journal.md`. Earlier games, with their post-mortems, are archived under
+   `archive/`; they are not this game, and you do not need to read them.
 2. `python3 tools/ctl.py status`.
    - If `running: True`: `python3 tools/ctl.py read` to see anything pending.
    - If `running: False` and `games/TestGame5` exists: `python3 tools/ctl.py resume TestGame5`.
@@ -50,7 +46,7 @@ Coup, the fourth at the 2nd Coup.
 You get what a human player at the table has, and nothing more.
 
 **You may read:** the output of `render.py`, `diff.py`, `report.py` and `map.py`,
-`cards.json`, `map.json`, `RULES_LEARNED.md`, the four post-mortems,
+`cards.json`, `map.json`, `RULES_LEARNED.md`, `CURRENT_US_STRATEGY.md`,
 `PROMPTS.md`, `notes.md`, `journal.md`, everything the program prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
 program's `show` / `history` commands. The map is the printed board:
 `render.py` ends with every space's neighbours, and

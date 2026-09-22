@@ -41,9 +41,9 @@ short version:
 | `games/<name>/` | The program's own saves (`save-NNN`, `log-NNN`). Committed after every US action. |
 | `reports/<game>/` | One file per report: the program's narration for every save since the last report, plus the board summary. Written by `report.py`; what the observer updates the board from. |
 | `PROMPTS.md` | The program's prompt chains for every US Op, Special Activity and Coup decision, from its own transcripts, with each prompt's form (menu / typed / varies). What the model writes `seq` calls from. |
-| `RULES_LEARNED.md` | The playing models' own record of what the program did, from TestGame1 to TestGame4, with a harness note on what the tools have since replaced. Read by the next player. |
-| `POSTMORTEM_TestGame1.md` … `POSTMORTEM_TestGame4.md` | The playing models' strategic accounts of the finished games. |
-| `archive/TestGame1/` … `archive/TestGame4/` | The finished games: saves, logs, journal, notes, reports, transcripts. Move a directory back under `games/` to replay it with `rollback`. |
+| `RULES_LEARNED.md` | The rules as the program implements them, as learned in earlier games and corrected by the observer. Read by the next player. |
+| `CURRENT_US_STRATEGY.md` | One page of strategy advice distilled from the finished games' post-mortems and journals. Read by the next player; advice, not rules. |
+| `archive/TestGame1/` … `archive/TestGame4/` | The finished games: saves, logs, journal, notes, reports, transcripts, post-mortem. Move a directory back under `games/` to replay it with `rollback`. |
 | `journal.md` | Full turn plans, rationales, rejections. The audit artifact. |
 | `notes.md` | One line per model turn. Cross-session memory. |
 | `transcript.log` | Everything the program printed, via tmux pipe-pane. |
