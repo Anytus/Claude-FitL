@@ -23,3 +23,6 @@
 - report-060-062.md: #38 - McNamara Line
 - report-063-065.md: #78 - General Lansdale
 - report-066-067.md: #25 - TF-116 Riverines
+- report-068-068.md: #25 - TF-116 Riverines
+- report-069-070.md: #125 - Coup! Nguyen Khanh
+- report-071-073.md: #47 - Chu Luc; #121 - Linebacker II

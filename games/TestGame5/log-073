@@ -1,0 +1,118 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #121 - Linebacker II (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #73 - Great Society (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, ARVN, VC, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Event: Linebacker II",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nNVA must remove 2 Bases from the map",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Base from Southern Laos to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 NVA Base from The Parrot's Beak to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 12 to 10",
+      "color": "Blue"
+    },
+    {
+      "text": "\nReduce NVA resources by half (rounded down)",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "NVA resources are not used by the NVA Bot",
+      "color": null
+    },
+    {
+      "text": "\nNVA is ineligible through the next card",
+      "color": null
+    },
+    {
+      "text": "Move the NVA cylinder to the Ineligible Factions box",
+      "color": "Blue"
+    },
+    {
+      "text": "\n3 US Casualties to Available",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nThere are no US Casualties",
+      "color": null
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

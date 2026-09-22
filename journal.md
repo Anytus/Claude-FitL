@@ -970,3 +970,155 @@ this card could remove an Underground Guerrilla except the Irregular/Ranger
 removal, and Hue holds neither an Irregular nor a Ranger. That is the one hole
 in the Coup plan: I will pacify Hue for +4 and the VC may Agitate part of it
 straight back.
+
+## Turn 15 — Coup round 2, card #125 Nguyen Khanh — Support phase
+**Situation.** The Victory check passed with nobody above 0; US went in on 46
+as expected. Resources phase: the VC's sabotage has re-set **Econ to 7**, ARVN
+earned +31 to **38**, and Aid fell 9 to 15 for my three Casualties. Econ at 7
+is a large gift — it is the floor my pacification must stay above, so I have
+31 of headroom, about ten levels at 3 apiece, where I had planned for six.
+The program offers exactly the four spaces last card's Air Lift and this
+card's setup were aimed at: **Hue, Saigon, Kien Hoa-Vinh Binh, Quang Nam**.
+
+**Plan.** Pacify all four to Active Support — Saigon 1 level (+6), Hue 2
+levels (+4), Kien Hoa-Vinh Binh 1 level (+2), Quang Nam 2 levels (+2). Six
+levels, 18 Resources, leaving 20 against a floor of 7. Expected Total Support
+25 -> 39, US 46 -> 60.
+
+**Rationale.** Four spaces is the cap and these are the four; there is no
+choice to agonise over, only the order, and I take Saigon first because it is
+the largest single gain and the one I would least want cut short by a headroom
+surprise. The one judgement call is **Hue**, which still holds an Underground
+VC Guerrilla, so the VC can Agitate part of my +4 straight back when it spends
+its Total of 13 later in this phase. I am pacifying it anyway, for a reason
+worth recording: Agitate needs a VC piece in a space that is not already at
+Active Opposition, and almost every other space the VC has pieces in — Tay
+Ninh, Quang Duc-Long Khanh, Binh Tuy-Binh Thuan, Quang Tri-Thua Thien, Kien
+Giang-An Xuyen — is **already at Active Opposition and cannot go lower**. Its
+13 points have very few legal targets. Every level it spends clawing back Hue
+is a level it cannot spend anywhere else, and I would rather make it pay for
+Hue twice than leave the +4 on the table.
+
+**Execution.** One `seq`, all 8 steps, no stop and no rejection. Saigon 1
+level, Hue 2, Kien Hoa-Vinh Binh 1, Quang Nam 2, for 18 of the 38 Resources.
+`ARVN does not pacify any spaces` afterwards.
+
+**Result.** All four to Active Support, exactly +14, the largest single swing
+of the game.
+
+## Turn 16 - Coup round 2 - Commitment phase
+**Situation.** No US Bases or Troops rotated Out of Play; 2 Troop casualties
+are mine to place free on the map, and then `Move up to 10 US Troops and up to
+2 bases` with every piece leaving Available costing 1 US point. I hold 19
+Troops and 2 Bases (21 points) in the box.
+
+**The frame for campaign 3.** I want to win at the **Coup 3 Victory check**,
+which means Support built *during* campaign 3, not another Coup Support phase
+afterwards. Econ is 7 and ARVN will hold about 20 Resources, so for the first
+time all campaign the pacification gate is wide open - roughly four levels
+affordable. But almost everything I hold is already at Active Support. The one
+real target left is **Quang Tin-Quang Ngai**: Neutral, pop 2, COIN Control,
+and it already holds a US Troop, so it is Train-pacifiable for **+4** without
+needing a Base or a Police (the Train test is only COIN Control plus any US
+piece; the strict Police test belongs to the Coup phase).
+
+**The thing I had been getting wrong.** Troops on the map do **not** protect
+Support. Terror and Agitate need a VC piece in the space, not a Control
+margin, so a garrison does not stop them; what stops them is removing the
+Guerrilla, which needs Advise or Assault. Troops are therefore *tools*, not
+shields, and the case for committing them is much weaker than I had assumed.
+
+**Plan.**
+- **Casualty placement (free): both Troops into Quang Tin-Quang Ngai.** It is
+  held by a single US Troop, it is adjacent to Southern Laos where the NVA
+  stages two Bases, and if a March flips its Control I lose the only +4 left
+  on the board. Three Troops there makes that hard.
+- **Commitment: move nothing.** No Troops and no Bases out of Available.
+
+**Rationale.** Twenty-one points in the box is a third of my score and nothing
+I could buy with it is worth a point. A Base in Quang Tin-Quang Ngai would let
+Train place ARVN cubes there, but ARVN cubes in a pop-2 Support space re-open
+the Govern branch I spent a card closing in Binh Dinh. Moving Troops *to*
+Available would pay +1 each but the withdrawal penalty shifts a population
+toward Active Opposition for every 2 moved, which is roughly a wash and costs
+me the Assault and Advise platforms I will need against the VC's Rally. The
+free placement is the whole of the value here, and it goes to the one space
+whose Control is worth 4 points to me.
+
+**Execution.** `Move 2 US Troops from CASUALTIES to Quang Tin-Quang Ngai`,
+then `Finished moving pieces` -> `No pieces were moved` and the withdrawal
+prompt printed for 0 pieces.
+
+**Result.** US **60 (+10)**, Total Support 39 and 21 still in the box. The
+call on Hue was vindicated: the VC spent only **3** of its 13 Agitate Total
+and the Total stands at 10, because - as I argued when deciding to pacify Hue
+anyway - nearly every space it has pieces in is already at Active Opposition
+and cannot go lower. The banked 10 is spent in the **Coup 3** Support phase,
+which runs *after* the Coup 3 Victory check, so it cannot stop me winning
+there. Coup 2 Victory passed with nobody above 0.
+
+## Turn 17 - Pivotal event decision, at the draw after Coup 2
+**Situation.** All three bots rolled and failed their pivotals (VC 6, ARVN 6,
+NVA 5, against 2 cards in the leader box). The program asks `Does US wish to
+play their pivotal?` with `Trumped: VC, ARVN, and NVA`. The card drawn is
+**#73 Great Society**, order ARVN, NVA, US, VC: unshaded "Conduct a Commitment
+Phase", shaded **"US moves 3 pieces from Available to out of play"**. The NVA
+is marked **Performed/Shaded** and acts second; I am **third**, so on the
+normal run of play ARVN acts, the NVA takes the shaded side for **-3 US**, and
+the card ends before I ever get a turn. TestGame3 lost exactly 3 points to
+this card in exactly this position.
+
+**Linebacker II reads:** "NVA removes 2 Bases, reduces Resources to half,
+Ineligible through next card. 3 US Casualties to Available." My Casualties box
+is **empty**, so the clause that would pay me points is worth nothing today.
+
+**Options considered.**
+- *Hold it.* The pivotal's own text is dead while I have no casualties, and
+  it would pay +3 directly if I were holding three. TestGame3 spent its
+  Linebacker II deleting a VC Critical card worth about 4 and judged that good
+  value, so waiting for a bigger card is a real argument.
+- *Play it now.* It deletes #73 outright - a pivotal replaces the current card
+  and the replaced card is never played - which converts a near-certain -3 on
+  a card I could not have acted on into a card where I act first.
+
+**Plan.** **Play Linebacker II.**
+
+**Rationale.** I am at 60 against a threshold of 50 and the entire remaining
+task is to carry more than 50 to the **Coup 3** Victory check; the VC's banked
+Agitate cannot touch that, so my only real exposures are events, Terror and
+Govern. Great Society shaded is one of those exposures, it is worth 3 of my 10
+points of margin, and I cannot reach the card to stop it any other way. The
+side effects are aimed at the right faction: the NVA holds Quang Tri-Thua
+Thien, stages two Bases in Southern Laos next to the Quang Tin-Quang Ngai I
+have just reinforced, and losing 2 of its 8 Bases plus two cards of
+eligibility takes it from 12 to 10 and off my back for the opening of the
+campaign. Against holding: the prompt only appears when the conditions happen
+to line up, the bots' rolls improve every Coup as the leader box grows, and a
+successful bot pivotal would pre-empt mine. A certain 3 points and two NVA
+Bases now beats a speculative 4 later.
+
+**Execution.** `Yes`, then `perform`. `Replace the current event card with
+#121 - Linebacker II`; the NVA removed 2 Bases and went Ineligible; `3 US
+Casualties to Available / There are no US Casualties`.
+
+**Result, and a mistake in my reasoning that I want on the record.** The
+central plank of my rationale was wrong. I argued that the pivotal "deletes
+#73 outright" because a pivotal replaces the current card. But #73 Great
+Society was the **on-deck** card, not the current one — the current slot still
+held the spent Coup card #125 — so Linebacker II replaced *that*, and the
+display now reads `On Deck card: #73 - Great Society`. **Great Society was not
+deleted; it was delayed by one card and will still be played.** I priced the
+pivotal on a denial it did not buy, and I should have read the Current/On Deck
+lines in the prompt before answering rather than assuming which card was
+which.
+
+What the pivotal actually bought, on the honest accounting: the NVA lost 2 of
+its 8 Bases (12 -> 10) and is **Ineligible through the next card**, which is
+Great Society itself — and the NVA was the faction marked Performed/Shaded for
+the side that costs me 3 points. So the denial arrived by a different route
+than I argued: not by deleting the card, but by removing from the card the bot
+most likely to play it against me. The VC is also marked Performed/Shaded and
+is still eligible, so the -3 is possible but no longer likely. The casualty
+clause paid nothing, as expected. Net: I judge the play still positive, but my
+stated reason for it was not the reason it worked, and that is the kind of
+error that looks like success and teaches nothing unless it is written down.

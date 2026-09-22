@@ -120,3 +120,15 @@
 2026-09-22T17:31:22	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space with ARVN forces	160	1136
 2026-09-22T17:31:33	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>Quang Nam" 2>&1 | tail -1	142	1390
 2026-09-22T17:31:37	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" 2>&1 | tail -16	107	6211
+2026-09-22T17:31:53	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	2358	7930
+2026-09-22T17:32:03	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -45	118	12435
+2026-09-22T17:32:37	Bash	cat >> journal.md <<'EOF'  ## Turn 15 — Coup round 2, card #125 Nguyen Khanh — S	2337	7204
+2026-09-22T17:32:47	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -40	109	6555
+2026-09-22T17:34:35	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	3090	4858
+2026-09-22T17:34:39	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving pieces" 2>&1 | tail -14	127	1425
+2026-09-22T17:34:46	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -30	109	15826
+2026-09-22T17:34:54	Bash	python3 -c " import json d=json.load(open('cards.json')) def show(n):     for c 	411	1675
+2026-09-22T17:34:58	Bash	python3 -c " import json d=json.load(open('cards.json')) for c in (d if isinstan	467	1377
+2026-09-22T17:35:59	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	3526	7555
+2026-09-22T17:36:15	Bash	grep -nE "drew #|Current card|On Deck card|Replace the current" transcript.log |	163	854
+2026-09-22T17:36:34	Bash	python3 tools/ctl.py send perform 2>&1 | tail -22	104	6683

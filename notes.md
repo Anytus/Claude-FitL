@@ -29,3 +29,6 @@ card #44 la Drang: Event unshaded into Quang Tin-Quang Ngai — 4 NVA Troops rem
 card #89 Tam Chau: Op Assault x2 + Air Lift — VC Bases removed from Quang Tin and Saigon, VC 18->16
 card #18 Combined Action Platoons / #78 General Lansdale: US ineligible or squeezed out; ARVN took Lansdale shaded (no US Assault until Coup).
 card #25 TF-116 Riverines: Train Saigon transfer + Advise cleared Binh Dinh — Coup 2 Support phase set up for +14
+coup 2 (#125 Nguyen Khanh): pacified Saigon/Hue/Kien Hoa/Quang Nam to Active Support (+14); committed nothing — US 46->60.
+pivotal: played Linebacker II — NVA -2 Bases and Ineligible; my stated rationale (deleting Great Society) was wrong, it was on deck not current.
+coup 2 complete: +14 Support phase, US 60 (+10); Linebacker II played

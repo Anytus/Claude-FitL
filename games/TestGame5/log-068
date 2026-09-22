@@ -1,0 +1,86 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #25 - TF-116 Riverines (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #125 - Coup! Nguyen Khanh",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: TF-116 Riverines",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 2 VC Underground Guerrillas from AVAILABLE into LOC Saigon -- Can Tho",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 2 VC Underground Guerrillas from AVAILABLE into LOC Can Tho -- Chau Doc",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 2 VC Underground Guerrillas from AVAILABLE into LOC Can Tho -- Long Phu",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Saigon -- Can Tho",
+      "color": "Yellow"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Can Tho -- Chau Doc",
+      "color": "Yellow"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Can Tho -- Long Phu",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nMove the VC cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}
