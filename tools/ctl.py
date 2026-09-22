@@ -17,6 +17,19 @@ Commands
                         prompt that needs a human decision. Prints everything.
                         Set FITL_MANUAL_DECK=1 to stop at card prompts instead
                         (a human then supplies the number with `send`).
+                        After every card draw it runs report.py (the report
+                        file for the card just finished), and when it stops
+                        at the US turn it prints the briefing (`brief`
+                        without the narration it has just printed).
+  brief                 Everything for one decision: the board view with both
+                        cards' full text and scores, this card's narration so
+                        far, and the neighbours of every space with US pieces.
+                        (tools/brief.py; --full for the whole map.)
+  commit-turn [<notes line>]
+                        End-of-card bookkeeping in one call: append the line
+                        to notes.md, run report.py for anything not yet
+                        reported, git add/commit/push (push retried with
+                        backoff). The commit message is the notes line.
   seq <step> [<step>...]
                         Answer several prompts in one call, each guarded:
                         a step is "<expected text>=><answer>". The expected
@@ -355,6 +368,7 @@ def cmd_advance():
     write_cursor(off)
     print(pending, end="")
     steps = 0
+    header = ""
     while steps < 200:
         steps += 1
         last = last_nonblank_screen_line()
@@ -367,6 +381,9 @@ def cmd_advance():
         elif CARD_PROMPT_RE.search(last):
             if MANUAL_DECK:
                 break
+            # The save for everything up to this prompt is on disk: write the
+            # report for the card that just finished before drawing.
+            run_report()
             print(auto_draw(), end="")
         elif last.startswith("(perform or ?)") and "(Bot)" in header:
             print(send_raw("perform"), end="")
@@ -376,8 +393,79 @@ def cmd_advance():
             print(send_raw("coup"), end="")
         else:
             break
-    print(f"\n[ctl] stopped at: {last_nonblank_screen_line()}")
+    last = last_nonblank_screen_line()
+    print(f"\n[ctl] stopped at: {last}")
+    if last.startswith("(perform or ?)") and "(Human)" in header:
+        print("\n[ctl] briefing (board, cards, scores, US neighbours; narration above):\n")
+        print_brief(narration=False)
     return 0
+
+
+def run_report():
+    """report.py for the current game; prints its one-line result."""
+    import fitl_state as S
+    game = current_game()
+    if not game or not S.save_numbers(game):
+        return
+    import report
+    print()
+    try:
+        report.main([game])
+    except SystemExit as e:
+        if e.code:
+            print(f"[ctl] report.py: {e}")
+
+
+def print_brief(narration=True, full=False):
+    game = current_game()
+    if not game:
+        print("[ctl] no current game (.ctl-game missing); run brief.py <game>")
+        return 1
+    import brief
+    args = [game] + ([] if narration else ["--no-narration"]) + (["--full"] if full else [])
+    return brief.main(args)
+
+
+def cmd_commit_turn(line):
+    """Append the notes line, report anything unreported, commit and push."""
+    import fitl_state as S
+    game = current_game()
+    if line:
+        with open(os.path.join(ROOT, "notes.md"), "a", encoding="utf-8") as f:
+            f.write(line.rstrip("\n") + "\n")
+        print(f"[ctl] notes.md += {line}")
+    if game:
+        run_report()
+    subprocess.run(["git", "add", "-A"], cwd=ROOT, check=True)
+    st = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT, capture_output=True, text=True).stdout
+    if not st.strip():
+        print("[ctl] nothing to commit")
+    else:
+        if not line:
+            try:
+                state = S.load_save(S.save_path(game, S.save_numbers(game)[-1]))
+                line = f"card #{state['currentCard']}: bookkeeping"
+            except Exception:
+                line = "bookkeeping"
+        r = subprocess.run(["git", "commit", "-q", "-m", line], cwd=ROOT, capture_output=True, text=True)
+        if r.returncode:
+            print(f"[ctl] git commit failed:\n{r.stdout}{r.stderr}")
+            return 1
+        print(f"[ctl] committed: {line}")
+    branch = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"], cwd=ROOT,
+                            capture_output=True, text=True).stdout.strip()
+    delay = 2
+    for attempt in range(5):
+        r = subprocess.run(["git", "push", "-q", "-u", "origin", branch], cwd=ROOT,
+                           capture_output=True, text=True)
+        if r.returncode == 0:
+            print(f"[ctl] pushed {branch}")
+            return 0
+        print(f"[ctl] push failed (attempt {attempt + 1}): {r.stderr.strip()}")
+        if attempt < 4:
+            time.sleep(delay)
+            delay *= 2
+    return 1
 
 
 def cmd_seq(steps):
@@ -473,6 +561,10 @@ def main(argv):
         return cmd_resume(" ".join(args))
     if cmd == "stop":
         return cmd_stop()
+    if cmd == "brief":
+        return print_brief(narration=True, full=("--full" in args)) or 0
+    if cmd == "commit-turn":
+        return cmd_commit_turn(" ".join(args).strip())
     print(f"unknown command {cmd!r}\n{__doc__}")
     return 2
 

@@ -1,0 +1,278 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #75 - Sihanouk (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #50 - Uncle Ho (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: Sihanouk",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVC selects The Fishhook for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into The Fishhook",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects Northeast Cambodia for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Northeast Cambodia",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects Sihanoukville for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Sihanoukville",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects The Parrot's Beak for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from The Fishhook to LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects LOC Can Tho -- Chau Doc as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from The Parrot's Beak to LOC Can Tho -- Chau Doc",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects Kien Giang-An Xuyen as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Sihanoukville to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects The Parrot's Beak for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Base from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 4 to 5",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects The Fishhook for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into The Fishhook",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in The Fishhook",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNVA selects Sihanoukville for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Sihanoukville",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Sihanoukville",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNVA selects Northeast Cambodia for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Northeast Cambodia",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA improves the trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Improve the trail by 1 box to 2",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects Tay Ninh as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from The Fishhook to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from The Fishhook",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNVA selects Pleiku-Darlac as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from Northeast Cambodia to Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

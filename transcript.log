@@ -1,0 +1,373 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+harness)
+----------------------------------------------------
+
+Choose a scenario:
+====================================================
+1) Short: 1965-1967
+2) Medium: 1968-1972
+3) Full: 1964-1972
+4) Quit
+----------------------------------------------------
+Selection: 3
+
+How many factions will be played by human players (0 - 4) Default = 1: 1
+
+Select the human faction:
+====================================================
+1) US
+2) ARVN
+3) VC
+4) NVA
+----------------------------------------------------
+Selection: 1
+
+When playing solitaire the human faction normally may only win during the final Coup! round.
+For an easier game you can allow the human faction to win during any Coup! round.
+
+Allow human faction to win in Victory phase of any Coup round? (y/n) y
+
+Enter a name for your new game: BriefTest
+
+Start of Game
+====================================================
+
+Scenario: Full: 1964-1972
+====================================================
+US  : Human
+ARVN: Bot
+VC  : Bot
+NVA : Bot
+----------------------------------------------------
+Human Victory allowed during Victory phase of any Coup! round
+
+
+Rolling d3 to set the Agitate Total: 1
+----------------------------------------------------
+[34mSet Agitate Total (VC resources cylinder) to 1[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Draw event cards
+----------------------------------------------------
+Enter the number of the 1st Event card: 75
+Enter the number of the 2nd Event card: 50
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #75 - Sihanouk (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #50 - Uncle Ho (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded)
+Eligible      : ARVN, NVA, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - H
+Trung check: 5+ ARVN Troops + Rangers in any one space? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - J
+Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (21): 6 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Pleiku-Darlac for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 27[0m
+[35mPlace 2 ARVN Underground Rangers from AVAILABLE into Pleiku-Darlac[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 36[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 24[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 21[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Hue[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Hue[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+ARVN Pacifies 1 level in Hue
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 18[0m
+[33mPlace Passive Support marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 38 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[31m
+Leader: Duong Van Minh effect triggers[0m
+----------------------------------------------------
+[34mIncrease US Aid by +5 to 20[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Kien Hoa-Vinh Binh (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 18[0m
+[34mIncrease Patronage by +2 to 17[0m
+[33mRemove Passive Support marker from Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 40 to 38[0m
+[34mMove the 'COIN Control + Patronage' marker from 36 to 38[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Phu Bon-Phu Yen (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 17[0m
+[34mIncrease Patronage by +1 to 18[0m
+[33mRemove Passive Support marker from Phu Bon-Phu Yen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 38 to 37[0m
+[34mMove the 'COIN Control + Patronage' marker from 38 to 39[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #75 - Sihanouk (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #50 - Uncle Ho (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded)
+Eligible      : NVA, US, VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+
+NVA executes the Shaded Event: Sihanouk
+----------------------------------------------------
+
+VC selects The Fishhook for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into The Fishhook[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Northeast Cambodia for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Northeast Cambodia[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Sihanoukville for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Sihanoukville[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from The Fishhook to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Can Tho -- Chau Doc as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from The Parrot's Beak to LOC Can Tho -- Chau Doc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Kien Giang-An Xuyen as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Sihanoukville to Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into The Parrot's Beak[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 4 to 5[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects The Fishhook for Rally
+----------------------------------------------------
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into The Fishhook[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in The Fishhook[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Sihanoukville for Rally
+----------------------------------------------------
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Sihanoukville[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Sihanoukville[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Northeast Cambodia for Rally
+----------------------------------------------------
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Northeast Cambodia[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 2[0m
+
+NVA selects Tay Ninh as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from The Fishhook to Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from The Fishhook[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Pleiku-Darlac as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Northeast Cambodia to Pleiku-Darlac[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 128
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #50 - Uncle Ho (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded)
+On Deck card  : #128 - Coup! Nguyen Van Thieu
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: 3+ VC Guerrillas in any space? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - ZZ
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Binh Dinh for Terror
+[36mFlip 1 VC Underground Guerrilla in Binh Dinh to ACTIVE[0m
+[33mAdd 1 terror marker to Binh Dinh[0m
+[33mPlace Passive Opposition marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 27 to 29[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the VC cylinder to the Op Only box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #50 - Uncle Ho (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded)
+On Deck card  : #128 - Coup! Nguyen Van Thieu
+Eligible      : US
+Acted         : VC -> Op Only
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): 
