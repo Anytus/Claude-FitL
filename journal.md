@@ -1194,3 +1194,25 @@ marker`. Hue: `The assault inflicts 3 hits`, 2 NVA and 1 VC Active Guerrillas
 removed — 3 US Troops in a City gave 3 hits, one per Troop, as assumed. The
 eight Underground NVA Guerrillas seeded in my Support spaces all survive, so
 the Terror exposure is untouched; that is the real cost of the deviation.
+
+## Turn 20 — card #69 MACV and the 3rd Coup — GAME OVER
+**Plan.** None needed: I had no action. On #69 MACV the NVA took the Event
+(its text lets one pair of factions each take a free Special Activity and
+leaves the player Eligible), and the next draw turned up `#126 Coup! Young
+Turks` as the current card.
+**Why / what happened.** Two bot moves went my way on the last card. The NVA's
+`Trung check: Support + Available >= 42? [Yes]` branch fired — my own score is
+its trigger — and it Terrored Quang Tri-Thua Thien, removing its Passive
+Opposition marker (NVA 14 -> 15, VC 19 -> 16). Then the VC **Taxed that same
+space**, which shifts a space one level *toward Support*: `Place Passive
+Support marker in Quang Tri-Thua Thien` and `Move the 'Support + Avail US'
+marker from 58 to 60`. The VC handed me the last 2 points of the game, and the
+19 it had banked in its Agitate Total is spent in the Support phase, which
+comes after the Victory check and therefore never arrived.
+**Execution.** None.
+**Result.** `Victory Phase / Game over in the 3rd Coup! round / US wins with a
+victory margin of 10!` Final US 60 against a threshold of 50 — 39 of it Total
+Support on the map and 21 in the force pool. The program is holding at
+`Do you want to continue playing this game? (y/n)`, which I have not answered:
+whether to end the game or play on for rules exploration is Kevin's call, not
+a game decision.

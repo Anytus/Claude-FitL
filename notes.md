@@ -36,3 +36,6 @@ card #121 Linebacker II complete — US 60 (+10) entering campaign 3
 Session note: container reclaimed after card #121; resumed from latest save (#121 Linebacker II, US performed Event) at the card-draw prompt, nothing lost.
 card #86 Mandate of Heaven: Op Train + Air Lift — Quang Tin-Quang Ngai taken and pacified to Active Support, US 56->60, NVA 16->14
 card #5 Wild Weasels: Op Assault (Quang Tin 3 NVA Troops, Hue 3 Guerrillas) + Air Lift — Advise unavailable, Assault closes it
+card #69 MACV: US no action — NVA took the Event; VC Tax flipped Quang Tri to Passive Support, US 58->60.
+3rd Coup (#126 Young Turks): VICTORY — US wins with a margin of 10 (60 v threshold 50). Holding at the continue y/n prompt for Kevin.
+3rd Coup #126 Young Turks: US WINS with a victory margin of 10

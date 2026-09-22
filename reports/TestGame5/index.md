@@ -32,3 +32,6 @@
 - report-082-084.md: #86 - Mandate of Heaven
 - report-085-087.md: #90 - Walt Rostow
 - report-088-089.md: #5 - Wild Weasels
+- report-090-090.md: #5 - Wild Weasels
+- report-091-093.md: #69 - MACV
+- report-094-094.md: #126 - Coup! Young Turks
