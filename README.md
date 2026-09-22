@@ -25,10 +25,11 @@ short version:
 | `CLAUDE.md` | Standing instructions for the *playing* session. Read it first. |
 | `fitl/lib/` | `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl) with one patch applied, see below. No build step to run. |
 | `fitl/fitl-1.53-harness.patch` | The patch applied to the program (against v1.53): save after every action and Coup round *before* asking for the next card, make the card draw its own saved step, and close the adjacency table under symmetry. `save-before-draw.patch` is the first half, kept for reference. |
-| `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `seq`, `enter`, `advance`, `read`, `screen`, `status`. `advance` also draws event cards; `seq` answers a whole action's prompts in one guarded call, by menu label. |
+| `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `seq`, `enter`, `advance`, `brief`, `commit-turn`, `read`, `screen`, `status`. `advance` also draws event cards, writes the report file at each draw and prints the briefing at the US turn; `seq` answers a whole action's prompts in one guarded call, by menu label; `commit-turn` does the end-of-card bookkeeping (notes line, report, commit, push). |
 | `tools/deck.py` | Lazy event-card draws: uniform over what can legally be next in the current pile, decided at request time with the OS random source. `selftest` simulates thousands of decks. |
 | `tools/apply_periods.py` | Records each card's period marking (1964/1965/1968) in `cards.json`. |
 | `tools/render.py` | Renders the latest save as the board view, with derived scores. Brief by default; `--full` adds every LoC and the adjacency table. |
+| `tools/brief.py` | The decision briefing: the board view, this card's narration so far, and the neighbours of every space with US pieces. One call replaces render, transcript greps, card lookups and map queries. |
 | `tools/diff.py` | Mechanical delta between two saves (`--log` adds the program's lines). |
 | `tools/report.py` | Writes the observer's report for every save since the last one: the program's narration verbatim plus the board summary, under `reports/<game>/`. |
 | `tools/fitl_state.py` | Shared save-loading, piece manifest, regions, scoring. |
@@ -52,6 +53,9 @@ Requirements: Java 11+, Python 3, tmux. From the repository root:
 python3 tools/ctl.py new-game TestGame1     # first time
 python3 tools/ctl.py resume TestGame1       # after a container/session loss
 python3 tools/ctl.py status
+python3 tools/ctl.py advance                # bots, card draws, report, briefing
+python3 tools/ctl.py brief                  # the briefing on demand
+python3 tools/ctl.py commit-turn "<line>"   # notes line, report, commit, push
 python3 tools/render.py                     # board view of the latest save
 python3 tools/diff.py                       # last two saves + program log
 ```
@@ -71,7 +75,13 @@ What the harness does about it: `report.py` writes the observer's report
 from the program's own logs so the model never retypes narration; `diff.py`
 no longer repeats the log lines; `render.py` is brief by default; and
 `ctl.py seq` answers a whole action's prompts in one guarded call instead of
-one call per menu.
+one call per menu. After TestGame4 (about 190 calls over 27 cards, 7 per
+card) three more folds: `advance` writes the report at each card draw and
+prints the briefing at the US turn, `brief` replaces the render, transcript
+grep, card lookup and map calls with one, and `commit-turn` replaces the
+notes, commit and push calls with one. The floor is now about four calls
+per card (advance, journal entry, action, commit-turn), roughly half of
+TestGame4; the reasoning tokens per card do not shrink with the call count.
 
 Every tool call is logged by a `PostToolUse` hook (`.claude/settings.json`
 runs `tools/usage_hook.py`) to `~/.fitl-usage.log`, outside the working

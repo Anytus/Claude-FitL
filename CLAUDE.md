@@ -30,7 +30,8 @@ any Coup Victory phase is allowed.
    - If `games/TestGame1` does not exist: `python3 tools/ctl.py new-game TestGame1`,
      then `python3 tools/ctl.py advance`, which draws the first two cards and
      runs the bots up to the first decision. This happens once.
-3. `python3 tools/render.py` for the board view.
+3. `python3 tools/ctl.py brief` for the briefing (board, both cards, scores,
+   this card's narration so far, neighbours of spaces with US pieces).
 4. Play as far as Kevin's message asks (see "Turn protocol"), report, and stop.
 
 ## Information boundary
@@ -79,8 +80,9 @@ the physical bot cards, so they are fair.
   points at that file. Do not paste narration or `diff.py` output into
   chat, and never describe a board change in your own words in place of
   the program's line.
-- **Commit and push after every report** so nothing is lost if the container
-  is reclaimed: `git add -A && git commit -q -m "card #<n>: <one line>" && git push -q`.
+- **`ctl.py commit-turn "<notes line>"` after every card** so nothing is lost
+  if the container is reclaimed. It appends the line to `notes.md`, writes any
+  report not yet written, commits with the line as the message, and pushes.
 
 ## Driving the program
 
@@ -90,7 +92,9 @@ All interaction goes through `python3 tools/ctl.py`:
 | --- | --- |
 | `send <text>` | Type `<text>` and Enter, wait for output, print it. |
 | `enter` | Press Enter (for `>>>>> [ Press Enter to continue... ] <<<<<`). |
-| `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds, and draws event cards when the program asks for one. Stops at any prompt that needs *you*. Prints everything. Use this instead of stepping through bot turns by hand. |
+| `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds, and draws event cards when the program asks for one. Stops at any prompt that needs *you*. Prints everything. At every card draw it runs `report.py` for the card just finished (`wrote reports/...`), and when it stops at the US turn it prints the briefing. Use this instead of stepping through bot turns by hand. |
+| `brief` | The briefing on demand: board view with both cards' full text and scores, this card's narration so far, and the neighbours of every space with US pieces. `advance` prints it (minus the narration it has just shown) at the US turn, so you rarely need it. |
+| `commit-turn "<notes line>"` | End-of-card bookkeeping: append the line to `notes.md`, write any unwritten report, commit (message = the line), push. |
 | `seq "<expected>=><answer>" ...` | Answer several prompts in one call. Each step is sent only if `<expected>` appears in the current prompt; otherwise the sequence stops, sends nothing more, and prints the screen. An answer of `#<label>` picks the menu entry whose label starts with `<label>`, so renumbered menus cannot bite. **One `seq` per action**, with every step of the action in it: a `seq` with a single step is just a slow `send`, and is only right when the previous `seq` stopped and you are continuing from where it stopped. |
 | `read` | Print program output since the last read. |
 | `screen` | Print the current visible screen (the current prompt). |
@@ -138,11 +142,13 @@ ends by saying where you stopped.
 
 For each card:
 
-1. `ctl.py advance`. It draws a card if one is due and runs the bots. Read
-   what the bots did.
-2. If it stops at `>>> US turn (Human) <<<`:
-   a. `render.py`. Study the board, both cards, the sequence of play, and
-      what the bots have done this card.
+1. `ctl.py advance`. It draws a card if one is due, writes the report file
+   for any card it finishes, and runs the bots. Read what the bots did.
+2. If it stops at `>>> US turn (Human) <<<` it prints the briefing:
+   a. Study it: the board, both cards, the sequence of play, the scores, the
+      neighbours of your spaces, and what the bots have done this card (the
+      narration just above it). `map.py <space>` for any other neighbours;
+      `ctl.py brief` if you need the briefing again.
    b. Write the plan entry in `journal.md` (format below).
    c. Execute the plan with **one** `seq` call containing every step from
       `perform` to the end of the action; if it stops, read the screen it
@@ -166,12 +172,13 @@ For each card:
       (`Train in which space=>Saigon`); numbered ones take `#Saigon`.
    d. `ctl.py advance` again for any remaining bot actions.
 3. When `advance` has drawn the next card (a `[deck]` line appears) the card
-   is finished: run `python3 tools/report.py`, which writes every new
-   segment's narration and the board summary to `reports/<game>/`, write
-   the card's section of your reply, and append to `notes.md`. Then stop,
-   or continue with the next card if Kevin asked for more. Commit and push
-   at the end of your reply. Do not extract narration from
-   `transcript.log` or the `advance` output for your reply: the report
+   is finished. `advance` has already run `report.py`, which writes every
+   new segment's narration and the board summary to `reports/<game>/` and
+   prints `wrote reports/...`. Write the card's section of your reply, then
+   `python3 tools/ctl.py commit-turn "card #<n> <title>: <action> — <why>"`
+   (the `notes.md` line; it commits and pushes too). Then stop, or continue
+   with the next card if Kevin asked for more. Do not extract narration
+   from `transcript.log` or the `advance` output for your reply: the report
    file is the narration, and the reply names the file.
 4. Coup rounds: `advance` sends `coup`. The program will stop whenever the
    US has a decision to make. Seen so far: the Support phase (which spaces
@@ -185,7 +192,9 @@ For each card:
 5. Pivotal event: if the program asks whether the US wants to play
    Linebacker II, decide, log it in the journal, and answer.
 
-Append a one-line summary to `notes.md` after every US action or decision.
+The one-line `notes.md` summary for a card is the `commit-turn` argument.
+After a Coup-round decision or a pivotal-event decision, append its line to
+`notes.md` by hand (or pass it to `commit-turn`).
 
 ## Report format
 
@@ -200,7 +209,7 @@ Fixed order, so Kevin can update the board without hunting:
    is in `journal.md`), plus every rejection, stop and deviation.
 3. **Coup round**, when one occurred: your Coup-phase decisions and their
    rationale, one line per phase outcome.
-4. **Report file** — the path `report.py` printed. That file holds the
+4. **Report file** — the path `advance` printed (`wrote reports/...`). That file holds the
    program's narration for every segment and the board summary; it is
    what Kevin updates the board from.
 5. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
