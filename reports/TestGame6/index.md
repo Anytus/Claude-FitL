@@ -32,3 +32,5 @@
 - report-061-062.md: #67 - Amphib Landing
 - report-063-065.md: #46 - 559th Transport Grp
 - report-066-066.md: #10 - Rolling Thunder
+- report-067-068.md: #10 - Rolling Thunder
+- report-069-069.md: #128 - Coup! Nguyen Van Thieu

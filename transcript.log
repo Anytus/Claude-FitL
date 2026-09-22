@@ -3635,4 +3635,159 @@ Eligible      : US, VC
 Acted         : none
 Passed        : none
 Ineligible    : NVA, ARVN
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Qui Nhon
+2) Saigon
+3) Pleiku-Darlac
+4) None of the above
+----------------------------------------------------
+Selection: 3
+
+US selects Pleiku-Darlac for Training
+
+Training in Pleiku-Darlac:
+====================================================
+1) Place Rangers
+2) Place ARVN Troops/Police
+3) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+Place how many ARVN Troops in Pleiku-Darlac?  (0 - 6): 3
+
+Place how many ARVN Police in Pleiku-Darlac?  (0 - 3): 3
+
+[34mDecrease ARVN resources by -3 to 22[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Pleiku-Darlac[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Pleiku-Darlac[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 46 to 47[0m
+
+1 space selected for Training
+----------------------------------------------------
+Pleiku-Darlac
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Do you wish to perform a special activity? (y/n) n
+[34m
+Move the US cylinder to the Op Only box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+On Deck card  : #128 - Coup! Nguyen Van Thieu
+Eligible      : VC
+Acted         : US -> Op Only
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Kien Hoa-Vinh Binh for Terror
+[36mFlip 1 VC Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE[0m
+[33mAdd 1 terror marker to Kien Hoa-Vinh Binh[0m
+[33mPlace Passive Opposition marker in Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 34 to 36[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 86
+
+
+>>> 2nd Coup Round <<<
+====================================================
+Current card: #128 - Coup! Nguyen Van Thieu
+(coup or ?): coup
+Coup! Card: #128 - Coup! Nguyen Van Thieu
+----------------------------------------------------
+[31m
+Place #128 - Coup! Nguyen Van Thieu in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+
+[33m====================================================[0m
+Game over in the 2nd Coup! round
+[33mUS wins with a victory margin of 2![0m
+
+Do you want to continue playing this game? (y/n)

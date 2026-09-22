@@ -90,3 +90,8 @@
 2026-09-22T23:54:56	Bash	python3 tools/ctl.py seq "Move how many ARVN Troops=>2" "Choose one=>Finished mo	167	2119
 2026-09-22T23:54:59	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift" 2>&1 | grep -v "^\	134	7597
 2026-09-22T23:55:11	Bash	printf '**Execution.** Deviation: Air Lift caps ARVN at 4 Troops ("Move how many	695	18548
+2026-09-22T23:55:21	Bash	python3 tools/ctl.py commit-turn "card #67 Amphib Landing: Train Saigon + Pacify	549	12057
+2026-09-22T23:55:55	Bash	cat >> journal.md <<'EOF'  ## Turn 12 — card #10 Rolling Thunder (Coup on deck) 	850	5076
+2026-09-22T23:55:58	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting" 2>&1 | grep -v "^\s*$	131	838
+2026-09-22T23:56:01	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>n" 2>&1 | grep -v "^\s*$" | t	126	5296
+2026-09-22T23:56:10	Bash	printf '**Execution.** No final-action menu (no Pacify target); SA declined with	451	13113

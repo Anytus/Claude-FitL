@@ -82,3 +82,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** NVA is at 20 (+2) and would win a Coup now. Breaking NVA Control in three pop-2 spaces is −6 NVA (to 14), and the Pacify puts US at 52. The Event (coastal relocation) is weak with 2 US Troops on the map.
 **Execution.** Deviation: Air Lift caps ARVN at 4 Troops ("Move how many ARVN Troops (0 - 4)"), so Kien Phong got none: 2 to Tay Ninh, 2 to Binh Dinh. Mechanic: Air Lift moves at most 4 ARVN Troops in total. Other stops were menus skipped when there was one choice (Qui Nhon placement, Pacify space); no rejections.
 **Result.** US 52, NVA 20 → 16 (Tay Ninh and Binh Dinh Control broken).
+
+## Turn 12 — card #10 Rolling Thunder (Coup on deck) — before save-066
+**Plan.** Op only, no SA: Train Pleiku-Darlac (6 ARVN cubes at the US Base), no Pacify (no target), decline the Special Activity.
+**Why.** US is at 52 (+2) going into the Victory check. An Op without SA holds VC, the only other Eligible faction, to a one-space LimOp: at worst VC +2 (36, +1) or US −1 (51, +1), so US stays highest either way. Passing or taking the Event would give VC a full Op + SA with multi-space Terror.
+**Execution.** No final-action menu (no Pacify target); SA declined with n. No rejections.
+**Result.** Pleiku COIN Control; Op Only recorded, so VC gets a LimOp at most.
+
+## Coup 2 — #128 Nguyen Van Thieu, Victory phase — before save-068
+**Plan.** None needed; the program declared the result.
+**Why.** —
+**Execution.** none
+**Result.** "US wins with a victory margin of 2!" (US 52 → +2; VC's LimOp Terror took VC to 36, +1). The program asks "Do you want to continue playing this game? (y/n)"; left unanswered for Kevin.
