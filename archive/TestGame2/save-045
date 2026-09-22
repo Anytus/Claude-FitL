@@ -1,0 +1,1158 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "game-state": {
+    "vcResources": 1,
+    "coupCardsPlayed": 1,
+    "cardsSeen": [
+      43,
+      112,
+      48,
+      125,
+      107,
+      79,
+      101,
+      15,
+      118,
+      29,
+      63,
+      17,
+      66,
+      72,
+      59,
+      22,
+      24
+    ],
+    "currentCard": 22,
+    "peaceTalks": false,
+    "humanFactions": [
+      "US"
+    ],
+    "rvnLeaderFlipped": false,
+    "casualties": [
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Underground Irregular"
+    ],
+    "econ": 15,
+    "usPolicy": "JFK",
+    "botIntents": "BotIntentsVerbose",
+    "capabilities": [
+      {
+        "name": "#101 Booby Traps",
+        "shaded": true,
+        "faction": "VC"
+      }
+    ],
+    "cardsPerCampaign": 13,
+    "history": [
+      {
+        "save_number": 0,
+        "card": "#43 - Economic Aid",
+        "summary": [
+          "NVA is up"
+        ]
+      },
+      {
+        "save_number": 1,
+        "card": "#43 - Economic Aid",
+        "summary": [
+          "ARVN is up",
+          "NVA performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 2,
+        "card": "#43 - Economic Aid",
+        "summary": [
+          "NVA performed Op\/Special Activity",
+          "ARVN performed Event"
+        ]
+      },
+      {
+        "save_number": 3,
+        "card": "#112 - Colonel Chau",
+        "summary": [
+          "VC is up"
+        ]
+      },
+      {
+        "save_number": 4,
+        "card": "#112 - Colonel Chau",
+        "summary": [
+          "US is up",
+          "VC performed Event"
+        ]
+      },
+      {
+        "save_number": 5,
+        "card": "#112 - Colonel Chau",
+        "summary": [
+          "VC performed Event",
+          "US performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 6,
+        "card": "#48 - Nam Dong",
+        "summary": [
+          "NVA is up"
+        ]
+      },
+      {
+        "save_number": 7,
+        "card": "#48 - Nam Dong",
+        "summary": [
+          "ARVN is up",
+          "NVA performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 8,
+        "card": "#48 - Nam Dong",
+        "summary": [
+          "NVA performed Op\/Special Activity",
+          "ARVN performed Event"
+        ]
+      },
+      {
+        "save_number": 9,
+        "card": "#125 - Coup! Nguyen Khanh",
+        "summary": [
+          "1st Coup! round"
+        ]
+      },
+      {
+        "save_number": 10,
+        "card": "#125 - Coup! Nguyen Khanh",
+        "summary": [
+          "2nd Coup! round"
+        ]
+      },
+      {
+        "save_number": 11,
+        "card": "#107 - Burning Bonze",
+        "summary": [
+          "VC is up"
+        ]
+      },
+      {
+        "save_number": 12,
+        "card": "#107 - Burning Bonze",
+        "summary": [
+          "NVA is up",
+          "VC performed Event"
+        ]
+      },
+      {
+        "save_number": 13,
+        "card": "#107 - Burning Bonze",
+        "summary": [
+          "VC performed Event",
+          "NVA performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 14,
+        "card": "#79 - Henry Cabot Lodge",
+        "summary": [
+          "ARVN is up"
+        ]
+      },
+      {
+        "save_number": 15,
+        "card": "#79 - Henry Cabot Lodge",
+        "summary": [
+          "US is up",
+          "ARVN performed Event"
+        ]
+      },
+      {
+        "save_number": 16,
+        "card": "#79 - Henry Cabot Lodge",
+        "summary": [
+          "ARVN performed Event",
+          "US performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 17,
+        "card": "#101 - Booby Traps",
+        "summary": [
+          "VC is up"
+        ]
+      },
+      {
+        "save_number": 18,
+        "card": "#101 - Booby Traps",
+        "summary": [
+          "NVA is up",
+          "VC performed Event"
+        ]
+      },
+      {
+        "save_number": 19,
+        "card": "#101 - Booby Traps",
+        "summary": [
+          "VC performed Event",
+          "NVA performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 20,
+        "card": "#15 - Medevac",
+        "summary": [
+          "US is up"
+        ]
+      },
+      {
+        "save_number": 21,
+        "card": "#15 - Medevac",
+        "summary": [
+          "ARVN is up",
+          "US performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 22,
+        "card": "#15 - Medevac",
+        "summary": [
+          "US performed Op\/Special Activity",
+          "ARVN performed Event"
+        ]
+      },
+      {
+        "save_number": 23,
+        "card": "#118 - Korean War Arms",
+        "summary": [
+          "VC is up"
+        ]
+      },
+      {
+        "save_number": 24,
+        "card": "#118 - Korean War Arms",
+        "summary": [
+          "NVA is up",
+          "VC performed Event"
+        ]
+      },
+      {
+        "save_number": 25,
+        "card": "#118 - Korean War Arms",
+        "summary": [
+          "VC performed Event",
+          "NVA performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 26,
+        "card": "#29 - Tribesmen",
+        "summary": [
+          "US is up"
+        ]
+      },
+      {
+        "save_number": 27,
+        "card": "#29 - Tribesmen",
+        "summary": [
+          "ARVN is up",
+          "US passed"
+        ]
+      },
+      {
+        "save_number": 28,
+        "card": "#29 - Tribesmen",
+        "summary": [
+          "US passed",
+          "ARVN passed"
+        ]
+      },
+      {
+        "save_number": 29,
+        "card": "#63 - Fact Finding",
+        "summary": [
+          "ARVN is up"
+        ]
+      },
+      {
+        "save_number": 30,
+        "card": "#63 - Fact Finding",
+        "summary": [
+          "US is up",
+          "ARVN performed Event"
+        ]
+      },
+      {
+        "save_number": 31,
+        "card": "#63 - Fact Finding",
+        "summary": [
+          "ARVN performed Event",
+          "US performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 32,
+        "card": "#17 - Claymores",
+        "summary": [
+          "VC is up"
+        ]
+      },
+      {
+        "save_number": 33,
+        "card": "#17 - Claymores",
+        "summary": [
+          "NVA is up",
+          "VC performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 34,
+        "card": "#17 - Claymores",
+        "summary": [
+          "VC performed Op\/Special Activity",
+          "NVA performed Limited Op"
+        ]
+      },
+      {
+        "save_number": 35,
+        "card": "#66 - Ambassador Taylor",
+        "summary": [
+          "ARVN is up"
+        ]
+      },
+      {
+        "save_number": 36,
+        "card": "#66 - Ambassador Taylor",
+        "summary": [
+          "US is up",
+          "ARVN performed Op Only"
+        ]
+      },
+      {
+        "save_number": 37,
+        "card": "#66 - Ambassador Taylor",
+        "summary": [
+          "ARVN performed Op Only",
+          "US passed"
+        ]
+      },
+      {
+        "save_number": 38,
+        "card": "#72 - Body Count",
+        "summary": [
+          "NVA is up"
+        ]
+      },
+      {
+        "save_number": 39,
+        "card": "#72 - Body Count",
+        "summary": [
+          "US is up",
+          "NVA performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 40,
+        "card": "#72 - Body Count",
+        "summary": [
+          "VC is up",
+          "NVA performed Op\/Special Activity",
+          "US passed"
+        ]
+      },
+      {
+        "save_number": 41,
+        "card": "#72 - Body Count",
+        "summary": [
+          "NVA performed Op\/Special Activity",
+          "US passed",
+          "VC performed Event"
+        ]
+      },
+      {
+        "save_number": 42,
+        "card": "#59 - Plei Mei",
+        "summary": [
+          "ARVN is up"
+        ]
+      },
+      {
+        "save_number": 43,
+        "card": "#59 - Plei Mei",
+        "summary": [
+          "US is up",
+          "ARVN performed Op\/Special Activity"
+        ]
+      },
+      {
+        "save_number": 44,
+        "card": "#59 - Plei Mei",
+        "summary": [
+          "ARVN performed Op\/Special Activity",
+          "US performed Limited Op"
+        ]
+      },
+      {
+        "save_number": 45,
+        "card": "#22 - Da Nang",
+        "summary": [
+          "VC is up"
+        ]
+      }
+    ],
+    "totalCoupCards": 6,
+    "onDeckCard": 24,
+    "gameOver": false,
+    "outOfPlay": [
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Troop",
+      "US Base",
+      "US Base",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Troop",
+      "ARVN Underground Ranger",
+      "ARVN Underground Ranger",
+      "ARVN Underground Ranger"
+    ],
+    "trail": 4,
+    "botTest": false,
+    "patronage": 27,
+    "momentum": [
+      "#15 Medevac (unshaded)"
+    ],
+    "rvnLeaders": [
+      "Nguyen Khanh",
+      "Duong Van Minh"
+    ],
+    "logTrung": true,
+    "prevCardWasCoup": false,
+    "usAid": 30,
+    "humanWinInVictoryPhase": true,
+    "sequence": {
+      "eligibleNextTurn": [
+
+      ],
+      "passed": [
+
+      ],
+      "actors": [
+
+      ],
+      "ineligibleNextTurn": [
+
+      ],
+      "eligibleThisTurn": [
+        "VC",
+        "NVA"
+      ]
+    },
+    "scenarioName": "Full: 1964-1972",
+    "needsCardDraw": false,
+    "ongoingEvents": [
+      "#15 Medevac (unshaded)",
+      "#101 Booby Traps"
+    ],
+    "nvaResources": 10,
+    "pivotCardsAvailable": [
+      "US",
+      "ARVN",
+      "VC",
+      "NVA"
+    ],
+    "arvnResources": 42,
+    "showColor": true,
+    "trungDeck": [
+      "L",
+      "T",
+      "S",
+      "W",
+      "G",
+      "Z",
+      "P",
+      "R",
+      "H",
+      "Q",
+      "M",
+      "K",
+      "V",
+      "U",
+      "J",
+      "N",
+      "Y",
+      "X"
+    ],
+    "spaces": [
+      {
+        "support": "Passive Support",
+        "name": "Pleiku-Darlac",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Highland Province",
+        "pieces": [
+          "US Troop",
+          "US Active Irregular",
+          "US Base",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Underground Ranger",
+          "ARVN Underground Ranger"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Passive Support",
+        "name": "Quang Tri-Thua Thien",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "Highland Province",
+        "pieces": [
+          "US Underground Irregular",
+          "US Underground Irregular",
+          "US Underground Irregular",
+          "US Active Irregular",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "VC Base"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Active Support",
+        "name": "Hue",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "City",
+        "pieces": [
+          "US Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Active Support",
+        "name": "Saigon",
+        "terror": 0,
+        "population": 6,
+        "spaceType": "City",
+        "pieces": [
+          "US Troop",
+          "US Troop",
+          "US Base",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police",
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "The Parrot's Beak",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Underground Guerrilla",
+          "NVA Base",
+          "NVA Base"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Active Opposition",
+        "name": "Quang Duc-Long Khanh",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Base",
+          "VC Base"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Active Opposition",
+        "name": "Kien Giang-An Xuyen",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "Lowland Province",
+        "pieces": [
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Active Opposition",
+        "name": "Kien Phong",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "Lowland Province",
+        "pieces": [
+          "NVA Troop",
+          "NVA Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Active Opposition",
+        "name": "Kien Hoa-Vinh Binh",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "Lowland Province",
+        "pieces": [
+          "US Troop",
+          "US Troop",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Active Opposition",
+        "name": "Quang Tin-Quang Ngai",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "Lowland Province",
+        "pieces": [
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Base",
+          "VC Base"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Active Opposition",
+        "name": "Tay Ninh",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Base",
+          "VC Tunneled Base"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Saigon -- An Loc -- Ban Me Thuot",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+          "NVA Underground Guerrilla"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "North Vietnam",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Highland Province",
+        "pieces": [
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Underground Guerrilla",
+          "NVA Base",
+          "NVA Base"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Passive Opposition",
+        "name": "Phu Bon-Phu Yen",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Lowland Province",
+        "pieces": [
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Active Support",
+        "name": "Kontum",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "City",
+        "pieces": [
+          "US Troop",
+          "ARVN Police"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Active Support",
+        "name": "Da Nang",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "City",
+        "pieces": [
+          "US Troop",
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "Qui Nhon",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "City",
+        "pieces": [
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "Binh Dinh",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "Highland Province",
+        "pieces": [
+          "ARVN Police",
+          "ARVN Police",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Base"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Kontum -- Dak To",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+          "NVA Active Guerrilla"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Passive Support",
+        "name": "An Loc",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "City",
+        "pieces": [
+          "ARVN Troop",
+          "ARVN Police",
+          "ARVN Police"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "Central Laos",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "NVA Underground Guerrilla",
+          "NVA Base"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "Southern Laos",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Troop",
+          "NVA Underground Guerrilla",
+          "NVA Base"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "Quang Nam",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Highland Province",
+        "pieces": [
+          "US Troop",
+          "ARVN Police",
+          "ARVN Underground Ranger"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Passive Support",
+        "name": "Can Tho",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "City",
+        "pieces": [
+          "ARVN Troop",
+          "ARVN Troop"
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Passive Support",
+        "name": "Cam Ranh",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "City",
+        "pieces": [
+          "ARVN Troop",
+          "ARVN Troop"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "Khanh Hoa",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Highland Province",
+        "pieces": [
+          "ARVN Police",
+          "VC Underground Guerrilla"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Passive Support",
+        "name": "Ba Xuyen",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Lowland Province",
+        "pieces": [
+          "ARVN Police"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Active Opposition",
+        "name": "Binh Tuy-Binh Thuan",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "Jungle Province",
+        "pieces": [
+          "VC Underground Guerrilla",
+          "VC Underground Guerrilla",
+          "VC Base"
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "Northeast Cambodia",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "The Fishhook",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "Sihanoukville",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "Phuoc Long",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "Jungle Province",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Hue -- Khe Sanh",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Hue -- Da Nang",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Da Nang -- Dak To",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Da Nang -- Qui Nhon",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Kontum -- Qui Nhon",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Kontum -- Ban Me Thuot",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Qui Nhon -- Cam Ranh",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Cam Ranh -- Da Lat",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Ban Me Thuot -- Da Lat",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Saigon -- Cam Ranh",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Saigon -- Da Lat",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Saigon -- Can Tho",
+        "terror": 0,
+        "population": 2,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Can Tho -- Chau Doc",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": false
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Can Tho -- Bac Lieu",
+        "terror": 0,
+        "population": 0,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": true
+      },
+      {
+        "support": "Neutral",
+        "name": "LOC Can Tho -- Long Phu",
+        "terror": 0,
+        "population": 1,
+        "spaceType": "LOC",
+        "pieces": [
+
+        ],
+        "coastal": true
+      }
+    ],
+    "botDebug": false
+  }
+}

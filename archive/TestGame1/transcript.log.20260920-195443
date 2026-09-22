@@ -1,0 +1,149 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+sbd)
+----------------------------------------------------
+
+Which game would you like to play:
+====================================================
+1) Start a new game
+2) Resume 'TestGame1', Full: 1964-1972  [#29 - Tribesmen] US performed Event
+3) Quit
+----------------------------------------------------
+Selection: 2
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 17
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #17 - Claymores (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded), 
+                NVA -> (Performed, Shaded)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (3): 10 [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: All routes from Can Tho to Hue blocked? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - KK
+Trung check: ARVN Assault would add COIN Control? [No]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 12[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Saigon[0m
+[35mPlace 2 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Quang Tri-Thua Thien (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 7[0m
+[34mIncrease Patronage by +2 to 26[0m
+[33mRemove Passive Support marker from Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 50 to 48[0m
+[34mMove the 'COIN Control + Patronage' marker from 46 to 48[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Cam Ranh (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 6[0m
+[34mIncrease Patronage by +1 to 27[0m
+[33mRemove Passive Support marker from Cam Ranh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 48 to 47[0m
+[34mMove the 'COIN Control + Patronage' marker from 48 to 49[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #17 - Claymores (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded), 
+                NVA -> (Performed, Shaded)
+Eligible      : NVA
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+NVA executes the Shaded Event: Ambassador Taylor
+----------------------------------------------------
+
+[33mRemove Active Support marker from Da Nang[0m
+[33mRemove Active Support marker from Kontum[0m
+[33mRemove Passive Support marker from Phu Bon-Phu Yen[0m
+[34mDecrease Patronage by -3 to 24[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 47 to 42[0m
+[34mMove the 'COIN Control + Patronage' marker from 49 to 46[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 

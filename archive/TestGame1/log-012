@@ -1,0 +1,34 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 48 to 50",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 33 to 31",
+      "color": "Blue"
+    },
+    {
+      "text": "\nAdjustment: Move pieces from Available to Quang Tri-Thua Thien",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Pieces: 3 ARVN Troops, 3 ARVN Police",
+      "color": null
+    }
+  ]
+}

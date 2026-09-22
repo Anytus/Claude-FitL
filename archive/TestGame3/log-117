@@ -1,0 +1,178 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #28 - Search and Destroy (US, VC, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #56 - Vo Nguyen Giap (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Advise special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 3 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Base from Hue to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nEach insurgent base removed adds +6 Aid",
+      "color": null
+    },
+    {
+      "text": "Increase US Aid by +6 to 42",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 34 to 33",
+      "color": "Blue"
+    },
+    {
+      "text": "\nAdvise in Binh Tuy-Binh Thuan using ARVN Underground Ranger",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 ARVN Underground Ranger in Binh Tuy-Binh Thuan to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 VC Active Guerrillas from Binh Tuy-Binh Thuan to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Increase US Aid by +6 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS selects Saigon for Training",
+      "color": null
+    },
+    {
+      "text": "Place 2 US Underground Irregulars from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nPacifying in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 2 levels in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -9 to 66",
+      "color": "Blue"
+    },
+    {
+      "text": "Remove 1 terror marker from Saigon",
+      "color": "Yellow"
+    },
+    {
+      "text": "Replace Passive Opposition marker in Saigon with Passive Support marker",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 46 to 52",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 33 to 27",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

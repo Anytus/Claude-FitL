@@ -1,0 +1,30 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 1  [Success] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "ARVN elects to play their Pivotal Event",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Replace the current event card with #123 - Vietnamization",
+      "color": "Red"
+    }
+  ]
+}

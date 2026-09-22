@@ -1,0 +1,393 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+sbd)
+----------------------------------------------------
+
+Which game would you like to play:
+====================================================
+1) Start a new game
+2) Resume 'TestGame1', Full: 1964-1972  [#129 - Coup! Failed Attempt] The game has ended with a VC Bot victory
+3) Resume 'TestGame2', Full: 1964-1972  [#118 - Korean War Arms] VC performed Event
+4) Quit
+----------------------------------------------------
+Selection: 3
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 63
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #29 - Tribesmen (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 51[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #29 - Tribesmen (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : ARVN
+Acted         : none
+Passed        : US
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 54[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, VC, and NVA cylinders to the Eligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 17
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #17 - Claymores (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded), 
+                NVA -> (Performed, Shaded)
+Eligible      : ARVN, US, NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+
+ARVN executes the Shaded Event: Fact Finding
+----------------------------------------------------
+
+[33mRemove Passive Support marker from Qui Nhon[0m
+[34mIncrease Patronage by +4 to 25[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 44 to 43[0m
+[34mMove the 'COIN Control + Patronage' marker from 40 to 44[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #17 - Claymores (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded), 
+                NVA -> (Performed, Shaded)
+Eligible      : US, NVA, VC
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Da Nang
+2) Hue
+3) Kontum
+4) Saigon
+5) Pleiku-Darlac
+6) Quang Nam
+7) Quang Tri-Thua Thien
+8) None of the above
+----------------------------------------------------
+Selection: 7
+
+US selects Quang Tri-Thua Thien for Training
+
+Training in Quang Tri-Thua Thien:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Hoa-Vinh Binh
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Da Nang
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Da Nang
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kontum
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Da Nang, Kontum
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Lift forces out of Kontum
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Kien Hoa-Vinh Binh
+2) Kontum
+3) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Da Nang to Kien Hoa-Vinh Binh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Da Nang to Kien Hoa-Vinh Binh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 46[0m
+
+Air Lifting forces from Da Nang to Kien Hoa-Vinh Binh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 2
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Da Nang, Kontum
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Lift forces out of Da Nang
+4) Lift forces out of Kontum
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+Lift forces to which space:
+====================================================
+1) Kien Hoa-Vinh Binh
+2) Da Nang
+3) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kontum to Kien Hoa-Vinh Binh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kontum
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Kontum to Kien Hoa-Vinh Binh[0m
+
+Air Lifting forces from Kontum to Kien Hoa-Vinh Binh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kontum
+----------------------------------------------------
+Selection: 2
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Da Nang, Kontum
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Lift forces out of Da Nang
+4) Lift forces out of Kontum
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 5
+
+1 space selected for Training
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Quang Tri-Thua Thien
+
+Pacifying in Quang Tri-Thua Thien
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Quang Tri-Thua Thien
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 48[0m
+[33mPlace Active Support marker in Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 43 to 47[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 

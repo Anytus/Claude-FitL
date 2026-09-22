@@ -1,0 +1,204 @@
+2026-09-21T17:57:06	Bash	python3 tools/ctl.py new-game TestGame4 2>&1 | tail -60	113	3544
+2026-09-21T17:57:17	Bash	python3 tools/ctl.py advance 2>&1 | tail -80	106	22441
+2026-09-21T17:57:24	Bash	head -120 transcript.log	94	4423
+2026-09-21T17:57:27	Bash	python3 tools/render.py 2>&1	74	6747
+2026-09-21T18:00:54	Bash	python3 tools/map.py "Quang Tri-Thua Thien" && echo "---" && python3 tools/map.p	223	1333
+2026-09-21T18:01:54	Bash	cat >> journal.md <<'EOF'  ## Turn 1 — card #17 Claymores — before save-003 **Si	4293	4887
+2026-09-21T18:02:00	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Event=>#Op" 2>&1 | tail -30	141	1466
+2026-09-21T18:02:05	Bash	python3 tools/ctl.py seq "Train=>#Train" 2>&1 | tail -30	114	1438
+2026-09-21T18:02:09	Bash	python3 tools/ctl.py seq "Select a space to Train=>#Select a space" 2>&1 | tail 	144	1191
+2026-09-21T18:02:13	Bash	python3 tools/ctl.py seq "Train in which space=>#Quang Tri" 2>&1 | tail -30	148	1139
+2026-09-21T18:02:18	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" 2>&1 | tail -20	150	756
+2026-09-21T18:02:31	Bash	python3 tools/ctl.py seq "Place how many Irregulars=>2" 2>&1 | tail -30	138	2130
+2026-09-21T18:02:55	Bash	python3 tools/ctl.py seq "Select a space to Train=>#Select a space" "Train in wh	176	1763
+2026-09-21T18:03:18	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" "Perform a Special	216	1897
+2026-09-21T18:03:22	Bash	python3 tools/ctl.py seq "Advise=>#Advise" 2>&1 | tail -30	107	1501
+2026-09-21T18:03:29	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger=>#Use Irregular" 2>&1 | tail -30	145	1097
+2026-09-21T18:03:33	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>#Pleiku" 2>&1 | t	154	2133
+2026-09-21T18:03:39	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger=>#Use Irregular" 2>&1 | tail -30	134	2240
+2026-09-21T18:03:47	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" 2>&1 | tail -30	105	1397
+2026-09-21T18:03:59	Bash	python3 tools/ctl.py seq "Finished selecting spaces=>#Finished selecting" 2>&1 |	154	1126
+2026-09-21T18:04:03	Bash	python3 tools/ctl.py seq "Choose final Train action=>#Pacify" 2>&1 | tail -30	126	1069
+2026-09-21T18:04:07	Bash	python3 tools/ctl.py seq "Pacify in which space=>#Saigon" 2>&1 | tail -30	122	1288
+2026-09-21T18:04:12	Bash	python3 tools/ctl.py seq "Shift 1 level to Active Support=>#Shift 1 level" 2>&1 	156	9519
+2026-09-21T18:04:28	Bash	python3 tools/report.py 2>&1 | tail -5	93	9934
+2026-09-21T18:04:32	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers ---/,$p' | grep -v '^--- Ad	145	2294
+2026-09-21T18:04:49	Bash	python3 - <<'PY' import re p='journal.md' s=open(p).read() s=s.replace("""**Exec	2536	2925
+2026-09-21T18:05:11	Bash	git status --short && echo "---IGNORE---" && cat .gitignore	120	178
+2026-09-21T18:05:19	Bash	git add -A && git commit -q -m "card #17: update tool usage log" && git push -q 	204	101
+2026-09-21T18:07:05	Bash	python3 tools/ctl.py advance 2>&1 | tail -100	106	19064
+2026-09-21T18:07:10	Bash	awk '/VC turn \(Bot\)/{f=1} f' transcript.log | sed -e 's/\x1b\[[0-9;]*m//g' | s	162	5579
+2026-09-21T18:07:25	Bash	python3 -c " import json c=json.load(open('cards.json')) d=c if isinstance(c,dic	289	1497
+2026-09-21T18:07:28	Bash	python3 -c " import json c=json.load(open('cards.json')) d=c if isinstance(c,dic	263	689
+2026-09-21T18:09:13	Bash	python3 tools/render.py 2>&1 | sed -n '1,45p'	91	4549
+2026-09-21T18:09:40	Bash	cat >> journal.md <<'EOF'  ## Turn 2 — card #116 Cadres — before save-011 **Situ	2923	3509
+2026-09-21T18:09:45	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Pass=>#Pass" 2>&1 | tail -30	134	4393
+2026-09-21T18:10:08	Bash	python3 tools/ctl.py advance 2>&1 | tail -25	112	2974
+2026-09-21T18:10:17	Bash	python3 -c " import json c=json.load(open('cards.json')) d=c if isinstance(c,dic	299	582
+2026-09-21T18:12:36	Bash	cat >> journal.md <<'EOF'  ## Turn 3 — card #26 LRRP — before save-013 **Situati	4040	4504
+2026-09-21T18:12:45	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Event=>#Op" "Train=>#Train" 	241	2552
+2026-09-21T18:12:50	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" "Place how many I	180	1547
+2026-09-21T18:12:56	Bash	python3 tools/ctl.py seq "Finished selecting spaces=>#Finished selecting" "Choos	201	1972
+2026-09-21T18:13:02	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	153	1522
+2026-09-21T18:13:08	Bash	python3 tools/ctl.py seq "perform a special activity=>n" 2>&1 | tail -25	149	5420
+2026-09-21T18:13:22	Bash	python3 tools/ctl.py advance 2>&1 | head -60	101	9566
+2026-09-21T18:13:29	Bash	python3 tools/ctl.py status 2>&1 | tail -20	104	649
+2026-09-21T18:13:48	Bash	python3 tools/report.py 2>&1 | tail -3 && python3 tools/render.py 2>&1 | sed -n 	200	15524
+2026-09-21T18:14:06	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() old = s.rsplit("**Execution.**\	2144	2757
+2026-09-21T18:14:11	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T18:14:36	Bash	git status --short	77	107
+2026-09-21T18:14:44	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T18:17:05	Bash	python3 tools/ctl.py advance 2>&1 | tail -70	105	26263
+2026-09-21T18:17:14	Bash	awk '/Current card  : #1 - Gulf of Tonkin/{f=1} f' transcript.log | sed -e 's/\x	201	3622
+2026-09-21T18:17:18	Bash	awk '/NVA selects Binh Dinh as March destination/{f=1} f' transcript.log | sed -	217	2948
+2026-09-21T18:17:27	Bash	python3 tools/render.py 2>&1 | sed -n '1,48p'	91	4807
+2026-09-21T18:17:32	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && echo "===112===" && p	390	945
+2026-09-21T18:20:39	Bash	python3 tools/map.py "Saigon" && echo "---" && python3 tools/map.py "Hue"	143	647
+2026-09-21T18:22:13	Bash	cat >> journal.md <<'EOF'  ## Turn 4 — card #79 Henry Cabot Lodge — before save-	4709	5381
+2026-09-21T18:22:21	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Op (May add a Special Activi	262	2772
+2026-09-21T18:22:26	Bash	python3 tools/ctl.py seq "Select an Air Lift space=>#Select an Air Lift" 2>&1 | 	150	741
+2026-09-21T18:22:36	Bash	python3 tools/ctl.py seq "Air Lift in which space=>Da Nang" "Select an Air Lift 	396	3137
+2026-09-21T18:22:41	Bash	python3 tools/ctl.py seq "Lift forces out of Da Nang=>#Lift forces out of Da Nan	153	1093
+2026-09-21T18:22:46	Bash	python3 tools/ctl.py seq "Lift forces to which space=>#Hue" 2>&1 | tail -20	125	1104
+2026-09-21T18:22:50	Bash	python3 tools/ctl.py seq "Air Lift US Troops=>#Air Lift US Troops" 2>&1 | tail -	134	765
+2026-09-21T18:22:54	Bash	python3 tools/ctl.py seq "Move how many US Troops=>2" 2>&1 | tail -20	125	1681
+2026-09-21T18:23:02	Bash	python3 tools/ctl.py seq "Lift forces out of Kontum=>#Lift forces out of Kontum"	283	2745
+2026-09-21T18:23:09	Bash	python3 tools/ctl.py seq "Finished with Air Lift=>#Finished with Air Lift" "Sele	239	2006
+2026-09-21T18:23:15	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" "Finished selectin	233	2203
+2026-09-21T18:23:20	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	147	6855
+2026-09-21T18:23:48	Bash	python3 tools/ctl.py advance 2>&1 | tail -75	100	23274
+2026-09-21T18:23:58	Bash	awk '/Current card  : #112 - Colonel Chau/{f=1} f' transcript.log | sed -e 's/\x	195	3680
+2026-09-21T18:24:09	Bash	python3 tools/report.py 2>&1 | tail -3 && python3 tools/render.py 2>&1 | sed -n 	183	3313
+2026-09-21T18:24:29	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() old = s.rsplit("**Execution.**\	2035	2817
+2026-09-21T18:24:36	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T18:25:03	Bash	git status --short && git add -A && git commit -q -m "update tool usage log" && 	196	114
+2026-09-21T18:27:49	Bash	python3 tools/render.py 2>&1 | sed -n '1,35p'	99	3878
+2026-09-21T18:29:26	Bash	python3 tools/map.py "Kien Hoa-Vinh Binh"	103	346
+2026-09-21T18:29:48	Bash	cat >> journal.md <<'EOF'  ## Turn 5 — card #66 Ambassador Taylor — before save-	4057	4680
+2026-09-21T18:29:54	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Limited Op=>#Limited Op" 2>&	147	1418
+2026-09-21T18:29:59	Bash	python3 tools/ctl.py seq "Sweep=>#Sweep" 2>&1 | tail -25	104	1379
+2026-09-21T18:30:03	Bash	python3 tools/ctl.py seq "Select a Sweep space=>#Select a Sweep space" 2>&1 | ta	145	739
+2026-09-21T18:30:08	Bash	python3 tools/ctl.py seq "Sweep in which space=>Kien Hoa-Vinh Binh" 2>&1 | tail 	154	1383
+2026-09-21T18:30:14	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>#Kien Hoa-Vinh Binh" 2>&1 | tail	145	1095
+2026-09-21T18:30:19	Bash	python3 tools/ctl.py seq "US Move troops to Kien Hoa-Vinh Binh from=>#Saigon" 2>	152	748
+2026-09-21T18:30:24	Bash	python3 tools/ctl.py seq "Move how many US Troops=>1" 2>&1 | tail -25	129	1898
+2026-09-21T18:30:33	Bash	python3 tools/ctl.py seq "US Move troops to Kien Hoa-Vinh Binh from=>#Finished m	219	5887
+2026-09-21T18:30:56	Bash	python3 tools/ctl.py advance 2>&1 | tail -70	105	24460
+2026-09-21T18:31:01	Bash	awk '/Current card  : #51 - 301st Supply Bn/{f=1} f' transcript.log | sed -e 's/	200	4414
+2026-09-21T18:31:06	Bash	awk '/NVA selects An Loc as March destination/{f=1} f' transcript.log | sed -e '	217	3892
+2026-09-21T18:31:11	Bash	python3 tools/render.py 2>&1 | sed -n '1,40p'	91	4586
+2026-09-21T18:31:17	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers ---/,$p' | grep -v '^--- Ad	459	2854
+2026-09-21T18:33:01	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() s = s.rsplit("**Execution.**\n*	4086	8531
+2026-09-21T18:33:09	Bash	python3 tools/ctl.py advance 2>&1 | tail -55	107	11537
+2026-09-21T18:33:22	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers ---/,$p' | grep -v '^--- Ad	158	1373
+2026-09-21T18:35:39	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() s = s.rsplit("**Execution.**\n*	4463	6236
+2026-09-21T18:35:44	Bash	python3 tools/ctl.py seq "Patrol=>#Patrol" 2>&1 | tail -20	107	1165
+2026-09-21T18:35:49	Bash	python3 tools/ctl.py seq "Move cubes=>#Move cubes" 2>&1 | tail -20	125	1115
+2026-09-21T18:35:54	Bash	python3 tools/ctl.py seq "Move cubes out of which space=>#Hue" 2>&1 | tail -20	135	1032
+2026-09-21T18:35:59	Bash	python3 tools/ctl.py seq "Move how many cubes out of Hue=>1" 2>&1 | tail -20	132	727
+2026-09-21T18:36:03	Bash	python3 tools/ctl.py seq "Select destination=>Kontum" 2>&1 | tail -20	125	1094
+2026-09-21T18:36:30	Bash	python3 tools/ctl.py seq "Move cubes=>#Move cubes" "Move cubes out of which spac	248	1950
+2026-09-21T18:36:54	Bash	python3 tools/ctl.py seq "Move cubes=>#Finished moving cubes" 2>&1 | tail -25	135	1289
+2026-09-21T18:37:05	Bash	python3 tools/ctl.py seq "Assault at one LOC=>#Assault at one LOC" 2>&1 | tail -	142	5148
+2026-09-21T18:37:30	Bash	python3 tools/ctl.py 2>&1 | head -30	96	2509
+2026-09-21T18:37:42	Bash	python3 tools/report.py 2>&1 | tail -3 && python3 tools/render.py 2>&1 | sed -n 	205	3114
+2026-09-21T18:38:01	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() s = s.rsplit("**Execution.**\n*	2566	3295
+2026-09-21T19:02:44	Bash	echo "x" >> usage.log && git diff --quiet -- ':(top)' ':(top,exclude)usage.log';	289	916
+2026-09-21T19:02:49	Bash	cp ~/.claude/stop-hook-git-check.sh ~/.claude/stop-hook-git-check.sh.bak && echo	161	106
+2026-09-21T19:02:51	Read	/root/.claude/stop-hook-git-check.sh	66	1576
+2026-09-21T19:03:53	Bash	git status --short; echo "---"; git log --oneline -1	116	143
+2026-09-21T19:05:10	Bash	git status --short && echo "---" && git log --oneline -1 && echo "---" && git di	162	203
+2026-09-21T19:13:53	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	176	100
+2026-09-21T19:14:51	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T19:20:14	Bash	python3 tools/ctl.py advance 2>&1 | tail -60	108	125
+2026-09-21T19:20:51	Bash	python3 tools/ctl.py status && ls games/TestGame4 | tail -3	121	221
+2026-09-21T19:21:05	Bash	python3 tools/ctl.py resume TestGame4 2>&1 | tail -25	103	990
+2026-09-21T19:21:42	Bash	cat >> notes.md <<'EOF' RESUMED after container loss: ctl.py resume TestGame4 fr	283	7148
+2026-09-21T19:22:21	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — #126 Young Turks — Support phase **Situat	1587	3267
+2026-09-21T19:22:28	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" "Ch	252	2767
+2026-09-21T19:22:42	Bash	python3 tools/ctl.py advance 2>&1 | tail -60	105	6918
+2026-09-21T19:23:22	Bash	python3 tools/render.py 2>&1 | sed -n '1,40p'	109	4516
+2026-09-21T19:26:03	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — #126 Young Turks — Commitment phase **Sit	2839	3926
+2026-09-21T19:26:13	Bash	python3 tools/ctl.py seq "Move how many Troops to Kien Hoa-Vinh Binh=>2" "Choose	316	4262
+2026-09-21T19:26:18	Bash	python3 tools/ctl.py seq "Move a base=>#Move a base" 2>&1 | tail -20	118	1028
+2026-09-21T19:26:24	Bash	python3 tools/ctl.py seq "Move Base from which space=>#Available" 2>&1 | tail -2	143	1288
+2026-09-21T19:26:30	Bash	python3 tools/ctl.py seq "Move the Base to which space=>#Kien Hoa" "Choose one=>	199	2035
+2026-09-21T19:26:39	Bash	sed -i 's/far more than the点 it/far more than the point it/' journal.md && pytho	192	11344
+2026-09-21T19:27:01	Bash	awk '/Reset Phase|RESET/{f=1} f' transcript.log | sed -e 's/\x1b\[[0-9;]*m//g' |	197	2984
+2026-09-21T19:27:17	Bash	python3 tools/render.py 2>&1 | sed -n '1,33p' && python3 -c " import json c=json	357	4015
+2026-09-21T19:29:09	Bash	cat >> journal.md <<'EOF'  ## Turn 8 — card #105 Rural Pressure — before save-04	3590	6333
+2026-09-21T19:29:36	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" "Place how many I	177	1593
+2026-09-21T19:29:44	Bash	python3 tools/ctl.py seq "Perform a Special Activity=>#Perform a Special" "Advis	210	2190
+2026-09-21T19:29:49	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>#Binh Dinh" 2>&1 	145	2422
+2026-09-21T19:29:57	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger=>#Use Irregular" 2>&1 | tail -22	134	2197
+2026-09-21T19:30:12	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" "US Training=>#Finished selecting" "Cho	198	2343
+2026-09-21T19:30:17	Bash	python3 tools/ctl.py seq "Shift 1 level to Active Support=>#Shift 1 level" 2>&1 	159	8887
+2026-09-21T19:30:49	Bash	cat >> notes.md <<'EOF' Coup 1 (#126 Young Turks): no winner (US 50=+0). Pacifie	674	23641
+2026-09-21T19:30:59	Bash	awk '/Current card  : #109 - Nguyen Huu Tho/{f=1} f' transcript.log | sed -e 's/	201	2729
+2026-09-21T19:31:13	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && echo "===" && python3	487	1491
+2026-09-21T19:32:37	Bash	cat >> journal.md <<'EOF'  ## Turn 9 — card #86 Mandate of Heaven — before save-	3259	6358
+2026-09-21T19:32:56	Bash	python3 tools/ctl.py seq "Select an Air Lift space=>#Select an Air Lift" "Air Li	376	2555
+2026-09-21T19:33:10	Bash	python3 tools/ctl.py seq "Lift forces out of Kontum=>#Lift forces out of Kontum"	271	2787
+2026-09-21T19:33:17	Bash	python3 tools/ctl.py seq "Lift forces out of Kien Hoa-Vinh Binh=>#Lift forces ou	298	2633
+2026-09-21T19:33:30	Bash	python3 tools/ctl.py seq "Air Lift US Underground Irregulars=>#Air Lift US Under	190	2115
+2026-09-21T19:33:42	Bash	python3 tools/ctl.py seq "Finished moving forces out of Kien Hoa-Vinh Binh=>#Fin	325	2343
+2026-09-21T19:33:51	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" "Finished selectin	267	2016
+2026-09-21T19:33:56	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	151	8352
+2026-09-21T19:34:12	Bash	cat >> notes.md <<'EOF' card #86 Mandate of Heaven: Train Da Nang (pacify 2 leve	408	16324
+2026-09-21T19:34:34	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && python3 -c " import j	448	2346
+2026-09-21T19:35:19	Bash	python3 -c " import json c=json.load(open('cards.json')) d=c if isinstance(c,dic	253	2032
+2026-09-21T19:37:17	Bash	cat >> journal.md <<'EOF'  ## Turn 10 — card #38 McNamara Line — before save-050	3367	6903
+2026-09-21T19:37:26	Bash	python3 tools/ctl.py seq "Lift forces out of Kien Hoa-Vinh Binh=>#Lift forces ou	290	2195
+2026-09-21T19:37:42	Bash	python3 tools/ctl.py seq "Finished moving forces out of Kien Hoa-Vinh Binh=>#Fin	318	2314
+2026-09-21T19:37:50	Bash	python3 tools/ctl.py seq "Place Irregulars=>#Place Irregulars" "Place how many I	308	2168
+2026-09-21T19:38:00	Bash	python3 tools/ctl.py seq "Shift 2 levels to Active Support=>#Shift 2 levels" 2>&	153	6127
+2026-09-21T19:38:32	Bash	git add -A && git commit -q -m "card #38: pacify Quang Nam, Air Lift Irregular i	205	21362
+2026-09-21T19:38:50	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && python3 tools/render.	492	1459
+2026-09-21T19:39:26	Bash	python3 tools/map.py "Quang Tin-Quang Ngai" && python3 tools/render.py 2>&1 | gr	198	780
+2026-09-21T19:40:19	Bash	cat >> journal.md <<'EOF'  ## Turn 11 — card #24 Operation Starlite — before sav	2707	4514
+2026-09-21T19:40:47	Bash	python3 tools/ctl.py seq "Execute which part=>#Unshaded" 2>&1 | tail -20	123	1328
+2026-09-21T19:41:08	Bash	python3 tools/ctl.py seq "Execute event in which space=>#Quang Tin" 2>&1 | tail 	145	5102
+2026-09-21T19:41:38	Bash	cat >> notes.md <<'EOF' card #38 McNamara Line: Train Quang Nam (pacify 2 levels	534	27698
+2026-09-21T19:42:26	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && python3 tools/render.	490	1425
+2026-09-21T19:43:20	Bash	python3 tools/render.py 2>&1 | sed -n '2,10p;20,26p'	100	1917
+2026-09-21T19:44:43	Bash	cat >> journal.md <<'EOF'  ## Turn 12 — card #14 M-48 Patton — before save-057 *	3187	5725
+2026-09-21T19:44:49	Bash	python3 tools/ctl.py seq "Move how many cubes out of Kien Hoa-Vinh Binh=>2" "Sel	181	1542
+2026-09-21T19:44:56	Bash	python3 tools/ctl.py seq "Select destination=>#Saigon" 2>&1 | tail -16	128	539
+2026-09-21T19:45:00	Bash	python3 tools/ctl.py screen 2>&1 | tail -15	97	479
+2026-09-21T19:45:10	Bash	python3 tools/ctl.py send 6 2>&1 | tail -16	106	1107
+2026-09-21T19:45:16	Bash	python3 tools/ctl.py seq "Finished moving cubes=>#Finished moving cubes" 2>&1 | 	143	1321
+2026-09-21T19:45:37	Bash	python3 tools/ctl.py seq "Perform a Special Activity=>#Perform a Special" "Advis	197	2205
+2026-09-21T19:45:42	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>#Quang Nam" 2>&1 	153	2430
+2026-09-21T19:45:47	Bash	python3 tools/ctl.py seq "Assault a space with ARVN forces=>#Assault a space" 2>	151	1143
+2026-09-21T19:45:52	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>#Saigon" 2>&1 | tail -22	137	1383
+2026-09-21T19:46:14	Bash	python3 tools/ctl.py seq "How many NVA Active Guerrillas=>0" 2>&1 | tail -20	141	1214
+2026-09-21T19:46:21	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" "Choose one=>#Do not Assault" 2>&1 | ta	147	6691
+2026-09-21T19:46:47	Bash	cat >> notes.md <<'EOF' card #14 M-48 Patton: Patrol 2 Troops Kien Hoa->Saigon +	418	14919
+2026-09-21T19:47:04	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Scores/,$p' && python3 tools/render.	461	1248
+2026-09-21T19:48:20	Bash	cat >> journal.md <<'EOF'  ## Turn 13 — card #67 Amphib Landing [MONSOON] — befo	3119	5375
+2026-09-21T19:48:26	Bash	python3 tools/ctl.py seq "Select a space to Train=>#Select a space" "Train in wh	166	1531
+2026-09-21T19:48:31	Bash	python3 tools/ctl.py seq "Do not place forces=>#Do not place" 2>&1 | tail -16	154	1292
+2026-09-21T19:48:37	Bash	python3 tools/ctl.py seq "Choose final Train action=>#Transfer patronage" 2>&1 |	155	841
+2026-09-21T19:48:51	Bash	python3 tools/ctl.py seq "Transfer how much patronage=>3" 2>&1 | tail -20	129	5131
+2026-09-21T19:49:08	Bash	python3 - <<'PY' p='journal.md' s=open(p).read() s += """ **Execution (turns 12-	2409	7051
+2026-09-21T19:49:30	Bash	git add -A && git commit -q -m "card #67: Patronage transfer executed (capped at	189	101
+2026-09-21T19:50:38	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T19:51:40	Bash	python3 tools/ctl.py advance 2>&1 | tail -60	97	3474
+2026-09-21T19:51:49	Bash	python3 tools/report.py 2>&1 | tail -3 && python3 tools/render.py 2>&1 | sed -n 	160	3995
+2026-09-21T19:51:59	Bash	cat >> journal.md <<'EOF'  ## Coup 2 — #125 Nguyen Khanh — Victory phase `Game o	993	1956
+2026-09-21T19:52:25	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T22:57:04	Bash	ls -la /root/.claude/projects/-home-user-Claude-FitL/ 2>&1 | head -20; echo "---	220	465
+2026-09-21T22:57:17	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json,col	800	667
+2026-09-21T22:57:40	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json f='	1339	376
+2026-09-21T22:58:04	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json f='	2050	506
+2026-09-21T22:58:41	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T23:01:13	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json f='	1161	432
+2026-09-21T23:01:33	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T23:03:33	Skill		81	104
+2026-09-21T23:03:45	Bash	cd /tmp/claude-0/bundled-skills/2.1.278/888186c0051257848b80b66480572b01/claude-	336	4499
+2026-09-21T23:04:05	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json f='	1306	590
+2026-09-21T23:04:25	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-21T23:07:25	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json,re,	1951	929
+2026-09-21T23:08:24	Bash	git add -A && git commit -q -m "update tool usage log" && git push -q && git sta	166	100
+2026-09-22T15:29:33	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json f='	646	220
+2026-09-22T15:29:49	Bash	cd /root/.claude/projects/-home-user-Claude-FitL && python3 -c " import json,sta	1647	841

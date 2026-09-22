@@ -1,0 +1,6 @@
+- report-001-004.md: #48 - Nam Dong; #17 - Claymores
+- report-005-016.md: #17 - Claymores; #118 - Korean War Arms; #116 - Cadres; #26 - LRRP; #1 - Gulf of Tonkin
+- report-017-027.md: #1 - Gulf of Tonkin; #79 - Henry Cabot Lodge; #112 - Colonel Chau; #66 - Ambassador Taylor
+- report-028-037.md: #66 - Ambassador Taylor; #51 - 301st Supply Bn; #75 - Sihanouk; #43 - Economic Aid
+- report-038-078.md: #126 - Coup! Young Turks; #105 - Rural Pressure; #109 - Nguyen Huu Tho; #86 - Mandate of Heaven; #87 - Nguyen Chanh Thi; #38 - McNamara Line; #64 - Honolulu Conference; #24 - Operation Starlite; #106 - Binh Duong; #108 - Draft Dodgers; #14 - M-48 Patton; #34 - SA-2s; #67 - Amphib Landing
+- report-079-079.md: #125 - Coup! Nguyen Khanh

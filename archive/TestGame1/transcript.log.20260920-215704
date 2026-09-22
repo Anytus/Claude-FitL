@@ -1,0 +1,160 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+sbd)
+----------------------------------------------------
+
+Which game would you like to play:
+====================================================
+1) Start a new game
+2) Resume 'TestGame1', Full: 1964-1972  [#70 - ROKs] US performed Event
+3) Quit
+----------------------------------------------------
+Selection: 2
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 7
+
+VC Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)
+
+ARVN Bot Pivotal Event die roll: 5  [Failure] (2 cards in leader box)
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #99 - Masher/White Wing (VC, US, ARVN, NVA)
+                VC -> (Ignored), ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #7 - ADSID (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Y
+Trung check: 3d6 <= Available VC pieces (10): 12 [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [Yes]
+Trung check: 3d6 <= Available VC pieces (10): 14 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - WW
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Hue for Terror
+[36mFlip 1 VC Underground Guerrilla in Hue to ACTIVE[0m
+[33mPlace Passive Opposition marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 40 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Kien Giang-An Xuyen for Terror
+[36mFlip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE[0m
+[33mAdd 1 terror marker to Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Binh Dinh
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Binh Dinh to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Subverts in Quang Tri-Thua Thien
+----------------------------------------------------
+[35mRemove 2 ARVN Troops from Quang Tri-Thua Thien to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -1 to 21[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 37[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #99 - Masher/White Wing (VC, US, ARVN, NVA)
+                VC -> (Ignored), ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #7 - ADSID (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Masher/White Wing
+----------------------------------------------------
+
+ARVN selects Hue as Sweep destination
+----------------------------------------------------
+[35mMove 2 ARVN Troops from Quang Tri-Thua Thien to Hue[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 39[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN assaults in Hue
+----------------------------------------------------
+The assault inflicts 3 hits
+
+[35mRemove 2 VC Active Guerrillas from Hue to AVAILABLE[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 

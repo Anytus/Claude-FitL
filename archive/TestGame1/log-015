@@ -1,0 +1,30 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+sbd",
+  "log": [
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 48 to 50",
+      "color": "Blue"
+    },
+    {
+      "text": "\nAdjustment: Move pieces from Available to Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Pieces: 2 ARVN Troops",
+      "color": null
+    }
+  ]
+}

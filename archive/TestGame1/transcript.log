@@ -1,0 +1,290 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+sbd)
+----------------------------------------------------
+
+Which game would you like to play:
+====================================================
+1) Start a new game
+2) Resume 'TestGame1', Full: 1964-1972  [#123 - Vietnamization] ARVN performed Event
+3) Quit
+----------------------------------------------------
+Selection: 2
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 129
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #129 - Coup! Failed Attempt
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+Pacification costs 4 resources per terror/level [Leader: Nguyen Cao Ky]
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Kontum
+2) Saigon
+3) Pleiku-Darlac
+4) Quang Tri-Thua Thien
+5) None of the above
+----------------------------------------------------
+Selection: 4
+
+US selects Quang Tri-Thua Thien for Training
+
+Training in Quang Tri-Thua Thien:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+1 space selected for Training
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space:  Pleiku-Darlac
+
+Advise in Pleiku-Darlac using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  3 NVA Troops, 1 VC Active Guerrilla
+
+How many NVA Troops (1 - 2): 2
+[35mRemove 2 NVA Troops from Pleiku-Darlac to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 13[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Pleiku-Darlac
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Assault in which space: 
+====================================================
+1) Ba Xuyen
+2) Tay Ninh
+3) LOC Saigon -- An Loc -- Ban Me Thuot
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+ARVN assaults in Tay Ninh
+----------------------------------------------------
+The assault inflicts 0 hits
+
+No insurgent pieces were removed in the assault
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Pleiku-Darlac, Tay Ninh
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 36[0m
+
+1 space selected for Training
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Quang Tri-Thua Thien
+
+Pacifying in Quang Tri-Thua Thien
+----------------------------------------------------
+The cost to pacify is 4 per level/terror marker [Leader: Nguyen Cao Ky]
+
+Pacify:
+====================================================
+1) Shift 2 levels to Neutral
+2) Shift 1 level to Passive Opposition
+3) Do not pacify in Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Quang Tri-Thua Thien
+----------------------------------------------------
+[34mDecrease ARVN resources by -8 to 18[0m
+[33mRemove Active Opposition marker from Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 41 to 37[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #129 - Coup! Failed Attempt
+Eligible      : VC
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+VC executes the Shaded Event: Operation Attleboro
+----------------------------------------------------
+
+Rolling d6 to determine number of US Troops to remove: 3
+[35mRemove 2 US Troops from Saigon to CASUALTIES[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 24
+
+
+>>> 3rd Coup Round <<<
+====================================================
+Current card: #129 - Coup! Failed Attempt
+(coup or ?): coup
+Coup! Card: #129 - Coup! Failed Attempt
+----------------------------------------------------
+ARVN must remove 1 in 3 of its Cubes per space
+
+[35mRemove 1 ARVN Troop from Saigon to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Tay Ninh to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Hue to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Can Tho to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Cam Ranh to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from An Loc to AVAILABLE[0m
+[31m
+Place #129 - Coup! Failed Attempt beneath the other cards in the RVN Leader Box[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+
+[33m====================================================[0m
+Game over in the 3rd Coup! round
+[33mVC wins with a victory margin of 2![0m
+
+Do you want to continue playing this game? (y/n)n
+
+
+>>> The game has ended <<<
+====================================================
+(quit or ?): quit
+Really quit (y/n)? y
