@@ -1,0 +1,86 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #79 - Henry Cabot Lodge (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op Only",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Saigon for Training",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -3 to 10",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 38 to 35",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +3 to 13",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

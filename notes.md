@@ -18,3 +18,6 @@ card #107 Burning Bonze: US eligible but squeezed out (VC and NVA acted) — VC 
 coup round 1 complete: +6 pacification, ARVN pacified Hue, 2 Troops to Kien Hoa — US 54
 Session note: container reclaimed mid-card #75; resumed from the latest save (save-018, #75 Sihanouk, US up) with nothing lost.
 card #75 Sihanouk: LimOp Train, Saigon back to Active Support — +6 for 4 Resources, best rate on the board
+card #29 Tribesmen: Event unshaded, removed 2 VC Bases + NVA Base + NVA Troop — VC -2, NVA -1, engine kept.
+card #97 Brinks Hotel: US ineligible — VC seven-space Rally and 2 Taxes (Agitate 5); NVA unshaded flipped the leader card.
+card #66 Ambassador Taylor: LimOp Train Saigon, patronage transfer — ended card, denied VC and NVA an action

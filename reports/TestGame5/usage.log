@@ -46,3 +46,17 @@
 2026-09-22T17:07:51	Bash	cat >> journal.md <<'EOF'  ## Turn 5 — card #75 Sihanouk — before save-019 **Sit	2919	3143
 2026-09-22T17:07:58	Bash	python3 tools/ctl.py resume TestGame5 2>&1 | tail -25	119	1173
 2026-09-22T17:08:10	Bash	printf 'Session note: container reclaimed mid-card #75; resumed from the latest 	561	9211
+2026-09-22T17:08:20	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	1114	6325
+2026-09-22T17:08:31	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -55	117	21526
+2026-09-22T17:09:27	Bash	cat >> journal.md <<'EOF'  ## Turn 6 — card #29 Tribesmen — before save-021 **Si	2802	5377
+2026-09-22T17:09:31	Bash	python3 tools/ctl.py seq "Remove pieces from which space=>Binh Dinh" 2>&1 | tail	148	815
+2026-09-22T17:09:42	Bash	python3 tools/ctl.py send 1 2>&1 | tail -20	108	868
+2026-09-22T17:09:47	Bash	python3 tools/ctl.py send 1 2>&1 | tail -20	106	1109
+2026-09-22T17:09:53	Bash	python3 tools/ctl.py seq "Remove pieces from which space=>Quang Tri-Thua Thien" 	206	1545
+2026-09-22T17:10:09	Bash	python3 tools/ctl.py seq "Remove pieces from which space=>Pleiku-Darlac" "how ma	179	1134
+2026-09-22T17:10:18	Bash	python3 tools/ctl.py send 1 2>&1 | tail -12	96	652
+2026-09-22T17:10:22	Bash	python3 tools/ctl.py send 1 2>&1 | tail -25	97	5850
+2026-09-22T17:10:53	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	2058	39077
+2026-09-22T17:11:02	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers/,/--- Casualties/p' && echo	311	3305
+2026-09-22T17:11:47	Bash	python3 tools/render.py 2>&1 | sed -n '1,35p'	90	3949
+2026-09-22T17:12:50	Bash	cat >> journal.md <<'EOF'  ## Turn 7 — card #66 Ambassador Taylor — before save-	3791	10783

@@ -301,3 +301,128 @@ went straight to the level menu, and the `*` guard absorbed it.
 **Result.** As planned: `US Pacifies 1 level in Saigon`, `Decrease ARVN
 resources by -4 to 18`, `Flip Passive Support marker in Saigon to Active
 Support`, `Move the 'Support + Avail US' marker from 48 to 54`.
+
+## Turn 6 — card #29 Tribesmen — before save-021
+**Situation.** US 54 (+4), and I am **first eligible** on a card where the VC
+is marked **Critical/Shaded**. Shaded Tribesmen reads "Replace all Irregulars
+with VC Guerrillas. 1 Neutral Highland to Active Opposition. -3 Patronage" —
+that is all **five** of my Irregulars (3 in Binh Dinh, 1 in Pleiku-Darlac, 1
+in Quang Tri-Thua Thien) converted into five VC Guerrillas, the Advise engine
+destroyed, and a Highland flipped. Unshaded reads "Remove any 4 Insurgent
+pieces total from spaces with Irregulars", and those three spaces between them
+hold 3 VC Bases, 6 VC Guerrillas and 5 NVA Troops.
+
+**Options considered.**
+- *Op + Special Activity.* An Advise would remove 4 pieces too, and I would
+  also get an operation. But it leaves `Event` on the second-eligible menu for
+  a VC that is Critical for it. Unthinkable on this card.
+- *Op Only.* Closes the Event to everyone behind me, which is the safe denial.
+  But the Op itself would be nearly worthless: ARVN has 18 Resources against
+  Econ 15, so a single 4-Resource level would leave 14 and be refused — there
+  is **no pacification available anywhere on the board** right now. An Op Only
+  buys denial and almost nothing else.
+- *Event, unshaded.* Denies the VC the same way (the Event is spent), and the
+  unshaded text is itself worth more than any operation I could run: 4
+  insurgent pieces removed for free.
+
+**Plan.** **Event, Unshaded.** Remove 4 pieces, in this priority:
+1. the **VC Base in Binh Dinh**, 2. the **VC Base in Pleiku-Darlac**,
+3. the **VC Base in Quang Tri-Thua Thien**, 4. one more piece — first choice a
+VC Guerrilla, second choice an NVA Troop in Pleiku-Darlac.
+Expected: VC Bases on map 7 -> 4, VC 31 -> 28. No change to my own Support, so
+US stays 54.
+
+**Rationale.** VC Bases are the only VC pieces that score, so three of them is
+-3 on the faction sitting closest to its threshold, and Bases are also what VC
+Rally places Guerrillas into, so removing them slows the engine as well as the
+score. TestGame3 opened its winning game with exactly this card and called it
+the tool the rest of the game ran on. The alternative use of the 4 removals —
+stripping Pleiku-Darlac down to restore COIN Control there — is worth +1 to
+ARVN and nothing to me, so it loses to three Bases. If the program refuses to
+let me take Bases while Guerrillas still stand in the space (the Assault and
+Advise rule is "Bases last"), I will take Guerrillas in the same spaces
+instead and record the refusal verbatim.
+
+**Execution.** Five calls, no rejections, no aborts. The event's chain is
+worth recording for `PROMPTS.md`: `Execute which part of the event:` [menu]
+`Unshaded`/`Shaded`; then, repeating until the count is filled, `Remove pieces
+from which space:` [menu of the qualifying spaces] -> `Remove how many pieces
+from <space> (0 - n):` [typed] -> `Select n piece(s) among the following:`
+followed by one `How many <type> (0 - n):` prompt per piece type present,
+**Bases offered first**. So the "Bases last" rule of Assault and Advise does
+**not** apply to an event removal: I took a defended VC Base with two
+Guerrillas still standing beside it, twice.
+
+One surprise mid-action. Pleiku-Darlac's piece list read `5 NVA Troops, 1 NVA
+Base, 2 VC Underground Guerrillas` — the VC Base I had planned to take there
+was gone, replaced by an **NVA** Base (the NVA's Infiltrate converts a VC Base
+in a shared space, which RULES_LEARNED records). I took the NVA Base and one
+NVA Troop instead of a VC Base and a Troop: the Base is an NVA scoring piece,
+the NVA has none left in Available to replace it, and dropping the Troops from
+5 to 4 also puts the space back under the NVA bot's `6+ NVA Troops in a space
+with COIN Troops or COIN Base` Attack trigger, which matters because my only
+Province Base is standing there.
+
+**Result.** Better than planned. `Move the 'Total Opposition + VC Bases'
+marker from 31 to 29` and `Move the 'NVA Control + NVA Bases' marker from 13
+to 12`: two VC Bases (Binh Dinh, Quang Tri-Thua Thien), one NVA Base and one
+NVA Troop, for -2 VC and -1 NVA. And the denial cost nothing at all — the VC
+turned out to be **Ineligible** on this card already, having spent itself on
+#107, so its Critical shaded marking could never have fired. US unchanged at
+54.
+
+## Turn 7 — card #66 Ambassador Taylor — before save-031
+**Situation.** Two cards passed without me. On #97 Brinks Hotel the VC ran a
+seven-space Rally that emptied its Guerrilla box onto the map (14 on the
+board), then **Taxed twice**, which shifted two spaces toward Support — VC 29
+-> 25 — and banked the proceeds: the **Agitate Total is now 5**. The NVA took
+Brinks Hotel unshaded, which cost ARVN 4 Patronage and **flipped the Nguyen
+Cao Ky leader card so its text is ignored**, so pacification is back to 3 per
+level. Hue has slipped to Neutral and Quang Tin to Passive Opposition. US 52
+(+2). ARVN opened this card with an **Op Only**, so Ambassador Taylor's
+unshaded side — Aid +9, ARVN Resources +9, two US pieces out of Out of Play —
+is closed to me, and my menu is `Limited Op` or `Pass`.
+
+The number that governs everything: **ARVN Resources 10 against Econ 15**. The
+gate is shut. To afford even one 3-Resource level I need Resources above 18,
+so there is no pacification available to me anywhere on the board, and none in
+prospect before the Coup. My score is effectively frozen at 52 until the Coup
+2 Victory check, and the whole question is how much of it the bots take back.
+
+**Options considered.**
+- *Pass.* +3 ARVN Resources (to 13, still far short) and keeps me Eligible.
+  But ARVN has already acted, so a pass hands the **VC** the second-eligible
+  slot and a free operation with 14 Guerrillas on the map. That is exactly the
+  pass TestGame2 called "denial that rests on a bot's choice".
+- *Limited Op.* Two factions will have acted and the card ends: the VC and the
+  NVA both get nothing. With my score frozen and the bots' pieces multiplying,
+  **an action the enemy does not get is worth more than anything my own Op can
+  build this card.**
+- Within Limited Ops: an Assault in Pleiku-Darlac (1 US Troop beside a US Base
+  in Highland, so about 2 hits on 3 NVA Troops) or in Quang Tri-Thua Thien
+  (2 Active VC Guerrillas) removes pieces that **do not score** and breaks no
+  Control, since the NVA currently controls nothing. A Sweep would Activate the
+  Underground VC Guerrillas sitting in Binh Dinh and Pleiku-Darlac, which
+  switches off the VC bot's Terror branch there, but the Highland activation
+  ratio is untested and I would be betting a whole action on it.
+
+**Plan.** **Limited Op — Train in Saigon**, `Do not place forces`, final Train
+action **Transfer patronage to ARVN resources, 3**. Expected: Patronage 13 ->
+10, ARVN Resources 10 -> 13, ARVN 38 -> 35, US unchanged at 52, and the card
+ends with neither the VC nor the NVA acting.
+
+**Rationale.** The action's real product is the denial; the transfer is simply
+the only side effect on the menu that moves a number in my favour at zero
+risk. It is worth noting honestly that -3 on an ARVN sitting at 38 against a
+threshold of 50 is close to worthless, and that the +3 of Resources does not
+reach the pacification gate either. I am taking it because every alternative
+Limited Op removes pieces that do not score, and because ending the card is
+the point. The strategic position to record: with Support frozen and the VC's
+Agitate Total at 5 — which is spent *after* the next Victory check — my best
+line is to hold 52 to the Coup 2 check rather than to build for Coup 3.
+
+**Execution.** One `seq`, all 8 steps, no stop and no rejection.
+
+**Result.** As planned: `Decrease Patronage by -3 to 10`, `Move the 'COIN
+Control + Patronage' marker from 38 to 35`, `Increase ARVN resources by +3 to
+13`. The card ended on my action, so the VC and NVA both got nothing.

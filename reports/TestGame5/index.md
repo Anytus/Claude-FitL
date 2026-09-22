@@ -7,3 +7,7 @@
 - report-014-016.md: #107 - Burning Bonze
 - report-017-018.md: #75 - Sihanouk
 - report-019-019.md: #75 - Sihanouk
+- report-020-022.md: #116 - Cadres
+- report-023-025.md: #29 - Tribesmen
+- report-026-028.md: #97 - Brinks Hotel
+- report-029-031.md: #66 - Ambassador Taylor
