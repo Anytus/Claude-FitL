@@ -70,3 +70,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** NVA sits at 17 of 18 with a Coup possible any card; −2 Bases puts it at 15 and NVA has no Bases in Available. Pleiku Troops instead would give only −1 (lost Control).
 **Execution.** Stops at the space and per-type counts (answered Troops 1, Guerrillas 0; Bases took the remaining 2). No rejections. Mechanic: the event offers NVA Bases in a space adjacent to the COIN Base.
 **Result.** As planned: NVA 17 → 15.
+
+## Turn 10 — card #95 Westmoreland — before save-052
+**Plan.** Op + SA: Train An Loc (no placement), Pacify An Loc Neutral→Active; Advise: ARVN Assault in Saigon (3 Active VC) and Irregular removal in Quang Tri (2 VC Guerrillas); +6 Aid.
+**Why.** VC is at 34 (wins at 36) and US at 48 with a Coup possible any card. +2 US now; clearing Saigon denies VC the pop-6 Terror/Agitate target after the Reset; thinning Quang Tri (Passive Opp, pop 2) cuts a +2 VC Terror. Qui Nhon pacify rejected as more exposed (Phu Bon, Binh Dinh next door).
+**Execution.** Deviation: second Advise went to Quang Nam (Ranger: 1 NVA Troop + its only Underground VC Guerrilla), not Quang Tri, because Quang Tri would keep 1 Underground VC and could still be Terrorized; Quang Nam removal kills a +1 VC Terror outright. No rejections.
+**Result.** An Loc Active (US 50), 3 VC out of Saigon (4 hits), Quang Nam VC gone, Aid 38.

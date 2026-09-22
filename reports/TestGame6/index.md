@@ -25,3 +25,7 @@
 - report-047-047.md: #59 - Plei Mei
 - report-048-050.md: #81 - CIDG
 - report-051-052.md: #95 - Westmoreland
+- report-053-053.md: #95 - Westmoreland
+- report-054-056.md: #39 - Oriskany
+- report-057-059.md: #87 - Nguyen Chanh Thi
+- report-060-060.md: #67 - Amphib Landing

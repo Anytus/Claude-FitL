@@ -67,3 +67,12 @@
 2026-09-22T23:50:59	Bash	python3 tools/ctl.py seq "How many NVA Troops=>1" 2>&1 | grep -v "^\s*$" | tail 	122	819
 2026-09-22T23:51:03	Bash	python3 tools/ctl.py seq "Underground Guerrillas=>0" 2>&1 | grep -v "^\s*$" | ta	125	4958
 2026-09-22T23:51:14	Bash	printf '**Execution.** Stops at the space and per-type counts (answered Troops 1	549	11136
+2026-09-22T23:51:24	Bash	python3 tools/ctl.py commit-turn "card #59 Plei Mei: Event unshaded, 2 NVA Bases	502	13385
+2026-09-22T23:52:12	Bash	cat >> journal.md <<'EOF'  ## Turn 10 — card #95 Westmoreland — before save-052 	912	5010
+2026-09-22T23:52:18	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" "special activity? (y/n)=>y" 	232	2756
+2026-09-22T23:52:21	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>Saigon" 2>&1 | grep -v "^	135	1855
+2026-09-22T23:52:32	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" 2>&1 | grep -v "^	135	1144
+2026-09-22T23:52:35	Bash	python3 tools/ctl.py seq "in which space=>Quang Nam" 2>&1 | grep -v "^\s*$" | ta	125	1461
+2026-09-22T23:52:39	Bash	python3 tools/ctl.py seq "How many NVA Troops=>1" 2>&1 | grep -v "^\s*$" | tail 	122	1284
+2026-09-22T23:52:43	Bash	python3 tools/ctl.py seq "+6 Aid=>y" 2>&1 | grep -v "^\s*$" | tail -12; grep -n 	163	6629
+2026-09-22T23:53:09	Bash	printf '**Execution.** Deviation: second Advise went to Quang Nam (Ranger: 1 NVA	669	17871
