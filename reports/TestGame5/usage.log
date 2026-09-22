@@ -68,3 +68,13 @@
 2026-09-22T17:14:59	Bash	python3 tools/ctl.py seq \  "Choose Advise option=>Use Irregular" \  "Use Irregu	212	2107
 2026-09-22T17:15:03	Bash	python3 tools/ctl.py send 0 2>&1 | tail -15	118	1076
 2026-09-22T17:15:07	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" 2>&1 | tail -20	107	5948
+2026-09-22T17:15:19	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	1560	7301
+2026-09-22T17:15:32	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -35	117	22980
+2026-09-22T17:15:40	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers/,/--- Casualties/p' && echo	286	932
+2026-09-22T17:16:36	Bash	python3 tools/render.py 2>&1 | grep -E "Binh Dinh \[|Kien Hoa|Saigon \[|Kontum \	274	1792
+2026-09-22T17:17:47	Bash	cat >> journal.md <<'EOF'  ## Turn 9 — card #34 SA-2s — before save-039 **Situat	3913	7169
+2026-09-22T17:17:52	Bash	python3 tools/ctl.py seq \  "US Assault=>Select a space" \  "Assault in which sp	178	1744
+2026-09-22T17:17:59	Bash	python3 tools/ctl.py seq \  "US Assault=>Perform a Special Activity" \  "Choose 	272	2242
+2026-09-22T17:18:05	Bash	python3 tools/ctl.py seq \  "*=>Select an Air Lift space" \  "Air Lift in which 	232	1898
+2026-09-22T17:18:11	Bash	python3 tools/ctl.py seq \  "Lift forces to which space=>Binh Dinh" \  "*=>Air L	214	2119
+2026-09-22T17:18:18	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Saigon" \  "*=>Fin	232	5788

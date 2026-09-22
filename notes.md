@@ -23,3 +23,4 @@ card #97 Brinks Hotel: US ineligible — VC seven-space Rally and 2 Taxes (Agita
 card #66 Ambassador Taylor: LimOp Train Saigon, patronage transfer — ended card, denied VC and NVA an action
 card #79 Henry Cabot Lodge: US ineligible, no action.
 card #55 Trucks: Op+Advise — cleared VC Guerrillas from Binh Dinh and Pleiku, +6 Aid, patronage transfer
+card #34 SA-2s: Op Assault (Saigon 3 VC Guerrillas, Pleiku 2 NVA Troops) + Air Lift 2 Troops to Binh Dinh — closed the Terror and Govern threats

@@ -500,3 +500,84 @@ AVAILABLE`; `Remove 2 VC Underground Guerrillas from Pleiku-Darlac to
 AVAILABLE`; `Increase US Aid by +6 to 18`. Both of my Active Support Highlands
 are now clear of VC pieces, so the VC bot's Terror branch cannot reach them,
 and US stands unchanged at 52.
+
+## Turn 9 — card #34 SA-2s — before save-039
+**Situation.** The NVA took the Event, so my menu is `Op (May add a Special
+Activity)` or `Pass`, and I am the only other Eligible faction, so acting ends
+the card. Two things changed while I was ineligible and both are dangerous.
+**(1)** The VC Taxed twice more: the **Agitate Total is now 9**. That is spent
+in the Coup Support phase, *after* the Victory check, so it cannot touch Coup
+2 — but it makes Coup 2 close to must-win, because 9 levels of Agitation
+landing before Coup 3 is a swing of up to 18 points. **(2)** Three **VC
+Guerrillas are now in Saigon**, and the ARVN bot's own narration printed
+`Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes?
+[Yes]` — that is its Govern branch, and the space it means is **Binh Dinh**,
+where my three pieces are Irregulars, which are not cubes, against one ARVN
+Police. It went to Patrol only because its Available-pieces check failed, and
+TestGame3 records Govern arriving through the Patrol branch anyway.
+
+**The two threats, priced.** VC Terror in **Saigon** would take Active Support
+to Passive at pop 6: **-6**, against a margin of +2. The Guerrillas there are
+Active right now, and the VC's Terror branch needs Underground ones — but the
+Coup Reset flips every Active Guerrilla Underground, and a VC Rally can do it
+sooner. ARVN's Govern in **Binh Dinh** is **-2** and its check is already
+reading Yes. ARVN Resources are 13 against Econ 15, so there is still no
+pacification available and I cannot add a point; every point I keep is a point
+I have to defend.
+
+**Options considered.**
+- *Pass.* +3 ARVN Resources to 16 — still short of the 18 I need to afford a
+  level — and it leaves both threats standing. No.
+- *Op: Train in Saigon + transfer patronage.* Moves ARVN Resources to 16 and
+  ARVN's score to 35, but 16 still cannot buy a level, and it answers neither
+  threat.
+- *Op: Assault.* It costs no Resources, and Saigon holds 2 US Troops beside a
+  US Base against 3 **Active** VC Guerrillas — TestGame1 measured exactly that
+  configuration at 4 hits, which is more than enough to clear all three.
+
+**Plan.** **Op + Special Activity.**
+- **Op: Assault**, in **Saigon** first (clear all 3 Active VC Guerrillas),
+  then, if offered and free, **Quang Tri-Thua Thien** (2 Active VC Guerrillas
+  against 1 US Troop) and **Pleiku-Darlac** (3 NVA Troops against 1 US Troop
+  beside a US Base, about 2 hits). Assault deducts no Resources, so the extra
+  spaces are free.
+- **Special Activity: Air Lift**, 2 US Troops **Saigon -> Binh Dinh**. That
+  puts 2 US cubes into Binh Dinh against ARVN's 1 Police, which makes the
+  Govern check read No and closes that branch.
+Expected: no change to any score marker (Guerrillas and Troops do not score),
+but Saigon's 12 points of Active Support become unreachable by Terror and Binh
+Dinh's 4 become unreachable by Govern.
+
+**Rationale.** I cannot buy a point this card, so the whole value is in
+defence, and the two actions together remove the largest and the most imminent
+threats to the 52 I have to carry to the Coup 2 Victory check. Saigon is the
+right source for the Air Lift because it has eleven COIN pieces and can spare
+two, where thinning Kontum or Da Nang would leave a pop-1 Support city on one
+ARVN Police next to the NVA stack in Pleiku-Darlac and Quang Tin. Taking the
+Troops out of Saigon after the Assault costs nothing: the US Base stays, so
+Saigon remains a Train space, and Saigon is already at Active Support so it has
+nothing left to pacify.
+
+**Execution.** Six calls, no rejections, no aborts. Two notes. Quang
+Tri-Thua Thien was **not** offered for Assault — only Saigon and
+Pleiku-Darlac were — which means its VC Guerrillas had flipped back Underground
+since the render I planned from; the guard caught it and I simply took the two
+spaces that were offered. The Air Lift chain matched `PROMPTS.md` exactly:
+select every space first (`Saigon`, then `Binh Dinh`), then `Lift forces out
+of Saigon` -> `Lift forces to which space` -> `Air Lift US Troops` -> a count.
+The `Air Lift in which space:` prompt was **bare** this time, so the typed name
+went through as given. The final `Finished selecting spaces` was not sent — the
+Assault menu had already closed itself once Air Lift ended — and the `seq`
+stopped cleanly at the card-draw prompt instead.
+
+**Result.** Both objectives met. `US assaults in Saigon / The assault inflicts
+4 hits / Remove 3 VC Active Guerrillas from Saigon to AVAILABLE` — Saigon's 12
+points of Active Support are now clear of VC pieces entirely. `US assaults in
+Pleiku-Darlac / The assault inflicts 2 hits / Remove 2 NVA Troops` — free, and
+it confirms the 1-Troop-beside-a-Base-in-Highland = 2 hits figure a third
+time. `Move 2 US Troops from Saigon to Binh Dinh`, which puts 2 US cubes
+against ARVN's 1 Police there, so the Govern check that read Yes should now
+read No. No score marker moved, which was expected: this was a defensive card.
+I deliberately did **not** lift the ARVN Troops that were also offered out of
+Saigon into Binh Dinh, because more ARVN cubes in Binh Dinh would re-open the
+very Govern branch I was closing.
