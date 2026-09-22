@@ -136,28 +136,25 @@ space one of:
 - **Irregular/Ranger removal.** Needs an Underground US Irregular or ARVN
   Ranger in the space; flips it Active and removes 2 enemy pieces of the
   US's choice among NVA Troops and Guerrillas (Underground or Active); a
-  Base only when no other enemy piece remains in the space. The flipped
-  piece stays Active until the Coup Reset.
+  Base only when no other enemy piece remains in the space.
 - **ARVN Sweep.** Activates Guerrillas in the space; no movement, no roll.
 - **ARVN Assault.** An Assault by the ARVN cubes in the space, LoCs
   included: about 1 hit per 2 ARVN cubes in a City, fewer in Highland; an
   undefended Base is a legal target.
-Afterwards the US may take +6 Aid. A Base removed by the ARVN Assault pays a
-further +6 Aid; a Base removed by the Irregular/Ranger removal does not.
+Afterwards the US may take +6 Aid, and each Base removed during the Advise
+adds a further +6 Aid, whichever option removed it.
 A space used for Advise cannot be used for Train in the same action.
 
 **Air Lift.** Up to 4 spaces (2 in Monsoon), any distance apart. Moves US
 Troops and ARVN Troops between the selected spaces (Irregulars and Rangers
 untested); map to map only, never to or from Available. Control changes
-take effect at once. Forbidden under Medevac shaded until the Coup.
+take effect at once.
 
 **Air Strike.** Never carried through to a hit. The number of hits is rolled
 when the activity starts. Up to 6 spaces (2 in Monsoon); a struck space must
-contain COIN pieces, except one space per Strike under Arc Light. Removes
-NVA Troops and Active Guerrillas only. Degrading the Trail costs 2 hits.
-Each populated struck space shifts one level toward Active Opposition (Laos
-and Cambodia have population 0). Prohibited while Da Nang shaded or Rolling
-Thunder shaded is in effect.
+contain COIN pieces. Removes NVA Troops and Active Guerrillas only.
+Degrading the Trail costs 2 hits. Each populated struck space shifts one
+level toward Active Opposition (Laos and Cambodia have population 0).
 
 ## 4. Events and capabilities, mechanically
 
@@ -179,8 +176,7 @@ Thunder shaded is in effect.
 - Events that bring pieces from Out of Play ask per space and per piece
   type, including whether to place a Base.
 - When an event makes the US lose pieces, the US chooses which.
-- A Base removed by an Assault (US, ARVN, or ARVN through Advise) adds +6
-  Aid; a Base removed by Advise's Irregular/Ranger removal does not.
+- A Base removed by an Assault or during an Advise adds +6 Aid.
 
 ## 5. Coup round, phase by phase
 
