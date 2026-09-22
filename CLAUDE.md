@@ -10,7 +10,7 @@ physical board in sync from your reports, and audits your reasoning. The point o
 well you play and what your reasoning reveals. Play to win, but honesty and
 completeness in the reports matter more than the result.
 
-Game directory: `games/TestGame5`. Scenario: Full 1964–1972. Human win in
+Game directory: `games/TestGame6`. Scenario: Full 1964–1972. Human win in
 any Coup Victory phase is allowed.
 
 ## Session start
@@ -23,11 +23,11 @@ any Coup Victory phase is allowed.
    `archive/`; they are not this game, and you do not need to read them.
 2. `python3 tools/ctl.py status`.
    - If `running: True`: `python3 tools/ctl.py read` to see anything pending.
-   - If `running: False` and `games/TestGame5` exists: `python3 tools/ctl.py resume TestGame5`
+   - If `running: False` and `games/TestGame6` exists: `python3 tools/ctl.py resume TestGame6`
      (the container was reclaimed; the latest save reloads). Note the resume
      in `notes.md`, tell Kevin which save you resumed from, and run
      `report.py`.
-   - If `games/TestGame5` does not exist: `python3 tools/ctl.py new-game TestGame5`,
+   - If `games/TestGame6` does not exist: `python3 tools/ctl.py new-game TestGame6`,
      then `python3 tools/ctl.py advance`, which draws the first two cards and
      runs the bots up to the first decision. This happens once.
 3. `python3 tools/ctl.py brief` for the briefing (board, both cards, scores,

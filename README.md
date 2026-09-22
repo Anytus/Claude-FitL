@@ -43,7 +43,7 @@ short version:
 | `PROMPTS.md` | The program's prompt chains for every US Op, Special Activity and Coup decision, from its own transcripts, with each prompt's form (menu / typed / varies). What the model writes `seq` calls from. |
 | `RULES_LEARNED.md` | The rules as the program implements them, as learned in earlier games and corrected by the observer. Read by the next player. |
 | `CURRENT_US_STRATEGY.md` | One page of strategy advice distilled from the finished games' post-mortems and journals. Read by the next player; advice, not rules. |
-| `archive/TestGame1/` … `archive/TestGame4/` | The finished games: saves, logs, journal, notes, reports, transcripts, post-mortem. Move a directory back under `games/` to replay it with `rollback`. |
+| `archive/TestGame1/` … `archive/TestGame5/` | The finished games: saves, logs, journal, notes, reports, transcripts, post-mortem. Move a directory back under `games/` to replay it with `rollback`. |
 | `journal.md` | Full turn plans, rationales, rejections. The audit artifact. |
 | `notes.md` | One line per model turn. Cross-session memory. |
 | `transcript.log` | Everything the program printed, via tmux pipe-pane. |
@@ -53,8 +53,8 @@ short version:
 Requirements: Java 11+, Python 3, tmux. From the repository root:
 
 ```
-python3 tools/ctl.py new-game TestGame5     # first time
-python3 tools/ctl.py resume TestGame5       # after a container/session loss
+python3 tools/ctl.py new-game TestGame6     # first time
+python3 tools/ctl.py resume TestGame6       # after a container/session loss
 python3 tools/ctl.py status
 python3 tools/ctl.py advance                # bots, card draws, report, briefing
 python3 tools/ctl.py brief                  # the briefing on demand
