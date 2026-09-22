@@ -1,0 +1,21 @@
+2026-09-22T16:44:45	Bash	ls && echo "=== git ===" && git status --short && git branch -a | head -20	142	379
+2026-09-22T16:44:47	Bash	wc -l RULES_LEARNED.md POSTMORTEM_TestGame*.md PROMPTS.md notes.md journal.md &&	181	30695
+2026-09-22T16:44:49	Bash	cat RULES_LEARNED.md	72	30688
+2026-09-22T16:44:51	Read	/home/user/Claude-FitL/RULES_LEARNED.md	56	48339
+2026-09-22T16:44:53	Read	/home/user/Claude-FitL/POSTMORTEM_TestGame4.md	63	10959
+2026-09-22T16:44:54	Read	/home/user/Claude-FitL/POSTMORTEM_TestGame3.md	63	12597
+2026-09-22T16:44:56	Read	/home/user/Claude-FitL/POSTMORTEM_TestGame2.md	63	12377
+2026-09-22T16:44:58	Read	/home/user/Claude-FitL/POSTMORTEM_TestGame1.md	63	8054
+2026-09-22T16:45:00	Read	/home/user/Claude-FitL/PROMPTS.md	50	9274
+2026-09-22T16:45:06	Bash	python3 tools/ctl.py status 2>&1 | tail -20	97	183
+2026-09-22T16:45:15	Bash	python3 tools/ctl.py new-game TestGame5 2>&1 | tail -40	103	3281
+2026-09-22T16:45:21	Bash	python3 tools/ctl.py advance 2>&1 | tail -150	107	12346
+2026-09-22T16:45:25	Bash	git status --short | head && cat .gitignore 2>/dev/null	112	203
+2026-09-22T16:45:33	Bash	printf '\nSession 1 start: new game TestGame5 created, advanced to first US deci	478	771
+2026-09-22T16:50:33	Bash	cat >> journal.md <<'EOF' ## Turn 1 — card #26 LRRP — before save-000 **Situatio	3683	4249
+2026-09-22T16:50:54	Bash	python3 tools/ctl.py seq \  "(perform or ?)=>perform" \  "Choose one=>Op" \  "Ch	853	9580
+2026-09-22T16:50:59	Bash	python3 tools/ctl.py seq "special activity=>n" 2>&1 | tail -30	134	7506
+2026-09-22T16:51:11	Bash	python3 tools/ctl.py advance 2>&1 | tail -120	105	24271
+2026-09-22T16:51:18	Bash	ls reports/TestGame5/ && echo "=== sections ===" && python3 tools/render.py 2>&1	278	996
+2026-09-22T16:51:23	Bash	grep -nE "^(##|###|\*\*|Trung|>>>)" reports/TestGame5/report-001-002.md reports/	177	955
+2026-09-22T16:51:26	Bash	sed -n '67,100p' reports/TestGame5/report-001-002.md && echo "@@@@@" && sed -n '	193	2423

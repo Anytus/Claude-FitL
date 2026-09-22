@@ -1,0 +1,3 @@
+- report-001-002.md: #26 - LRRP
+- report-003-005.md: #31 - AAA
+- report-006-007.md: #68 - Green Berets
