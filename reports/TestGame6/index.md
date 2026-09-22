@@ -1,3 +1,5 @@
 - report-001-002.md: #1 - Gulf of Tonkin
 - report-003-005.md: #79 - Henry Cabot Lodge
 - report-006-007.md: #43 - Economic Aid
+- report-008-008.md: #43 - Economic Aid
+- report-009-009.md: #31 - AAA

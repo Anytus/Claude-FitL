@@ -10,3 +10,5 @@ and anything Kevin asked administratively. Previous games' notes are under
 - Session 1: new game TestGame6 created; first cards #1 Gulf of Tonkin / #79 Henry Cabot Lodge; stopped at first US prompt.
 card #1 Gulf of Tonkin: Train Saigon+Pleiku, Pacify Saigon Active, Advise QT+Binh Dinh — +6 now, strip VC Guerrillas
 card #79 Henry Cabot Lodge: US ineligible (ARVN shaded Event, VC Rally+Subvert)
+- Resumed TestGame6 from latest save (save-007, US turn on card #43) after the program process was found not running.
+card #43 Economic Aid: Pass — keep Eligible for Op+SA on #31

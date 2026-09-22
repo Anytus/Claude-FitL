@@ -10,3 +10,10 @@
 2026-09-22T23:29:28	Bash	python3 tools/ctl.py send y 2>&1 | tail -15	77	9023
 2026-09-22T23:29:48	Bash	cat >> journal.md <<'EOF' **Execution.** seq stopped at step 15: after Pacify th	766	21047
 2026-09-22T23:29:52	Bash	sed -n 1,310p /tmp/claude-0/-home-user-Claude-FitL/4229c704-1129-5396-9146-fbf6e	169	9628
+2026-09-22T23:30:01	Bash	ls reports/TestGame6/ && python3 tools/ctl.py commit-turn "card #1 Gulf of Tonki	407	8041
+2026-09-22T23:41:29	Bash	python3 tools/ctl.py brief 2>&1 | sed -n '/=== TestGame6/,$p'	95	10627
+2026-09-22T23:41:42	Bash	cat >> journal.md <<'EOF'  ## Turn 2 — card #43 Economic Aid — before save-007 *	457	1305
+2026-09-22T23:41:44	Bash	python3 tools/ctl.py status; tail -5 transcript.log	66	316
+2026-09-22T23:41:50	Bash	python3 tools/ctl.py resume TestGame6 2>&1 | tail -15	87	796
+2026-09-22T23:41:54	Bash	echo "- Resumed TestGame6 from latest save (save-007, US turn on card #43) after	304	4540
+2026-09-22T23:41:59	Bash	echo "**Execution.** Program was found not running before the first answer; resu	472	6377
