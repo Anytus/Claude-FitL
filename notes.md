@@ -19,3 +19,4 @@ card #50 Uncle Ho: US ineligible (NVA Rally+Infiltrate, VC shaded Event)
 card #68 Green Berets: LimOp Patrol Kontum→Hue — set up Coup pacify in Hue and Da Nang
 Coup 1 #126 Young Turks: Pacify Hue+Da Nang Active; Troops to Can Tho/An Loc/Qui Nhon — set next-Coup pacify
 card #75 Sihanouk: LimOp Train Pleiku 6 ARVN cubes + Pacify Active — break NVA Control, NVA at 17/18
+card #63 Fact Finding: US ineligible (ARVN shaded Event, VC Rally+Tax)
