@@ -131,98 +131,56 @@ listed in PROMPTS.md, and it should be declined.
 
 ## 3. US Special Activities
 
-**Advise.** Up to 2 spaces. The option list is built from what is legal:
-`Sweep a space with ARVN forces`, `Assault a space with ARVN forces`, `Use
-Irregular/Ranger to remove enemy pieces`, and options vanish once used up.
-The removal is the best tool the US has:
-- it needs an **Underground** US Irregular or ARVN Ranger in the space (ARVN
-  Rangers count), flips that piece Active, and removes **2 enemy pieces**;
-- it removes Underground Guerrillas, Active Guerrillas, NVA Troops, and an
-  **undefended Base**. Bases are last: while other enemy pieces stand in the
-  space the Base is not on the list;
-- when several piece types are present it lets you choose: `Select 2 pieces
-  among the following: 5 NVA Troops, 1 NVA Underground Guerrilla, 2 VC
-  Underground Guerrillas`, then `How many NVA Troops (0 - 2):` and so on in
-  order, filling the remainder from the last type automatically;
-- it costs no Resources and shifts no Support;
-- the piece it flips Active is then exposed to Ambush, and it stays Active
-  until the Coup Reset, which disarms the space for the rest of the
-  campaign: no further removal is possible there until the piece flips back.
-Afterwards: `Do you wish to add +6 Aid? (y/n)`.
+**Advise.** Up to 2 spaces; no Resource cost, no Support shift. In each
+space one of:
+- **Irregular/Ranger removal.** Needs an Underground US Irregular or ARVN
+  Ranger in the space; flips it Active and removes 2 enemy pieces of the
+  US's choice among NVA Troops and Guerrillas (Underground or Active); a
+  Base only when no other enemy piece remains in the space. The flipped
+  piece stays Active until the Coup Reset.
+- **ARVN Sweep.** Activates Guerrillas in the space; no movement, no roll.
+- **ARVN Assault.** An Assault by the ARVN cubes in the space, LoCs
+  included: about 1 hit per 2 ARVN cubes in a City, fewer in Highland; an
+  undefended Base is a legal target.
+Afterwards the US may take +6 Aid. A Base removed by the ARVN Assault pays a
+further +6 Aid; a Base removed by the Irregular/Ranger removal does not.
+A space used for Advise cannot be used for Train in the same action.
 
-The other two Advise options:
-- **`Sweep a space with ARVN forces`** only Activates Guerrillas in the
-  space, with no movement and no roll. It is worth an Advise slot on its
-  own: the NVA bot's Terror trigger is `Underground NVA Guerrillas in space
-  with Support?`, so Activating the Guerrillas sitting in your Support spaces
-  switches that branch off until the Coup Reset flips them back.
-- **`Assault a space with ARVN forces`** prints a numbered list of every
-  space where ARVN cubes face removable enemies, including LoCs. 2 ARVN
-  Troops and 4 Police (6 cubes) in a City inflicted 3 hits and removed a VC
-  Base that had no Guerrilla left to shield it: roughly one hit per two ARVN
-  cubes in a City; 2 Police in Highland inflicted 0, so terrain matters.
-  `Each insurgent base removed adds +6 Aid` fires for a Base removed by this
-  ARVN Assault, and not for a Base removed by the Irregular/Ranger removal,
-  which pays only Advise's own +6.
+**Air Lift.** Up to 4 spaces (2 in Monsoon), any distance apart. Moves US
+Troops and ARVN Troops between the selected spaces (Irregulars and Rangers
+untested); map to map only, never to or from Available. Control changes
+take effect at once. Forbidden under Medevac shaded until the Coup.
 
-**Air Lift.** Select up to 4 spaces (`Air Lift in which space:`, bare or
-numbered), then `Lift forces out of <space>` to any other selected space; the
-prompt offers `Air Lift US Troops` and, where present, `Air Lift ARVN Troops`
-(Irregulars/Rangers presumably likewise, not tested), then a count. **No
-adjacency limit**, and **map-to-map only**: it cannot reach into Available,
-so it costs no US points. Moving 2 Troops into a space with one Guerrilla
-gives COIN Control at once, and the control change and score markers print
-inside the Air Lift. Medevac shaded forbids it until the Coup.
-
-**Air Strike.** Never resolved through to a hit. When a momentum prohibits it
-the Special Activity menu simply omits it with a `Notes: Momentum: #22 Da
-Nang prohibits Air Strike` line. The opening: **the hit die is rolled the
-moment the activity starts** (`US chooses Air Strike special activity / Die
-roll to determine the number of hits = 3`), then `0 spaces of 6 selected for
-Air Strike`, a `You have not yet degraded the trail` reminder, and `Air
-Strike: (3 hits remaining, remove up to 3 pieces) 1) Select a space to Strike
-2) Degrade the trail 3) Finished with Air Strike activity`. Aborting there
-rolls nothing back because nothing has happened. Up to 6 spaces (2 in
-Monsoon); a struck space must contain COIN pieces except one per strike under
-Arc Light; removes NVA Troops and Active Guerrillas only; "Degrade the trail"
-costs 2 hits; **each populated struck space shifts one level toward Active
-Opposition**. Laos and Cambodia have population 0, so the shift cannot bite
-there.
+**Air Strike.** Never carried through to a hit. The number of hits is rolled
+when the activity starts. Up to 6 spaces (2 in Monsoon); a struck space must
+contain COIN pieces, except one space per Strike under Arc Light. Removes
+NVA Troops and Active Guerrillas only. Degrading the Trail costs 2 hits.
+Each populated struck space shifts one level toward Active Opposition (Laos
+and Cambodia have population 0). Prohibited while Da Nang shaded or Rolling
+Thunder shaded is in effect.
 
 ## 4. Events and capabilities, mechanically
 
-- Dual events: you choose Unshaded or Shaded. Single events have one text.
-- A **capability** persists across Coups (Booby Traps shaded, Main Force Bns
-  shaded). A **momentum** is removed at the Coup Reset (Medevac unshaded, Da
-  Nang shaded, Rolling Thunder shaded).
-- "Remove Support" sets the space to Neutral whatever its level (Da Nang
-  shaded removed Active Support; Fact Finding shaded removed Passive
-  Support). "Shift 1 level toward Active Opposition" moves one step (Burning
-  Bonze shaded took Saigon from Active to Passive Support: -6).
-- "Place any 1 VC piece" lets the bot place **Bases** (Korean War Arms
-  shaded: three VC Bases in one card, +3 VC).
+- Dual events: the executing faction chooses Unshaded or Shaded. Single
+  events have one text.
+- A **capability** persists across Coups. A **momentum** is removed at the
+  Coup Reset.
+- "Remove Support" sets the space to Neutral whatever its level. "Shift 1
+  level toward Active Opposition" moves one step.
+- "Place any 1 VC piece" lets the bot place a Base.
 - "Pacifies as if Support Phase" (Honolulu Conference) applies the Support
-  phase's strict test (section 5), not Train's loose one.
-- Events that remove US Troops send them to Casualties (`US to
-  Casualties`); ARVN pieces removed go to ARVN Available.
-- "Remove pieces" events count untunneled Bases as pieces (Tribesmen).
-  Event-driven moves of US pieces to Available do not trigger the Commitment
-  withdrawal penalty (Senator Fulbright).
-- A **pivotal event replaces the current card outright**, and the replaced
-  card is never played. Half the value of playing one is what it deletes;
-  check that as well as what you are casting.
-- Events that bring pieces from **Out of Play** ask per space and per piece
-  type: a bare `Place pieces in which space:` (typed names), then `Do you
-  wish to place a base in <space>? (y/n)`. Out-of-Play pieces score nothing,
-  so placing them on the map is free US points in waiting; Available pieces
-  already score, so moving *those* to the map costs a point each.
-- When an event makes the US lose pieces, **the US chooses which** (`Select 3
-  pieces among the following: 21 US Troops, 3 US Bases`). Take Troops and
-  keep Bases: Troops come back from Out of Play through several events, and
-  a Base is what lets Train place ARVN cubes in a Province.
-- `Each insurgent base removed adds +6 Aid` fires from Assault removals (US,
-  ARVN, or ARVN through Advise) and prints as its own line; not from
-  Advise's Irregular/Ranger removal.
+  phase's strict test (section 5), not Train's.
+- US Troops removed by an event go to Casualties; ARVN pieces removed go to
+  ARVN Available.
+- "Remove pieces" events count untunneled Bases as pieces. Event-driven
+  moves of US pieces to Available do not trigger the Commitment withdrawal
+  penalty.
+- A pivotal event replaces the current card, which is never played.
+- Events that bring pieces from Out of Play ask per space and per piece
+  type, including whether to place a Base.
+- When an event makes the US lose pieces, the US chooses which.
+- A Base removed by an Assault (US, ARVN, or ARVN through Advise) adds +6
+  Aid; a Base removed by Advise's Irregular/Ranger removal does not.
 
 ## 5. Coup round, phase by phase
 
