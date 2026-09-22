@@ -15,3 +15,4 @@ card #43 Economic Aid: Pass — keep Eligible for Op+SA on #31
 card #31 AAA: Train Kontum+Binh Dinh, Pacify Kontum Active, Advise Pleiku — +2 while Resources above Econ
 card #112 Colonel Chau: US ineligible (VC shaded Event, NVA Infiltrate+March)
 card #118 Korean War Arms: Event unshaded — strip 8 VC Guerrillas, no Pacify budget
+card #50 Uncle Ho: US ineligible (NVA Rally+Infiltrate, VC shaded Event)
