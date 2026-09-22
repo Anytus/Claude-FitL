@@ -17,3 +17,4 @@ card #112 Colonel Chau: US ineligible (VC shaded Event, NVA Infiltrate+March)
 card #118 Korean War Arms: Event unshaded — strip 8 VC Guerrillas, no Pacify budget
 card #50 Uncle Ho: US ineligible (NVA Rally+Infiltrate, VC shaded Event)
 card #68 Green Berets: LimOp Patrol Kontum→Hue — set up Coup pacify in Hue and Da Nang
+Coup 1 #126 Young Turks: Pacify Hue+Da Nang Active; Troops to Can Tho/An Loc/Qui Nhon — set next-Coup pacify

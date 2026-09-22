@@ -11,3 +11,5 @@
 - report-021-022.md: #68 - Green Berets
 - report-023-023.md: #68 - Green Berets
 - report-024-024.md: #126 - Coup! Young Turks
+- report-025-025.md: #126 - Coup! Young Turks
+- report-026-028.md: #75 - Sihanouk

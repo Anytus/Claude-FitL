@@ -32,3 +32,14 @@
 2026-09-22T23:44:36	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished" 2>&1 | grep -v "^\s*	132	1303
 2026-09-22T23:44:41	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault" 2>&1 | grep -v "^\s*$" | t	322	5068
 2026-09-22T23:44:54	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/4229c704-1129-5396-9146-fbf6e2b8e837/scra	253	8579
+2026-09-22T23:44:59	Bash	python3 tools/ctl.py commit-turn "card #68 Green Berets: LimOp Patrol Kontum→Hue	195	4550
+2026-09-22T23:46:20	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — #126 Young Turks, Support phase — before 	458	2948
+2026-09-22T23:46:25	Bash	python3 tools/ctl.py seq "Pacify:=>Remove 1 terror marker and shift 2" "Choose s	207	3052
+2026-09-22T23:46:36	Bash	printf '**Execution.** Stop: Hue menu reads "Remove 1 terror marker and shift 2 	514	5365
+2026-09-22T23:46:57	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — Commitment phase — before save-024 **Plan	556	1993
+2026-09-22T23:47:06	Bash	python3 tools/ctl.py seq "Move Troops in which space=>Saigon" 2>&1 | grep -v "^\	134	2146
+2026-09-22T23:47:10	Bash	python3 tools/ctl.py send "Can Tho" 2>&1 | grep -v "^\s*$" | tail -12	108	862
+2026-09-22T23:47:14	Bash	python3 tools/ctl.py seq "*=>Can Tho" 2>&1 | grep -v "^\s*$" | tail -8	109	805
+2026-09-22T23:47:24	Bash	python3 tools/ctl.py seq "Move how many=>1" "Choose one=>Move troops" "Move Troo	323	4641
+2026-09-22T23:47:28	Bash	grep -n "Move 1 US Troop" transcript.log | tail -3; python3 tools/ctl.py seq "Ch	181	1562
+2026-09-22T23:47:43	Bash	cat >> journal.md <<'EOF' **Execution.** Quang Tri and Binh Dinh were not offere	698	22701

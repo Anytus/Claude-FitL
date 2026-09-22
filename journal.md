@@ -34,3 +34,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Sets up the Coup Support phase: ARVN income (Econ 15 + Aid 35) will leave ~47 above Econ, and Hue (pop 2, COIN, Police, terror) plus Da Nang then qualify for US pacification, worth about +6. ARVN Resources are at 12, so no Pacify now; the Op-only ARVN action closed the Event.
 **Execution.** none (program offered "Assault at one LOC" after the LimOp Patrol into Hue, the known bug; declined).
 **Result.** As planned: 2 US Troops now in Hue.
+
+## Coup 1 — #126 Young Turks, Support phase — before save-024
+**Plan.** Pacify Hue (terror off, 2 levels to Active) and Da Nang (2 levels to Active); 15 of 47 spare ARVN Resources.
+**Why.** The only two candidates; +6 US for Resources the bots would otherwise spend.
+**Execution.** Stop: Hue menu reads "Remove 1 terror marker and shift 2 levels to Active Support" (not "Shift 2 levels"); resent with that label.
+**Result.** As planned: Hue and Da Nang to Active Support.
+
+## Coup 1 — Commitment phase — before save-024
+**Plan.** Saigon's 2 US Troops → Can Tho 1, An Loc 1; Quang Tri's lone Troop → Available; Binh Dinh's Troop → Qui Nhon. Bases stay.
+**Why.** Can Tho, An Loc and Qui Nhon (COIN, Police, Passive) become next-Coup pacify targets (+1 each); one Troop home is +1 with no withdrawal shift (penalty is per 2). Bigger withdrawals risk a VC shift in Saigon.
+**Execution.** Quang Tri and Binh Dinh were not offered as sources (only COIN-controlled spaces are), so the Troop-to-Available and Binh Dinh moves were dropped; Da Nang 1 → Qui Nhon instead. Rejected: `send Can Tho` → "'Can Tho' is not valid. Must be one of: 1, 2, ... 28"; resent via seq label match.
+**Result.** Saigon → Can Tho 1, An Loc 1; Da Nang → Qui Nhon 1; nothing withdrawn.
