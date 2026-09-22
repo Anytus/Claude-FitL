@@ -1104,13 +1104,20 @@ Casualties to Available / There are no US Casualties`.
 **Result, and a mistake in my reasoning that I want on the record.** The
 central plank of my rationale was wrong. I argued that the pivotal "deletes
 #73 outright" because a pivotal replaces the current card. But #73 Great
-Society was the **on-deck** card, not the current one — the current slot still
-held the spent Coup card #125 — so Linebacker II replaced *that*, and the
-display now reads `On Deck card: #73 - Great Society`. **Great Society was not
-deleted; it was delayed by one card and will still be played.** I priced the
-pivotal on a denial it did not buy, and I should have read the Current/On Deck
-lines in the prompt before answering rather than assuming which card was
-which.
+Society was the **on-deck** card, not the current one. The card actually in
+the current slot was **#47 Chu Luc** — the report file names it — and that is
+what Linebacker II deleted. **Great Society was not deleted; it was delayed by
+one card and will still be played.** I priced the pivotal on a denial it did
+not buy, and I should have read the Current / On Deck lines in the prompt
+before answering instead of assuming which card was which.
+
+Worse, the card I did delete was one I would rather have kept. On #47 Chu Luc
+I was **fourth** in order (NVA, ARVN, VC, US) and would almost certainly have
+been squeezed out — but ARVN was marked **Performed/Unshaded**, and unshaded
+Chu Luc reads "Add ARVN Troops to double the ARVN pieces in a space with NVA.
+All ARVN free Assault NVA", which is a card the ARVN bot would probably have
+played *for* me against the NVA in Quang Tri-Thua Thien. So the deletion was
+mildly negative, not positive
 
 What the pivotal actually bought, on the honest accounting: the NVA lost 2 of
 its 8 Bases (12 -> 10) and is **Ineligible through the next card**, which is

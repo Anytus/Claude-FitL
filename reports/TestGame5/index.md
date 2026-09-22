@@ -26,3 +26,4 @@
 - report-068-068.md: #25 - TF-116 Riverines
 - report-069-070.md: #125 - Coup! Nguyen Khanh
 - report-071-073.md: #47 - Chu Luc; #121 - Linebacker II
+- report-074-075.md: #121 - Linebacker II

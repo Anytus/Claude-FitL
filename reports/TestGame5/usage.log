@@ -132,3 +132,8 @@
 2026-09-22T17:35:59	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	3526	7555
 2026-09-22T17:36:15	Bash	grep -nE "drew #|Current card|On Deck card|Replace the current" transcript.log |	163	854
 2026-09-22T17:36:34	Bash	python3 tools/ctl.py send perform 2>&1 | tail -22	104	6683
+2026-09-22T17:36:50	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	2325	8259
+2026-09-22T17:36:56	Bash	python3 -c " import json d=json.load(open('cards.json')) for c in (d if isinstan	377	577
+2026-09-22T17:37:16	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read() old="""was wrong. I argued tha	1892	2320
+2026-09-22T17:37:29	Bash	for i in 1 2 3 4 5 6 7 8 9 10; do out=$(python3 tools/ctl.py send perform 2>&1 |	509	16542
+2026-09-22T17:37:33	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers/,/Casualties/p;/Sequence of	228	1195

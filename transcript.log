@@ -3415,4 +3415,130 @@ Eligible      : ARVN, VC
 Acted         : US -> Event
 Passed        : none
 Ineligible    : NVA
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 23[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #121 - Linebacker II (US, ARVN, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+On Deck card  : #73 - Great Society (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : VC
+Acted         : US -> Event
+Passed        : ARVN
+Ineligible    : NVA
 (perform or ?): 
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #121 - Linebacker II (US, ARVN, VC, NVA)
+                ARVN -> (Ignored), VC -> (Ignored), NVA -> (Ignored)
+On Deck card  : #73 - Great Society (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : VC
+Acted         : US -> Event
+Passed        : ARVN
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [No]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Quang Tri-Thua Thien
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Tri-Thua Thien to ACTIVE[0m
+[33mFlip Active Opposition marker in Quang Tri-Thua Thien to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 12[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 22 to 20[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Kien Giang-An Xuyen
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE[0m
+[33mFlip Active Opposition marker in Kien Giang-An Xuyen to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 14[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 20 to 18[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Binh Tuy-Binh Thuan
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+[33mFlip Active Opposition marker in Binh Tuy-Binh Thuan to Passive Opposition[0m
+[34mIncrease Agitate Total by +1 to 15[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 18 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Ban Me Thuot -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from LOC Kontum -- Ban Me Thuot to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Can Tho -- Chau Doc as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from Kien Giang-An Xuyen to LOC Can Tho -- Chau Doc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 2 VC Underground Guerrillas from LOC Saigon -- Can Tho to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 2 VC Underground Guerrillas in Saigon to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 

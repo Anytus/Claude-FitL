@@ -32,3 +32,4 @@ card #25 TF-116 Riverines: Train Saigon transfer + Advise cleared Binh Dinh — 
 coup 2 (#125 Nguyen Khanh): pacified Saigon/Hue/Kien Hoa/Quang Nam to Active Support (+14); committed nothing — US 46->60.
 pivotal: played Linebacker II — NVA -2 Bases and Ineligible; my stated rationale (deleting Great Society) was wrong, it was on deck not current.
 coup 2 complete: +14 Support phase, US 60 (+10); Linebacker II played
+card #121 Linebacker II complete — US 60 (+10) entering campaign 3
