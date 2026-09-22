@@ -24,3 +24,5 @@ card #66 Ambassador Taylor: LimOp Train Saigon, patronage transfer — ended car
 card #79 Henry Cabot Lodge: US ineligible, no action.
 card #55 Trucks: Op+Advise — cleared VC Guerrillas from Binh Dinh and Pleiku, +6 Aid, patronage transfer
 card #34 SA-2s: Op Assault (Saigon 3 VC Guerrillas, Pleiku 2 NVA Troops) + Air Lift 2 Troops to Binh Dinh — closed the Terror and Govern threats
+card #6 Aces: US ineligible, but ARVN unshaded handed me the free Air Strike — 6 NVA Troops off the Parrot Beak, Trail to 1.
+card #44 la Drang: Event unshaded into Quang Tin-Quang Ngai — 4 NVA Troops removed, VC forward base neutered

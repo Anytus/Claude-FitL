@@ -1510,4 +1510,466 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
+Enter the number of the next On Deck Event card: 44
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+Eligible      : VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [No]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Quang Tin-Quang Ngai
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mRemove Passive Opposition marker from Quang Tin-Quang Ngai[0m
+[34mIncrease Agitate Total by +2 to 11[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 21 to 19[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Tay Ninh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mRemove Passive Opposition marker from Tay Ninh[0m
+[34mIncrease Agitate Total by +2 to 13[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 19 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 2 VC Active Guerrillas from Tay Ninh to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Da Nang -- Qui Nhon as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from Quang Tin-Quang Ngai to LOC Da Nang -- Qui Nhon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from Kien Phong to Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Binh Dinh as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from Quang Tin-Quang Ngai to Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+Eligible      : ARVN
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Aces
+----------------------------------------------------
+Number of hits = 6
+
+0 spaces of 1 selected for Air Strike
+----------------------------------------------------
+
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space: The Parrot's Beak
+
+1 space of 1 selected for Air Strike
+----------------------------------------------------
+The Parrot's Beak
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Remove insurgents in The Parrot's Beak
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Remove how many pieces from The Parrot's Beak (1 - 6): 6
+
+US Air Strikes The Parrot's Beak
+----------------------------------------------------
+[35mRemove 6 NVA Troops from The Parrot's Beak to AVAILABLE[0m
+
+1 space of 1 selected for Air Strike
+----------------------------------------------------
+The Parrot's Beak
+There are no strike targets
+[34mDegrade the trail by 2 boxes to 1[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 18
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+On Deck card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : NVA, US
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (28): 15 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Central Laos
+----------------------------------------------------
+[35mRemove 3 NVA Underground Guerrillas from Central Laos to AVAILABLE[0m
+[35mPlace 6 NVA Troops from AVAILABLE into Central Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in North Vietnam
+----------------------------------------------------
+[35mRemove 3 NVA Underground Guerrillas from North Vietnam to AVAILABLE[0m
+[35mPlace 6 NVA Troops from AVAILABLE into North Vietnam[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Hue -- Khe Sanh as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Central Laos to LOC Hue -- Khe Sanh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Quang Tri-Thua Thien as March destination
+----------------------------------------------------
+[35mMove 6 NVA Troops from North Vietnam to Quang Tri-Thua Thien[0m
+[35mMove 1 NVA Underground Guerrilla from North Vietnam to Quang Tri-Thua Thien[0m
+[35mMove 1 NVA Troop from Central Laos to Quang Tri-Thua Thien[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Quang Tri-Thua Thien to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 36[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 10 to 12[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+On Deck card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : US
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: la Drang
+----------------------------------------------------
+Select a space with NVA pieces: Quang Tin-Quang Ngai
+
+US performs free Air Lift into Quang Tin-Quang Ngai
+====================================================
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kontum
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Kontum
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kontum
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Binh Dinh
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Kontum, Binh Dinh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kontum
+3) Lift forces out of Binh Dinh
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Hoa-Vinh Binh
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Kontum, Binh Dinh, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Kontum
+2) Lift forces out of Binh Dinh
+3) Lift forces out of Kien Hoa-Vinh Binh
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Quang Tin-Quang Ngai
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kontum to Quang Tin-Quang Ngai
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kontum
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 2
+[35mMove 2 US Troops from Kontum to Quang Tin-Quang Ngai[0m
+
+Air Lifting forces from Kontum to Quang Tin-Quang Ngai
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Kontum, Binh Dinh, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Binh Dinh
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Quang Tin-Quang Ngai
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Binh Dinh to Quang Tin-Quang Ngai
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Air Lift US Active Irregulars
+4) Finished moving forces out of Binh Dinh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Binh Dinh to Quang Tin-Quang Ngai[0m
+
+Air Lifting forces from Binh Dinh to Quang Tin-Quang Ngai
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Air Lift US Active Irregulars
+4) Finished moving forces out of Binh Dinh
+----------------------------------------------------
+Selection: 4
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Kontum, Binh Dinh, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Binh Dinh
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Quang Tin-Quang Ngai
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Quang Tin-Quang Ngai
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Kien Hoa-Vinh Binh to Quang Tin-Quang Ngai[0m
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Quang Tin-Quang Ngai
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 2
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tin-Quang Ngai, Kontum, Binh Dinh, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Binh Dinh
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 3
+
+US performs free Sweep into Quang Tin-Quang Ngai
+====================================================
+
+US Sweep Troops into:
+====================================================
+1) Quang Tin-Quang Ngai
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+Activating guerrillas in Quang Tin-Quang Ngai
+----------------------------------------------------
+[36mFlip 3 VC Underground Guerrillas in Quang Tin-Quang Ngai to ACTIVE[0m
+
+US performs free Assault in Quang Tin-Quang Ngai
+====================================================
+
+US assaults in Quang Tin-Quang Ngai
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 4 NVA Troops from Quang Tin-Quang Ngai to AVAILABLE[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
 Enter the number of the next On Deck Event card: 

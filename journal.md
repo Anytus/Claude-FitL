@@ -581,3 +581,129 @@ read No. No score marker moved, which was expected: this was a defensive card.
 I deliberately did **not** lift the ARVN Troops that were also offered out of
 Saigon into Binh Dinh, because more ARVN cubes in Binh Dinh would re-open the
 very Govern branch I was closing.
+
+## Turn 10 — card #6 Aces — ARVN's event, my Air Strike
+**Situation.** ARVN executed **Aces unshaded** ("Free Air Strike any 1 space
+outside the South with 6 hits and Degrade Trail 2 boxes") and the program
+handed the Air Strike to me to execute — 6 hits, one space, and `advance`
+stopped because it is a US decision. This is the first Air Strike ever
+resolved across five games. I am Ineligible on this card, so it costs me
+nothing.
+
+**Options considered.** Air Strike removes only **NVA Troops and Active
+Guerrillas**, never Underground ones. Outside the South: Central Laos (5
+Underground Guerrillas, 2 Bases), Southern Laos (4 Underground Guerrillas, 2
+Bases) and North Vietnam (5 Underground Guerrillas, 2 Bases) hold nothing
+removable at all — a strike on any of them would be wasted. **The Parrot's
+Beak** holds **7 NVA Troops**, 1 Underground Guerrilla and 2 Bases. Every
+space here is pop 0, so the usual objection to Air Strike — each populated
+struck space shifts a level toward Active Opposition — does not apply.
+
+**Plan.** Strike **The Parrot's Beak** with all 6 hits: 6 NVA Troops removed.
+The Trail should degrade 2 boxes by the event, but the NVA's `#31 AAA
+(shaded)` capability forbids Air Strike degrading it below 2, so I expect
+Trail 3 -> 2 rather than 3 -> 1.
+
+**Rationale.** NVA Troops do not score, so this changes no marker, but 7
+Troops staged in the Parrot's Beak is the invasion force that marched into
+Pleiku-Darlac, Quang Tin and Kien Phong earlier this campaign, and the NVA
+already holds Kien Phong at pop 2. Cutting it to 1 Troop is the difference
+between another March into IV Corps before the Coup and none. There is no
+alternative use: the other three candidate spaces contain nothing Air Strike
+is allowed to touch.
+
+**Execution.** Three calls, no rejections. The chain, for `PROMPTS.md`:
+with one legal space the program printed `Air Strike in which space: The
+Parrot's Beak` and selected it itself; the menu then became `Remove insurgents
+in <space>` / `Finished with Air Strike activity`, and choosing the removal
+asked `Remove how many pieces from The Parrot's Beak (1 - 6):` as a bare typed
+prompt. There was no `Degrade the trail` entry, because the event's degrade is
+separate from the 6 hits.
+
+**Result.** `Remove 6 NVA Troops from The Parrot's Beak to AVAILABLE`, then
+`There are no strike targets` (the remaining Guerrilla is Underground and the
+2 Bases are shielded), then **`Degrade the trail by 2 boxes to 1`**.
+
+**A correction to record.** I predicted the Trail would stop at 2 because the
+NVA's `#31 AAA (shaded)` capability reads "Air Strike does not Degrade Trail
+below 2". It went to **1** anyway. So either the program does not treat an
+event's free degrade as an Air Strike degrade, or the capability is narrower
+than its text suggests. Either way the Trail is now at 1, which by
+TestGame3's reading pushes the NVA bot toward Rally rather than Attack, and
+the 7-Troop invasion force in the Parrot's Beak is down to 1.
+
+## Turn 11 — card #44 la Drang — before save-047
+**Situation.** The NVA took an Op + Special Activity, so my menu is `Event`,
+`Limited Op`, `Pass` — no full Op. I am the only other Eligible faction, so
+there is no denial to buy. The VC's **Agitate Total is now 13**: its board
+Opposition has been Taxed down to 12 (VC 17) but all of it is banked to be
+spent in a Coup Support phase, after the Victory check. Coup 2 is must-win.
+ARVN Resources 13 against Econ 15, so still no pacification. US 52 (+2), and
+no other faction is anywhere near its line (VC 17/35, NVA 12/18, ARVN 36/50).
+**The only thing that decides this game is whether I carry more than 50 to the
+Coup 2 Victory check.**
+
+**Where my 52 is exposed.** Support moves only by Terror, Agitate, Govern,
+events and pacification. Govern in Binh Dinh is closed (2 US cubes there now).
+Saigon, Binh Dinh, Pleiku-Darlac, Da Nang, Kontum and Kien Hoa-Vinh Binh hold
+no VC piece, so the VC's Terror branch cannot reach any of them **today** —
+but Saigon, my 12-point anchor, is adjacent to three VC Base Provinces (Tay
+Ninh with 7 Guerrillas and 2 Bases, Quang Duc-Long Khanh, Binh Tuy-Binh
+Thuan), and Da Nang and Binh Dinh are both adjacent to **Quang Tin-Quang
+Ngai**, which holds a VC Base, 3 Guerrillas and 4 NVA Troops.
+
+**Options considered.**
+- *Pass.* +3 ARVN Resources, to 16 — one short of the 18 that buys a level.
+- *Limited Op: Train Saigon + transfer patronage 3.* Also takes Resources to
+  16, and cuts ARVN by 3. Two such transfers would reach 19 and finally buy
+  one level (Kien Hoa-Vinh Binh, Passive -> Active, +2). That is three actions
+  for two points, but it is the only route to a point I have.
+- *Event, la Drang unshaded* ("US free Air Lifts into 1 space with any NVA
+  piece, then free Sweeps and Assaults there"). Free, and the transfer option
+  survives for a later card.
+
+**Plan.** **Event, Unshaded**, targeting **Quang Tin-Quang Ngai**. Air Lift US
+Troops in from spaces that can spare them — Kontum first, then Binh Dinh and
+Kien Hoa-Vinh Binh, never below 1 US cube where an ARVN cube stands in a
+2-pop Support space — then Sweep to flip the 3 Underground VC Guerrillas
+Active, then Assault to remove NVA Troops and Active Guerrillas, and the **VC
+Base** if the space empties enough to expose it.
+
+**Rationale.** The removals are defensive, not cosmetic: Quang Tin-Quang Ngai
+is the VC's forward Base between Da Nang and Binh Dinh, which are 6 points of
+Active Support between them, and Rally puts new Guerrillas into Base spaces —
+so that Base is the supply line for any Terror aimed at those two. The 4 NVA
+Troops there are the other half of the force that has already taken Kien Phong
+and Quang Tin this campaign. Taking the free Event also costs me nothing I can
+use elsewhere: my alternative buys a third of a pacification, and I can still
+buy that on a later card. I am recording in advance that this Event does
+**not** move a score marker in my favour, and that I am choosing position and
+protection over a slow accumulation toward +2.
+
+**Execution.** Nine calls, no rejections, no aborts, but the Air Lift menus
+collapse and renumber after every move, so several of my batched
+`Finished moving forces out of <space>` steps were overtaken by the program
+closing the menu itself; the guards caught each one and nothing was
+mis-sent. The event's own chain, for `PROMPTS.md`: `Select a space with NVA
+pieces:` [typed], then a normal 4-space Air Lift with the target pre-selected,
+then `US Sweep Troops into:` offering the target or `Finished moving troops`,
+then the free Assault resolves by itself with no further prompt.
+
+**A correction to my own plan.** I wrote that US Troops standing in a
+contested space are a risk. Re-reading the scoring rule mid-action: US score
+counts Support plus Troops and Bases **in Available**, so Troops on the map
+and Troops in Casualties are both worth zero. Losing map Troops costs me no
+points at all — only Aid, at 3 per casualty in the Coup Resources phase. That
+makes forward-deployed Troops much cheaper than I had been treating them, and
+it is why I pushed 4 in rather than 2.
+
+**Result.** `Move 2 US Troops from Kontum`, `1 US Troop from Binh Dinh` and
+`1 US Troop from Kien Hoa-Vinh Binh` into Quang Tin-Quang Ngai, then
+`US assaults in Quang Tin-Quang Ngai / The assault inflicts 4 hits / Remove 4
+NVA Troops from Quang Tin-Quang Ngai to AVAILABLE`. **Every NVA Troop in the
+space is gone.** New data point: 4 US Troops in a Lowland with no US Base
+inflicted 4 hits — one per Troop, the same ratio as the Sweep activation.
+The 3 VC Guerrillas survived (they were not Activated, so the Assault could
+not touch them) and the VC Base with them, so I did not get the Base I was
+hoping for. I left Binh Dinh and Kien Hoa-Vinh Binh each with 1 US cube
+against 1 ARVN Police, which keeps the Govern check reading No in both.

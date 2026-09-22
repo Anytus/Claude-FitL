@@ -78,3 +78,19 @@
 2026-09-22T17:18:05	Bash	python3 tools/ctl.py seq \  "*=>Select an Air Lift space" \  "Air Lift in which 	232	1898
 2026-09-22T17:18:11	Bash	python3 tools/ctl.py seq \  "Lift forces to which space=>Binh Dinh" \  "*=>Air L	214	2119
 2026-09-22T17:18:18	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Saigon" \  "*=>Fin	232	5788
+2026-09-22T17:18:32	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	2048	7975
+2026-09-22T17:18:43	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -32	117	14988
+2026-09-22T17:18:57	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Laos/,/--- Trackers/p' && python3 to	209	1703
+2026-09-22T17:19:18	Bash	cat >> journal.md <<'EOF'  ## Turn 10 — card #6 Aces — ARVN's event, my Air Stri	1988	3850
+2026-09-22T17:19:22	Bash	python3 tools/ctl.py seq "Air Strike=>Remove insurgents" 2>&1 | tail -20	142	876
+2026-09-22T17:19:26	Bash	python3 tools/ctl.py send 6 2>&1 | tail -20	94	4863
+2026-09-22T17:19:43	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	1654	12398
+2026-09-22T17:19:49	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers/,/--- Casualties/p;/--- Seq	169	647
+2026-09-22T17:21:27	Bash	cat >> journal.md <<'EOF'  ## Turn 11 — card #44 la Drang — before save-047 **Si	3307	5440
+2026-09-22T17:21:32	Bash	python3 tools/ctl.py seq "Select a space with NVA pieces=>Quang Tin-Quang Ngai" 	158	1660
+2026-09-22T17:21:41	Bash	python3 tools/ctl.py seq \  "*=>Select an Air Lift space" "Air Lift in which spa	351	2599
+2026-09-22T17:21:50	Bash	python3 tools/ctl.py seq \  "*=>Lift forces out of Kontum" "Lift forces to which	745	2516
+2026-09-22T17:22:10	Bash	python3 tools/ctl.py seq \  "*=>Lift forces out of Binh Dinh" "Lift forces to wh	249	2105
+2026-09-22T17:22:18	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Binh Dinh" \  "*=>	309	2444
+2026-09-22T17:22:23	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Kien Hoa-Vinh Binh	189	2058
+2026-09-22T17:22:36	Bash	python3 tools/ctl.py seq "*=>Finished moving troops" 2>&1 | tail -22	144	6573

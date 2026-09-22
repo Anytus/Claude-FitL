@@ -15,3 +15,5 @@
 - report-035-036.md: #55 - Trucks
 - report-037-040.md: #7 - ADSID
 - report-041-043.md: #34 - SA-2s
+- report-044-046.md: #6 - Aces
+- report-047-049.md: #44 - la Drang

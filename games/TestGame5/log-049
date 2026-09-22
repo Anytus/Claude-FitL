@@ -1,0 +1,122 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #44 - la Drang (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: la Drang",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nUS performs free Air Lift into Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Move 2 US Troops from Kontum to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Binh Dinh to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Kien Hoa-Vinh Binh to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS performs free Sweep into Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nActivating guerrillas in Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 3 VC Underground Guerrillas in Quang Tin-Quang Ngai to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nUS performs free Assault in Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS assaults in Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 4 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 4 NVA Troops from Quang Tin-Quang Ngai to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}
