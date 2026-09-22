@@ -804,3 +804,169 @@ for a **US** Assault here, so that note is too broad — on this evidence the
 bonus belongs to ARVN Assaults, including ARVN Assaults through Advise, and
 not to the US's own. Aid stays at 18. Binh Dinh's VC Guerrilla also survives,
 since Advise was the tool meant for it.
+
+## Turn 13 — card #38 McNamara Line — before save-057
+**Situation.** The NVA is Ineligible, so although the order reads NVA, US, VC,
+ARVN I am effectively **first eligible** with the full menu. The NVA has taken
+**Quang Tri-Thua Thien** outright (NVA Control, 4 Troops) and my Troop and
+Irregular there are in Casualties. ARVN Resources 4, Econ 15, Aid 18,
+Patronage 7, VC Agitate Total 13. US 46 (-4).
+
+**Facing the arithmetic squarely.** I need more than 50 at the Coup 2 Victory
+check. Support is my only lever before then and pacification needs ARVN
+Resources of at least 18; ARVN has 4 and earns nothing until the Coup's own
+Resources phase, which runs *after* the Victory check. **I am not going to win
+at Coup 2.** So from this card the object changes: build the best possible
+position for the **Coup 2 Support phase** — which happens after that check and
+funds Coup 3 — and blunt the VC's banked 13 points of Agitation.
+
+**What the Coup 2 Support phase will pay.** It pacifies up to 4 spaces on the
+strict test: COIN Control **and** US Troops **and** ARVN Police. ARVN will
+hold roughly Econ 15 + Aid 18 = 33 Resources by then, about 7 levels' worth.
+Spaces that already qualify: **Saigon** (Passive -> Active, **+6**) and
+**Kien Hoa-Vinh Binh** (Passive -> Active, +2). Spaces one US Troop short:
+**Hue** (Neutral pop 2, ARVN Police present, Uncontrolled only because 1 VC
+Guerrilla ties it — a US Troop gives COIN Control and makes it **+4**) and
+**Quang Nam** (Neutral pop 1, already COIN Control with ARVN Police, **+2**).
+That is a 14-point Support phase if I spend this card setting it up.
+
+**Options considered.**
+- *Event (McNamara Line, single-text).* "Redeploy all COIN forces outside
+  Vietnam to COIN-Controlled Cities. ARVN Resources -12. No Infiltrate or
+  Trail Improvement by Rally until Coup." I have no COIN forces outside
+  Vietnam, so the redeploy is a no-op; the -12 takes ARVN to 0 and the
+  Momentum blocks NVA Infiltrate. I will not play it — but I am also **not
+  going to deny it with an Op Only**, because if ARVN takes it the NVA loses
+  Infiltrate and Trail improvement for the rest of the campaign, and ARVN's 4
+  Resources are worthless to me either way.
+- *Op + Special Activity*, spent on the Coup 2 Support phase setup.
+
+**Plan.** **Op + Special Activity.**
+- **Op: Assault in Binh Dinh** — 1 US Troop against the 1 VC **Active**
+  Guerrilla that has appeared there. Binh Dinh is 4 points of Active Support
+  and that Guerrilla is what lets the VC spend Agitate Total on it.
+- **Special Activity: Air Lift**, four spaces — Quang Tin-Quang Ngai, Da Nang,
+  Hue, Quang Nam. Move **1 US Troop Da Nang -> Hue** and **1 US Troop Quang
+  Tin-Quang Ngai -> Quang Nam**. Each origin keeps a Troop, so Quang
+  Tin-Quang Ngai holds its COIN Control and stays Train-pacifiable, and Da
+  Nang keeps a cube beside its ARVN Police.
+Expected: no score marker moves this card. Hue gains COIN Control and both Hue
+and Quang Nam become strict-test targets, taking the Coup 2 Support phase from
+8 points to 14.
+
+**Rationale.** This is the first card of a rebuilt plan, and it buys nothing
+today on purpose. The Coup 2 check is lost; what is still winnable is Coup 3,
+and the two things that decide it are how much Support I can buy in the Coup 2
+Support phase and how much of the VC's 13-point Agitate Total finds a VC piece
+standing in one of my Support spaces. One Air Lift converts two spaces from
+worthless at the Coup to +6 between them, and one Assault takes the last VC
+piece out of my best Province.
+
+**Execution — the Op was wasted, and that is on me.** Choosing Assault
+printed `Spaces Assaulted: none / There are no spaces eligible for Assault`.
+Binh Dinh's VC Guerrilla had flipped back **Underground** between the render I
+planned from and my turn, and Assault removes only Active Guerrillas, so there
+was no legal target anywhere. I had the option to `abort` and re-enter with a
+different operation at no cost, and I chose not to: Air Lift was the only tool
+that could reach both Hue (a City) and Quang Nam (a Province), Patrol can only
+deliver to Cities and LoCs, and no other operation produced anything either
+with ARVN at 4 Resources. So I spent the Operation on nothing and kept the
+Special Activity, which was the part that mattered. The lesson to carry: check
+Underground/Active status at the prompt, not from a render taken before the
+bots moved.
+
+**Result.** The Air Lift did its job. `Move 1 US Troop from Da Nang to Hue` —
+and immediately `Move the 'COIN Control + Patronage' marker from 30 to 32`,
+because that Troop broke the 1-v-1 tie with the VC Guerrilla and gave **COIN
+Control of Hue**. `Move 1 US Troop from Quang Tin-Quang Ngai to Quang Nam`.
+Both spaces now hold COIN Control, a US Troop and an ARVN Police, which is the
+strict test, so the Coup 2 Support phase should offer Saigon (+6), Hue (+4),
+Kien Hoa-Vinh Binh (+2) and Quang Nam (+2) — 14 points where it would have
+offered 8. Quang Tin-Quang Ngai and Da Nang each kept a US Troop, so neither
+lost Control. US unchanged at 46.
+
+## Turn 14 — card #25 TF-116 Riverines — before save-061 (last card before Coup 2)
+**Situation.** `#125 Coup! Nguyen Khanh` is **on deck**, so this is the last
+event card of campaign 2. ARVN Resources 4 against Econ 15, so no pacification
+is possible: **US goes to the Coup 2 Victory check on 46 and cannot win it.**
+ARVN took **General Lansdale shaded** (Patronage +3), whose Momentum reads
+"No US Assault until Coup", so Assault is closed to me this card. I am first
+eligible; the VC is the only other eligible faction, so it will get an action
+whatever I do and there is no denial to buy.
+
+**What this card is for.** The Coup 2 Support phase, which runs after the
+Victory check and is the platform for Coup 3. The strict test is COIN Control
++ US Troops + ARVN Police, and last card's Air Lift bought two of the four
+slots. The four spaces and what they will pay:
+Saigon Passive -> Active **+6** (1 level), Hue Neutral -> Active **+4** (2),
+Kien Hoa-Vinh Binh Passive -> Active **+2** (1), Quang Nam Neutral -> Active
+**+2** (2). Six levels, 18 Resources; ARVN will hold about Econ 15 + Aid 18 =
+33 by then, leaving 15, exactly at the floor. So **the full +14 is already
+affordable** — I do not need more Aid to pay for it.
+
+**The threat to it.** In the Coup Support phase the US pacifies first, then
+ARVN, then the **VC spends its Agitate Total of 13**, and Agitate needs a VC
+piece in the space. Two of my spaces hold one: **Hue** (1 Underground
+Guerrilla, about to become a +4) and **Binh Dinh** (1 Active Guerrilla, 4
+points of Active Support already). Between them that is up to 8 points the VC
+can take straight back after I have paid for them.
+
+**Options considered.**
+- *Event, TF-116 Riverines unshaded.* Its free Sweeps and Assaults reach only
+  the Mekong Lowlands in IV Corps, which is not where my problem is, and
+  breaking NVA Control there is worth nothing to me with the NVA on 12.
+  Declining it hands the VC its Performed/Shaded side — 2 Guerrillas per
+  Mekong LoC and sabotage — but sabotage *lowers Econ*, which lowers the floor
+  my own pacification has to stay above, and Guerrillas parked on LoCs are not
+  in any space the VC can Agitate. I am content to let it have it.
+- *Air Lift* as the Special Activity, to move an ARVN Police from Saigon into
+  Quang Tin-Quang Ngai and make it a fifth candidate (+4 in place of Quang
+  Nam's +2, so +2 net).
+- *Advise*, to clear Binh Dinh. Worth 4 rather than 2 — if it is offered at
+  all. It was **absent** from the menu last card, and ARVN's Resources are
+  unchanged at 4, which is my suspected cause.
+
+**Plan.** **Op + Special Activity.**
+- **Op: Train in Saigon**, `Do not place forces`, **Transfer patronage 3**
+  (Patronage 10 -> 7, ARVN 35 -> 32, ARVN Resources 4 -> 7). Those 3 Resources
+  survive into the Coup, where they buy a seventh level.
+- **Special Activity: Advise** — `Use Irregular/Ranger to remove enemy pieces`
+  in **Binh Dinh** (2 Underground Irregulars there against the VC Guerrilla),
+  a second Advise space if one is worth taking, then **yes** to the +6 Aid.
+- **Fallback if Advise is absent again:** Air Lift an ARVN Police from Saigon
+  to Quang Tin-Quang Ngai, for +2 in the Support phase.
+
+**Rationale.** Protecting a pacification I am about to pay for is worth as
+much as making a new one, and Binh Dinh is 4 points that the VC's Agitate
+Total can reach the moment I stop it holding a US-only garrison. The patronage
+transfer is small but it is the only thing a Train in Saigon can do at 4
+Resources, it takes 3 points off ARVN, and every Resource carried into the
+Coup is a third of a pacification level there.
+
+**Execution.** Five calls, no rejections, no aborts. **Advise was offered
+this time**, with `Assault a space with ARVN forces` and `Use Irregular/Ranger
+to remove enemy pieces` on the menu. The only thing that changed since last
+card's absence is ARVN's Resources, 4 then and 7 now (my own transfer had just
+raised them), which supports the guess I recorded last turn: Advise appears to
+need ARVN Resources it can spend. Worth testing again rather than treating as
+established.
+
+The second Advise space was a disappointment I should have priced better. The
+ARVN Assault list offered only Quang Nam and Quang Tri-Thua Thien — Hue was
+absent because its VC Guerrilla is Underground and Assault takes only Active
+ones. I chose Quang Nam to clear the 1 NVA Troop threatening a Coup target,
+and `The assault inflicts 0 hits / No insurgent pieces were removed`. One US
+Troop, one ARVN Police and one Active Ranger in a Highland is not enough for a
+hit, which matches TestGame1's 2 Police in Highland for 0. I should have read
+that from the existing data instead of spending the slot.
+
+**Result.** `Remove 1 VC Active Guerrilla from Binh Dinh to AVAILABLE` — Binh
+Dinh's 4 points of Active Support now hold no VC piece, so the Agitate Total
+cannot reach them. `Decrease Patronage by -3 to 7` / `Move the 'COIN Control +
+Patronage' marker from 35 to 32` / `Increase ARVN resources by +3 to 7`, and
+Aid +6. US unchanged at 46, going to the Victory check where it will lose, as
+expected. **Hue's Underground VC Guerrilla survives** — nothing in my toolkit
+this card could remove an Underground Guerrilla except the Irregular/Ranger
+removal, and Hue holds neither an Irregular nor a Ranger. That is the one hole
+in the Coup plan: I will pacify Hue for +4 and the VC may Agitate part of it
+straight back.

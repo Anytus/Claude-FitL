@@ -27,3 +27,5 @@ card #34 SA-2s: Op Assault (Saigon 3 VC Guerrillas, Pleiku 2 NVA Troops) + Air L
 card #6 Aces: US ineligible, but ARVN unshaded handed me the free Air Strike — 6 NVA Troops off the Parrot Beak, Trail to 1.
 card #44 la Drang: Event unshaded into Quang Tin-Quang Ngai — 4 NVA Troops removed, VC forward base neutered
 card #89 Tam Chau: Op Assault x2 + Air Lift — VC Bases removed from Quang Tin and Saigon, VC 18->16
+card #18 Combined Action Platoons / #78 General Lansdale: US ineligible or squeezed out; ARVN took Lansdale shaded (no US Assault until Coup).
+card #25 TF-116 Riverines: Train Saigon transfer + Advise cleared Binh Dinh — Coup 2 Support phase set up for +14

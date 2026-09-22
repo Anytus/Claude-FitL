@@ -104,3 +104,19 @@
 2026-09-22T17:25:24	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Quang Tin-Quang Ng	208	1868
 2026-09-22T17:25:28	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>S	176	7178
 2026-09-22T17:25:31	Bash	grep -nE "assaults in Saigon|inflicts|Remove .*Base|Aid by" transcript.log | tai	152	380
+2026-09-22T17:25:53	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	2959	10790
+2026-09-22T17:26:01	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -28	117	16925
+2026-09-22T17:26:16	Bash	python3 tools/render.py 2>&1 | sed -n '/Sequence of play/,/Ineligible next/p;/--	269	1399
+2026-09-22T17:27:43	Bash	cat >> journal.md <<'EOF'  ## Turn 13 — card #38 McNamara Line — before save-057	3916	6167
+2026-09-22T17:28:18	Bash	python3 tools/ctl.py seq \  "US Assault=>Perform a Special Activity" \  "Choose 	500	3637
+2026-09-22T17:28:25	Bash	python3 tools/ctl.py seq \  "*=>Lift forces out of Da Nang" "Lift forces to whic	233	2206
+2026-09-22T17:28:35	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Da Nang" \  "*=>Li	295	2467
+2026-09-22T17:28:40	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Quang Tin-Quang Ng	249	5854
+2026-09-22T17:28:59	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	1794	19471
+2026-09-22T17:29:33	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers/,/Casualties/p;/--- Capabil	309	1785
+2026-09-22T17:31:00	Bash	cat >> journal.md <<'EOF'  ## Turn 14 — card #25 TF-116 Riverines — before save-	4174	7894
+2026-09-22T17:31:05	Bash	python3 tools/ctl.py seq "special activity=>y" "Choose special activity=>Advise"	144	1936
+2026-09-22T17:31:14	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	192	1866
+2026-09-22T17:31:22	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space with ARVN forces	160	1136
+2026-09-22T17:31:33	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>Quang Nam" 2>&1 | tail -1	142	1390
+2026-09-22T17:31:37	Bash	python3 tools/ctl.py seq "add +6 Aid=>y" 2>&1 | tail -16	107	6211

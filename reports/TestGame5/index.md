@@ -19,3 +19,7 @@
 - report-047-049.md: #44 - la Drang
 - report-050-052.md: #18 - Combined Action Platoons
 - report-053-056.md: #89 - Tam Chau
+- report-057-059.md: #53 - Sappers
+- report-060-062.md: #38 - McNamara Line
+- report-063-065.md: #78 - General Lansdale
+- report-066-067.md: #25 - TF-116 Riverines

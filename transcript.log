@@ -2340,4 +2340,631 @@ Adjust eligiblity
 
 Draw event card
 ----------------------------------------------------
-Enter the number of the next On Deck Event card: 
+Enter the number of the next On Deck Event card: 38
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #53 - Sappers (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+Eligible      : NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - Q
+Trung check: 2d6 <= Available NVA Guerrillas (9): 7 [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]
+
+NVA chooses Attack operation
+====================================================
+
+NVA Attacks in Quang Tri-Thua Thien using Troops
+----------------------------------------------------
+[35mRemove 1 US Troop from Quang Tri-Thua Thien to CASUALTIES[0m
+[35mRemove 1 US Underground Irregular from Quang Tri-Thua Thien to CASUALTIES[0m
+[35mRemove 1 ARVN Troop from Quang Tri-Thua Thien to AVAILABLE[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 1 NVA Troop from Quang Tri-Thua Thien to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA chooses Ambush special activity
+====================================================
+
+NVA Ambushes in LOC Hue -- Khe Sanh, targeting Hue
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Hue -- Khe Sanh to ACTIVE[0m
+[35mRemove 1 ARVN Police from Hue to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 32 to 30[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #53 - Sappers (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+Eligible      : ARVN
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Sappers
+----------------------------------------------------
+
+[35mRemove 2 NVA Troops from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mRemove 2 NVA Troops from Kien Phong to AVAILABLE[0m
+[35mRemove 2 NVA Troops from Kien Giang-An Xuyen to AVAILABLE[0m
+
+ARVN will remain eligible for the next card
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 78
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US, VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+There are no spaces eligible for Assault
+
+US Assault:
+====================================================
+1) Perform a Special Activity
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Da Nang
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Tin-Quang Ngai
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Hue, Quang Tin-Quang Ngai
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Lift forces out of Quang Tin-Quang Ngai
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Nam
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Hue, Quang Tin-Quang Ngai, Quang Nam
+
+Select one:
+====================================================
+1) Lift forces out of Da Nang
+2) Lift forces out of Quang Tin-Quang Ngai
+3) Lift forces out of Quang Nam
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Quang Tin-Quang Ngai
+3) Quang Nam
+4) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Da Nang to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Da Nang to Hue[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 30 to 32[0m
+
+Air Lifting forces from Da Nang to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 2
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Hue, Quang Tin-Quang Ngai, Quang Nam
+
+Select one:
+====================================================
+1) Lift forces out of Da Nang
+2) Lift forces out of Hue
+3) Lift forces out of Quang Tin-Quang Ngai
+4) Lift forces out of Quang Nam
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 3
+
+Lift forces to which space:
+====================================================
+1) Da Nang
+2) Hue
+3) Quang Nam
+4) Do not move forces now
+----------------------------------------------------
+Selection: 3
+
+Air Lifting forces from Quang Tin-Quang Ngai to Quang Nam
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Quang Tin-Quang Ngai
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Quang Tin-Quang Ngai to Quang Nam[0m
+
+Air Lifting forces from Quang Tin-Quang Ngai to Quang Nam
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Quang Tin-Quang Ngai
+----------------------------------------------------
+Selection: 2
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Hue, Quang Tin-Quang Ngai, Quang Nam
+
+Select one:
+====================================================
+1) Lift forces out of Da Nang
+2) Lift forces out of Hue
+3) Lift forces out of Quang Tin-Quang Ngai
+4) Lift forces out of Quang Nam
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 5
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+There are no spaces eligible for Assault
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : VC, ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Kontum -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from LOC Saigon -- An Loc -- Ban Me Thuot to LOC Kontum -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 25
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #25 - TF-116 Riverines (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Shaded Event: General Lansdale
+----------------------------------------------------
+[34mIncrease Patronage by +3 to 10[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 32 to 35[0m
+[31m
+Momentum: '#78 General Lansdale' is now in play[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #25 - TF-116 Riverines (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (28): 9 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Southern Laos
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Southern Laos to AVAILABLE[0m
+[35mPlace 5 NVA Troops from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mPlace 3 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Kontum -- Dak To as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Southern Laos to LOC Kontum -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Northeast Cambodia as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from Southern Laos to Northeast Cambodia[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Northeast Cambodia[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 125
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #25 - TF-116 Riverines (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Saigon
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Transfer patronage to ARVN resources
+3) Perform a Special Activity
+4) Finished with Train operation
+----------------------------------------------------
+Selection: 2
+Transfer how much patronage to ARVN resources (0 - 3): 3
+
+[34mDecrease Patronage by -3 to 7[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 32[0m
+[34mIncrease ARVN resources by +3 to 7[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space:  Binh Dinh
+
+Advise in Binh Dinh using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Binh Dinh to ACTIVE[0m
+[35mRemove 1 VC Active Guerrilla from Binh Dinh to AVAILABLE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Assault in which space: 
+====================================================
+1) Quang Nam
+2) Quang Tri-Thua Thien
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+ARVN assaults in Quang Nam
+----------------------------------------------------
+The assault inflicts 0 hits
+
+No insurgent pieces were removed in the assault
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh, Quang Nam
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 24[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #25 - TF-116 Riverines (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : VC
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): 
