@@ -82,8 +82,8 @@ the physical bot cards, so they are fair.
   (after the first time), `rollback`, or `adjust`. Never edit anything under
   `games/`. Rollback is Kevin's tool, used between sessions.
 - **Never compute scores or control by hand.** Run `render.py`.
-- **Write the full plan in `journal.md` before you send the first answer**
-  of your action to the program.
+- **Write the plan in `journal.md` before you send the first answer** of
+  your action to the program. Keep it short (see the entry format below).
 - **Report every rejected answer** verbatim, and what you did instead. Never
   silently retry.
 - **Never retype or paraphrase the program's narration.** Kevin updates
@@ -163,7 +163,7 @@ For each card:
       neighbours of your spaces, and what the bots have done this card (the
       narration just above it). `map.py <space>` for any other neighbours;
       `ctl.py brief` if you need the briefing again.
-   b. Write the plan entry in `journal.md` (format below).
+   b. Write the plan entry in `journal.md` (brief; format below).
    c. Execute the plan with **one** `seq` call containing every step from
       `perform` to the end of the action, written from the chains in
       `PROMPTS.md`; if it stops, read the prompt it printed and continue
@@ -214,8 +214,8 @@ Fixed order, so Kevin can update the board without hunting:
 2. **Per faction action**, in the order they occurred: one line each with
    the faction and the action taken (Event unshaded/shaded, Op, Op +
    Special Activity, LimOp, Pass) and its one-sentence outcome. For your
-   own action: the plan and rationale in a short paragraph (the full entry
-   is in `journal.md`), plus every rejection, stop and deviation.
+   own action: the plan and the reason in two or three sentences, plus
+   every rejection, stop and deviation.
 3. **Coup round**, when one occurred: your Coup-phase decisions and their
    rationale, one line per phase outcome.
 4. **Report file** — the path `advance` printed (`wrote reports/...`). That file holds the
@@ -235,22 +235,25 @@ cards appear in the report exactly as `advance` printed them.
 
 ## Journal entry format (`journal.md`)
 
+**Be brief.** The journal is a record of decisions, not an essay. A normal
+entry is five to ten lines; never more than fifteen. The briefing and the
+report file already hold the board, so do not describe it. Do not list
+options you did not seriously weigh; the ones you did get one line each.
+
 ```
 ## Turn <k> — card #<n> <title> — before save-<NNN>
-**Situation.** 2–4 sentences: what the bots did this card, what matters now.
-**Options considered.** Brief; include the event's unshaded text if relevant.
-**Plan.** Action (Event / Op / Op + SA / LimOp / Pass). Operation. Spaces in
-order. Piece counts per space. Special activity and its targets. Expected
-effect on Support, Control, Available, and the US score.
-**Rationale.** One paragraph.
-**Execution.** Every prompt you were unsure about, every rejection verbatim,
-every abort, every deviation from the plan.
-**Result.** One line: what `diff.py` and `render.py` show versus what you
-expected.
+**Plan.** One line: action (Event / Op / Op + SA / LimOp / Pass), operation,
+spaces and piece counts, special activity and its targets.
+**Why.** One to three lines: the reason, and the expected effect on the US
+score or the rivals'. A rejected alternative gets one line, if any.
+**Execution.** Rejections verbatim, aborts and deviations only; otherwise
+the single word "none".
+**Result.** One line: what happened versus what you expected.
 ```
 
-Coup-round decisions and pivotal-event decisions get shorter entries with
-the same headings.
+Coup-round decisions and pivotal-event decisions get the same four lines.
+If a card teaches you a mechanic, one line for it belongs in **Execution**,
+not a paragraph.
 
 `notes.md` gets one line per turn:
 `card #<n> <title>: <action in a few words> — <why, ten words or fewer>`.
