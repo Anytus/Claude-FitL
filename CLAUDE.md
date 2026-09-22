@@ -23,13 +23,10 @@ any Coup Victory phase is allowed.
    `archive/`; they are not this game, and you do not need to read them.
 2. `python3 tools/ctl.py status`.
    - If `running: True`: `python3 tools/ctl.py read` to see anything pending.
-   - If `running: False` and `games/TestGame5` exists: `python3 tools/ctl.py resume TestGame5`.
-     The container was reclaimed. The program reloads the **latest save**.
-     Every completed faction action, Coup round, and card draw is saved
-     the moment it finishes, so at most a half-entered action of yours is
-     lost. Append a line to `notes.md` saying you resumed, tell Kevin which
-     save you resumed from, and run `report.py` so anything Kevin has not
-     yet seen is in a report file.
+   - If `running: False` and `games/TestGame5` exists: `python3 tools/ctl.py resume TestGame5`
+     (the container was reclaimed; the latest save reloads). Note the resume
+     in `notes.md`, tell Kevin which save you resumed from, and run
+     `report.py`.
    - If `games/TestGame5` does not exist: `python3 tools/ctl.py new-game TestGame5`,
      then `python3 tools/ctl.py advance`, which draws the first two cards and
      runs the bots up to the first decision. This happens once.
@@ -78,11 +75,7 @@ fair. For adjacency, `python3 tools/map.py <space>` (or `map.py <space>
 - **Report every rejected answer** verbatim, and what you did instead. Never
   silently retry.
 - **Never retype or paraphrase the program's narration.** Kevin updates
-  the physical board from the program's own lines. `report.py` writes them
-  into a report file for every save since the last report; your reply
-  points at that file. Do not paste narration or `diff.py` output into
-  chat, and never describe a board change in your own words in place of
-  the program's line.
+  the board from the report file; your reply points at it.
 - **Run `ctl.py commit-turn` after every card** so nothing is lost if the
   container is reclaimed.
 
@@ -164,12 +157,10 @@ Fixed order, so Kevin can update the board without hunting:
    every rejection, stop and deviation.
 3. **Coup round**, when one occurred: your Coup-phase decisions and their
    rationale, one line per phase outcome.
-4. **Report file** — the path `advance` printed (`wrote reports/...`). That file holds the
-   program's narration for every segment and the board summary; it is
-   what Kevin updates the board from.
-5. **Trackers and scores** — paste the `--- Trackers ---` and `--- Scores ---`
-   sections of `render.py`, plus the `--- Sequence of play ---` section.
-6. **Stopped at** — exactly one of:
+4. **Report file** — the path `advance` printed (`wrote reports/...`). It
+   holds the program's narration for every segment, then the trackers,
+   sequence of play and scores.
+5. **Stopped at** — exactly one of:
    - "Stopped after card #<n>. Current card #<a>, on deck #<b>. Say
      'continue' for one more card, or how far to play."
    - "Stopped inside card #<n> at <prompt>, because <reason>." (only if
