@@ -141,8 +141,7 @@ space one of:
 - **ARVN Assault.** An Assault by the ARVN cubes in the space, LoCs
   included: about 1 hit per 2 ARVN cubes in a City, fewer in Highland; an
   undefended Base is a legal target.
-Afterwards the US may take +6 Aid, and each Base removed during the Advise
-adds a further +6 Aid, whichever option removed it.
+Afterwards the US may voluntarily add +6 Aid.
 A space used for Advise cannot be used for Train in the same action.
 
 **Air Lift.** Up to 4 spaces (2 in Monsoon), any distance apart. Moves US
@@ -176,7 +175,8 @@ level toward Active Opposition (Laos and Cambodia have population 0).
 - Events that bring pieces from Out of Play ask per space and per piece
   type, including whether to place a Base.
 - When an event makes the US lose pieces, the US chooses which.
-- A Base removed by an Assault or during an Advise adds +6 Aid.
+- Any ARVN Assault that removes a Base adds +6 Aid, whether the Assault
+  comes from an ARVN Op, an Advise, or an event.
 
 ## 5. Coup round, phase by phase
 
