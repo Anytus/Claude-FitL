@@ -1,0 +1,310 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #118 - Korean War Arms (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #50 - Uncle Ho (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - J",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - M",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Control + NVA Bases >= 14? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - L",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (26): 11 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Saigon for Train",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 2 ARVN Underground Rangers from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Hue for Train",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 18",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 3 ARVN Troops from AVAILABLE into Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 3 ARVN Police from AVAILABLE into Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nARVN Pacifies 1 level in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "Place Passive Support marker in Hue",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 42 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "\nLeader: Duong Van Minh effect triggers",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Increase US Aid by +5 to 32",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN chooses Govern special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN Governs in Cam Ranh (population: 1)",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Transfer population value from Aid to Patronage",
+      "color": null
+    },
+    {
+      "text": "Decrease US Aid by -1 to 31",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase Patronage by +1 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "Remove Passive Support marker from Cam Ranh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 44 to 43",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 37 to 38",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN Governs in Qui Nhon (population: 1)",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Transfer population value from Aid to Patronage",
+      "color": null
+    },
+    {
+      "text": "Decrease US Aid by -1 to 30",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase Patronage by +1 to 22",
+      "color": "Blue"
+    },
+    {
+      "text": "Remove Passive Support marker from Qui Nhon",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 43 to 42",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 38 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Govern activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

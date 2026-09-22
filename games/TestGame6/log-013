@@ -1,0 +1,118 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #118 - Korean War Arms (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Colonel Chau",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove Passive Support marker from Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Phu Bon-Phu Yen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove Passive Support marker from Khanh Hoa",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Khanh Hoa",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove Passive Support marker from Kien Hoa-Vinh Binh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Khanh Hoa",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove COIN Control marker from Kien Hoa-Vinh Binh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove COIN Control marker from Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 46 to 42",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 41 to 37",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the VC cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

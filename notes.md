@@ -12,3 +12,4 @@ card #1 Gulf of Tonkin: Train Saigon+Pleiku, Pacify Saigon Active, Advise QT+Bin
 card #79 Henry Cabot Lodge: US ineligible (ARVN shaded Event, VC Rally+Subvert)
 - Resumed TestGame6 from latest save (save-007, US turn on card #43) after the program process was found not running.
 card #43 Economic Aid: Pass — keep Eligible for Op+SA on #31
+card #31 AAA: Train Kontum+Binh Dinh, Pacify Kontum Active, Advise Pleiku — +2 while Resources above Econ

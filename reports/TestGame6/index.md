@@ -3,3 +3,6 @@
 - report-006-007.md: #43 - Economic Aid
 - report-008-008.md: #43 - Economic Aid
 - report-009-009.md: #31 - AAA
+- report-010-011.md: #31 - AAA
+- report-012-014.md: #112 - Colonel Chau
+- report-015-016.md: #118 - Korean War Arms

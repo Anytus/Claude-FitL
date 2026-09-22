@@ -16,3 +16,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Only a LimOp is open (worth +2 via Kontum pacify). Passing keeps US Eligible for #31 AAA (NVA, US, ...), where NVA is Critical/Shaded and should take the Event, leaving US a full Op + SA; worst case a LimOp there anyway.
 **Execution.** Program was found not running before the first answer; resumed from latest save (save-007) with ctl.py resume, then passed.
 **Result.** Passed as planned.
+
+## Turn 3 — card #31 AAA — before save-009
+**Plan.** Op + SA: Train Kontum (no placement) and Binh Dinh (last Irregular); Pacify Kontum Neutral→Active; Advise Irregular removal in Pleiku-Darlac (2 VC Guerrillas), +6 Aid.
+**Why.** +2 US for 6 ARVN Resources while they sit above Econ; a fresh Underground Irregular in Binh Dinh for later Advise; Pleiku keeps COIN Control. Rejected: Advise + Assault on the Pleiku VC Base (VC −1, US +0).
+**Execution.** Stop 1: Irregular placement asked "Place how many Irregulars (0 - 2)" though 1 Available; sent 1. Stop 2: pacify step "*=>" did not match the "Pacify:" menu; resent with "Pacify:". Stop 3: Pleiku-Darlac was the only Advise candidate and was auto-selected, so my explicit space step found no menu; finished Advise with send, then y to +6 Aid.
+**Result.** As planned: Kontum Active Support (+2), 2 VC Guerrillas out of Pleiku, Aid 27.
