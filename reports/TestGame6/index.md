@@ -22,3 +22,6 @@
 - report-039-041.md: #82 - Domino Theory
 - report-042-044.md: #76 - Annam
 - report-045-046.md: #59 - Plei Mei
+- report-047-047.md: #59 - Plei Mei
+- report-048-050.md: #81 - CIDG
+- report-051-052.md: #95 - Westmoreland

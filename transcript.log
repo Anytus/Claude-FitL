@@ -2381,4 +2381,215 @@ Eligible      : US
 Acted         : NVA -> Op/Special Activity
 Passed        : none
 Ineligible    : VC, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Plei Mei
+----------------------------------------------------
+
+Remove NVA pieces from which space: 
+====================================================
+1) Binh Dinh
+2) Pleiku-Darlac
+3) Southern Laos
+4) LOC Da Nang -- Dak To
+5) LOC Kontum -- Dak To
+----------------------------------------------------
+Selection: 3
+
+Select NVA pieces to remove:
+----------------------------------------------------
+Select 3 pieces among the following:
+  5 NVA Troops, 6 NVA Underground Guerrillas, 2 NVA Bases
+
+How many NVA Troops (0 - 3): 1
+How many NVA Underground Guerrillas (0 - 2): 0
+[35mRemove 1 NVA Troop from Southern Laos to AVAILABLE[0m
+[35mRemove 2 NVA Bases from Southern Laos to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 17 to 15[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 95
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #81 - CIDG (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Ignored)
+On Deck card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - J
+Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (16): 7 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Da Nang for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 37[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Da Nang[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Da Nang[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Da Nang[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 39[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 3 [Failure]
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Hue (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 33[0m
+[34mIncrease Patronage by +2 to 28[0m
+[33mRemove Passive Support marker from Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 51 to 49[0m
+[34mMove the 'COIN Control + Patronage' marker from 39 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in An Loc (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 32[0m
+[34mIncrease Patronage by +1 to 29[0m
+[33mRemove Passive Support marker from An Loc[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 49 to 48[0m
+[34mMove the 'COIN Control + Patronage' marker from 41 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[31mYoung Turks leader effect triggers[0m
+[34mIncrease Patronage by +2 to 31[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 44[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #81 - CIDG (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Ignored)
+On Deck card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 39
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #39 - Oriskany (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : VC, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+
+VC executes the Shaded Event: Westmoreland
+----------------------------------------------------
+
+[33mPlace Active Opposition marker in Binh Dinh[0m
+[33mFlip Passive Opposition marker in Quang Tin-Quang Ngai to Active Opposition[0m
+[33mFlip Passive Opposition marker in Tay Ninh to Active Opposition[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 26 to 34[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #39 - Oriskany (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : US, NVA
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN
 (perform or ?): 

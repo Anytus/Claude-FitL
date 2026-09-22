@@ -60,3 +60,10 @@
 2026-09-22T23:49:58	Bash	python3 tools/ctl.py seq "Select space to remove=>Da Nang" 2>&1 | grep -v "^\s*$	131	808
 2026-09-22T23:50:01	Bash	python3 tools/ctl.py seq "Remove how many=>1" 2>&1 | grep -v "^\s*$" | tail -16	118	5683
 2026-09-22T23:50:20	Bash	printf '**Execution.** Several stops: the event prompts space by space, then a c	520	14628
+2026-09-22T23:50:32	Bash	python3 tools/ctl.py commit-turn "card #93 Senator Fulbright: Event unshaded, 4 	646	14341
+2026-09-22T23:50:43	Bash	python3 tools/map.py "Pleiku-Darlac" "Southern Laos"; python3 tools/map.py "Saig	126	195
+2026-09-22T23:50:51	Bash	cat >> journal.md <<'EOF'  ## Turn 9 — card #59 Plei Mei — before save-046 **Pla	600	3130
+2026-09-22T23:50:55	Bash	python3 tools/ctl.py seq "*=>Southern Laos" 2>&1 | grep -v "^\s*$" | tail -12	116	1143
+2026-09-22T23:50:59	Bash	python3 tools/ctl.py seq "How many NVA Troops=>1" 2>&1 | grep -v "^\s*$" | tail 	122	819
+2026-09-22T23:51:03	Bash	python3 tools/ctl.py seq "Underground Guerrillas=>0" 2>&1 | grep -v "^\s*$" | ta	125	4958
+2026-09-22T23:51:14	Bash	printf '**Execution.** Stops at the space and per-type counts (answered Troops 1	549	11136

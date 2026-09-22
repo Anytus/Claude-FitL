@@ -24,3 +24,4 @@ card #48 Nam Dong: Pass — stay Eligible for Fulbright unshaded (+4)
 card #93 Senator Fulbright: Event unshaded, 4 Troops to Available — +4 US, no withdrawal shift
 card #82 Domino Theory: US ineligible (ARVN pass, NVA Attack+Bombard Pleiku)
 card #76 Annam: US Eligible but card closed by ARVN Event + VC Terror/Subvert
+card #59 Plei Mei: Event unshaded, 2 NVA Bases + 1 Troop out of Southern Laos — NVA 17→15
