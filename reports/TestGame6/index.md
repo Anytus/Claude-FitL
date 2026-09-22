@@ -13,3 +13,6 @@
 - report-024-024.md: #126 - Coup! Young Turks
 - report-025-025.md: #126 - Coup! Young Turks
 - report-026-028.md: #75 - Sihanouk
+- report-029-029.md: #75 - Sihanouk
+- report-030-032.md: #63 - Fact Finding
+- report-033-034.md: #48 - Nam Dong

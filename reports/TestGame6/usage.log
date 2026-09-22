@@ -43,3 +43,9 @@
 2026-09-22T23:47:24	Bash	python3 tools/ctl.py seq "Move how many=>1" "Choose one=>Move troops" "Move Troo	323	4641
 2026-09-22T23:47:28	Bash	grep -n "Move 1 US Troop" transcript.log | tail -3; python3 tools/ctl.py seq "Ch	181	1562
 2026-09-22T23:47:43	Bash	cat >> journal.md <<'EOF' **Execution.** Quang Tri and Binh Dinh were not offere	698	22701
+2026-09-22T23:47:51	Bash	python3 tools/ctl.py commit-turn "Coup 1 #126 Young Turks: Pacify Hue+Da Nang Ac	387	17379
+2026-09-22T23:48:17	Bash	cat >> journal.md <<'EOF'  ## Turn 6 — card #75 Sihanouk — before save-028 **Pla	790	3897
+2026-09-22T23:48:21	Bash	python3 tools/ctl.py seq "ARVN Troops=>3" "Police=>3" 2>&1 | grep -v "^\s*$" | t	128	2493
+2026-09-22T23:48:25	Bash	python3 tools/ctl.py seq "final Train action=>Pacify" 2>&1 | grep -v "^\s*$" | t	126	1452
+2026-09-22T23:48:28	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" 2>&1 | grep -v "^\s*$" | tail	123	6807
+2026-09-22T23:48:42	Bash	printf '**Execution.** Stops at the ARVN Troops/Police counts and the final-acti	559	12499

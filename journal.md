@@ -46,3 +46,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Can Tho, An Loc and Qui Nhon (COIN, Police, Passive) become next-Coup pacify targets (+1 each); one Troop home is +1 with no withdrawal shift (penalty is per 2). Bigger withdrawals risk a VC shift in Saigon.
 **Execution.** Quang Tri and Binh Dinh were not offered as sources (only COIN-controlled spaces are), so the Troop-to-Available and Binh Dinh moves were dropped; Da Nang 1 → Qui Nhon instead. Rejected: `send Can Tho` → "'Can Tho' is not valid. Must be one of: 1, 2, ... 28"; resent via seq label match.
 **Result.** Saigon → Can Tho 1, An Loc 1; Da Nang → Qui Nhon 1; nothing withdrawn.
+
+## Turn 6 — card #75 Sihanouk — before save-028
+**Plan.** LimOp Train in Pleiku-Darlac: place 6 ARVN cubes (Troops + Police) at the US Base, then Pacify Pleiku Neutral→Active.
+**Why.** NVA sits at 17 of 18; this breaks NVA Control of Pleiku (−1 NVA), gives COIN Control and +2 US for 9 ARVN Resources. Acting also ends the card before VC can take the shaded Event (free Rally/March for VC and NVA). Rejected: LimOp Assault in Pleiku (2 Troops killed, no US gain).
+**Execution.** Stops at the ARVN Troops/Police counts and the final-action menu (seq written only to placement); answered 3 Troops, 3 Police, Pacify, 2 levels. No rejections.
+**Result.** As planned: Pleiku COIN Control and Active Support; US 50, NVA 16.

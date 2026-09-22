@@ -1496,4 +1496,296 @@ Eligible      : US, VC
 Acted         : NVA -> Op/Special Activity
 Passed        : ARVN
 Ineligible    : none
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Pleiku-Darlac
+
+US selects Pleiku-Darlac for Training
+
+Training in Pleiku-Darlac:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 3
+
+Place how many ARVN Troops in Pleiku-Darlac?  (0 - 6): 3
+
+Place how many ARVN Police in Pleiku-Darlac?  (0 - 3): 3
+
+[34mDecrease ARVN resources by -3 to 40[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Pleiku-Darlac[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Pleiku-Darlac[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Pleiku-Darlac to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 38[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 17 to 16[0m
+
+1 space selected for Training
+----------------------------------------------------
+Pleiku-Darlac
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Pleiku-Darlac
+
+Pacifying in Pleiku-Darlac
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Pleiku-Darlac
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Pleiku-Darlac
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 34[0m
+[33mPlace Active Support marker in Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 48 to 50[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 48
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+ARVN executes the Shaded Event: Fact Finding
+----------------------------------------------------
+
+[33mRemove Passive Support marker from Qui Nhon[0m
+[34mIncrease Patronage by +4 to 26[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 50 to 49[0m
+[34mMove the 'COIN Control + Patronage' marker from 38 to 42[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+Eligible      : VC
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - X
+Trung check: Any 2+ Pop space without VC Guerrillas? [Yes]
+Trung check: 3d6 <= Available VC pieces (15): 5 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Quang Tri-Thua Thien for Rally
+----------------------------------------------------
+[35mPlace 3 VC Underground Guerrillas from AVAILABLE into Quang Tri-Thua Thien[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (3): 8 [Yes]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Tay Ninh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 5[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 28 to 26[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 93
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : NVA, US
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]
+
+NVA chooses Attack operation
+====================================================
+
+NVA Attacks in Pleiku-Darlac using Troops
+----------------------------------------------------
+[35mRemove 1 US Troop from Pleiku-Darlac to CASUALTIES[0m
+[35mRemove 2 US Underground Irregulars from Pleiku-Darlac to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 1 NVA Troop from Pleiku-Darlac to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA Attacks in Binh Dinh using Troops
+----------------------------------------------------
+[35mRemove 1 US Troop from Binh Dinh to CASUALTIES[0m
+[35mRemove 2 US Underground Irregulars from Binh Dinh to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 1 NVA Troop from Binh Dinh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA Attacks in Quang Nam using Troops
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Quang Nam to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op Only box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : US
+Acted         : NVA -> Op Only
+Passed        : none
+Ineligible    : ARVN, VC
 (perform or ?): 
