@@ -228,92 +228,52 @@ from then on; the card text says what.
   Control.
 - Support and Opposition persist through changes of Control.
 
-## 7. What the bots did (their operations, as narrated)
+## 7. What the bots can do
 
-The Tru'ng narration prints the bot's checks; they are reliable predictors.
+The program prints every Tru'ng check as it runs, so the narration shows
+which branch a bot took and why. When a branch would be ineffective the bot
+says so and draws again.
 
-**NVA.** `Trung: NVA - S`, `Any 2-Pop space without COIN Control?` -> Rally
-(place Guerrillas, or place a Base by removing 2 Guerrillas), then `improves
-the trail` by 1 (`No trail improvement. The Trail is at 4.` at the cap), then
-Infiltrate (Troops into Laos/North Vietnam, or **replace a VC Base with an
-NVA Base** in a shared space). `Trung: NVA - N/NN`, `8+ NVA Troops in a space
-outside the South?` -> Infiltrate then **March**: 20 Troops can leave Laos in
-one card into three Provinces, with activation rolls between destinations.
-`Trung: NVA - T`, `6+ NVA Troops in any space with COIN Troops or COIN Base?`
--> **Attack with Troops**: removes every US Troop in the space, never the
-Irregulars or Police beside them, and loses the same number of NVA Troops to
-Attrition; then Ambush from an adjacent LoC (`Ambushes in LOC Kontum -- Dak
-To, targeting Binh Dinh`, 1 Active piece removed). `Trung: NVA - R/RR`,
-`Underground NVA Guerrillas in space with Support?` -> **Terror**: flips one
-Guerrilla Active, adds a terror marker, drops Support one level (Passive ->
-Neutral), and can run through six spaces in one Op. Its Special Activity
-whenever `3d6 <= Available NVA Troops` fails is **Bombard**: 1 Troop removed
-from each of 2 spaces, spaces holding no NVA piece at all (US Troops to
-Casualties, ARVN Troops to Available); when that check fails and there is
-nothing to Ambush from, it takes an Op Only instead. Its Redeploy is in
-section 5.
-`Trung: NVA - R` opens with **`Support + Available >= 42?`**: that is *your*
-score marker, so leading the game is itself the trigger that turns the NVA
-toward you, producing Marches into South Vietnam and Bombards against Saigon.
-`Trung: NVA - Q/QQ` runs `2d6 <= Available NVA Guerrillas`, then `d3 >= the
-Trail`, then the Attack check, so a **low Trail makes the NVA Rally rather
-than Attack**. When a branch cannot be executed the program says so and
-draws again (`No spaces found for NVA Attack / The operation for Trung: NVA -
-Q would be ineffective.`), which is a free look at the bot's whole priority
-list. **At Trail 4 the NVA Marches for free outside South Vietnam** (Kevin's
-note), so a stack in the Parrot's Beak can cross the map into Quang Tin in
-one March. Degrading the Trail is worth more than its one box of NVA score.
+**NVA.**
+- **Rally**: places Guerrillas, or a Base in place of 2 Guerrillas; improves
+  the Trail by 1.
+- **Infiltrate**: adds Troops in Laos and North Vietnam, or replaces a VC
+  Base with an NVA Base in a shared space.
+- **March**: large Troop stacks from Laos and Cambodia into South Vietnam,
+  several destinations in one Op. At Trail 4 it marches free outside South
+  Vietnam, so every sanctuary is one move from the border.
+- **Attack** with Troops: strikes the US Troops in the space first, not
+  Irregulars or Police, and loses Troops to attrition. Followed by **Ambush**
+  from an adjacent LoC, removing 1 piece.
+- **Terror**: in spaces with Support and an Underground NVA Guerrilla, adds a
+  terror marker and drops Support one level; can hit many spaces in one Op.
+- **Bombard**: removes 1 COIN Troop in each of up to 2 spaces.
+- Triggers worth watching: a US score (Support + Available) of 42 or more
+  turns the NVA toward the US; a low Trail makes it Rally rather than Attack.
+- The Trail: +1 per NVA Rally, -1 per Air Strike degrade (2 hits), and the
+  Coup Reset (section 5).
 
-**VC.** Critical/Performed shaded events whenever reachable. `Trung: VC - W`,
-`Underground VC Guerrillas in space with US Troops?` -> Rally (4 Guerrillas
-into a Base space at a time) then **Subvert** when `Patronage >= 17`: in each
-of 2 spaces, remove an ARVN Police and place a VC Guerrilla, then Patronage
--1, which undoes a COIN Control built on ARVN Police. `Trung: VC - V/VV`, `3+
-VC Guerrillas in any spaces with US Troops and no VC Base?` -> **Attack**:
-`Die roll 3 Guerrillas): 1 [Success!]`, flips the Guerrillas Active, removes
-2 US Troops, loses 2 Guerrillas to Attrition. Agitate in the Coup as in
-section 5. A VC space with only a Base and no Guerrillas is a free Advise
-target, and an Attack that loses both its Guerrillas to Attrition creates
-exactly that. **Tax** (`Trung: VC - Z`, `15+ VC Guerrillas on the map?`;
-`Spaces exist that can be Taxed?` and `2d6 > Agitate Total`): each Tax flips a
-Guerrilla Active, shifts the space **one level toward Support** and adds 2 to
-the Agitate Total (1 on a LoC). That looks like a gift and is not: it converts
-board Opposition, which you can pacify away, into an Agitate Total that is
-spent in the Coup Support phase **after** the Victory check, where you cannot
-answer it. `Trung: VC - U`, `3+ VC Guerrillas in any space?` and `Underground
-VC Guerrillas in space not at Active Opposition?` -> **Terror**; `Trung: VC -
-X`, `Any 2+ Pop space without VC Guerrillas?` -> Rally; `Trung: VC - Y/YY`
-and `Trung: VC - Z` -> Rally or March.
+**VC.**
+- **Rally**: places Guerrillas, up to 4 at a time into a Base space.
+- **Terror**: adds a terror marker and shifts the space one level toward
+  Active Opposition.
+- **Attack**: with 3+ Guerrillas against US Troops; removes US Troops and
+  loses Guerrillas to attrition, which can leave a Base undefended.
+- **Subvert** (when Patronage is 17 or more): replaces ARVN Police with VC
+  Guerrillas in 2 spaces, which can break a COIN Control built on Police.
+- **Tax**: shifts the space one level toward Support and adds to the Agitate
+  Total. The Agitate Total is spent in the Coup Support phase, after the
+  Victory check, one level toward Opposition per point.
 
-**ARVN.** Train (3 Troops + 3 Police into Saigon and Hue, 3 Resources each,
-activation roll against 3), Patrol as in section 2, **Govern** (`Transfer
-population value from Aid to Patronage`: Aid -pop, Patronage +pop, and the
-space's Active Support **flips to Passive**, one level, not removal; needs a
-COIN-controlled space with ARVN cubes outside Saigon; with Aid at 0 there is
-nothing to transfer, but whether the program then skips Govern is untested),
-**Transport** when `5+ ARVN Troops + Rangers in any one space` (moves Troops
-and Rangers to an adjacent Province, then `Flip all Rangers underground`),
-**Raid** (a Ranger moves in from an adjacent space, flips Active and removes
-up to 2 pieces including an undefended Base, the same removal the US gets
-from Advise), Redeploy as in section 5, and its pivotal at the first draw
-where it qualifies. It has passed when sole eligible with only a Performed
-marking. The chain that does the US most harm: `Trung: ARVN - M`, `NVA
-Control + NVA Bases >= 14?` -> `3d6 <= Available ARVN pieces` -> on failure
-`Trung: ARVN - MM`, `All routes from Can Tho to Hue blocked?` -> **Patrol,
-then Govern**. Two lessons. **Govern arrives through the Patrol branch even
-when the Available-pieces check has failed**, so emptying ARVN's Available
-box (by Training its cubes onto the map) closes only some of the doors to
-Govern. And the Can Tho-to-Hue route test means **enemy pieces sitting on
-your LoCs steer ARVN into Patrol**, which can empty Saigon of every ARVN cube
-and cost COIN Control there. Govern can take 8 points of US Support in two
-cards at pop-2 spaces; it needs ARVN cubes in the space, so Support built
-where only US pieces stand is immune.
-
-- The Trail: NVA Rally improves it 1 box per Rally (2 under SA-2s); Air
-  Strike degrades it 1 box for 2 hits; at Reset it moves toward the middle
-  (0 -> 1, 4 -> 3). **At 4 the NVA Marches free outside South Vietnam**,
-  which turns its Laos and Cambodia sanctuaries into one connected staging
-  area; at 0-1 it Rallies instead of Attacking. ARVN's unshaded Rolling
-  Thunder and Wild Weasels each degrade it 2 boxes.
-- The Agitate Total is not score; Tax adds to it and the Coup Support phase
-  spends it.
+**ARVN.**
+- **Train** cubes into Cities, **Sweep**, **Assault**, and **Patrol** (cubes
+  onto LoCs, then one Assault on a LoC), which can empty Saigon of ARVN
+  cubes.
+- **Govern**, in COIN-controlled Support spaces with ARVN cubes outside
+  Saigon: either adds Aid, or transfers population from Aid to Patronage
+  and shifts Active Support to Passive.
+- **Transport** Troops and Rangers to another space; **Raid** with a Ranger,
+  removing up to 2 pieces including an undefended Base.
+- Trigger worth watching: when NVA Control plus NVA Bases reach 14 and the
+  route from Can Tho to Hue is blocked by enemy pieces, ARVN takes Patrol
+  then Govern.
