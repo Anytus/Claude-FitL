@@ -250,3 +250,54 @@ with before the Coup and did not get it; and my Commitment reasoning above was
 sound but the position it left is thin — I have exactly one pacification
 target in campaign 2 (Kien Hoa-Vinh Binh) and roughly two levels of ARVN
 headroom to pay for it.
+
+## Turn 5 — card #75 Sihanouk — before save-019
+**Situation.** ARVN opened with an Op + Special Activity, and the VC and NVA
+both spent themselves on #107, so I am the only Eligible faction left: my menu
+is `Event`, `Limited Op`, `Pass`. The board has changed badly since the Coup —
+the NVA marched 5 Troops into Pleiku-Darlac (breaking COIN Control there), 4
+into Quang Tin-Quang Ngai and 2 into Kien Giang-An Xuyen, taking NVA Control of
+both, and 1 into Quang Nam. NVA is 12 of 18. But the biggest single number on
+the board is mine: the VC's Burning Bonze knocked **Saigon** back to Passive
+Support, and Saigon is pop 6.
+
+**Options considered.**
+- *Event unshaded* ("US or ARVN free Sweep into or in any Cambodia spaces,
+  then free Assaults in one"). Cambodia is pop 0, so a strike there costs no
+  Support, and the Parrot's Beak holds 2 NVA Bases. But my only space adjacent
+  to Cambodia is Pleiku-Darlac (Northeast Cambodia and The Fishhook), which
+  are both empty; the Parrot's Beak is out of reach, and the NVA at 12 is not
+  the faction closest to its line.
+- *Pass.* Keeps me Eligible for #116 Cadres, but I am **fourth** in that
+  card's order behind an ARVN marked Critical and a VC marked Critical, so I
+  would almost certainly be squeezed out. A pass buying nothing is the mistake
+  TestGame2 named.
+- *Limited Op — Train Saigon, Pacify 1 level.* Passive -> Active Support at
+  pop 6 is **+6 for 4 Resources**, the best rate anywhere on the map, and in
+  the one space ARVN's Govern cannot reach.
+
+**Plan.** **Limited Op — Train in Saigon.** `Do not place forces` (placing
+ARVN cubes would cost 3 Resources and drop me to 19, and the pacification then
+would leave 15, which is not *above* Econ 15 and would be refused — the
+headroom is too tight to spend on anything else). Final Train action:
+**Pacify Saigon, 1 level, Passive -> Active Support**, 4 Resources.
+Expected: Total Support 27 -> 33, US 48 -> 54. ARVN Resources 22 -> 18.
+
+**Rationale.** Six points for one level is twice the rate of anything else
+available and it re-takes the anchor the VC just knocked over. Becoming
+Ineligible on #116 costs nothing, because I would have been squeezed out of
+that card anyway. The NVA build-up is the real problem on this board, but a
+Limited Op cannot carry a Special Activity, so Advise is not available to
+answer it this card; the answer has to come next time I get a full Op.
+
+**Execution.** The container was reclaimed before the first answer went in.
+`ctl.py resume TestGame5` reloaded the latest save and returned to the same
+`(perform or ?)` prompt on #75 with nothing lost, exactly as the earlier games
+recorded. The `seq` then ran all 8 steps with no stop and no rejection — the
+first clean full-action sequence of the game. Note that the auto-resolve I
+predicted did happen: `Pacify in which space` was never shown, the program
+went straight to the level menu, and the `*` guard absorbed it.
+
+**Result.** As planned: `US Pacifies 1 level in Saigon`, `Decrease ARVN
+resources by -4 to 18`, `Flip Passive Support marker in Saigon to Active
+Support`, `Move the 'Support + Avail US' marker from 48 to 54`.

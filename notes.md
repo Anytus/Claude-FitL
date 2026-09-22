@@ -16,3 +16,5 @@ card #68 Green Berets: LimOp Train, Binh Dinh to Active Support — +4 and ended
 coup 1 (#127 Nguyen Cao Ky): pacified Da Nang, Kontum, Pleiku 2 levels each; committed 2 Troops to Kien Hoa — US 48->54.
 card #107 Burning Bonze: US eligible but squeezed out (VC and NVA acted) — VC shaded took Saigon to Passive, Aid -12.
 coup round 1 complete: +6 pacification, ARVN pacified Hue, 2 Troops to Kien Hoa — US 54
+Session note: container reclaimed mid-card #75; resumed from the latest save (save-018, #75 Sihanouk, US up) with nothing lost.
+card #75 Sihanouk: LimOp Train, Saigon back to Active Support — +6 for 4 Resources, best rate on the board

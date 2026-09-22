@@ -6,3 +6,4 @@
 - report-012-013.md: #127 - Coup! Nguyen Cao Ky
 - report-014-016.md: #107 - Burning Bonze
 - report-017-018.md: #75 - Sihanouk
+- report-019-019.md: #75 - Sihanouk
