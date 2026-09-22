@@ -16,6 +16,22 @@ is marked *(header varies or not recorded)*.
 name or a number, `[varies]` = the same prompt has been seen both ways (it
 depends on how many candidates there are), `[y/n]` = bare yes/no.
 
+**Interface facts.**
+
+- When exactly one space is legal the program selects it and executes
+  without asking, so peeking at an option can commit it.
+- `abort` inside a Special Activity aborts only that activity and returns
+  to the operation's menu; at an operation menu, `abort` then `y` aborts the
+  whole action with no state change.
+- `abort` is refused at some sub-prompts (the Pacify level menu); answer
+  "Do not pacify" and abort one level up.
+- The Limited Op Sweep chain includes `US Move troops to <space> from`,
+  which offers one adjacent source.
+- During a Coup round the board view shows the pre-Coup save; read the
+  phase results from the narration.
+- The game-end prompt is `Do you want to continue playing this game?
+  (y/n)`; `n` ends the game for good.
+
 **Watch for.** The same menu shrinks and renumbers as you use it (a chosen
 space drops out of the list; `Perform a Special Activity` disappears once
 used). Labels are stable, numbers are not. A Limited Op skips the

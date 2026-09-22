@@ -1,47 +1,5 @@
 # Fire in the Lake, US faction: what the program taught me
 
-> **Harness notes.** Read these first; some habits recorded in earlier
-> versions of this file have been replaced by tools.
->
-> - **Event cards** are drawn by the harness: `ctl.py advance` answers the
->   card prompt with a fresh random draw and prints `[deck] ... -> drew #N`.
->   The deck is built as the rules say (one 1964 pile, two 1965 piles, three
->   1968 piles, 12 events plus a Coup card each); which cards appear is
->   unknown to everyone until drawn. `ctl.py send` refuses a card prompt.
-> - **`advance` does three things in one call**: runs the bots, writes the
->   report file for every card it finishes (`wrote reports/...`), and prints
->   the **briefing** when it stops at the US turn: the board view, both
->   cards' full text and Tru'ng markings, scores, sequence of play, and the
->   neighbours of every space with US pieces. `ctl.py brief` prints it again
->   on demand (with this card's narration so far). There is no need to run
->   `render.py`, grep the transcript, look cards up in `cards.json` or call
->   `map.py` for your own spaces before a decision.
-> - **`ctl.py commit-turn "<notes line>"`** ends a card: it appends the line
->   to `notes.md`, writes any report not yet written, commits with the line
->   as the message and pushes.
-> - **Answering prompts.** `ctl.py seq "<expected>=><answer>" ...` sends a
->   whole action's answers in one call, each sent only if `<expected>` is in
->   the current prompt. Answers are matched by label when the prompt is a
->   numbered menu and typed as given when it is bare: write `Saigon`,
->   `Train`, `Finished selecting`, never a number, whichever form the program
->   uses this time. After a rejected answer the re-prompted menu is still
->   matched. `*` as the expected text matches any numbered menu (the label is
->   then the guard). **`PROMPTS.md`** lists every prompt chain seen so far,
->   with each prompt's form; write the `seq` from it.
-> - **Reports.** `tools/report.py` writes the observer's report from the
->   program's own log files (narration verbatim, then the board summary) to
->   `reports/<game>/`. `advance` runs it for you at every card draw.
-> - **The map.** `python3 tools/map.py <space>` lists a space's neighbours
->   and `map.py <a> <b>` says whether two spaces touch, from the program's
->   own table. Do not work from a remembered map.
-> - **Program build 1.53+harness.** One program bug is known and unfixed:
->   after a **Limited Op Patrol whose destination is a City**, the program
->   offers (and with one candidate, executes without asking) the free
->   Assault in that City. Rule 3.2.2 allows it only in a LoC. Decline it
->   (`Do not Assault at one LOC`), and never plan on it.
-> - **Tool calls are logged** by a hook to a file outside the tree; it
->   changes nothing.
-
 Observed at the program's own prompts or in its narration over four games;
 descriptive, not advice. Where a statement is an inference rather than an
 observation, it says so.
@@ -52,134 +10,77 @@ ratios outside Lowland; the "add an ARVN Assault" option inside a US Assault;
 Train's forced removal of ARVN cubes from the map when Available is short of
 6. A US Patrol prints no Resource deduction: it is free.
 
-## 1. Driving the program
+## 1. Sequence of play
 
-- `python3 tools/ctl.py send <text>` types one answer and prints the reply.
-  `advance` runs bot turns and Coup phases until a prompt needs you (it
-  draws cards itself). `screen` prints the current prompt with its menu.
-  `seq` answers a whole chain of prompts, each guarded (see the harness
-  notes at the top).
-- **Menus renumber**, in three ways: a chosen space drops out of a space
-  list; an option that is not currently legal is simply omitted (the final
-  Train menu drops Pacify when no selected space can be pacified, the
-  Special Activity menu drops Air Strike while a ban is in force, Advise
-  drops the removal option once no space qualifies); and the first-eligible
-  and second-eligible action menus have different shapes. Answer by label,
-  never by a remembered number.
-- **The same space prompt is sometimes bare and sometimes numbered.**
-  `Train in which space:`, `Air Lift in which space:`, `Select destination:`
-  and `Sweep in which space:` have each arrived both as a bare prompt that
-  takes a typed name and as a numbered menu, at which a typed name is
-  rejected (`'Saigon' is not valid. Must be one of: 1, 2, ..., or abort`).
-  There is no way to tell in advance; `seq` sends the right form.
-- When exactly one space is legal the program selects it and executes at
-  once: choosing "Use Irregular/Ranger to remove enemy pieces" with one
-  qualifying space prints `Use Irregular/Ranger in which space:  Binh Dinh`
-  and removes the pieces without a further prompt. Peeking at an option can
-  commit it.
-- The action menu shapes: first eligible `1) Event  2) Op (May add a Special
-  Activity)  3) Pass`; second eligible after an Event `1) Op (May add a
-  Special Activity)  2) Pass`; second eligible after an Op + Special Activity
-  `1) Event  2) Limited Op  3) Pass`; second eligible after an **Op Only**
-  `1) Limited Op  2) Pass`, the Event closed. A bot's Op Only therefore
-  removes both the Event and any Special Activity from the faction behind
-  it. The same works for you: a US **Op Only** (`n` to `Do you wish to
-  perform a special activity? (y/n)`, which prints `Move the US cylinder to
-  the Op Only box`) closes the Event to the whole second-eligible slot, at
-  the cost of the Special Activity only. The slot passes down a pass: after
-  an Event by the first actor and a pass by the second faction, the third
-  still gets the full second-eligible menu.
-- A Limited Op is a single space with no Special Activity, but a Limited Op
-  Train still offers the final Train action (Pacify / Transfer patronage)
-  for that one space. **The Limited Op skips the "Finished selecting spaces"
-  step**: the final Train menu appears immediately after the one space's
-  placement choice. **A Limited Op Patrol funnels every move into one
-  destination**: `Select destination:` is asked once and every later `Move
-  cubes` goes there without asking. **A Limited Op Sweep does move Troops**:
-  `US Sweep space` -> `Sweep in which space` -> `US Sweep Troops into
-  <space>` -> `US Move troops to <space> from` (adjacent spaces holding US
-  Troops) -> a count.
-- **abort has two scopes.** Sent inside a Special Activity it aborts only
-  that Special Activity (`>>>> Aborting Air Strike special activity <<<< /
-  No changes need to be made to the game board`) and returns to the
-  operation's own menu. Sent at an operation menu, `abort` then `y` aborts
-  the whole action with no state change, and the program prints the full
-  reversal for the physical board (`The following changes should be made to
-  the game board`, a `Remove from <space> to Available:` block, a `Changes
-  to <space>:` block per space, a status block per space and the Available
-  list). abort is rejected at some sub-prompts: at the Pacify level menu it
-  prints `'abort' is not valid. Must be one of: 1 or 2`; answer "Do not
-  pacify" and abort at the menu above.
-- `?` at `(perform or ?)` lists perform, show, history, rollback, inspect,
-  adjust, help, quit. `show summary` prints scores, resources, Aid,
-  Patronage, Trail, leader, cards drawn.
-- The patched build saves after every faction action, each card draw, each
-  pivotal substitution, and once for a whole Coup round. A lost container is
-  recovered by `ctl.py resume <game>`, which reloads the latest save and
-  returns to the same prompt with nothing replayed; a loss in the middle of
-  an action rolls the half-entered action back, as an abort would. Two
-  consequences: during a Coup round `render.py` shows the pre-Coup save, so
-  read the phase results from the narration; and `transcript.log` restarts
-  on resume, but `report.py` builds the report from the saved log files, so
-  nothing is lost with it.
-- The game-end prompt is `Do you want to continue playing this game? (y/n)`;
-  `n` prints `>>> The game has ended <<<` and drops to `(quit or ?)`.
+**Card order and eligibility.** A card names an order of four factions.
+Eligible factions act in that order. A card ends when two factions have
+acted, or when every Eligible faction has acted or passed. Passing keeps a
+faction Eligible and pays it +3 Resources (US and ARVN). If the first
+Eligible faction passes, the next faction in order is treated as first
+Eligible (inferred). If every Eligible faction passes, nothing happens and
+all stay Eligible.
 
-## 2. Sequence of play, as observed
+**What the first actor allows the second.** First actor Event: the second
+may take an Op with a Special Activity. First actor Op with Special
+Activity: the second may take the Event or a Limited Op. First actor Op
+only (no Special Activity): the second may take a Limited Op only; the
+Event is closed. A US Op only closes the Event in the same way. If the
+second faction passes, the same option set passes to the next Eligible
+faction.
 
-- The card names an order of four factions. A card ends when two factions
-  have acted, or when every eligible faction has acted or passed. Passing
-  keeps you Eligible and pays +3 ARVN Resources (for US or ARVN). After the
-  first eligible passes, the next faction in order is treated as first
-  eligible (inferred). If every eligible faction passes, the card resolves
-  with nothing happening and everyone stays Eligible.
-- **Turn order is the only reliable way to guarantee yourself an action.**
-  If the factions ahead of you in the next card's order are all Ineligible,
-  your action there is certain; if it depends on a bot choosing to act (so
-  that it becomes Ineligible), it is not.
-- Acting makes you Ineligible on the next card. Some events extend this:
-  Henry Cabot Lodge shaded prints `ARVN is ineligible through the next card`
-  and the sequence display shows `ARVN(-) -> Event`.
-- Events that say "stay Eligible" do exactly that (Claymores unshaded,
-  Medevac shaded).
-- After a Coup round every faction is Eligible.
-- **Tru'ng markings (Critical / Performed / Ignored, with a side) as a
-  predictor.** Critical: taken every time it was reachable. Performed:
-  usually taken, but it is a preference, not a commitment; a sole-eligible
-  bot marked Performed has passed and banked +3 instead. Ignored: an Op
-  every time. A bot marked for the shaded side takes the unshaded side if
-  that is what is left, even when that removes enemy pieces or denies a bot
-  ally the shaded text: bots do not coordinate. A bot marked for a side you
-  also want is, for that card, on your side.
-- **Pivotal events.** At a card draw the program rolls for the bots
-  (`VC Bot Pivotal Event die roll: 5 [Failure] (2 cards in leader box)`,
-  `ARVN Bot Pivotal Event die roll: 1 [Success] (2 cards in leader box)`);
-  success needs a roll no higher than the number of cards in the leader box,
-  and Duong Van Minh does not count as a card. A successful pivotal
-  **replaces the current card** (`Replace the current event card with #123 -
-  Vietnamization`), the playing faction acts first, and the others follow in
-  the pivotal's own order with everyone Eligible. ARVN's Vietnamization needs
-  fewer than 20 US Troops on the map. The US prompt reads `Pivotal Events can
-  be played / Eligible: ARVN, NVA, and US / Trumped: ARVN and NVA / Does US
-  wish to play their pivotal?`: it lists which factions are eligible and
-  which the US pivotal trumps; a bot's failed roll at the same draw does not
-  close it; answering `1` replaces the current card and `perform` then
-  executes the event with no further menu. The prompt has not appeared on a
-  Monsoon card with a Coup on deck, and on one occasion did not appear
-  although the US seemed to qualify while a bot's roll succeeded; whether a
-  bot's success pre-empts the human prompt is unresolved. Tet Offensive,
-  once its roll succeeds, is the most destructive card in the game: nine
-  free Terrors, a Base and two Guerrillas into each of two Cities, then free
-  Attacks everywhere.
-- **Monsoon** (the card before a Coup): Sweep prohibited as an Op (the
-  operation menu prints `Sweep is prohibited [Not allowed in Monsoon]` and
-  lists `1) Train 2) Patrol 3) Assault`; Advise's option list drops `Sweep a
-  space with ARVN forces` too); Air Strike limited to 2 spaces; an event's
-  free Sweep is still allowed.
-- The render's "13 cards per campaign" is nominal: the number of event cards
-  before a Coup varies widely (two to sixteen seen).
+**Limited Op.** One space, no Special Activity. A Limited Op Train still
+offers its final action (Pacify or Transfer patronage) in that space; a
+Limited Op Patrol or Sweep may move pieces from several spaces into the one
+destination.
 
-## 3. US Operations
+**Eligibility after acting.** A faction that executed an Op or Event is
+Ineligible on the next card; a faction that passed stays Eligible. Events
+that say "stay Eligible" or "Ineligible through the next card" override
+this. After a Coup round every faction is Eligible.
+
+**Bot action choice.** Each card carries a Tru'ng marking per bot
+(Critical, Performed or Ignored, with a side); the program prints each
+check as it runs. A bot that is **first Eligible** takes the Event if it is
+marked Critical and effective; otherwise takes an Op only (no Special
+Activity) if the next Eligible faction is marked Critical on this card;
+otherwise passes if it will be first Eligible on the next card and is
+Critical there; otherwise takes an Op with a Special Activity. A bot that
+is **second Eligible** passes if it will be first Eligible on the next card
+and is Critical there and cannot execute a Critical Event now; otherwise
+takes the Event if it is still available, marked Critical or Performed,
+and effective; otherwise passes if it will be first Eligible on the next
+card; otherwise takes a Limited Op if the first actor took an Op; otherwise
+an Op with a Special Activity. So a Performed marking is acted on only from
+the second-Eligible slot; a first-Eligible bot never plays a Performed
+Event. Bots do not coordinate with each other.
+
+**Pivotal events.** One per faction: VC Tet Offensive, ARVN Vietnamization,
+NVA Easter Offensive, US Linebacker II; each card's text holds its
+pre-condition. A pivotal may be played only by an Eligible faction whose
+pre-condition is met, before the first Eligible faction has done anything,
+and not while a Coup card is on deck. It replaces the current card, which
+is never played; the factions then act in the pivotal card's own order.
+Eligibility is not reset: whoever was Eligible before the replacement is
+Eligible on the pivotal. Precedence: Tet Offensive supersedes all others,
+then Vietnamization, then Easter Offensive; the US pivotal plays only if
+no other faction supersedes it, and a superseded pivotal returns to its
+owner. In the program the check runs at each card draw in the order VC,
+ARVN, NVA, US; a bot plays its pivotal when a d6 rolls strictly lower than
+the number of Coup cards in the RVN Leader box (Duong Van Minh does not
+count), except that a first-Eligible bot marked Critical on the current
+card keeps the card instead; the US is asked whether to play its pivotal
+when it qualifies, and the prompt names the factions that could trump it.
+
+**Monsoon** (a Coup card on deck): no Sweep, including Advise's Sweep; no
+March; Air Lift and Air Strike limited to 2 spaces; no pivotal events. An
+event's own free Sweep is still allowed.
+
+**Deck structure.** Each pile of 13 is 12 event cards and 1 Coup card
+shuffled together, so exactly one Coup lies somewhere in positions 1 to 13,
+one in 14 to 26, and so on. A campaign (the cards between two Coups) can
+therefore run from 0 to 24 event cards.
+
+## 2. US Operations
 
 **Train.** The space list is every space holding **any US piece**: Troops,
 Irregulars, or a Base. In each selected space:
@@ -298,7 +199,7 @@ ARVN's Patrol: cubes from Saigon onto LoCs, Guerrillas Activated on each
 destination LoC, then one Assault on a LoC. It can empty Saigon of every ARVN
 cube, which costs COIN Control there.
 
-## 4. US Special Activities
+## 3. US Special Activities
 
 **Advise.** Up to 2 spaces. The option list is built from what is legal:
 `Sweep a space with ARVN forces`, `Assault a space with ARVN forces`, `Use
@@ -358,7 +259,7 @@ costs 2 hits; **each populated struck space shifts one level toward Active
 Opposition**. Laos and Cambodia have population 0, so the shift cannot bite
 there.
 
-## 5. Events and capabilities, mechanically
+## 4. Events and capabilities, mechanically
 
 - Dual events: you choose Unshaded or Shaded. Single events have one text.
 - A **capability** persists across Coups (Booby Traps shaded, Main Force Bns
@@ -371,7 +272,7 @@ there.
 - "Place any 1 VC piece" lets the bot place **Bases** (Korean War Arms
   shaded: three VC Bases in one card, +3 VC).
 - "Pacifies as if Support Phase" (Honolulu Conference) applies the Support
-  phase's strict test (section 6), not Train's loose one.
+  phase's strict test (section 5), not Train's loose one.
 - Events that remove US Troops send them to Casualties (`US to
   Casualties`); ARVN pieces removed go to ARVN Available.
 - "Remove pieces" events count untunneled Bases as pieces (Tribesmen).
@@ -393,7 +294,7 @@ there.
   ARVN, or ARVN through Advise) and prints as its own line; not from
   Advise's Irregular/Ranger removal.
 
-## 6. Coup round, phase by phase
+## 5. Coup round, phase by phase
 
 1. **Victory** comes first, before anything else in the round. Any faction
    with score above 0 wins, highest first; ties go VC, ARVN, NVA, US (`Game
@@ -461,7 +362,7 @@ Attempt (ARVN removes 1 in 3 cubes per space). The cost line names the leader
 when one applies: `The cost to pacify is 4 per level/terror marker [Leader:
 Nguyen Cao Ky]`.
 
-## 7. Scoring and control facts
+## 6. Scoring and control facts
 
 - US = Total Support + US Troops and Bases in Available. Irregulars,
   Casualties and Out of Play count nothing. Active Support is population x2,
@@ -483,7 +384,7 @@ Nguyen Cao Ky]`.
 - Terror markers show in the render as `terror 1` and cost a level each to
   pacify through.
 
-## 8. What the bots did (their operations, as narrated)
+## 7. What the bots did (their operations, as narrated)
 
 The Tru'ng narration prints the bot's checks; they are reliable predictors.
 
@@ -506,7 +407,7 @@ whenever `3d6 <= Available NVA Troops` fails is **Bombard**: 1 Troop removed
 from each of 2 spaces, spaces holding no NVA piece at all (US Troops to
 Casualties, ARVN Troops to Available); when that check fails and there is
 nothing to Ambush from, it takes an Op Only instead. Its Redeploy is in
-section 6.
+section 5.
 `Trung: NVA - R` opens with **`Support + Available >= 42?`**: that is *your*
 score marker, so leading the game is itself the trigger that turns the NVA
 toward you, producing Marches into South Vietnam and Bombards against Saigon.
@@ -527,7 +428,7 @@ of 2 spaces, remove an ARVN Police and place a VC Guerrilla, then Patronage
 VC Guerrillas in any spaces with US Troops and no VC Base?` -> **Attack**:
 `Die roll 3 Guerrillas): 1 [Success!]`, flips the Guerrillas Active, removes
 2 US Troops, loses 2 Guerrillas to Attrition. Agitate in the Coup as in
-section 6. A VC space with only a Base and no Guerrillas is a free Advise
+section 5. A VC space with only a Base and no Guerrillas is a free Advise
 target, and an Attack that loses both its Guerrillas to Attrition creates
 exactly that. **Tax** (`Trung: VC - Z`, `15+ VC Guerrillas on the map?`;
 `Spaces exist that can be Taxed?` and `2d6 > Agitate Total`): each Tax flips a
@@ -541,7 +442,7 @@ X`, `Any 2+ Pop space without VC Guerrillas?` -> Rally; `Trung: VC - Y/YY`
 and `Trung: VC - Z` -> Rally or March.
 
 **ARVN.** Train (3 Troops + 3 Police into Saigon and Hue, 3 Resources each,
-activation roll against 3), Patrol as in section 3, **Govern** (`Transfer
+activation roll against 3), Patrol as in section 2, **Govern** (`Transfer
 population value from Aid to Patronage`: Aid -pop, Patronage +pop, and the
 space's Active Support **flips to Passive**, one level, not removal; needs a
 COIN-controlled space with ARVN cubes outside Saigon; with Aid at 0 there is
@@ -550,7 +451,7 @@ nothing to transfer, but whether the program then skips Govern is untested),
 and Rangers to an adjacent Province, then `Flip all Rangers underground`),
 **Raid** (a Ranger moves in from an adjacent space, flips Active and removes
 up to 2 pieces including an undefended Base, the same removal the US gets
-from Advise), Redeploy as in section 6, and its pivotal at the first draw
+from Advise), Redeploy as in section 5, and its pivotal at the first draw
 where it qualifies. It has passed when sole eligible with only a Performed
 marking. The chain that does the US most harm: `Trung: ARVN - M`, `NVA
 Control + NVA Bases >= 14?` -> `3d6 <= Available ARVN pieces` -> on failure
