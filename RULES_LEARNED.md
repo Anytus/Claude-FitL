@@ -131,7 +131,8 @@ listed in PROMPTS.md, and it should be declined.
 
 ## 3. US Special Activities
 
-**Advise.** Up to 2 spaces; no Resource cost, no Support shift. In each
+**Advise.** Up to 2 spaces; no Resource cost, no Support shift. Whichever
+options are taken, the US may afterwards voluntarily add +6 Aid. In each
 space one of:
 - **Irregular/Ranger removal.** Needs an Underground US Irregular or ARVN
   Ranger in the space; flips it Active and removes 2 enemy pieces of the
@@ -141,7 +142,7 @@ space one of:
 - **ARVN Assault.** An Assault by the ARVN cubes in the space, LoCs
   included: about 1 hit per 2 ARVN cubes in a City, fewer in Highland; an
   undefended Base is a legal target.
-Afterwards the US may voluntarily add +6 Aid.
+
 A space used for Advise cannot be used for Train in the same action.
 
 **Air Lift.** Up to 4 spaces (2 in Monsoon), any distance apart. Moves US
