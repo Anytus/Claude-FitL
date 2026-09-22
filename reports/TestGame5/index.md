@@ -3,3 +3,6 @@
 - report-006-007.md: #68 - Green Berets
 - report-008-008.md: #68 - Green Berets
 - report-009-011.md: #43 - Economic Aid
+- report-012-013.md: #127 - Coup! Nguyen Cao Ky
+- report-014-016.md: #107 - Burning Bonze
+- report-017-018.md: #75 - Sihanouk

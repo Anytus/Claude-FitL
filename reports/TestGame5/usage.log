@@ -29,3 +29,15 @@
 2026-09-22T16:55:37	Bash	for i in 1 2 3 4 5 6; do out=$(python3 tools/ctl.py enter 2>&1 | tail -20); echo	254	14588
 2026-09-22T16:55:41	Bash	python3 tools/ctl.py send perform 2>&1 | tail -30	98	2121
 2026-09-22T16:55:46	Bash	for i in 1 2 3 4 5 6 7 8; do out=$(python3 tools/ctl.py enter 2>&1 | tail -18); 	294	5148
+2026-09-22T16:56:02	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read() s=s.rstrip('\n') assert s.ends	1920	10856
+2026-09-22T16:56:06	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers ---/,/^$/p;/--- Sequence of	209	914
+2026-09-22T16:58:49	Bash	timeout 300 python3 tools/ctl.py advance 2>&1 | tail -70	106	6256
+2026-09-22T16:59:19	Bash	cat >> journal.md <<'EOF'  ## Turn 3 — Coup round 1, card #127 Nguyen Cao Ky — S	2281	9745
+2026-09-22T16:59:24	Bash	python3 tools/render.py 2>&1 | grep -E "Da Nang \[|Kontum \[|Pleiku|Hue \[|Binh 	184	1209
+2026-09-22T16:59:29	Bash	grep -nE "Pacifies|Support marker|Support \+ Avail|resources by" transcript.log 	170	1590
+2026-09-22T17:01:03	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read().rstrip('\n') s=s[:-len('**Exec	3803	7159
+2026-09-22T17:01:07	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving pieces" 2>&1 | tail -40	136	1374
+2026-09-22T17:01:26	Bash	timeout 300 python3 tools/ctl.py advance 2>&1 | tail -60	119	26613
+2026-09-22T17:01:32	Bash	ls reports/TestGame5/ && grep -nE "Agitate|Opposition marker|Support marker|Aid 	286	1748
+2026-09-22T17:01:35	Bash	grep -nE "Govern|Aid|Patronage|Support marker|Support \+ Avail|ARVN (chooses|sel	215	1272
+2026-09-22T17:01:46	Bash	sed -n '96,160p' reports/TestGame5/report-012-013.md && echo "@@@ card 107 @@@" 	196	3430

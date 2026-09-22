@@ -1,0 +1,78 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #75 - Sihanouk (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, NVA, ARVN, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Burning Bonze",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip Active Support marker in Saigon to Passive Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 54 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "Decrease US Aid by -12 to 8",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the VC cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

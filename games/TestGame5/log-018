@@ -1,0 +1,278 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #75 - Sihanouk (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #116 - Cadres (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, VC",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - L",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (13): 16 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - LL",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would add COIN Control? [No]",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Sweep operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Quang Tri-Thua Thien as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 ARVN Troops from Hue to Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Quang Tri-Thua Thien",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 36 to 38",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nActivating guerrillas in Quang Tri-Thua Thien",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 2 VC Underground Guerrillas in Quang Tri-Thua Thien to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nARVN pays for 1 sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 22",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN chooses Raid special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN conducts raid in Quang Nam",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 ARVN Underground Ranger in Quang Nam to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 NVA Troops from Quang Nam to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Quang Nam to COIN Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 38 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 13 to 12",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN conducts raid in Kien Phong",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Underground Ranger from Saigon to Kien Phong",
+      "color": "Magenta"
+    },
+    {
+      "text": "Flip 1 ARVN Underground Ranger in Kien Phong to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 VC Underground Guerrilla from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Kien Phong",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 39 to 41",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Raid activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

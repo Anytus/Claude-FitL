@@ -142,3 +142,111 @@ resources by -6 to 18`, `Place Active Support marker in Binh Dinh`, `Move the
 drawn) with the VC never acting, so the Critical shaded Green Berets aimed at
 my 3 Binh Dinh Irregulars was denied outright — the second Critical VC event
 killed by turn order in two cards.
+
+## Turn 3 — Coup round 1, card #127 Nguyen Cao Ky — Support phase
+**Situation.** Victory phase read `None of the Factions has achieved its
+victory condition` (US 48 against 50). Resources phase: no sabotage, Econ
+re-set to 15, ARVN earned +35 to **53**, and the Casualties box was empty so
+Aid took no deduction. Nguyen Cao Ky is the new leader, so pacification costs
+**4 per level**, not 3. The program offers exactly the three spaces I expected
+from the strict test (COIN Control + US Troops + ARVN Police): Da Nang,
+Kontum, Pleiku-Darlac. Hue and Kien Hoa-Vinh Binh fail it for want of US
+Troops; Saigon and Binh Dinh are already at Active Support.
+
+**Options considered.** All three are Neutral pop-1 spaces, so each is worth
++2 (Neutral -> Passive -> Active Support) for 2 levels at 4 Resources a level.
+Six levels cost 24, leaving 29 against Econ 15 — comfortably inside the
+headroom, and the headroom is checked level by level, so nothing should be cut
+short. There is no reason to take fewer: these are free points in a phase that
+happens after the Victory check, ARVN's Resources reset every Coup anyway, and
+leaving them unspent only funds the bot's own four-space Sweeps.
+
+**Plan.** Pacify all three, 2 levels each, to Active Support: Da Nang, Kontum,
+Pleiku-Darlac. Then `Finished pacifying spaces`. Expected: Total Support
+25 -> 31, US 48 -> 54, ARVN Resources 53 -> 29.
+
+**Rationale.** +6 for Resources I do not own and cannot carry forward. The one
+caveat is that Pleiku-Darlac holds the 6 ARVN cubes I placed on turn 1, so it
+is a Govern target worth 1 level; Da Nang and Kontum hold a single ARVN Police
+each, so they are cheap for ARVN to reach too. That is an argument for
+pacifying them now and re-buying later, not for leaving the levels on the
+table.
+
+**Execution.** Steps 1-6 ran as written. Step 7 (`Choose space to pacify` =>
+`Finished pacifying`) stopped the sequence, nothing sent: the third
+pacification used the last candidate and the program ended the phase itself
+rather than re-offering the menu. Same family as my two earlier stops — when
+the list empties or holds one entry, the program resolves it without asking.
+
+**Result.** All three as planned, and better: `US Pacifies 2 levels in Da
+Nang` / `Kontum` / `Pleiku-Darlac`, 8 Resources each, Active Support markers
+on all three, ARVN Resources 53 -> 29. Then **ARVN pacified Hue** 1 level to
+Passive Support for 4 of its own Resources, which is +2 US I did not pay for.
+`Move the 'Support + Avail US' marker from 48 to 56`. Note for the rest of the
+campaign: ARVN finished the phase on 25 against Econ 15, so only 10 of
+headroom — about two levels at Nguyen Cao Ky's 4 per level — is left to fund
+pacification until the next Coup.
+
+## Turn 4 — Coup round 1, card #127 Nguyen Cao Ky — Commitment phase
+**Situation.** No casualties, so no rotation and no free placement. The prompt
+is `Move up to 10 US Troops and up to 2 bases among Available box, COIN
+controlled spaces, LoCs and Saigon`. US stands at 56 with 21 Troops and 2
+Bases (23 points) in Available. Every piece moved out of the box is -1 US
+point, immediately and directly.
+
+**Options considered.**
+- *Move nothing.* Keeps 56, six clear of the threshold. But it leaves me with
+  **no pacification target at all**: every space holding a US piece is now at
+  Active Support except Quang Tri-Thua Thien, which is Uncontrolled and cannot
+  be pacified. A US score made entirely of box points is precisely what lost
+  TestGame1.
+- *Move a large force plus a Base.* Four Troops and a Base would unlock Hue,
+  Kien Hoa-Vinh Binh and ARVN cube placement in a Province, but costs 5 points
+  for benefits that mostly mature at Coup 3. The arithmetic is unkind: a pop-2
+  Passive -> Active pacification pays exactly +2, so two Troops spent to unlock
+  it is a wash for the Coup 2 check.
+- *The real reason not to overspend here:* **Air Lift moves Troops map-to-map
+  for free.** The 8 US Troops already on the map (Da Nang 2, Kontum 2, Saigon
+  2, Binh Dinh 1, Pleiku-Darlac 1) can be lifted into any space I want to
+  Train and pacify, at no point cost, as a Special Activity. Commitment is not
+  the only way to put a Troop where I need one; it is only the way to take one
+  out of the scoring box.
+
+**Plan.** Move **2 US Troops from Available into Kien Hoa-Vinh Binh**, and no
+Bases. US 56 -> 54. Then `Finished moving pieces`.
+
+**Rationale.** One modest commitment with a job the box cannot do, which is
+TestGame2's rule. Kien Hoa-Vinh Binh is a pop-2 Lowland at Passive Support
+held by a single ARVN Police — the most valuable and least defended Support
+space I own, and the space TestGame4 was won on. Two Troops there defend 2
+points, make it a Train space so a single level of pacification takes it to
+Active Support for +2, and leave it a strict-test target for the Coup 2
+Support phase. Everything else I keep in the box, because pacification for the
+whole of campaign 2 is capped at roughly two levels by ARVN's remaining
+headroom, so extra Train spaces would have nothing to spend on them, and Air
+Lift can deliver Troops to whatever target the Resources do stretch to.
+
+**Execution.** Two `seq` calls, no rejections, no aborts. The first ran
+`Move troops` -> `Available box` -> `Kien Hoa-Vinh Binh` -> `2` and printed
+`Place 2 US Troops from AVAILABLE into Kien Hoa-Vinh Binh`; the destination
+prompt is a 32-entry menu of every COIN-controlled space, LoC and Saigon, as
+recorded. The second sent `Finished moving pieces`. The withdrawal prompt
+printed for 0 pieces as expected: `No shifts in support possible`.
+
+**Result.** `Move the 'Support + Avail US' marker from 56 to 54`, exactly the
+-2 planned. The rest of the Coup round: the VC spent its whole Agitate Total
+of 2 on **Quang Tri-Thua Thien**, taking it straight to Active Opposition
+(VC 28 -> 32) — the one pop-2 space I hold pieces in but do not control, and I
+had nothing that could answer it. ARVN's Redeploy moved 4 Police from
+Pleiku-Darlac to Binh Dinh, which is a mixed gift: it hardens my best Province
+but puts ARVN cubes into an Active Support pop-2 space, so Binh Dinh is now a
+Govern target. NVA Redeploy pulled 4 Troops back to Southern Laos. Reset put
+the Trail at 2, flipped everything Underground, and set the new Agitate Total
+to 1.
+
+Two lessons recorded for later: an Agitate Total left standing is spent after
+the Victory check where nothing can answer it, so Quang Tri needed dealing
+with before the Coup and did not get it; and my Commitment reasoning above was
+sound but the position it left is thin — I have exactly one pacification
+target in campaign 2 (Kien Hoa-Vinh Binh) and roughly two levels of ARVN
+headroom to pay for it.
