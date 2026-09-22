@@ -167,8 +167,8 @@ level toward Active Opposition (Laos and Cambodia have population 0).
 - "Place any 1 VC piece" lets the bot place a Base.
 - "Pacifies as if Support Phase" (Honolulu Conference) applies the Support
   phase's strict test (section 5), not Train's.
-- US Troops removed by an event go to Casualties; ARVN pieces removed go to
-  ARVN Available.
+- US pieces removed by an event go to Casualties, Available or Out of Play
+  as that event's text says; ARVN pieces removed go to ARVN Available.
 - "Remove pieces" events count untunneled Bases as pieces. Event-driven
   moves of US pieces to Available do not trigger the Commitment withdrawal
   penalty.
