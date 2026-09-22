@@ -28,3 +28,4 @@ card #59 Plei Mei: Event unshaded, 2 NVA Bases + 1 Troop out of Southern Laos â€
 card #81 CIDG: US ineligible (ARVN Train+Govern Hue/An Loc, VC pass)
 card #95 Westmoreland: Train/Pacify An Loc, Advise ARVN Assault Saigon + Ranger Quang Nam â€” US 50, VC Terror targets cut
 card #39 Oriskany: US ineligible (NVA March 9 spaces + Ambush, ARVN pass)
+card #87 Nguyen Chanh Thi: US Eligible but card closed by ARVN Event + VC Subvert/March
