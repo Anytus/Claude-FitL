@@ -17,7 +17,8 @@ any Coup Victory phase is allowed.
 
 ## Session start
 
-1. Read `notes.md` (all of it) and the last two entries of `journal.md`.
+1. Read `notes.md` (all of it), the last two entries of `journal.md`, and
+   `PROMPTS.md` (the program's prompt chains, for writing `seq` calls).
 2. `python3 tools/ctl.py status`.
    - If `running: True`: `python3 tools/ctl.py read` to see anything pending.
    - If `running: False` and `games/TestGame1` exists: `python3 tools/ctl.py resume TestGame1`.
@@ -39,7 +40,7 @@ any Coup Victory phase is allowed.
 You get what a human player at the table has, and nothing more.
 
 **You may read:** the output of `render.py`, `diff.py`, `report.py` and `map.py`,
-`cards.json`, `map.json`, `notes.md`, `journal.md`, everything the program
+`cards.json`, `map.json`, `notes.md`, `journal.md`, `PROMPTS.md`, everything the program
 prints (`ctl.py` output, `ctl.py screen`, `transcript.log`), and the
 program's `show` / `history` commands. The map is the printed board:
 `render.py` ends with every space's neighbours, and
@@ -95,18 +96,20 @@ All interaction goes through `python3 tools/ctl.py`:
 | `advance` | Run bot turns automatically: answers `perform` for Bot turns, Enter for pauses, `coup` for Coup rounds, and draws event cards when the program asks for one. Stops at any prompt that needs *you*. Prints everything. At every card draw it runs `report.py` for the card just finished (`wrote reports/...`), and when it stops at the US turn it prints the briefing. Use this instead of stepping through bot turns by hand. |
 | `brief` | The briefing on demand: board view with both cards' full text and scores, this card's narration so far, and the neighbours of every space with US pieces. `advance` prints it (minus the narration it has just shown) at the US turn, so you rarely need it. |
 | `commit-turn "<notes line>"` | End-of-card bookkeeping: append the line to `notes.md`, write any unwritten report, commit (message = the line), push. |
-| `seq "<expected>=><answer>" ...` | Answer several prompts in one call. Each step is sent only if `<expected>` appears in the current prompt; otherwise the sequence stops, sends nothing more, and prints the screen. An answer of `#<label>` picks the menu entry whose label starts with `<label>`, so renumbered menus cannot bite. **One `seq` per action**, with every step of the action in it: a `seq` with a single step is just a slow `send`, and is only right when the previous `seq` stopped and you are continuing from where it stopped. |
+| `seq "<expected>=><answer>" ...` | Answer several prompts in one call. Each step is sent only if `<expected>` appears in the current prompt; otherwise the sequence stops, sends nothing more, and prints the prompt. Answers are matched by **label** when the prompt is a numbered menu (exact, else unique prefix; the number is sent for you) and **typed as given** when the prompt is bare, so write `Saigon` or `Finished selecting` and never a number, whichever form the program uses this time. Digits, `y`, `n`, `abort` go through unchanged. An expected text of `*` matches any numbered menu (the label is then the guard). After a rejected answer the re-prompted menu is still matched. A rejection stops the sequence. **One `seq` per action**, with every step from `perform` to the end of the action in it (`PROMPTS.md` lists the chains): a single-step `seq` is just a slow `send`, right only when the previous `seq` stopped and you are continuing from there. |
 | `read` | Print program output since the last read. |
 | `screen` | Print the current visible screen (the current prompt). |
 | `status` | Running? Cursor? Last lines. |
 
 Interface facts:
 
-- Menus take the **number** of the choice, not the text. With `seq` you
-  answer by label (`#Train`, `#Finished`, `#Saigon`) and the controller
-  finds the number; prefer that. Do **not** run `screen` before every
-  answer: `seq` checks each prompt for you and stops if it is not the one
-  you expected, which is the check the screen call used to provide. Use
+- Menus take the **number** of the choice, and the same prompt (`Sweep in
+  which space:`, `Air Lift in which space:`) is a numbered menu on one card
+  and a bare typed prompt on another. `seq` hides this: answer by label or
+  name (`Train`, `Finished`, `Saigon`) and it sends the number or the text
+  as the prompt requires. Do **not** run `screen` before every answer:
+  `seq` checks each prompt for you and stops if it is not the one you
+  expected, which is the check the screen call used to provide. Use
   `screen` only when a `seq` has stopped and you need to see why.
 - `render.py` is brief by default: empty LoCs are collapsed and adjacency
   is omitted (`map.py <space>` for neighbours; `render.py --full` for all).
@@ -151,25 +154,20 @@ For each card:
       `ctl.py brief` if you need the briefing again.
    b. Write the plan entry in `journal.md` (format below).
    c. Execute the plan with **one** `seq` call containing every step from
-      `perform` to the end of the action; if it stops, read the screen it
-      printed and continue with a second `seq` from that point. Record
-      every stop, rejection and deviation in the journal entry's
-      "Execution" section. The common chains:
-      - Op + Train: `"(perform or ?)=>perform" "Choose one=>#Op"
-        "Choose operation=>#Train" "US Training=>#Select a space"
-        "Train in which space=>#<space>" "Training in=>#Place Irregulars"
-        "how many Irregulars=>2"` ... repeat select/place per space ...
-        `"US Training=>#Finished selecting" "final Train action=>#Pacify"`
-        (or `#Transfer` or `#Finished`) ... `"special activity=>y"`
-        `"Choose special activity=>#Advise"` ... The final Train menu
-        and the special-activity prompts follow.
-      - Limited Op: the same, but there is no "US Training" menu: after the
-        one space's placement the "final Train action" menu comes next.
-      - Second eligible: the first menu offers `#Limited` or `#Pass`, or
-        `#Event`, `#Limited`, `#Pass`, depending on what the first actor
-        did; `#Op` is not there.
-      Bare prompts that want a typed name take a plain answer
-      (`Train in which space=>Saigon`); numbered ones take `#Saigon`.
+      `perform` to the end of the action, written from the chains in
+      `PROMPTS.md`; if it stops, read the prompt it printed and continue
+      with a second `seq` from that point. Record every stop, rejection
+      and deviation in the journal entry's "Execution" section. For
+      example, Op + Train in one space with Pacify and no Special Activity:
+      `"(perform or ?)=>perform" "Choose one=>Op" "Choose operation=>Train"
+      "US Training=>Select a space" "Train in which space=>Saigon"
+      "Training in Saigon=>Place Irregulars" "how many=>2"
+      "US Training=>Finished selecting" "final Train action=>Pacify"
+      "Pacify in which space=>Saigon" "*=>Shift 1 level"
+      "final Train action=>Finished" "special activity=>n"`.
+      Second eligible: the first menu offers `Limited Op` or `Pass`, or
+      `Event`, `Limited Op`, `Pass`, depending on what the first actor did;
+      `Op` is not there.
    d. `ctl.py advance` again for any remaining bot actions.
 3. When `advance` has drawn the next card (a `[deck]` line appears) the card
    is finished. `advance` has already run `report.py`, which writes every

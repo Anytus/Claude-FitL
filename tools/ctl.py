@@ -35,18 +35,31 @@ Commands
                         a step is "<expected text>=><answer>". The expected
                         text must appear in the current prompt block (the
                         output since the previous answer) or the sequence
-                        stops there and prints the screen. An answer of
-                        "#<label>" picks the menu entry whose label starts
-                        with <label>, so menus that renumber are safe. An
-                        empty answer presses Enter. "Press Enter" pauses
-                        between steps are handled automatically.
-                        Example:
-                          seq "Choose one=>#Op" "Choose operation=>#Train" \
-                              "Train in which space=>#Saigon" \
-                              "Training in Saigon=>#Place Irregulars" \
+                        stops there, sends nothing more, and prints the
+                        prompt. Answers are form-agnostic: when the prompt
+                        is a numbered menu the answer is matched against the
+                        menu labels (exact, else unique prefix) and the
+                        number is sent; when the prompt is bare the answer
+                        is typed as given. So write the label or the name
+                        ("Train", "Saigon", "Finished selecting") and never
+                        the number, whichever form the program uses this
+                        time. A leading "#" is accepted and means the same.
+                        Digits, y, n and abort are sent as they are. An
+                        expected text of "*" matches any numbered menu; the
+                        label match is then the only guard, so use it for
+                        menu steps whose header you are not sure of. After
+                        a rejected answer the same menu is re-prompted and
+                        is still matched. A rejection stops the sequence.
+                        "Press Enter" pauses between steps are handled.
+                        Example (Op + Train + Advise):
+                          seq "(perform or ?)=>perform" "Choose one=>Op" \
+                              "Choose operation=>Train" \
+                              "US Training=>Select a space" \
+                              "Train in which space=>Saigon" \
+                              "Training in Saigon=>Place Irregulars" \
                               "how many Irregulars=>2" \
-                              "US Training=>#Finished selecting" \
-                              "final Train action=>#Finished" \
+                              "US Training=>Finished selecting" \
+                              "final Train action=>Finished" \
                               "special activity=>n"
   new-game <name>       Scripted setup: Full scenario, 1 human (US),
                         human may win in any Coup Victory phase, game name.
@@ -72,6 +85,7 @@ CARD_PROMPT_RE = re.compile(r"Enter the number of the (1st|2nd|next On Deck) Eve
 TRANSCRIPT = os.path.join(ROOT, "transcript.log")
 CURSOR = os.path.join(ROOT, ".ctl-cursor")
 BLOCK = os.path.join(ROOT, ".ctl-block")     # transcript offset at the last send
+MENUBLOCK = os.path.join(ROOT, ".ctl-menu")  # offsets of the last block that held a numbered menu
 LIBDIR = os.path.join(ROOT, "fitl", "lib")
 ANSI_RE = re.compile(r'\x1b\[[0-9;?]*[A-Za-z]|\x1b\][^\x07]*\x07|\r')
 
@@ -105,9 +119,32 @@ def write_cursor(n):
 
 def mark_block():
     """Remember where the transcript stood when the last answer was sent, so
-    'the current prompt block' is exactly what the program printed since."""
+    'the current prompt block' is exactly what the program printed since.
+    If the block being closed held a numbered menu, remember its offsets:
+    after a rejected answer the program re-prompts the same menu without
+    printing it again, and seq matches labels against this copy."""
+    end = transcript_size()
+    try:
+        with open(BLOCK) as f:
+            start = int(f.read().strip() or 0)
+    except FileNotFoundError:
+        start = 0
+    if start < end and menu_entries(read_since(start)[0]):
+        with open(MENUBLOCK, "w") as f:
+            f.write(f"{start} {end}")
     with open(BLOCK, "w") as f:
-        f.write(str(transcript_size()))
+        f.write(str(end))
+
+
+def menu_block_text():
+    """The last block that held a numbered menu (see mark_block), or ''."""
+    try:
+        with open(MENUBLOCK) as f:
+            start, end = (int(x) for x in f.read().split())
+    except (FileNotFoundError, ValueError):
+        return ""
+    text, _ = read_since(start)
+    return text[: max(0, end - start)]
 
 
 def current_block():
@@ -468,6 +505,45 @@ def cmd_commit_turn(line):
     return 1
 
 
+MENU_LINE_RE = re.compile(r'^\s*(\d+)\)\s*(.*?)\s*$', re.M)
+PASSTHROUGH = {"abort", "y", "n", ""}
+
+
+def menu_entries(text):
+    """[(number, label)] of the last numbered menu in text, or []."""
+    blocks, cur, prev = [], [], None
+    for m in MENU_LINE_RE.finditer(text):
+        n = int(m.group(1))
+        if prev is not None and n != prev + 1:
+            blocks.append(cur)
+            cur = []
+        cur.append((m.group(1), m.group(2)))
+        prev = n
+    if cur:
+        blocks.append(cur)
+    return blocks[-1] if blocks else []
+
+
+def match_label(entries, label):
+    """Menu number for a label: exact match, else unique prefix (case-insensitive).
+    Returns (number, error)."""
+    lab = label.lower().strip()
+    exact = [n for n, l in entries if l.lower() == lab]
+    if len(exact) == 1:
+        return exact[0], None
+    pref = [n for n, l in entries if l.lower().startswith(lab)]
+    if len(pref) == 1:
+        return pref[0], None
+    if not pref:
+        return None, f"no menu entry starts with {label!r}"
+    return None, f"{label!r} matches {len(pref)} menu entries; give more of the label"
+
+
+def screen_tail(n=30):
+    lines = screen_text().rstrip().splitlines()
+    return "\n".join(lines[-n:])
+
+
 def cmd_seq(steps):
     """Guarded multi-answer send. See the module docstring."""
     if not running():
@@ -483,10 +559,21 @@ def cmd_seq(steps):
     # The current prompt block is everything the program printed since the
     # last answer was sent (never the whole screen: stale menus above the
     # current one would otherwise match a label and give the wrong number).
+    # After a rejected answer the block holds only the rejection and a new
+    # "Selection:", so the menu of the previous block is used for that case.
     pending, off = read_since(read_cursor())
     write_cursor(off)
     print(pending, end="")
     block = current_block()
+    menu_block = block if menu_entries(block) else menu_block_text()
+
+    def stop(k, exp, ans, why, sent=False):
+        what = "The answer was sent; the program re-prompts" if sent else "Nothing sent for this step"
+        print(f"\n[ctl] seq stopped at step {k} ({exp!r} => {ans!r}): {why}. {what}. "
+              f"Current prompt:\n")
+        print(screen_tail())
+        return 1
+
     for k, (exp, ans) in enumerate(parsed, 1):
         # step over pauses the program inserts between narration and prompt
         guard = 0
@@ -494,27 +581,50 @@ def cmd_seq(steps):
             out = send_raw("")
             print(out, end="")
             block = out
+            if menu_entries(block):
+                menu_block = block
             guard += 1
-        if not MANUAL_DECK and CARD_PROMPT_RE.search(last_nonblank_screen_line()):
+        last = last_nonblank_screen_line()
+        if not MANUAL_DECK and CARD_PROMPT_RE.search(last):
             print(f"\n[ctl] seq stopped before step {k}: the program wants a card number; run `advance`.")
             return 1
-        if exp and exp.lower() not in block.lower():
-            print(f"\n[ctl] seq stopped at step {k} ({exp!r} => {ans!r}): expected text not in the "
-                  f"current prompt. Nothing sent for this step. Current screen:\n")
-            print(screen_text().rstrip())
-            return 1
-        if ans.startswith("#"):
-            num = menu_number(block, re.escape(ans[1:]))
-            if num is None:
-                print(f"\n[ctl] seq stopped at step {k}: no menu entry starting with {ans[1:]!r}. "
-                      f"Nothing sent for this step. Current screen:\n")
-                print(screen_text().rstrip())
-                return 1
-            print(f"\n[ctl] step {k}: {ans} -> {num}")
-            ans = num
-        out = send_raw(ans)
+        numbered = last.lstrip().startswith("Selection")
+        entries = menu_entries(block)
+        used_prev = False
+        if numbered and not entries and menu_block:
+            entries = menu_entries(menu_block)     # re-prompt after a rejection
+            used_prev = True
+        # --- the guard
+        if exp == "*":
+            if not numbered:
+                return stop(k, exp, ans, "a '*' step needs a numbered menu to match the answer against, "
+                            "and this prompt is bare")
+        elif exp:
+            haystack = block + ("\n" + menu_block if used_prev else "")
+            if exp.lower() not in haystack.lower():
+                return stop(k, exp, ans, "expected text not in the current prompt")
+        # --- the answer: matched against the menu when there is one, typed as-is when the prompt is bare
+        to_send, note = ans, ""
+        label = ans[1:] if ans.startswith("#") else ans
+        if numbered:
+            if ans.startswith("#") or (not ans.isdigit() and ans.lower() not in PASSTHROUGH):
+                if not entries:
+                    return stop(k, exp, ans, "the prompt is a numbered menu but no menu is visible to match against")
+                num, err = match_label(entries, label)
+                if err:
+                    return stop(k, exp, ans, err)
+                to_send, note = num, f" ({label!r} -> {num})"
+        else:
+            if ans.startswith("#"):
+                to_send, note = label, " (bare prompt: typed the label)"
+        print(f"\n[ctl] step {k}: {exp!r} -> {to_send}{note}")
+        out = send_raw(to_send)
         print(out, end="")
         block = out
+        if menu_entries(block):
+            menu_block = block
+        if "is not valid" in out:
+            return stop(k, exp, ans, "the program rejected the answer (see above)", sent=True)
     print(f"\n[ctl] seq finished {len(parsed)} steps; stopped at: {last_nonblank_screen_line()}")
     return 0
 
