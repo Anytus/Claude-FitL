@@ -1129,3 +1129,26 @@ is still eligible, so the -3 is possible but no longer likely. The casualty
 clause paid nothing, as expected. Net: I judge the play still positive, but my
 stated reason for it was not the reason it worked, and that is the kind of
 error that looks like success and teaches nothing unless it is written down.
+
+## Turn 18 — card #86 Mandate of Heaven — before save-084
+**Plan.** Op + SA. Train in Quang Tin-Quang Ngai, `Do not place forces`;
+mid-op Air Lift 2 US Troops Saigon -> Quang Tin-Quang Ngai; then Pacify Quang
+Tin-Quang Ngai 2 levels, Neutral -> Active Support (6 of ARVN's 14 Resources,
+leaving 8 above Econ 7).
+**Why.** The lift takes COIN there to 4 against 3 NVA Troops, which both
+**breaks an NVA Control (-2 NVA, 16 -> 14)** and makes the space pacifiable
+for **+4 US (56 -> 60)** — the only action on the board that scores against
+two factions at once. Saigon can spare the Troops: 8 COIN pieces remain
+against 3 Active Guerrillas. Rejected: lifting single Troops into Quang Tin
+and Kien Phong to break two Controls for -4 NVA, because the NVA at 16 cannot
+actually beat me — victory goes to the highest score above 0 and it would need
+28 points to pass my +10 — so my own Support is worth more than its denial.
+**Assumed, not checked at the prompt:** that Quang Tin-Quang Ngai is offered
+as a Train space and that Pacify appears after the Air Lift restores Control.
+**Execution.** None — four `seq` calls, no rejections, no aborts. Both
+assumptions held: Quang Tin-Quang Ngai was offered for Train, and Pacify was
+on the final menu once the Air Lift had restored Control.
+**Result.** As expected. `Move the 'NVA Control + NVA Bases' marker from 16 to
+14` on the lift, then `US Pacifies 2 levels in Quang Tin-Quang Ngai` /
+`Move the 'Support + Avail US' marker from 56 to 60`. ARVN Resources 14 -> 8.
+The card ended on my action, so the VC and NVA got nothing.

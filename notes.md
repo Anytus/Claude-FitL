@@ -33,3 +33,5 @@ coup 2 (#125 Nguyen Khanh): pacified Saigon/Hue/Kien Hoa/Quang Nam to Active Sup
 pivotal: played Linebacker II — NVA -2 Bases and Ineligible; my stated rationale (deleting Great Society) was wrong, it was on deck not current.
 coup 2 complete: +14 Support phase, US 60 (+10); Linebacker II played
 card #121 Linebacker II complete — US 60 (+10) entering campaign 3
+Session note: container reclaimed after card #121; resumed from latest save (#121 Linebacker II, US performed Event) at the card-draw prompt, nothing lost.
+card #86 Mandate of Heaven: Op Train + Air Lift — Quang Tin-Quang Ngai taken and pacified to Active Support, US 56->60, NVA 16->14

@@ -137,3 +137,19 @@
 2026-09-22T17:37:16	Bash	python3 - <<'PY' p='journal.md'; s=open(p).read() old="""was wrong. I argued tha	1892	2320
 2026-09-22T17:37:29	Bash	for i in 1 2 3 4 5 6 7 8 9 10; do out=$(python3 tools/ctl.py send perform 2>&1 |	509	16542
 2026-09-22T17:37:33	Bash	python3 tools/render.py 2>&1 | sed -n '/--- Trackers/,/Casualties/p;/Sequence of	228	1195
+2026-09-22T17:37:39	Bash	python3 tools/ctl.py commit-turn "card #121 Linebacker II complete — US 60 (+10)	179	8904
+2026-09-22T18:08:31	Bash	ls -la usage.log reports/TestGame5/usage.log 2>/dev/null; echo "---"; tail -5 re	258	1685
+2026-09-22T18:08:45	Bash	python3 - <<'PY' import datetime,collections rows=[] for line in open('reports/T	1964	1708
+2026-09-22T18:20:43	Bash	git status --short && echo "=== diff ===" && git diff -- CLAUDE.md journal.md | 	141	107
+2026-09-22T18:20:48	Bash	git log --oneline -6 && echo "=== CLAUDE.md journal section ===" && sed -n '/Jou	189	887
+2026-09-22T18:20:52	Bash	awk '/^## Journal entry format/,/^## Scores/' CLAUDE.md && echo "=== head of jou	183	2261
+2026-09-22T18:21:03	Bash	ls -la --time-style=+%H:%M *.md && echo "=== any other journal-ish files ===" &&	393	969
+2026-09-22T18:21:06	Bash	git show 2e2bba3 --stat && echo "=== diff ===" && git show 2e2bba3 -- CLAUDE.md	132	5079
+2026-09-22T18:21:29	Bash	git pull --ff-only origin claude/testgame5 2>&1 | tail -3 && grep -c "" CLAUDE.m	162	4596
+2026-09-22T18:23:45	Bash	timeout 600 python3 tools/ctl.py advance 2>&1 | tail -42	121	125
+2026-09-22T18:23:51	Bash	python3 tools/ctl.py resume TestGame5 2>&1 | tail -18	114	871
+2026-09-22T18:24:16	Bash	printf 'Session note: container reclaimed after card #121; resumed from latest s	300	30756
+2026-09-22T18:24:28	Bash	python3 tools/render.py 2>&1 | sed -n '1,40p' && python3 tools/render.py 2>&1 | 	169	4695
+2026-09-22T18:25:40	Bash	cat >> journal.md <<'EOF'  ## Turn 18 — card #86 Mandate of Heaven — before save	1750	5980
+2026-09-22T18:25:47	Bash	python3 tools/ctl.py seq \  "*=>Lift forces out of Saigon" "Lift forces to which	247	2568
+2026-09-22T18:25:55	Bash	python3 tools/ctl.py seq \  "*=>Finished moving forces out of Saigon" \  "*=>Fin	327	8564

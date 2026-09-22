@@ -27,3 +27,6 @@
 - report-069-070.md: #125 - Coup! Nguyen Khanh
 - report-071-073.md: #47 - Chu Luc; #121 - Linebacker II
 - report-074-075.md: #121 - Linebacker II
+- report-076-077.md: #73 - Great Society
+- report-078-081.md: #106 - Binh Duong; #122 - Easter Offensive
+- report-082-084.md: #86 - Mandate of Heaven
