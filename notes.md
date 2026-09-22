@@ -7,3 +7,5 @@ and anything Kevin asked administratively. Previous games' notes are under
 `archive/`.
 
 ## TestGame5 (Full 1964-1972, US human, human win allowed in any Coup, harness-drawn deck)
+
+Session 1 start: new game TestGame5 created, advanced to first US decision on card #26 LRRP.
