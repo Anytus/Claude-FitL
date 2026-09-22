@@ -51,3 +51,12 @@
 2026-09-22T23:48:42	Bash	printf '**Execution.** Stops at the ARVN Troops/Police counts and the final-acti	559	12499
 2026-09-22T23:48:52	Bash	python3 tools/ctl.py commit-turn "card #75 Sihanouk: LimOp Train Pleiku 6 ARVN c	624	12863
 2026-09-22T23:49:15	Bash	cat >> journal.md <<'EOF'  ## Turn 7 — card #48 Nam Dong — before save-034 **Pla	849	20136
+2026-09-22T23:49:23	Bash	python3 tools/ctl.py commit-turn "card #48 Nam Dong: Pass — stay Eligible for Fu	417	12569
+2026-09-22T23:49:39	Bash	cat >> journal.md <<'EOF'  ## Turn 8 — card #93 Senator Fulbright — before save-	606	3087
+2026-09-22T23:49:43	Bash	python3 tools/ctl.py seq "Select space to remove=>Hue" 2>&1 | grep -v "^\s*$" | 	127	792
+2026-09-22T23:49:47	Bash	python3 tools/ctl.py seq "Remove how many=>2" "Select space to remove=>Quang Tri	156	1613
+2026-09-22T23:49:51	Bash	python3 tools/ctl.py seq "Remove how many=>1" 2>&1 | grep -v "^\s*$" | tail -12	118	975
+2026-09-22T23:49:54	Bash	python3 tools/ctl.py seq "How many US Troops=>1" 2>&1 | grep -v "^\s*$" | tail -	121	1505
+2026-09-22T23:49:58	Bash	python3 tools/ctl.py seq "Select space to remove=>Da Nang" 2>&1 | grep -v "^\s*$	131	808
+2026-09-22T23:50:01	Bash	python3 tools/ctl.py seq "Remove how many=>1" 2>&1 | grep -v "^\s*$" | tail -16	118	5683
+2026-09-22T23:50:20	Bash	printf '**Execution.** Several stops: the event prompts space by space, then a c	520	14628

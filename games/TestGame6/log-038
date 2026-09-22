@@ -1,0 +1,98 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: Senator Fulbright",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 US Troops from Hue to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 US Troop from Quang Tri-Thua Thien to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 US Troop from Da Nang to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Da Nang",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 49 to 53",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 39 to 38",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

@@ -1999,4 +1999,386 @@ Eligible      : US, ARVN
 Acted         : VC -> Op/Special Activity
 Passed        : none
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Senator Fulbright
+----------------------------------------------------
+
+Number of US piece removed to available: 0 of 4
+----------------------------------------------------
+
+Select space to remove US pieces:
+====================================================
+1) An Loc
+2) Can Tho
+3) Da Nang
+4) Hue
+5) Qui Nhon
+6) Saigon
+7) Pleiku-Darlac
+8) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 4
+
+Remove how many pieces from Hue (0 - 2): 2
+[35mRemove 2 US Troops from Hue to AVAILABLE[0m
+
+Number of US piece removed to available: 2 of 4
+----------------------------------------------------
+
+Select space to remove US pieces:
+====================================================
+1) An Loc
+2) Can Tho
+3) Da Nang
+4) Qui Nhon
+5) Saigon
+6) Pleiku-Darlac
+7) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 7
+
+Remove how many pieces from Quang Tri-Thua Thien (0 - 2): 1
+
+Select 1 piece among the following:
+  1 US Troop, 1 US Underground Irregular
+
+How many US Troops (0 - 1): 1
+[35mRemove 1 US Troop from Quang Tri-Thua Thien to AVAILABLE[0m
+
+Number of US piece removed to available: 3 of 4
+----------------------------------------------------
+
+Select space to remove US pieces:
+====================================================
+1) An Loc
+2) Can Tho
+3) Da Nang
+4) Qui Nhon
+5) Saigon
+6) Pleiku-Darlac
+7) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from Da Nang (0 - 1): 1
+[35mRemove 1 US Troop from Da Nang to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Da Nang[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 49 to 53[0m
+[34mMove the 'COIN Control + Patronage' marker from 39 to 38[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 76
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 40[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : NVA
+Acted         : none
+Passed        : ARVN
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - N
+Trung check: 3d6 <= Available NVA Troops (3): 9 [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]
+
+NVA chooses Attack operation
+====================================================
+
+NVA Attacks in Pleiku-Darlac using Troops
+----------------------------------------------------
+[35mRemove 1 US Underground Irregular from Pleiku-Darlac to CASUALTIES[0m
+[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Pleiku-Darlac to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 37[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Pleiku-Darlac
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Can Tho
+----------------------------------------------------
+[35mRemove 1 US Troop from Can Tho to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 59
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Annam
+----------------------------------------------------
+[34mIncrease Patronage by +2 to 27[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 39[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : VC, US
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Hue for Terror
+[36mFlip 1 VC Underground Guerrilla in Hue to ACTIVE[0m
+[33mAdd 1 terror marker to Hue[0m
+[33mFlip Active Support marker in Hue to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 53 to 51[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Kontum
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Kontum to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kontum[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Subverts in Phu Bon-Phu Yen
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Phu Bon-Phu Yen to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Phu Bon-Phu Yen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -1 to 26[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 38[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 81
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #81 - CIDG (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Ignored)
+Eligible      : NVA, US
+Acted         : none
+Passed        : none
+Ineligible    : VC, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (9): 8 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 4[0m
+Trung check: 3d6 <= Available NVA Troops (3): 16 [No]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Pleiku-Darlac
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #81 - CIDG (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Ignored)
+Eligible      : US
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, ARVN
 (perform or ?): 

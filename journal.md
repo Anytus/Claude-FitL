@@ -58,3 +58,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Only a LimOp is open and no US Troops remain where it would matter. Passing keeps US Eligible for #93 Senator Fulbright (VC, US, ...): VC is marked Ignored so it takes an Op + SA, leaving US the unshaded Event: 4 US pieces map → Available, +4 US with no withdrawal shift.
 **Execution.** none
 **Result.** Passed as planned.
+
+## Turn 8 — card #93 Senator Fulbright — before save-037
+**Plan.** Event, unshaded: move 4 US Troops to Available: Hue 2, Quang Tri 1, Da Nang 1.
+**Why.** +4 US (49 → 53) with no withdrawal shift. These Troops guard nothing: Hue keeps 6 ARVN cubes; Quang Tri keeps its Irregular; Da Nang is already Active Support. The Bases (Training) and the Troops in An Loc, Can Tho and Qui Nhon (next-Coup pacify) stay.
+**Execution.** Several stops: the event prompts space by space, then a count, then a piece-type count in mixed stacks; answered each in turn. No rejections.
+**Result.** As planned: US 53; Da Nang lost COIN Control.

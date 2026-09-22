@@ -21,3 +21,4 @@ Coup 1 #126 Young Turks: Pacify Hue+Da Nang Active; Troops to Can Tho/An Loc/Qui
 card #75 Sihanouk: LimOp Train Pleiku 6 ARVN cubes + Pacify Active — break NVA Control, NVA at 17/18
 card #63 Fact Finding: US ineligible (ARVN shaded Event, VC Rally+Tax)
 card #48 Nam Dong: Pass — stay Eligible for Fulbright unshaded (+4)
+card #93 Senator Fulbright: Event unshaded, 4 Troops to Available — +4 US, no withdrawal shift

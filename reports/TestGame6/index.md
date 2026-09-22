@@ -18,3 +18,7 @@
 - report-033-034.md: #48 - Nam Dong
 - report-035-035.md: #48 - Nam Dong
 - report-036-037.md: #93 - Senator Fulbright
+- report-038-038.md: #93 - Senator Fulbright
+- report-039-041.md: #82 - Domino Theory
+- report-042-044.md: #76 - Annam
+- report-045-046.md: #59 - Plei Mei
