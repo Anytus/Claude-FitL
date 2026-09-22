@@ -180,71 +180,39 @@ level toward Active Opposition (Laos and Cambodia have population 0).
 
 ## 5. Coup round, phase by phase
 
-1. **Victory** comes first, before anything else in the round. Any faction
-   with score above 0 wins, highest first; ties go VC, ARVN, NVA, US (`Game
-   over in the 3rd Coup! round / US wins with a victory margin of 4!`).
-   **Nothing the Coup itself does (pacification, casualties returning)
-   counts for that Coup's check; it all counts for the next one.**
-2. **Resources**: sabotage check, Trail-degrade check for COIN-controlled
-   Laos/Cambodia spaces, ARVN earns Econ + Aid (`+41` with Econ 15 and Aid
-   26, computed **before** the deduction that follows), then **Aid drops by 3
-   per piece in the Casualties box** (12 Troops + 1 Irregular: `Decrease US
-   Aid by -39 to 0`, floored at 0). **Econ is re-set each Coup from the
-   unsabotaged LoCs** (`Set Econ marker to 13`). A low Econ is good for the
-   US, since it is the floor that Pacify must stay above: the sabotage the
-   VC does to spite ARVN's income widens your pacification headroom.
-3. **Support**: US pacifies first, up to 4 spaces, in spaces with **COIN
-   Control, US Troops and ARVN Police**, the strict test; Irregulars do not
-   count as Troops here, and a space with Troops but no Police is refused.
-   Prompt: `US Pacification (4 spaces remaining, 72 ARVN resources, Econ is
-   15)`; with no eligible space it prints `US does not pacify any spaces`
-   without asking. Up to 2 levels per space as one menu entry. Then ARVN
-   pacifies (it can take a space from Passive Opposition to Passive Support
-   in one go), then the VC spends its Agitate Total, 1 per level, in spaces
-   holding VC Guerrillas.
-4. **Redeploy**: ARVN behaviour varies: it has moved Police out of Cities
-   into contested Provinces (a gift), and it has pulled Troops off LoCs and
-   out of a contested Province into Saigon. NVA rolls `3d6 for number of
-   troops per destination` and may move Troops from Laos/North Vietnam into
-   South Vietnam, taking Control after the Victory check.
-5. **Commitment**: Base casualties and one third of Troop casualties go Out
-   of Play, Irregular casualties to Available; under **Medevac unshaded** all
-   Troop casualties go to Available instead (`US Troops in the Casualties
-   box move to available: [Momentum: #15 Medevac (unshaded)]`). **The
-   remaining Troop casualties are then placed on the map by you**:
-   `ROTATION: Place the remaining US Troop Casualties on the map / 4 Troop
-   casualties remaining to place on the map`, with a numbered list of every
-   COIN-controlled space, every LoC and Saigon, asking a count per space
-   (with 2 Troops in the box none went Out of Play and both were placed;
-   with 5 Troops and 2 Irregulars, 1 Troop went Out of Play, both
-   Irregulars to Available, 4 Troops placed). These arrive free, so
-   casualties are a redeployment you control, and Aid has already been
-   charged for them in the Resources phase. **Each Troop placed this way
-   reduces the move allowance that follows** (`up to 8` after two
-   placements, `up to 6` after four). Then `Move up to 10 US Troops and up to
-   2 bases among Available box, COIN controlled spaces, LoCs and Saigon`: the
-   prompt asks the **source** first (Available plus spaces already holding
-   US Troops), then the destination from a list of every COIN-controlled
-   space, every LoC and Saigon; an Uncontrolled space is not on it. **This is
-   the only way pieces leave Available**; Air Lift cannot. Each piece moved
-   out costs 1 US point. Withdrawal: for every 2 US pieces moved to Available
-   the VC shifts 1 population one level toward Active Opposition; the prompt
-   prints even for 0 pieces.
-6. **Reset**: the Trail moves toward the middle (0 -> 1, 4 -> 3); one terror
-   marker per space is removed (not all of them); all Active Guerrillas
-   **and Active US Irregulars and ARVN Rangers** flip Underground; momentum
-   removed; all factions Eligible; Agitate Total set by d3; Tru'ng deck
-   reshuffled.
+1. **Victory.** Any faction with score above 0 wins, highest first; ties go
+   VC, ARVN, NVA, US. The check is made before anything else in the round,
+   so nothing the Coup itself does counts until the next Coup.
+2. **Resources.** Sabotage check; Trail-degrade check for COIN-controlled
+   Laos and Cambodia spaces; ARVN gains Econ plus Aid, computed before the
+   next step; then Aid drops by 3 per piece in the Casualties box, floored
+   at 0. Econ is re-set from the unsabotaged LoCs.
+3. **Support.** The US pacifies first, in up to 4 spaces that have COIN
+   Control, US Troops and ARVN Police (Irregulars do not count as Troops).
+   Up to 2 levels per space at the same cost as Train, from ARVN Resources
+   above Econ. Then ARVN pacifies, then the VC spends its Agitate Total, 1
+   per level, in spaces holding VC Guerrillas.
+4. **Redeploy.** ARVN must redeploy its Troops to Cities or to spaces with
+   a US or ARVN Base, then may redeploy Police to any COIN-controlled space;
+   Control is not re-evaluated between the two, so the first never limits
+   the second. The NVA may move Troops from Laos and North Vietnam into
+   South Vietnam, taking Control there.
+5. **Commitment.** US Base casualties and one third of Troop casualties go
+   Out of Play; Irregular casualties go to Available; the remaining Troop
+   casualties must be placed on the map, on COIN-controlled spaces, LoCs or
+   Saigon of the US's choosing. Then the US may move up to 10 Troops and 2
+   Bases among Available, COIN-controlled spaces, LoCs and Saigon, the
+   Troop allowance reduced by the casualties just placed. Withdrawal: for
+   every 2 US pieces moved to Available the VC shifts 1 population one level
+   toward Active Opposition.
+6. **Reset.** The Trail improves from 0 to 1 or degrades from 4 to 3 and is
+   otherwise unchanged; terror markers are removed; all Active Guerrillas,
+   Irregulars and Rangers flip Underground; momentum is removed; all
+   factions become Eligible; the Agitate Total is set by a d3; the Tru'ng
+   deck is reshuffled.
 
-The Coup card goes into the RVN Leader box "on top of the stack", and the
-**count of cards in that box is the bots' pivotal-event roll target**, so
-each Coup makes every pivotal one point more likely; Duong Van Minh does not
-count. Leader effects seen: Nguyen Khanh (Transport max 1 LoC space; pacify
-3), Nguyen Van Thieu (no effect printed; pacify 3), Nguyen Cao Ky
-(pacification 4 per level), Young Turks (no effect printed; pacify 3), Failed
-Attempt (ARVN removes 1 in 3 cubes per space). The cost line names the leader
-when one applies: `The cost to pacify is 4 per level/terror marker [Leader:
-Nguyen Cao Ky]`.
+The Coup card goes into the RVN Leader box and its leader effect applies
+from then on; the card text says what.
 
 ## 6. Scoring and control facts
 
