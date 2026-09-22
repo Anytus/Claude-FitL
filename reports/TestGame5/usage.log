@@ -19,3 +19,13 @@
 2026-09-22T16:51:18	Bash	ls reports/TestGame5/ && echo "=== sections ===" && python3 tools/render.py 2>&1	278	996
 2026-09-22T16:51:23	Bash	grep -nE "^(##|###|\*\*|Trung|>>>)" reports/TestGame5/report-001-002.md reports/	177	955
 2026-09-22T16:51:26	Bash	sed -n '67,100p' reports/TestGame5/report-001-002.md && echo "@@@@@" && sed -n '	193	2423
+2026-09-22T16:51:43	Bash	python3 - <<'EOF' import re p='journal.md'; s=open(p).read() s=s.replace("""**Ex	1914	7900
+2026-09-22T16:54:45	Bash	cat >> journal.md <<'EOF'  ## Turn 2 — card #68 Green Berets — before save-008 *	2768	3308
+2026-09-22T16:54:55	Bash	python3 tools/ctl.py seq \  "(perform or ?)=>perform" \  "Choose one=>Limited Op	462	4252
+2026-09-22T16:55:01	Bash	python3 tools/ctl.py seq "*=>Shift 2 levels to Active Support" 2>&1 | tail -25	141	5678
+2026-09-22T16:55:07	Bash	python3 tools/ctl.py advance 2>&1 | head -40	105	9342
+2026-09-22T16:55:12	Bash	python3 tools/ctl.py status 2>&1 | tail -15	104	628
+2026-09-22T16:55:31	Bash	python3 tools/ctl.py enter 2>&1 | tail -30	108	1777
+2026-09-22T16:55:37	Bash	for i in 1 2 3 4 5 6; do out=$(python3 tools/ctl.py enter 2>&1 | tail -20); echo	254	14588
+2026-09-22T16:55:41	Bash	python3 tools/ctl.py send perform 2>&1 | tail -30	98	2121
+2026-09-22T16:55:46	Bash	for i in 1 2 3 4 5 6 7 8; do out=$(python3 tools/ctl.py enter 2>&1 | tail -18); 	294	5148

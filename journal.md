@@ -81,3 +81,64 @@ LRRP was never played. Scores US 44 (-6), VC 27 (-8), ARVN 38 (-12), NVA 4
 space, which is the concentration TestGame4's post-mortem warns against; it is
 adjacent to Southern Laos, and I should spread them at the first cheap chance.
 
+
+## Turn 2 — card #68 Green Berets — before save-008
+**Situation.** ARVN opened #68 with an **Op Only** (Train in Saigon; the Duong
+Van Minh leader effect also paid Aid +5 to 20), which closes the Event to
+everyone behind it, so my menu is `Limited Op` or `Pass`. The VC is marked
+**Critical/Shaded** here, and shaded Green Berets reads "Remove any 3
+Irregulars to Available and set 1 of their Provinces to Active Opposition" —
+aimed straight at the 3 Irregulars I stacked in Binh Dinh last card, which
+would also take a pop-2 Highland from Neutral to Active Opposition: about 4 VC
+points, my COIN Control there, and the Advise engine.
+
+**Options considered.**
+- *Pass.* +3 ARVN Resources and keeps me Eligible for #43 Economic Aid. But I
+  am third in that card's order (NVA, ARVN, US, VC) behind an NVA marked
+  Ignored and an ARVN marked Performed/Unshaded, so both are likely to act and
+  squeeze me out anyway. Worse, a pass leaves the VC the second-eligible slot
+  on this card. I believe ARVN's Op Only has closed the Event to the VC as
+  well, but that is an inference about how long the closure lasts, and
+  TestGame4's post-mortem is explicit that a plan resting on an inference
+  about a bot's slot is a bet, not a plan.
+- *Limited Op.* Two factions will then have acted and the card ends with the
+  VC never getting a turn at all. Certain denial instead of probable denial,
+  and it buys points rather than 3 of ARVN's Resources.
+
+**Plan.** **Limited Op — Train in Binh Dinh.** `Do not place forces` (I hold
+only 1 Irregular in Available and Binh Dinh already has 3; adding a fourth is
+the concentration I want to break up, not deepen). Final Train action:
+**Pacify Binh Dinh, 2 levels, Neutral -> Active Support**, 6 Resources.
+Expected: Total Support 21 -> 25, US 44 -> 48. ARVN Resources 24 -> 18, which
+still clears Econ 15, so the gate stays open next card. ARVN gains 0 (Binh
+Dinh is already COIN-controlled, so no new Control).
+
+**Rationale.** Binh Dinh is the best pacification on the board: pop 2 against
+pop 1 everywhere else I could reach, so 2 levels are worth +4 rather than +2,
+at the same 6 Resources. It is also the durable choice — Support and
+Opposition persist through changes of Control, so even if the VC rallies a
+Guerrilla back and flips Binh Dinh out of COIN Control, the 4 points stay on
+the board. And the space holds no ARVN cubes, so ARVN's Govern, the largest
+single leak in the last three games' US scores, cannot reach it. Ending the
+card myself, on a card where a rival is Critical for an event aimed at my own
+pieces, is the TestGame4 lesson applied.
+
+**Execution.** One stop, no rejections, no aborts. Steps 1-7 ran as written
+(`Limited Op`, `Train`, `Select a space`, `Binh Dinh`, `Do not place forces`,
+`Pacify`). Step 8 (`Pacify in which space` => `Binh Dinh`) stopped the
+sequence: `no menu entry starts with 'Binh Dinh'`. Nothing was sent. The
+reason is the single-candidate rule — with Binh Dinh the only Train space the
+program printed `Pacify in which space:  Binh Dinh` and resolved it itself,
+so by the time my step was tested the screen already held the *level* menu.
+I continued with a one-step `seq` sending `Shift 2 levels to Active Support`.
+Two lessons for `PROMPTS.md`: a Limited Op Train has exactly one candidate at
+`Pacify in which space`, so that step should be omitted; and my Turn 1 note
+that Pacify ends the Train was confirmed again here.
+
+**Result.** As planned. `US Pacifies 2 levels in Binh Dinh`, `Decrease ARVN
+resources by -6 to 18`, `Place Active Support marker in Binh Dinh`, `Move the
+'Support + Avail US' marker from 44 to 48`. The card then ended immediately
+(`Move the US cylinder to the LimOp box`, eligibility adjusted, next card
+drawn) with the VC never acting, so the Critical shaded Green Berets aimed at
+my 3 Binh Dinh Irregulars was denied outright — the second Critical VC event
+killed by turn order in two cards.
