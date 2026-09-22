@@ -49,3 +49,5 @@
 2026-09-22T23:48:25	Bash	python3 tools/ctl.py seq "final Train action=>Pacify" 2>&1 | grep -v "^\s*$" | t	126	1452
 2026-09-22T23:48:28	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" 2>&1 | grep -v "^\s*$" | tail	123	6807
 2026-09-22T23:48:42	Bash	printf '**Execution.** Stops at the ARVN Troops/Police counts and the final-acti	559	12499
+2026-09-22T23:48:52	Bash	python3 tools/ctl.py commit-turn "card #75 Sihanouk: LimOp Train Pleiku 6 ARVN c	624	12863
+2026-09-22T23:49:15	Bash	cat >> journal.md <<'EOF'  ## Turn 7 — card #48 Nam Dong — before save-034 **Pla	849	20136

@@ -1788,4 +1788,215 @@ Eligible      : US
 Acted         : NVA -> Op Only
 Passed        : none
 Ineligible    : ARVN, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 37[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 82
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Y
+Trung check: 3d6 <= Available VC pieces (8): 15 [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Kien Hoa-Vinh Binh to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Subverts in Hue
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Hue to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Hue to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -1 to 25[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Tay Ninh to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Hue -- Khe Sanh as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Tri-Thua Thien to LOC Hue -- Khe Sanh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 3 VC Underground Guerrillas from Tay Ninh to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 3 VC Underground Guerrillas in Saigon to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Kontum as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Binh Dinh to Kontum[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Kontum[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 41 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Da Nang as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Tin-Quang Ngai to Da Nang[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Ba Xuyen as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Kien Giang-An Xuyen to Ba Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Ba Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 40 to 39[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+VC selects Can Tho as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Kien Hoa-Vinh Binh to Can Tho[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Can Tho to ACTIVE[0m
+
+[35mMove 1 VC Underground Guerrilla from Kien Phong to Can Tho[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Can Tho to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects An Loc as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from Tay Ninh to An Loc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Quang Nam as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Tri-Thua Thien to Quang Nam[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US, ARVN
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA
 (perform or ?): 

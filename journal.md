@@ -52,3 +52,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** NVA sits at 17 of 18; this breaks NVA Control of Pleiku (−1 NVA), gives COIN Control and +2 US for 9 ARVN Resources. Acting also ends the card before VC can take the shaded Event (free Rally/March for VC and NVA). Rejected: LimOp Assault in Pleiku (2 Troops killed, no US gain).
 **Execution.** Stops at the ARVN Troops/Police counts and the final-action menu (seq written only to placement); answered 3 Troops, 3 Police, Pacify, 2 levels. No rejections.
 **Result.** As planned: Pleiku COIN Control and Active Support; US 50, NVA 16.
+
+## Turn 7 — card #48 Nam Dong — before save-034
+**Plan.** Pass.
+**Why.** Only a LimOp is open and no US Troops remain where it would matter. Passing keeps US Eligible for #93 Senator Fulbright (VC, US, ...): VC is marked Ignored so it takes an Op + SA, leaving US the unshaded Event: 4 US pieces map → Available, +4 US with no withdrawal shift.
+**Execution.** none
+**Result.** Passed as planned.

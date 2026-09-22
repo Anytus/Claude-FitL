@@ -1,0 +1,462 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, US, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - Y",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available VC pieces (8): 15 [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - Z",
+      "color": null
+    },
+    {
+      "text": "Trung check: 15+ VC Guerrillas on the map? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Patronage >= 17? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Subvert special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC Subverts in Kien Hoa-Vinh Binh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Police from Kien Hoa-Vinh Binh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC Subverts in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Hue to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Hue to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -1 to 25",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 42 to 41",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of VC Subvert activity",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3+ VC Guerrillas in any space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses March operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Tay Ninh to LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects LOC Hue -- Khe Sanh as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Quang Tri-Thua Thien to LOC Hue -- Khe Sanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC selects Saigon as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 3 VC Underground Guerrillas from Tay Ninh to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nThe moving Guerrillas must activate",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 3 VC Underground Guerrillas in Saigon to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Kontum as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Binh Dinh to Kontum",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Kontum",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 41 to 40",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Da Nang as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Quang Tin-Quang Ngai to Da Nang",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Ba Xuyen as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Kien Giang-An Xuyen to Ba Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 40 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 4 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Can Tho as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Kien Hoa-Vinh Binh to Can Tho",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nThe moving Guerrillas must activate",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Can Tho to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Kien Phong to Can Tho",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nThe moving Guerrillas must activate",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Can Tho to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects An Loc as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Active Guerrilla from Tay Ninh to An Loc",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Quang Nam as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 VC Underground Guerrilla from Quang Tri-Thua Thien to Quang Nam",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}
