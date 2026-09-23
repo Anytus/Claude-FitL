@@ -1,10 +1,10 @@
 # Fire in the Lake, US faction: what the program taught me
 
-Observed at the program's own prompts or in its narration over six games;
+Observed at the program's own prompts or in its narration over seven games;
 descriptive, not advice. Where a statement is an inference rather than an
 observation, it says so.
 
-**Still unobserved after six games:** Air Strike carried through to a hit
+**Still unobserved after seven games:** Air Strike carried through to a hit
 (the menu has been opened and aborted, never resolved); Sweep activation
 ratios outside Lowland; the "add an ARVN Assault" option inside a US Assault;
 Train's forced removal of ARVN cubes from the map when Available is short of
