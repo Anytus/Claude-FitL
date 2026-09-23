@@ -26,3 +26,7 @@
 - report-054-055.md: #23 - Operation Attleboro
 - report-056-058.md: #22 - Da Nang
 - report-059-060.md: #64 - Honolulu Conference
+- report-061-061.md: #64 - Honolulu Conference
+- report-062-064.md: #83 - Election
+- report-065-066.md: #130 - Coup! Failed Attempt
+- report-067-067.md: #6 - Aces

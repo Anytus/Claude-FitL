@@ -17,3 +17,4 @@ card #101 Booby Traps: Pass — keep eligible for Fulbright; #93 Fulbright unsha
 card #9 Psychedelic Cookie unshaded: 3 OOP Troops to Available — +3; #28 S&D: ineligible
 card #70 ROKs: Pass — keep first eligible for Attleboro
 card #23 Attleboro unshaded: Tay Ninh cleared of 6 VC + tunneled Base — ARVN follow-up assault; #22 Da Nang: ineligible
+card #64 Honolulu: LimOp Assault Tay Ninh — NVA 17→15; #83 Election: ineligible; Coup 2: pacified Hue 2 levels, 4 Troops to Saigon/Da Nang

@@ -101,3 +101,24 @@ none. Air Lift took Saigon 2, Kontum 1, Kien Hoa 1; Sweep offered Pleiku as a so
 **Plan.** LimOp Assault Tay Ninh (3 US Troops, Jungle: 3 hits on NVA Troops) + ARVN follow-up assault if offered.
 **Why.** NVA is at 17 with a Coup possible on any draw; 3+ NVA Troops off flips Tay Ninh (pop 2) to COIN Control, NVA 17→15. Tay Ninh is already Active Opposition, so Search and Destroy costs nothing. Honolulu Event gives no pacification (ARVN Res 3).
 **Execution.**
+none. No ARVN follow-up was offered (ARVN Resources 3).
+**Result.** NVA 17→15; Tay Ninh COIN. Then VC Election shaded (-6 US, Aid -15), NVA Rally placed a Base in Kien Phong and Bombarded; Failed Attempt Coup removed ARVN cubes and put Tay Ninh back to NVA: NVA exactly 18 at the Victory check (score 0), no win.
+
+## Coup 2 (#130 Failed Attempt) — Support phase
+**Plan.** Pacify Hue 1 level (Passive Opposition → Neutral), then Pleiku 1 level if Resources above Econ allow.
+**Why.** 17 Res, Econ 11: 6 spendable. Hue removes 2 VC points; Pleiku +1 US.
+**Execution.**
+none. Pacify 2 levels was offered and taken even though it left ARVN Resources exactly at Econ (11): "at or below" in RULES_LEARNED is wrong, "below" is the limit.
+**Result.** Hue Passive Opposition → Passive Support (+2 US, -2 VC). VC Agitated Binh Dinh to Neutral.
+
+## Coup 2 — Commitment
+**Plan.** Place the 2 Troop Casualties in Saigon; move 2 Available Troops to Saigon and 2 to Da Nang.
+**Why.** NVA sits at 16 with 18 as its line and big stacks in Tay Ninh, Kien Phong, Quang Tin, Quang Tri; I need Air Lift sources of 3-4 Troops next to them. Cost 4 points of Available.
+**Execution.**
+none.
+**Result.** US 35 after Coup (score -15), NVA 16, VC 28, ARVN 43. Election, Govern and Agitate have stripped most Support; ARVN Resources sit at Econ and Aid is 0.
+
+## Turn 13 — card #6 Aces — before save-067
+**Plan.** Event unshaded: free Air Strike (6 hits) on Central Laos NVA Troops, Degrade Trail 2 boxes.
+**Why.** Removes 6 of the 8 NVA Troops staged to March, lowers the Trail, and denies NVA (2nd, Performed/Shaded) the shaded (2 Available US Troops to Casualties = -2, Trail +2). Rejected: Air Lift + Assault Tay Ninh (NVA -2 now, but NVA takes the shaded and re-marches).
+**Execution.**
