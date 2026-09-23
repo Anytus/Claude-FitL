@@ -23,3 +23,17 @@ none.
 **Plan.** Move 1 Troop Available→Hue, 1 Troop Available→Kien Hoa-Vinh Binh; nothing else.
 **Why.** Pop-2 Passive Support spaces with Police and COIN Control: each troop (-1) sets up +2 at the next Coup Support phase; pop-1 cities are only break-even.
 **Execution.**
+none.
+**Result.** Troops placed; US 50 points after Coup.
+
+## Turn 2 — card #55 Trucks — before save-007
+**Plan.** LimOp Train in Binh Dinh (no placement), Pacify Binh Dinh 2 levels to Active Support (6 Res).
+**Why.** +4 US on a pop-2 space with COIN Control. Rejected: Trucks unshaded (Trail 1→0 and 4+2 NVA pieces off; NVA is far from 18, VC is the threat).
+**Execution.**
+none (single candidate space auto-selected at "Pacify in which space").
+**Result.** Binh Dinh Active (+4). Then VC Burning Bonze shaded: Saigon to Passive (-6), Aid -12.
+
+## Turn 3 — card #66 Ambassador Taylor — before save-013
+**Plan.** Pass.
+**Why.** ARVN took Op only, so only a LimOp is open and ARVN Resources sit at Econ (no pacify). Pass gives ARVN +3 and keeps US Eligible for #31, where NVA acts first and US can take Op + SA. NVA (2nd, Critical next card) is expected to pass too.
+**Execution.**

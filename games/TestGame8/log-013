@@ -1,0 +1,206 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #31 - AAA (NVA, US, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - J",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (17): 10 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Saigon for Train",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 27",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 2 ARVN Underground Rangers from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Hue for Train",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 24",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 3 ARVN Troops from AVAILABLE into Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 3 ARVN Police from AVAILABLE into Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Pleiku-Darlac for Train",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 3 ARVN Troops from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 3 ARVN Police from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 4 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Qui Nhon for Train",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 18",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 2 ARVN Police from AVAILABLE into Qui Nhon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN will place a base in Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "Remove 3 ARVN Police from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Base from AVAILABLE into Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op Only box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

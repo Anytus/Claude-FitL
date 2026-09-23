@@ -17,3 +17,5 @@
 2026-09-23T06:54:25	Bash	python3 tools/ctl.py seq "Move Troops in which space=>Available box"	134	2567
 2026-09-23T06:54:31	Bash	python3 tools/ctl.py seq "to which space=>Hue" "how many=>1"	119	1348
 2026-09-23T06:54:49	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "Move Troops in which space=>	309	33223
+2026-09-23T06:55:09	Bash	ls reports/TestGame8/ && python3 tools/ctl.py commit-turn "card #26 LRRP: Op-onl	295	8575
+2026-09-23T06:55:33	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" && python3 tools/ctl.py advanc	163	29888

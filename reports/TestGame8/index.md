@@ -1,3 +1,6 @@
 - report-001-002.md: #26 - LRRP
 - report-003-004.md: #126 - Coup! Young Turks
 - report-005-007.md: #55 - Trucks
+- report-008-008.md: #55 - Trucks
+- report-009-011.md: #107 - Burning Bonze
+- report-012-013.md: #66 - Ambassador Taylor
