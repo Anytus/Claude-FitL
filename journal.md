@@ -312,3 +312,12 @@ none.
 **Plan.** Pass.
 **Why.** VC took Op + SA, so only Event/LimOp are open; To Quoc unshaded would add ARVN Control (ARVN 48 near 50), and no LimOp touches VC score. Passing keeps US Eligible as 2nd on #32 (NVA first), where Air Lift 1 Troop into Kien Hoa (12 ARVN vs 12 VC) gives COIN Control and Train can Pacify it Active Opposition → Neutral (VC -4).
 **Execution.**
+none.
+**Result.** ARVN +3; NVA played Long Range Guns shaded; US 2nd on #32.
+
+## Turn 34 — card #32 Long Range Guns — before save-195
+**Plan.** Op Train + Air Lift: lift 1 US Troop each from Saigon, Can Tho, An Loc into Kien Hoa-Vinh Binh; Train Kien Hoa placing 2 Irregulars; Pacify Kien Hoa 2 levels (Active Opposition → Neutral).
+**Why.** 12 ARVN + 3 US + 2 Irregulars vs 10 VC Guerrillas + 2 Bases gives COIN Control; pacifying pop 2 from Active Opposition is VC -4 (37 → 33), clearing its final-Coup line. ARVN gains +2 for Control (48 → 50, not over); I will bleed it with Transfer later.
+**Execution.**
+none.
+**Result.** VC 37→33 (Kien Hoa Neutral), ARVN picked up Kien Hoa Control.

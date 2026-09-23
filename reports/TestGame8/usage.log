@@ -179,3 +179,9 @@
 2026-09-23T07:28:37	Bash	python3 tools/ctl.py commit-turn "card #8 Arc Light: Sweep + Air Strike Binh Tuy	932	8772
 2026-09-23T07:28:53	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" && echo "none. **Result.** see	207	37521
 2026-09-23T07:29:28	Bash	sed -i '$ d' journal.md && sed -i '$ d' journal.md && echo "none. **Result.** VC	981	19434
+2026-09-23T07:29:56	Bash	python3 tools/ctl.py commit-turn "card #84 To Quoc: Pass — keep Op+SA for Kien H	1299	9174
+2026-09-23T07:30:11	Bash	for src in Saigon "Can Tho" "An Loc"; do python3 tools/ctl.py seq "Select one=>L	492	5501
+2026-09-23T07:30:19	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift" "US Training=>Sele	244	2330
+2026-09-23T07:30:25	Bash	python3 tools/ctl.py seq "Training in Kien Hoa=>Place Irregulars" "how many=>2" 	248	3441
+2026-09-23T07:30:30	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels"; python3 tools/ctl.py screen |	140	7787
+2026-09-23T07:30:53	Bash	echo "none. **Result.** VC 37→33 (Kien Hoa Neutral), ARVN picked up Kien Hoa Con	195	28161

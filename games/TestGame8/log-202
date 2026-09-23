@@ -1,0 +1,362 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #103 - Kent State (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #119 - My Lai (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : VC",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - N",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available NVA Troops (4): 10 [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - P",
+      "color": null
+    },
+    {
+      "text": "Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 20+ NVA Troops on the map? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Bombard special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "NVA Bombard is max 3 spaces [#32 Long Range Guns (shaded)]",
+      "color": "Red"
+    },
+    {
+      "text": "\nNVA Bombards Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Bombards Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Bombards Quang Tri-Thua Thien",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Troop from Quang Tri-Thua Thien to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of NVA Bombard activity",
+      "color": null
+    },
+    {
+      "text": "Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses March operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Saigon as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 4 NVA Troops from Kien Phong to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Saigon to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 54 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 12 to 18",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 4 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Can Tho as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from Kien Giang-An Xuyen to Can Tho",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 NVA Active Guerrillas from LOC Saigon -- Can Tho to Can Tho",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Can Tho to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 48 to 47",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 18 to 19",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Ba Xuyen as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 3 NVA Troops from Kien Giang-An Xuyen to Ba Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 19 to 20",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 4 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Tay Ninh as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 NVA Troops from Kien Phong to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Tay Ninh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 20 to 22",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

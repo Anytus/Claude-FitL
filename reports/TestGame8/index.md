@@ -95,3 +95,6 @@
 - report-191-192.md: #84 - To Quoc
 - report-193-193.md: #84 - To Quoc
 - report-194-195.md: #32 - Long Range Guns
+- report-196-196.md: #32 - Long Range Guns
+- report-197-199.md: #49 - Russian Arms
+- report-200-202.md: #103 - Kent State
