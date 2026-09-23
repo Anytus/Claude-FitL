@@ -29,3 +29,6 @@
 2026-09-23T03:15:10	Bash	python3 tools/ctl.py seq "Air Strike=>Select a space to Strike" "Air Strike in w	286	4981
 2026-09-23T03:15:13	Bash	python3 tools/ctl.py seq "Air Strike=>Finished with Air Strike"	135	1348
 2026-09-23T03:15:30	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	632	45963
+2026-09-23T03:15:44	Bash	python3 tools/ctl.py commit-turn "card #112 Colonel Chau: Sweep 4 delta spaces +	361	7445
+2026-09-23T03:15:59	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Neutral"; python3 tools/ctl.	175	6251
+2026-09-23T03:16:06	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	528	19063

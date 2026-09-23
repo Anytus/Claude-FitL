@@ -4,3 +4,6 @@
 - report-008-008.md: #112 - Colonel Chau
 - report-009-011.md: #48 - Nam Dong
 - report-012-013.md: #93 - Senator Fulbright
+- report-014-014.md: #93 - Senator Fulbright
+- report-015-017.md: #31 - AAA
+- report-018-019.md: #63 - Fact Finding

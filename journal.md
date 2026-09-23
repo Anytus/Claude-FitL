@@ -22,3 +22,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Lowland sweep activates 1 per Troop; gives COIN Control in four pop-2/1 delta spaces and clears the two pop-2 Active Opposition spaces for Train+Pacify next. Not striking Kien Hoa/Ba Xuyen (Neutral: strike would shift them to Opposition). VC 31/35 is the threat.
 **Execution.** Program was not running at start (container reclaimed); resumed from save-007. Air Strike rolled 6 hits; 1 Kien Phong, 1 Kien Giang, 2 Trail (2→1), 2 unused. Mechanic: Sweep selects all spaces first, then asks per destination which adjacent source.
 **Result.** As planned: 4 delta spaces COIN-controlled, 2 VC Guerrillas removed, Trail 1, no Support shift.
+
+## Turn 2 — card #93 Senator Fulbright — before save-014
+**Plan.** Limited Op Train in Kien Phong: 2 Irregulars, then Pacify Kien Phong Active Opposition → Neutral (2 levels, 6 ARVN Resources).
+**Why.** -4 VC points (VC is nearest its line); Irregulars give a future Advise piece in the delta. Event (4 US pieces to Available, +4 US) rejected: pulls Troops that are holding the delta.
+**Execution.** seq stopped at "Pacify in which space": program auto-selected the only candidate (Kien Phong); pacify label was "Shift 2 levels to Neutral"; continued with a second seq.
+**Result.** As planned: Kien Phong Neutral, VC points 29→25, ARVN Resources 33.
