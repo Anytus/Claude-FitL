@@ -6429,4 +6429,335 @@ Eligible      : US
 Acted         : VC -> Event
 Passed        : none
 Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+Pacification costs 4 resources per terror/level [Leader: Nguyen Cao Ky]
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Hue
+
+US selects Hue for Training
+
+Training in Hue:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 2
+[35mPlace 2 US Underground Irregulars from AVAILABLE into Hue[0m
+
+1 space selected for Training
+----------------------------------------------------
+Hue
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kontum
+2) Binh Dinh
+3) Quang Tin-Quang Ngai
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Kontum using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Kontum to ACTIVE[0m
+[35mRemove 2 VC Bases from Kontum to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kontum[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 47 to 48[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 40 to 38[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Kontum
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Assault in which space: Saigon
+
+ARVN assaults in Saigon
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 1 NVA Active Guerrilla from Saigon to AVAILABLE[0m
+[35mRemove 1 VC Active Guerrilla from Saigon to AVAILABLE[0m
+[35mRemove 1 VC Base from Saigon to AVAILABLE[0m
+
+Each insurgent base removed adds +6 Aid
+[34mIncrease US Aid by +6 to 6[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 38 to 37[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Kontum, Saigon
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 12[0m
+
+1 space selected for Training
+----------------------------------------------------
+Hue
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 59
+
+ARVN Bot Pivotal Event die roll: 2  [Success] (3 cards in leader box)
+
+====================================================
+ARVN elects to play their Pivotal Event
+====================================================
+[31mReplace the current event card with #123 - Vietnamization[0m
+
+
+>>> ARVN turn (Bot) [PIVOTAL EVENT] <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+[31m
+ARVN executes its Pivotal Event: Vietnamization[0m
+
++12 ARVN Resources and +12 US Aid
+====================================================
+[34mIncrease ARVN resources by +12 to 14[0m
+[34mIncrease US Aid by +12 to 24[0m
+
+All Out of Play ARVN pieces to Available
+====================================================
+[35mMove 10 ARVN Troops from OUT OF PLAY to AVAILABLE[0m
+[35mMove 3 ARVN Underground Rangers from OUT OF PLAY to AVAILABLE[0m
+[35mMove 2 ARVN Bases from OUT OF PLAY to AVAILABLE[0m
+
+Place 4 ARVN Cubes anywhere
+====================================================
+[35mPlace 1 ARVN Police from AVAILABLE into Quang Tin-Quang Ngai[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Quang Tin-Quang Ngai[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Quang Tin-Quang Ngai[0m
+[35mPlace 1 ARVN Troop from AVAILABLE into Quang Tin-Quang Ngai[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #123 - Vietnamization (ARVN, US, NVA, VC)
+                ARVN -> (Critical), NVA -> (Ignored), VC -> (Ignored)
+On Deck card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 114
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #114 - Tri Quang (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : NVA, VC, US
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [Yes]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Binh Dinh
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Binh Dinh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects Khanh Hoa as March destination
+----------------------------------------------------
+[35mMove 2 NVA Troops from LOC Saigon -- An Loc -- Ban Me Thuot to Khanh Hoa[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Khanh Hoa[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #114 - Tri Quang (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : VC, US
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #114 - Tri Quang (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : US
+Acted         : NVA -> Op/Special Activity
+Passed        : VC
+Ineligible    : ARVN
 (perform or ?): 

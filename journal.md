@@ -164,3 +164,12 @@ none.
 **Plan.** Place the 4 Troop Casualties one each in Qui Nhon, Cam Ranh, Can Tho, Da Nang; no other moves.
 **Why.** Each is a COIN City with Police below Active Support, so each becomes eligible for Train-Pacify or the next Coup's pacification; no Available pieces spent.
 **Execution.**
+none.
+**Result.** Casualties placed. Then NVA Easter Offensive (replacing #7 ADSID) and VC Tet Offensive (replacing #53): VC 40 (score +5), US 39.
+
+## Turn 18 — card #124 Tet Offensive — before save-101
+**Plan.** Op Train Hue (2 Irregulars) + Advise: Ranger in Kontum removes both VC Bases; ARVN Assault in Saigon (9 ARVN cubes) on 2 Active Guerrillas + VC Base; +6 Aid.
+**Why.** VC must drop 6+ before the next Coup (at least ~6 cards away); Bases are the only fast lever: VC -3 now. Irregulars in Hue set up Advise on its 2 Bases later. Air Lift sources hold 1 Troop each, too thin for Assault.
+**Execution.**
+"ARVN Assault in which space" was a bare prompt (typed Saigon). No final Train action offered (Res 2).
+**Result.** VC 40→37 (3 Bases), Aid 12, 2 Irregulars in Hue.

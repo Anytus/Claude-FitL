@@ -98,3 +98,8 @@
 2026-09-23T07:10:33	Bash	echo "none. **Result.** +15 US (Saigon Active); ARVN also pacified Binh Dinh to 	211	7867
 2026-09-23T07:10:47	Bash	cat >> journal.md <<'EOF'  ## Coup 3 — Commitment **Plan.** Place the 4 Troop Ca	653	7838
 2026-09-23T07:11:31	Bash	python3 tools/ctl.py seq "Move how many=>1" "Choose one=>Finished moving" && pyt	188	42057
+2026-09-23T07:12:15	Bash	python3 tools/ctl.py commit-turn "card #14 M-48: Train Saigon Police + Air Lift 	1316	16789
+2026-09-23T07:12:24	Bash	python3 tools/ctl.py send Saigon; python3 tools/ctl.py screen | tail -20	117	2655
+2026-09-23T07:12:29	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -8	107	1482
+2026-09-23T07:12:33	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting"; python3 tools/ctl.py	145	7413
+2026-09-23T07:12:44	Bash	echo "\"ARVN Assault in which space\" was a bare prompt (typed Saigon). No final	285	23336

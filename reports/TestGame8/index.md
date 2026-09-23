@@ -45,3 +45,6 @@
 - report-092-093.md: #127 - Coup! Nguyen Cao Ky
 - report-094-098.md: #7 - ADSID; #122 - Easter Offensive
 - report-099-101.md: #53 - Sappers; #124 - Tet Offensive
+- report-102-102.md: #124 - Tet Offensive
+- report-103-106.md: #106 - Binh Duong; #123 - Vietnamization
+- report-107-109.md: #59 - Plei Mei
