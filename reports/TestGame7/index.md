@@ -54,3 +54,6 @@
 - report-102-104.md: #121 - Linebacker II
 - report-105-106.md: #72 - Body Count
 - report-107-108.md: #114 - Tri Quang
+- report-109-109.md: #114 - Tri Quang
+- report-110-113.md: #18 - Combined Action Platoons; #123 - Vietnamization
+- report-114-115.md: #104 - Main Force Bns

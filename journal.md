@@ -160,3 +160,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Replaces #28, so its shaded capability (VC Critical, second in order) never plays; NVA removes 2 Bases (20→18) and is Ineligible through #72; my 2 Casualties go to Available (+2). S&D unshaded weighed: weak capability (helps only when an Assault would remove nothing) and leaves NVA at 20 with a free hand.
 **Execution.** seq stopped at "Choose one=>Event": the pivotal executes directly on perform (no menu).
 **Result.** As planned: NVA removed Bases in Southern and Central Laos (NVA 20→18), NVA Ineligible through #72, 2 Troops Casualties→Available (US 47→49).
+
+## Turn 20 — card #114 Tri Quang — before save-109
+**Plan.** Op + SA: Train Saigon (no placement), Pacify Saigon Passive → Active (4); Advise with the Irregulars in Kien Phong and Kien Giang, removing 2 NVA Troops each; +6 Aid.
+**Why.** +6 US back in Saigon (Govern-proof; its lone VC Guerrilla can't Terror under Cadres). The Advise breaks NVA Control in both delta spaces (NVA 14→10). Air Lift + Assault on Hue's VC Base (−1 VC) weighed: less value; VC at 30 grows slowly (1 Base left Available).
+**Execution.** seq stopped at "Pacify in which space": Saigon auto-selected (only candidate); continued with a second seq.
+**Result.** As planned: Saigon Active (US 40→46); NVA Control broken in Kien Phong and Kien Giang (NVA 14→10); Aid 13.

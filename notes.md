@@ -46,3 +46,4 @@ card #64 replaced by VC pivotal Tet Offensive: US did not act — NVA March, NVA
 card #25 TF-116 Riverines: Passed (misread: VC/NVA were already Ineligible) — meant to deny #28 shaded capability
 Linebacker II (replaced #28): US pivotal — NVA -2 Bases (20 to 18), 2 Troops to Available, deny S&D shaded
 card #72 Body Count: US ineligible — ARVN Transport QTTT, Assault Saigon (VC Base removed)
+card #114 Tri Quang: Train+Pacify Saigon to Active; Advise KP, KG (4 NVA Troops); +6 Aid — +6 US, NVA 14 to 10
