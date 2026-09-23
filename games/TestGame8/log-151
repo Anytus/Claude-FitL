@@ -1,0 +1,242 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #36 - Hamburger Hill (NVA, US, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #128 - Coup! Nguyen Van Thieu",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - Q",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 <= Available NVA Guerrillas (11): 6 [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - QQ",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Kien Phong for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Underground Guerrillas from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Base from AVAILABLE into Kien Phong",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 14 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects The Parrot's Beak for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nNVA improves the trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Improve the trail by 1 box to 3",
+      "color": "Blue"
+    },
+    {
+      "text": "Trung check: 3d6 <= Available NVA Troops (9): 8 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Infiltrate special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Infiltrates in Kien Giang-An Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip Active Opposition marker in Kien Giang-An Xuyen to Passive Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove 1 VC Base from Kien Giang-An Xuyen to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Base from AVAILABLE into Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 15 to 16",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 37 to 34",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA Infiltrates in The Parrot's Beak",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 3 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 8 NVA Troops from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of NVA Infiltrate activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

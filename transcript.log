@@ -8622,4 +8622,450 @@ Eligible      : US
 Acted         : NVA -> Event
 Passed        : ARVN
 Ineligible    : VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+US can select a maximum of 2 spaces [#18 Combined Acton Platoons (shaded)]
+Each space, VC afterward remove 1 troop on die roll 1-3 [#101 Booby Traps (shaded)]
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Quang Duc-Long Khanh
+
+Quang Duc-Long Khanh selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Quang Duc-Long Khanh
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Quang Duc-Long Khanh
+2) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Quang Duc-Long Khanh from:
+====================================================
+1) Pleiku-Darlac
+2) Tay Ninh
+3) Finished moving troops to Quang Duc-Long Khanh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+
+
+[35mMove 1 US Troop from Pleiku-Darlac to Quang Duc-Long Khanh[0m
+
+US Move troops to Quang Duc-Long Khanh from:
+====================================================
+1) Tay Ninh
+2) Finished moving troops to Quang Duc-Long Khanh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Tay Ninh to Quang Duc-Long Khanh[0m
+[31m
+No more troops can reach any of the sweep destinations.[0m
+
+Sweep activation:
+====================================================
+1) Resolve all remaining Sweep spaces
+2) Perform a Special Activity
+3) Resolve Sweep in Quang Duc-Long Khanh
+----------------------------------------------------
+Selection: 1
+
+Activating guerrillas in Quang Duc-Long Khanh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Duc-Long Khanh to ACTIVE[0m
+[31m
+Resolving #101 Booby Traps (shaded) in Quang Duc-Long Khanh[0m
+----------------------------------------------------
+Die roll: 1  [Success]
+[35mRemove 1 US Troop from Quang Duc-Long Khanh to CASUALTIES[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Strike special activity
+====================================================
+Cannot degrade the trail below 2 [#31 AAA (shaded)]
+Die roll to determine the number of hits = 4
+
+0 spaces of 6 selected for Air Strike
+----------------------------------------------------
+
+
+You have not yet degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:Quang Duc-Long Khanh
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Quang Duc-Long Khanh
+
+You have not yet degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in Quang Duc-Long Khanh
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+Remove how many pieces from Quang Duc-Long Khanh (1 - 3): 3
+
+US Air Strikes Quang Duc-Long Khanh
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from Quang Duc-Long Khanh to AVAILABLE[0m
+[35mRemove 2 VC Bases from Quang Duc-Long Khanh to AVAILABLE[0m
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Quang Duc-Long Khanh
+
+You have not yet degraded the trail
+
+Air Strike: (1 hit remaining, remove up to 1 piece)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Ba Xuyen
+2) Binh Dinh
+3) Kien Giang-An Xuyen
+4) Phu Bon-Phu Yen
+5) Quang Tin-Quang Ngai
+6) LOC Ban Me Thuot -- Da Lat
+7) LOC Cam Ranh -- Da Lat
+8) None of the above
+----------------------------------------------------
+Selection: Quang Tin-Quang Ngai
+'Quang Tin-Quang Ngai' is not valid. Must be one of:
+1, 2, 3, 4, 5, 6, 7, 8, or abort
+Selection: 5
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Quang Duc-Long Khanh, Quang Tin-Quang Ngai
+
+You have not yet degraded the trail
+
+Air Strike: (1 hit remaining, remove up to 1 piece)
+====================================================
+1) Select a space to Strike
+2) Remove insurgents in Quang Tin-Quang Ngai
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+Remove how many pieces from Quang Tin-Quang Ngai: 1
+
+US Air Strikes Quang Tin-Quang Ngai
+----------------------------------------------------
+[35mRemove 1 NVA Troop from Quang Tin-Quang Ngai to AVAILABLE[0m
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Quang Duc-Long Khanh, Quang Tin-Quang Ngai
+
+You have not yet degraded the trail
+There are no strike targets
+
+Shift support in strike spaces toward Active Opposition
+----------------------------------------------------
+
+Quang Duc-Long Khanh: No shift [Already at Active Opposition]
+
+Quang Tin-Quang Ngai: No shift [Already at Active Opposition]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Quang Duc-Long Khanh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 43 to 44[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 37 to 35[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 36
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #62 - Cambodian Civil War (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Ignored)
+On Deck card  : #36 - Hamburger Hill (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (10): 8 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 0[0m
+[35mPlace 6 ARVN Troops from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Qui Nhon (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 45[0m
+[34mIncrease Patronage by +1 to 27[0m
+[31mNo shift in support. Using [#86 Mandate of Heaven (unshaded)][0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 45[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Cam Ranh (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 44[0m
+[34mIncrease Patronage by +1 to 28[0m
+[33mRemove Passive Support marker from Cam Ranh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 35 to 34[0m
+[34mMove the 'COIN Control + Patronage' marker from 45 to 46[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #62 - Cambodian Civil War (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Ignored)
+On Deck card  : #36 - Hamburger Hill (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Kien Hoa-Vinh Binh for Terror
+[36mFlip 1 VC Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE[0m
+[33mFlip Passive Opposition marker in Kien Hoa-Vinh Binh to Active Opposition[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 35 to 37[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 128
+
+
+>>> NVA turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #36 - Hamburger Hill (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #128 - Coup! Nguyen Van Thieu
+Eligible      : NVA, US
+Acted         : none
+Passed        : none
+Ineligible    : VC, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - Q
+Trung check: 2d6 <= Available NVA Guerrillas (11): 6 [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - QQ
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Kien Phong for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Kien Phong to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 15[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mPlace 4 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 3[0m
+Trung check: 3d6 <= Available NVA Troops (9): 8 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Kien Giang-An Xuyen
+----------------------------------------------------
+[33mFlip Active Opposition marker in Kien Giang-An Xuyen to Passive Opposition[0m
+[35mRemove 1 VC Base from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 16[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 37 to 34[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mRemove 3 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 8 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #36 - Hamburger Hill (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #128 - Coup! Nguyen Van Thieu
+Eligible      : US
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, ARVN
 (perform or ?): 

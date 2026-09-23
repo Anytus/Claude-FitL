@@ -1,0 +1,198 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #45 - PT-76 (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #62 - Cambodian Civil War (ARVN, US, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : ARVN",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Sweep operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "US can select a maximum of 2 spaces [#18 Combined Acton Platoons (shaded)]",
+      "color": null
+    },
+    {
+      "text": "Each space, VC afterward remove 1 troop on die roll 1-3 [#101 Booby Traps (shaded)]",
+      "color": null
+    },
+    {
+      "text": "\nQuang Duc-Long Khanh selected for Sweep",
+      "color": null
+    },
+    {
+      "text": "\n",
+      "color": null
+    },
+    {
+      "text": "Move 1 US Troop from Pleiku-Darlac to Quang Duc-Long Khanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Tay Ninh to Quang Duc-Long Khanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nActivating guerrillas in Quang Duc-Long Khanh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Duc-Long Khanh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nResolving #101 Booby Traps (shaded) in Quang Duc-Long Khanh",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1  [Success]",
+      "color": null
+    },
+    {
+      "text": "Remove 1 US Troop from Quang Duc-Long Khanh to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS chooses Air Strike special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Cannot degrade the trail below 2 [#31 AAA (shaded)]",
+      "color": null
+    },
+    {
+      "text": "Die roll to determine the number of hits = 4",
+      "color": null
+    },
+    {
+      "text": "\nUS Air Strikes Quang Duc-Long Khanh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Quang Duc-Long Khanh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 2 VC Bases from Quang Duc-Long Khanh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS Air Strikes Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Troop from Quang Tin-Quang Ngai to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nShift support in strike spaces toward Active Opposition",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nQuang Duc-Long Khanh: No shift [Already at Active Opposition]",
+      "color": null
+    },
+    {
+      "text": "\nQuang Tin-Quang Ngai: No shift [Already at Active Opposition]",
+      "color": null
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Quang Duc-Long Khanh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 43 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 37 to 35",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

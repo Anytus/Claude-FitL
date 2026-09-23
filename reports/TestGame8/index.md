@@ -67,3 +67,6 @@
 - report-138-139.md: #27 - Phoenix Program
 - report-140-142.md: #57 - International Unrest
 - report-143-145.md: #45 - PT-76
+- report-146-146.md: #45 - PT-76
+- report-147-149.md: #62 - Cambodian Civil War
+- report-150-151.md: #36 - Hamburger Hill

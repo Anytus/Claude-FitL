@@ -128,3 +128,15 @@
 2026-09-23T07:18:05	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>T	182	3118
 2026-09-23T07:18:10	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>Q	184	11861
 2026-09-23T07:18:29	Bash	cat >> journal.md <<'EOF' Assault menu said "There are no spaces eligible for As	587	40427
+2026-09-23T07:19:02	Bash	python3 tools/ctl.py commit-turn "card #27 Phoenix: Air Lift + Assault Quang Tin	991	8241
+2026-09-23T07:19:06	Bash	python3 tools/ctl.py seq "Move troops to Quang Duc-Long Khanh from=>Pleiku-Darla	173	1094
+2026-09-23T07:19:12	Bash	python3 tools/ctl.py seq "Move how many US Troops=>1" "Move troops to Quang Duc-	340	4054
+2026-09-23T07:19:16	Bash	python3 tools/ctl.py seq "Sweep activation=>Resolve all"; python3 tools/ctl.py s	145	2129
+2026-09-23T07:19:21	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	185	2904
+2026-09-23T07:19:26	Bash	python3 tools/ctl.py seq "Air Strike: (=>Select a space" "*=>Quang Duc" "Air Str	202	2090
+2026-09-23T07:19:30	Bash	python3 tools/ctl.py send "Quang Duc-Long Khanh"; python3 tools/ctl.py screen | 	138	1961
+2026-09-23T07:19:35	Bash	python3 tools/ctl.py seq "Air Strike: (=>Remove insurgents"; python3 tools/ctl.p	151	1104
+2026-09-23T07:19:39	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py screen | tail -25	109	2845
+2026-09-23T07:19:47	Bash	python3 tools/ctl.py seq "Air Strike: (=>Select a space"; python3 tools/ctl.py s	275	2963
+2026-09-23T07:19:53	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Quang Tin" "Air Strike: (=>	213	3655
+2026-09-23T07:20:10	Bash	cat >> journal.md <<'EOF' Booby Traps took 1 Troop to Casualties. Air Strike rol	629	41569

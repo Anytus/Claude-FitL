@@ -222,3 +222,10 @@ none.
 **Execution.**
 Assault menu said "There are no spaces eligible for Assault" until the Air Lift landed Troops; Quang Tin was then auto-selected as the last candidate, so my "Quang Tin" went to ARVN's (perform or ?) prompt: rejected verbatim "'Quang' is not valid. Must be one of: perform, show, history, rollback, inspect, adjust, help, or quit" — no effect.
 **Result.** NVA 18→14 (Quang Tin, Tay Ninh lose NVA Control; 2 NVA Troops killed); Tay Ninh COIN (ARVN 46).
+
+## Turn 26 — card #45 PT-76 — before save-145
+**Plan.** Op Sweep Quang Duc-Long Khanh, moving 1 Troop each from Tay Ninh and Pleiku-Darlac; Air Strike Quang Duc (Active Guerrilla, then its 2 VC Bases if the program lets Air Strike take Bases).
+**Why.** VC 37 with a ~1/4 chance the Coup follows #62; Quang Duc (Active Opposition, so no shift) holds 2 Bases behind one Guerrilla. No other lever reaches VC score this card (Resources 3, no Irregulars/Rangers near the Bases).
+**Execution.**
+Booby Traps took 1 Troop to Casualties. Air Strike rolled 4 hits and offered "Remove how many pieces from Quang Duc-Long Khanh (1 - 3)": Air Strike DOES remove Bases once no Guerrilla shields them. Second strike space: typed name rejected verbatim "'Quang Tin-Quang Ngai' is not valid. Must be one of: 1, 2, 3, 4, 5, 6, 7, 8, or abort" (menu was numbered this time); reselected by label. The last hit took an NVA Troop (Troops first).
+**Result.** VC 37→35 (2 Bases in Quang Duc), no Support shift.
