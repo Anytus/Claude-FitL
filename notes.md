@@ -18,3 +18,4 @@ card #63 Fact Finding: Train+Pacify Kien Giang; Advise Binh Dinh Guerrillas, Ple
 card #15 Medevac: US ineligible — NVA Bombard + March into delta, Tay Ninh, QTQN
 card #107 Burning Bonze: Train+Pacify Saigon to Active; Advise KG (2 NVA Troops), QTTT (2 VC); +6 Aid — +6 US, break NVA Control
 card #116 Cadres: US ineligible — ARVN unshaded capability (VC Terror/Agitate costs 2 Guerrillas)
+card #43 Economic Aid: LimOp Train+Pacify Kien Phong to Active Support — +4 US, no ARVN cubes there

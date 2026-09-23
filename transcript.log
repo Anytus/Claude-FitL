@@ -1588,4 +1588,322 @@ Eligible      : US, VC
 Acted         : NVA -> Op Only
 Passed        : none
 Ineligible    : ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Phong
+
+US selects Kien Phong for Training
+
+Training in Kien Phong:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Kien Phong
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Phong
+
+Pacifying in Kien Phong
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Kien Phong
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Phong
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 24[0m
+[33mPlace Active Support marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 36 to 40[0m
+[34m
+Move the US cylinder to the LimOp box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 97
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - J
+Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (25): 8 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 21[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 18[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Hue[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Hue[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Kien Phong (population: 2)
+----------------------------------------------------
+Add 3 times population value to Aid
+[34mIncrease US Aid by +6 to 21[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Pleiku-Darlac (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 20[0m
+[34mIncrease Patronage by +1 to 20[0m
+[33mFlip Active Support marker in Pleiku-Darlac to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 40 to 39[0m
+[34mMove the 'COIN Control + Patronage' marker from 41 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+Eligible      : VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 85
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+On Deck card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Khanh Hoa
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Khanh Hoa to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Khanh Hoa[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Tay Ninh to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Ban Me Thuot -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Binh Tuy-Binh Thuan to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Duc-Long Khanh to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Saigon to ACTIVE[0m
+
+[35mMove 1 VC Active Guerrilla from Tay Ninh to Saigon[0m
+[35mMove 1 VC Active Guerrilla from Kien Hoa-Vinh Binh to Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Kien Hoa-Vinh Binh as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from Ba Xuyen to Kien Hoa-Vinh Binh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Phu Bon-Phu Yen as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Khanh Hoa to Phu Bon-Phu Yen[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Phu Bon-Phu Yen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+On Deck card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US, NVA
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN
 (perform or ?): 

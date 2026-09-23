@@ -40,3 +40,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +6 US back in Govern-proof Saigon; Kien Giang Advise breaks NVA Control (NVA -2) and blunts the stack beside my 2 Troops; QTTT strips VC Terror carriers. NVA is Ineligible on #116. Alternative (Assault KG/KH/BX + Advise) weighed: more kills, no Support.
 **Execution.** none
 **Result.** As planned: Saigon Active (US 30→36), NVA Control lost in Kien Giang (NVA 11→9), 2 VC Guerrillas out of QTTT, Aid 15.
+
+## Turn 5 — card #43 Economic Aid — before save-033
+**Plan.** Limited Op Train in Kien Phong (no placement, none Available), Pacify Neutral → Active Support (6).
+**Why.** +4 US in a space with no ARVN cubes (Govern-proof) and no VC; Kien Phong lacks Police so the Coup Support phase can't reach it, while Kien Hoa/Ba Xuyen can be done there. Alternative (Assault KG to take COIN Control) weighed: no score for US.
+**Execution.** none
+**Result.** As planned: Kien Phong Active Support, ARVN Resources 24.
