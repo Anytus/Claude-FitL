@@ -41,3 +41,4 @@ card #13 Cobras: Train+Pacify Binh Dinh Active (+4), Air Lift Troop to Pleiku �
 Coup 5: pacified An Loc, Pleiku, Da Nang, Qui Nhon (+6); 3 Troops to Saigon for VC-base strikes
 card #8 Arc Light: Sweep + Air Strike Binh Tuy, 2 VC Bases — VC 39→37; #80 Light at End: ineligible
 card #91 Bob Hope: LimOp Train+Pacify Binh Tuy to Neutral — VC 38→36; #19 CORDS: ineligible
+card #84 To Quoc: Pass — keep Op+SA for Kien Hoa pacification on #32

@@ -178,3 +178,4 @@
 2026-09-23T07:28:03	Bash	echo "Booby Traps took 1 Troop. Air Strike rolled 5; Trail degrade failed its To	274	33459
 2026-09-23T07:28:37	Bash	python3 tools/ctl.py commit-turn "card #8 Arc Light: Sweep + Air Strike Binh Tuy	932	8772
 2026-09-23T07:28:53	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" && echo "none. **Result.** see	207	37521
+2026-09-23T07:29:28	Bash	sed -i '$ d' journal.md && sed -i '$ d' journal.md && echo "none. **Result.** VC	981	19434

@@ -93,3 +93,5 @@
 - report-187-187.md: #91 - Bob Hope
 - report-188-190.md: #19 - CORDS
 - report-191-192.md: #84 - To Quoc
+- report-193-193.md: #84 - To Quoc
+- report-194-195.md: #32 - Long Range Guns

@@ -11962,4 +11962,64 @@ Eligible      : US
 Acted         : VC -> Op/Special Activity
 Passed        : none
 Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 43[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 49
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+On Deck card  : #49 - Russian Arms (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+NVA executes the Shaded Event: Long Range Guns
+----------------------------------------------------
+[31m
+Capability: '#32 Long Range Guns (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the Event box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+On Deck card  : #49 - Russian Arms (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : US, ARVN
+Acted         : NVA -> Event
+Passed        : none
+Ineligible    : VC
 (perform or ?): 

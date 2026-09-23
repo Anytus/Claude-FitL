@@ -307,3 +307,8 @@ Booby Traps took 1 Troop. Air Strike rolled 5; Trail degrade failed its Top Gun 
 **Execution.**
 none.
 **Result.** VC 38→36 (Binh Tuy Neutral). ARVN then Swept 13 Troops into Kien Hoa (10 VC activated); VC Terror Ba Xuyen (37).
+
+## Turn 33 — card #84 To Quoc — before save-192
+**Plan.** Pass.
+**Why.** VC took Op + SA, so only Event/LimOp are open; To Quoc unshaded would add ARVN Control (ARVN 48 near 50), and no LimOp touches VC score. Passing keeps US Eligible as 2nd on #32 (NVA first), where Air Lift 1 Troop into Kien Hoa (12 ARVN vs 12 VC) gives COIN Control and Train can Pacify it Active Opposition → Neutral (VC -4).
+**Execution.**
