@@ -49,3 +49,4 @@ card #72 Body Count: US ineligible — ARVN Transport QTTT, Assault Saigon (VC B
 card #114 Tri Quang: Train+Pacify Saigon to Active; Advise KP, KG (4 NVA Troops); +6 Aid — +6 US, NVA 14 to 10
 card #18 replaced by ARVN pivotal Vietnamization: US ineligible — NVA Infiltrate, March into Kien Phong
 card #104 Main Force Bns: Air Lift Da Nang to KP, QTQN; Assault KP, QTQN, KG — 11 NVA Troops killed, KP COIN again
+card #109 Nguyen Huu Tho: US ineligible — NVA Attack Binh Dinh (1 Troop, 3 Irregulars lost)
