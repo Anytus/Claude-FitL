@@ -268,3 +268,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN 52 after Govern + Young Turks (+2 per Govern); final Coup drawable at any draw now; −3 → 49 keeps it off the line. Event (To Quoc) weighed: doesn't touch ARVN.
 **Execution.** none
 **Result.** As planned: ARVN 52→49.
+
+## Turn 36 — card #3 Peace Talks — before save-203
+**Plan.** Op + SA: Train Kien Giang (no placement), Pacify Passive → Active Support (3); Advise with Saigon's Underground Ranger and a Hue Irregular, removing 2 Underground VC Guerrillas in each; +6 Aid.
+**Why.** Margins VC −2, ARVN −2, NVA −4, US −5. +2 US in Kien Giang, and stripping Tet's Guerrillas from Saigon (12 points of Active Support) and Hue removes the Terror threat there. Train can't share a space with Advise, so pacify goes to Kien Giang.
+**Execution.** Tet's Guerrillas in Saigon and Hue were Active (flipped by Tet's Attacks), not Underground; Advise removed them anyway. Hue asked which special force to flip: used a US Irregular.
+**Result.** As planned: Kien Giang Active (+2 US); 2 VC Guerrillas removed in each of Saigon and Hue; Aid +6.

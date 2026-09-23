@@ -222,3 +222,11 @@
 2026-09-23T04:56:43	Bash	python3 tools/ctl.py commit-turn "card #57 International Unrest: LimOp Train+Pac	1059	7608
 2026-09-23T04:57:07	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	420	8732
 2026-09-23T04:57:12	Bash	grep -E "Current card  :|executes|chooses|Terror|terror marker|marker from|Place	405	4708
+2026-09-23T04:57:41	Bash	python3 tools/ctl.py commit-turn "card #84 To Quoc: LimOp Train Saigon + transfe	1246	5133
+2026-09-23T04:57:47	Bash	python3 tools/ctl.py seq "Pacify=>Shift 1 level to Active" "special activity? (y	284	2346
+2026-09-23T04:57:51	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>Saigon" 2>&1 | gr	182	1449
+2026-09-23T04:57:55	Bash	python3 tools/ctl.py screen | grep -E "Remove .* Saigon|Advise in Saigon"; pytho	306	1177
+2026-09-23T04:58:01	Bash	python3 tools/ctl.py seq "Activate which special force=>US Irregular" 2>&1 | gre	188	1309
+2026-09-23T04:58:07	Bash	python3 tools/ctl.py seq "How many NVA Active Guerrillas=>0" 2>&1 | grep -vE "^=	255	6596
+2026-09-23T04:58:19	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	669	20885
+2026-09-23T04:58:26	Bash	for f in reports/TestGame7/report-20[3-7]*.md; do echo "== $f"; grep -E "Current	351	4296

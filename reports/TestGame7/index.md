@@ -101,3 +101,6 @@
 - report-197-197.md: #84 - To Quoc
 - report-198-201.md: #2 - Kissinger; #124 - Tet Offensive
 - report-202-202.md: #3 - Peace Talks
+- report-203-204.md: #3 - Peace Talks
+- report-205-207.md: #115 - Typhoon Kate
+- report-208-209.md: #33 - MiGs
