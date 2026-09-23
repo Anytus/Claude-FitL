@@ -44,3 +44,5 @@
 - report-086-086.md: #53 - Sappers
 - report-087-088.md: #53 - Sappers
 - report-089-089.md: #9 - Psychedelic Cookie
+- report-090-091.md: #9 - Psychedelic Cookie
+- report-092-092.md: #127 - Coup! Nguyen Cao Ky

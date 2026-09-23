@@ -40,3 +40,4 @@ Kevin remark (after card #90, unsolicited): he has found it effective to let the
 card #46 559th Transport Grp: Train Pleiku (ARVN Police) + Binh Dinh, Pacify Binh Dinh; Advise Quang Nam, Kien Giang; +6 Aid — -4 VC, shield Pleiku
 card #95 Westmoreland: replaced by NVA pivotal Easter Offensive — US ineligible; 4 US Troops lost in QTQN
 card #53 Sappers: Event unshaded, -2 NVA Troops in QTQN, Quang Nam, QDLK; stay Eligible — thin stacks, NVA 11 to 10
+card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available — +3 US, deny NVA the shaded side

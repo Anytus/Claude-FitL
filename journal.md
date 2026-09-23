@@ -130,3 +130,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Thins the stacks beside my 5 exposed Troops in QTQN, breaks NVA Control in QDLK (−1), and keeps me first Eligible on #9 (unshaded: +3 US Troops to Available). LimOp weighed: one space, loses the #9 Event.
 **Execution.** Rejected: at "1st Selection:" seq typed the name; program: "'Quang Tin-Quang Ngai' is not valid. Must be one of: 1, 2, 3, 4, or abort". Mechanic: "Nth Selection:" prompts need the on-screen number; sent 3, 2, 1 via send, checking each renumbered menu.
 **Result.** As planned: 6 NVA Troops removed, QDLK NVA Control broken (NVA 11→10); US stays Eligible.
+
+## Turn 16 — card #9 Psychedelic Cookie (Coup #127 on deck, Monsoon) — before save-090
+**Plan.** Event unshaded: move 3 US Troops from Out of Play to Available.
+**Why.** +3 US; all bots are far below their lines (NVA 10, VC 20, ARVN 40), so no push-back is needed before the Victory check. Taking it also denies the NVA (second, Performed/Shaded) the shaded side (3 US Troops to Out of Play). Train+Pacify Binh Dinh weighed: its 2 VC Guerrillas let the Coup Agitate undo it, and the NVA would then get the shaded Event.
+**Execution.** none
+**Result.** As planned: 3 Troops Out of Play → Available (+3 US).

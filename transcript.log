@@ -1720,4 +1720,182 @@ Eligible      : US, NVA, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : VC
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Psychedelic Cookie
+----------------------------------------------------
+
+Choose one:
+====================================================
+1) Move US Troops from Out of Play to Available or South Vietname
+2) Move US Troops from the map to Available
+----------------------------------------------------
+Selection: 1
+
+0 of 3 troops moved from Out of play
+
+Choose one:
+====================================================
+1) Move troops from Out of play to Available
+2) Move troops form Out of play to South Vietnam
+3) Finished moving troops from Out of play
+----------------------------------------------------
+Selection: 1
+Move how many troops to Available (0 - 3): 3
+[35mMove 3 US Troops from OUT OF PLAY to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 46 to 49[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #9 - Psychedelic Cookie (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #127 - Coup! Nguyen Cao Ky
+Eligible      : NVA, ARVN
+Acted         : US -> Event
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - Q
+Trung check: 2d6 <= Available NVA Guerrillas (2): 5 [No]
+Trung check: d3 >= the Trail (3): 2 [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (25): 12 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Southern Laos
+----------------------------------------------------
+[35mPlace 5 NVA Troops from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mPlace 5 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 64
+
+
+>>> 3rd Coup Round <<<
+====================================================
+Current card: #127 - Coup! Nguyen Cao Ky
+(coup or ?): coup
+Coup! Card: #127 - Coup! Nguyen Cao Ky
+----------------------------------------------------
+[31m
+Place #127 - Coup! Nguyen Cao Ky in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+There are no LoCs that can be sabotaged
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 15[0m
+[34mIncrease ARVN resources by +29 to 58[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+[34mDecrease US Aid by -12 to 2[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+US/ARVN pacification cost 4 resources per Terror/Level
+ARVN Pacify is maximum 1 space (instead of 4)
+
+US Pacification (4 spaces remaining, 58 ARVN resources, Econ is 15)
+Choose space to pacify:
+====================================================
+1) Kien Hoa-Vinh Binh
+2) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

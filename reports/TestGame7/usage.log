@@ -130,3 +130,8 @@
 2026-09-23T04:11:59	Bash	python3 tools/ctl.py send 2	96	987
 2026-09-23T04:12:02	Bash	python3 tools/ctl.py send 1	107	5933
 2026-09-23T04:12:08	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() i=s.rfind("**Execution.**\n**R	679	20138
+2026-09-23T04:12:39	Bash	python3 tools/ctl.py commit-turn "card #53 Sappers: Event unshaded, -2 NVA Troop	941	5302
+2026-09-23T04:12:42	Bash	python3 tools/ctl.py seq "Choose one=>Move US Troops from Out of Play"	150	1384
+2026-09-23T04:12:46	Bash	python3 tools/ctl.py seq "Choose one=>Move troops from Out of play to Available"	159	868
+2026-09-23T04:12:50	Bash	python3 tools/ctl.py seq "Move how many troops to Available=>3" | tail -12	142	4507
+2026-09-23T04:13:02	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() i=s.rfind("**Execution.**\n**R	388	19882
