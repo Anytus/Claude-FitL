@@ -1,0 +1,62 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #31 - AAA (NVA, US, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #50 - Uncle Ho (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: AAA",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nCapability: '#31 AAA (shaded)' is now in effect",
+      "color": "Red"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

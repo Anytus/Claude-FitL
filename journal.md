@@ -37,3 +37,18 @@ none (single candidate space auto-selected at "Pacify in which space").
 **Plan.** Pass.
 **Why.** ARVN took Op only, so only a LimOp is open and ARVN Resources sit at Econ (no pacify). Pass gives ARVN +3 and keeps US Eligible for #31, where NVA acts first and US can take Op + SA. NVA (2nd, Critical next card) is expected to pass too.
 **Execution.**
+none.
+**Result.** NVA also passed; all but ARVN eligible for #31.
+
+## Turn 4 — card #31 AAA — before save-017
+**Plan.** Op Assault + Advise. Advise: Irregulars remove 2 VC Guerrillas in Pleiku-Darlac and 2 in Binh Dinh, +6 Aid; then Assault Pleiku-Darlac (1 Troop + US Base = 2 hits) on the now-undefended VC Base.
+**Why.** VC -1 (Base), and clears Guerrillas from two Active Support spaces so Terror/Agitate cannot reach them. Pacify impossible (ARVN Res 18, 3 above Econ, leaves it at Econ).
+**Execution.**
+Advise is not offered with Assault (menu: Air Lift, Air Strike only) and "There are no spaces eligible for Assault" (no Active enemies); aborted, no state change. Revised: Op Patrol 1 Troop Kontum → LoC Kontum–Dak To, activate + Assault the NVA Guerrilla; Advise Irregulars in Pleiku-Darlac and Binh Dinh (2 VC Guerrillas each), +6 Aid.
+Assault chosen before the SA: after "Assault at one LOC" the program asked the y/n "special activity?" (no menu).
+**Result.** 1 NVA Guerrilla and 4 VC Guerrillas removed, Aid 9. Then Colonel Chau shaded cost 5 Support.
+
+## Turn 5 — card #112 Colonel Chau — before save-023
+**Plan.** Op Sweep Quang Tri-Thua Thien (no movement, activate its Underground VC) + Air Strike on Active VC/NVA in Quang Tri, Quang Tin-Quang Ngai, Tay Ninh, Kien Giang-An Xuyen (all already Active Opposition, so no shift).
+**Why.** Up to 6 VC Guerrillas removed at no Support cost, stripping the Quang Tri and Quang Tin Bases. Rejected: Air Lift 4-5 Troops into Quang Tin + Assault (NVA Troops absorb the first 3 hits, base likely out of reach).
+**Execution.**

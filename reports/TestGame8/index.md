@@ -4,3 +4,7 @@
 - report-008-008.md: #55 - Trucks
 - report-009-011.md: #107 - Burning Bonze
 - report-012-013.md: #66 - Ambassador Taylor
+- report-014-015.md: #66 - Ambassador Taylor
+- report-016-018.md: #31 - AAA
+- report-019-021.md: #50 - Uncle Ho
+- report-022-023.md: #112 - Colonel Chau

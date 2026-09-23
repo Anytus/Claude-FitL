@@ -19,3 +19,10 @@
 2026-09-23T06:54:49	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "Move Troops in which space=>	309	33223
 2026-09-23T06:55:09	Bash	ls reports/TestGame8/ && python3 tools/ctl.py commit-turn "card #26 LRRP: Op-onl	295	8575
 2026-09-23T06:55:33	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" && python3 tools/ctl.py advanc	163	29888
+2026-09-23T06:55:55	Bash	cat >> journal.md <<'EOF' none (single candidate space auto-selected at "Pacify 	895	19252
+2026-09-23T06:56:28	Bash	python3 tools/ctl.py seq "Choose special activity=>Do not perform" "US Assault=>	168	3072
+2026-09-23T06:56:39	Bash	cat >> journal.md <<'EOF' Advise is not offered with Assault (menu: Air Lift, Ai	672	4575
+2026-09-23T06:56:44	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished moving"	124	1496
+2026-09-23T06:56:57	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	221	4296
+2026-09-23T06:57:04	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "in which space=>	147	2131
+2026-09-23T06:57:21	Bash	python3 tools/ctl.py send y && python3 tools/ctl.py advance	131	40335
