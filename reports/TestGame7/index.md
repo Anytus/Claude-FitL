@@ -74,3 +74,7 @@
 - report-143-143.md: #129 - Coup! Failed Attempt
 - report-144-146.md: #111 - Agent Orange
 - report-147-148.md: #58 - Pathet Lao
+- report-149-149.md: #58 - Pathet Lao
+- report-150-152.md: #35 - Thanh Hoa
+- report-153-155.md: #119 - My Lai
+- report-156-156.md: #20 - Laser Guided Bombs

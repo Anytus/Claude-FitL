@@ -208,3 +208,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** VC 34/35. Hue is a COIN-controlled City at Active Opposition (4 VC points): a US piece there lets Train+Pacify shift it to Neutral (−4 VC) on my next action.
 **Execution.** none
 **Result.** As planned: 2 US Troops in Hue.
+
+## Turn 27 — card #58 Pathet Lao — before save-149
+**Plan.** Limited Op Train in Hue (no placement), Pacify Hue Passive Opposition → Passive Support (2 levels, 8).
+**Why.** VC is at 36 (score +1) with a Coup possible in ~4 cards; this is −2 VC (to 34) and +2 US, the most one space gives. Event (NVA removes 6 pieces from NVA/Laos) weighed: doesn't touch the VC.
+**Execution.** none
+**Result.** As planned: Hue Passive Support (VC 36→34, US +2).

@@ -180,3 +180,7 @@
 2026-09-23T04:30:05	Bash	grep -c "US Troops from CASUALTIES to Hue" transcript.log; python3 - <<'EOF' p='	504	30057
 2026-09-23T04:30:09	Bash	grep -E "Current card  :|Eligible  |executes|chooses|selects|passes|Remove|Place	206	1210
 2026-09-23T04:30:19	Bash	python3 tools/ctl.py brief | sed -n '/--- Cards/,/--- Deck/p;/--- Scores/,/highe	335	8266
+2026-09-23T04:30:38	Bash	python3 tools/ctl.py commit-turn "4th Coup #129 Failed Attempt: pacified Kien Gi	1062	8964
+2026-09-23T04:30:56	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Passive Support" 2>&1 | grep	569	24365
+2026-09-23T04:31:02	Bash	for f in reports/TestGame7/report-149-*.md reports/TestGame7/report-15[0-5]*.md;	465	3834
+2026-09-23T04:31:17	Bash	python3 tools/ctl.py brief | grep -E "^  [A-Z]" | grep -vE "LOC|empty LoCs|^  (U	313	2763

@@ -59,3 +59,4 @@ card #11 Abrams: US ineligible — NVA shaded capability (max 2 US Assault space
 card #8 Arc Light: Air Lift KH to Saigon; Assault Saigon (3 VC), Kien Phong (2 VC) — clear Agitate targets before Coup
 4th Coup #129 Failed Attempt: pacified Kien Giang; 2 casualties to Hue — Hue Train+Pacify next vs VC 34
 card #111 Agent Orange: US did not act — VC shaded (QTTT, Binh Dinh to Active Opp), VC 36
+card #58 Pathet Lao: LimOp Train+Pacify Hue to Passive Support — VC 36 to 34
