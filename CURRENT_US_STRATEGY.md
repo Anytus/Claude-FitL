@@ -6,7 +6,7 @@ to play differently when the board says so. The rules are in
 `RULES_LEARNED.md` and on the cards.
 
 Record so far: lost to the VC at the 3rd Coup (game 1); won at the 3rd Coup
-by 4, 8 and 10 (games 2, 3, 5) and at the 2nd Coup by 6 (game 4).
+by 4, 8 and 10 (games 2, 3, 5) and at the 2nd Coup by 6 and 2 (games 4 and 6).
 
 **What the score is made of.** About 21 to 23 points sit in Available from
 the start; the rest has to be Support on the map. The game 1 loss came from
@@ -19,7 +19,7 @@ on exactly 50 at a Victory check and lost a whole campaign to it. Nothing the
 Coup itself does counts for that check. Know the margin you need two cards
 before a Coup card can appear, and spend an action buying it. Because the
 highest score above 0 wins, a point of your own counts against every rival at
-once.
+once. Check all three rivals each card: one NVA March can cross its 18.
 
 **Prepare the Coup Support phase before the Coup card turns.** Spaces with
 COIN Control, US Troops and ARVN Police below Active Support are pacified in
@@ -56,7 +56,8 @@ Deal with Taxed spaces before the Coup.
 order makes your action certain; passes that relied on a bot choosing to act
 failed. An Op without a Special Activity closes the Event to everyone behind
 you. On the last event card before a Coup, acting to end the card denies a
-rival its turn before the Victory check.
+rival its turn before the Victory check. When your action cannot end the card,
+an Op without a Special Activity holds the next faction to one space.
 
 **Events.** Weigh each Event against what an Op with a Special Activity would
 build. Taking Out-of-Play US pieces onto the map is free; taking Available
