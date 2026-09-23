@@ -71,3 +71,6 @@
 - report-139-139.md: #8 - Arc Light
 - report-140-141.md: #8 - Arc Light
 - report-142-142.md: #129 - Coup! Failed Attempt
+- report-143-143.md: #129 - Coup! Failed Attempt
+- report-144-146.md: #111 - Agent Orange
+- report-147-148.md: #58 - Pathet Lao

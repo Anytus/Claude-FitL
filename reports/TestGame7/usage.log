@@ -171,3 +171,12 @@
 2026-09-23T04:26:04	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>K	206	1794
 2026-09-23T04:26:07	Bash	python3 tools/ctl.py seq "How many NVA Active Guerrillas=>0" 2>&1 | grep -vE "^=	181	6705
 2026-09-23T04:26:19	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	521	14037
+2026-09-23T04:26:25	Bash	python3 tools/ctl.py screen >/dev/null; grep -h -A12 "ARVN turn (Bot) \[MONSOON\	525	4895
+2026-09-23T04:26:27	Bash	grep -n "ARVN" reports/TestGame7/report-140-141.md | grep -iE "choose|select|exe	192	141
+2026-09-23T04:29:07	Bash	python3 tools/ctl.py status 2>/dev/null | head -1; python3 tools/ctl.py screen 2	154	282
+2026-09-23T04:29:20	Bash	cat >> journal.md <<'EOF'  ## Turn 26 — 4th Coup #129 Failed Attempt — Support p	555	12038
+2026-09-23T04:29:24	Bash	tail -c 20000 transcript.log | grep -vE "^=+$|^-+$|Press Enter|^\s*$" | sed -n '	193	2937
+2026-09-23T04:29:46	Bash	cat > /tmp/claude-0/-home-user-Claude-FitL/7d11ccf0-6d1b-54e8-9e9b-34277cc6635f/	1191	2896
+2026-09-23T04:30:05	Bash	grep -c "US Troops from CASUALTIES to Hue" transcript.log; python3 - <<'EOF' p='	504	30057
+2026-09-23T04:30:09	Bash	grep -E "Current card  :|Eligible  |executes|chooses|selects|passes|Remove|Place	206	1210
+2026-09-23T04:30:19	Bash	python3 tools/ctl.py brief | sed -n '/--- Cards/,/--- Deck/p;/--- Scores/,/highe	335	8266

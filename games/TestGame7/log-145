@@ -1,0 +1,78 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #111 - Agent Orange (VC, ARVN, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #58 - Pathet Lao (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, ARVN, US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Agent Orange",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip Passive Opposition marker in Quang Tri-Thua Thien to Active Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip Passive Opposition marker in Binh Dinh to Active Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 34 to 38",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the VC cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

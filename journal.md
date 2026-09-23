@@ -196,3 +196,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** No bot near its line; the danger is the Coup Agitate (total 7) landing on Saigon (12 points of Active Support) and Kien Phong (4). Removing the VC Guerrillas protects them. Abrams caps Assault at 2 spaces, Monsoon caps Air Lift at 2. Train + Advise (ARVN Assault in Saigon) weighed: fewer hits in Kien Phong.
 **Execution.** Kien Phong asked which Active Guerrillas: took 0 NVA, so both hits went on VC.
 **Result.** As planned: 3 VC out of Saigon, 2 VC out of Kien Phong (1 VC + 1 NVA left).
+
+## Turn 26 — 4th Coup #129 Failed Attempt — Support phase — before save-142
+**Plan.** Pacify Kien Giang-An Xuyen Passive → Active Support (4).
+**Why.** +2 US; only candidate; no VC Guerrillas there.
+**Execution.** none
+**Result.** Kien Giang Active (+2). ARVN pacified Pleiku. VC Agitated Tay Ninh, QTQN, Hue (to Active Opposition), Da Nang: VC 26→34, one below its line.
+
+## Turn 26b — 4th Coup #129 — Commitment — before save-142
+**Plan.** Place the 2 Troop casualties in Hue; no other moves, nothing from Available.
+**Why.** VC 34/35. Hue is a COIN-controlled City at Active Opposition (4 VC points): a US piece there lets Train+Pacify shift it to Neutral (−4 VC) on my next action.
+**Execution.** none
+**Result.** As planned: 2 US Troops in Hue.
