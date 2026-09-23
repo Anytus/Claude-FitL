@@ -18,3 +18,4 @@ card #9 Psychedelic Cookie unshaded: 3 OOP Troops to Available — +3; #28 S&D: 
 card #70 ROKs: Pass — keep first eligible for Attleboro
 card #23 Attleboro unshaded: Tay Ninh cleared of 6 VC + tunneled Base — ARVN follow-up assault; #22 Da Nang: ineligible
 card #64 Honolulu: LimOp Assault Tay Ninh — NVA 17→15; #83 Election: ineligible; Coup 2: pacified Hue 2 levels, 4 Troops to Saigon/Da Nang
+card #6 Aces unshaded: 6 NVA Troops off Central Laos, Trail to 1 — deny shaded; #98 Long Tan: ineligible

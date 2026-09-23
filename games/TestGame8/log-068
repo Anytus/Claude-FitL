@@ -1,0 +1,86 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 3  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "\nNVA Bot Pivotal Event die roll: 6  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #6 - Aces (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #98 - Long Tan (VC, US, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA, VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: Aces",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Number of hits = 6",
+      "color": null
+    },
+    {
+      "text": "\nUS Air Strikes Central Laos",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 6 NVA Troops from Central Laos to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Degrade the trail by 2 boxes to 1",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

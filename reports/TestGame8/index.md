@@ -30,3 +30,6 @@
 - report-062-064.md: #83 - Election
 - report-065-066.md: #130 - Coup! Failed Attempt
 - report-067-067.md: #6 - Aces
+- report-068-069.md: #6 - Aces
+- report-070-072.md: #98 - Long Tan
+- report-073-074.md: #44 - la Drang

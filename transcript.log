@@ -4082,4 +4082,376 @@ Eligible      : US, NVA, VC, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : none
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Aces
+----------------------------------------------------
+Number of hits = 6
+
+0 spaces of 1 selected for Air Strike
+----------------------------------------------------
+
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Central Laos
+2) The Parrot's Beak
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+1 space of 1 selected for Air Strike
+----------------------------------------------------
+Central Laos
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Remove insurgents in Central Laos
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Remove how many pieces from Central Laos (1 - 6): 6
+
+US Air Strikes Central Laos
+----------------------------------------------------
+[35mRemove 6 NVA Troops from Central Laos to AVAILABLE[0m
+
+1 space of 1 selected for Air Strike
+----------------------------------------------------
+Central Laos
+There are no strike targets
+[34mDegrade the trail by 2 boxes to 1[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #6 - Aces (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #98 - Long Tan (VC, US, ARVN, NVA)
+                VC -> (Ignored), ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded)
+Eligible      : NVA, VC, ARVN
+Acted         : US -> Event
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [Yes]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Binh Dinh
+----------------------------------------------------
+[35mRemove 1 US Troop from Binh Dinh to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]
+
+NVA chooses Attack operation
+====================================================
+
+NVA Attacks in Tay Ninh using Troops
+----------------------------------------------------
+[35mRemove 2 US Troops from Tay Ninh to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 2 NVA Troops from Tay Ninh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA Attacks in Quang Tri-Thua Thien using Troops
+----------------------------------------------------
+[35mRemove 2 US Underground Irregulars from Quang Tri-Thua Thien to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA Attacks in Quang Nam using Troops
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Quang Nam to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 44
+
+ARVN Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #98 - Long Tan (VC, US, ARVN, NVA)
+                VC -> (Ignored), ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+Eligible      : VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Y
+Trung check: 3d6 <= Available VC pieces (16): 11 [Yes]
+Trung check: 3+ VC Guerrillas in any spaces with US Troops and no VC Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - YY
+
+VC chooses Rally operation
+====================================================
+
+VC selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mRemove 2 VC Underground Guerrillas from Quang Tin-Quang Ngai to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 28 to 29[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Saigon for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Saigon
+----------------------------------------------------
+[35mRemove 2 ARVN Troops from Saigon to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Subverts in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Kien Hoa-Vinh Binh to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -1 to 25[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 43 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #98 - Long Tan (VC, US, ARVN, NVA)
+                VC -> (Ignored), ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+Eligible      : ARVN
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (21): 13 [Yes]
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - GG
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 8[0m
+[35mPlace 1 ARVN Underground Ranger from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 78
+
+NVA Bot Pivotal Event die roll: 2  [Failure] (2 cards in leader box)
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : NVA, US
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - Q
+Trung check: 2d6 <= Available NVA Guerrillas (0): 12 [No]
+Trung check: d3 >= the Trail (1): 3 [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - QQ
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into The Parrot's Beak[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 2[0m
+Trung check: 3d6 <= Available NVA Troops (13): 11 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Quang Tin-Quang Ngai
+----------------------------------------------------
+[33mFlip Active Opposition marker in Quang Tin-Quang Ngai to Passive Opposition[0m
+[35mRemove 1 VC Base from Quang Tin-Quang Ngai to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 17 to 18[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 29 to 26[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in Central Laos
+----------------------------------------------------
+[35mRemove 5 NVA Underground Guerrillas from Central Laos to AVAILABLE[0m
+[35mPlace 9 NVA Troops from AVAILABLE into Central Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #44 - la Drang (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Ignored), VC -> (Performed, Shaded)
+On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, VC
 (perform or ?): 

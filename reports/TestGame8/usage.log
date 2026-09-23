@@ -69,3 +69,8 @@
 2026-09-23T07:05:08	Bash	cat >> journal.md <<'EOF' none. Pacify 2 levels was offered and taken even thoug	806	2011
 2026-09-23T07:05:13	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -10	108	1883
 2026-09-23T07:05:28	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "Move Troops in which space=>	401	31551
+2026-09-23T07:05:49	Bash	cat >> journal.md <<'EOF' none. **Result.** US 35 after Coup (score -15), NVA 16	982	5979
+2026-09-23T07:05:53	Bash	python3 tools/ctl.py seq "Air Strike: (=>Select a space"	111	1107
+2026-09-23T07:05:58	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Central Laos" "Air Strike: 	158	1681
+2026-09-23T07:06:03	Bash	python3 tools/ctl.py send 6; python3 tools/ctl.py screen | tail -20	116	6093
+2026-09-23T07:06:22	Bash	python3 tools/ctl.py advance	88	44641

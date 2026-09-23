@@ -122,3 +122,10 @@ none.
 **Plan.** Event unshaded: free Air Strike (6 hits) on Central Laos NVA Troops, Degrade Trail 2 boxes.
 **Why.** Removes 6 of the 8 NVA Troops staged to March, lowers the Trail, and denies NVA (2nd, Performed/Shaded) the shaded (2 Available US Troops to Casualties = -2, Trail +2). Rejected: Air Lift + Assault Tay Ninh (NVA -2 now, but NVA takes the shaded and re-marches).
 **Execution.**
+none.
+**Result.** 6 NVA Troops removed, Trail 3→1. NVA then Bombarded and Attacked (4 US Troops, 2 Irregulars to Casualties), Rallied a Base, and Infiltrate-swapped the Quang Tin VC Base: NVA at 18 (score 0).
+
+## Turn 14 — card #44 Ia Drang — before save-074
+**Plan.** Event unshaded on Kien Phong: Air Lift Saigon 3 + Da Nang 2 + Hue 1 US Troops (and Saigon's 2 ARVN Troops) in, Sweep, Assault NVA 2 Troops + Guerrilla + Base.
+**Why.** NVA is at its line with the next pile able to turn a Coup after #78; Kien Phong (pop 2, Active Opposition so Search and Destroy costs nothing) loses NVA Control and a Base: NVA 18→15. Tay Ninh would give only -2.
+**Execution.**
