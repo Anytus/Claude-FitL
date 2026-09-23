@@ -462,4 +462,39 @@ Does US wish to play their pivotal?
 2) No
 3) Show Coup status
 ----------------------------------------------------
-Selection: 
+Selection: 2
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #100 - Rach Ba Rai (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #90 - Walt Rostow (ARVN, VC, NVA, US)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC, US, ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+
+VC executes the Shaded Event: Rach Ba Rai
+----------------------------------------------------
+
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Quang Tin-Quang Ngai[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #100 - Rach Ba Rai (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #90 - Walt Rostow (ARVN, VC, NVA, US)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US, ARVN, NVA
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : none
+(perform or ?): 

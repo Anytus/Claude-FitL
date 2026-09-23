@@ -94,3 +94,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Da Nang borders QTQN (6 NVA Troops, NVA Control, 2 VC Bases): with Assault back after Reset, Air Lift ~9 Troops in + Assault (Lowland) breaks NVA Control; Kien Phong's 5 Troops can do the same to Kien Giang in that action. Kontum/Hue stay Active with ARVN holding Control. Keeps 13 points in Available.
 **Execution.** Process slip: the journal write failed (script quoting error) and the same command sent the first answer ("Da Nang") before this entry existed; written immediately after, before any further answer.
 **Result.** As planned: Da Nang holds 9 US Troops; Available untouched.
+
+## Turn 13a — pivotal offer at draw of #90 (current #100 Rach Ba Rai) — before save-072
+**Plan.** Decline Linebacker II.
+**Why.** It would cost this turn's US action (Air Lift + Assault on QTQN/Kien Giang, ~−4 NVA) for −2 NVA Bases, and its 3-Casualties-to-Available would be wasted (box empty). Kept for a later NVA surge; its precondition (Support+Available >40) should stay met.
+**Execution.** none
+**Result.** Declined; #100 Rach Ba Rai proceeds.

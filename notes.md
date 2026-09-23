@@ -33,3 +33,4 @@ card #86 Mandate of Heaven: US ineligible — VC shaded capability; Coup #125 dr
 card #102 Cu Chi: LimOp Train Binh Dinh, 2 Irregulars (taken from KG, QTTT) — break NVA Control; NVA 18 at Coup, no win
 resumed TestGame7 from latest save (save-070, start of 2nd Coup round #125) after container reclaim; the Coup round re-runs from its start
 2nd Coup #125 Nguyen Khanh: pacified Hue, Kontum, Kien Hoa; 4 casualties + 3 Troops to Da Nang — +6 US; stage vs QTQN NVA stack
+pivotal offer at #100: declined Linebacker II — keep for later NVA surge, no Casualties to recover

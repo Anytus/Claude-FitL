@@ -35,3 +35,4 @@
 - report-070-070.md: #125 - Coup! Nguyen Khanh
 - report-071-071.md: #125 - Coup! Nguyen Khanh
 - report-072-072.md: #100 - Rach Ba Rai
+- report-073-073.md: #100 - Rach Ba Rai

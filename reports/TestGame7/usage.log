@@ -92,3 +92,6 @@
 2026-09-23T04:03:24	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "*=>Kontum" "*=>Da Nang"	168	3271
 2026-09-23T04:03:31	Bash	python3 tools/ctl.py seq "Move how many Troops=>2" "Choose one=>Move troops" "*=	225	4585
 2026-09-23T04:03:39	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving pieces" | tail -5; python3	442	16288
+2026-09-23T04:03:47	Bash	python3 tools/ctl.py commit-turn "2nd Coup #125 Nguyen Khanh: pacified Hue, Kont	611	9313
+2026-09-23T04:04:06	Bash	cat >> journal.md <<'EOF'  ## Turn 13a — pivotal offer at draw of #90 (current #	562	2919
+2026-09-23T04:04:11	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() i=s.rfind("**Execution.**\n**R	372	14032
