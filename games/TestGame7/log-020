@@ -1,0 +1,186 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Kien Giang-An Xuyen for Training",
+      "color": null
+    },
+    {
+      "text": "Place 1 US Underground Irregular from AVAILABLE into Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nPacifying in Kien Giang-An Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 2 levels in Kien Giang-An Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -6 to 30",
+      "color": "Blue"
+    },
+    {
+      "text": "Remove Active Opposition marker from Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 25 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS chooses Advise special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nAdvise in Binh Dinh using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 VC Underground Guerrillas from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 43 to 45",
+      "color": "Blue"
+    },
+    {
+      "text": "\nAdvise in Pleiku-Darlac using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 VC Base from Pleiku-Darlac to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 21 to 20",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase US Aid by +6 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

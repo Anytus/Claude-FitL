@@ -32,3 +32,9 @@
 2026-09-23T03:15:44	Bash	python3 tools/ctl.py commit-turn "card #112 Colonel Chau: Sweep 4 delta spaces +	361	7445
 2026-09-23T03:15:59	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Neutral"; python3 tools/ctl.	175	6251
 2026-09-23T03:16:06	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	528	19063
+2026-09-23T03:16:28	Bash	python3 tools/ctl.py commit-turn "card #93 Senator Fulbright: LimOp Train Kien P	360	6302
+2026-09-23T03:16:44	Bash	python3 tools/ctl.py seq "how many=>1" "US Training=>Finished selecting" "final 	194	3106
+2026-09-23T03:16:51	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Neutral" "special activity? 	309	5896
+2026-09-23T03:16:58	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	206	2504
+2026-09-23T03:17:02	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y"; python3 tools/ctl.py screen | tail 	148	8112
+2026-09-23T03:17:17	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	629	25096

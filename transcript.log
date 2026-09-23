@@ -884,4 +884,404 @@ Eligible      : US, VC
 Acted         : ARVN -> Event
 Passed        : none
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Giang-An Xuyen
+
+US selects Kien Giang-An Xuyen for Training
+
+Training in Kien Giang-An Xuyen:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 1
+[35mPlace 1 US Underground Irregular from AVAILABLE into Kien Giang-An Xuyen[0m
+
+1 space selected for Training
+----------------------------------------------------
+Kien Giang-An Xuyen
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Giang-An Xuyen
+
+Pacifying in Kien Giang-An Xuyen
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Neutral
+2) Shift 1 level to Passive Opposition
+3) Do not pacify in Kien Giang-An Xuyen
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Giang-An Xuyen
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 30[0m
+[33mRemove Active Opposition marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 25 to 21[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Binh Dinh
+2) Kien Phong
+3) Pleiku-Darlac
+4) Quang Tri-Thua Thien
+5) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Binh Dinh using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Binh Dinh to ACTIVE[0m
+[35mRemove 2 VC Underground Guerrillas from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 43 to 45[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kien Phong
+2) Pleiku-Darlac
+3) Quang Tri-Thua Thien
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+Advise in Pleiku-Darlac using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE[0m
+[35mRemove 1 VC Base from Pleiku-Darlac to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 21 to 20[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh, Pleiku-Darlac
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 21[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 107
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+On Deck card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [Yes]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Kien Phong
+----------------------------------------------------
+[35mRemove 1 US Troop from Kien Phong to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Pleiku-Darlac
+----------------------------------------------------
+[35mRemove 1 US Troop from Pleiku-Darlac to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects Kien Giang-An Xuyen as March destination
+----------------------------------------------------
+[35mMove 3 NVA Troops from The Parrot's Beak to Kien Giang-An Xuyen[0m
+[35mMove 1 NVA Underground Guerrilla from The Parrot's Beak to Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Giang-An Xuyen to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 45 to 43[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 7 to 9[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Tay Ninh as March destination
+----------------------------------------------------
+[35mMove 7 NVA Troops from The Parrot's Beak to Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 9 to 11[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Binh Dinh as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Southern Laos to Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 43 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Quang Tin-Quang Ngai as March destination
+----------------------------------------------------
+[35mMove 6 NVA Troops from Southern Laos to Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Quang Tri-Thua Thien as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from North Vietnam to Quang Tri-Thua Thien[0m
+[35mMove 2 NVA Underground Guerrillas from Central Laos to Quang Tri-Thua Thien[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+On Deck card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+Eligible      : VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 116
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : VC, ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: Burning Bonze
+----------------------------------------------------
+[33mFlip Active Support marker in Saigon to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 36 to 30[0m
+[34mDecrease US Aid by -12 to 9[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : ARVN, US
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 33[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : US
+Acted         : VC -> Event
+Passed        : ARVN
+Ineligible    : NVA
 (perform or ?): 

@@ -7,3 +7,6 @@
 - report-014-014.md: #93 - Senator Fulbright
 - report-015-017.md: #31 - AAA
 - report-018-019.md: #63 - Fact Finding
+- report-020-020.md: #63 - Fact Finding
+- report-021-023.md: #15 - Medevac
+- report-024-026.md: #107 - Burning Bonze

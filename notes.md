@@ -14,3 +14,4 @@ card #112 Colonel Chau: Sweep 4 delta spaces + Air Strike KP, KG, Trail — COIN
 card #48 Nam Dong: US ineligible — ARVN unshaded Event set Pleiku Active Support
 card #93 Senator Fulbright: LimOp Train Kien Phong, 2 Irregulars, Pacify to Neutral — -4 VC; Irregulars for Advise
 card #31 AAA: US ineligible — NVA shaded capability (Trail floor 2 vs Air Strike)
+card #63 Fact Finding: Train+Pacify Kien Giang; Advise Binh Dinh Guerrillas, Pleiku VC Base; +6 Aid — -5 VC, COIN Control Binh Dinh

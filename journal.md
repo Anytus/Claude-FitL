@@ -28,3 +28,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** -4 VC points (VC is nearest its line); Irregulars give a future Advise piece in the delta. Event (4 US pieces to Available, +4 US) rejected: pulls Troops that are holding the delta.
 **Execution.** seq stopped at "Pacify in which space": program auto-selected the only candidate (Kien Phong); pacify label was "Shift 2 levels to Neutral"; continued with a second seq.
 **Result.** As planned: Kien Phong Neutral, VC points 29→25, ARVN Resources 33.
+
+## Turn 3 — card #63 Fact Finding — before save-020
+**Plan.** Op + SA: Train Kien Giang-An Xuyen (1 Irregular, last Available), Pacify it Active Opposition → Neutral (6); Advise with Irregulars in Binh Dinh and Quang Tri-Thua Thien, removing 2 VC Guerrillas each; +6 Aid.
+**Why.** -4 VC from the pacify; the Advise strips 4 VC Guerrillas (Terror/Agitate carriers) and gives COIN Control in Binh Dinh (pop 2, Active Opp) and QTTT, exposing their Bases. Alternative (Assault Active VC in Kien Hoa/Ba Xuyen) weighed: fewer pieces, no Support gain.
+**Execution.** seq stopped at "Place how many Irregulars (0 - 2)" (expected a skip; 1 Available); sent 1. Deviation: Advise menu offered Pleiku-Darlac, whose VC Base stood alone; removed that Base instead of the QTTT Guerrillas.
+**Result.** Kien Giang Neutral (VC 25→21), Binh Dinh COIN Control, Pleiku VC Base removed (VC 21→20), Aid 21. Card closed before VC acted.
