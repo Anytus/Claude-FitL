@@ -274,3 +274,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Margins VC −2, ARVN −2, NVA −4, US −5. +2 US in Kien Giang, and stripping Tet's Guerrillas from Saigon (12 points of Active Support) and Hue removes the Terror threat there. Train can't share a space with Advise, so pacify goes to Kien Giang.
 **Execution.** Tet's Guerrillas in Saigon and Hue were Active (flipped by Tet's Attacks), not Underground; Advise removed them anyway. Hue asked which special force to flip: used a US Irregular.
 **Result.** As planned: Kien Giang Active (+2 US); 2 VC Guerrillas removed in each of Saigon and Hue; Aid +6.
+
+## Turn 37 — card #33 MiGs — before save-210
+**Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage; Advise in Hue (NVA Guerrilla, then the lone VC Base); decline +6 Aid.
+**Why.** Margins ARVN −2, US −3. Passing (to take #16 Blowtorch Komer unshaded and deny its shaded Saigon hit) would give the ARVN a full Op here: Govern under Young Turks is +4 Patronage → ~52, and the final Coup can be drawn any time — an unrecoverable loss. Acting holds ARVN to a LimOp (no Govern) and takes it to 45; the likely −6 in Saigon from #16 shaded can be re-pacified in the final Coup's Support phase. Aid declined: Govern draws Patronage from Aid, so my +6s have been feeding ARVN.
+**Execution.** Hue asked which special force: US Irregular. Answered n to +6 Aid.
+**Result.** As planned: Patronage 25→22 (ARVN 48→45); Hue NVA Guerrilla + VC Base removed (VC 30→29).

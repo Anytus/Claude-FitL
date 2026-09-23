@@ -104,3 +104,5 @@
 - report-203-204.md: #3 - Peace Talks
 - report-205-207.md: #115 - Typhoon Kate
 - report-208-209.md: #33 - MiGs
+- report-210-210.md: #33 - MiGs
+- report-211-214.md: #16 - Blowtorch Komer; #128 - Coup! Nguyen Van Thieu

@@ -230,3 +230,7 @@
 2026-09-23T04:58:07	Bash	python3 tools/ctl.py seq "How many NVA Active Guerrillas=>0" 2>&1 | grep -vE "^=	255	6596
 2026-09-23T04:58:19	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	669	20885
 2026-09-23T04:58:26	Bash	for f in reports/TestGame7/report-20[3-7]*.md; do echo "== $f"; grep -E "Current	351	4296
+2026-09-23T04:59:27	Bash	python3 tools/ctl.py commit-turn "card #3 Peace Talks: Train+Pacify Kien Giang t	1595	5748
+2026-09-23T04:59:31	Bash	python3 tools/ctl.py seq "Activate which special force=>US Irregular" 2>&1 | gre	185	1662
+2026-09-23T04:59:36	Bash	python3 tools/ctl.py seq "Choose Advise option=>Finished selecting" "+6 Aid? (y/	263	5533
+2026-09-23T04:59:51	Bash	python3 tools/ctl.py screen | grep -E "Aid|ARVN (faction|chooses|executes)|passe	648	9066
