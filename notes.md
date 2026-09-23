@@ -83,3 +83,4 @@ card #115 Typhoon Kate: US ineligible — VC Rally/Tax; NVA passed
 card #33 MiGs: Train Saigon + transfer 3 Patronage; Advise Hue (NVA Guerrilla, VC Base); no Aid — ARVN 48 to 45, keep ARVN off 50
 resumed TestGame7 from latest save (start of final Coup #128) after container reclaim; the Coup round re-runs from its start
 card #16 Blowtorch Komer: US ineligible — ARVN Op only closed the Event; VC LimOp Rally
+final Coup #128 Nguyen Van Thieu: pacified Hue, Can Tho, Ba Xuyen — GAME OVER, US wins: US +1, VC -5, ARVN -5, NVA -6
