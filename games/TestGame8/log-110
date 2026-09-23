@@ -1,0 +1,78 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #114 - Tri Quang (VC, ARVN, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : VC",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Each province, shift support toward Active Opposition [#28 Search And Destroy (shaded)]",
+      "color": null
+    },
+    {
+      "text": "\nUS assaults in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 1 hit",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Hue to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

@@ -173,3 +173,10 @@ none.
 **Execution.**
 "ARVN Assault in which space" was a bare prompt (typed Saigon). No final Train action offered (Res 2).
 **Result.** VC 40→37 (3 Bases), Aid 12, 2 Irregulars in Hue.
+
+## Turn 19 — card #59 Plei Mei — before save-109
+**Plan.** LimOp Assault Hue (1 US Troop) + ARVN follow-up assault if offered (8 ARVN cubes): 4 Active Guerrillas then a VC Base.
+**Why.** VC 37 must reach ≤35 before the next Coup; Hue is a City, so Search and Destroy does not shift it. Leaves the last Hue Base for my 2 Underground Irregulars. Plei Mei unshaded only hits NVA.
+**Execution.**
+Hue was the only candidate and auto-selected, so my "Hue" answer hit the piece prompt: rejected verbatim "'Hue' is not valid. Must be one of: 0, 1, or abort"; answered 0 NVA (so 1 VC). No ARVN follow-up was offered in a normal LimOp Assault (it appeared only in Attleboro's event Assault).
+**Result.** 1 VC Guerrilla removed only; VC still 37. Poor return.

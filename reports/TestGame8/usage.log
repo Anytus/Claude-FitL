@@ -103,3 +103,5 @@
 2026-09-23T07:12:29	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -8	107	1482
 2026-09-23T07:12:33	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting"; python3 tools/ctl.py	145	7413
 2026-09-23T07:12:44	Bash	echo "\"ARVN Assault in which space\" was a bare prompt (typed Saigon). No final	285	23336
+2026-09-23T07:13:10	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py screen | tail -15	122	5158
+2026-09-23T07:13:22	Bash	cat >> journal.md <<'EOF' Hue was the only candidate and auto-selected, so my "H	491	20843

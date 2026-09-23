@@ -48,3 +48,6 @@
 - report-102-102.md: #124 - Tet Offensive
 - report-103-106.md: #106 - Binh Duong; #123 - Vietnamization
 - report-107-109.md: #59 - Plei Mei
+- report-110-110.md: #59 - Plei Mei
+- report-111-113.md: #114 - Tri Quang
+- report-114-114.md: #18 - Combined Action Platoons

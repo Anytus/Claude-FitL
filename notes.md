@@ -24,3 +24,4 @@ card #85 USAID: Pass — ARVN at Econ, keep first eligible on Westmoreland
 card #95 Westmoreland: Patrol Kien Phong→Saigon + Advise Saigon/Pleiku, VC Base off, +6 Aid; #87 Chanh Thi: ineligible
 card #14 M-48: Train Saigon Police + Air Lift An Loc + Transfer Patronage 3 — prep Coup, ARVN off line; Coup 3 pacified Saigon/An Loc/Pleiku +15; Easter Offensive + Tet Offensive played by bots
 card #124 Tet: Train Hue Irregulars + Advise Kontum (2 VC Bases) & ARVN Assault Saigon (VC Base) — VC 40→37; #123 Vietnamization: ineligible
+card #59 Plei Mei: LimOp Assault Hue, 1 VC off — VC over line; #114 Tri Quang: ineligible
