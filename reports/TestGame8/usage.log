@@ -112,3 +112,9 @@
 2026-09-23T07:14:25	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py screen | tail -8	111	1310
 2026-09-23T07:14:33	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py seq "US Training=>Finished sel	268	9660
 2026-09-23T07:14:44	Bash	echo "\"ARVN Assault in which space\" bare prompt (typed Hue); Binh Dinh Irregul	317	31203
+2026-09-23T07:15:03	Bash	python3 tools/ctl.py commit-turn "card #18 CAP: Train Saigon Transfer 3 + Advise	732	5427
+2026-09-23T07:15:07	Bash	python3 tools/ctl.py seq "Choose factions=>US then ARVN"; python3 tools/ctl.py s	144	1495
+2026-09-23T07:15:13	Bash	python3 tools/ctl.py seq "Choose a Special Activity=>Advise" "Choose Advise opti	216	3944
+2026-09-23T07:15:18	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "in which space=>	171	1795
+2026-09-23T07:15:23	Bash	python3 tools/ctl.py seq "Activate which special force=>ARVN Ranger"; python3 to	165	2018
+2026-09-23T07:15:37	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	125	47484

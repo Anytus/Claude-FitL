@@ -187,3 +187,10 @@ Hue was the only candidate and auto-selected, so my "Hue" answer hit the piece p
 **Execution.**
 "ARVN Assault in which space" bare prompt (typed Hue); Binh Dinh Irregular asked NVA count (0) so 2 VC removed.
 **Result.** VC 39→38, ARVN 50→47, Aid 34, Binh Dinh clear of VC Guerrillas.
+
+## Turn 21 — card #69 MACV — before save-120
+**Plan.** Event (US then ARVN free SA; US stays Eligible): US Advise — Ranger in Saigon and Irregular in Hue each remove a lone VC Base; +6 Aid.
+**Why.** VC 37 → 35 (score 0) before a Coup that can follow #74. ARVN's free SA may Govern (+1-2, ARVN 47 → ≤49, still under 50). Op + Advise would do the same but cost my Eligibility.
+**Execution.**
+none. Hue offered "Activate which special force" (Irregular/Ranger); chose the ARVN Ranger to keep my Irregulars Underground.
+**Result.** VC 37→35 (Saigon, Hue Bases), Aid 40; ARVN free SA Transported to Kien Giang; US stays Eligible.

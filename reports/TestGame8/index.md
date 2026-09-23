@@ -54,3 +54,5 @@
 - report-115-116.md: #18 - Combined Action Platoons
 - report-117-119.md: #86 - Mandate of Heaven
 - report-120-120.md: #69 - MACV
+- report-121-122.md: #69 - MACV
+- report-123-124.md: #74 - Lam Son 719
