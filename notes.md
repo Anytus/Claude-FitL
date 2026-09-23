@@ -61,3 +61,4 @@ card #8 Arc Light: Air Lift KH to Saigon; Assault Saigon (3 VC), Kien Phong (2 V
 card #111 Agent Orange: US did not act — VC shaded (QTTT, Binh Dinh to Active Opp), VC 36
 card #58 Pathet Lao: LimOp Train+Pacify Hue to Passive Support — VC 36 to 34
 card #35 Thanh Hoa: US ineligible — ARVN Train/Transport; VC passed
+card #119 My Lai: US did not act — VC shaded (Kien Giang to Active Opp), VC 39; NVA Attack
