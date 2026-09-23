@@ -61,8 +61,10 @@ Commands
                               "US Training=>Finished selecting" \
                               "final Train action=>Finished" \
                               "special activity=>n"
-  new-game <name>       Scripted setup: Full scenario, 1 human (US),
-                        human may win in any Coup Victory phase, game name.
+  new-game <name> [--final-coup-only]
+                        Scripted setup: Full scenario, 1 human (US),
+                        human may win in any Coup Victory phase (or, with
+                        --final-coup-only, only after the final Coup), game name.
   resume <name>         Scripted: pick "Resume '<name>'" at the startup menu.
   stop                  Kill the tmux session (only between sessions / for tests).
 
@@ -279,7 +281,7 @@ def menu_number(text, label_regex):
     return m.group(1) if m else None
 
 
-def cmd_new_game(name):
+def cmd_new_game(name, early_win=True):
     if not running():
         rc = cmd_start()
         if rc:
@@ -301,7 +303,7 @@ def cmd_new_game(name):
     out = send_raw(menu_number(out, r"US\s*$"), echo=True)
     if not expect(r"Allow human faction to win in Victory phase", out, "human-win prompt"):
         return 1
-    out = send_raw("y", echo=True)
+    out = send_raw("y" if early_win else "n", echo=True)
     if not expect(r"Enter a name for your new game", out, "game name prompt"):
         return 1
     out = send_raw(name)
@@ -663,7 +665,9 @@ def main(argv):
         if not args:
             print("usage: ctl.py new-game <name>")
             return 2
-        return cmd_new_game(" ".join(args))
+        final_only = "--final-coup-only" in args
+        name = " ".join(a for a in args if a != "--final-coup-only")
+        return cmd_new_game(name, early_win=not final_only)
     if cmd == "resume":
         if not args:
             print("usage: ctl.py resume <name>")
