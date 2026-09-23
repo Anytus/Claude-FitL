@@ -46,3 +46,6 @@
 - report-089-089.md: #9 - Psychedelic Cookie
 - report-090-091.md: #9 - Psychedelic Cookie
 - report-092-092.md: #127 - Coup! Nguyen Cao Ky
+- report-093-093.md: #127 - Coup! Nguyen Cao Ky
+- report-094-097.md: #64 - Honolulu Conference; #124 - Tet Offensive
+- report-098-098.md: #25 - TF-116 Riverines

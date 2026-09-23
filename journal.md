@@ -136,3 +136,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +3 US; all bots are far below their lines (NVA 10, VC 20, ARVN 40), so no push-back is needed before the Victory check. Taking it also denies the NVA (second, Performed/Shaded) the shaded side (3 US Troops to Out of Play). Train+Pacify Binh Dinh weighed: its 2 VC Guerrillas let the Coup Agitate undo it, and the NVA would then get the shaded Event.
 **Execution.** none
 **Result.** As planned: 3 Troops Out of Play → Available (+3 US).
+
+## Turn 17 — 3rd Coup #127 Nguyen Cao Ky — Support phase — before save-092
+**Plan.** Pacify Kien Hoa-Vinh Binh Passive → Active Support (1 level, 4 under Ky).
+**Why.** +2 US; only candidate; no VC Guerrillas there for Agitate.
+**Execution.** none
+**Result.** As planned: Kien Hoa Active (US 49→50). VC Agitated QTTT and Phu Bon (VC 20→25). NVA Redeploy emptied QTQN and Tay Ninh of NVA Troops.
+
+## Turn 17b — 3rd Coup #127 — Commitment — before save-092
+**Plan.** Place the 3 Troop casualties in Da Nang; move 2 Troops Kien Giang→Da Nang. Nothing from Available.
+**Why.** Stages 5 in Da Nang beside QTQN (my 5 Troops vs 11 Guerrillas, 2 VC Bases, already Active Opposition): Sweep 11 in to activate all, then Air Strike at no Support cost. Delta has no enemy pieces; Air Lift can return Troops there. Keeps Available points.
+**Execution.** none
+**Result.** As planned: Da Nang 5 US Troops, Kien Giang 2.

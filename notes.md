@@ -41,3 +41,4 @@ card #46 559th Transport Grp: Train Pleiku (ARVN Police) + Binh Dinh, Pacify Bin
 card #95 Westmoreland: replaced by NVA pivotal Easter Offensive — US ineligible; 4 US Troops lost in QTQN
 card #53 Sappers: Event unshaded, -2 NVA Troops in QTQN, Quang Nam, QDLK; stay Eligible — thin stacks, NVA 11 to 10
 card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available — +3 US, deny NVA the shaded side
+3rd Coup #127 Nguyen Cao Ky: pacified Kien Hoa; 3 casualties + 2 Troops to Da Nang — +2 US; stage vs QTQN
