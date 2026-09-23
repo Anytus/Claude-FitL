@@ -3291,4 +3291,445 @@ Eligible      : US
 Acted         : VC -> Event
 Passed        : none
 Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Da Nang
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Phong
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Kien Phong
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Lift forces out of Kien Phong
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Tin-Quang Ngai
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Kien Phong, Quang Tin-Quang Ngai
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Lift forces out of Kien Phong
+4) Lift forces out of Quang Tin-Quang Ngai
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Kien Phong
+2) Quang Tin-Quang Ngai
+3) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Da Nang to Kien Phong
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 5): 4
+[35mMove 4 US Troops from Da Nang to Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Phong to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 40[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 13 to 11[0m
+
+Air Lifting forces from Da Nang to Kien Phong
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 2
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Kien Phong, Quang Tin-Quang Ngai
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Lift forces out of Kien Phong
+4) Lift forces out of Quang Tin-Quang Ngai
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Kien Phong
+2) Quang Tin-Quang Ngai
+3) Do not move forces now
+----------------------------------------------------
+Selection: 2
+
+Air Lifting forces from Da Nang to Quang Tin-Quang Ngai
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Da Nang to Quang Tin-Quang Ngai[0m
+
+Air Lifting forces from Da Nang to Quang Tin-Quang Ngai
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Kien Phong, Quang Tin-Quang Ngai
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Kien Phong
+3) Lift forces out of Quang Tin-Quang Ngai
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Kien Giang-An Xuyen
+2) Kien Phong
+3) Quang Tin-Quang Ngai
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Kien Phong
+----------------------------------------------------
+The assault inflicts 5 hits
+[35mRemove 5 NVA Troops from Kien Phong to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Kien Phong
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Kien Giang-An Xuyen
+2) Quang Tin-Quang Ngai
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Quang Tin-Quang Ngai
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 4 NVA Troops from Quang Tin-Quang Ngai to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Kien Phong, Quang Tin-Quang Ngai
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space:  Kien Giang-An Xuyen
+
+US assaults in Kien Giang-An Xuyen
+----------------------------------------------------
+The assault inflicts 2 hits
+[35mRemove 2 NVA Troops from Kien Giang-An Xuyen to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Kien Phong, Quang Tin-Quang Ngai, Kien Giang-An Xuyen
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 42
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]
+
+NVA chooses Attack operation
+====================================================
+
+NVA Attacks in Binh Dinh using Troops
+----------------------------------------------------
+[35mRemove 1 US Troop from Binh Dinh to CASUALTIES[0m
+[35mRemove 3 US Underground Irregulars from Binh Dinh to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 1 NVA Troop from Binh Dinh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA chooses Ambush special activity
+====================================================
+
+NVA Ambushes in Quang Tri-Thua Thien
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Quang Tri-Thua Thien to ACTIVE[0m
+[35mRemove 1 ARVN Police from Quang Tri-Thua Thien to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 40 to 38[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : ARVN
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 50[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 27
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #27 - Phoenix Program (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : ARVN, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (15): 13 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 47[0m
+[35mPlace 2 ARVN Underground Rangers from AVAILABLE into Hue[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+ARVN Pacifies 1 level in Hue
+----------------------------------------------------
+[34mDecrease ARVN resources by -4 to 43[0m
+[33mPlace Passive Support marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 46 to 48[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Kien Giang-An Xuyen (population: 2)
+----------------------------------------------------
+Add 3 times population value to Aid
+[34mIncrease US Aid by +6 to 31[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #27 - Phoenix Program (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : US, VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA
 (perform or ?): 

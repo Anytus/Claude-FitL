@@ -166,3 +166,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +6 US back in Saigon (Govern-proof; its lone VC Guerrilla can't Terror under Cadres). The Advise breaks NVA Control in both delta spaces (NVA 14→10). Air Lift + Assault on Hue's VC Base (−1 VC) weighed: less value; VC at 30 grows slowly (1 Base left Available).
 **Execution.** seq stopped at "Pacify in which space": Saigon auto-selected (only candidate); continued with a second seq.
 **Result.** As planned: Saigon Active (US 40→46); NVA Control broken in Kien Phong and Kien Giang (NVA 14→10); Aid 13.
+
+## Turn 21 — card #104 Main Force Bns — before save-116
+**Plan.** Op + SA: Air Lift first (Da Nang 4 Troops → Kien Phong, 1 → QTQN), then Assault Kien Phong (5 hits vs 5 NVA Troops), QTQN (4 hits vs 4 NVA Troops) and Kien Giang (2 hits vs 3 NVA Troops).
+**Why.** ~11 NVA Troops killed; breaks NVA Control of Kien Phong (Active Support, pop 2; NVA 13→11) and strips the stacks sitting on my Support. No bot near its line, so the tempo goes to attrition. Train+Pacify weighed: only +1 available now (Da Nang); the Coup Support phase will pacify.
+**Execution.** seq stopped once: after Da Nang emptied, the Air Lift returned straight to the space menu (no 'Finished moving' step); continued with a second seq.
+**Result.** As planned: 11 NVA Troops removed (Kien Phong 5, QTQN 4, Kien Giang 2); Kien Phong back to COIN Control (NVA 13→11).

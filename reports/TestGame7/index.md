@@ -57,3 +57,6 @@
 - report-109-109.md: #114 - Tri Quang
 - report-110-113.md: #18 - Combined Action Platoons; #123 - Vietnamization
 - report-114-115.md: #104 - Main Force Bns
+- report-116-116.md: #104 - Main Force Bns
+- report-117-119.md: #109 - Nguyen Huu Tho
+- report-120-121.md: #42 - Chou En Lai
