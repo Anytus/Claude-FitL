@@ -63,3 +63,4 @@ card #58 Pathet Lao: LimOp Train+Pacify Hue to Passive Support — VC 36 to 34
 card #35 Thanh Hoa: US ineligible — ARVN Train/Transport; VC passed
 card #119 My Lai: US did not act — VC shaded (Kien Giang to Active Opp), VC 39; NVA Attack
 card #20 Laser Guided Bombs: Train+Pacify Kien Giang to Neutral; Advise Hue (2 VC), QTTT (2 NVA Troops) — VC 39 to 35
+card #41 Bombing Pause: US ineligible — NVA Terror in 5 spaces (US -5); VC Rally
