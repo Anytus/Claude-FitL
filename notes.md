@@ -69,3 +69,4 @@ card #71 An Loc: US ineligible — NVA March QTTT, Qui Nhon; VC Rally
 card #49 Russian Arms: LimOp Train Saigon + transfer 3 Patronage — ARVN 52 to 49
 card #40 PoWs: US ineligible — NVA Rally/Trail 4; VC shaded, 3 US Troops Available to Casualties
 card #13 Cobras: Train Saigon + transfer 3 Patronage; Advise Pleiku (2 NVA Troops); +6 Aid — ARVN 49 to 46
+card #32 Long Range Guns: US ineligible — VC Terror (Kien Phong, Tay Ninh), VC 35; Coup #126 drawn
