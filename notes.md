@@ -29,3 +29,4 @@ card #24 Operation Starlite: US ineligible — VC Rally/Tax (Agitate 7), ARVN re
 card #69 MACV: Train Saigon + transfer 3 Patronage; Advise Kien Phong, PBPY; +6 Aid — ARVN -3, Coup budget
 card #59 Plei Mei: US ineligible — NVA mass March, NVA to 22 (over 18)
 card #82 Domino Theory: LimOp Sweep 4 Troops into Kien Phong — break NVA Control, NVA 22 to 20
+card #86 Mandate of Heaven: US ineligible — VC shaded capability; Coup #125 drawn on deck
