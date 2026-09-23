@@ -28,3 +28,4 @@ card #59 Plei Mei: LimOp Assault Hue, 1 VC off — VC over line; #114 Tri Quang:
 card #18 CAP: Train Saigon Transfer 3 + Advise ARVN Assault Hue Base, Binh Dinh VC — ARVN 50→47, VC 39→38; #86 Mandate: ineligible
 card #69 MACV: US Advise killed Saigon + Hue VC Bases, stay eligible — VC 37→35
 card #74 Lam Son: LimOp Train Saigon Transfer 3 — ARVN 49→46, end card before VC; #117 Corps Commanders: ineligible
+card #11 Abrams: Pass — keep first on Blowtorch Komer

@@ -7844,4 +7844,41 @@ Eligible      : US
 Acted         : none
 Passed        : none
 Ineligible    : ARVN, NVA, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 6[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, VC, and NVA cylinders to the Eligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 52
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #16 - Blowtorch Komer (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #52 - RAND (NVA, VC, US, ARVN)
+                NVA -> (Critical, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : US, ARVN, VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : none
 (perform or ?): 

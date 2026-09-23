@@ -201,3 +201,8 @@ none. Hue offered "Activate which special force" (Irregular/Ranger); chose the A
 **Execution.**
 none.
 **Result.** ARVN 49→46; card ended before VC acted.
+
+## Turn 23 — card #11 Abrams — before save-129
+**Plan.** Pass.
+**Why.** US is the only Eligible faction, so nothing is denied by acting, and no US action this card can remove VC score (the reachable VC Bases are shielded by Underground Guerrillas or NVA Troops). Passing gives ARVN +3 and keeps US first on #16 Blowtorch Komer, whose unshaded (Aid +10, Coup pacification at 1 Resource per step) is worth far more and keeps VC off its shaded.
+**Execution.**

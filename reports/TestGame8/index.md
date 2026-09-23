@@ -59,3 +59,5 @@
 - report-125-125.md: #74 - Lam Son 719
 - report-126-128.md: #117 - Corps Commanders
 - report-129-129.md: #11 - Abrams
+- report-130-130.md: #11 - Abrams
+- report-131-131.md: #16 - Blowtorch Komer
