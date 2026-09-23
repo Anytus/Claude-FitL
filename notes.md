@@ -38,3 +38,4 @@ card #100 Rach Ba Rai: Air Lift 9 Troops to QTQN, 4 to Kien Giang, Assault both 
 card #90 Walt Rostow: US ineligible — ARVN Transport+Assault QTTT; NVA shaded Event, Guerrillas in 8 provinces
 Kevin remark (after card #90, unsolicited): he has found it effective to let the NVA build big Troop stacks, then Air Lift a massive US force into one counter-attack.
 card #46 559th Transport Grp: Train Pleiku (ARVN Police) + Binh Dinh, Pacify Binh Dinh; Advise Quang Nam, Kien Giang; +6 Aid — -4 VC, shield Pleiku
+card #95 Westmoreland: replaced by NVA pivotal Easter Offensive — US ineligible; 4 US Troops lost in QTQN
