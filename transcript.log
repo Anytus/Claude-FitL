@@ -1,0 +1,66 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+harness)
+----------------------------------------------------
+
+Choose a scenario:
+====================================================
+1) Short: 1965-1967
+2) Medium: 1968-1972
+3) Full: 1964-1972
+4) Quit
+----------------------------------------------------
+Selection: 3
+
+How many factions will be played by human players (0 - 4) Default = 1: 1
+
+Select the human faction:
+====================================================
+1) US
+2) ARVN
+3) VC
+4) NVA
+----------------------------------------------------
+Selection: 1
+
+When playing solitaire the human faction normally may only win during the final Coup! round.
+For an easier game you can allow the human faction to win during any Coup! round.
+
+Allow human faction to win in Victory phase of any Coup round? (y/n) n
+
+Enter a name for your new game: TestGame8
+
+Start of Game
+====================================================
+
+Scenario: Full: 1964-1972
+====================================================
+US  : Human
+ARVN: Bot
+VC  : Bot
+NVA : Bot
+----------------------------------------------------
+Human Victory not allowed until final Coup! round
+
+
+Rolling d3 to set the Agitate Total: 3
+----------------------------------------------------
+[34mSet Agitate Total (VC resources cylinder) to 3[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Draw event cards
+----------------------------------------------------
+Enter the number of the 1st Event card: 26
+Enter the number of the 2nd Event card: 126
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #26 - LRRP (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Ignored), NVA -> (Performed, Shaded)
+On Deck card  : #126 - Coup! Young Turks
+Eligible      : US, VC, ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): 
