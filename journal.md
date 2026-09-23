@@ -82,3 +82,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Last action before the Victory check; NVA 20 > 18. Binh Dinh becomes 4 US pieces vs 3 NVA, breaking NVA Control (pop 2): NVA 18 = score 0, not a win. Sweep (Monsoon) and Assault (Lansdale) are unavailable; the Event does nothing. Acting also ends the card before ARVN.
 **Execution.** Mechanic: placing Irregulars with none Available prompts "You must remove 2 US Irregulars from the map" and lets the US pick the spaces; removed the Active ones in Kien Giang and QTTT (no Control change). Declined Pacify (no Resources above Econ).
 **Result.** As planned: Binh Dinh COIN Control, NVA 20→18 (score 0) going into the Coup.
+
+## Turn 12 — 2nd Coup #125 Nguyen Khanh — Support phase — before save-071
+**Plan.** Pacify Hue Passive→Active (3), Kontum Neutral→Active (6), Kien Hoa-Vinh Binh Passive Opposition→Passive Support (6): 15 of 45 above Econ.
+**Why.** +6 US, −2 VC; none holds VC Guerrillas, so the Agitate Total (10, 2 Guerrillas per space under Cadres) can't reach them.
+**Execution.** Resumed at the start of the Coup (container reclaimed); the round re-ran identically up to this prompt.
+**Result.** As planned: US 42→48. VC Agitated Tay Ninh and QTQN (VC 20→24). NVA Redeploy pulled 19 Troops to Laos/Cambodia; NVA 17.
+
+## Turn 12b — 2nd Coup #125 — Commitment — before save-071
+**Plan.** Place the 4 Troop casualties in Da Nang; move 2 Troops Kontum→Da Nang and 1 Hue→Da Nang (7 of 10). Nothing from Available, no Base.
+**Why.** Da Nang borders QTQN (6 NVA Troops, NVA Control, 2 VC Bases): with Assault back after Reset, Air Lift ~9 Troops in + Assault (Lowland) breaks NVA Control; Kien Phong's 5 Troops can do the same to Kien Giang in that action. Kontum/Hue stay Active with ARVN holding Control. Keeps 13 points in Available.
+**Execution.** Process slip: the journal write failed (script quoting error) and the same command sent the first answer ("Da Nang") before this entry existed; written immediately after, before any further answer.
+**Result.** As planned: Da Nang holds 9 US Troops; Available untouched.

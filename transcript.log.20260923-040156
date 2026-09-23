@@ -1,0 +1,3722 @@
+
+Fire in the Lake: Trung Bot Software (version 1.53+harness)
+----------------------------------------------------
+
+Which game would you like to play:
+====================================================
+1) Start a new game
+2) Resume 'TestGame7', Full: 1964-1972  [#112 - Colonel Chau] US is up
+3) Quit
+----------------------------------------------------
+Selection: 2
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+Eligible      : US
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Kien Phong
+
+Kien Phong selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Kien Phong
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Kien Giang-An Xuyen
+
+Kien Giang-An Xuyen selected for Sweep
+
+2 spaces selected for Sweep
+----------------------------------------------------
+Kien Phong, Kien Giang-An Xuyen
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Ba Xuyen
+
+Ba Xuyen selected for Sweep
+
+3 spaces selected for Sweep
+----------------------------------------------------
+Kien Phong, Kien Giang-An Xuyen, Ba Xuyen
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Kien Hoa-Vinh Binh
+
+Kien Hoa-Vinh Binh selected for Sweep
+
+4 spaces selected for Sweep
+----------------------------------------------------
+Kien Phong, Kien Giang-An Xuyen, Ba Xuyen, Kien Hoa-Vinh Binh
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) Kien Phong
+5) Finished moving troops
+----------------------------------------------------
+Selection: 4
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 7): 3
+
+
+[35mMove 3 US Troops from Saigon to Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 32 to 34[0m
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) Kien Phong
+5) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+US Move troops to Kien Giang-An Xuyen from:
+====================================================
+1) Can Tho
+2) Finished moving troops to Kien Giang-An Xuyen
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 5): 2
+
+
+[35mMove 2 US Troops from Can Tho to Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 34 to 36[0m
+
+US Move troops to Kien Giang-An Xuyen from:
+====================================================
+1) Can Tho
+2) Finished moving troops to Kien Giang-An Xuyen
+----------------------------------------------------
+Selection: 2
+
+US Sweep Troops into:
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) Kien Phong
+5) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Ba Xuyen from:
+====================================================
+1) Can Tho
+2) Finished moving troops to Ba Xuyen
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 3): 1
+
+
+[35mMove 1 US Troop from Can Tho to Ba Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Ba Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 36 to 37[0m
+
+US Move troops to Ba Xuyen from:
+====================================================
+1) Can Tho
+2) Finished moving troops to Ba Xuyen
+----------------------------------------------------
+Selection: 2
+
+US Sweep Troops into:
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) Kien Phong
+5) Finished moving troops
+----------------------------------------------------
+Selection: 3
+
+US Move troops to Kien Hoa-Vinh Binh from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Finished moving troops to Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 4): 1
+
+
+[35mMove 1 US Troop from Saigon to Kien Hoa-Vinh Binh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 39[0m
+
+US Move troops to Kien Hoa-Vinh Binh from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Finished moving troops to Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Can Tho to Kien Hoa-Vinh Binh[0m
+
+US Move troops to Kien Hoa-Vinh Binh from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Finished moving troops to Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) Kien Phong
+5) Finished moving troops
+----------------------------------------------------
+Selection: 5
+
+Sweep activation:
+====================================================
+1) Resolve all remaining Sweep spaces
+2) Perform a Special Activity
+3) Resolve Sweep in Ba Xuyen
+4) Resolve Sweep in Kien Giang-An Xuyen
+5) Resolve Sweep in Kien Hoa-Vinh Binh
+6) Resolve Sweep in Kien Phong
+----------------------------------------------------
+Selection: 1
+
+Activating guerrillas in Kien Phong
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Phong to ACTIVE[0m
+
+Activating guerrillas in Kien Giang-An Xuyen
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE[0m
+
+Activating guerrillas in Ba Xuyen
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Ba Xuyen to ACTIVE[0m
+
+Activating guerrillas in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Strike special activity
+====================================================
+Die roll to determine the number of hits = 6
+
+0 spaces of 6 selected for Air Strike
+----------------------------------------------------
+
+
+You have not yet degraded the trail
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) Kien Phong
+5) None of the above
+----------------------------------------------------
+Selection: 4
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Kien Phong
+
+You have not yet degraded the trail
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in Kien Phong
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from Kien Phong: 1
+
+US Air Strikes Kien Phong
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from Kien Phong to AVAILABLE[0m
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Kien Phong
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Kien Phong, Kien Giang-An Xuyen
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in Kien Giang-An Xuyen
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from Kien Giang-An Xuyen: 1
+
+US Air Strikes Kien Giang-An Xuyen
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from Kien Giang-An Xuyen to AVAILABLE[0m
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Kien Phong, Kien Giang-An Xuyen
+
+You have not yet degraded the trail
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+US Air Strikes The Trail
+----------------------------------------------------
+[34mDegrade the trail by 1 box to 1[0m
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Kien Phong, Kien Giang-An Xuyen
+
+You have already degraded the trail
+
+Air Strike: (2 hits remaining, remove up to 2 pieces)
+====================================================
+1) Select a space to Strike
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+Shift support in strike spaces toward Active Opposition
+----------------------------------------------------
+
+Kien Phong: No shift [Already at Active Opposition]
+
+Kien Giang-An Xuyen: No shift [Already at Active Opposition]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 93
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (15): 8 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mPlace 3 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mPlace 3 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Central Laos for Rally
+----------------------------------------------------
+[35mPlace 3 NVA Underground Guerrillas from AVAILABLE into Central Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects North Vietnam for Rally
+----------------------------------------------------
+[35mPlace 2 NVA Underground Guerrillas from AVAILABLE into North Vietnam[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Kien Phong for Rally
+----------------------------------------------------
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 2[0m
+Trung check: 3d6 <= Available NVA Troops (32): 8 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Southern Laos
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Southern Laos to AVAILABLE[0m
+[35mPlace 6 NVA Troops from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 6 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #48 - Nam Dong (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded)
+On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : ARVN
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Nam Dong
+----------------------------------------------------
+
+[35mRemove 2 VC Underground Guerrillas from Pleiku-Darlac to AVAILABLE[0m
+[33mPlace Active Support marker in Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 36 to 38[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 31
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #31 - AAA (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [Yes]
+Trung check: 3d6 <= Available VC pieces (17): 13 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mPlace 3 VC Underground Guerrillas from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 3 VC Underground Guerrillas from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Patronage >= 17? [No]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Tay Ninh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 4[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 31 to 29[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #31 - AAA (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : US
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Phong
+
+US selects Kien Phong for Training
+
+Training in Kien Phong:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 2
+[35mPlace 2 US Underground Irregulars from AVAILABLE into Kien Phong[0m
+
+1 space selected for Training
+----------------------------------------------------
+Kien Phong
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Phong
+
+Pacifying in Kien Phong
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Neutral
+2) Shift 1 level to Passive Opposition
+3) Do not pacify in Kien Phong
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Phong
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 33[0m
+[33mRemove Active Opposition marker from Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 29 to 25[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 63
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #31 - AAA (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+NVA executes the Shaded Event: AAA
+----------------------------------------------------
+[31m
+Capability: '#31 AAA (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the Event box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #31 - AAA (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : ARVN
+Acted         : NVA -> Event
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 36[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 15
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : ARVN, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+ARVN executes the Shaded Event: Fact Finding
+----------------------------------------------------
+
+[33mRemove Active Support marker from Kontum[0m
+[34mIncrease Patronage by +4 to 19[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 38 to 36[0m
+[34mMove the 'COIN Control + Patronage' marker from 39 to 43[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : US, VC
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Giang-An Xuyen
+
+US selects Kien Giang-An Xuyen for Training
+
+Training in Kien Giang-An Xuyen:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 1
+[35mPlace 1 US Underground Irregular from AVAILABLE into Kien Giang-An Xuyen[0m
+
+1 space selected for Training
+----------------------------------------------------
+Kien Giang-An Xuyen
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Giang-An Xuyen
+
+Pacifying in Kien Giang-An Xuyen
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Neutral
+2) Shift 1 level to Passive Opposition
+3) Do not pacify in Kien Giang-An Xuyen
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Giang-An Xuyen
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 30[0m
+[33mRemove Active Opposition marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 25 to 21[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Binh Dinh
+2) Kien Phong
+3) Pleiku-Darlac
+4) Quang Tri-Thua Thien
+5) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Binh Dinh using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Binh Dinh to ACTIVE[0m
+[35mRemove 2 VC Underground Guerrillas from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 43 to 45[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kien Phong
+2) Pleiku-Darlac
+3) Quang Tri-Thua Thien
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+Advise in Pleiku-Darlac using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE[0m
+[35mRemove 1 VC Base from Pleiku-Darlac to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 21 to 20[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Binh Dinh, Pleiku-Darlac
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 21[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 107
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+On Deck card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [Yes]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Kien Phong
+----------------------------------------------------
+[35mRemove 1 US Troop from Kien Phong to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Pleiku-Darlac
+----------------------------------------------------
+[35mRemove 1 US Troop from Pleiku-Darlac to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects Kien Giang-An Xuyen as March destination
+----------------------------------------------------
+[35mMove 3 NVA Troops from The Parrot's Beak to Kien Giang-An Xuyen[0m
+[35mMove 1 NVA Underground Guerrilla from The Parrot's Beak to Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Giang-An Xuyen to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 45 to 43[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 7 to 9[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Tay Ninh as March destination
+----------------------------------------------------
+[35mMove 7 NVA Troops from The Parrot's Beak to Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 9 to 11[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Binh Dinh as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Southern Laos to Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 43 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Quang Tin-Quang Ngai as March destination
+----------------------------------------------------
+[35mMove 6 NVA Troops from Southern Laos to Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Quang Tri-Thua Thien as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from North Vietnam to Quang Tri-Thua Thien[0m
+[35mMove 2 NVA Underground Guerrillas from Central Laos to Quang Tri-Thua Thien[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+On Deck card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+Eligible      : VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 116
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : VC, ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: Burning Bonze
+----------------------------------------------------
+[33mFlip Active Support marker in Saigon to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 36 to 30[0m
+[34mDecrease US Aid by -12 to 9[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : ARVN, US
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 33[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : US
+Acted         : VC -> Event
+Passed        : ARVN
+Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Saigon
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Transfer patronage to ARVN resources
+3) Perform a Special Activity
+4) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Saigon
+
+Pacifying in Saigon
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Saigon
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Saigon
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 30[0m
+[33mFlip Passive Support marker in Saigon to Active Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 30 to 36[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kien Giang-An Xuyen
+2) Kien Phong
+3) Quang Tri-Thua Thien
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Kien Giang-An Xuyen using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Kien Giang-An Xuyen to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  3 NVA Troops, 2 NVA Underground Guerrillas
+
+How many NVA Troops (0 - 2): 2
+[35mRemove 2 NVA Troops from Kien Giang-An Xuyen to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 11 to 9[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Kien Giang-An Xuyen
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kien Phong
+2) Quang Tri-Thua Thien
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+Advise in Quang Tri-Thua Thien using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Quang Tri-Thua Thien to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  3 NVA Underground Guerrillas, 2 VC Underground Guerrillas
+
+How many NVA Underground Guerrillas (0 - 2): 0
+[35mRemove 2 VC Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Kien Giang-An Xuyen, Quang Tri-Thua Thien
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 15[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 43
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Cadres
+----------------------------------------------------
+[31m
+Capability: '#116 Cadres (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 66
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : NVA, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (6): 11 [No]
+Trung check: d3 >= the Trail (2): 3 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Quang Tri-Thua Thien for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 9 to 10[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 3[0m
+[34m
+Move the NVA cylinder to the Op Only box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US, VC
+Acted         : NVA -> Op Only
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Phong
+
+US selects Kien Phong for Training
+
+Training in Kien Phong:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Kien Phong
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Phong
+
+Pacifying in Kien Phong
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Kien Phong
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Phong
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 24[0m
+[33mPlace Active Support marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 36 to 40[0m
+[34m
+Move the US cylinder to the LimOp box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 97
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - J
+Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (25): 8 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 21[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 18[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Hue[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Hue[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Kien Phong (population: 2)
+----------------------------------------------------
+Add 3 times population value to Aid
+[34mIncrease US Aid by +6 to 21[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Pleiku-Darlac (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 20[0m
+[34mIncrease Patronage by +1 to 20[0m
+[33mFlip Active Support marker in Pleiku-Darlac to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 40 to 39[0m
+[34mMove the 'COIN Control + Patronage' marker from 41 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+Eligible      : VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 85
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+On Deck card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Khanh Hoa
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Khanh Hoa to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Khanh Hoa[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Tay Ninh to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Ban Me Thuot -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Binh Tuy-Binh Thuan to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Duc-Long Khanh to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Saigon to ACTIVE[0m
+
+[35mMove 1 VC Active Guerrilla from Tay Ninh to Saigon[0m
+[35mMove 1 VC Active Guerrilla from Kien Hoa-Vinh Binh to Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Kien Hoa-Vinh Binh as March destination
+----------------------------------------------------
+[35mMove 1 VC Active Guerrilla from Ba Xuyen to Kien Hoa-Vinh Binh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Phu Bon-Phu Yen as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Khanh Hoa to Phu Bon-Phu Yen[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Phu Bon-Phu Yen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+On Deck card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US, NVA
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Saigon
+2) Kien Giang-An Xuyen
+3) Kien Hoa-Vinh Binh
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+US assaults in Saigon
+----------------------------------------------------
+The assault inflicts 6 hits
+[35mRemove 3 VC Active Guerrillas from Saigon to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Saigon
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 105
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #105 - Rural Pressure (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Shaded)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Shaded Event: USAID
+----------------------------------------------------
+[34mIncrease ARVN resources by +2 to 20[0m
+[34mIncrease US Aid by +2 to 22[0m
+[34mIncrease Patronage by +2 to 22[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 41 to 43[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #105 - Rural Pressure (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Shaded)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - PP
+Trung check: 2d6 <= Available NVA Guerrillas (8): 8 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects North Vietnam for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from North Vietnam to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into North Vietnam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 10 to 11[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 4[0m
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in The Parrot's Beak
+----------------------------------------------------
+[35mRemove 4 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 10 NVA Troops from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in Southern Laos
+----------------------------------------------------
+[35mRemove 4 NVA Underground Guerrillas from Southern Laos to AVAILABLE[0m
+[35mPlace 10 NVA Troops from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 78
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #105 - Rural Pressure (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Shaded)
+On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+VC executes the Shaded Event: Rural Pressure
+----------------------------------------------------
+
+[33mPlace Passive Opposition marker in Quang Nam[0m
+[33mRemove Passive Support marker from Phu Bon-Phu Yen[0m
+[33mPlace Passive Opposition marker in Kien Hoa-Vinh Binh[0m
+
+[34mDecrease Patronage by -6 to 16[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 39 to 38[0m
+[34mMove the 'COIN Control + Patronage' marker from 43 to 37[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 20 to 23[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #105 - Rural Pressure (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Shaded)
+On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : US
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Kien Giang-An Xuyen
+2) Kien Hoa-Vinh Binh
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Kien Hoa-Vinh Binh
+----------------------------------------------------
+The assault inflicts 2 hits
+[35mRemove 1 VC Active Guerrilla from Kien Hoa-Vinh Binh to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Kien Hoa-Vinh Binh
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space:  Kien Giang-An Xuyen
+
+US assaults in Kien Giang-An Xuyen
+----------------------------------------------------
+The assault inflicts 2 hits
+[35mRemove 1 NVA Troop from Kien Giang-An Xuyen to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 39[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Kien Giang-An Xuyen
+
+There are no more spaces eligible for Assault
+
+US Assault:
+====================================================
+1) Perform a Special Activity
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Tri-Thua Thien
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Quang Tri-Thua Thien
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Quang Tri-Thua Thien to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Active Irregulars
+3) Finished moving forces out of Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Quang Tri-Thua Thien to Hue[0m
+
+Air Lifting forces from Quang Tri-Thua Thien to Hue
+Choose one:
+====================================================
+1) Air Lift US Active Irregulars
+2) Finished moving forces out of Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 2
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Quang Tri-Thua Thien
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+Spaces Assaulted
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Kien Giang-An Xuyen
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 38
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Shaded Event: General Lansdale
+----------------------------------------------------
+[34mIncrease Patronage by +3 to 19[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 42[0m
+[31m
+Momentum: '#78 General Lansdale' is now in play[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 24
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+On Deck card  : #24 - Operation Starlite (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : NVA, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (8): 7 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mPlace 6 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+No trail improvement. The Trail is at 4.
+Trung check: 3d6 <= Available NVA Troops (3): 10 [No]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Pleiku-Darlac
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #38 - McNamara Line (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed)
+On Deck card  : #24 - Operation Starlite (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : US, VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Giang-An Xuyen
+
+US selects Kien Giang-An Xuyen for Training
+
+Training in Kien Giang-An Xuyen:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Kien Giang-An Xuyen
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Giang-An Xuyen
+
+Pacifying in Kien Giang-An Xuyen
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Passive Support
+2) Do not pacify in Kien Giang-An Xuyen
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Kien Giang-An Xuyen
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 17[0m
+[33mPlace Passive Support marker in Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 38 to 40[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 69
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #24 - Operation Starlite (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (19): 15 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mRemove 2 VC Underground Guerrillas from Quang Tin-Quang Ngai to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 11 to 13[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 23 to 24[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mRemove 2 VC Underground Guerrillas from Tay Ninh to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 24 to 25[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (4): 7 [Yes]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Quang Tin-Quang Ngai
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mFlip Active Opposition marker in Quang Tin-Quang Ngai to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 6[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 25 to 23[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Phu Bon-Phu Yen
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Phu Bon-Phu Yen to ACTIVE[0m
+[33mPlace Passive Support marker in Phu Bon-Phu Yen[0m
+[34mIncrease Agitate Total by +1 to 7[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 40 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #24 - Operation Starlite (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : ARVN
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Operation Starlite
+----------------------------------------------------
+[35mRemove 1 VC Base from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 44[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 23 to 22[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 59
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+On Deck card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Saigon
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Transfer patronage to ARVN resources
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+Transfer how much patronage to ARVN resources (0 - 3): 3
+
+[34mDecrease Patronage by -3 to 16[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 41[0m
+[34mIncrease ARVN resources by +3 to 20[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space:  Kien Phong
+
+Advise in Kien Phong using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Kien Phong to ACTIVE[0m
+[35mRemove 1 NVA Underground Guerrilla from Kien Phong to AVAILABLE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Kien Phong
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Assault in which space:  Phu Bon-Phu Yen
+
+ARVN assaults in Phu Bon-Phu Yen
+----------------------------------------------------
+The assault inflicts 0 hits
+
+No insurgent pieces were removed in the assault
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Kien Phong, Phu Bon-Phu Yen
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 28[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+On Deck card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+
+NVA executes the Event: MACV
+----------------------------------------------------
+
+NVA performs a speical activity
+----------------------------------------------------
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (3): 2 [Yes]
+Trung check: 3d6 <= Available NVA Troops (3): 7 [No]
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC performs a speical activity
+----------------------------------------------------
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (22): 9 [Yes]
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (7): 9 [Yes]
+
+VC Taxes in Quang Tin-Quang Ngai
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mRemove Passive Opposition marker from Quang Tin-Quang Ngai[0m
+[34mIncrease Agitate Total by +2 to 9[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 22 to 20[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Khanh Hoa
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Khanh Hoa to ACTIVE[0m
+[33mPlace Passive Support marker in Khanh Hoa[0m
+[34mIncrease Agitate Total by +1 to 10[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 41 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA will remain eligible for the next card
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the US cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 82
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : NVA, VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (3): 8 [No]
+Trung check: d3 >= the Trail (4): 1 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - SS
+Trung check: 6+ NVA Troops in any space with COIN Pieces? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Can Tho -- Bac Lieu as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Kien Giang-An Xuyen to LOC Can Tho -- Bac Lieu[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Binh Dinh as March destination
+----------------------------------------------------
+[35mMove 2 NVA Troops from Southern Laos to Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Binh Dinh to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 41 to 39[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 13 to 15[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Quang Tri-Thua Thien as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from Southern Laos to Quang Tri-Thua Thien[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 2 [Success!]
+
+NVA selects Kien Giang-An Xuyen as March destination
+----------------------------------------------------
+[35mMove 3 NVA Troops from The Parrot's Beak to Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Giang-An Xuyen to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 37[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 17 to 19[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Kien Phong as March destination
+----------------------------------------------------
+[35mMove 5 NVA Troops from Southern Laos to Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Phong to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 35[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 19 to 21[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Quang Nam as March destination
+----------------------------------------------------
+[35mMove 3 NVA Troops from The Parrot's Beak to Quang Nam[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Quang Nam to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 34[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 21 to 22[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Quang Duc-Long Khanh as March destination
+----------------------------------------------------
+[35mMove 2 NVA Troops from Southern Laos to Quang Duc-Long Khanh[0m
+[35mMove 1 NVA Underground Guerrilla from Southern Laos to Quang Duc-Long Khanh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Quang Duc-Long Khanh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 22 to 23[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Pleiku-Darlac as March destination
+----------------------------------------------------
+[35mMove 3 NVA Troops from Tay Ninh to Pleiku-Darlac[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Pleiku-Darlac to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 34 to 33[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 23 to 24[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Phuoc Long as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Southern Laos to Phuoc Long[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Phuoc Long[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Tay Ninh as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Southern Laos to Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Quang Tin-Quang Ngai as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from The Parrot's Beak to Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 2 [Success!]
+
+NVA selects Northeast Cambodia as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from North Vietnam to Northeast Cambodia[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Northeast Cambodia[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Can Ambush in March destinations? [Yes]
+
+NVA chooses Ambush special activity
+====================================================
+
+NVA Ambushes in LOC Can Tho -- Bac Lieu, targeting Ba Xuyen
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Can Tho -- Bac Lieu to ACTIVE[0m
+[35mRemove 1 US Troop from Ba Xuyen to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #59 - Plei Mei (NVA, VC, ARVN, US)
+                NVA -> (Ignored), VC -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC, ARVN
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (22): 16 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 24 to 22[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US cylinder to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 86
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (15): 13 [Yes]
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - GG
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 17[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the ARVN cylinder to the Op Only box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : US
+Acted         : ARVN -> Op Only
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 1
+Notes:
+----------------------------------------------------
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Kien Phong
+
+Kien Phong selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Kien Phong
+
+US Sweep Troops into:
+====================================================
+1) Kien Phong
+2) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Kien Giang-An Xuyen
+4) Kien Hoa-Vinh Binh
+5) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 3
+Move how many US Troops (0 - 2): 2
+
+
+[35mMove 2 US Troops from Kien Giang-An Xuyen to Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Phong to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 33 to 35[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 22 to 20[0m
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Kien Hoa-Vinh Binh
+4) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Saigon to Kien Phong[0m
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Kien Hoa-Vinh Binh
+3) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Can Tho to Kien Phong[0m
+
+US Move troops to Kien Phong from:
+====================================================
+1) Kien Hoa-Vinh Binh
+2) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 2
+
+US Sweep Troops into:
+====================================================
+1) Kien Phong
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+No guerrillas were activated in Kien Phong
+[34m
+Move the US cylinder to the LimOp box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 102
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+VC executes the Shaded Event: Mandate of Heaven
+----------------------------------------------------
+[31m
+Capability: '#86 Mandate of Heaven (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 125
+
+
+>>> NVA turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : NVA, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (3): 11 [No]
+Trung check: d3 >= the Trail (4): 1 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - SS
+Trung check: 6+ NVA Troops in any space with COIN Pieces? [No]
+[31m
+The operation for Trung: NVA - S would be ineffective.[0m
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - TT
+Trung check: Underground NVA Guerrillas in 2 or more spaces with Support? [No]
+Trung check: 3d6 <= Available NVA Troops (3): 12 [No]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Saigon to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Kien Phong
+----------------------------------------------------
+[35mRemove 1 US Troop from Kien Phong to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : US, ARVN
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Binh Dinh
+
+US selects Binh Dinh for Training
+
+Training in Binh Dinh:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 2
+
+There are not enough US Irregulars in the available box
+
+You must remove 2 US Irregulars from the map
+
+Select space to remove US Irregulars: 
+====================================================
+1) Binh Dinh
+2) Kien Giang-An Xuyen
+3) Kien Phong
+4) Pleiku-Darlac
+5) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 2
+Remove how many US Irregulars (0 - 1): 1
+
+You must remove 1 US Irregular from the map
+
+Select space to remove US Irregulars: 
+====================================================
+1) Binh Dinh
+2) Kien Phong
+3) Pleiku-Darlac
+4) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 4
+Remove how many US Irregulars (0 - 1): 1
+
+[35mRemove 1 US Active Irregular from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mRemove 1 US Active Irregular from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mPlace 2 US Underground Irregulars from AVAILABLE into Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Binh Dinh to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 37[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 20 to 18[0m
+
+1 space selected for Training
+----------------------------------------------------
+Binh Dinh
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 2
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 100
+
+
+>>> 2nd Coup Round <<<
+====================================================
+Current card: #125 - Coup! Nguyen Khanh
+(coup or ?): coup
+Coup! Card: #125 - Coup! Nguyen Khanh
+----------------------------------------------------
+[31m
+Place #125 - Coup! Nguyen Khanh in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[33mAdd 1 sabotage marker to LOC Can Tho -- Bac Lieu[0m
+[33mAdd 1 sabotage marker to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 14[0m
+[34mIncrease ARVN resources by +42 to 59[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+[34mDecrease US Aid by -18 to 10[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+ARVN Pacify is maximum 1 space (instead of 4)
+
+US Pacification (4 spaces remaining, 59 ARVN resources, Econ is 14)
+Choose space to pacify:
+====================================================
+1) Hue
+2) Kontum
+3) Kien Hoa-Vinh Binh
+4) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

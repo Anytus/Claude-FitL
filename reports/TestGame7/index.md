@@ -33,3 +33,5 @@
 - report-067-068.md: #102 - Cu Chi
 - report-069-069.md: #102 - Cu Chi
 - report-070-070.md: #125 - Coup! Nguyen Khanh
+- report-071-071.md: #125 - Coup! Nguyen Khanh
+- report-072-072.md: #100 - Rach Ba Rai

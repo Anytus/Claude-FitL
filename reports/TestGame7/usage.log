@@ -79,3 +79,16 @@
 2026-09-23T03:25:33	Bash	python3 tools/ctl.py seq "Remove how many US Irregulars=>1"	129	2573
 2026-09-23T03:25:43	Bash	python3 tools/ctl.py seq "final Train action=>Finished" | tail -12; grep -n "cou	204	5662
 2026-09-23T03:25:54	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	620	8912
+2026-09-23T03:26:01	Bash	python3 tools/ctl.py commit-turn "card #102 Cu Chi: LimOp Train Binh Dinh, 2 Irr	261	5388
+2026-09-23T03:54:21	Bash	python3 tools/ctl.py status; python3 tools/render.py --help 2>&1 | head -20	140	221
+2026-09-23T03:54:25	Bash	python3 tools/render.py TestGame7 2>&1 | sed -n '/--- Scores/,/^$/p'; python3 to	212	706
+2026-09-23T04:01:59	Bash	git pull -q origin claude/testgame7 2>&1 | tail -2; python3 tools/ctl.py status;	199	935
+2026-09-23T04:02:08	Bash	echo "resumed TestGame7 from latest save (save-070, start of 2nd Coup round #125	275	5614
+2026-09-23T04:02:20	Bash	cat >> journal.md <<'EOF'  ## Turn 12 — 2nd Coup #125 Nguyen Khanh — Support pha	730	7227
+2026-09-23T04:02:28	Bash	python3 tools/ctl.py advance	110	10382
+2026-09-23T04:03:04	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	1154	1120
+2026-09-23T04:03:16	Bash	cat > /tmp/claude-0/-home-user-Claude-FitL/7d11ccf0-6d1b-54e8-9e9b-34277cc6635f/	1494	3093
+2026-09-23T04:03:20	Bash	python3 tools/ctl.py seq "Move how many Troops to Da Nang=>4"	150	1705
+2026-09-23T04:03:24	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "*=>Kontum" "*=>Da Nang"	168	3271
+2026-09-23T04:03:31	Bash	python3 tools/ctl.py seq "Move how many Troops=>2" "Choose one=>Move troops" "*=	225	4585
+2026-09-23T04:03:39	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving pieces" | tail -5; python3	442	16288
