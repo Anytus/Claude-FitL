@@ -11,3 +11,4 @@ card #130 Coup! Failed Attempt (1st Coup, drawn first): pacified Saigon, Da Nang
 card #110 No Contact: US did not act (NVA, ARVN closed the card) — n/a
 resumed TestGame7 from latest save (save-007, US up on #112) after container reclaim
 card #112 Colonel Chau: Sweep 4 delta spaces + Air Strike KP, KG, Trail — COIN Control in delta; clear pop-2 spaces
+card #48 Nam Dong: US ineligible — ARVN unshaded Event set Pleiku Active Support
