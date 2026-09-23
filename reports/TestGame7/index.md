@@ -81,3 +81,6 @@
 - report-157-158.md: #20 - Laser Guided Bombs
 - report-159-161.md: #41 - Bombing Pause
 - report-162-163.md: #88 - Phan Quang Dan
+- report-164-164.md: #88 - Phan Quang Dan
+- report-165-167.md: #71 - An Loc
+- report-168-169.md: #49 - Russian Arms

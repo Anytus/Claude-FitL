@@ -220,3 +220,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** VC 39 > 35 and the Coup can be drawn at the end of this card; Kien Giang is the only Opposition space I can Train (COIN Control + US pieces): −4 VC → 35 (score 0). Hue Advise strips its Terror carriers; QTTT breaks NVA Control (−2 NVA). Advise on Kien Giang's lone VC Base (−1) rejected: it would bar the −4 pacify there.
 **Execution.** Tried to switch the second Advise to an ARVN Assault on Hue's now-lone VC Base; Hue was not offered (already an Advise space this action). Backed out with "None of the above" and used the QTTT Ranger as planned.
 **Result.** As planned: Kien Giang Neutral (VC 39→35, score 0); Hue's 2 VC Guerrillas removed; QTTT NVA Control broken (NVA 14→12); Aid +6.
+
+## Turn 29 — card #88 Phan Quang Dan — before save-164
+**Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage to ARVN Resources; Advise with an Underground Irregular in Kien Giang (VC Guerrilla, then its VC Base) and Hue's Underground Ranger (lone VC Base); +6 Aid.
+**Why.** ARVN 53 (+3) and VC 35 (0), Coup drawable any time. Patronage transfer is my only lever on ARVN (−3 → 50, score 0); no COIN Control here depends on US pieces. The two Base kills take VC to 33. ARVN is Ineligible on #71, so it can't climb back next card.
+**Execution.** none
+**Result.** As planned: Patronage 32→29 (ARVN 53→50, score 0); VC Bases removed in Kien Giang and Hue (VC 35→33).

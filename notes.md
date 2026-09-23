@@ -64,3 +64,4 @@ card #35 Thanh Hoa: US ineligible — ARVN Train/Transport; VC passed
 card #119 My Lai: US did not act — VC shaded (Kien Giang to Active Opp), VC 39; NVA Attack
 card #20 Laser Guided Bombs: Train+Pacify Kien Giang to Neutral; Advise Hue (2 VC), QTTT (2 NVA Troops) — VC 39 to 35
 card #41 Bombing Pause: US ineligible — NVA Terror in 5 spaces (US -5); VC Rally
+card #88 Phan Quang Dan: Train Saigon + transfer 3 Patronage; Advise Kien Giang, Hue (2 VC Bases) — ARVN 53 to 50, VC 35 to 33
