@@ -76,3 +76,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** NVA is at 22 (threshold 18) and the Coup is one of the next 4 draws; ARVN's Op-only leaves me a LimOp, Assault banned (Lansdale). Breaking a pop-2 NVA Control is the most one space gives (-2). Kien Phong over Kien Giang/Binh Dinh: keeps the Kien Hoa Troops for Coup pacification and guards 4 points of Active Support. Pass rejected: US is last on #86.
 **Execution.** none
 **Result.** As planned: Kien Phong COIN Control, NVA 22→20 (still 2 over).
+
+## Turn 11 — card #102 Cu Chi (Coup #125 on deck, Monsoon) — before save-069
+**Plan.** Limited Op Train in Binh Dinh: place 2 Irregulars (none Available, so 2 come off the map elsewhere); no final action.
+**Why.** Last action before the Victory check; NVA 20 > 18. Binh Dinh becomes 4 US pieces vs 3 NVA, breaking NVA Control (pop 2): NVA 18 = score 0, not a win. Sweep (Monsoon) and Assault (Lansdale) are unavailable; the Event does nothing. Acting also ends the card before ARVN.
+**Execution.** Mechanic: placing Irregulars with none Available prompts "You must remove 2 US Irregulars from the map" and lets the US pick the spaces; removed the Active ones in Kien Giang and QTTT (no Control change). Declined Pacify (no Resources above Econ).
+**Result.** As planned: Binh Dinh COIN Control, NVA 20→18 (score 0) going into the Coup.

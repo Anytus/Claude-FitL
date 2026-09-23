@@ -31,3 +31,5 @@
 - report-063-063.md: #82 - Domino Theory
 - report-064-066.md: #86 - Mandate of Heaven
 - report-067-068.md: #102 - Cu Chi
+- report-069-069.md: #102 - Cu Chi
+- report-070-070.md: #125 - Coup! Nguyen Khanh

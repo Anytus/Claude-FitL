@@ -3538,4 +3538,185 @@ Eligible      : US, ARVN
 Acted         : NVA -> Op/Special Activity
 Passed        : none
 Ineligible    : VC
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Binh Dinh
+
+US selects Binh Dinh for Training
+
+Training in Binh Dinh:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 2
+
+There are not enough US Irregulars in the available box
+
+You must remove 2 US Irregulars from the map
+
+Select space to remove US Irregulars: 
+====================================================
+1) Binh Dinh
+2) Kien Giang-An Xuyen
+3) Kien Phong
+4) Pleiku-Darlac
+5) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 2
+Remove how many US Irregulars (0 - 1): 1
+
+You must remove 1 US Irregular from the map
+
+Select space to remove US Irregulars: 
+====================================================
+1) Binh Dinh
+2) Kien Phong
+3) Pleiku-Darlac
+4) Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 4
+Remove how many US Irregulars (0 - 1): 1
+
+[35mRemove 1 US Active Irregular from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mRemove 1 US Active Irregular from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mPlace 2 US Underground Irregulars from AVAILABLE into Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Binh Dinh to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 37[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 20 to 18[0m
+
+1 space selected for Training
+----------------------------------------------------
+Binh Dinh
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 2
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 100
+
+
+>>> 2nd Coup Round <<<
+====================================================
+Current card: #125 - Coup! Nguyen Khanh
+(coup or ?): coup
+Coup! Card: #125 - Coup! Nguyen Khanh
+----------------------------------------------------
+[31m
+Place #125 - Coup! Nguyen Khanh in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[33mAdd 1 sabotage marker to LOC Can Tho -- Bac Lieu[0m
+[33mAdd 1 sabotage marker to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 14[0m
+[34mIncrease ARVN resources by +42 to 59[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+[34mDecrease US Aid by -18 to 10[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+ARVN Pacify is maximum 1 space (instead of 4)
+
+US Pacification (4 spaces remaining, 59 ARVN resources, Econ is 14)
+Choose space to pacify:
+====================================================
+1) Hue
+2) Kontum
+3) Kien Hoa-Vinh Binh
+4) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

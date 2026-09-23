@@ -72,3 +72,10 @@
 2026-09-23T03:24:22	Bash	python3 tools/ctl.py seq "US Move troops to Kien Phong from=>Kien Giang-An Xuyen	351	3835
 2026-09-23T03:24:26	Bash	python3 tools/ctl.py seq "US Move troops to Kien Phong from=>Finished" "US Sweep	203	5626
 2026-09-23T03:24:35	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	347	20485
+2026-09-23T03:25:17	Bash	python3 tools/ctl.py commit-turn "card #82 Domino Theory: LimOp Sweep 4 Troops i	1099	8889
+2026-09-23T03:25:20	Bash	python3 tools/ctl.py seq "Place how many Irregulars=>2"	141	1478
+2026-09-23T03:25:26	Bash	python3 tools/ctl.py seq "Select space to remove US Irregulars=>Kien Giang-An Xu	171	809
+2026-09-23T03:25:30	Bash	python3 tools/ctl.py seq "Remove how many US Irregulars=>1" "Select space to rem	203	1462
+2026-09-23T03:25:33	Bash	python3 tools/ctl.py seq "Remove how many US Irregulars=>1"	129	2573
+2026-09-23T03:25:43	Bash	python3 tools/ctl.py seq "final Train action=>Finished" | tail -12; grep -n "cou	204	5662
+2026-09-23T03:25:54	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	620	8912
