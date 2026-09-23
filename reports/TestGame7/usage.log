@@ -234,3 +234,12 @@
 2026-09-23T04:59:31	Bash	python3 tools/ctl.py seq "Activate which special force=>US Irregular" 2>&1 | gre	185	1662
 2026-09-23T04:59:36	Bash	python3 tools/ctl.py seq "Choose Advise option=>Finished selecting" "+6 Aid? (y/	263	5533
 2026-09-23T04:59:51	Bash	python3 tools/ctl.py screen | grep -E "Aid|ARVN (faction|chooses|executes)|passe	648	9066
+2026-09-23T05:00:01	Bash	ls reports/TestGame7 | tail -4; grep -h "\[deck\]" transcript.log | tail -3; gre	478	8095
+2026-09-23T05:00:05	Bash	grep -a -n "drew #\|On Deck card  : #16\|Blowtorch\|128" transcript.log | tail -	152	589
+2026-09-23T05:00:08	Bash	sed -n '2050,2150p' transcript.log | sed 's/\x1b\[[0-9;]*m//g' | grep -vE "^\s*$	261	702
+2026-09-23T06:19:11	Bash	python3 tools/ctl.py status 2>/dev/null | head -1; python3 tools/ctl.py screen 2	154	141
+2026-09-23T06:19:24	Bash	python3 tools/ctl.py resume TestGame7 2>&1 | tail -5; echo "resumed TestGame7 fr	376	1690
+2026-09-23T06:19:32	Bash	cat >> journal.md <<'EOF'  ## Turn 38 — final Coup #128 Nguyen Van Thieu — Suppo	625	2427
+2026-09-23T06:19:37	Bash	python3 tools/ctl.py seq "Pacify=>Shift 1 level to Active" "Choose space to paci	214	1758
+2026-09-23T06:19:42	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" "Choose space to pacify=>Ba Xu	211	1768
+2026-09-23T06:19:50	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" 2>&1 | grep -vE "^=+$|^-+$" | 	258	6268

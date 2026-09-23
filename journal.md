@@ -280,3 +280,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Margins ARVN −2, US −3. Passing (to take #16 Blowtorch Komer unshaded and deny its shaded Saigon hit) would give the ARVN a full Op here: Govern under Young Turks is +4 Patronage → ~52, and the final Coup can be drawn any time — an unrecoverable loss. Acting holds ARVN to a LimOp (no Govern) and takes it to 45; the likely −6 in Saigon from #16 shaded can be re-pacified in the final Coup's Support phase. Aid declined: Govern draws Patronage from Aid, so my +6s have been feeding ARVN.
 **Execution.** Hue asked which special force: US Irregular. Answered n to +6 Aid.
 **Result.** As planned: Patronage 25→22 (ARVN 48→45); Hue NVA Guerrilla + VC Base removed (VC 30→29).
+
+## Turn 38 — final Coup #128 Nguyen Van Thieu — Support phase — before save-212
+**Plan.** Pacify Hue Passive → Active, Can Tho and Ba Xuyen Passive Opposition → Passive Support (2 levels each); 15 of 50 above Econ.
+**Why.** Final Coup: these phases count toward the final margins. +4 US, −2 VC. Resumed at Coup start (container reclaimed); the round re-ran identically, no Victory-phase win.
+**Execution.** none. Mechanic: the program ended the game after the final Coup's Redeploy phase — no Commitment or Reset was played.
+**Result.** US 47→51 (score +1). VC Agitated Tay Ninh only. Program: "Game over in final Coup! Round / US wins!" Margins US +1, VC −5, ARVN −5, NVA −6.

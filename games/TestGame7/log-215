@@ -1,0 +1,426 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "Coup! Card: #128 - Coup! Nguyen Van Thieu",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nPlace #128 - Coup! Nguyen Van Thieu in the RVN Leader Box on top of the stack",
+      "color": "Red"
+    },
+    {
+      "text": "\nConduct a Coup! Round",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVictory Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "None of the Bots has achieved its victory condition",
+      "color": null
+    },
+    {
+      "text": "\nResources Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nSabotage LoCs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Kontum -- Qui Nhon",
+      "color": "Yellow"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Da Nang -- Qui Nhon",
+      "color": "Yellow"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Qui Nhon -- Cam Ranh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Da Nang -- Dak To",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nDegrade the Trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no COIN controlled spaces in Laos or Cambodia",
+      "color": null
+    },
+    {
+      "text": "\nARVN Earnings",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Set Econ marker to 12",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +29 to 62",
+      "color": "Blue"
+    },
+    {
+      "text": "\nInsurgent Earnings",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "VC resources are not being tracked",
+      "color": null
+    },
+    {
+      "text": "NVA resources are not being tracked",
+      "color": null
+    },
+    {
+      "text": "\nCasualties and Aid",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease US Aid by -12 to 5",
+      "color": "Blue"
+    },
+    {
+      "text": "\nSupport Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nPacification",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "ARVN Pacify is maximum 1 space (instead of 4)",
+      "color": null
+    },
+    {
+      "text": "\nPacifying in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 1 level in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 59",
+      "color": "Blue"
+    },
+    {
+      "text": "Flip Passive Support marker in Hue to Active Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nPacifying in Can Tho",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 2 levels in Can Tho",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -6 to 53",
+      "color": "Blue"
+    },
+    {
+      "text": "Replace Passive Opposition marker in Can Tho with Passive Support marker",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nPacifying in Ba Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 2 levels in Ba Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -6 to 47",
+      "color": "Blue"
+    },
+    {
+      "text": "Replace Passive Opposition marker in Ba Xuyen with Passive Support marker",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nARVN does not pacify any spaces",
+      "color": null
+    },
+    {
+      "text": "\nAgitation",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "VC to Agigate must remove 2 VC guerrillas per space",
+      "color": null
+    },
+    {
+      "text": "\nVC Agitates 1 level in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 terror marker from Tay Ninh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip Passive Opposition marker in Tay Ninh to Active Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "Decrease Agitate Total by -2 to 2",
+      "color": "Blue"
+    },
+    {
+      "text": "\n#116 Cadres (unshaded) triggers",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Underground Guerrilla from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 47 to 51",
+      "color": "Blue"
+    },
+    {
+      "text": "\nRedeploy Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nLaos and Cambodia",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "No COIN forces in Laos or Cambodia",
+      "color": null
+    },
+    {
+      "text": "\nARVN Redeploy",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Police from Kien Phong to Binh Tuy-Binh Thuan",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from LOC Hue -- Da Nang to Quang Duc-Long Khanh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from LOC Can Tho -- Chau Doc to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from Ba Xuyen to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from Can Tho to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from Da Nang to Ba Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from Pleiku-Darlac to LOC Da Nang -- Dak To",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Redeploy",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Rolling 3d6 for number of troops per destination: 9",
+      "color": null
+    },
+    {
+      "text": "Move 3 NVA Troops from Binh Dinh to Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 NVA Troop from Binh Dinh to Central Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 NVA Troop from Tay Ninh to Central Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 4 NVA Troops from Southern Laos to Central Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": "Yellow"
+    },
+    {
+      "text": "Game over in final Coup! Round",
+      "color": null
+    },
+    {
+      "text": "US wins!",
+      "color": "Yellow"
+    },
+    {
+      "text": "====================================================",
+      "color": "Yellow"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Victory Margins",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "US     +1",
+      "color": null
+    },
+    {
+      "text": "VC     -5",
+      "color": null
+    },
+    {
+      "text": "ARVN   -5",
+      "color": null
+    },
+    {
+      "text": "NVA    -6",
+      "color": null
+    }
+  ]
+}
