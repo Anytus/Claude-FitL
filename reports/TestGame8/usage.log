@@ -80,3 +80,4 @@
 2026-09-23T07:07:13	Bash	python3 tools/ctl.py seq "Move how many ARVN Troops=>2" "Choose one=>Finished mo	303	4547
 2026-09-23T07:07:19	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift"; python3 tools/ctl	152	10150
 2026-09-23T07:07:35	Bash	echo "none. No ARVN follow-up offered (ARVN 8 Res, 2 ARVN Troops lifted in). Boo	296	23693
+2026-09-23T07:08:01	Bash	cat >> journal.md <<'EOF'  ## Turn 15 — card #85 USAID — before save-080 **Plan.	773	21039

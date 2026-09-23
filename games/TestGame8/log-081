@@ -1,0 +1,62 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #85 - USAID (ARVN, VC, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #95 - Westmoreland (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op Only",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS faction passes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Increase ARVN resources by +3 to 11",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Pass box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

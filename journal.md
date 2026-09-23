@@ -136,3 +136,10 @@ none. No ARVN follow-up offered (ARVN 8 Res, 2 ARVN Troops lifted in). Booby Tra
 **Plan.** Pass.
 **Why.** VC took Op only, so only a LimOp is open; ARVN Resources 8 < Econ 11 (no Train/Pacify) and Lansdale momentum bars US Assault. Passing gives ARVN +3 and leaves US first Eligible on #95 Westmoreland (VC Ineligible), keeping its shaded (3 Provinces 2 levels to Opposition) out of VC hands and letting me act first.
 **Execution.**
+none.
+**Result.** ARVN +3 (11). NVA LimOp marched 1 Guerrilla. US first Eligible on #95.
+
+## Turn 16 — card #95 Westmoreland — before save-083
+**Plan.** Op Patrol: 5 US Troops Kien Phong → Saigon; Advise: Rangers in Saigon remove 2 VC Guerrillas, Irregular in Pleiku removes VC Guerrilla + Base; +6 Aid.
+**Why.** VC -1 Base, clears Saigon (pop 6) of Terror-capable Guerrillas, restores a Troop presence there for Coup pacification, and Aid 0→6 raises ARVN income. Westmoreland unshaded mostly wasted (Lansdale bars US Assault).
+**Execution.**

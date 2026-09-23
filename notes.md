@@ -20,3 +20,4 @@ card #23 Attleboro unshaded: Tay Ninh cleared of 6 VC + tunneled Base — ARVN f
 card #64 Honolulu: LimOp Assault Tay Ninh — NVA 17→15; #83 Election: ineligible; Coup 2: pacified Hue 2 levels, 4 Troops to Saigon/Da Nang
 card #6 Aces unshaded: 6 NVA Troops off Central Laos, Trail to 1 — deny shaded; #98 Long Tan: ineligible
 card #44 Ia Drang unshaded: Air Lift + Assault Kien Phong, NVA Base off — NVA 18→15; #78 Lansdale: ineligible
+card #85 USAID: Pass — ARVN at Econ, keep first eligible on Westmoreland

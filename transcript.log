@@ -4865,4 +4865,76 @@ Eligible      : US, NVA
 Acted         : VC -> Op Only
 Passed        : none
 Ineligible    : ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 11[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : NVA
+Acted         : VC -> Op Only
+Passed        : US
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects Quang Tri-Thua Thien as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Central Laos to Quang Tri-Thua Thien[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the LimOp box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 87
+
+ARVN Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
 (perform or ?): 

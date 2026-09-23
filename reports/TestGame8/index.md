@@ -36,3 +36,5 @@
 - report-075-075.md: #44 - la Drang
 - report-076-078.md: #78 - General Lansdale
 - report-079-080.md: #85 - USAID
+- report-081-082.md: #85 - USAID
+- report-083-083.md: #95 - Westmoreland
