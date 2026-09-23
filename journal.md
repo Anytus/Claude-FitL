@@ -232,3 +232,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN back at 52 (Govern in Hue, Qui Nhon Control); Transfer is my one lever: −3 → 49. ARVN is Ineligible on #40, so it can't climb back next card. Event (6 ARVN pieces) would raise ARVN.
 **Execution.** none
 **Result.** As planned: Patronage 31→28, ARVN 52→49.
+
+## Turn 31 — card #13 Cobras — before save-174
+**Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage; Advise with the Pleiku Irregular (remove 2 NVA Troops); +6 Aid.
+**Why.** ARVN 49 must stay ≤50 to the Coup; an Op leaves the Event to the ARVN (Critical/Unshaded, a US capability that doesn't raise its score), whereas taking the Event would hand it an Op + Govern. ARVN → 46. Pleiku Advise breaks NVA Control (−1 NVA).
+**Execution.** Pleiku auto-selected (only Irregular candidate); declined a second Advise space (an ARVN Assault could add ARVN Control).
+**Result.** Patronage −3 (ARVN 49→46); Pleiku NVA Control broken (NVA 14→13); Aid +6.

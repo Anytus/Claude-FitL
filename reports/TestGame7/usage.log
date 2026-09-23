@@ -199,3 +199,6 @@
 2026-09-23T04:34:00	Bash	grep -E "Current card  :|executes|chooses|selects|passes|marker from" reports/Te	299	5733
 2026-09-23T04:34:20	Bash	python3 tools/ctl.py commit-turn "card #88 Phan Quang Dan: Train Saigon + transf	1131	9204
 2026-09-23T04:34:29	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	437	8808
+2026-09-23T04:35:00	Bash	python3 tools/ctl.py commit-turn "card #49 Russian Arms: LimOp Train Saigon + tr	1344	4918
+2026-09-23T04:35:07	Bash	python3 tools/ctl.py screen | grep -E "Patronage|Remove .*NVA|marker from|Contro	315	6451
+2026-09-23T04:35:23	Bash	grep -E "Patronage by|Aid by" transcript.log | tail -3; python3 - <<'EOF' p='jou	650	18498

@@ -87,3 +87,6 @@
 - report-170-170.md: #49 - Russian Arms
 - report-171-173.md: #40 - PoWs
 - report-174-174.md: #13 - Cobras
+- report-175-176.md: #13 - Cobras
+- report-177-179.md: #32 - Long Range Guns
+- report-180-180.md: #126 - Coup! Young Turks

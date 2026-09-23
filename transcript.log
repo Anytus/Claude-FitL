@@ -6870,4 +6870,347 @@ Eligible      : US, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : NVA, VC
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+Pacification costs 4 resources per terror/level [Leader: Nguyen Cao Ky]
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Saigon
+2) Kien Giang-An Xuyen
+3) Kien Phong
+4) Pleiku-Darlac
+5) None of the above
+----------------------------------------------------
+Selection: 1
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Transfer patronage to ARVN resources
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+Transfer how much patronage to ARVN resources (0 - 3): 3
+
+[34mDecrease Patronage by -3 to 25[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 49 to 46[0m
+[34mIncrease ARVN resources by +3 to 37[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space:  Pleiku-Darlac
+
+Advise in Pleiku-Darlac using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE[0m
+[35mRemove 2 NVA Troops from Pleiku-Darlac to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 13[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Pleiku-Darlac
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 25[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #13 - Cobras (US, ARVN, NVA, VC)
+                ARVN -> (Critical, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+On Deck card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Cobras
+----------------------------------------------------
+[31m
+Capability: '#13 Cobras (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 126
+
+
+>>> NVA turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+On Deck card  : #126 - Coup! Young Turks
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+NVA executes the Shaded Event: Long Range Guns
+----------------------------------------------------
+[31m
+Capability: '#32 Long Range Guns (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the Event box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+On Deck card  : #126 - Coup! Young Turks
+Eligible      : VC
+Acted         : NVA -> Event
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Kien Phong for Terror
+[36mFlip 1 VC Underground Guerrilla in Kien Phong to ACTIVE[0m
+
+#116 Cadres (unshaded) triggers
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from Kien Phong to AVAILABLE[0m
+[33mPlace Passive Opposition marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 33 to 35[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Tay Ninh for Terror
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+
+#116 Cadres (unshaded) triggers
+----------------------------------------------------
+[35mRemove 1 VC Underground Guerrilla from Tay Ninh to AVAILABLE[0m
+[35mRemove 1 VC Active Guerrilla from Tay Ninh to AVAILABLE[0m
+[33mAdd 1 terror marker to Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Tay Ninh
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Tay Ninh to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 52
+
+
+>>> 5th Coup Round <<<
+====================================================
+Current card: #126 - Coup! Young Turks
+(coup or ?): coup
+Coup! Card: #126 - Coup! Young Turks
+----------------------------------------------------
+[31m
+Place #126 - Coup! Young Turks in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+There are no LoCs that can be sabotaged
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 15[0m
+[34mIncrease ARVN resources by +40 to 75[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+[34mDecrease US Aid by -24 to 1[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+ARVN Pacify is maximum 1 space (instead of 4)
+
+US Pacification (4 spaces remaining, 75 ARVN resources, Econ is 15)
+Choose space to pacify:
+====================================================
+1) Kien Giang-An Xuyen
+2) Kien Phong
+3) Finished pacifying spaces
+----------------------------------------------------
+Selection: 
