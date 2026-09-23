@@ -87,3 +87,10 @@ none.
 **Plan.** Pass.
 **Why.** ROKs unshaded would Assault 4 Passive-Support Provinces, and Search and Destroy shaded shifts each toward Opposition (about -5). Passing keeps US first Eligible on #23 Operation Attleboro, whose unshaded (Air Lift, Sweep, Assault Tay Ninh ignoring the Tunnel) kills the tunneled VC Base and 6 Active VC and denies VC/NVA the shaded that hits my Saigon Troops.
 **Execution.**
+none.
+**Result.** NVA LimOp Rally in Central Laos, Trail to 4. US first Eligible on #23.
+
+## Turn 11 — card #23 Operation Attleboro — before save-053
+**Plan.** Event unshaded on Tay Ninh: Air Lift Saigon 2, Kontum 1, Kien Hoa 1 Troops in, Sweep, Assault the 6 Active VC and (if hits reach it) the Tunneled Base.
+**Why.** Tay Ninh is already Active Opposition, so Search and Destroy costs nothing there; kills up to 4+ VC and denies VC (2nd, Performed/Shaded) the die-roll of Saigon Troops to Casualties. Troops can return at the Coup Commitment.
+**Execution.**

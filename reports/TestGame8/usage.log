@@ -49,3 +49,4 @@
 2026-09-23T07:01:14	Bash	python3 tools/ctl.py seq "Choose one=>Move troops from Out of play to Available"	172	1187
 2026-09-23T07:01:30	Bash	python3 tools/ctl.py send 3 && python3 tools/ctl.py advance	134	43844
 2026-09-23T07:01:39	Bash	python3 tools/map.py "Phu Bon-Phu Yen"	92	436
+2026-09-23T07:02:02	Bash	cat >> journal.md <<'EOF' none. **Result.** +3 (50). NVA marched 4 Troops into Q	968	20157

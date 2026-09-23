@@ -21,3 +21,5 @@
 - report-044-045.md: #9 - Psychedelic Cookie
 - report-046-048.md: #28 - Search and Destroy
 - report-049-050.md: #70 - ROKs
+- report-051-052.md: #70 - ROKs
+- report-053-053.md: #23 - Operation Attleboro
