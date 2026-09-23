@@ -276,3 +276,16 @@ from then on; the card text says what.
   and shifts Active Support to Passive.
 - **Transport** Troops and Rangers to another space; **Raid** with a Ranger,
   removing up to 2 pieces including an undefended Base.
+
+## 8. Added in TestGame8 (observed)
+
+- **Air Strike** resolved for the first time: hits = one die roll (seen 2, 4, 5). Removal order NVA Troops, Active Guerrillas, then untunneled **Bases** once nothing else shields them ("Remove how many pieces (1 - 3)" with 1 Active Guerrilla + 2 Bases). Spaces already at Active Opposition take no shift. Sweep first to activate the lone Guerrilla guarding Bases.
+- **Advise** is offered only with Train or Patrol (an Assault's menu lists Air Lift and Air Strike only). In a space holding both an Irregular and a Ranger it asks which to activate. The ARVN-Assault option asks for the space as a bare typed prompt.
+- **"Follow up with ARVN assault? (y/n)"** appeared in an event Assault (Operation Attleboro, ARVN with 6 Res); a normal LimOp Assault never offered it.
+- **Train in Saigon** offers the final action "Transfer patronage to ARVN resources" (0-3): ARVN score -1 per point, Resources +1. A Limited Op Train offers it too.
+- **Pacify** may leave ARVN Resources exactly at Econ (the "at or below" in section 2 is wrong: only below is refused). Coup-card leaders change the cost (Nguyen Cao Ky 4/level); Blowtorch Komer momentum made the next Support phase 1/level.
+- **Pacify** from Opposition in a COIN-controlled space you hold with a lone US Troop cuts VC score directly (Active Opposition → Neutral is -2 per pop).
+- Sweep: 1 US + 1 ARVN Troop in Highland activated 1 Guerrilla; 2 US Troops in Jungle activated 1.
+- When a menu has one candidate the program selects it silently; the next `seq` answer then lands on the following prompt (rejected, no effect). Single-candidate steps should be omitted.
+- US pivotal: `perform` executes Linebacker II directly; it replaces the current card (it removed VC's Critical Agent Orange).
+- Capabilities that punished Troops in Provinces: Booby Traps (Sweep, 1-3 loses a Troop), M-48 shaded (2 moved Patrol cubes removed), Cobras shaded, Long Range Guns shaded (Bombard 3 spaces).
