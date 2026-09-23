@@ -80,3 +80,6 @@
 - report-163-164.md: #4 - Top Gun
 - report-165-167.md: #113 - Ruff Puff
 - report-168-168.md: #30 - USS New Jersey
+- report-169-170.md: #30 - USS New Jersey
+- report-171-173.md: #41 - Bombing Pause
+- report-174-174.md: #13 - Cobras

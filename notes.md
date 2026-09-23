@@ -36,3 +36,4 @@ card #36 Hamburger Hill: LimOp Patrol 3 Troops to Saigon (M-48 took 2) — quali
 Coup 4: pacified Saigon, Hue, Cam Ranh, Qui Nhon at 1/step (+9 US, -4 VC); casualties to Da Nang/An Loc/Can Tho/Saigon
 Linebacker II pivotal (replaced #111 Agent Orange): NVA -2 Bases, deny VC Agent Orange; #65 Intl Forces: ineligible
 card #4 Top Gun: Train+Pacify Da Nang 2 levels, Advise Kien Giang/Binh Dinh — VC 37→36; #113 Ruff Puff: ineligible
+card #30 New Jersey: Train+Pacify Hue Active (+4), Advise Kien Giang VC; #41 Bombing Pause: ineligible

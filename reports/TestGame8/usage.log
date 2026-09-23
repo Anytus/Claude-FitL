@@ -160,3 +160,7 @@
 2026-09-23T07:24:01	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py seq "US Training=>Finished sel	205	3057
 2026-09-23T07:24:05	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels"; python3 tools/ctl.py screen |	139	8015
 2026-09-23T07:24:18	Bash	echo "Binh Dinh auto-selected again, so \"Binh Dinh\" was typed once at the Aid 	384	34676
+2026-09-23T07:24:52	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py screen | tail -10	110	1815
+2026-09-23T07:24:56	Bash	python3 tools/ctl.py seq "Choose Advise option=>Finished selecting"; python3 too	155	1071
+2026-09-23T07:25:03	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py seq "US Training=>Finished sel	235	9329
+2026-09-23T07:25:16	Bash	echo "Kien Giang auto-selected: my \"Kien Giang\" hit the piece prompt, rejected	483	30766

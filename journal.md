@@ -265,3 +265,10 @@ none.
 **Execution.**
 Binh Dinh auto-selected again, so "Binh Dinh" was typed once at the Aid y/n (re-prompted, no effect). Pacify cost back to 3/level under Nguyen Van Thieu.
 **Result.** VC 37→36, US 42→43, Aid 24; 2 VC Guerrillas off Kien Giang, 2 NVA Guerrillas off Binh Dinh.
+
+## Turn 29 — card #30 USS New Jersey — before save-168
+**Plan.** Op Train Hue (no placement) + Pacify Hue 2 levels (Neutral → Active); Advise: Ranger in Kien Giang removes 2 VC Guerrillas; +6 Aid.
+**Why.** +4 US on pop 2 using ARVN's 41 Res; VC is at 33 after Taxing. New Jersey unshaded strikes would shift Passive-Opposition coastal spaces toward VC; its shaded finds no coastal Province with US Troops, so VC gains nothing from it.
+**Execution.**
+Kien Giang auto-selected: my "Kien Giang" hit the piece prompt, rejected verbatim "'Kien Giang' is not valid. Must be one of: 0, 1, 2, or abort"; answered 0 (so 2 VC). Only one Advise space was available, then finished. (VC was Ineligible this card; NVA was second.)
+**Result.** Hue Active Support (+4, US 47); 2 VC Guerrillas off Kien Giang; Aid 30.

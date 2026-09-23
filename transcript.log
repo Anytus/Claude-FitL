@@ -10334,4 +10334,344 @@ Eligible      : US, NVA
 Acted         : none
 Passed        : none
 Ineligible    : VC, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Hue
+
+US selects Hue for Training
+
+Training in Hue:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Hue
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space:  Kien Giang-An Xuyen
+
+Advise in Kien Giang-An Xuyen using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Kien Giang-An Xuyen to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  8 NVA Troops, 2 VC Underground Guerrillas
+
+How many NVA Troops (0 - 2): Kien Giang
+'Kien Giang' is not valid. Must be one of:
+0, 1, 2, or abort
+How many NVA Troops (0 - 2): 0
+[35mRemove 2 VC Underground Guerrillas from Kien Giang-An Xuyen to AVAILABLE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Kien Giang-An Xuyen
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 30[0m
+
+1 space selected for Training
+----------------------------------------------------
+Hue
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Hue
+
+Pacifying in Hue
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Hue
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Hue
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 35[0m
+[33mPlace Active Support marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 43 to 47[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #30 - USS New Jersey (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+Eligible      : NVA
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, ARVN
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the US cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 13
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+On Deck card  : #13 - Cobras (US, ARVN, NVA, VC)
+                ARVN -> (Critical, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+Eligible      : NVA, ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - N
+Trung check: 3d6 <= Available NVA Troops (1): 10 [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (14): 7 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Kien Phong for Rally
+----------------------------------------------------
+[35mPlace 4 NVA Underground Guerrillas from AVAILABLE into Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 12 to 14[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mPlace 4 NVA Underground Guerrillas from AVAILABLE into Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mPlace 4 NVA Underground Guerrillas from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 4[0m
+[34m
+Move the NVA cylinder to the Op Only box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+On Deck card  : #13 - Cobras (US, ARVN, NVA, VC)
+                ARVN -> (Critical, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+Eligible      : ARVN, VC
+Acted         : NVA -> Op Only
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (3): 8 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - LL
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+
+ARVN chooses Sweep operation
+====================================================
+
+ARVN selects Kien Phong as Sweep destination
+----------------------------------------------------
+[35mMove 5 ARVN Troops from Saigon to Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Phong to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 46 to 48[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 12[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Activating guerrillas in Kien Phong
+----------------------------------------------------
+[36mFlip 4 NVA Underground Guerrillas in Kien Phong to ACTIVE[0m
+[31m
+Resolving #101 Booby Traps (shaded) in Kien Phong[0m
+----------------------------------------------------
+Die roll: 5  [Failure]
+No troop is removed
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN pays for 1 sweep destination
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 32[0m
+[34m
+Move the ARVN cylinder to the LimOp box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US cylinder to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 125
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #13 - Cobras (US, ARVN, NVA, VC)
+                ARVN -> (Critical, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
 (perform or ?): 
