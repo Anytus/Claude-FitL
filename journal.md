@@ -129,3 +129,10 @@ none.
 **Plan.** Event unshaded on Kien Phong: Air Lift Saigon 3 + Da Nang 2 + Hue 1 US Troops (and Saigon's 2 ARVN Troops) in, Sweep, Assault NVA 2 Troops + Guerrilla + Base.
 **Why.** NVA is at its line with the next pile able to turn a Coup after #78; Kien Phong (pop 2, Active Opposition so Search and Destroy costs nothing) loses NVA Control and a Base: NVA 18→15. Tay Ninh would give only -2.
 **Execution.**
+none. No ARVN follow-up offered (ARVN 8 Res, 2 ARVN Troops lifted in). Booby Traps roll 4, no loss.
+**Result.** NVA 18→15: Kien Phong COIN Control, NVA Base removed.
+
+## Turn 15 — card #85 USAID — before save-080
+**Plan.** Pass.
+**Why.** VC took Op only, so only a LimOp is open; ARVN Resources 8 < Econ 11 (no Train/Pacify) and Lansdale momentum bars US Assault. Passing gives ARVN +3 and leaves US first Eligible on #95 Westmoreland (VC Ineligible), keeping its shaded (3 Provinces 2 levels to Opposition) out of VC hands and letting me act first.
+**Execution.**

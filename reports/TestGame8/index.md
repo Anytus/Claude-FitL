@@ -33,3 +33,6 @@
 - report-068-069.md: #6 - Aces
 - report-070-072.md: #98 - Long Tan
 - report-073-074.md: #44 - la Drang
+- report-075-075.md: #44 - la Drang
+- report-076-078.md: #78 - General Lansdale
+- report-079-080.md: #85 - USAID

@@ -74,3 +74,9 @@
 2026-09-23T07:05:58	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Central Laos" "Air Strike: 	158	1681
 2026-09-23T07:06:03	Bash	python3 tools/ctl.py send 6; python3 tools/ctl.py screen | tail -20	116	6093
 2026-09-23T07:06:22	Bash	python3 tools/ctl.py advance	88	44641
+2026-09-23T07:06:47	Bash	cat >> journal.md <<'EOF' none. **Result.** 6 NVA Troops removed, Trail 3→1. NVA	1002	8878
+2026-09-23T07:06:51	Bash	python3 tools/ctl.py send "Kien Phong"; python3 tools/ctl.py screen | tail -12	131	1823
+2026-09-23T07:07:04	Bash	python3 tools/ctl.py seq "Select one=>Select an Air Lift" "Air Lift in which spa	489	5898
+2026-09-23T07:07:13	Bash	python3 tools/ctl.py seq "Move how many ARVN Troops=>2" "Choose one=>Finished mo	303	4547
+2026-09-23T07:07:19	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift"; python3 tools/ctl	152	10150
+2026-09-23T07:07:35	Bash	echo "none. No ARVN follow-up offered (ARVN 8 Res, 2 ARVN Troops lifted in). Boo	296	23693

@@ -4454,4 +4454,415 @@ Eligible      : US
 Acted         : NVA -> Op/Special Activity
 Passed        : none
 Ineligible    : ARVN, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: la Drang
+----------------------------------------------------
+Select a space with NVA pieces: Kien Phong
+
+US performs free Air Lift into Kien Phong
+====================================================
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Kien Phong
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Phong, Saigon
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Da Nang
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Phong, Saigon, Da Nang
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Lift forces out of Da Nang
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Phong, Saigon, Da Nang, Hue
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Da Nang
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Kien Phong
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Saigon to Kien Phong
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 3): 3
+[35mMove 3 US Troops from Saigon to Kien Phong[0m
+
+Air Lifting forces from Saigon to Kien Phong
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many ARVN Troops (0 - 2): 2
+[35mMove 2 ARVN Troops from Saigon to Kien Phong[0m
+
+Air Lifting forces from Saigon to Kien Phong
+Choose one:
+====================================================
+1) Air Lift ARVN Underground Rangers
+2) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 2
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Phong, Saigon, Da Nang, Hue
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Da Nang
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Kien Phong
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Da Nang to Kien Phong
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 2
+[35mMove 2 US Troops from Da Nang to Kien Phong[0m
+
+Air Lifting forces from Da Nang to Kien Phong
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Kien Phong, Saigon, Da Nang, Hue
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Hue
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 3
+
+US performs free Sweep into Kien Phong
+====================================================
+[31m
+No troops can reach any of the sweep destinations.[0m
+
+Activating guerrillas in Kien Phong
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Kien Phong to ACTIVE[0m
+[31m
+Resolving #101 Booby Traps (shaded) in Kien Phong[0m
+----------------------------------------------------
+Die roll: 4  [Failure]
+No troop is removed
+
+US performs free Assault in Kien Phong
+====================================================
+
+US assaults in Kien Phong
+----------------------------------------------------
+The assault inflicts 5 hits
+[35mRemove 2 NVA Troops from Kien Phong to AVAILABLE[0m
+[35mRemove 1 NVA Active Guerrilla from Kien Phong to AVAILABLE[0m
+[35mRemove 1 NVA Base from Kien Phong to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Phong to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 44[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 18 to 15[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 85
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+ARVN executes the Shaded Event: General Lansdale
+----------------------------------------------------
+[34mIncrease Patronage by +3 to 28[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 47[0m
+[31m
+Momentum: '#78 General Lansdale' is now in play[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 95
+
+NVA Bot Pivotal Event die roll: 6  [Failure] (2 cards in leader box)
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : VC, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [Yes]
+Trung check: 3d6 <= Available VC pieces (16): 6 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Kien Hoa-Vinh Binh for Rally
+----------------------------------------------------
+[35mRemove 2 VC Underground Guerrillas from Kien Hoa-Vinh Binh to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Kien Hoa-Vinh Binh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 26 to 27[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Saigon for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mPlace 3 VC Underground Guerrillas from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 13[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Quang Tri-Thua Thien for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Quang Tri-Thua Thien[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+VC selects Binh Dinh for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Kien Phong for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Quang Duc-Long Khanh for Rally
+----------------------------------------------------
+[35mPlace 2 VC Underground Guerrillas from AVAILABLE into Quang Duc-Long Khanh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+VC selects Binh Tuy-Binh Thuan for Rally
+----------------------------------------------------
+[35mPlace 2 VC Underground Guerrillas from AVAILABLE into Binh Tuy-Binh Thuan[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the Op Only box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #85 - USAID (ARVN, VC, US, NVA)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : US, NVA
+Acted         : VC -> Op Only
+Passed        : none
+Ineligible    : ARVN
 (perform or ?): 
