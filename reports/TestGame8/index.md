@@ -101,3 +101,5 @@
 - report-203-203.md: #103 - Kent State
 - report-204-206.md: #119 - My Lai
 - report-207-208.md: #40 - PoWs
+- report-209-209.md: #40 - PoWs
+- report-210-210.md: #12 - Capt Buck Adams

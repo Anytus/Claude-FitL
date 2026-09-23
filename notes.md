@@ -44,3 +44,4 @@ card #91 Bob Hope: LimOp Train+Pacify Binh Tuy to Neutral — VC 38→36; #19 CO
 card #84 To Quoc: Pass — keep Op+SA for Kien Hoa pacification on #32
 card #32 Long Range Guns: Air Lift 3 Troops + Train/Pacify Kien Hoa to Neutral — VC 37→33; #49 Russian Arms: ineligible
 card #103 Kent State unshaded: free LimOp Patrol 3 Troops into Saigon (M-48 took 2) — NVA 22→16, Saigon tied; #119 My Lai: eligible, not reached
+card #40 PoWs: Pass — keep first slot on #12 for Transfer + Advise

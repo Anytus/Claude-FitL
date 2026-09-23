@@ -328,3 +328,8 @@ none.
 **Execution.**
 Kent State's free LimOp prompted "Press Enter" then the operation menu; Patrol "Assault at one LOC" bug offered again, declined. M-48 removed 2 Troops as expected.
 **Result.** NVA 22→16, ARVN 45, US 53; Saigon uncontrolled (4 vs 4); US stays Eligible.
+
+## Turn 36 — card #40 PoWs — before save-208
+**Plan.** Pass.
+**Why.** ARVN 53 and VC 38 are both over their lines with the final Coup possible after #12. NVA took Op only, so only a LimOp is open here, and any action costs my first slot on #12. Passing keeps #12 for Op + SA: Train Saigon + Transfer Patronage (ARVN 53→50) with Advise on the lone Pleiku VC Base. Rejected: LimOp Pacify Pleiku now (VC -2, but ARVN would act first on #12 and Govern higher).
+**Execution.**
