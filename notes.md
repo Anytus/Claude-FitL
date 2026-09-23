@@ -12,3 +12,4 @@ card #26 LRRP: Op-only Train, Pacify Saigon Active; Coup 1 pacified Da Nang/Kont
 card #55 Trucks: LimOp Train, Pacify Binh Dinh Active — +4 on pop 2; #107 Burning Bonze: ineligible
 card #31 AAA: Patrol LoC Kontum-Dak To + Advise Pleiku/Binh Dinh, +6 Aid — strip VC guerrillas from Support spaces; #50 Uncle Ho: ineligible
 card #112 Colonel Chau: Sweep Quang Tri + Air Strike 2 VC there — expose VC Base; #110 No Contact: ineligible
+card #17 Claymores: Patrol + Advise killed VC Bases Quang Tri, Binh Dinh — VC Bases scarce; #79 Lodge: ineligible

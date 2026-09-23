@@ -59,3 +59,10 @@ none. Air Strike rolled only 2 hits ("Die roll to determine the number of hits =
 **Plan.** Op Patrol (no movement) + Advise: Irregulars in Quang Tri (remove lone VC Base) and Binh Dinh (VC Guerrilla + Base).
 **Why.** VC -2 Bases (VC has 2 in Available only). VC (2nd, Performed) will likely take Claymores shaded on Pleiku (US Base + Underground VC): accepted cost, the Base does not score. Rejected: Op-only Sweep (no Base kills).
 **Execution.**
+Answer "Binh Dinh" was sent at the "+6 Aid? (y/n)" prompt because the space had been auto-selected (only candidate); the prompt repeated and I answered y. No state effect.
+**Result.** VC -2 Bases (31→29). VC then Claymores shaded: US Base Pleiku → Casualties, 1 VC Guerrilla removed.
+
+## Turn 7 — card #101 Booby Traps — before save-035
+**Plan.** Pass.
+**Why.** Passing keeps US Eligible as 2nd on #93 Senator Fulbright (VC first, Ignored), where the unshaded Event moves 4 map pieces to Available (+4, no withdrawal shift) and denies NVA the shaded (Base out of play, Aid -9). An Air Lift + Assault on the lone Pleiku VC Base now (VC -1) would leave NVA the Fulbright shaded.
+**Execution.**

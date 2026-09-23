@@ -35,3 +35,8 @@
 2026-09-23T06:58:41	Bash	python3 tools/ctl.py seq "Air Strike: (=>Remove insurgents"	125	891
 2026-09-23T06:58:45	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -15	132	2368
 2026-09-23T06:58:56	Bash	python3 tools/ctl.py advance	93	29628
+2026-09-23T06:59:28	Bash	cat >> journal.md <<'EOF' none. Air Strike rolled only 2 hits ("Die roll to dete	1200	8405
+2026-09-23T06:59:34	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "in which space=>	144	2291
+2026-09-23T06:59:39	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -12	121	1344
+2026-09-23T06:59:43	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished moving"; python3 tool	154	1533
+2026-09-23T06:59:55	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault" && python3 tools/ctl.py ad	168	35156

@@ -11,3 +11,6 @@
 - report-024-024.md: #112 - Colonel Chau
 - report-025-027.md: #110 - No Contact
 - report-028-028.md: #17 - Claymores
+- report-029-030.md: #17 - Claymores
+- report-031-033.md: #79 - Henry Cabot Lodge
+- report-034-035.md: #101 - Booby Traps

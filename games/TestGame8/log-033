@@ -1,0 +1,166 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #79 - Henry Cabot Lodge (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #101 - Booby Traps (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN(-) -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - S",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space without COIN Control? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 <= Available NVA Guerrillas (15): 8 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Central Laos for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 NVA Underground Guerrillas from AVAILABLE into Central Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 2 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nNVA improves the trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Improve the trail by 1 box to 3",
+      "color": "Blue"
+    },
+    {
+      "text": "Trung check: 3d6 <= Available NVA Troops (27): 3 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Infiltrate special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Infiltrates in Central Laos",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 3 NVA Underground Guerrillas from Central Laos to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 8 NVA Troops from AVAILABLE into Central Laos",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Infiltrates in North Vietnam",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 NVA Troops from AVAILABLE into North Vietnam",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of NVA Infiltrate activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}
