@@ -46,3 +46,4 @@ card #32 Long Range Guns: Air Lift 3 Troops + Train/Pacify Kien Hoa to Neutral �
 card #103 Kent State unshaded: free LimOp Patrol 3 Troops into Saigon (M-48 took 2) — NVA 22→16, Saigon tied; #119 My Lai: eligible, not reached
 card #40 PoWs: Pass — keep first slot on #12 for Transfer + Advise
 cards #12-#35 + final Coup: Transfer/Advise on #12 (ARVN 53→50, VC 38→37); US then Ineligible (#37 Khe Sanh shaded); GAME OVER — VC wins by 2 at final Coup
+- Token usage (from session transcript API usage, game segment 06:52→07:35 UTC, 207 API calls): output 128,492; uncached input 414; cache writes 517,244; cache reads 68,111,268; total processed ~68.76M. Whole session incl. setup ~70.6M.
