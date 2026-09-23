@@ -180,3 +180,10 @@ none.
 **Execution.**
 Hue was the only candidate and auto-selected, so my "Hue" answer hit the piece prompt: rejected verbatim "'Hue' is not valid. Must be one of: 0, 1, or abort"; answered 0 NVA (so 1 VC). No ARVN follow-up was offered in a normal LimOp Assault (it appeared only in Attleboro's event Assault).
 **Result.** 1 VC Guerrilla removed only; VC still 37. Poor return.
+
+## Turn 20 — card #18 Combined Action Platoons — before save-114
+**Plan.** Op Train Saigon (no placement) + Transfer 3 Patronage; Advise: ARVN Assault in Hue (8 cubes, 3 Active Guerrillas + 1 VC Base), Rangers in Quang Tin remove 2 VC Guerrillas; +6 Aid.
+**Why.** ARVN sits at 50 and VC at 39 with a Coup possible after #86: Transfer takes ARVN to 47, Hue Base takes VC to 38. Rejected: Air Lift + Assault (only 2 single-Troop sources reachable, about -1).
+**Execution.**
+"ARVN Assault in which space" bare prompt (typed Hue); Binh Dinh Irregular asked NVA count (0) so 2 VC removed.
+**Result.** VC 39→38, ARVN 50→47, Aid 34, Binh Dinh clear of VC Guerrillas.

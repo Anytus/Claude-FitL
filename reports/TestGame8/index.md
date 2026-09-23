@@ -51,3 +51,6 @@
 - report-110-110.md: #59 - Plei Mei
 - report-111-113.md: #114 - Tri Quang
 - report-114-114.md: #18 - Combined Action Platoons
+- report-115-116.md: #18 - Combined Action Platoons
+- report-117-119.md: #86 - Mandate of Heaven
+- report-120-120.md: #69 - MACV

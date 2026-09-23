@@ -105,3 +105,10 @@
 2026-09-23T07:12:44	Bash	echo "\"ARVN Assault in which space\" was a bare prompt (typed Saigon). No final	285	23336
 2026-09-23T07:13:10	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py screen | tail -15	122	5158
 2026-09-23T07:13:22	Bash	cat >> journal.md <<'EOF' Hue was the only candidate and auto-selected, so my "H	491	20843
+2026-09-23T07:14:05	Bash	python3 tools/ctl.py commit-turn "card #59 Plei Mei: LimOp Assault Hue, 1 VC off	1030	7554
+2026-09-23T07:14:09	Bash	python3 tools/ctl.py send Hue; python3 tools/ctl.py screen | tail -20	119	3093
+2026-09-23T07:14:14	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular"; python3 tools/ct	165	1377
+2026-09-23T07:14:21	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>Binh Dinh"; pytho	164	1804
+2026-09-23T07:14:25	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py screen | tail -8	111	1310
+2026-09-23T07:14:33	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py seq "US Training=>Finished sel	268	9660
+2026-09-23T07:14:44	Bash	echo "\"ARVN Assault in which space\" bare prompt (typed Hue); Binh Dinh Irregul	317	31203

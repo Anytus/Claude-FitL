@@ -1,0 +1,62 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: Combined Action Platoons",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nCapability: '#18 Combined Acton Platoons (shaded)' is now in effect",
+      "color": "Red"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

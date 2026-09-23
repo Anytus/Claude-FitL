@@ -6976,4 +6976,337 @@ Eligible      : US, NVA
 Acted         : none
 Passed        : none
 Ineligible    : ARVN, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+Pacification costs 4 resources per terror/level [Leader: Nguyen Cao Ky]
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Saigon
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Assault in which space: Hue
+
+ARVN assaults in Hue
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 2 NVA Active Guerrillas from Hue to AVAILABLE[0m
+[35mRemove 1 VC Active Guerrilla from Hue to AVAILABLE[0m
+[35mRemove 1 VC Base from Hue to AVAILABLE[0m
+
+Each insurgent base removed adds +6 Aid
+[34mIncrease US Aid by +6 to 28[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 39 to 38[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Hue
+
+Choose Advise option:
+====================================================
+1) Assault a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space: 
+====================================================
+1) Binh Dinh
+2) Quang Tin-Quang Ngai
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Binh Dinh using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Binh Dinh to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  2 NVA Active Guerrillas, 2 VC Active Guerrillas
+
+How many NVA Active Guerrillas (0 - 2): 0
+[35mRemove 2 VC Active Guerrillas from Binh Dinh to AVAILABLE[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Hue, Binh Dinh
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 34[0m
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Transfer patronage to ARVN resources
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+Transfer how much patronage to ARVN resources (0 - 3): 3
+
+[34mDecrease Patronage by -3 to 28[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 50 to 47[0m
+[34mIncrease ARVN resources by +3 to 3[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : NVA
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, VC
+(perform or ?): perform
+
+NVA executes the Shaded Event: Combined Action Platoons
+----------------------------------------------------
+[31m
+Capability: '#18 Combined Acton Platoons (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 69
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Mandate of Heaven
+----------------------------------------------------
+[31m
+Capability: '#86 Mandate of Heaven (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+Eligible      : VC
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - UU
+Trung check: 3d6 <= Available VC pieces (10): 10 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mRemove 1 VC Underground Guerrilla from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mRemove 1 VC Active Guerrilla from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 38 to 39[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Quang Duc-Long Khanh for Rally
+----------------------------------------------------
+[35mRemove 1 VC Underground Guerrilla from Quang Duc-Long Khanh to AVAILABLE[0m
+[35mRemove 1 VC Active Guerrilla from Quang Duc-Long Khanh to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Duc-Long Khanh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 39 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (3): 10 [Yes]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Quang Tri-Thua Thien
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Quang Tri-Thua Thien to ACTIVE[0m
+[33mFlip Active Opposition marker in Quang Tri-Thua Thien to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 5[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 40 to 38[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Binh Tuy-Binh Thuan
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+[33mFlip Active Opposition marker in Binh Tuy-Binh Thuan to Passive Opposition[0m
+[34mIncrease Agitate Total by +1 to 6[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 38 to 37[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 74
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+On Deck card  : #74 - Lam Son 719 (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Ignored), VC -> (Ignored)
+Eligible      : US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, VC
 (perform or ?): 
