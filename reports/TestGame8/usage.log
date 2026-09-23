@@ -1,0 +1,19 @@
+2026-09-23T06:50:27	Bash	git status | head -5 && ls && ls games 2>/dev/null; wc -l RULES_LEARNED.md CURRE	193	482
+2026-09-23T06:50:29	Bash	cat RULES_LEARNED.md CURRENT_US_STRATEGY.md PROMPTS.md notes.md journal.md	153	30838
+2026-09-23T06:50:30	Read	/root/.claude/projects/-home-user-Claude-FitL/03c0de19-1f14-5abc-90ad-67375521f6	126	31860
+2026-09-23T06:50:34	Bash	python3 tools/ctl.py status	81	183
+2026-09-23T06:50:42	Bash	python3 tools/ctl.py new-game TestGame8 --final-coup-only	135	3520
+2026-09-23T06:50:47	Bash	python3 tools/ctl.py advance	128	11919
+2026-09-23T06:50:57	Bash	git status --short | head; echo "- Game created $(date -u +%F): new-game TestGam	525	653
+2026-09-23T06:52:24	Bash	date -u +%FT%TZ | tee /tmp/claude-0/-home-user-Claude-FitL/03c0de19-1f14-5abc-90	227	653
+2026-09-23T06:52:26	Bash	head -40 tools/usage_report.py; head -20 tools/usage_hook.py	125	2680
+2026-09-23T06:53:07	Bash	cat >> journal.md <<'EOF'  ## Turn 1 — card #26 LRRP — before save-000 **Plan.**	942	7179
+2026-09-23T06:53:19	Bash	python3 tools/ctl.py seq "ARVN Troops=>2" "Police=>2" "US Training=>Select a spa	356	6720
+2026-09-23T06:53:27	Bash	python3 tools/ctl.py seq "how many=>1" "US Training=>Finished selecting" "final 	236	4512
+2026-09-23T06:53:40	Bash	python3 tools/ctl.py send n && python3 tools/ctl.py advance	139	17791
+2026-09-23T06:53:51	Bash	cat >> journal.md <<'EOF' none (Quang Tri Irregular prompt offered 0-2 with 1 Av	745	7353
+2026-09-23T06:54:00	Bash	python3 tools/ctl.py advance	101	5150
+2026-09-23T06:54:20	Bash	cat >> journal.md <<'EOF' none. **Result.** +6 as planned; ARVN pacified Hue; VC	538	1924
+2026-09-23T06:54:25	Bash	python3 tools/ctl.py seq "Move Troops in which space=>Available box"	134	2567
+2026-09-23T06:54:31	Bash	python3 tools/ctl.py seq "to which space=>Hue" "how many=>1"	119	1348
+2026-09-23T06:54:49	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "Move Troops in which space=>	309	33223
