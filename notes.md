@@ -27,3 +27,4 @@ card #78 General Lansdale: US ineligible — ARVN shaded, no US Assault until Co
 card #38 McNamara Line: LimOp Train+Pacify Kien Giang to Passive Support — +2 US, ended card before VC
 card #24 Operation Starlite: US ineligible — VC Rally/Tax (Agitate 7), ARVN removed Binh Dinh VC Base
 card #69 MACV: Train Saigon + transfer 3 Patronage; Advise Kien Phong, PBPY; +6 Aid — ARVN -3, Coup budget
+card #59 Plei Mei: US ineligible — NVA mass March, NVA to 22 (over 18)
