@@ -206,3 +206,10 @@ none.
 **Plan.** Pass.
 **Why.** US is the only Eligible faction, so nothing is denied by acting, and no US action this card can remove VC score (the reachable VC Bases are shielded by Underground Guerrillas or NVA Troops). Passing gives ARVN +3 and keeps US first on #16 Blowtorch Komer, whose unshaded (Aid +10, Coup pacification at 1 Resource per step) is worth far more and keeps VC off its shaded.
 **Execution.**
+none.
+**Result.** ARVN +3; all Eligible, US first on #16.
+
+## Turn 24 — card #16 Blowtorch Komer — before save-131
+**Plan.** Event unshaded: Aid +10, Pacify at 1 Resource per step this Support phase.
+**Why.** Turns the next Coup's pacification from 4/level to 1/level (Nguyen Cao Ky), multiplying Support gains, and denies VC (Critical/Shaded, 3rd) the shaded; the card ends with ARVN before VC acts.
+**Execution.**

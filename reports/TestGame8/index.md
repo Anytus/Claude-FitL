@@ -61,3 +61,6 @@
 - report-129-129.md: #11 - Abrams
 - report-130-130.md: #11 - Abrams
 - report-131-131.md: #16 - Blowtorch Komer
+- report-132-133.md: #16 - Blowtorch Komer
+- report-134-136.md: #52 - RAND
+- report-137-137.md: #27 - Phoenix Program

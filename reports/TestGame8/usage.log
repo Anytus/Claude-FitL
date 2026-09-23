@@ -121,3 +121,4 @@
 2026-09-23T07:15:58	Bash	echo "none. Hue offered \"Activate which special force\" (Irregular/Ranger); cho	1104	10498
 2026-09-23T07:16:09	Bash	echo "none. **Result.** ARVN 49→46; card ended before VC acted." >> journal.md &	173	20741
 2026-09-23T07:16:33	Bash	python3 tools/ctl.py commit-turn "card #74 Lam Son: LimOp Train Saigon Transfer 	838	15953
+2026-09-23T07:16:52	Bash	python3 tools/ctl.py commit-turn "card #11 Abrams: Pass — keep first on Blowtorc	763	22406
