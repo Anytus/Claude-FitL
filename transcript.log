@@ -11284,4 +11284,371 @@ Eligible      : US, NVA, VC, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : none
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+US can select a maximum of 2 spaces [#18 Combined Acton Platoons (shaded)]
+Each space, VC afterward remove 1 troop on die roll 1-3 [#101 Booby Traps (shaded)]
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Binh Tuy-Binh Thuan
+
+Binh Tuy-Binh Thuan selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Binh Tuy-Binh Thuan
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Perform a Special Activity
+3) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Binh Tuy-Binh Thuan
+2) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Binh Tuy-Binh Thuan from:
+====================================================
+1) Cam Ranh
+2) Saigon
+3) Finished moving troops to Binh Tuy-Binh Thuan
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 4): 2
+
+
+[35mMove 2 US Troops from Saigon to Binh Tuy-Binh Thuan[0m
+
+US Move troops to Binh Tuy-Binh Thuan from:
+====================================================
+1) Cam Ranh
+2) Saigon
+3) Finished moving troops to Binh Tuy-Binh Thuan
+----------------------------------------------------
+Selection: 3
+
+US Sweep Troops into:
+====================================================
+1) Binh Tuy-Binh Thuan
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+Sweep activation:
+====================================================
+1) Resolve all remaining Sweep spaces
+2) Perform a Special Activity
+3) Resolve Sweep in Binh Tuy-Binh Thuan
+----------------------------------------------------
+Selection: 1
+
+Activating guerrillas in Binh Tuy-Binh Thuan
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+[31m
+Resolving #101 Booby Traps (shaded) in Binh Tuy-Binh Thuan[0m
+----------------------------------------------------
+Die roll: 3  [Success]
+[35mRemove 1 US Troop from Binh Tuy-Binh Thuan to CASUALTIES[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Strike special activity
+====================================================
+Degrading the requires a die roll of 4-6 [#4 Top Gun (shaded)]
+Cannot degrade the trail below 2 [#31 AAA (shaded)]
+Die roll to determine the number of hits = 5
+
+0 spaces of 6 selected for Air Strike
+----------------------------------------------------
+
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Binh Tuy-Binh Thuan
+2) Kien Giang-An Xuyen
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Binh Tuy-Binh Thuan
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in Binh Tuy-Binh Thuan
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from Binh Tuy-Binh Thuan (1 - 3): 3
+
+US Air Strikes Binh Tuy-Binh Thuan
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from Binh Tuy-Binh Thuan to AVAILABLE[0m
+[35mRemove 2 VC Bases from Binh Tuy-Binh Thuan to AVAILABLE[0m
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Binh Tuy-Binh Thuan
+
+You have not yet degraded the trail
+
+Air Strike: (2 hits remaining, remove up to 2 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 2
+
+US Air Strikes The Trail
+----------------------------------------------------
+[31mDie roll (#4 Top Gun (shaded)): 2 [Failure][0m
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Binh Tuy-Binh Thuan
+
+You have already degraded the trail
+There are no strike targets and you cannot degrade the trail again
+
+Shift support in strike spaces toward Active Opposition
+----------------------------------------------------
+
+Binh Tuy-Binh Thuan: No shift [Already at Active Opposition]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Binh Tuy-Binh Thuan[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 46 to 47[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 39 to 37[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #8 - Arc Light (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+On Deck card  : #80 - Light at the End of the Tunnel (ARVN, NVA, VC, US)
+                ARVN -> (Critical), NVA -> (Performed), VC -> (Critical)
+Eligible      : NVA, VC, ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+
+NVA executes the Shaded Event: Arc Light
+----------------------------------------------------
+[31m
+Capability: '#8 Arc Light (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 91
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #80 - Light at the End of the Tunnel (ARVN, NVA, VC, US)
+                ARVN -> (Critical), NVA -> (Performed), VC -> (Critical)
+On Deck card  : #91 - Bob Hope (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+ARVN executes the Event: Light at the End of the Tunnel
+----------------------------------------------------
+[35mRemove 1 US Troop from Saigon to AVAILABLE[0m
+
+[34mIncrease Patronage by +2 to 31[0m
+
+[33mFlip Active Support marker in Kontum to Passive Support[0m
+
+[35mPlace 1 NVA Troop from AVAILABLE into North Vietnam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 47 to 49[0m
+
+ARVN will remain eligible for the next card
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #80 - Light at the End of the Tunnel (ARVN, NVA, VC, US)
+                ARVN -> (Critical), NVA -> (Performed), VC -> (Critical)
+On Deck card  : #91 - Bob Hope (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : VC
+Acted         : ARVN(+) -> Event
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, VC, and NVA cylinders to the Eligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 19
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #91 - Bob Hope (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #19 - CORDS (US, ARVN, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : VC, US, NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - X
+Trung check: Any 2+ Pop space without VC Guerrillas? [Yes]
+Trung check: 3d6 <= Available VC pieces (11): 10 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Quang Tri-Thua Thien for Rally
+----------------------------------------------------
+[35mRemove 2 VC Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 37 to 38[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Kien Hoa-Vinh Binh for Rally
+----------------------------------------------------
+[35mPlace 4 VC Underground Guerrillas from AVAILABLE into Kien Hoa-Vinh Binh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mPlace 3 VC Underground Guerrillas from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the Op Only box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #91 - Bob Hope (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #19 - CORDS (US, ARVN, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : US, NVA, ARVN
+Acted         : VC -> Op Only
+Passed        : none
+Ineligible    : none
 (perform or ?): 

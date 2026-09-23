@@ -87,3 +87,6 @@
 - report-177-177.md: #125 - Coup! Nguyen Khanh
 - report-178-178.md: #125 - Coup! Nguyen Khanh
 - report-179-179.md: #8 - Arc Light
+- report-180-181.md: #8 - Arc Light
+- report-182-184.md: #80 - Light at the End of the Tunnel
+- report-185-186.md: #91 - Bob Hope

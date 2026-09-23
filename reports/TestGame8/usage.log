@@ -170,3 +170,9 @@
 2026-09-23T07:26:26	Bash	python3 tools/ctl.py commit-turn "card #13 Cobras: Train+Pacify Binh Dinh Active	819	4880
 2026-09-23T07:26:36	Bash	echo "none. **Result.** +6 as planned." >> journal.md && python3 tools/ctl.py ad	153	9325
 2026-09-23T07:26:58	Bash	cat >> journal.md <<'EOF'  ## Coup 5 — Commitment **Plan.** Move 3 Troops Availa	681	29447
+2026-09-23T07:27:27	Bash	python3 tools/ctl.py commit-turn "Coup 5: pacified An Loc, Pleiku, Da Nang, Qui 	1145	7225
+2026-09-23T07:27:33	Bash	python3 tools/ctl.py seq "Move troops to Binh Tuy-Binh Thuan from=>Finished" "US	241	3238
+2026-09-23T07:27:39	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	219	3603
+2026-09-23T07:27:47	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Binh Tuy" "Air Strike: (=>R	225	3679
+2026-09-23T07:27:51	Bash	python3 tools/ctl.py seq "Air Strike: (=>Degrade the trail"; python3 tools/ctl.p	148	2398
+2026-09-23T07:28:03	Bash	echo "Booby Traps took 1 Troop. Air Strike rolled 5; Trail degrade failed its To	274	33459

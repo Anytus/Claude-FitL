@@ -1,0 +1,102 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #80 - Light at the End of the Tunnel (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #91 - Bob Hope (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, US",
+      "color": null
+    },
+    {
+      "text": "\nARVN executes the Event: Light at the End of the Tunnel",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 US Troop from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Increase Patronage by +2 to 31",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Flip Active Support marker in Kontum to Passive Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Troop from AVAILABLE into North Vietnam",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 47 to 49",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN will remain eligible for the next card",
+      "color": null
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

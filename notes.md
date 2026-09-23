@@ -39,3 +39,4 @@ card #4 Top Gun: Train+Pacify Da Nang 2 levels, Advise Kien Giang/Binh Dinh — 
 card #30 New Jersey: Train+Pacify Hue Active (+4), Advise Kien Giang VC; #41 Bombing Pause: ineligible
 card #13 Cobras: Train+Pacify Binh Dinh Active (+4), Air Lift Troop to Pleiku — prep Coup 5
 Coup 5: pacified An Loc, Pleiku, Da Nang, Qui Nhon (+6); 3 Troops to Saigon for VC-base strikes
+card #8 Arc Light: Sweep + Air Strike Binh Tuy, 2 VC Bases — VC 39→37; #80 Light at End: ineligible

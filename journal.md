@@ -291,3 +291,12 @@ none.
 **Plan.** Move 3 Troops Available → Saigon.
 **Why.** VC 39 after Agitation must reach ≤35 before the final Coup's Victory check; its Bases sit in Binh Tuy and Kien Hoa (both now Active Opposition, so Air Strikes cost no shift), adjacent to Saigon. A 4-Troop Saigon stack feeds Sweep + Air Strike. Cost 3 US points (57 → 54).
 **Execution.**
+none.
+**Result.** US 54, VC 39 (Agitation +6), ARVN 46, NVA 14 after Coup 5.
+
+## Turn 31 — card #8 Arc Light — before save-179
+**Plan.** Op Sweep Binh Tuy-Binh Thuan, 2 US Troops in from Saigon; Air Strike Binh Tuy (Guerrilla + 2 VC Bases).
+**Why.** VC 39 must fall to ≤35 before the final Coup; Binh Tuy is Active Opposition so the strike shifts nothing, and 3 hits remove both Bases (VC -2). Rejected: Arc Light unshaded (a capability; needs a later Sweep anyway). NVA may take the shaded (Moonscape), which barely matters in Active-Opposition spaces.
+**Execution.**
+Booby Traps took 1 Troop. Air Strike rolled 5; Trail degrade failed its Top Gun roll (2) and used the 2 hits.
+**Result.** VC 39→37 (both Binh Tuy Bases).
