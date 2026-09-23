@@ -32,3 +32,4 @@ card #87 Nguyen Chanh Thi: US Eligible but card closed by ARVN Event + VC Subver
 card #67 Amphib Landing: Train Saigon + Pacify Qui Nhon, Air Lift 4 ARVN Troops to Tay Ninh/Binh Dinh — NVA 20→16, US 52
 card #46 559th Transport Grp: US ineligible (NVA Bombard+March, ARVN Event Trail −2)
 card #10 Rolling Thunder: Op-only Train Pleiku — hold VC to a LimOp before the Coup; US wins at Coup 2 by 2
+- Game over: US won at Coup 2 by 2. Program found not running afterwards; resumed from latest save (Coup 2 start), Victory phase re-ran with the same result, answered n at Kevin's instruction.

@@ -1,0 +1,50 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "Coup! Card: #128 - Coup! Nguyen Van Thieu",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nPlace #128 - Coup! Nguyen Van Thieu in the RVN Leader Box on top of the stack",
+      "color": "Red"
+    },
+    {
+      "text": "\nConduct a Coup! Round",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVictory Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": "Yellow"
+    },
+    {
+      "text": "Game over in the 2nd Coup! round",
+      "color": null
+    },
+    {
+      "text": "US wins with a victory margin of 2!",
+      "color": "Yellow"
+    }
+  ]
+}

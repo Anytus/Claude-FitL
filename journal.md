@@ -94,3 +94,6 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** —
 **Execution.** none
 **Result.** "US wins with a victory margin of 2!" (US 52 → +2; VC's LimOp Terror took VC to 36, +1). The program asks "Do you want to continue playing this game? (y/n)"; left unanswered for Kevin.
+
+## Game end
+Kevin instructed closing the game. Program was not running (container reclaimed); resumed from the latest save at the start of Coup 2, the Victory phase re-ran with the same result ("US wins with a victory margin of 2!"), answered n.
