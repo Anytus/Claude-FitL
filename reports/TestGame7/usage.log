@@ -161,3 +161,7 @@
 2026-09-23T04:23:40	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	205	2852
 2026-09-23T04:24:12	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" | tail -3; python3 - <<'EOF' p='jour	678	20877
 2026-09-23T04:24:18	Bash	ls reports/TestGame7/ | tail -5; for f in $(ls reports/TestGame7/report-12[4-9]*	387	6423
+2026-09-23T04:24:31	Bash	python3 tools/ctl.py commit-turn "card #27 Phoenix Program: Train+Pacify Saigon 	609	20653
+2026-09-23T04:24:52	Bash	cat >> journal.md <<'EOF'  ## Turn 24 — card #62 Cambodian Civil War — before sa	652	3835
+2026-09-23T04:24:56	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift"	129	6120
+2026-09-23T04:25:08	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	478	10337

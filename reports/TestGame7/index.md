@@ -66,3 +66,6 @@
 - report-127-129.md: #113 - Ruff Puff
 - report-130-132.md: #80 - Light at the End of the Tunnel
 - report-133-134.md: #62 - Cambodian Civil War
+- report-135-135.md: #62 - Cambodian Civil War
+- report-136-138.md: #11 - Abrams
+- report-139-139.md: #8 - Arc Light

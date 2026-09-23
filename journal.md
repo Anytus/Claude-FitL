@@ -184,3 +184,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +6 US in Saigon; VC −2 Guerrillas in Hue; NVA −1 Base. VC is Ineligible on #27, so the shaded threat is gone and the Event (3 VC pieces) is worth less than this.
 **Execution.** Mechanic learned on #42: under Cadres a lone VC Guerrilla can still Terror (it is removed afterward) — my Turn 20 note was wrong. Stray answer: QTTT was auto-selected (only candidate) and my seq's next step typed "Quang Tri-Thua Thien" into the "+6 Aid? (y/n)" prompt, which re-prompted; then answered y.
 **Result.** As planned: Saigon Active (US 42→48), Hue's 2 VC Guerrillas and a QTTT NVA Base removed (NVA 11→10), Aid +6.
+
+## Turn 24 — card #62 Cambodian Civil War — before save-135
+**Plan.** Event unshaded: remove the 2 NVA Bases in The Parrot's Beak; decline the optional Air Lift/Sweep into Cambodia.
+**Why.** NVA −2 permanently (its margin counts against mine at the end). Pass to deny #11 Abrams shaded (max 2 Assault spaces) weighed: that capability is a real cost, but smaller than 2 NVA points.
+**Execution.** none
+**Result.** As planned: 2 NVA Bases removed from The Parrot's Beak (NVA 14→12).

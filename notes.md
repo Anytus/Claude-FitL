@@ -54,3 +54,4 @@ card #42 Chou En Lai: Passed to stay first on #27 Phoenix Program — deny VC sh
 card #27 Phoenix Program: Train+Pacify Saigon (terror off, Active); Advise Rangers Hue (2 VC), QTTT (NVA Base); +6 Aid — +6 US
 card #113 Ruff Puff: US ineligible — VC Tax + March into Saigon, KP, Binh Dinh, Da Nang
 card #80 Light at the End of the Tunnel: US did not act — ARVN Event pulled 3 US pieces from KP; NVA March
+card #62 Cambodian Civil War: Event unshaded, 2 NVA Bases removed from Parrot's Beak — NVA 14 to 12
