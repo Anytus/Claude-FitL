@@ -61,3 +61,8 @@
 2026-09-23T03:21:14	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	713	21790
 2026-09-23T03:21:45	Bash	python3 tools/ctl.py commit-turn "card #105 Rural Pressure: Assault Kien Hoa, Ki	1219	10518
 2026-09-23T03:21:55	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	354	21281
+2026-09-23T03:22:36	Bash	python3 tools/ctl.py commit-turn "card #38 McNamara Line: LimOp Train+Pacify Kie	1179	7573
+2026-09-23T03:22:41	Bash	python3 tools/ctl.py seq "final Train action=>Transfer patronage"	156	860
+2026-09-23T03:22:44	Bash	python3 tools/ctl.py seq "Transfer how much patronage=>3"	132	1410
+2026-09-23T03:22:55	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"	142	1541
+2026-09-23T03:23:21	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" | tail -3; python3 - <<'EOF' p='jour	676	45999

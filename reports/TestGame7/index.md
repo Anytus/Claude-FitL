@@ -25,3 +25,6 @@
 - report-051-051.md: #38 - McNamara Line
 - report-052-054.md: #24 - Operation Starlite
 - report-055-055.md: #69 - MACV
+- report-056-057.md: #69 - MACV
+- report-058-060.md: #59 - Plei Mei
+- report-061-062.md: #82 - Domino Theory

@@ -26,3 +26,4 @@ card #105 Rural Pressure: Assault Kien Hoa, Kien Giang; Air Lift QTTT Troop to H
 card #78 General Lansdale: US ineligible — ARVN shaded, no US Assault until Coup
 card #38 McNamara Line: LimOp Train+Pacify Kien Giang to Passive Support — +2 US, ended card before VC
 card #24 Operation Starlite: US ineligible — VC Rally/Tax (Agitate 7), ARVN removed Binh Dinh VC Base
+card #69 MACV: Train Saigon + transfer 3 Patronage; Advise Kien Phong, PBPY; +6 Aid — ARVN -3, Coup budget

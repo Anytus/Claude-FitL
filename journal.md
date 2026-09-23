@@ -64,3 +64,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +2 US; Kien Giang has no Police so the Coup Support phase can't reach it. Acting also ends the card before the VC. Pass-for-Starlite weighed: the Event's best target (QTQN) would hand the NVA Control there; not worth the VC action. Event (ARVN -12) rejected: cuts the Coup pacify budget.
 **Execution.** none
 **Result.** As planned: Kien Giang Passive Support (US 38→40), ARVN Resources 17.
+
+## Turn 9 — card #69 MACV — before save-056
+**Plan.** Op + SA: Train Saigon (no placement, no final action), Advise with a Kien Phong Irregular on its NVA Guerrilla; +6 Aid.
+**Why.** Pacify and ARVN placement are blocked (Resources 17, Econ 15) and Assault by Lansdale, so the action is for the Advise and the +6 Aid (Coup pacify budget). Taking Op+SA leaves the NVA only a LimOp or the Event. MACV Event (free US SA, stay Eligible) weighed: hands the NVA a full Op+SA, and US is last on Plei Mei anyway.
+**Execution.** Final Train menu offered Transfer patronage (no Pacify); took 3 (Patronage 19→16, Resources 20). seq stopped at "Use Irregular/Ranger in which space": auto-selected Kien Phong (only candidate). Added an ARVN Advise Assault in Phu Bon-Phu Yen (only candidate): 0 hits (1 Police).
+**Result.** NVA Guerrilla out of Kien Phong; ARVN 44→41; Aid 28.
