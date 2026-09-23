@@ -9068,4 +9068,219 @@ Eligible      : US
 Acted         : NVA -> Op/Special Activity
 Passed        : none
 Ineligible    : VC, ARVN
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Assault
+----------------------------------------------------
+Selection: 2
+
+US chooses Patrol operation
+====================================================
+After Patrol NVA removes up to 2 cubes that moved [#14 M-48 Patton (shaded)]
+----------------------------------------------------
+[31mAfter Patrol NVA removes up to 2 cubes that moved [#14 M-48 Patton (shaded)][0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Finished moving cubes
+----------------------------------------------------
+Selection: 1
+
+Move cubes out of which space: 
+====================================================
+1) Cam Ranh
+2) Can Tho
+3) Hue
+4) Qui Nhon
+5) Quang Duc-Long Khanh
+6) Quang Tin-Quang Ngai
+7) None of the above
+----------------------------------------------------
+Selection: 5
+
+US Moving Patrol cubes out of Quang Duc-Long Khanh
+----------------------------------------------------
+These cubes can move   : 1 US Troop
+
+Move how many cubes out of Quang Duc-Long Khanh (0 - 1): 1
+
+Select destination: Saigon
+[35mMove 1 US Troop from Quang Duc-Long Khanh to Saigon[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Quang Duc-Long Khanh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 46 to 45[0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Finished moving cubes
+----------------------------------------------------
+Selection: 1
+
+Move cubes out of which space: 
+====================================================
+1) Cam Ranh
+2) Can Tho
+3) Hue
+4) Qui Nhon
+5) Quang Tin-Quang Ngai
+6) None of the above
+----------------------------------------------------
+Selection: 2
+
+US Moving Patrol cubes out of Can Tho
+----------------------------------------------------
+These cubes can move   : 1 US Troop
+
+Move how many cubes out of Can Tho (0 - 1): 1
+[35mMove 1 US Troop from Can Tho to Saigon[0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Finished moving cubes
+----------------------------------------------------
+Selection: 1
+
+Move cubes out of which space: 
+====================================================
+1) Cam Ranh
+2) Hue
+3) Qui Nhon
+4) Quang Tin-Quang Ngai
+5) None of the above
+----------------------------------------------------
+Selection: 4
+
+US Moving Patrol cubes out of Quang Tin-Quang Ngai
+----------------------------------------------------
+These cubes can move   : 1 US Troop
+
+Move how many cubes out of Quang Tin-Quang Ngai (0 - 1): 1
+[35mMove 1 US Troop from Quang Tin-Quang Ngai to Saigon[0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Finished moving cubes
+----------------------------------------------------
+Selection: 2
+
+US Patrol - Activating guerrillas on LOCs
+----------------------------------------------------
+No guerrillas are activated
+
+Choose one:
+====================================================
+1) Assault at one LOC
+2) Do not Assault at one LOC
+----------------------------------------------------
+Selection: 2
+
+NVA removes two cubes that moved [#14 M-48 Patton (shaded)]
+----------------------------------------------------
+[35mRemove 2 US Troops from Saigon to CASUALTIES[0m
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 111
+
+
+>>> 4th Coup Round <<<
+====================================================
+Current card: #128 - Coup! Nguyen Van Thieu
+(coup or ?): coup
+Coup! Card: #128 - Coup! Nguyen Van Thieu
+----------------------------------------------------
+[31m
+Place #128 - Coup! Nguyen Van Thieu in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Can Tho -- Chau Doc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 13[0m
+[34mIncrease ARVN resources by +57 to 57[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+[34mDecrease US Aid by -24 to 20[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+Pacification costs 1 resource per step/terror
+
+US Pacification (4 spaces remaining, 57 ARVN resources, Econ is 13)
+Choose space to pacify:
+====================================================
+1) Cam Ranh
+2) Hue
+3) Qui Nhon
+4) Saigon
+5) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

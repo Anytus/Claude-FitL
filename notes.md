@@ -32,3 +32,4 @@ card #11 Abrams: Pass — keep first on Blowtorch Komer
 card #16 Blowtorch Komer unshaded: Aid +10, Coup pacify 1/step — denies VC shaded; #52 RAND: ineligible
 card #27 Phoenix: Air Lift + Assault Quang Tin/Tay Ninh — NVA 18→14; #57 Intl Unrest: ineligible
 card #45 PT-76: Sweep Quang Duc + Air Strike killed 2 VC Bases — VC 37→35; #62 Cambodian Civil War: ineligible
+card #36 Hamburger Hill: LimOp Patrol 3 Troops to Saigon (M-48 took 2) — qualify Saigon for Coup pacify

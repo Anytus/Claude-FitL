@@ -229,3 +229,11 @@ Assault menu said "There are no spaces eligible for Assault" until the Air Lift 
 **Execution.**
 Booby Traps took 1 Troop to Casualties. Air Strike rolled 4 hits and offered "Remove how many pieces from Quang Duc-Long Khanh (1 - 3)": Air Strike DOES remove Bases once no Guerrilla shields them. Second strike space: typed name rejected verbatim "'Quang Tin-Quang Ngai' is not valid. Must be one of: 1, 2, 3, 4, 5, 6, 7, 8, or abort" (menu was numbered this time); reselected by label. The last hit took an NVA Troop (Troops first).
 **Result.** VC 37→35 (2 Bases in Quang Duc), no Support shift.
+
+## Turn 27 — card #36 Hamburger Hill — before save-151
+**Plan.** Op Train Saigon (no placement) + Air Lift (Monsoon, 2 spaces) 1 US Troop Quang Duc → Saigon; final action Transfer 3 Patronage.
+**Why.** Coup on deck and Blowtorch makes Coup pacification 1 Res/step: Saigon (pop 6, Passive) needs a US Troop to qualify (+6); Transfer takes ARVN 46→43 before the Victory check. No bot rises (VC 34, NVA 16).
+**Execution.**
+Rejected: "no menu entry starts with 'Op'" — NVA took Op + SA first, so only Event / Limited Op / Pass were offered (I misread the order). Revised: LimOp Patrol, 3 US Troops (Quang Duc, Can Tho, Quang Tin) → Saigon; M-48 shaded lets NVA remove up to 2 moved cubes, leaving ≥1 US Troop in Saigon for the Coup pacification (+6). Rejected LimOp Train Saigon + Transfer (ARVN -3 but Saigon unqualified).
+Patrol offered "Assault at one LOC" after the LimOp into Saigon (known bug), declined. M-48: 2 US Troops from Saigon to Casualties as expected.
+**Result.** 1 US Troop in Saigon (with 7 Police) for the Coup; 2 more Troops in Casualties.

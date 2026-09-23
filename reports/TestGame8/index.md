@@ -70,3 +70,5 @@
 - report-146-146.md: #45 - PT-76
 - report-147-149.md: #62 - Cambodian Civil War
 - report-150-151.md: #36 - Hamburger Hill
+- report-152-152.md: #36 - Hamburger Hill
+- report-153-153.md: #128 - Coup! Nguyen Van Thieu

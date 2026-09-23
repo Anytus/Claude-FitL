@@ -140,3 +140,9 @@
 2026-09-23T07:19:47	Bash	python3 tools/ctl.py seq "Air Strike: (=>Select a space"; python3 tools/ctl.py s	275	2963
 2026-09-23T07:19:53	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Quang Tin" "Air Strike: (=>	213	3655
 2026-09-23T07:20:10	Bash	cat >> journal.md <<'EOF' Booby Traps took 1 Troop to Casualties. Air Strike rol	629	41569
+2026-09-23T07:21:03	Bash	cat >> journal.md <<'EOF' Rejected: "no menu entry starts with 'Op'" — NVA took 	648	4588
+2026-09-23T07:21:11	Bash	python3 tools/ctl.py seq "how many=>1" "Select destination=>Saigon" "US Moving P	276	3905
+2026-09-23T07:21:17	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Move cubes" "Move cubes out of	218	2544
+2026-09-23T07:21:22	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished moving"; python3 tool	155	1935
+2026-09-23T07:21:26	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault"; python3 tools/ctl.py scre	144	6985
+2026-09-23T07:21:36	Bash	echo "Patrol offered \"Assault at one LOC\" after the LimOp into Saigon (known b	370	8990
