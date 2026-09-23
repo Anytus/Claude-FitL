@@ -26,3 +26,12 @@
 2026-09-23T06:56:57	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	221	4296
 2026-09-23T06:57:04	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "in which space=>	147	2131
 2026-09-23T06:57:21	Bash	python3 tools/ctl.py send y && python3 tools/ctl.py advance	131	40335
+2026-09-23T06:58:11	Bash	cat >> journal.md <<'EOF' Assault chosen before the SA: after "Assault at one LO	1206	8215
+2026-09-23T06:58:16	Bash	python3 tools/ctl.py seq "US Sweep space=>Finished selecting"	126	1079
+2026-09-23T06:58:20	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Finished moving"	121	1184
+2026-09-23T06:58:26	Bash	python3 tools/ctl.py seq "Sweep activation=>Resolve all"	105	1230
+2026-09-23T06:58:31	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	145	2564
+2026-09-23T06:58:37	Bash	python3 tools/ctl.py seq "Air Strike: (=>Select a space" "*=>Quang Tri"	125	2222
+2026-09-23T06:58:41	Bash	python3 tools/ctl.py seq "Air Strike: (=>Remove insurgents"	125	891
+2026-09-23T06:58:45	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -15	132	2368
+2026-09-23T06:58:56	Bash	python3 tools/ctl.py advance	93	29628

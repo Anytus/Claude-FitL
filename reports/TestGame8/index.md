@@ -8,3 +8,6 @@
 - report-016-018.md: #31 - AAA
 - report-019-021.md: #50 - Uncle Ho
 - report-022-023.md: #112 - Colonel Chau
+- report-024-024.md: #112 - Colonel Chau
+- report-025-027.md: #110 - No Contact
+- report-028-028.md: #17 - Claymores

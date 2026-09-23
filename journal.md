@@ -52,3 +52,10 @@ Assault chosen before the SA: after "Assault at one LOC" the program asked the y
 **Plan.** Op Sweep Quang Tri-Thua Thien (no movement, activate its Underground VC) + Air Strike on Active VC/NVA in Quang Tri, Quang Tin-Quang Ngai, Tay Ninh, Kien Giang-An Xuyen (all already Active Opposition, so no shift).
 **Why.** Up to 6 VC Guerrillas removed at no Support cost, stripping the Quang Tri and Quang Tin Bases. Rejected: Air Lift 4-5 Troops into Quang Tin + Assault (NVA Troops absorb the first 3 hits, base likely out of reach).
 **Execution.**
+none. Air Strike rolled only 2 hits ("Die roll to determine the number of hits = 2"); AAA blocks Trail degrade below 2. Sweep in Highland with 1 US + 1 ARVN Troop activated the 1 Underground VC.
+**Result.** Quang Tri VC Base left alone with my 2 Underground Irregulars.
+
+## Turn 6 — card #17 Claymores — before save-028
+**Plan.** Op Patrol (no movement) + Advise: Irregulars in Quang Tri (remove lone VC Base) and Binh Dinh (VC Guerrilla + Base).
+**Why.** VC -2 Bases (VC has 2 in Available only). VC (2nd, Performed) will likely take Claymores shaded on Pleiku (US Base + Underground VC): accepted cost, the Base does not score. Rejected: Op-only Sweep (no Base kills).
+**Execution.**
