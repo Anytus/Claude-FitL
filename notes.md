@@ -70,3 +70,5 @@ card #49 Russian Arms: LimOp Train Saigon + transfer 3 Patronage — ARVN 52 to 
 card #40 PoWs: US ineligible — NVA Rally/Trail 4; VC shaded, 3 US Troops Available to Casualties
 card #13 Cobras: Train Saigon + transfer 3 Patronage; Advise Pleiku (2 NVA Troops); +6 Aid — ARVN 49 to 46
 card #32 Long Range Guns: US ineligible — VC Terror (Kien Phong, Tay Ninh), VC 35; Coup #126 drawn
+resumed TestGame7 from latest save (start of 5th Coup round #126) after container reclaim; the Coup round re-runs from its start
+5th Coup #126 Young Turks: pacified Kien Giang, Kien Phong; 6 casualties to Hue, Da Nang, Kontum, Can Tho, Ba Xuyen — +8 US; set up final-Coup pacification

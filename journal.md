@@ -238,3 +238,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN 49 must stay ≤50 to the Coup; an Op leaves the Event to the ARVN (Critical/Unshaded, a US capability that doesn't raise its score), whereas taking the Event would hand it an Op + Govern. ARVN → 46. Pleiku Advise breaks NVA Control (−1 NVA).
 **Execution.** Pleiku auto-selected (only Irregular candidate); declined a second Advise space (an ARVN Assault could add ARVN Control).
 **Result.** Patronage −3 (ARVN 49→46); Pleiku NVA Control broken (NVA 14→13); Aid +6.
+
+## Turn 32 — 5th Coup #126 Young Turks — Support phase — before save-181
+**Plan.** Pacify Kien Giang Neutral → Active Support and Kien Phong Passive Opposition → Passive Support (2 levels each).
+**Why.** +6 US, −2 VC, with 60 Resources above Econ; the US is last in margin (−15 vs VC 0) and this is the cheapest Support there is. Resumed at Coup start (container reclaimed); the round re-ran identically.
+**Execution.** Kien Phong carried a Terror marker: "Pacify=>Shift 2 levels" did not match; answered "Remove 1 terror marker and shift 2 levels".
+**Result.** As planned: US 35→43, VC 35→33; VC did not Agitate.
+
+## Turn 32b — 5th Coup #126 — Commitment — before save-181
+**Plan.** Place the 6 Troop casualties: Hue 2, Da Nang 1, Kontum 1, Can Tho 1, Ba Xuyen 1. Nothing from Available.
+**Why.** Final campaign next: the final Coup's Support phase pacifies up to 4 spaces with COIN Control + US Troops + Police, and these are such spaces below Active Support; they also give Train footholds. Available points kept for the final count.
+**Execution.** none
+**Result.** As planned.

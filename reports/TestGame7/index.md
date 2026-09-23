@@ -90,3 +90,5 @@
 - report-175-176.md: #13 - Cobras
 - report-177-179.md: #32 - Long Range Guns
 - report-180-180.md: #126 - Coup! Young Turks
+- report-181-181.md: #126 - Coup! Young Turks
+- report-182-184.md: #52 - RAND

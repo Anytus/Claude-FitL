@@ -202,3 +202,11 @@
 2026-09-23T04:35:00	Bash	python3 tools/ctl.py commit-turn "card #49 Russian Arms: LimOp Train Saigon + tr	1344	4918
 2026-09-23T04:35:07	Bash	python3 tools/ctl.py screen | grep -E "Patronage|Remove .*NVA|marker from|Contro	315	6451
 2026-09-23T04:35:23	Bash	grep -E "Patronage by|Aid by" transcript.log | tail -3; python3 - <<'EOF' p='jou	650	18498
+2026-09-23T04:35:34	Bash	for f in reports/TestGame7/report-17[4-9]*.md; do echo "== $f"; grep -E "Current	681	5675
+2026-09-23T04:52:59	Bash	python3 tools/ctl.py status 2>/dev/null | head -1; python3 tools/ctl.py screen 2	154	141
+2026-09-23T04:53:11	Bash	python3 tools/ctl.py resume TestGame7 2>&1 | tail -8; echo "resumed TestGame7 fr	379	1789
+2026-09-23T04:53:20	Bash	cat >> journal.md <<'EOF'  ## Turn 32 — 5th Coup #126 Young Turks — Support phas	813	3646
+2026-09-23T04:53:25	Bash	python3 tools/ctl.py seq "Pacify=>Remove 1 terror marker and shift 2 levels" 2>&	203	1510
+2026-09-23T04:53:32	Bash	python3 tools/ctl.py advance 2>&1 | grep -vE "^=+$|^-+$|Press Enter|^\s*$" | tai	171	6398
+2026-09-23T04:54:02	Bash	cat > /tmp/claude-0/-home-user-Claude-FitL/7d11ccf0-6d1b-54e8-9e9b-34277cc6635f/	1656	7406
+2026-09-23T04:54:11	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving pieces" 2>&1 | tail -3; py	504	16951
