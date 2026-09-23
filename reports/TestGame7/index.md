@@ -36,3 +36,6 @@
 - report-071-071.md: #125 - Coup! Nguyen Khanh
 - report-072-072.md: #100 - Rach Ba Rai
 - report-073-073.md: #100 - Rach Ba Rai
+- report-074-074.md: #100 - Rach Ba Rai
+- report-075-077.md: #90 - Walt Rostow
+- report-078-078.md: #46 - 559th Transport Grp

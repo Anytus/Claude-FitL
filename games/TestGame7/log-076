@@ -1,0 +1,202 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 2  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "\nNVA Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #90 - Walt Rostow (ARVN, VC, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #46 - 559th Transport Grp (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - H",
+      "color": null
+    },
+    {
+      "text": "Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Transport special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Quang Tri-Thua Thien as Transport destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 4 ARVN Troops from Hue to Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Quang Tri-Thua Thien",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 13 to 11",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFlip all Rangers underground",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no Active Rangers on the map",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Transport activity",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would add COIN Control? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in Quang Tri-Thua Thien",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 41",
+      "color": "Blue"
+    },
+    {
+      "text": "The assault inflicts 1 hit",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Troop from Quang Tri-Thua Thien to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Quang Tri-Thua Thien",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 42 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

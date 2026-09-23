@@ -497,4 +497,432 @@ Eligible      : US, ARVN, NVA
 Acted         : VC -> Event
 Passed        : none
 Ineligible    : none
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+There are no spaces eligible for Assault
+
+US Assault:
+====================================================
+1) Perform a Special Activity
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Da Nang
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Tin-Quang Ngai
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Quang Tin-Quang Ngai
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Phong
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Quang Tin-Quang Ngai, Kien Phong
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Da Nang
+3) Lift forces out of Kien Phong
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Giang-An Xuyen
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Quang Tin-Quang Ngai, Kien Phong, Kien Giang-An Xuyen
+
+Select one:
+====================================================
+1) Lift forces out of Da Nang
+2) Lift forces out of Kien Phong
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Quang Tin-Quang Ngai
+2) Kien Phong
+3) Kien Giang-An Xuyen
+4) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Da Nang to Quang Tin-Quang Ngai
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Da Nang
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 9): 9
+[35mMove 9 US Troops from Da Nang to Quang Tin-Quang Ngai[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 17 to 15[0m
+
+Air Lifting forces from Da Nang to Quang Tin-Quang Ngai
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Quang Tin-Quang Ngai, Kien Phong, Kien Giang-An Xuyen
+
+Select one:
+====================================================
+1) Lift forces out of Quang Tin-Quang Ngai
+2) Lift forces out of Kien Phong
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Da Nang
+2) Quang Tin-Quang Ngai
+3) Kien Giang-An Xuyen
+4) Do not move forces now
+----------------------------------------------------
+Selection: 3
+
+Air Lifting forces from Kien Phong to Kien Giang-An Xuyen
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Kien Phong
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 5): 4
+[35mMove 4 US Troops from Kien Phong to Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 13[0m
+
+Air Lifting forces from Kien Phong to Kien Giang-An Xuyen
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Kien Phong
+----------------------------------------------------
+Selection: 2
+Move how many US Underground Irregulars (0 - 2): 1
+[35mMove 1 US Underground Irregular from Kien Phong to Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 40[0m
+
+Air Lifting forces from Kien Phong to Kien Giang-An Xuyen
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Kien Phong
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Da Nang, Quang Tin-Quang Ngai, Kien Phong, Kien Giang-An Xuyen
+
+Select one:
+====================================================
+1) Lift forces out of Quang Tin-Quang Ngai
+2) Lift forces out of Kien Phong
+3) Lift forces out of Kien Giang-An Xuyen
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 4
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Kien Giang-An Xuyen
+2) Quang Tin-Quang Ngai
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Quang Tin-Quang Ngai
+----------------------------------------------------
+The assault inflicts 9 hits
+[35mRemove 6 NVA Troops from Quang Tin-Quang Ngai to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 40 to 42[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Quang Tin-Quang Ngai
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space:  Kien Giang-An Xuyen
+
+US assaults in Kien Giang-An Xuyen
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 3 NVA Troops from Kien Giang-An Xuyen to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Quang Tin-Quang Ngai, Kien Giang-An Xuyen
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 46
+
+ARVN Bot Pivotal Event die roll: 2  [Failure] (2 cards in leader box)
+
+NVA Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #90 - Walt Rostow (ARVN, VC, NVA, US)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #46 - 559th Transport Grp (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - H
+Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]
+
+ARVN chooses Transport special activity
+====================================================
+
+ARVN selects Quang Tri-Thua Thien as Transport destination
+----------------------------------------------------
+[35mMove 4 ARVN Troops from Hue to Quang Tri-Thua Thien[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 13 to 11[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Flip all Rangers underground
+----------------------------------------------------
+There are no Active Rangers on the map
+
+----------------------------------------------------
+End of ARVN Transport activity
+Trung check: ARVN Assault would add COIN Control? [Yes]
+
+ARVN chooses Assault operation
+====================================================
+
+ARVN assaults in Quang Tri-Thua Thien
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 41[0m
+The assault inflicts 1 hit
+
+[35mRemove 1 NVA Troop from Quang Tri-Thua Thien to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 44[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #90 - Walt Rostow (ARVN, VC, NVA, US)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #46 - 559th Transport Grp (NVA, ARVN, VC, US)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+NVA executes the Shaded Event: Walt Rostow
+----------------------------------------------------
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Quang Tri-Thua Thien[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh[0m
+[35mPlace 1 NVA Underground Guerrilla from AVAILABLE into Kien Phong[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Binh Dinh[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Ba Xuyen[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Phu Bon-Phu Yen[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Quang Nam[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Pleiku-Darlac[0m
+
+ARVN Troops Redeploy (not to COIN bases)
+----------------------------------------------------
+[35mMove 1 ARVN Troop from Quang Tri-Thua Thien to Hue[0m
+[35mMove 1 ARVN Troop from Quang Tri-Thua Thien to Saigon[0m
+[35mMove 1 ARVN Troop from Pleiku-Darlac to Saigon[0m
+[35mMove 1 ARVN Troop from Pleiku-Darlac to Saigon[0m
+[35mMove 1 ARVN Troop from Quang Tri-Thua Thien to Saigon[0m
+[35mMove 1 ARVN Troop from Quang Tri-Thua Thien to Saigon[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Ba Xuyen[0m
+[33mRemove NVA Control marker from Quang Nam[0m
+[33mFlip control marker in Quang Tri-Thua Thien to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 41[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 11 to 12[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 95
+
+Pivotal Events can be played
+----------------------------------------------------
+Eligible: US
+
+Does US wish to play their pivotal?
+====================================================
+1) Yes
+2) No
+3) Show Coup status
+----------------------------------------------------
+Selection: 

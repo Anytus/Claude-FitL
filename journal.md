@@ -100,3 +100,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** It would cost this turn's US action (Air Lift + Assault on QTQN/Kien Giang, ~−4 NVA) for −2 NVA Bases, and its 3-Casualties-to-Available would be wasted (box empty). Kept for a later NVA surge; its precondition (Support+Available >40) should stay met.
 **Execution.** none
 **Result.** Declined; #100 Rach Ba Rai proceeds.
+
+## Turn 13 — card #100 Rach Ba Rai — before save-074
+**Plan.** Op + SA: Air Lift first (Da Nang 9 Troops → QTQN; Kien Phong 4 Troops → Kien Giang), then Assault QTQN (9 hits vs 6 NVA Troops) and Kien Giang (4 hits vs 3 NVA Troops).
+**Why.** Breaks NVA Control in both pop-2 spaces (NVA 17→13) and strips 9 NVA Troops, giving margin under 18 for this campaign; COIN Control in QTQN sets up later Train/Pacify there. Underground Guerrillas shield the VC Bases, so no Base kills expected.
+**Execution.** Added: Air Lifted 1 Underground Irregular Kien Phong→Kien Giang (future Advise vs its NVA Guerrilla). Kien Giang Assault auto-selected as the only remaining space.
+**Result.** As planned: 9 NVA Troops removed, NVA Control broken in QTQN and Kien Giang; NVA 17→13; COIN Control in both.

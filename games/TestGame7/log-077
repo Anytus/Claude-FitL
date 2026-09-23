@@ -1,0 +1,158 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #90 - Walt Rostow (ARVN, VC, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #46 - 559th Transport Grp (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, US",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: Walt Rostow",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Kien Hoa-Vinh Binh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Underground Guerrilla from AVAILABLE into Kien Phong",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Ba Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Phu Bon-Phu Yen",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Quang Nam",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN Troops Redeploy (not to COIN bases)",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from Quang Tri-Thua Thien to Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Quang Tri-Thua Thien to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Pleiku-Darlac to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Pleiku-Darlac to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Quang Tri-Thua Thien to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Quang Tri-Thua Thien to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove NVA Control marker from Quang Nam",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip control marker in Quang Tri-Thua Thien to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 44 to 41",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 11 to 12",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}
