@@ -16,3 +16,4 @@ card #17 Claymores: Patrol + Advise killed VC Bases Quang Tri, Binh Dinh — VC 
 card #101 Booby Traps: Pass — keep eligible for Fulbright; #93 Fulbright unshaded 4 Troops to Available — +4; #90 Rostow: ineligible
 card #9 Psychedelic Cookie unshaded: 3 OOP Troops to Available — +3; #28 S&D: ineligible
 card #70 ROKs: Pass — keep first eligible for Attleboro
+card #23 Attleboro unshaded: Tay Ninh cleared of 6 VC + tunneled Base — ARVN follow-up assault; #22 Da Nang: ineligible

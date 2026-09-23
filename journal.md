@@ -94,3 +94,10 @@ none.
 **Plan.** Event unshaded on Tay Ninh: Air Lift Saigon 2, Kontum 1, Kien Hoa 1 Troops in, Sweep, Assault the 6 Active VC and (if hits reach it) the Tunneled Base.
 **Why.** Tay Ninh is already Active Opposition, so Search and Destroy costs nothing there; kills up to 4+ VC and denies VC (2nd, Performed/Shaded) the die-roll of Saigon Troops to Casualties. Troops can return at the Coup Commitment.
 **Execution.**
+none. Air Lift took Saigon 2, Kontum 1, Kien Hoa 1; Sweep offered Pleiku as a source (declined). Booby Traps removed 1 Troop to Casualties; US Assault 3 hits in Jungle (1 per Troop); program then asked "Follow up with ARVN assault in Tay Ninh? (y/n)" — first time seen; y gave 4 more hits, killing the Tunneled Base (+6 Aid).
+**Result.** 6 VC Guerrillas and the Tay Ninh Base removed (VC 29→28). Then NVA marched 20+ Troops south: NVA 17 points, 1 short of its line; ARVN Govern took Hue and An Loc Support.
+
+## Turn 12 — card #64 Honolulu Conference — before save-060
+**Plan.** LimOp Assault Tay Ninh (3 US Troops, Jungle: 3 hits on NVA Troops) + ARVN follow-up assault if offered.
+**Why.** NVA is at 17 with a Coup possible on any draw; 3+ NVA Troops off flips Tay Ninh (pop 2) to COIN Control, NVA 17→15. Tay Ninh is already Active Opposition, so Search and Destroy costs nothing. Honolulu Event gives no pacification (ARVN Res 3).
+**Execution.**

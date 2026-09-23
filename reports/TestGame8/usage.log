@@ -50,3 +50,15 @@
 2026-09-23T07:01:30	Bash	python3 tools/ctl.py send 3 && python3 tools/ctl.py advance	134	43844
 2026-09-23T07:01:39	Bash	python3 tools/map.py "Phu Bon-Phu Yen"	92	436
 2026-09-23T07:02:02	Bash	cat >> journal.md <<'EOF' none. **Result.** +3 (50). NVA marched 4 Troops into Q	968	20157
+2026-09-23T07:02:30	Bash	cat >> journal.md <<'EOF' none. **Result.** NVA LimOp Rally in Central Laos, Tra	860	6397
+2026-09-23T07:02:35	Bash	python3 tools/ctl.py seq "Select one=>Select an Air Lift" "Air Lift in which spa	155	1492
+2026-09-23T07:02:42	Bash	python3 tools/ctl.py seq "Select one=>Select an Air Lift" "Air Lift in which spa	295	3172
+2026-09-23T07:02:48	Bash	python3 tools/ctl.py seq "Lift forces to which space=>Tay Ninh" "Choose one=>Air	190	2198
+2026-09-23T07:02:55	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Lift forces 	224	2826
+2026-09-23T07:03:07	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Kien Hoa" "Lift forces 	227	2886
+2026-09-23T07:03:11	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift"; python3 tools/ctl	162	2007
+2026-09-23T07:03:16	Bash	python3 tools/map.py "Tay Ninh" && python3 tools/ctl.py seq "US Sweep Troops int	169	1389
+2026-09-23T07:03:21	Bash	python3 tools/ctl.py seq "Move troops to Tay Ninh from=>Finished moving"; python	166	1751
+2026-09-23T07:03:25	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Finished moving"; python3 tools/	169	2848
+2026-09-23T07:03:30	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -25	130	9376
+2026-09-23T07:03:48	Bash	python3 tools/ctl.py advance	93	42949

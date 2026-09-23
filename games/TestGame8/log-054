@@ -1,0 +1,174 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #22 - Da Nang (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: Operation Attleboro",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nUS performs free Air Lift into Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Move 2 US Troops from Saigon to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Kontum to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Kien Hoa-Vinh Binh to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS performs free Sweep into Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNo guerrillas were activated in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "\nResolving #101 Booby Traps (shaded) in Tay Ninh",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3  [Success]",
+      "color": null
+    },
+    {
+      "text": "Remove 1 US Troop from Tay Ninh to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS performs free Assault in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS assaults in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 3 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 3 VC Active Guerrillas from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS adds a free follow up ARVN assault in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 4 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 3 VC Active Guerrillas from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 VC Tunneled Base from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nEach insurgent base removed adds +6 Aid",
+      "color": null
+    },
+    {
+      "text": "Increase US Aid by +6 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 29 to 28",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

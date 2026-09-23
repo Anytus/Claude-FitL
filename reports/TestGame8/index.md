@@ -23,3 +23,6 @@
 - report-049-050.md: #70 - ROKs
 - report-051-052.md: #70 - ROKs
 - report-053-053.md: #23 - Operation Attleboro
+- report-054-055.md: #23 - Operation Attleboro
+- report-056-058.md: #22 - Da Nang
+- report-059-060.md: #64 - Honolulu Conference

@@ -2919,4 +2919,590 @@ Eligible      : US, VC
 Acted         : none
 Passed        : none
 Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Operation Attleboro
+----------------------------------------------------
+
+Execute event in which space:  Tay Ninh
+
+US performs free Air Lift into Tay Ninh
+====================================================
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Tay Ninh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Tay Ninh, Saigon
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kontum
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Tay Ninh, Saigon, Kontum
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Lift forces out of Kontum
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Hoa-Vinh Binh
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Tay Ninh, Saigon, Kontum, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Kontum
+3) Lift forces out of Kien Hoa-Vinh Binh
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Tay Ninh
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Saigon to Tay Ninh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 2
+[35mMove 2 US Troops from Saigon to Tay Ninh[0m
+
+Air Lifting forces from Saigon to Tay Ninh
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Tay Ninh, Saigon, Kontum, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Kontum
+3) Lift forces out of Kien Hoa-Vinh Binh
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Tay Ninh
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kontum to Tay Ninh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kontum
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Kontum to Tay Ninh[0m
+
+Air Lifting forces from Kontum to Tay Ninh
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Tay Ninh, Saigon, Kontum, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Kien Hoa-Vinh Binh
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Lift forces to which space:
+====================================================
+1) Tay Ninh
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Tay Ninh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Kien Hoa-Vinh Binh to Tay Ninh[0m
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Tay Ninh
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Tay Ninh, Saigon, Kontum, Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+US performs free Sweep into Tay Ninh
+====================================================
+
+US Sweep Troops into:
+====================================================
+1) Tay Ninh
+2) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Tay Ninh from:
+====================================================
+1) Pleiku-Darlac
+2) Finished moving troops to Tay Ninh
+----------------------------------------------------
+Selection: 2
+
+US Sweep Troops into:
+====================================================
+1) Tay Ninh
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+No guerrillas were activated in Tay Ninh
+[31m
+Resolving #101 Booby Traps (shaded) in Tay Ninh[0m
+----------------------------------------------------
+Die roll: 3  [Success]
+[35mRemove 1 US Troop from Tay Ninh to CASUALTIES[0m
+
+US performs free Assault in Tay Ninh
+====================================================
+
+US assaults in Tay Ninh
+----------------------------------------------------
+The assault inflicts 3 hits
+[35mRemove 3 VC Active Guerrillas from Tay Ninh to AVAILABLE[0m
+
+Follow up with ARVN assault in Tay Ninh? (y/n) y
+
+US adds a free follow up ARVN assault in Tay Ninh
+
+ARVN assaults in Tay Ninh
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 3 VC Active Guerrillas from Tay Ninh to AVAILABLE[0m
+[35mRemove 1 VC Tunneled Base from Tay Ninh to AVAILABLE[0m
+
+Each insurgent base removed adds +6 Aid
+[34mIncrease US Aid by +6 to 21[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 29 to 28[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #22 - Da Nang (US, VC, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : VC
+Acted         : US -> Event
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the US cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 64
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #22 - Da Nang (US, VC, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+Eligible      : VC, NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+
+VC executes the Shaded Event: Da Nang
+----------------------------------------------------
+[33mRemove Active Support marker from Da Nang[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 50 to 48[0m
+
+[31m
+Momentum: '#22 Da Nang' is now in play[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #22 - Da Nang (US, VC, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+Eligible      : NVA, ARVN
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (2): 7 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - RR
+Trung check: Underground NVA Guerrillas in space with Support? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Kontum -- Dak To as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Central Laos to LOC Kontum -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Kien Phong as March destination
+----------------------------------------------------
+[35mMove 2 NVA Troops from Central Laos to Kien Phong[0m
+[35mMove 3 NVA Underground Guerrillas from Central Laos to Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Phong to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 40[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 6 to 8[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Kien Giang-An Xuyen as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from North Vietnam to Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 8 to 10[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 2 [Success!]
+
+NVA selects Quang Tin-Quang Ngai as March destination
+----------------------------------------------------
+[35mMove 5 NVA Troops from North Vietnam to Quang Tin-Quang Ngai[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 10 to 12[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 2 [Success!]
+
+NVA selects Binh Dinh as March destination
+----------------------------------------------------
+[35mMove 8 NVA Troops from Central Laos to Binh Dinh[0m
+[35mMove 1 NVA Underground Guerrilla from Central Laos to Binh Dinh[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Binh Dinh to ACTIVE[0m
+
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Binh Dinh to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 40 to 38[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 12 to 14[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Tay Ninh as March destination
+----------------------------------------------------
+[35mMove 11 NVA Troops from North Vietnam to Tay Ninh[0m
+[35mMove 1 NVA Troop from Central Laos to Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Tay Ninh to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 36[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Quang Nam as March destination
+----------------------------------------------------
+[35mMove 3 NVA Troops from Central Laos to Quang Nam[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Can Ambush in March destinations? [Yes]
+
+NVA chooses Ambush special activity
+====================================================
+
+NVA Ambushes in LOC Kontum -- Dak To, targeting Kontum
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Kontum -- Dak To to ACTIVE[0m
+[35mRemove 1 ARVN Police from Kontum to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Kontum[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 36 to 35[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Ambushes in Kien Phong
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Kien Phong to ACTIVE[0m
+[35mRemove 1 ARVN Active Ranger from Kien Phong to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US cylinder to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 83
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+On Deck card  : #83 - Election (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+Eligible      : ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - J
+Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (8): 8 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Kontum for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 3[0m
+[35mPlace 1 ARVN Underground Ranger from AVAILABLE into Kontum[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kontum[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 35 to 36[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Hue (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 19[0m
+[34mIncrease Patronage by +2 to 23[0m
+[33mRemove Passive Support marker from Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 48 to 46[0m
+[34mMove the 'COIN Control + Patronage' marker from 36 to 38[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in An Loc (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 18[0m
+[34mIncrease Patronage by +1 to 24[0m
+[33mRemove Passive Support marker from An Loc[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 46 to 45[0m
+[34mMove the 'COIN Control + Patronage' marker from 38 to 39[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[31mYoung Turks leader effect triggers[0m
+[34mIncrease Patronage by +2 to 26[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 41[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #64 - Honolulu Conference (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed), VC -> (Performed)
+On Deck card  : #83 - Election (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+Eligible      : US
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, VC
 (perform or ?): 
