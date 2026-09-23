@@ -98,3 +98,6 @@
 - report-196-196.md: #32 - Long Range Guns
 - report-197-199.md: #49 - Russian Arms
 - report-200-202.md: #103 - Kent State
+- report-203-203.md: #103 - Kent State
+- report-204-206.md: #119 - My Lai
+- report-207-208.md: #40 - PoWs

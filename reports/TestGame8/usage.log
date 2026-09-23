@@ -185,3 +185,9 @@
 2026-09-23T07:30:25	Bash	python3 tools/ctl.py seq "Training in Kien Hoa=>Place Irregulars" "how many=>2" 	248	3441
 2026-09-23T07:30:30	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels"; python3 tools/ctl.py screen |	140	7787
 2026-09-23T07:30:53	Bash	echo "none. **Result.** VC 37→33 (Kien Hoa Neutral), ARVN picked up Kien Hoa Con	195	28161
+2026-09-23T07:31:25	Bash	python3 tools/ctl.py commit-turn "card #32 Long Range Guns: Air Lift 3 Troops + 	900	11014
+2026-09-23T07:31:29	Bash	python3 tools/ctl.py send ""; python3 tools/ctl.py screen | tail -12	128	1338
+2026-09-23T07:31:37	Bash	python3 tools/ctl.py seq "Choose operation=>Patrol" "US Moving Patrol cubes=>Mov	246	3744
+2026-09-23T07:31:42	Bash	python3 tools/ctl.py seq "Select destination=>Saigon" "US Moving Patrol cubes=>F	199	3566
+2026-09-23T07:31:47	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault"; python3 tools/ctl.py scre	144	9342
+2026-09-23T07:32:01	Bash	echo "Kent State's free LimOp prompted \"Press Enter\" then the operation menu; 	379	25371

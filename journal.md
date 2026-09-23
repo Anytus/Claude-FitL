@@ -321,3 +321,10 @@ none.
 **Execution.**
 none.
 **Result.** VC 37→33 (Kien Hoa Neutral), ARVN picked up Kien Hoa Control.
+
+## Turn 35 — card #103 Kent State — before save-202
+**Plan.** Event unshaded: 1 US Casualty to Available, free LimOp Patrol moving 3 US Troops Kien Hoa → Saigon, US stays Eligible.
+**Why.** NVA 22 (Saigon pop 6 under NVA Control) with the final Coup possible any draw. M-48 shaded should remove 2 of the moved Troops, leaving Saigon 4 vs 4: NVA loses Control (-6 → 16) and ARVN does not gain it (ARVN 47 stays under 50). Rejected: Sweep/Train into Saigon (COIN Control would put ARVN at 53).
+**Execution.**
+Kent State's free LimOp prompted "Press Enter" then the operation menu; Patrol "Assault at one LOC" bug offered again, declined. M-48 removed 2 Troops as expected.
+**Result.** NVA 22→16, ARVN 45, US 53; Saigon uncontrolled (4 vs 4); US stays Eligible.
