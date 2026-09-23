@@ -14,3 +14,4 @@ card #31 AAA: Patrol LoC Kontum-Dak To + Advise Pleiku/Binh Dinh, +6 Aid — str
 card #112 Colonel Chau: Sweep Quang Tri + Air Strike 2 VC there — expose VC Base; #110 No Contact: ineligible
 card #17 Claymores: Patrol + Advise killed VC Bases Quang Tri, Binh Dinh — VC Bases scarce; #79 Lodge: ineligible
 card #101 Booby Traps: Pass — keep eligible for Fulbright; #93 Fulbright unshaded 4 Troops to Available — +4; #90 Rostow: ineligible
+card #9 Psychedelic Cookie unshaded: 3 OOP Troops to Available — +3; #28 S&D: ineligible

@@ -44,3 +44,8 @@
 2026-09-23T07:00:26	Bash	cat >> journal.md <<'EOF' none. **Result.** ARVN +3 (6). US now first Eligible o	608	3682
 2026-09-23T07:00:34	Bash	python3 tools/ctl.py seq "Select space to remove US pieces=>Da Nang" "Remove how	298	3612
 2026-09-23T07:00:47	Bash	python3 tools/ctl.py seq "How many US Troops=>1" && python3 tools/ctl.py advance	154	44628
+2026-09-23T07:01:07	Bash	cat >> journal.md <<'EOF' none. **Result.** +4 (47). Then ARVN Assault cleared N	886	6049
+2026-09-23T07:01:10	Bash	python3 tools/ctl.py seq "Choose one=>Move US Troops from Out of Play"	123	1384
+2026-09-23T07:01:14	Bash	python3 tools/ctl.py seq "Choose one=>Move troops from Out of play to Available"	172	1187
+2026-09-23T07:01:30	Bash	python3 tools/ctl.py send 3 && python3 tools/ctl.py advance	134	43844
+2026-09-23T07:01:39	Bash	python3 tools/map.py "Phu Bon-Phu Yen"	92	436

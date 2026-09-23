@@ -80,3 +80,10 @@ none.
 **Plan.** Event unshaded: 3 US Troops Out of Play → Available.
 **Why.** +3 US score, permanent until Troops are deployed, and denies NVA (2nd, Performed/Shaded) the shaded 3-Troops-out-of-play. Op + SA would hand NVA that shaded.
 **Execution.**
+none.
+**Result.** +3 (50). NVA marched 4 Troops into Quang Tri (NVA Control); VC played Search and Destroy shaded (US/ARVN Assault Provinces shift toward Opposition).
+
+## Turn 10 — card #70 ROKs — before save-050
+**Plan.** Pass.
+**Why.** ROKs unshaded would Assault 4 Passive-Support Provinces, and Search and Destroy shaded shifts each toward Opposition (about -5). Passing keeps US first Eligible on #23 Operation Attleboro, whose unshaded (Air Lift, Sweep, Assault Tay Ninh ignoring the Tunnel) kills the tunneled VC Base and 6 Active VC and denies VC/NVA the shaded that hits my Saigon Troops.
+**Execution.**

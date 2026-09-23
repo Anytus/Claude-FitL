@@ -2554,4 +2554,291 @@ Eligible      : US, NVA
 Acted         : none
 Passed        : none
 Ineligible    : VC, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Psychedelic Cookie
+----------------------------------------------------
+
+Choose one:
+====================================================
+1) Move US Troops from Out of Play to Available or South Vietname
+2) Move US Troops from the map to Available
+----------------------------------------------------
+Selection: 1
+
+0 of 3 troops moved from Out of play
+
+Choose one:
+====================================================
+1) Move troops from Out of play to Available
+2) Move troops form Out of play to South Vietnam
+3) Finished moving troops from Out of play
+----------------------------------------------------
+Selection: 1
+Move how many troops to Available (0 - 3): 3
+[35mMove 3 US Troops from OUT OF PLAY to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 47 to 50[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #9 - Psychedelic Cookie (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+Eligible      : NVA
+Acted         : US -> Event
+Passed        : none
+Ineligible    : VC, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - TT
+Trung check: Underground NVA Guerrillas in 2 or more spaces with Support? [No]
+Trung check: 3d6 <= Available NVA Troops (9): 8 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in North Vietnam
+----------------------------------------------------
+[35mPlace 4 NVA Troops from AVAILABLE into North Vietnam[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in Central Laos
+----------------------------------------------------
+[35mPlace 5 NVA Troops from AVAILABLE into Central Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Saigon -- Can Tho as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Kien Phong to LOC Saigon -- Can Tho[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Quang Tri-Thua Thien as March destination
+----------------------------------------------------
+[35mMove 4 NVA Troops from Central Laos to Quang Tri-Thua Thien[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Quang Tri-Thua Thien to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 40 to 38[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 4 to 6[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 70
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+Eligible      : VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: Search and Destroy
+----------------------------------------------------
+[31m
+Capability: '#28 Search And Destroy (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+Eligible      : ARVN
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 6[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 23
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : ARVN, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (6): 9 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - LL
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+
+ARVN chooses Sweep operation
+====================================================
+
+ARVN selects Tay Ninh as Sweep destination
+----------------------------------------------------
+[35mMove 8 ARVN Troops from Saigon to Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 38 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 3 [Failure]
+
+Activating guerrillas in Tay Ninh
+----------------------------------------------------
+[36mFlip 3 VC Underground Guerrillas in Tay Ninh to ACTIVE[0m
+[31m
+Resolving #101 Booby Traps (shaded) in Tay Ninh[0m
+----------------------------------------------------
+Die roll: 4  [Failure]
+No troop is removed
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN pays for 1 sweep destination
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 3[0m
+
+ARVN chooses Raid special activity
+====================================================
+
+ARVN conducts raid in Southern Laos
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Southern Laos to ACTIVE[0m
+[35mRemove 2 NVA Troops from Southern Laos to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN conducts raid in Kien Phong
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Kien Phong to ACTIVE[0m
+[35mRemove 1 VC Underground Guerrilla from Kien Phong to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 40 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Raid activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : US, NVA
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : VC
 (perform or ?): 

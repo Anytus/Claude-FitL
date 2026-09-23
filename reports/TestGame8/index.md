@@ -18,3 +18,6 @@
 - report-037-039.md: #93 - Senator Fulbright
 - report-040-042.md: #90 - Walt Rostow
 - report-043-043.md: #9 - Psychedelic Cookie
+- report-044-045.md: #9 - Psychedelic Cookie
+- report-046-048.md: #28 - Search and Destroy
+- report-049-050.md: #70 - ROKs
