@@ -10674,4 +10674,299 @@ Eligible      : US, VC
 Acted         : none
 Passed        : none
 Ineligible    : ARVN, NVA
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Binh Dinh
+
+US selects Binh Dinh for Training
+
+Training in Binh Dinh:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Binh Dinh
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Lift special activity
+====================================================
+May only choose 2 spaces in Monsoon
+
+0 spaces of 2 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+1 space of 2 selected for Air Lift
+----------------------------------------------------
+Saigon
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Pleiku-Darlac
+
+2 spaces of 2 selected for Air Lift
+----------------------------------------------------
+Saigon, Pleiku-Darlac
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Pleiku-Darlac
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Pleiku-Darlac
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Saigon to Pleiku-Darlac
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 1
+[35mMove 1 US Troop from Saigon to Pleiku-Darlac[0m
+
+Air Lifting forces from Saigon to Pleiku-Darlac
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 4
+
+2 spaces of 2 selected for Air Lift
+----------------------------------------------------
+Saigon, Pleiku-Darlac
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Pleiku-Darlac
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 3
+
+1 space selected for Training
+----------------------------------------------------
+Binh Dinh
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Binh Dinh
+
+Pacifying in Binh Dinh
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Binh Dinh
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Binh Dinh
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 26[0m
+[33mPlace Active Support marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 47 to 51[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #13 - Cobras (US, ARVN, NVA, VC)
+                ARVN -> (Critical, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : VC
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: Cobras
+----------------------------------------------------
+[31m
+Capability: '#13 Cobras (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 8
+
+
+>>> 5th Coup Round <<<
+====================================================
+Current card: #125 - Coup! Nguyen Khanh
+(coup or ?): coup
+Coup! Card: #125 - Coup! Nguyen Khanh
+----------------------------------------------------
+[31m
+Place #125 - Coup! Nguyen Khanh in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Cam Ranh -- Da Lat[0m
+[33mAdd 1 sabotage marker to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 14[0m
+[34mIncrease ARVN resources by +44 to 70[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+There are no pieces in the Casualties Box
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+
+US Pacification (4 spaces remaining, 70 ARVN resources, Econ is 14)
+Choose space to pacify:
+====================================================
+1) An Loc
+2) Can Tho
+3) Da Nang
+4) Qui Nhon
+5) Pleiku-Darlac
+6) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

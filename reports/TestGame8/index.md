@@ -83,3 +83,5 @@
 - report-169-170.md: #30 - USS New Jersey
 - report-171-173.md: #41 - Bombing Pause
 - report-174-174.md: #13 - Cobras
+- report-175-176.md: #13 - Cobras
+- report-177-177.md: #125 - Coup! Nguyen Khanh

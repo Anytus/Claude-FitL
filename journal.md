@@ -272,3 +272,10 @@ Binh Dinh auto-selected again, so "Binh Dinh" was typed once at the Aid y/n (re-
 **Execution.**
 Kien Giang auto-selected: my "Kien Giang" hit the piece prompt, rejected verbatim "'Kien Giang' is not valid. Must be one of: 0, 1, 2, or abort"; answered 0 (so 2 VC). Only one Advise space was available, then finished. (VC was Ineligible this card; NVA was second.)
 **Result.** Hue Active Support (+4, US 47); 2 VC Guerrillas off Kien Giang; Aid 30.
+
+## Turn 30 — card #13 Cobras — before save-174
+**Plan.** Op Train Binh Dinh (no placement) + Pacify 2 levels (Neutral → Active); Air Lift (Monsoon, 2 spaces) 1 US Troop Saigon → Pleiku-Darlac.
+**Why.** Coup on deck: +4 now, and Pleiku (Police, COIN, Neutral) joins An Loc, Da Nang, Qui Nhon/Can Tho as Coup pacification spaces. No control change, so ARVN stays 48 at the Victory check; VC (2nd) can reach at most 35 with a LimOp.
+**Execution.**
+none.
+**Result.** Binh Dinh Active (+4, US 51), 1 Troop in Pleiku.
