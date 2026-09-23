@@ -22,3 +22,6 @@
 - report-045-045.md: #105 - Rural Pressure
 - report-046-048.md: #78 - General Lansdale
 - report-049-050.md: #38 - McNamara Line
+- report-051-051.md: #38 - McNamara Line
+- report-052-054.md: #24 - Operation Starlite
+- report-055-055.md: #69 - MACV

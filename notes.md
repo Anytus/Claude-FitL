@@ -24,3 +24,4 @@ card #97 Brinks Hotel: LimOp Assault Saigon, 3 VC Guerrillas removed — protect
 card #85 USAID: US ineligible — ARVN shaded Event; NVA Rally, Trail 4, Infiltrate 20 Troops
 card #105 Rural Pressure: Assault Kien Hoa, Kien Giang; Air Lift QTTT Troop to Hue — last Assault before Lansdale; Hue Coup-pacifiable
 card #78 General Lansdale: US ineligible — ARVN shaded, no US Assault until Coup
+card #38 McNamara Line: LimOp Train+Pacify Kien Giang to Passive Support — +2 US, ended card before VC

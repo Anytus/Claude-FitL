@@ -59,3 +59,5 @@
 2026-09-23T03:20:59	Bash	python3 tools/ctl.py seq "Move how many US Troops=>1"	120	1443
 2026-09-23T03:21:03	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Finished wit	203	7482
 2026-09-23T03:21:14	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	713	21790
+2026-09-23T03:21:45	Bash	python3 tools/ctl.py commit-turn "card #105 Rural Pressure: Assault Kien Hoa, Ki	1219	10518
+2026-09-23T03:21:55	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	354	21281

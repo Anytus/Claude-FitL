@@ -58,3 +58,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN is Critical on Lansdale shaded next card (no US Assault until the Coup), so Assault now. Takes COIN Control in Kien Giang and keeps Kien Hoa clean for the Coup Support phase. Pacifying now is capped at 1 level (ARVN Resources 20, Econ 15); the +6 Aid feeds the Coup pacification budget.
 **Execution.** seq stopped at "Choose special activity=>Advise": "no menu entry starts with 'Advise'" (menu offered Air Lift, Air Strike only). Mechanic: Advise is not offered with Assault (only Train/Patrol, inferred). Deviation: Air Lifted the QTTT Troop to Hue instead, so Hue qualifies for Coup pacification (COIN, Police, US Troop); no Aid.
 **Result.** VC Guerrilla out of Kien Hoa; 1 NVA Troop out of Kien Giang (COIN Control); 1 US Troop now in Hue.
+
+## Turn 8 — card #38 McNamara Line — before save-051
+**Plan.** Limited Op Train in Kien Giang-An Xuyen (no placement), Pacify Neutral → Passive Support (1 level; only 5 Resources above Econ).
+**Why.** +2 US; Kien Giang has no Police so the Coup Support phase can't reach it. Acting also ends the card before the VC. Pass-for-Starlite weighed: the Event's best target (QTQN) would hand the NVA Control there; not worth the VC action. Event (ARVN -12) rejected: cuts the Coup pacify budget.
+**Execution.** none
+**Result.** As planned: Kien Giang Passive Support (US 38→40), ARVN Resources 17.
