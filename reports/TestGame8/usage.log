@@ -167,3 +167,6 @@
 2026-09-23T07:25:53	Bash	python3 tools/ctl.py commit-turn "card #30 New Jersey: Train+Pacify Hue Active (	1349	9961
 2026-09-23T07:25:59	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting" "final Train action=>	207	8022
 2026-09-23T07:26:10	Bash	echo "none. **Result.** Binh Dinh Active (+4, US 51), 1 Troop in Pleiku." >> jou	190	13675
+2026-09-23T07:26:26	Bash	python3 tools/ctl.py commit-turn "card #13 Cobras: Train+Pacify Binh Dinh Active	819	4880
+2026-09-23T07:26:36	Bash	echo "none. **Result.** +6 as planned." >> journal.md && python3 tools/ctl.py ad	153	9325
+2026-09-23T07:26:58	Bash	cat >> journal.md <<'EOF'  ## Coup 5 — Commitment **Plan.** Move 3 Troops Availa	681	29447

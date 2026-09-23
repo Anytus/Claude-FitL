@@ -279,3 +279,15 @@ Kien Giang auto-selected: my "Kien Giang" hit the piece prompt, rejected verbati
 **Execution.**
 none.
 **Result.** Binh Dinh Active (+4, US 51), 1 Troop in Pleiku.
+
+## Coup 5 (#125 Nguyen Khanh) — Support phase
+**Plan.** Pacify An Loc 2, Pleiku-Darlac 2, Da Nang 1, Qui Nhon 1 levels (18 of 56 spendable Res).
+**Why.** +6 US; only four spaces allowed, the pop-1 Neutral ones give 2 each.
+**Execution.**
+none.
+**Result.** +6 as planned.
+
+## Coup 5 — Commitment
+**Plan.** Move 3 Troops Available → Saigon.
+**Why.** VC 39 after Agitation must reach ≤35 before the final Coup's Victory check; its Bases sit in Binh Tuy and Kien Hoa (both now Active Opposition, so Air Strikes cost no shift), adjacent to Saigon. A 4-Troop Saigon stack feeds Sweep + Air Strike. Cost 3 US points (57 → 54).
+**Execution.**

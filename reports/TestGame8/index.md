@@ -85,3 +85,5 @@
 - report-174-174.md: #13 - Cobras
 - report-175-176.md: #13 - Cobras
 - report-177-177.md: #125 - Coup! Nguyen Khanh
+- report-178-178.md: #125 - Coup! Nguyen Khanh
+- report-179-179.md: #8 - Arc Light

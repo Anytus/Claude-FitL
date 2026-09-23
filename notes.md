@@ -38,3 +38,4 @@ Linebacker II pivotal (replaced #111 Agent Orange): NVA -2 Bases, deny VC Agent 
 card #4 Top Gun: Train+Pacify Da Nang 2 levels, Advise Kien Giang/Binh Dinh — VC 37→36; #113 Ruff Puff: ineligible
 card #30 New Jersey: Train+Pacify Hue Active (+4), Advise Kien Giang VC; #41 Bombing Pause: ineligible
 card #13 Cobras: Train+Pacify Binh Dinh Active (+4), Air Lift Troop to Pleiku — prep Coup 5
+Coup 5: pacified An Loc, Pleiku, Da Nang, Qui Nhon (+6); 3 Troops to Saigon for VC-base strikes
