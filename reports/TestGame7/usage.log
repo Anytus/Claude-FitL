@@ -1,0 +1,15 @@
+2026-09-23T02:09:49	Bash	git status | head -5 && ls && ls games 2>/dev/null; wc -l RULES_LEARNED.md CURRE	193	482
+2026-09-23T02:09:51	Bash	cat RULES_LEARNED.md	81	15795
+2026-09-23T02:09:52	Bash	cat CURRENT_US_STRATEGY.md PROMPTS.md notes.md journal.md	129	16027
+2026-09-23T02:09:54	Bash	python3 tools/ctl.py status	81	183
+2026-09-23T02:10:02	Bash	python3 tools/ctl.py new-game TestGame7 --final-coup-only	139	3520
+2026-09-23T02:10:11	Bash	python3 tools/ctl.py advance	128	8583
+2026-09-23T02:10:14	Bash	python3 tools/ctl.py brief; ls tools	98	8315
+2026-09-23T02:10:22	Bash	cat >> journal.md <<'EOF'  ## Turn 0 — card #130 Coup! Failed Attempt (1st Coup,	586	994
+2026-09-23T02:11:04	Bash	for s in "Can Tho" "Qui Nhon" "Hue" "Tay Ninh" "Kien Phong" "Kien Giang-An Xuyen	231	2216
+2026-09-23T02:11:16	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	957	1556
+2026-09-23T02:11:21	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "*=>Available box" "*=>Can Th	181	3254
+2026-09-23T02:11:28	Bash	python3 tools/ctl.py seq "Move how many Troops=>5" "Choose one=>Move troops" "*=	236	4595
+2026-09-23T02:11:31	Bash	python3 tools/ctl.py send "Finished moving pieces"; python3 tools/ctl.py advance	164	745
+2026-09-23T02:11:48	Bash	python3 tools/ctl.py seq "*=>Finished moving pieces"; python3 tools/ctl.py advan	174	38512
+2026-09-23T02:12:02	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	711	1652

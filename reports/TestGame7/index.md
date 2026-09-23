@@ -1,0 +1,3 @@
+- report-001-001.md: #130 - Coup! Failed Attempt
+- report-002-005.md: #110 - No Contact
+- report-006-007.md: #112 - Colonel Chau

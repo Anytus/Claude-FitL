@@ -1,0 +1,110 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #110 - No Contact (VC, NVA, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #112 - Colonel Chau (VC, ARVN, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : VC",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - G",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (27): 14 [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would add COIN Control? [No]",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - GG",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Saigon for Train",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 2 ARVN Underground Rangers from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}
