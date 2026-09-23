@@ -72,3 +72,5 @@
 - report-150-151.md: #36 - Hamburger Hill
 - report-152-152.md: #36 - Hamburger Hill
 - report-153-153.md: #128 - Coup! Nguyen Van Thieu
+- report-154-154.md: #128 - Coup! Nguyen Van Thieu
+- report-155-155.md: #111 - Agent Orange

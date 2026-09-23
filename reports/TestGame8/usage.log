@@ -146,3 +146,9 @@
 2026-09-23T07:21:22	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished moving"; python3 tool	155	1935
 2026-09-23T07:21:26	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault"; python3 tools/ctl.py scre	144	6985
 2026-09-23T07:21:36	Bash	echo "Patrol offered \"Assault at one LOC\" after the LimOp into Saigon (known b	370	8990
+2026-09-23T07:21:48	Bash	python3 tools/ctl.py commit-turn "card #36 Hamburger Hill: LimOp Patrol 3 Troops	692	6523
+2026-09-23T07:21:56	Bash	python3 tools/ctl.py seq "Pacify=>Remove 1 terror marker and shift 2" "Choose sp	312	5964
+2026-09-23T07:22:07	Bash	echo "Hue's terror label was \"Remove 1 terror marker and shift 2 levels to Neut	259	8514
+2026-09-23T07:22:21	Bash	cat >> journal.md <<'EOF'  ## Coup 4 — Commitment **Plan.** Place the 4 Troop Ca	716	8026
+2026-09-23T07:22:30	Bash	python3 tools/ctl.py seq "Move how many=>1" "Choose one=>Finished moving" && ech	268	19494
+2026-09-23T07:22:36	Bash	python3 -c " import json;c=json.load(open('cards.json')) cs=c if isinstance(c,li	435	3677

@@ -33,3 +33,4 @@ card #16 Blowtorch Komer unshaded: Aid +10, Coup pacify 1/step — denies VC sha
 card #27 Phoenix: Air Lift + Assault Quang Tin/Tay Ninh — NVA 18→14; #57 Intl Unrest: ineligible
 card #45 PT-76: Sweep Quang Duc + Air Strike killed 2 VC Bases — VC 37→35; #62 Cambodian Civil War: ineligible
 card #36 Hamburger Hill: LimOp Patrol 3 Troops to Saigon (M-48 took 2) — qualify Saigon for Coup pacify
+Coup 4: pacified Saigon, Hue, Cam Ranh, Qui Nhon at 1/step (+9 US, -4 VC); casualties to Da Nang/An Loc/Can Tho/Saigon

@@ -237,3 +237,17 @@ Booby Traps took 1 Troop to Casualties. Air Strike rolled 4 hits and offered "Re
 Rejected: "no menu entry starts with 'Op'" — NVA took Op + SA first, so only Event / Limited Op / Pass were offered (I misread the order). Revised: LimOp Patrol, 3 US Troops (Quang Duc, Can Tho, Quang Tin) → Saigon; M-48 shaded lets NVA remove up to 2 moved cubes, leaving ≥1 US Troop in Saigon for the Coup pacification (+6). Rejected LimOp Train Saigon + Transfer (ARVN -3 but Saigon unqualified).
 Patrol offered "Assault at one LOC" after the LimOp into Saigon (known bug), declined. M-48: 2 US Troops from Saigon to Casualties as expected.
 **Result.** 1 US Troop in Saigon (with 7 Police) for the Coup; 2 more Troops in Casualties.
+
+## Coup 4 (#128 Nguyen Van Thieu) — Support phase
+**Plan.** Pacify Saigon 1 level (Active), Hue remove terror + 2 levels (Active Opposition → Neutral), Cam Ranh 2 levels, Qui Nhon 1 level — Blowtorch 1 Res/step.
+**Why.** +9 US, -4 VC for about 7 Resources of 57.
+**Execution.**
+Hue's terror label was "Remove 1 terror marker and shift 2 levels to Neutral".
+**Result.** +9 US, -4 VC; ARVN left 50 Res (Econ 13).
+
+## Coup 4 — Commitment
+**Plan.** Place the 4 Troop Casualties in Da Nang, An Loc, Can Tho, Saigon (1 each); no other moves.
+**Why.** ARVN now holds 50 Res (Econ 13): each COIN City with Police and a US piece becomes a Train-Pacify target and a next-Coup pacification space; second Troop in Saigon guards the pop-6 space.
+**Execution.**
+none.
+**Result.** Troops placed; US 43 after Coup 4.
