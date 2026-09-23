@@ -77,3 +77,6 @@
 - report-156-159.md: #121 - Linebacker II
 - report-160-161.md: #65 - International Forces
 - report-162-162.md: #4 - Top Gun
+- report-163-164.md: #4 - Top Gun
+- report-165-167.md: #113 - Ruff Puff
+- report-168-168.md: #30 - USS New Jersey

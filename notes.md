@@ -35,3 +35,4 @@ card #45 PT-76: Sweep Quang Duc + Air Strike killed 2 VC Bases — VC 37→35; #
 card #36 Hamburger Hill: LimOp Patrol 3 Troops to Saigon (M-48 took 2) — qualify Saigon for Coup pacify
 Coup 4: pacified Saigon, Hue, Cam Ranh, Qui Nhon at 1/step (+9 US, -4 VC); casualties to Da Nang/An Loc/Can Tho/Saigon
 Linebacker II pivotal (replaced #111 Agent Orange): NVA -2 Bases, deny VC Agent Orange; #65 Intl Forces: ineligible
+card #4 Top Gun: Train+Pacify Da Nang 2 levels, Advise Kien Giang/Binh Dinh — VC 37→36; #113 Ruff Puff: ineligible

@@ -155,3 +155,8 @@
 2026-09-23T07:22:48	Bash	python3 tools/ctl.py commit-turn "Coup 4: pacified Saigon, Hue, Cam Ranh, Qui Nh	775	6462
 2026-09-23T07:22:53	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Choose one=>Event"; python3 	172	9288
 2026-09-23T07:23:07	Bash	echo "\"perform\" executed the pivotal directly (no Choose-one menu), so my \"Ev	356	37024
+2026-09-23T07:23:47	Bash	python3 tools/ctl.py commit-turn "Linebacker II pivotal (replaced #111 Agent Ora	1155	8038
+2026-09-23T07:23:54	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py seq "Choose Advise option=>Use	224	3201
+2026-09-23T07:24:01	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py seq "US Training=>Finished sel	205	3057
+2026-09-23T07:24:05	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels"; python3 tools/ctl.py screen |	139	8015
+2026-09-23T07:24:18	Bash	echo "Binh Dinh auto-selected again, so \"Binh Dinh\" was typed once at the Aid 	384	34676

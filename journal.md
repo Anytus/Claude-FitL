@@ -258,3 +258,10 @@ none.
 **Execution.**
 "perform" executed the pivotal directly (no Choose-one menu), so my "Event" step found no prompt and was not sent.
 **Result.** NVA 16→14 (Parrot's Beak, Central Laos Bases); NVA Ineligible through #65; Agent Orange never played.
+
+## Turn 28 — card #4 Top Gun — before save-162
+**Plan.** Op Train Da Nang (no placement) + Pacify Da Nang 2 levels (Passive Opposition → Passive Support); Advise: ARVN Rangers in Kien Giang remove 2 VC Guerrillas, Irregular in Binh Dinh removes 2 NVA Guerrillas; +6 Aid.
+**Why.** VC 37 must fall 2 before the pile-5 Coup: Da Nang is the only COIN space with Opposition (VC -1, US +1). Advise thins the Guerrillas shielding the Kien Giang Base and clears Binh Dinh (pop 2) for later pacification. Rejected: Hue +4 (no VC effect).
+**Execution.**
+Binh Dinh auto-selected again, so "Binh Dinh" was typed once at the Aid y/n (re-prompted, no effect). Pacify cost back to 3/level under Nguyen Van Thieu.
+**Result.** VC 37→36, US 42→43, Aid 24; 2 VC Guerrillas off Kien Giang, 2 NVA Guerrillas off Binh Dinh.
