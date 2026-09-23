@@ -92,3 +92,6 @@
 - report-180-180.md: #126 - Coup! Young Turks
 - report-181-181.md: #126 - Coup! Young Turks
 - report-182-184.md: #52 - RAND
+- report-185-185.md: #52 - RAND
+- report-186-188.md: #96 - APC
+- report-189-190.md: #57 - International Unrest

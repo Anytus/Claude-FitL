@@ -250,3 +250,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Final campaign next: the final Coup's Support phase pacifies up to 4 spaces with COIN Control + US Troops + Police, and these are such spaces below Active Support; they also give Train footholds. Available points kept for the final count.
 **Execution.** none
 **Result.** As planned.
+
+## Turn 33 — card #52 RAND (final campaign) — before save-185
+**Plan.** Op + SA: Train Hue (place 2 Irregulars) and Da Nang (no placement); Pacify Da Nang Neutral → Active (2 levels); Advise with the QTTT Ranger (2 NVA Troops); +6 Aid.
+**Why.** Final campaign: need ~+5 on VC and ~+4 on ARVN. Da Nang +2 is Support the final Coup's 4-space pacify may not reach. On-deck #96 APC shaded (VC first, Critical) repeats General Uprising into Cities; Irregulars in Hue give Advise pieces against it. Transfer Patronage (−3 ARVN only) weighed: pacify closes both gaps.
+**Execution.** QTTT Ranger auto-selected (only candidate); no second Advise space offered except an ARVN Sweep, declined.
+**Result.** As planned: Da Nang Active Support (US +2), 2 Irregulars in Hue, 2 NVA Troops out of QTTT, Aid +6.

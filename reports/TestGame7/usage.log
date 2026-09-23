@@ -210,3 +210,10 @@
 2026-09-23T04:53:32	Bash	python3 tools/ctl.py advance 2>&1 | grep -vE "^=+$|^-+$|Press Enter|^\s*$" | tai	171	6398
 2026-09-23T04:54:02	Bash	cat > /tmp/claude-0/-home-user-Claude-FitL/7d11ccf0-6d1b-54e8-9e9b-34277cc6635f/	1656	7406
 2026-09-23T04:54:11	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving pieces" 2>&1 | tail -3; py	504	16951
+2026-09-23T04:54:22	Bash	python3 tools/ctl.py commit-turn "5th Coup #126 Young Turks: pacified Kien Giang	690	15419
+2026-09-23T04:55:08	Bash	cat >> journal.md <<'EOF'  ## Turn 33 — card #52 RAND (final campaign) — before 	1185	5315
+2026-09-23T04:55:15	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" "special activity? (y/n)=>y" "	280	2800
+2026-09-23T04:55:19	Bash	python3 tools/ctl.py seq "How many NVA Troops=>2" 2>&1 | grep -vE "^=+$|^-+$" | 	163	1262
+2026-09-23T04:55:34	Bash	python3 tools/ctl.py seq "Choose Advise option=>Finished selecting" "+6 Aid? (y/	797	24255
+2026-09-23T04:55:38	Bash	grep -E "Current card  :|executes|chooses|selects|passes|marker from|Place [0-9]	313	1153
+2026-09-23T04:55:41	Bash	sed -n '/VC executes the Shaded Event: APC/,/Finished with VC turn/p' reports/Te	207	241
