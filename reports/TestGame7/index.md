@@ -42,3 +42,5 @@
 - report-079-080.md: #46 - 559th Transport Grp
 - report-081-085.md: #95 - Westmoreland; #122 - Easter Offensive
 - report-086-086.md: #53 - Sappers
+- report-087-088.md: #53 - Sappers
+- report-089-089.md: #9 - Psychedelic Cookie

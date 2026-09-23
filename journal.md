@@ -118,3 +118,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** −4 VC in a space with Police, so on-deck Westmoreland shaded (VC Critical: 3 Provinces without Police, 2 levels toward Opposition) can't reverse it; Police shields Pleiku's Support. Advise cleans the delta. Event (Trail −2) weighed: NVA at 12 is not the pressing threat.
 **Execution.** VC passed first, so the pivotal was offered a second time; declined again. Placed 2 ARVN Troops + 2 Police in Pleiku. Deviation: Advise menu offered Quang Nam's Ranger; used it on 2 NVA Troops there instead of the Kien Phong Guerrilla.
 **Result.** Binh Dinh Neutral (VC 24→20); Pleiku has Police; 2 NVA Troops out of Quang Nam, NVA Guerrilla out of Kien Giang; Aid 16.
+
+## Turn 15a — pivotal offer at draw of #9 (current #53 Sappers) — before save-087
+**Plan.** Decline Linebacker II.
+**Why.** It would replace #53, whose unshaded Event (−2 NVA Troops in each of 3 spaces, US stays Eligible) I can take after the VC's Op, and keep me first on #9 Psychedelic Cookie (unshaded: 3 Out-of-Play Troops to Available, +3). Linebacker kept for later.
+**Execution.** none
+**Result.** Declined.
+
+## Turn 15 — card #53 Sappers — before save-088
+**Plan.** Event unshaded: remove 2 NVA Troops each from Quang Tin-Quang Ngai, Quang Nam and Quang Duc-Long Khanh; US stays Eligible.
+**Why.** Thins the stacks beside my 5 exposed Troops in QTQN, breaks NVA Control in QDLK (−1), and keeps me first Eligible on #9 (unshaded: +3 US Troops to Available). LimOp weighed: one space, loses the #9 Event.
+**Execution.** Rejected: at "1st Selection:" seq typed the name; program: "'Quang Tin-Quang Ngai' is not valid. Must be one of: 1, 2, 3, 4, or abort". Mechanic: "Nth Selection:" prompts need the on-screen number; sent 3, 2, 1 via send, checking each renumbered menu.
+**Result.** As planned: 6 NVA Troops removed, QDLK NVA Control broken (NVA 11→10); US stays Eligible.

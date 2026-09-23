@@ -119,3 +119,14 @@
 2026-09-23T04:10:06	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>Quang Nam"	159	1477
 2026-09-23T04:10:13	Bash	python3 tools/ctl.py seq "How many NVA Troops=>2" "Choose Advise option=>Use Irr	243	3177
 2026-09-23T04:10:42	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" | tail -2; python3 - <<'EOF' p='jour	739	37709
+2026-09-23T04:10:54	Bash	python3 tools/ctl.py commit-turn "card #46 559th Transport Grp: Train Pleiku (AR	486	12128
+2026-09-23T04:10:57	Bash	python3 tools/render.py TestGame7 | sed -n '/--- Scores/,/highest/p'	113	624
+2026-09-23T04:11:26	Bash	cat >> journal.md <<'EOF'  ## Turn 15a — pivotal offer at draw of #9 (current #5	608	29844
+2026-09-23T04:11:39	Bash	cat >> journal.md <<'EOF'  ## Turn 15 — card #53 Sappers — before save-088 **Pla	618	2431
+2026-09-23T04:11:42	Bash	python3 tools/ctl.py seq "Execute which part=>Unshaded"	125	1006
+2026-09-23T04:11:46	Bash	python3 tools/ctl.py seq "Remove NVA Troops from how many spaces=>3"	138	1275
+2026-09-23T04:11:49	Bash	python3 tools/ctl.py seq "1st Selection=>Quang Tin-Quang Ngai"; python3 tools/ct	175	2137
+2026-09-23T04:11:55	Bash	python3 tools/ctl.py send 3	117	1052
+2026-09-23T04:11:59	Bash	python3 tools/ctl.py send 2	96	987
+2026-09-23T04:12:02	Bash	python3 tools/ctl.py send 1	107	5933
+2026-09-23T04:12:08	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() i=s.rfind("**Execution.**\n**R	679	20138

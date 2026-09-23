@@ -1505,4 +1505,219 @@ Does US wish to play their pivotal?
 2) No
 3) Show Coup status
 ----------------------------------------------------
-Selection: 
+Selection: 2
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #53 - Sappers (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #9 - Psychedelic Cookie (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (16): 14 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+VC selects Quang Tin-Quang Ngai for Rally
+----------------------------------------------------
+[35mPlace 4 VC Underground Guerrillas from AVAILABLE into Quang Tin-Quang Ngai[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Quang Tin-Quang Ngai[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 13[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Quang Tri-Thua Thien for Rally
+----------------------------------------------------
+[35mPlace 3 VC Underground Guerrillas from AVAILABLE into Quang Tri-Thua Thien[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 13 to 11[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Binh Dinh for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Binh Tuy-Binh Thuan for Rally
+----------------------------------------------------
+[35mPlace 2 VC Underground Guerrillas from AVAILABLE into Binh Tuy-Binh Thuan[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (7): 7 [No]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Binh Dinh
+----------------------------------------------------
+[35mRemove 2 ARVN Police from Binh Dinh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Subverts in Phu Bon-Phu Yen
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Phu Bon-Phu Yen to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -1 to 17[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 41 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #53 - Sappers (NVA, VC, US, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #9 - Psychedelic Cookie (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : US
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Sappers
+----------------------------------------------------
+
+Remove NVA Troops from how many spaces (0 - 3): 3
+
+Select 3 spaces to remove NVA Troops
+====================================================
+1) Quang Duc-Long Khanh
+2) Quang Nam
+3) Quang Tin-Quang Ngai
+4) Tay Ninh
+----------------------------------------------------
+1st Selection: Quang Tin-Quang Ngai
+'Quang Tin-Quang Ngai' is not valid. Must be one of:
+1, 2, 3, 4, or abort
+1st Selection: 3
+
+Select 3 spaces to remove NVA Troops
+====================================================
+1) Quang Duc-Long Khanh
+2) Quang Nam
+3) Tay Ninh
+----------------------------------------------------
+2nd Selection: 2
+
+Select 3 spaces to remove NVA Troops
+====================================================
+1) Quang Duc-Long Khanh
+2) Tay Ninh
+----------------------------------------------------
+3rd Selection: 1
+
+[35mRemove 2 NVA Troops from Quang Tin-Quang Ngai to AVAILABLE[0m
+[35mRemove 2 NVA Troops from Quang Nam to AVAILABLE[0m
+[35mRemove 2 NVA Troops from Quang Duc-Long Khanh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Quang Duc-Long Khanh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 11 to 10[0m
+
+US will remain eligible for the next card
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 127
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #9 - Psychedelic Cookie (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #127 - Coup! Nguyen Cao Ky
+Eligible      : US, NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): 
