@@ -81,3 +81,9 @@
 2026-09-23T07:07:19	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift"; python3 tools/ctl	152	10150
 2026-09-23T07:07:35	Bash	echo "none. No ARVN follow-up offered (ARVN 8 Res, 2 ARVN Troops lifted in). Boo	296	23693
 2026-09-23T07:08:01	Bash	cat >> journal.md <<'EOF'  ## Turn 15 — card #85 USAID — before save-080 **Plan.	773	21039
+2026-09-23T07:08:23	Bash	cat >> journal.md <<'EOF' none. **Result.** ARVN +3 (11). NVA LimOp marched 1 Gu	1004	7393
+2026-09-23T07:08:30	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Perform a Special" "Choose spe	220	4095
+2026-09-23T07:08:35	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "in which space=>	184	2726
+2026-09-23T07:08:39	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -8	107	1288
+2026-09-23T07:08:45	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished moving"; python3 tool	154	7347
+2026-09-23T07:08:56	Bash	echo "none. **Result.** 2 VC off Saigon, Pleiku VC Base + Guerrilla removed (VC 	224	29052

@@ -4937,4 +4937,325 @@ Eligible      : US, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+----------------------------------------------------
+Selection: 2
+
+US chooses Patrol operation
+====================================================
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Perform a Special Activity
+3) Finished moving cubes
+----------------------------------------------------
+Selection: 1
+
+Move cubes out of which space: 
+====================================================
+1) Hue
+2) Kien Phong
+3) Pleiku-Darlac
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+US Moving Patrol cubes out of Kien Phong
+----------------------------------------------------
+These cubes can move   : 5 US Troops
+
+Move how many cubes out of Kien Phong (0 - 5): 5
+
+Select destination: 
+====================================================
+1) Can Tho
+2) LOC Can Tho -- Bac Lieu
+3) LOC Can Tho -- Chau Doc
+4) LOC Can Tho -- Long Phu
+5) LOC Saigon -- Can Tho
+6) Saigon
+7) None of the above
+----------------------------------------------------
+Selection: 6
+[35mMove 5 US Troops from Kien Phong to Saigon[0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Perform a Special Activity
+3) Finished moving cubes
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space: 
+====================================================
+1) Saigon
+2) Binh Dinh
+3) Pleiku-Darlac
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Saigon using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Saigon to ACTIVE[0m
+[35mRemove 2 VC Underground Guerrillas from Saigon to AVAILABLE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Saigon
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Use Irregular/Ranger to remove enemy pieces
+3) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+Use Irregular/Ranger in which space: 
+====================================================
+1) Binh Dinh
+2) Pleiku-Darlac
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+Advise in Pleiku-Darlac using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE[0m
+[35mRemove 1 VC Underground Guerrilla from Pleiku-Darlac to AVAILABLE[0m
+[35mRemove 1 VC Base from Pleiku-Darlac to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 27 to 26[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Saigon, Pleiku-Darlac
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 6[0m
+
+US Moving Patrol cubes:
+====================================================
+1) Move cubes
+2) Finished moving cubes
+----------------------------------------------------
+Selection: 2
+
+US Patrol - Activating guerrillas on LOCs
+----------------------------------------------------
+No guerrillas are activated
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 14[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the US cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 14
+
+VC Bot Pivotal Event die roll: 2  [Failure] (2 cards in leader box)
+
+NVA Bot Pivotal Event die roll: 6  [Failure] (2 cards in leader box)
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #14 - M-48 Patton (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+Eligible      : ARVN, VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+
+ARVN executes the Shaded Event: Nguyen Chanh Thi
+----------------------------------------------------
+
+[35mRemove 1 ARVN Troop from Hue to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Hue[0m
+
+[35mRemove 1 ARVN Police from Hue to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Hue[0m
+
+[34mIncrease Patronage by +4 to 32[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 47 to 49[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #87 - Nguyen Chanh Thi (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Shaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #14 - M-48 Patton (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+Eligible      : VC, NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Y
+Trung check: 3d6 <= Available VC pieces (6): 14 [No]
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - X
+Trung check: Any 2+ Pop space without VC Guerrillas? [Yes]
+Trung check: 3d6 <= Available VC pieces (6): 12 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - XX
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Cam Ranh -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Duc-Long Khanh to LOC Cam Ranh -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Ban Me Thuot -- Da Lat as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Binh Tuy-Binh Thuan to LOC Ban Me Thuot -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Kien Phong to Saigon[0m
+[35mMove 1 VC Underground Guerrilla from Tay Ninh to Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+Trung check: Can Ambush in March destinations? [Yes]
+
+VC chooses Ambush special activity
+====================================================
+
+VC Ambushes in Saigon
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Saigon to ACTIVE[0m
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Ambushes in LOC Ban Me Thuot -- Da Lat, targeting Khanh Hoa
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in LOC Ban Me Thuot -- Da Lat to ACTIVE[0m
+[35mRemove 1 ARVN Police from Khanh Hoa to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US cylinder to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 127
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #14 - M-48 Patton (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+On Deck card  : #127 - Coup! Nguyen Cao Ky
+Eligible      : US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, VC
 (perform or ?): 

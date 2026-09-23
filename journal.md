@@ -143,3 +143,10 @@ none.
 **Plan.** Op Patrol: 5 US Troops Kien Phong → Saigon; Advise: Rangers in Saigon remove 2 VC Guerrillas, Irregular in Pleiku removes VC Guerrilla + Base; +6 Aid.
 **Why.** VC -1 Base, clears Saigon (pop 6) of Terror-capable Guerrillas, restores a Troop presence there for Coup pacification, and Aid 0→6 raises ARVN income. Westmoreland unshaded mostly wasted (Lansdale bars US Assault).
 **Execution.**
+none.
+**Result.** 2 VC off Saigon, Pleiku VC Base + Guerrilla removed (VC 27→26), Aid 6, 5 Troops in Saigon.
+
+## Turn 17 — card #14 M-48 Patton — before save-089
+**Plan.** Op Train Saigon: place 4 ARVN Police + 2 Troops (3 Res, to Econ); Air Lift 1 US Troop Saigon → An Loc. No Pacify now.
+**Why.** Coup on deck: ARVN 49 must not gain Control (no new COIN spaces). Police in Saigon + US Troops make Saigon (pop 6, Neutral) eligible for Coup pacification (+12 at 2 levels); An Loc also becomes eligible. ~17 spendable Res after Coup income at 4/level (Nguyen Cao Ky).
+**Execution.**

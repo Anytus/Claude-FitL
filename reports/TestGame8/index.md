@@ -38,3 +38,6 @@
 - report-079-080.md: #85 - USAID
 - report-081-082.md: #85 - USAID
 - report-083-083.md: #95 - Westmoreland
+- report-084-085.md: #95 - Westmoreland
+- report-086-088.md: #87 - Nguyen Chanh Thi
+- report-089-089.md: #14 - M-48 Patton
