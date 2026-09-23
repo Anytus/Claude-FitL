@@ -226,3 +226,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN 53 (+3) and VC 35 (0), Coup drawable any time. Patronage transfer is my only lever on ARVN (−3 → 50, score 0); no COIN Control here depends on US pieces. The two Base kills take VC to 33. ARVN is Ineligible on #71, so it can't climb back next card.
 **Execution.** none
 **Result.** As planned: Patronage 32→29 (ARVN 53→50, score 0); VC Bases removed in Kien Giang and Hue (VC 35→33).
+
+## Turn 30 — card #49 Russian Arms — before save-170
+**Plan.** Limited Op Train Saigon (no placement), final action Transfer 3 Patronage to ARVN Resources.
+**Why.** ARVN back at 52 (Govern in Hue, Qui Nhon Control); Transfer is my one lever: −3 → 49. ARVN is Ineligible on #40, so it can't climb back next card. Event (6 ARVN pieces) would raise ARVN.
+**Execution.** none
+**Result.** As planned: Patronage 31→28, ARVN 52→49.

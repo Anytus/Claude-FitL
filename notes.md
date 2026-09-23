@@ -66,3 +66,4 @@ card #20 Laser Guided Bombs: Train+Pacify Kien Giang to Neutral; Advise Hue (2 V
 card #41 Bombing Pause: US ineligible — NVA Terror in 5 spaces (US -5); VC Rally
 card #88 Phan Quang Dan: Train Saigon + transfer 3 Patronage; Advise Kien Giang, Hue (2 VC Bases) — ARVN 53 to 50, VC 35 to 33
 card #71 An Loc: US ineligible — NVA March QTTT, Qui Nhon; VC Rally
+card #49 Russian Arms: LimOp Train Saigon + transfer 3 Patronage — ARVN 52 to 49

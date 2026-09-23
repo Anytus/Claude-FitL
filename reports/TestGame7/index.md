@@ -84,3 +84,6 @@
 - report-164-164.md: #88 - Phan Quang Dan
 - report-165-167.md: #71 - An Loc
 - report-168-169.md: #49 - Russian Arms
+- report-170-170.md: #49 - Russian Arms
+- report-171-173.md: #40 - PoWs
+- report-174-174.md: #13 - Cobras
