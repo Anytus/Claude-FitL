@@ -1,0 +1,62 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #116 - Cadres (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, US",
+      "color": null
+    },
+    {
+      "text": "\nARVN executes the Unshaded Event: Cadres",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nCapability: '#116 Cadres (unshaded)' is now in effect",
+      "color": "Red"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

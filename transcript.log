@@ -1284,4 +1284,308 @@ Eligible      : US
 Acted         : VC -> Event
 Passed        : ARVN
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Saigon
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Transfer patronage to ARVN resources
+3) Perform a Special Activity
+4) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Saigon
+
+Pacifying in Saigon
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Saigon
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Saigon
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 30[0m
+[33mFlip Passive Support marker in Saigon to Active Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 30 to 36[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kien Giang-An Xuyen
+2) Kien Phong
+3) Quang Tri-Thua Thien
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Kien Giang-An Xuyen using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Kien Giang-An Xuyen to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  3 NVA Troops, 2 NVA Underground Guerrillas
+
+How many NVA Troops (0 - 2): 2
+[35mRemove 2 NVA Troops from Kien Giang-An Xuyen to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 11 to 9[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Kien Giang-An Xuyen
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kien Phong
+2) Quang Tri-Thua Thien
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+Advise in Quang Tri-Thua Thien using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Quang Tri-Thua Thien to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  3 NVA Underground Guerrillas, 2 VC Underground Guerrillas
+
+How many NVA Underground Guerrillas (0 - 2): 0
+[35mRemove 2 VC Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Kien Giang-An Xuyen, Quang Tri-Thua Thien
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 15[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 43
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Cadres
+----------------------------------------------------
+[31m
+Capability: '#116 Cadres (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #116 - Cadres (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+On Deck card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 66
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : NVA, US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (6): 11 [No]
+Trung check: d3 >= the Trail (2): 3 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Quang Tri-Thua Thien for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 9 to 10[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 3[0m
+[34m
+Move the NVA cylinder to the Op Only box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #43 - Economic Aid (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : US, VC
+Acted         : NVA -> Op Only
+Passed        : none
+Ineligible    : ARVN
 (perform or ?): 

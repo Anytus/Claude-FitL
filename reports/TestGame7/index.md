@@ -10,3 +10,6 @@
 - report-020-020.md: #63 - Fact Finding
 - report-021-023.md: #15 - Medevac
 - report-024-026.md: #107 - Burning Bonze
+- report-027-027.md: #107 - Burning Bonze
+- report-028-030.md: #116 - Cadres
+- report-031-032.md: #43 - Economic Aid

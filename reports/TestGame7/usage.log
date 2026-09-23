@@ -38,3 +38,11 @@
 2026-09-23T03:16:58	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	206	2504
 2026-09-23T03:17:02	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y"; python3 tools/ctl.py screen | tail 	148	8112
 2026-09-23T03:17:17	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	629	25096
+2026-09-23T03:17:42	Bash	python3 tools/ctl.py commit-turn "card #63 Fact Finding: Train+Pacify Kien Giang	376	6904
+2026-09-23T03:17:47	Bash	cat >> journal.md <<'EOF'  ## Turn 4 — card #107 Burning Bonze — before save-027	818	4603
+2026-09-23T03:17:52	Bash	python3 tools/ctl.py seq "Training in Saigon=>Do not place" "US Training=>Finish	207	2819
+2026-09-23T03:18:00	Bash	python3 tools/ctl.py seq "Pacify=>Shift 1 level to Active" "special activity? (y	322	4748
+2026-09-23T03:18:03	Bash	python3 tools/ctl.py seq "How many NVA Troops=>2"	123	2305
+2026-09-23T03:18:07	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	208	2216
+2026-09-23T03:18:11	Bash	python3 tools/ctl.py seq "How many NVA Underground Guerrillas=>0"	152	1305
+2026-09-23T03:18:21	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" >/dev/null; python3 - <<'EOF' p='jou	466	30167

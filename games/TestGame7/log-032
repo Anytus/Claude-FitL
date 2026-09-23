@@ -1,0 +1,134 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #43 - Economic Aid (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, US, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - S",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space without COIN Control? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 <= Available NVA Guerrillas (6): 11 [No]",
+      "color": null
+    },
+    {
+      "text": "Trung check: d3 >= the Trail (2): 3 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Quang Tri-Thua Thien for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Underground Guerrillas from Quang Tri-Thua Thien to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Base from AVAILABLE into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 9 to 10",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 2 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nNVA improves the trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Improve the trail by 1 box to 3",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op Only box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

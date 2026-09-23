@@ -34,3 +34,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** -4 VC from the pacify; the Advise strips 4 VC Guerrillas (Terror/Agitate carriers) and gives COIN Control in Binh Dinh (pop 2, Active Opp) and QTTT, exposing their Bases. Alternative (Assault Active VC in Kien Hoa/Ba Xuyen) weighed: fewer pieces, no Support gain.
 **Execution.** seq stopped at "Place how many Irregulars (0 - 2)" (expected a skip; 1 Available); sent 1. Deviation: Advise menu offered Pleiku-Darlac, whose VC Base stood alone; removed that Base instead of the QTTT Guerrillas.
 **Result.** Kien Giang Neutral (VC 25→21), Binh Dinh COIN Control, Pleiku VC Base removed (VC 21→20), Aid 21. Card closed before VC acted.
+
+## Turn 4 — card #107 Burning Bonze — before save-027
+**Plan.** Op + SA: Train Saigon (no placement), Pacify Saigon Passive → Active (3); Advise Irregular in Kien Giang (remove 2 NVA Troops) and in QTTT (remove 2 VC Guerrillas); +6 Aid.
+**Why.** +6 US back in Govern-proof Saigon; Kien Giang Advise breaks NVA Control (NVA -2) and blunts the stack beside my 2 Troops; QTTT strips VC Terror carriers. NVA is Ineligible on #116. Alternative (Assault KG/KH/BX + Advise) weighed: more kills, no Support.
+**Execution.** none
+**Result.** As planned: Saigon Active (US 30→36), NVA Control lost in Kien Giang (NVA 11→9), 2 VC Guerrillas out of QTTT, Aid 15.
