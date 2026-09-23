@@ -70,3 +70,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Pacify and ARVN placement are blocked (Resources 17, Econ 15) and Assault by Lansdale, so the action is for the Advise and the +6 Aid (Coup pacify budget). Taking Op+SA leaves the NVA only a LimOp or the Event. MACV Event (free US SA, stay Eligible) weighed: hands the NVA a full Op+SA, and US is last on Plei Mei anyway.
 **Execution.** Final Train menu offered Transfer patronage (no Pacify); took 3 (Patronage 19→16, Resources 20). seq stopped at "Use Irregular/Ranger in which space": auto-selected Kien Phong (only candidate). Added an ARVN Advise Assault in Phu Bon-Phu Yen (only candidate): 0 hits (1 Police).
 **Result.** NVA Guerrilla out of Kien Phong; ARVN 44→41; Aid 28.
+
+## Turn 10 — card #82 Domino Theory — before save-063
+**Plan.** Limited Op Sweep into Kien Phong: US Troops 2 from Kien Giang, 1 from Saigon, 1 from Can Tho (6 Troops + 2 Irregulars vs 5 NVA Troops).
+**Why.** NVA is at 22 (threshold 18) and the Coup is one of the next 4 draws; ARVN's Op-only leaves me a LimOp, Assault banned (Lansdale). Breaking a pop-2 NVA Control is the most one space gives (-2). Kien Phong over Kien Giang/Binh Dinh: keeps the Kien Hoa Troops for Coup pacification and guards 4 points of Active Support. Pass rejected: US is last on #86.
+**Execution.** none
+**Result.** As planned: Kien Phong COIN Control, NVA 22→20 (still 2 over).

@@ -3290,4 +3290,252 @@ Eligible      : US
 Acted         : ARVN -> Op Only
 Passed        : none
 Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 1
+Notes:
+----------------------------------------------------
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Kien Phong
+
+Kien Phong selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Kien Phong
+
+US Sweep Troops into:
+====================================================
+1) Kien Phong
+2) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Kien Giang-An Xuyen
+4) Kien Hoa-Vinh Binh
+5) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 3
+Move how many US Troops (0 - 2): 2
+
+
+[35mMove 2 US Troops from Kien Giang-An Xuyen to Kien Phong[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Phong to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 33 to 35[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 22 to 20[0m
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Saigon
+3) Kien Hoa-Vinh Binh
+4) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Saigon to Kien Phong[0m
+
+US Move troops to Kien Phong from:
+====================================================
+1) Can Tho
+2) Kien Hoa-Vinh Binh
+3) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Can Tho to Kien Phong[0m
+
+US Move troops to Kien Phong from:
+====================================================
+1) Kien Hoa-Vinh Binh
+2) Finished moving troops to Kien Phong
+----------------------------------------------------
+Selection: 2
+
+US Sweep Troops into:
+====================================================
+1) Kien Phong
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+No guerrillas were activated in Kien Phong
+[34m
+Move the US cylinder to the LimOp box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 102
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+VC executes the Shaded Event: Mandate of Heaven
+----------------------------------------------------
+[31m
+Capability: '#86 Mandate of Heaven (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #86 - Mandate of Heaven (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 125
+
+
+>>> NVA turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : NVA, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (3): 11 [No]
+Trung check: d3 >= the Trail (4): 1 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - SS
+Trung check: 6+ NVA Troops in any space with COIN Pieces? [No]
+[31m
+The operation for Trung: NVA - S would be ineffective.[0m
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - TT
+Trung check: Underground NVA Guerrillas in 2 or more spaces with Support? [No]
+Trung check: 3d6 <= Available NVA Troops (3): 12 [No]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Saigon
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Saigon to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Kien Phong
+----------------------------------------------------
+[35mRemove 1 US Troop from Kien Phong to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : US, ARVN
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : VC
 (perform or ?): 

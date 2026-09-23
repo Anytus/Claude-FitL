@@ -66,3 +66,9 @@
 2026-09-23T03:22:44	Bash	python3 tools/ctl.py seq "Transfer how much patronage=>3"	132	1410
 2026-09-23T03:22:55	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"	142	1541
 2026-09-23T03:23:21	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" | tail -3; python3 - <<'EOF' p='jour	676	45999
+2026-09-23T03:24:07	Bash	python3 tools/ctl.py commit-turn "card #69 MACV: Train Saigon + transfer 3 Patro	1074	7763
+2026-09-23T03:24:11	Bash	python3 tools/ctl.py seq "US Sweep space=>Select a Sweep space" "Sweep in which 	182	1479
+2026-09-23T03:24:14	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Kien Phong"	143	1211
+2026-09-23T03:24:22	Bash	python3 tools/ctl.py seq "US Move troops to Kien Phong from=>Kien Giang-An Xuyen	351	3835
+2026-09-23T03:24:26	Bash	python3 tools/ctl.py seq "US Move troops to Kien Phong from=>Finished" "US Sweep	203	5626
+2026-09-23T03:24:35	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	347	20485
