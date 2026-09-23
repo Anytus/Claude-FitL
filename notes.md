@@ -58,3 +58,4 @@ card #62 Cambodian Civil War: Event unshaded, 2 NVA Bases removed from Parrot's 
 card #11 Abrams: US ineligible — NVA shaded capability (max 2 US Assault spaces); VC Rally
 card #8 Arc Light: Air Lift KH to Saigon; Assault Saigon (3 VC), Kien Phong (2 VC) — clear Agitate targets before Coup
 4th Coup #129 Failed Attempt: pacified Kien Giang; 2 casualties to Hue — Hue Train+Pacify next vs VC 34
+card #111 Agent Orange: US did not act — VC shaded (QTTT, Binh Dinh to Active Opp), VC 36
