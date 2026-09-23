@@ -1,0 +1,126 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #14 - M-48 Patton (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #127 - Coup! Nguyen Cao Ky",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "Sweep is prohibited [Not allowed in Monsoon]",
+      "color": "Red"
+    },
+    {
+      "text": "US Assault is prohibited [Momentum: #78 General Lansdale]",
+      "color": "Red"
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Saigon for Training",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 11",
+      "color": "Blue"
+    },
+    {
+      "text": "Place 2 ARVN Troops from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 4 ARVN Police from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS chooses Air Lift special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "May only choose 2 spaces in Monsoon",
+      "color": null
+    },
+    {
+      "text": "Move 1 US Troop from Saigon to An Loc",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -3 to 29",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 49 to 46",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +3 to 14",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

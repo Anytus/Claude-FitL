@@ -1,0 +1,38 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nVC Bot Pivotal Event die roll: 3  [Failure] (3 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 3  [Failure] (3 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "\nNVA Bot Pivotal Event die roll: 1  [Success] (3 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "NVA elects to play their Pivotal Event",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Replace the current event card with #122 - Easter Offensive",
+      "color": "Red"
+    }
+  ]
+}

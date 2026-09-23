@@ -22,3 +22,4 @@ card #6 Aces unshaded: 6 NVA Troops off Central Laos, Trail to 1 — deny shaded
 card #44 Ia Drang unshaded: Air Lift + Assault Kien Phong, NVA Base off — NVA 18→15; #78 Lansdale: ineligible
 card #85 USAID: Pass — ARVN at Econ, keep first eligible on Westmoreland
 card #95 Westmoreland: Patrol Kien Phong→Saigon + Advise Saigon/Pleiku, VC Base off, +6 Aid; #87 Chanh Thi: ineligible
+card #14 M-48: Train Saigon Police + Air Lift An Loc + Transfer Patronage 3 — prep Coup, ARVN off line; Coup 3 pacified Saigon/An Loc/Pleiku +15; Easter Offensive + Tet Offensive played by bots

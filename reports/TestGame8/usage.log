@@ -87,3 +87,14 @@
 2026-09-23T07:08:39	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -8	107	1288
 2026-09-23T07:08:45	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished moving"; python3 tool	154	7347
 2026-09-23T07:08:56	Bash	echo "none. **Result.** 2 VC off Saigon, Pleiku VC Base + Guerrilla removed (VC 	224	29052
+2026-09-23T07:09:31	Bash	cat >> journal.md <<'EOF'  ## Turn 17 — card #14 M-48 Patton — before save-089 *	977	6883
+2026-09-23T07:09:43	Bash	python3 tools/ctl.py seq "US Training=>Perform a Special" "Choose special activi	444	6128
+2026-09-23T07:09:48	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Finished wit	184	2379
+2026-09-23T07:09:53	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting"; python3 tools/ctl.py	159	1454
+2026-09-23T07:09:59	Bash	python3 tools/ctl.py seq "final Train action=>Transfer patronage"; python3 tools	158	1162
+2026-09-23T07:10:03	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py screen | tail -15	111	6767
+2026-09-23T07:10:14	Bash	echo "Train's final-action menu offered \"Transfer patronage to ARVN resources\"	381	14124
+2026-09-23T07:10:24	Bash	cat >> journal.md <<'EOF'  ## Coup 3 (#127 Nguyen Cao Ky) — Support phase **Plan	581	7125
+2026-09-23T07:10:33	Bash	echo "none. **Result.** +15 US (Saigon Active); ARVN also pacified Binh Dinh to 	211	7867
+2026-09-23T07:10:47	Bash	cat >> journal.md <<'EOF'  ## Coup 3 — Commitment **Plan.** Place the 4 Troop Ca	653	7838
+2026-09-23T07:11:31	Bash	python3 tools/ctl.py seq "Move how many=>1" "Choose one=>Finished moving" && pyt	188	42057

@@ -41,3 +41,7 @@
 - report-084-085.md: #95 - Westmoreland
 - report-086-088.md: #87 - Nguyen Chanh Thi
 - report-089-089.md: #14 - M-48 Patton
+- report-090-091.md: #14 - M-48 Patton
+- report-092-093.md: #127 - Coup! Nguyen Cao Ky
+- report-094-098.md: #7 - ADSID; #122 - Easter Offensive
+- report-099-101.md: #53 - Sappers; #124 - Tet Offensive

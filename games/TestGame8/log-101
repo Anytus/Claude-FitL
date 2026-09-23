@@ -1,0 +1,590 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #124 - Tet Offensive (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #106 - Binh Duong (VC, NVA, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nVC executes its Pivotal Event: Tet Offensive",
+      "color": "Red"
+    },
+    {
+      "text": "\nFree Terror with 1 Underground VC per space",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Saigon for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Saigon to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Saigon",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip Active Support marker in Saigon to Passive Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Binh Dinh for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove Passive Support marker from Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Hue for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Hue to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Hue",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip Passive Opposition marker in Hue to Active Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Quang Tin-Quang Ngai for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Quang Tin-Quang Ngai",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip Passive Opposition marker in Quang Tin-Quang Ngai to Active Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Kien Hoa-Vinh Binh for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Kien Hoa-Vinh Binh",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place Passive Opposition marker in Kien Hoa-Vinh Binh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Phu Bon-Phu Yen for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Phu Bon-Phu Yen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove Passive Support marker from Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Ba Xuyen for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Ba Xuyen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove Passive Support marker from Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Khanh Hoa for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Khanh Hoa to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Khanh Hoa",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove Passive Support marker from Khanh Hoa",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Quang Nam for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Nam to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Quang Nam",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place Passive Opposition marker in Quang Nam",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Quang Tri-Thua Thien for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Tri-Thua Thien to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Quang Tri-Thua Thien",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Kien Giang-An Xuyen for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Quang Duc-Long Khanh for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Duc-Long Khanh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Quang Duc-Long Khanh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Binh Tuy-Binh Thuan for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Binh Tuy-Binh Thuan",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects LOC Ban Me Thuot -- Da Lat for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in LOC Ban Me Thuot -- Da Lat to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Ban Me Thuot -- Da Lat",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects LOC Cam Ranh -- Da Lat for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in LOC Cam Ranh -- Da Lat to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Cam Ranh -- Da Lat",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC selects Southern Laos for Terror",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Southern Laos to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "There are no Terror\/Sabotage markers available",
+      "color": "Red"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 50 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 28 to 35",
+      "color": "Blue"
+    },
+    {
+      "text": "\nPlace 6 VC Pieces in any Cities",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Base from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Base from AVAILABLE into Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Base from AVAILABLE into Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Base from AVAILABLE into Kontum",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Base from AVAILABLE into Kontum",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Kontum",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 48 to 47",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 35 to 40",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC + NVA Guerrillas free Attack where there are enemies",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in Hue",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 2 NVA Underground Guerrillas in Hue to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Hue to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nDie roll (4 Guerrillas): 6 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 2 VC Underground Guerrillas in Saigon to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nDie roll (4 Guerrillas): 1 [Success!]",
+      "color": null
+    },
+    {
+      "text": "Remove 2 US Troops from Saigon to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nAttrition:",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 VC Active Guerrillas from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC + NVA Attack in LOC Cam Ranh -- Da Lat",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nDie roll (1 Guerrilla): 5 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in LOC Ban Me Thuot -- Da Lat",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nDie roll (1 Guerrilla): 3 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in Ba Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nDie roll (1 Guerrilla): 3 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in Phu Bon-Phu Yen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nDie roll (1 Guerrilla): 6 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in Kien Hoa-Vinh Binh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nDie roll (1 Guerrilla): 2 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 3 VC Underground Guerrillas in Quang Tin-Quang Ngai to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nDie roll (4 Guerrillas): 5 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC + NVA Attack in Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 NVA Underground Guerrilla in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nDie roll (4 Guerrillas): 2 [Success!]",
+      "color": null
+    },
+    {
+      "text": "Remove 2 US Underground Irregulars from Binh Dinh to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the VC cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

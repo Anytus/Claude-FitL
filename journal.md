@@ -150,3 +150,17 @@ none.
 **Plan.** Op Train Saigon: place 4 ARVN Police + 2 Troops (3 Res, to Econ); Air Lift 1 US Troop Saigon → An Loc. No Pacify now.
 **Why.** Coup on deck: ARVN 49 must not gain Control (no new COIN spaces). Police in Saigon + US Troops make Saigon (pop 6, Neutral) eligible for Coup pacification (+12 at 2 levels); An Loc also becomes eligible. ~17 spendable Res after Coup income at 4/level (Nguyen Cao Ky).
 **Execution.**
+Train's final-action menu offered "Transfer patronage to ARVN resources" (Saigon trained): took 3, ARVN 49→46 and Res 11→14.
+**Result.** Saigon now has 4 Police + 3 US Troops, An Loc 1 US Troop + 2 Police; ARVN pushed 3 below its line before the Coup.
+
+## Coup 3 (#127 Nguyen Cao Ky) — Support phase
+**Plan.** Pacify Saigon 2 levels, An Loc 2 levels, Pleiku-Darlac 1 level (20 Res at 4/level, 32 → Econ 12).
+**Why.** +15 US (Saigon Neutral→Active is +12) using income the ARVN bot would otherwise spend.
+**Execution.**
+none.
+**Result.** +15 US (Saigon Active); ARVN also pacified Binh Dinh to Passive Support.
+
+## Coup 3 — Commitment
+**Plan.** Place the 4 Troop Casualties one each in Qui Nhon, Cam Ranh, Can Tho, Da Nang; no other moves.
+**Why.** Each is a COIN City with Police below Active Support, so each becomes eligible for Train-Pacify or the next Coup's pacification; no Available pieces spent.
+**Execution.**
