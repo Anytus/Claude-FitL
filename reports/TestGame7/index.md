@@ -16,3 +16,6 @@
 - report-033-033.md: #43 - Economic Aid
 - report-034-036.md: #66 - Ambassador Taylor
 - report-037-038.md: #97 - Brinks Hotel
+- report-039-039.md: #97 - Brinks Hotel
+- report-040-042.md: #85 - USAID
+- report-043-044.md: #105 - Rural Pressure

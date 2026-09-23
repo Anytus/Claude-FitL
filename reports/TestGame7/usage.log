@@ -48,3 +48,5 @@
 2026-09-23T03:18:21	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" >/dev/null; python3 - <<'EOF' p='jou	466	30167
 2026-09-23T03:18:45	Bash	python3 tools/ctl.py commit-turn "card #107 Burning Bonze: Train+Pacify Saigon t	1105	9205
 2026-09-23T03:19:01	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Active" | tail -8; python3 -	420	37413
+2026-09-23T03:19:19	Bash	python3 tools/ctl.py commit-turn "card #43 Economic Aid: LimOp Train+Pacify Kien	988	11085
+2026-09-23T03:19:31	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	341	21384

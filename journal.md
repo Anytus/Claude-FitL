@@ -46,3 +46,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +4 US in a space with no ARVN cubes (Govern-proof) and no VC; Kien Phong lacks Police so the Coup Support phase can't reach it, while Kien Hoa/Ba Xuyen can be done there. Alternative (Assault KG to take COIN Control) weighed: no score for US.
 **Execution.** none
 **Result.** As planned: Kien Phong Active Support, ARVN Resources 24.
+
+## Turn 6 — card #97 Brinks Hotel — before save-039
+**Plan.** Limited Op Assault in Saigon: 3 US Troops with the US Base = 6 hits on the 3 Active VC Guerrillas.
+**Why.** 3 VC Guerrillas in Saigon threaten Terror and the Coup Agitate (total 4) against 12 points of Active Support; a Coup can come any draw now. Event (Aid +10 or 4 Patronage to Resources) weighed: nothing to do with Saigon.
+**Execution.** none
+**Result.** As planned: 6 hits, 3 VC Guerrillas removed from Saigon.
