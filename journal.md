@@ -178,3 +178,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Eligibility checked this time: US and VC Eligible, NVA not. On-deck #27 Phoenix Program prints US first; VC is Critical on its shaded side (Hue → Active Opposition + Terror). Passing keeps me first there to take the unshaded side (3 VC pieces from COIN Control spaces: Hue's 2 Guerrillas + Base). If the VC takes a LimOp now it is Ineligible on #27 anyway. Cost: a LimOp or Chou En Lai (−d6 NVA Troops) now.
 **Execution.** none
 **Result.** Passed (+3 ARVN Resources); VC to act.
+
+## Turn 23 — card #27 Phoenix Program — before save-124
+**Plan.** Op + SA: Train Saigon (no placement), Pacify Saigon: remove Terror + Passive → Active (8); Advise with ARVN Rangers in Hue (remove 2 VC Guerrillas) and QTTT (NVA Guerrilla, then an NVA Base); +6 Aid.
+**Why.** +6 US in Saigon; VC −2 Guerrillas in Hue; NVA −1 Base. VC is Ineligible on #27, so the shaded threat is gone and the Event (3 VC pieces) is worth less than this.
+**Execution.** Mechanic learned on #42: under Cadres a lone VC Guerrilla can still Terror (it is removed afterward) — my Turn 20 note was wrong. Stray answer: QTTT was auto-selected (only candidate) and my seq's next step typed "Quang Tri-Thua Thien" into the "+6 Aid? (y/n)" prompt, which re-prompted; then answered y.
+**Result.** As planned: Saigon Active (US 42→48), Hue's 2 VC Guerrillas and a QTTT NVA Base removed (NVA 11→10), Aid +6.

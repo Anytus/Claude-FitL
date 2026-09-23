@@ -62,3 +62,7 @@
 - report-120-121.md: #42 - Chou En Lai
 - report-122-123.md: #42 - Chou En Lai
 - report-124-124.md: #27 - Phoenix Program
+- report-125-126.md: #27 - Phoenix Program
+- report-127-129.md: #113 - Ruff Puff
+- report-130-132.md: #80 - Light at the End of the Tunnel
+- report-133-134.md: #62 - Cambodian Civil War

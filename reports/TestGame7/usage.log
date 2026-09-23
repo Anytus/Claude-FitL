@@ -156,3 +156,8 @@
 2026-09-23T04:22:37	Bash	python3 tools/ctl.py screen | grep -A3 "assaults in Kien Phong"; python3 - <<'EO	642	22835
 2026-09-23T04:23:00	Bash	python3 tools/ctl.py commit-turn "card #104 Main Force Bns: Air Lift Da Nang to 	1011	7534
 2026-09-23T04:23:06	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	381	13813
+2026-09-23T04:23:28	Bash	python3 tools/ctl.py commit-turn "card #42 Chou En Lai: Passed to stay first on 	1120	7659
+2026-09-23T04:23:36	Bash	python3 tools/ctl.py seq "Pacify=>Remove 1 terror marker and shift" "special act	299	5045
+2026-09-23T04:23:40	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	205	2852
+2026-09-23T04:24:12	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" | tail -3; python3 - <<'EOF' p='jour	678	20877
+2026-09-23T04:24:18	Bash	ls reports/TestGame7/ | tail -5; for f in $(ls reports/TestGame7/report-12[4-9]*	387	6423

@@ -51,3 +51,4 @@ card #18 replaced by ARVN pivotal Vietnamization: US ineligible — NVA Infiltra
 card #104 Main Force Bns: Air Lift Da Nang to KP, QTQN; Assault KP, QTQN, KG — 11 NVA Troops killed, KP COIN again
 card #109 Nguyen Huu Tho: US ineligible — NVA Attack Binh Dinh (1 Troop, 3 Irregulars lost)
 card #42 Chou En Lai: Passed to stay first on #27 Phoenix Program — deny VC shaded (Hue)
+card #27 Phoenix Program: Train+Pacify Saigon (terror off, Active); Advise Rangers Hue (2 VC), QTTT (NVA Base); +6 Aid — +6 US
