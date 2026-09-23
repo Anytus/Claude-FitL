@@ -1,0 +1,126 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #105 - Rural Pressure (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS assaults in Kien Hoa-Vinh Binh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 2 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Kien Hoa-Vinh Binh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS assaults in Kien Giang-An Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 2 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Troop from Kien Giang-An Xuyen to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 37 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS chooses Air Lift special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Move 1 US Troop from Quang Tri-Thua Thien to Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

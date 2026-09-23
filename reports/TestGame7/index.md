@@ -19,3 +19,6 @@
 - report-039-039.md: #97 - Brinks Hotel
 - report-040-042.md: #85 - USAID
 - report-043-044.md: #105 - Rural Pressure
+- report-045-045.md: #105 - Rural Pressure
+- report-046-048.md: #78 - General Lansdale
+- report-049-050.md: #38 - McNamara Line

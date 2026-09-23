@@ -22,3 +22,4 @@ card #43 Economic Aid: LimOp Train+Pacify Kien Phong to Active Support — +4 US
 card #66 Ambassador Taylor: US ineligible — ARVN Train Saigon/Hue, Govern Pleiku to Passive
 card #97 Brinks Hotel: LimOp Assault Saigon, 3 VC Guerrillas removed — protect Saigon from Terror and Agitate
 card #85 USAID: US ineligible — ARVN shaded Event; NVA Rally, Trail 4, Infiltrate 20 Troops
+card #105 Rural Pressure: Assault Kien Hoa, Kien Giang; Air Lift QTTT Troop to Hue — last Assault before Lansdale; Hue Coup-pacifiable

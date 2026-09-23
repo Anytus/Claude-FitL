@@ -52,3 +52,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** 3 VC Guerrillas in Saigon threaten Terror and the Coup Agitate (total 4) against 12 points of Active Support; a Coup can come any draw now. Event (Aid +10 or 4 Patronage to Resources) weighed: nothing to do with Saigon.
 **Execution.** none
 **Result.** As planned: 6 hits, 3 VC Guerrillas removed from Saigon.
+
+## Turn 7 — card #105 Rural Pressure — before save-045
+**Plan.** Op + SA: Assault Kien Hoa-Vinh Binh (1 Active VC) and Kien Giang-An Xuyen (1 NVA Troop); Advise with a Kien Phong Irregular on its NVA Guerrilla; +6 Aid.
+**Why.** ARVN is Critical on Lansdale shaded next card (no US Assault until the Coup), so Assault now. Takes COIN Control in Kien Giang and keeps Kien Hoa clean for the Coup Support phase. Pacifying now is capped at 1 level (ARVN Resources 20, Econ 15); the +6 Aid feeds the Coup pacification budget.
+**Execution.** seq stopped at "Choose special activity=>Advise": "no menu entry starts with 'Advise'" (menu offered Air Lift, Air Strike only). Mechanic: Advise is not offered with Assault (only Train/Patrol, inferred). Deviation: Air Lifted the QTTT Troop to Hue instead, so Hue qualifies for Coup pacification (COIN, Police, US Troop); no Aid.
+**Result.** VC Guerrilla out of Kien Hoa; 1 NVA Troop out of Kien Giang (COIN Control); 1 US Troop now in Hue.
