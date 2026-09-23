@@ -1,0 +1,102 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #91 - Bob Hope (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #19 - CORDS (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op Only",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Binh Tuy-Binh Thuan for Training",
+      "color": null
+    },
+    {
+      "text": "\nPacifying in Binh Tuy-Binh Thuan",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 2 levels in Binh Tuy-Binh Thuan",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -6 to 46",
+      "color": "Blue"
+    },
+    {
+      "text": "Remove Active Opposition marker from Binh Tuy-Binh Thuan",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 38 to 36",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

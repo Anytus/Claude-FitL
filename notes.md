@@ -40,3 +40,4 @@ card #30 New Jersey: Train+Pacify Hue Active (+4), Advise Kien Giang VC; #41 Bom
 card #13 Cobras: Train+Pacify Binh Dinh Active (+4), Air Lift Troop to Pleiku — prep Coup 5
 Coup 5: pacified An Loc, Pleiku, Da Nang, Qui Nhon (+6); 3 Troops to Saigon for VC-base strikes
 card #8 Arc Light: Sweep + Air Strike Binh Tuy, 2 VC Bases — VC 39→37; #80 Light at End: ineligible
+card #91 Bob Hope: LimOp Train+Pacify Binh Tuy to Neutral — VC 38→36; #19 CORDS: ineligible

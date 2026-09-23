@@ -1,0 +1,186 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #84 - To Quoc (ARVN, VC, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #32 - Long Range Guns (NVA, US, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - U",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3+ VC Guerrillas in any space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Terror operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Ba Xuyen for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Ba Xuyen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip Passive Opposition marker in Ba Xuyen to Active Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 36 to 37",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Patronage >= 17? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Subvert special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC Subverts in Phu Bon-Phu Yen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Police from Phu Bon-Phu Yen to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC Subverts in LOC Ban Me Thuot -- Da Lat",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 ARVN Police from LOC Ban Me Thuot -- Da Lat to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -1 to 30",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 49 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of VC Subvert activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

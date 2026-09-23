@@ -90,3 +90,6 @@
 - report-180-181.md: #8 - Arc Light
 - report-182-184.md: #80 - Light at the End of the Tunnel
 - report-185-186.md: #91 - Bob Hope
+- report-187-187.md: #91 - Bob Hope
+- report-188-190.md: #19 - CORDS
+- report-191-192.md: #84 - To Quoc

@@ -176,3 +176,5 @@
 2026-09-23T07:27:47	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Binh Tuy" "Air Strike: (=>R	225	3679
 2026-09-23T07:27:51	Bash	python3 tools/ctl.py seq "Air Strike: (=>Degrade the trail"; python3 tools/ctl.p	148	2398
 2026-09-23T07:28:03	Bash	echo "Booby Traps took 1 Troop. Air Strike rolled 5; Trail degrade failed its To	274	33459
+2026-09-23T07:28:37	Bash	python3 tools/ctl.py commit-turn "card #8 Arc Light: Sweep + Air Strike Binh Tuy	932	8772
+2026-09-23T07:28:53	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" && echo "none. **Result.** see	207	37521

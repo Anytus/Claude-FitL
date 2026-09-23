@@ -300,3 +300,10 @@ none.
 **Execution.**
 Booby Traps took 1 Troop. Air Strike rolled 5; Trail degrade failed its Top Gun roll (2) and used the 2 hits.
 **Result.** VC 39→37 (both Binh Tuy Bases).
+
+## Turn 32 — card #91 Bob Hope — before save-186
+**Plan.** LimOp Train Binh Tuy-Binh Thuan (no placement) + Pacify 2 levels (Active Opposition → Neutral), 6 Res.
+**Why.** VC 38 must reach ≤35 by the final Coup; Binh Tuy is COIN-controlled by my lone Troop, so pacifying there is a certain VC -2 now, before NVA's LimOp can March into it. Rejected: Pass to act first on #19 CORDS (keeps CORDS from VC but risks losing Binh Tuy Control).
+**Execution.**
+none.
+**Result.** VC 38→36 (Binh Tuy Neutral). ARVN then Swept 13 Troops into Kien Hoa (10 VC activated); VC Terror Ba Xuyen (37).
