@@ -106,3 +106,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Breaks NVA Control in both pop-2 spaces (NVA 17→13) and strips 9 NVA Troops, giving margin under 18 for this campaign; COIN Control in QTQN sets up later Train/Pacify there. Underground Guerrillas shield the VC Bases, so no Base kills expected.
 **Execution.** Added: Air Lifted 1 Underground Irregular Kien Phong→Kien Giang (future Advise vs its NVA Guerrilla). Kien Giang Assault auto-selected as the only remaining space.
 **Result.** As planned: 9 NVA Troops removed, NVA Control broken in QTQN and Kien Giang; NVA 17→13; COIN Control in both.
+
+## Turn 14a — pivotal offer at draw of #95 (current #46 559th Transport Grp) — before save-078
+**Plan.** Decline Linebacker II.
+**Why.** NVA at 12 (6 under); Casualties box empty so its recovery half is wasted; keep it for a real NVA surge.
+**Execution.** none
+**Result.** Declined.
+
+## Turn 14 — card #46 559th Transport Grp — before save-080
+**Plan.** Op + SA: Train Binh Dinh (no placement) and Pleiku-Darlac (2 ARVN Police via the US Base, 3 Resources); Pacify Binh Dinh Active Opposition → Neutral (6). Advise with Irregulars in Kien Phong and Kien Giang (remove their NVA Guerrillas); +6 Aid.
+**Why.** −4 VC in a space with Police, so on-deck Westmoreland shaded (VC Critical: 3 Provinces without Police, 2 levels toward Opposition) can't reverse it; Police shields Pleiku's Support. Advise cleans the delta. Event (Trail −2) weighed: NVA at 12 is not the pressing threat.
+**Execution.** VC passed first, so the pivotal was offered a second time; declined again. Placed 2 ARVN Troops + 2 Police in Pleiku. Deviation: Advise menu offered Quang Nam's Ranger; used it on 2 NVA Troops there instead of the Kien Phong Guerrilla.
+**Result.** Binh Dinh Neutral (VC 24→20); Pleiku has Police; 2 NVA Troops out of Quang Nam, NVA Guerrilla out of Kien Giang; Aid 16.

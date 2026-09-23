@@ -105,3 +105,17 @@
 2026-09-23T04:05:11	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" | tail -12	137	8460
 2026-09-23T04:05:15	Bash	python3 tools/ctl.py screen | grep -B2 -A14 "assaults in Kien Giang"	134	575
 2026-09-23T04:05:28	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() i=s.rfind("**Execution.**\n**R	593	14239
+2026-09-23T04:05:38	Bash	python3 tools/ctl.py commit-turn "card #100 Rach Ba Rai: Air Lift 9 Troops to QT	479	5699
+2026-09-23T04:08:02	Bash	echo "Kevin remark (after card #90, unsolicited): he has found it effective to l	561	843
+2026-09-23T04:08:49	Bash	python3 tools/ctl.py status && python3 tools/ctl.py screen | tail -8	122	631
+2026-09-23T04:08:54	Bash	cat >> journal.md <<'EOF'  ## Turn 14a — pivotal offer at draw of #95 (current #	476	5331
+2026-09-23T04:08:59	Bash	python3 tools/ctl.py seq "*=>No" | tail -2; python3 tools/ctl.py brief	153	10797
+2026-09-23T04:09:31	Bash	cat >> journal.md <<'EOF'  ## Turn 14 — card #46 559th Transport Grp — before sa	915	4869
+2026-09-23T04:09:35	Bash	python3 tools/ctl.py seq "Training in Pleiku-Darlac=>Place ARVN Troops/Police"	159	870
+2026-09-23T04:09:41	Bash	python3 tools/ctl.py seq "Place how many ARVN Troops=>2"	130	888
+2026-09-23T04:09:46	Bash	python3 tools/ctl.py seq "Place how many ARVN Police=>2" "US Training=>Select a 	211	3053
+2026-09-23T04:09:53	Bash	python3 tools/ctl.py seq "Training in Binh Dinh=>Do not place" "US Training=>Fin	254	3283
+2026-09-23T04:09:59	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Neutral" "special activity? 	255	3756
+2026-09-23T04:10:06	Bash	python3 tools/ctl.py seq "Use Irregular/Ranger in which space=>Quang Nam"	159	1477
+2026-09-23T04:10:13	Bash	python3 tools/ctl.py seq "How many NVA Troops=>2" "Choose Advise option=>Use Irr	243	3177
+2026-09-23T04:10:42	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" | tail -2; python3 - <<'EOF' p='jour	739	37709

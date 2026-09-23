@@ -39,3 +39,6 @@
 - report-074-074.md: #100 - Rach Ba Rai
 - report-075-077.md: #90 - Walt Rostow
 - report-078-078.md: #46 - 559th Transport Grp
+- report-079-080.md: #46 - 559th Transport Grp
+- report-081-085.md: #95 - Westmoreland; #122 - Easter Offensive
+- report-086-086.md: #53 - Sappers

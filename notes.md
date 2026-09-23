@@ -37,3 +37,4 @@ pivotal offer at #100: declined Linebacker II — keep for later NVA surge, no C
 card #100 Rach Ba Rai: Air Lift 9 Troops to QTQN, 4 to Kien Giang, Assault both — 9 NVA Troops killed, NVA 17 to 13
 card #90 Walt Rostow: US ineligible — ARVN Transport+Assault QTTT; NVA shaded Event, Guerrillas in 8 provinces
 Kevin remark (after card #90, unsolicited): he has found it effective to let the NVA build big Troop stacks, then Air Lift a massive US force into one counter-attack.
+card #46 559th Transport Grp: Train Pleiku (ARVN Police) + Binh Dinh, Pacify Binh Dinh; Advise Quang Nam, Kien Giang; +6 Aid — -4 VC, shield Pleiku
