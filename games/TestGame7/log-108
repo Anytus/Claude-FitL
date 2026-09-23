@@ -1,0 +1,90 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #114 - Tri Quang (VC, ARVN, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Tri Quang",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip Active Support marker in Da Nang to Passive Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "Remove Passive Support marker from Hue",
+      "color": "Yellow"
+    },
+    {
+      "text": "Flip Active Support marker in Saigon to Passive Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 49 to 40",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the VC cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

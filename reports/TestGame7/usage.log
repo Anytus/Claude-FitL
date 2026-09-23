@@ -145,3 +145,5 @@
 2026-09-23T04:19:37	Bash	python3 tools/ctl.py commit-turn "3rd Coup #127 Nguyen Cao Ky: pacified Kien Hoa	1217	6842
 2026-09-23T04:19:49	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	646	23502
 2026-09-23T04:19:58	Bash	python3 -c " import json c=json.load(open('cards.json')) it=c.values() if isinst	270	1941
+2026-09-23T04:20:09	Bash	python3 tools/ctl.py commit-turn "card #25 TF-116 Riverines: Passed (misread: VC	804	5916
+2026-09-23T04:20:25	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	532	38326

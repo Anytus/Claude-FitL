@@ -51,3 +51,6 @@
 - report-098-098.md: #25 - TF-116 Riverines
 - report-099-100.md: #25 - TF-116 Riverines
 - report-101-101.md: #28 - Search and Destroy
+- report-102-104.md: #121 - Linebacker II
+- report-105-106.md: #72 - Body Count
+- report-107-108.md: #114 - Tri Quang

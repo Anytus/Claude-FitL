@@ -1,0 +1,26 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "US elects to play their Pivotal Event",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Replace the current event card with #121 - Linebacker II",
+      "color": "Red"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #121 - Linebacker II (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #72 - Body Count (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - U",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3+ VC Guerrillas in any space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space not at Active Opposition? [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - UU",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available VC pieces (18): 9 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Quang Tin-Quang Ngai for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 VC Underground Guerrillas from AVAILABLE into Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Quang Tin-Quang Ngai",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 18 to 16",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Tay Ninh for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Spaces exist that can be Taxed? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 > Agitate Total (3): 3 [No]",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

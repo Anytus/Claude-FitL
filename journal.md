@@ -154,3 +154,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** On-deck #28 Search and Destroy shaded (VC Critical) is a lasting capability shifting every US/ARVN Assault Province toward Opposition — it would tax my main anti-NVA tool for the rest of the game. Passing keeps me first on #28 (printed order US first); by the Tru'ng rules the VC (Op+SA) and NVA (LimOp) act on #25 and are then Ineligible on #28, so I can take a full Air Lift + Assault there (fallback: take the unshaded Event myself). Cost: one tempo with NVA at 20; next Coup is 5+ cards away. Linebacker would make me Ineligible on #28.
 **Execution.** Reasoning error: the briefing listed VC and NVA as Ineligible on #25 (they acted on Tet); I missed it. They cannot act on #25, so both are Eligible on #28 with the VC second behind me. The pass still guarantees me first on #28, but only the fallback remains: take S&D unshaded myself, no Op.
 **Result.** Passed (+3 ARVN Resources); ARVN acts alone on #25.
+
+## Turn 19 — pivotal Linebacker II at draw of #72 (replacing #28 Search and Destroy) — before save-101
+**Plan.** Play Linebacker II.
+**Why.** Replaces #28, so its shaded capability (VC Critical, second in order) never plays; NVA removes 2 Bases (20→18) and is Ineligible through #72; my 2 Casualties go to Available (+2). S&D unshaded weighed: weak capability (helps only when an Assault would remove nothing) and leaves NVA at 20 with a free hand.
+**Execution.** seq stopped at "Choose one=>Event": the pivotal executes directly on perform (no menu).
+**Result.** As planned: NVA removed Bases in Southern and Central Laos (NVA 20→18), NVA Ineligible through #72, 2 Troops Casualties→Available (US 47→49).

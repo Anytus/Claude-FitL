@@ -1,0 +1,242 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 6  [Failure] (3 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #72 - Body Count (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #114 - Tri Quang (VC, ARVN, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, US, VC",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - H",
+      "color": null
+    },
+    {
+      "text": "Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Transport special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Quang Tri-Thua Thien as Transport destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Troop from Hue to Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Underground Ranger from Hue to Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Quang Tri-Thua Thien",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 16 to 14",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFlip all Rangers underground",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no Active Rangers on the map",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Transport activity",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would add COIN Control? [No]",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 42",
+      "color": "Blue"
+    },
+    {
+      "text": "The assault inflicts 7 hits",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 2 VC Active Guerrillas from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 VC Base from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nEach insurgent base removed by ARVN Assault adds +6 Aid",
+      "color": null
+    },
+    {
+      "text": "Increase US Aid by +6 to 7",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 31 to 30",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 4 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in LOC Can Tho -- Bac Lieu",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "The assault inflicts 1 hit",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Active Guerrilla from LOC Can Tho -- Bac Lieu to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}
