@@ -152,3 +152,6 @@
 2026-09-23T07:22:21	Bash	cat >> journal.md <<'EOF'  ## Coup 4 — Commitment **Plan.** Place the 4 Troop Ca	716	8026
 2026-09-23T07:22:30	Bash	python3 tools/ctl.py seq "Move how many=>1" "Choose one=>Finished moving" && ech	268	19494
 2026-09-23T07:22:36	Bash	python3 -c " import json;c=json.load(open('cards.json')) cs=c if isinstance(c,li	435	3677
+2026-09-23T07:22:48	Bash	python3 tools/ctl.py commit-turn "Coup 4: pacified Saigon, Hue, Cam Ranh, Qui Nh	775	6462
+2026-09-23T07:22:53	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Choose one=>Event"; python3 	172	9288
+2026-09-23T07:23:07	Bash	echo "\"perform\" executed the pivotal directly (no Choose-one menu), so my \"Ev	356	37024

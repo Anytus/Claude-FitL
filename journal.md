@@ -251,3 +251,10 @@ Hue's terror label was "Remove 1 terror marker and shift 2 levels to Neutral".
 **Execution.**
 none.
 **Result.** Troops placed; US 43 after Coup 4.
+
+## Pivotal — Linebacker II (replacing #111 Agent Orange) — before the #111 turn
+**Plan.** Play Linebacker II.
+**Why.** It deletes Agent Orange, where VC is first Eligible and Critical/Shaded (would shift Binh Dinh, Khanh Hoa, Binh Tuy and others toward Opposition); NVA loses 2 Bases (16→14) and goes Ineligible through next card. Casualties box is empty, so the Available clause gives nothing.
+**Execution.**
+"perform" executed the pivotal directly (no Choose-one menu), so my "Event" step found no prompt and was not sent.
+**Result.** NVA 16→14 (Parrot's Beak, Central Laos Bases); NVA Ineligible through #65; Agent Orange never played.

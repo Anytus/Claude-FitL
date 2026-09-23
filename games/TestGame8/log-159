@@ -1,0 +1,258 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #121 - Linebacker II (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #65 - International Forces (ARVN, US, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : ARVN",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - W",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space with US Troops? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - V",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available VC pieces (5): 13 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - VV",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3+ VC Guerrillas in any spaces with US Troops and no VC Base? [No]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Terror operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Ba Xuyen for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Ba Xuyen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place Passive Opposition marker in Ba Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 35 to 36",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Phu Bon-Phu Yen for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Phu Bon-Phu Yen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "Place Passive Opposition marker in Phu Bon-Phu Yen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 36 to 37",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Subvert special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC Subverts in LOC Ban Me Thuot -- Da Lat",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Police from LOC Ban Me Thuot -- Da Lat to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into LOC Ban Me Thuot -- Da Lat",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC Subverts in LOC Cam Ranh -- Da Lat",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Police from LOC Cam Ranh -- Da Lat to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -1 to 27",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 45 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of VC Subvert activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

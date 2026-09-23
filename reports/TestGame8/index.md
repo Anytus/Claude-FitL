@@ -74,3 +74,6 @@
 - report-153-153.md: #128 - Coup! Nguyen Van Thieu
 - report-154-154.md: #128 - Coup! Nguyen Van Thieu
 - report-155-155.md: #111 - Agent Orange
+- report-156-159.md: #121 - Linebacker II
+- report-160-161.md: #65 - International Forces
+- report-162-162.md: #4 - Top Gun
