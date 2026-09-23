@@ -184,3 +184,11 @@
 2026-09-23T04:30:56	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Passive Support" 2>&1 | grep	569	24365
 2026-09-23T04:31:02	Bash	for f in reports/TestGame7/report-149-*.md reports/TestGame7/report-15[0-5]*.md;	465	3834
 2026-09-23T04:31:17	Bash	python3 tools/ctl.py brief | grep -E "^  [A-Z]" | grep -vE "LOC|empty LoCs|^  (U	313	2763
+2026-09-23T04:31:54	Bash	python3 tools/ctl.py commit-turn "card #58 Pathet Lao: LimOp Train+Pacify Hue to	1444	5478
+2026-09-23T04:32:01	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels to Neutral" "special activity? 	297	2600
+2026-09-23T04:32:05	Bash	python3 tools/ctl.py screen | grep -E "Pacifies|Total Opposition|Remove Active|N	290	1782
+2026-09-23T04:32:11	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space" 2>&1 | grep -vE	179	1030
+2026-09-23T04:32:17	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>None of the above" 2>&1 |	193	1257
+2026-09-23T04:32:21	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	241	2012
+2026-09-23T04:32:37	Bash	python3 tools/ctl.py seq "+6 Aid? (y/n)=>y" | tail -2; python3 - <<'EOF' p='jour	800	22755
+2026-09-23T04:32:42	Bash	for f in reports/TestGame7/report-157*.md reports/TestGame7/report-158*.md repor	509	5004

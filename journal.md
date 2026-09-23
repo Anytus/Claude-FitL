@@ -214,3 +214,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** VC is at 36 (score +1) with a Coup possible in ~4 cards; this is −2 VC (to 34) and +2 US, the most one space gives. Event (NVA removes 6 pieces from NVA/Laos) weighed: doesn't touch the VC.
 **Execution.** none
 **Result.** As planned: Hue Passive Support (VC 36→34, US +2).
+
+## Turn 28 — card #20 Laser Guided Bombs — before save-157
+**Plan.** Op + SA: Train Kien Giang-An Xuyen (2 Irregulars), Pacify it Active Opposition → Neutral (2 levels, 8); Advise with ARVN Rangers in Hue (2 VC Guerrillas) and QTTT (2 NVA Troops); +6 Aid.
+**Why.** VC 39 > 35 and the Coup can be drawn at the end of this card; Kien Giang is the only Opposition space I can Train (COIN Control + US pieces): −4 VC → 35 (score 0). Hue Advise strips its Terror carriers; QTTT breaks NVA Control (−2 NVA). Advise on Kien Giang's lone VC Base (−1) rejected: it would bar the −4 pacify there.
+**Execution.** Tried to switch the second Advise to an ARVN Assault on Hue's now-lone VC Base; Hue was not offered (already an Advise space this action). Backed out with "None of the above" and used the QTTT Ranger as planned.
+**Result.** As planned: Kien Giang Neutral (VC 39→35, score 0); Hue's 2 VC Guerrillas removed; QTTT NVA Control broken (NVA 14→12); Aid +6.

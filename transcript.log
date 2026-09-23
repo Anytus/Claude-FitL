@@ -5825,4 +5825,427 @@ Eligible      : US, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+Pacification costs 4 resources per terror/level [Leader: Nguyen Cao Ky]
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: 
+====================================================
+1) Saigon
+2) Kien Giang-An Xuyen
+3) Kien Phong
+4) Pleiku-Darlac
+5) None of the above
+----------------------------------------------------
+Selection: 2
+
+US selects Kien Giang-An Xuyen for Training
+
+Training in Kien Giang-An Xuyen:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 2
+[35mPlace 2 US Underground Irregulars from AVAILABLE into Kien Giang-An Xuyen[0m
+
+1 space selected for Training
+----------------------------------------------------
+Kien Giang-An Xuyen
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Giang-An Xuyen
+
+Pacifying in Kien Giang-An Xuyen
+----------------------------------------------------
+The cost to pacify is 4 per level/terror marker [Leader: Nguyen Cao Ky]
+
+Pacify:
+====================================================
+1) Shift 2 levels to Neutral
+2) Shift 1 level to Passive Opposition
+3) Do not pacify in Kien Giang-An Xuyen
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Giang-An Xuyen
+----------------------------------------------------
+[34mDecrease ARVN resources by -8 to 31[0m
+[33mRemove Active Opposition marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 39 to 35[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Hue
+2) Pleiku-Darlac
+3) Quang Tri-Thua Thien
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Hue using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Hue to ACTIVE[0m
+[35mRemove 2 VC Underground Guerrillas from Hue to AVAILABLE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Hue
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 2
+ARVN Assault in which space: 
+====================================================
+1) Pleiku-Darlac
+2) Quang Tri-Thua Thien
+3) None of the above
+----------------------------------------------------
+Selection: 3
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Hue
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Pleiku-Darlac
+2) Quang Tri-Thua Thien
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+Advise in Quang Tri-Thua Thien using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Quang Tri-Thua Thien to ACTIVE[0m
+[35mRemove 2 NVA Troops from Quang Tri-Thua Thien to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Quang Tri-Thua Thien[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 12[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Hue, Quang Tri-Thua Thien
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 15[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #20 - Laser Guided Bombs (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Laser Guided Bombs
+----------------------------------------------------
+[31m
+Capability: '#20 Laser Guided Bombs (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 88
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+On Deck card  : #88 - Phan Quang Dan (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (8): 10 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - RR
+Trung check: Underground NVA Guerrillas in space with Support? [Yes]
+
+NVA chooses Terror operation
+====================================================
+
+NVA selects Kien Phong for Terror
+[36mFlip 1 NVA Underground Guerrilla in Kien Phong to ACTIVE[0m
+[33mAdd 1 terror marker to Kien Phong[0m
+[33mRemove Passive Support marker from Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 45 to 43[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Qui Nhon for Terror
+[36mFlip 1 NVA Underground Guerrilla in Qui Nhon to ACTIVE[0m
+[33mAdd 1 terror marker to Qui Nhon[0m
+[33mRemove Passive Support marker from Qui Nhon[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 43 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Kontum for Terror
+[36mFlip 1 NVA Underground Guerrilla in Kontum to ACTIVE[0m
+[33mAdd 1 terror marker to Kontum[0m
+[33mRemove Passive Support marker from Kontum[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 42 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Pleiku-Darlac for Terror
+[33mAdd 1 terror marker to Pleiku-Darlac[0m
+[33mRemove Passive Support marker from Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 41 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Quang Tri-Thua Thien for Terror
+[33mAdd 1 terror marker to Quang Tri-Thua Thien[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Pleiku-Darlac
+----------------------------------------------------
+[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+On Deck card  : #88 - Phan Quang Dan (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - W
+Trung check: Underground VC Guerrillas in space with US Troops? [Yes]
+Trung check: 3d6 <= Available VC pieces (20): 12 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 71
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #88 - Phan Quang Dan (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #71 - An Loc (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Ignored)
+Eligible      : ARVN, US
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Phan Quang Dan
+----------------------------------------------------
+[34mIncrease Patronage by +5 to 32[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 48 to 53[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #88 - Phan Quang Dan (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #71 - An Loc (ARVN, NVA, US, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Ignored)
+Eligible      : US
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC, NVA
 (perform or ?): 

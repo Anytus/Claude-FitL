@@ -78,3 +78,6 @@
 - report-150-152.md: #35 - Thanh Hoa
 - report-153-155.md: #119 - My Lai
 - report-156-156.md: #20 - Laser Guided Bombs
+- report-157-158.md: #20 - Laser Guided Bombs
+- report-159-161.md: #41 - Bombing Pause
+- report-162-163.md: #88 - Phan Quang Dan
