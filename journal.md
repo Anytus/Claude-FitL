@@ -148,3 +148,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Stages 5 in Da Nang beside QTQN (my 5 Troops vs 11 Guerrillas, 2 VC Bases, already Active Opposition): Sweep 11 in to activate all, then Air Strike at no Support cost. Delta has no enemy pieces; Air Lift can return Troops there. Keeps Available points.
 **Execution.** none
 **Result.** As planned: Da Nang 5 US Troops, Kien Giang 2.
+
+## Turn 18 — card #25 TF-116 Riverines (pivotal offer, then first Eligible) — before save-099
+**Plan.** Decline Linebacker II; Pass on #25.
+**Why.** On-deck #28 Search and Destroy shaded (VC Critical) is a lasting capability shifting every US/ARVN Assault Province toward Opposition — it would tax my main anti-NVA tool for the rest of the game. Passing keeps me first on #28 (printed order US first); by the Tru'ng rules the VC (Op+SA) and NVA (LimOp) act on #25 and are then Ineligible on #28, so I can take a full Air Lift + Assault there (fallback: take the unshaded Event myself). Cost: one tempo with NVA at 20; next Coup is 5+ cards away. Linebacker would make me Ineligible on #28.
+**Execution.** Reasoning error: the briefing listed VC and NVA as Ineligible on #25 (they acted on Tet); I missed it. They cannot act on #25, so both are Eligible on #28 with the VC second behind me. The pass still guarantees me first on #28, but only the fallback remains: take S&D unshaded myself, no Op.
+**Result.** Passed (+3 ARVN Resources); ARVN acts alone on #25.

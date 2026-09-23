@@ -43,3 +43,4 @@ card #53 Sappers: Event unshaded, -2 NVA Troops in QTQN, Quang Nam, QDLK; stay E
 card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available — +3 US, deny NVA the shaded side
 3rd Coup #127 Nguyen Cao Ky: pacified Kien Hoa; 3 casualties + 2 Troops to Da Nang — +2 US; stage vs QTQN
 card #64 replaced by VC pivotal Tet Offensive: US did not act — NVA March, NVA 20
+card #25 TF-116 Riverines: Passed (misread: VC/NVA were already Ineligible) — meant to deny #28 shaded capability

@@ -49,3 +49,5 @@
 - report-093-093.md: #127 - Coup! Nguyen Cao Ky
 - report-094-097.md: #64 - Honolulu Conference; #124 - Tet Offensive
 - report-098-098.md: #25 - TF-116 Riverines
+- report-099-100.md: #25 - TF-116 Riverines
+- report-101-101.md: #28 - Search and Destroy
