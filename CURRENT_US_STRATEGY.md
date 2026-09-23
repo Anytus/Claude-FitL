@@ -1,9 +1,16 @@
 # Current US strategy
 
-Advice distilled from five games against the Tru'ng bots. It records what has
+Advice distilled from six games against the Tru'ng bots. It records what has
 worked and what has cost games; it is **not** a set of rules, and you are free
 to play differently when the board says so. The rules are in
 `RULES_LEARNED.md` and on the cards.
+
+**All six games allowed a US win at any Coup; this game does not.** The US
+now wins only by holding the highest margin after the final Coup, and loses
+the moment any bot crosses its threshold at any Coup. Read the advice below
+with that in mind: crossing 50 early no longer ends the game, so the
+lessons about timing a win are now lessons about keeping all three bots below
+their lines at every Coup while building a margin that lasts.
 
 Record so far: lost to the VC at the 3rd Coup (game 1); won at the 3rd Coup
 by 4, 8 and 10 (games 2, 3, 5) and at the 2nd Coup by 6 and 2 (games 4 and 6).
@@ -14,12 +21,11 @@ keeping the score in the box and a few Cities, with nothing on the map that
 could stop the VC. Saigon is the first purchase in every game (pop 6, and
 Govern cannot reach it); pop-2 spaces come next.
 
-**Victory is strictly above 50, checked first in the Coup.** Twice the US sat
-on exactly 50 at a Victory check and lost a whole campaign to it. Nothing the
-Coup itself does counts for that check. Know the margin you need two cards
-before a Coup card can appear, and spend an action buying it. Because the
-highest score above 0 wins, a point of your own counts against every rival at
-once. Check all three rivals each card: one NVA March can cross its 18.
+**The Victory check comes first in the Coup.** Nothing the Coup itself does
+counts for that check. Know each bot's margin two cards before a Coup card
+can appear, and spend an action pushing back any bot close to its line: one
+NVA March can cross its 18. Because the final result is decided by margins,
+a point of your own counts against every rival at once.
 
 **Prepare the Coup Support phase before the Coup card turns.** Spaces with
 COIN Control, US Troops and ARVN Police below Active Support are pacified in
@@ -66,5 +72,6 @@ on deck: read which is which before playing one.
 
 **Long games.** Each Coup makes the bots' pivotals likelier, and Tet
 Offensive can undo a campaign in one card. At Trail 4 NVA stacks cross from
-the sanctuaries in one March. Getting over the line early is worth more than
-building a lead for later.
+the sanctuaries in one March. A lead has to survive to the final Coup, so
+durable Support (Saigon, spaces without ARVN cubes, spaces cleared of
+Guerrillas) is worth more than points that the next Terror or Govern takes.

@@ -153,7 +153,11 @@ def render(state, game, n, cards, full=False):
     for f in S.ranked(sc):
         s = sc[f]
         w(f"  {f:<4} points {s['points']:>3}  score {s['score']:+d}   ({s['detail']})")
-    w("  Victory order on ties: VC, ARVN, NVA, US. A faction with score > 0 at a Coup Victory phase wins.")
+    if state.get("humanWinInVictoryPhase", True):
+        w("  Victory order on ties: VC, ARVN, NVA, US. A faction with score > 0 at a Coup Victory phase wins.")
+    else:
+        w("  The US cannot win at a Victory phase; a bot with score > 0 there wins. After the final Coup the")
+        w("  highest score wins, ties to the bots (then VC, ARVN, NVA).")
     return "\n".join(out)
 
 

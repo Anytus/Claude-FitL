@@ -1,10 +1,10 @@
 # Fire in the Lake, US faction: what the program taught me
 
-Observed at the program's own prompts or in its narration over five games;
+Observed at the program's own prompts or in its narration over six games;
 descriptive, not advice. Where a statement is an inference rather than an
 observation, it says so.
 
-**Still unobserved after five games:** Air Strike carried through to a hit
+**Still unobserved after six games:** Air Strike carried through to a hit
 (the menu has been opened and aborted, never resolved); Sweep activation
 ratios outside Lowland; the "add an ARVN Assault" option inside a US Assault;
 Train's forced removal of ARVN cubes from the map when Available is short of
@@ -180,9 +180,18 @@ level toward Active Opposition (Laos and Cambodia have population 0).
 
 ## 5. Coup round, phase by phase
 
-1. **Victory.** Any faction with score above 0 wins, highest first; ties go
-   VC, ARVN, NVA, US. The check is made before anything else in the round,
-   so nothing the Coup itself does counts until the next Coup.
+1. **Victory.** Any bot with score above 0 wins, highest first. The check
+   is made before anything else in the round, so nothing the Coup itself
+   does counts for that check. **In this game the US cannot win at a Victory
+   check** (the program's "human victory not allowed until final Coup"
+   setting): a US score above 0 wins nothing until the end, and any bot win
+   at any Coup ends the game with the US losing.
+   **Final Coup.** When the last Coup card's round is completed without a bot
+   win, the faction with the highest victory margin (score, which may be
+   negative) wins; ties go to the bots, then VC, ARVN, NVA. Because the whole
+   round is completed first, the final Coup's own Support phase and other
+   phases count toward the final margins (rule 2.4.2; the program's handling
+   of the final round has not yet been observed).
 2. **Resources.** Sabotage check; Trail-degrade check for COIN-controlled
    Laos and Cambodia spaces; ARVN gains Econ plus Aid, computed before the
    next step; then Aid drops by 3 per piece in the Casualties box, floored
