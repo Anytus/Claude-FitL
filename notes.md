@@ -79,3 +79,4 @@ card #60 War Photographer: US ineligible — VC Op, ARVN passed
 card #84 To Quoc: LimOp Train Saigon + transfer 3 Patronage — ARVN 52 to 49
 card #2 replaced by VC pivotal Tet Offensive (2nd time): US ineligible — VC into Saigon/Hue, 3 US Troops lost
 card #3 Peace Talks: Train+Pacify Kien Giang to Active; Advise Saigon, Hue (4 VC Guerrillas); +6 Aid — +2 US, protect Saigon
+card #115 Typhoon Kate: US ineligible — VC Rally/Tax; NVA passed
