@@ -192,3 +192,9 @@
 2026-09-23T07:31:47	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault"; python3 tools/ctl.py scre	144	9342
 2026-09-23T07:32:01	Bash	echo "Kent State's free LimOp prompted \"Press Enter\" then the operation menu; 	379	25371
 2026-09-23T07:32:33	Bash	python3 tools/ctl.py commit-turn "card #103 Kent State unshaded: free LimOp Patr	882	17625
+2026-09-23T07:32:58	Bash	python3 tools/ctl.py commit-turn "card #40 PoWs: Pass — keep first slot on #12 f	1094	8908
+2026-09-23T07:33:05	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"; python3 tools/	158	1610
+2026-09-23T07:33:11	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>Quang Tri"; python3 tools	163	1945
+2026-09-23T07:33:18	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py seq "US Training=>Finished sel	253	8910
+2026-09-23T07:33:41	Bash	echo "none. Advise ARVN Assault in Quang Tri gave only 2 hits (NVA Troops). **Re	227	39545
+2026-09-23T07:33:49	Bash	python3 tools/ctl.py send n; python3 tools/ctl.py advance 2>&1 | tail -15; pytho	186	5230

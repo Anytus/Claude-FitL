@@ -103,3 +103,6 @@
 - report-207-208.md: #40 - PoWs
 - report-209-209.md: #40 - PoWs
 - report-210-210.md: #12 - Capt Buck Adams
+- report-211-212.md: #12 - Capt Buck Adams
+- report-213-215.md: #37 - Khe Sanh
+- report-216-219.md: #35 - Thanh Hoa; #129 - Coup! Failed Attempt

@@ -333,3 +333,22 @@ Kent State's free LimOp prompted "Press Enter" then the operation menu; Patrol "
 **Plan.** Pass.
 **Why.** ARVN 53 and VC 38 are both over their lines with the final Coup possible after #12. NVA took Op only, so only a LimOp is open here, and any action costs my first slot on #12. Passing keeps #12 for Op + SA: Train Saigon + Transfer Patronage (ARVN 53→50) with Advise on the lone Pleiku VC Base. Rejected: LimOp Pacify Pleiku now (VC -2, but ARVN would act first on #12 and Govern higher).
 **Execution.**
+none.
+**Result.** ARVN +3 Res; US first on #12; #37 (not a Coup) on deck.
+
+## Turn 37 — card #12 Capt Buck Adams — before save-210
+**Plan.** Op Train Saigon (no placement) + Transfer 3 Patronage; Advise: Irregular in Pleiku removes the lone VC Base, Irregulars in Kien Hoa remove 2 VC Guerrillas; +6 Aid.
+**Why.** ARVN 53 → 50 and VC 38 → 37 before a Coup that can follow #37; on #37 (US 2nd) a LimOp Train-Pacify of Pleiku (Active Opposition, COIN) can take VC to 35.
+**Execution.**
+none. Advise ARVN Assault in Quang Tri gave only 2 hits (NVA Troops).
+**Result.** ARVN 53→50, VC 38→37, Aid 26.
+**Result (after #12).** NVA then re-took Saigon by March (NVA 21); VC Khe Sanh shaded made US Ineligible through #35; ARVN Governed and Patrolled, M-48 stripped its Saigon Police. #129 Coup! Failed Attempt was drawn as on-deck during #35, so US had no action between #12 and the final Coup.
+
+## Final Coup (#129 Failed Attempt, 6th Coup) — GAME OVER
+Victory phase: "VC wins with a victory margin of 2!" Final render: VC 37 (+2), NVA 20 (+2), ARVN 48 (-2), US 43 (-7). US loses.
+
+## Post-mortem (brief)
+- Tet Offensive (VC pivotal, after Coup 3) swung VC from 28 to 40 and put Bases in four Cities; from then on every US action was spent pushing a bot back under its line (VC, NVA and ARVN each crossed it at some point), leaving nothing for a margin.
+- The loss came from eligibility: acting on #12 (Transfer + Advise) made US Ineligible on #37, and VC's Khe Sanh shaded extended that through #35, the card before the final Coup. VC sat at 37 with no US turn left. Keeping one action in hand near the end (Pass on #12, or the LimOp Pleiku pacification on #40) might have mattered; the Coup's position in pile 6 was unknowable.
+- What worked: Coup-phase pacification (Blowtorch Komer at 1/step, +9; Saigon +12 at Coup 3), Transfer Patronage to hold ARVN under 50, Advise/Air Strike on lone or exposed VC Bases, Air Lift single Troops to break NVA Control.
+- What did not: Troops left in Provinces were stripped by Booby Traps, M-48, Bombard; Search and Destroy shaded made Assault in Support Provinces useless.

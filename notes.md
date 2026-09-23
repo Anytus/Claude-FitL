@@ -45,3 +45,4 @@ card #84 To Quoc: Pass — keep Op+SA for Kien Hoa pacification on #32
 card #32 Long Range Guns: Air Lift 3 Troops + Train/Pacify Kien Hoa to Neutral — VC 37→33; #49 Russian Arms: ineligible
 card #103 Kent State unshaded: free LimOp Patrol 3 Troops into Saigon (M-48 took 2) — NVA 22→16, Saigon tied; #119 My Lai: eligible, not reached
 card #40 PoWs: Pass — keep first slot on #12 for Transfer + Advise
+cards #12-#35 + final Coup: Transfer/Advise on #12 (ARVN 53→50, VC 38→37); US then Ineligible (#37 Khe Sanh shaded); GAME OVER — VC wins by 2 at final Coup
