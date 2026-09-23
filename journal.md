@@ -262,3 +262,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +4 US, the biggest single gain on offer; margins ARVN −1, VC −4, US −7. Transfer Patronage (−3 ARVN, keeps it off 50) weighed: saved for a later turn; ARVN is Ineligible on #60. Note: APC shaded returned Tet to the VC — watch VC Guerrillas in the South (Tet needs >20).
 **Execution.** none
 **Result.** As planned: Kien Phong Active Support (US 43→47).
+
+## Turn 35 — card #84 To Quoc — before save-196
+**Plan.** Limited Op Train Saigon (no placement), Transfer 3 Patronage.
+**Why.** ARVN 52 after Govern + Young Turks (+2 per Govern); final Coup drawable at any draw now; −3 → 49 keeps it off the line. Event (To Quoc) weighed: doesn't touch ARVN.
+**Execution.** none
+**Result.** As planned: ARVN 52→49.

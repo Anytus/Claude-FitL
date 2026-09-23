@@ -76,3 +76,4 @@ card #52 RAND: Train Hue (2 Irregulars) + Da Nang, Pacify Da Nang to Active; Adv
 card #96 APC: US did not act — VC shaded returned Tet Offensive to VC; ARVN Sweep + Raid (2 VC Bases)
 card #57 International Unrest: LimOp Train+Pacify Kien Phong (terror off) to Active — +4 US
 card #60 War Photographer: US ineligible — VC Op, ARVN passed
+card #84 To Quoc: LimOp Train Saigon + transfer 3 Patronage — ARVN 52 to 49

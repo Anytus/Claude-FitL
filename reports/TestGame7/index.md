@@ -98,3 +98,6 @@
 - report-191-191.md: #57 - International Unrest
 - report-192-194.md: #60 - War Photographer
 - report-195-196.md: #84 - To Quoc
+- report-197-197.md: #84 - To Quoc
+- report-198-201.md: #2 - Kissinger; #124 - Tet Offensive
+- report-202-202.md: #3 - Peace Talks
