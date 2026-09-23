@@ -172,3 +172,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ~11 NVA Troops killed; breaks NVA Control of Kien Phong (Active Support, pop 2; NVA 13→11) and strips the stacks sitting on my Support. No bot near its line, so the tempo goes to attrition. Train+Pacify weighed: only +1 available now (Da Nang); the Coup Support phase will pacify.
 **Execution.** seq stopped once: after Da Nang emptied, the Air Lift returned straight to the space menu (no 'Finished moving' step); continued with a second seq.
 **Result.** As planned: 11 NVA Troops removed (Kien Phong 5, QTQN 4, Kien Giang 2); Kien Phong back to COIN Control (NVA 13→11).
+
+## Turn 22 — card #42 Chou En Lai — before save-122
+**Plan.** Pass.
+**Why.** Eligibility checked this time: US and VC Eligible, NVA not. On-deck #27 Phoenix Program prints US first; VC is Critical on its shaded side (Hue → Active Opposition + Terror). Passing keeps me first there to take the unshaded side (3 VC pieces from COIN Control spaces: Hue's 2 Guerrillas + Base). If the VC takes a LimOp now it is Ineligible on #27 anyway. Cost: a LimOp or Chou En Lai (−d6 NVA Troops) now.
+**Execution.** none
+**Result.** Passed (+3 ARVN Resources); VC to act.

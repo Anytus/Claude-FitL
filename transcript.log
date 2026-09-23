@@ -3732,4 +3732,83 @@ Eligible      : US, VC
 Acted         : ARVN -> Op/Special Activity
 Passed        : none
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 46[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #27 - Phoenix Program (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : VC
+Acted         : ARVN -> Op/Special Activity
+Passed        : US
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Saigon for Terror
+[36mFlip 1 VC Underground Guerrilla in Saigon to ACTIVE[0m
+
+#116 Cadres (unshaded) triggers
+----------------------------------------------------
+[35mRemove 1 VC Active Guerrilla from Saigon to AVAILABLE[0m
+[33mAdd 1 terror marker to Saigon[0m
+[33mFlip Active Support marker in Saigon to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 48 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 113
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #27 - Phoenix Program (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #113 - Ruff Puff (VC, ARVN, US, NVA)
+                VC -> (Ignored), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, ARVN
 (perform or ?): 

@@ -50,3 +50,4 @@ card #114 Tri Quang: Train+Pacify Saigon to Active; Advise KP, KG (4 NVA Troops)
 card #18 replaced by ARVN pivotal Vietnamization: US ineligible — NVA Infiltrate, March into Kien Phong
 card #104 Main Force Bns: Air Lift Da Nang to KP, QTQN; Assault KP, QTQN, KG — 11 NVA Troops killed, KP COIN again
 card #109 Nguyen Huu Tho: US ineligible — NVA Attack Binh Dinh (1 Troop, 3 Irregulars lost)
+card #42 Chou En Lai: Passed to stay first on #27 Phoenix Program — deny VC shaded (Hue)

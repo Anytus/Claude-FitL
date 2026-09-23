@@ -154,3 +154,5 @@
 2026-09-23T04:22:12	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Lift forces 	287	2110
 2026-09-23T04:22:24	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift" "US Assault=>Selec	372	9568
 2026-09-23T04:22:37	Bash	python3 tools/ctl.py screen | grep -A3 "assaults in Kien Phong"; python3 - <<'EO	642	22835
+2026-09-23T04:23:00	Bash	python3 tools/ctl.py commit-turn "card #104 Main Force Bns: Air Lift Da Nang to 	1011	7534
+2026-09-23T04:23:06	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() old="**Execution.**\n**Result.	381	13813

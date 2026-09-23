@@ -60,3 +60,5 @@
 - report-116-116.md: #104 - Main Force Bns
 - report-117-119.md: #109 - Nguyen Huu Tho
 - report-120-121.md: #42 - Chou En Lai
+- report-122-123.md: #42 - Chou En Lai
+- report-124-124.md: #27 - Phoenix Program
