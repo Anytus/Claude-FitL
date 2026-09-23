@@ -73,3 +73,4 @@ card #32 Long Range Guns: US ineligible — VC Terror (Kien Phong, Tay Ninh), VC
 resumed TestGame7 from latest save (start of 5th Coup round #126) after container reclaim; the Coup round re-runs from its start
 5th Coup #126 Young Turks: pacified Kien Giang, Kien Phong; 6 casualties to Hue, Da Nang, Kontum, Can Tho, Ba Xuyen — +8 US; set up final-Coup pacification
 card #52 RAND: Train Hue (2 Irregulars) + Da Nang, Pacify Da Nang to Active; Advise QTTT (2 NVA Troops); +6 Aid — +2 US
+card #96 APC: US did not act — VC shaded returned Tet Offensive to VC; ARVN Sweep + Raid (2 VC Bases)
