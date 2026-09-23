@@ -75,3 +75,4 @@ resumed TestGame7 from latest save (start of 5th Coup round #126) after containe
 card #52 RAND: Train Hue (2 Irregulars) + Da Nang, Pacify Da Nang to Active; Advise QTTT (2 NVA Troops); +6 Aid — +2 US
 card #96 APC: US did not act — VC shaded returned Tet Offensive to VC; ARVN Sweep + Raid (2 VC Bases)
 card #57 International Unrest: LimOp Train+Pacify Kien Phong (terror off) to Active — +4 US
+card #60 War Photographer: US ineligible — VC Op, ARVN passed
