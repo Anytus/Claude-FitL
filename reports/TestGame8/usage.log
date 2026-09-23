@@ -40,3 +40,7 @@
 2026-09-23T06:59:39	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -12	121	1344
 2026-09-23T06:59:43	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Finished moving"; python3 tool	154	1533
 2026-09-23T06:59:55	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault" && python3 tools/ctl.py ad	168	35156
+2026-09-23T07:00:14	Bash	cat >> journal.md <<'EOF' Answer "Binh Dinh" was sent at the "+6 Aid? (y/n)" pro	1076	16213
+2026-09-23T07:00:26	Bash	cat >> journal.md <<'EOF' none. **Result.** ARVN +3 (6). US now first Eligible o	608	3682
+2026-09-23T07:00:34	Bash	python3 tools/ctl.py seq "Select space to remove US pieces=>Da Nang" "Remove how	298	3612
+2026-09-23T07:00:47	Bash	python3 tools/ctl.py seq "How many US Troops=>1" && python3 tools/ctl.py advance	154	44628

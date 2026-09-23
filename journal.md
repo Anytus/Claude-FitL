@@ -66,3 +66,17 @@ Answer "Binh Dinh" was sent at the "+6 Aid? (y/n)" prompt because the space had 
 **Plan.** Pass.
 **Why.** Passing keeps US Eligible as 2nd on #93 Senator Fulbright (VC first, Ignored), where the unshaded Event moves 4 map pieces to Available (+4, no withdrawal shift) and denies NVA the shaded (Base out of play, Aid -9). An Air Lift + Assault on the lone Pleiku VC Base now (VC -1) would leave NVA the Fulbright shaded.
 **Execution.**
+none.
+**Result.** ARVN +3 (6). US now first Eligible on #93 (VC Ineligible).
+
+## Turn 8 — card #93 Senator Fulbright — before save-037
+**Plan.** Event unshaded: 4 US Troops to Available — LoC Kontum–Dak To 1, Quang Tri 1, Da Nang 2.
+**Why.** +4 US score at no Support cost and denies NVA the shaded (Base out of play, Aid -9). These Troops hold no Coup-pacification role and their spaces keep COIN Control.
+**Execution.**
+none.
+**Result.** +4 (47). Then ARVN Assault cleared NVA from Quang Tin; VC Walt Rostow shaded put a Guerrilla in 13 Provinces and ARVN Troops redeployed to Saigon: 6 Provinces lost COIN Control.
+
+## Turn 9 — card #9 Psychedelic Cookie — before save-043
+**Plan.** Event unshaded: 3 US Troops Out of Play → Available.
+**Why.** +3 US score, permanent until Troops are deployed, and denies NVA (2nd, Performed/Shaded) the shaded 3-Troops-out-of-play. Op + SA would hand NVA that shaded.
+**Execution.**

@@ -14,3 +14,7 @@
 - report-029-030.md: #17 - Claymores
 - report-031-033.md: #79 - Henry Cabot Lodge
 - report-034-035.md: #101 - Booby Traps
+- report-036-036.md: #101 - Booby Traps
+- report-037-039.md: #93 - Senator Fulbright
+- report-040-042.md: #90 - Walt Rostow
+- report-043-043.md: #9 - Psychedelic Cookie
