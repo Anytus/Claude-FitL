@@ -56,3 +56,6 @@
 - report-120-120.md: #69 - MACV
 - report-121-122.md: #69 - MACV
 - report-123-124.md: #74 - Lam Son 719
+- report-125-125.md: #74 - Lam Son 719
+- report-126-128.md: #117 - Corps Commanders
+- report-129-129.md: #11 - Abrams

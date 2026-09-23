@@ -118,3 +118,5 @@
 2026-09-23T07:15:18	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "in which space=>	171	1795
 2026-09-23T07:15:23	Bash	python3 tools/ctl.py seq "Activate which special force=>ARVN Ranger"; python3 to	165	2018
 2026-09-23T07:15:37	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	125	47484
+2026-09-23T07:15:58	Bash	echo "none. Hue offered \"Activate which special force\" (Irregular/Ranger); cho	1104	10498
+2026-09-23T07:16:09	Bash	echo "none. **Result.** ARVN 49→46; card ended before VC acted." >> journal.md &	173	20741

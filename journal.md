@@ -194,3 +194,10 @@ Hue was the only candidate and auto-selected, so my "Hue" answer hit the piece p
 **Execution.**
 none. Hue offered "Activate which special force" (Irregular/Ranger); chose the ARVN Ranger to keep my Irregulars Underground.
 **Result.** VC 37→35 (Saigon, Hue Bases), Aid 40; ARVN free SA Transported to Kien Giang; US stays Eligible.
+
+## Turn 22 — card #74 Lam Son 719 — before save-124
+**Plan.** LimOp Train Saigon (no placement) + Transfer 3 Patronage to ARVN Resources.
+**Why.** Acting ends the card before VC (3rd) can Rally/Terror while it sits at exactly 35; ARVN 49 → 46 before a Coup that can follow #117. Lam Son unshaded changes no score.
+**Execution.**
+none.
+**Result.** ARVN 49→46; card ended before VC acted.

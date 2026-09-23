@@ -1,0 +1,94 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #117 - Corps Commanders (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #11 - Abrams (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, US",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: Corps Commanders",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nRolling d6 to determine number of ARVN pieces to remove: 5",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Police from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "\nARVN is ineligible through the next card",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}
