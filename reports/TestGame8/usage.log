@@ -122,3 +122,9 @@
 2026-09-23T07:16:09	Bash	echo "none. **Result.** ARVN 49→46; card ended before VC acted." >> journal.md &	173	20741
 2026-09-23T07:16:33	Bash	python3 tools/ctl.py commit-turn "card #74 Lam Son: LimOp Train Saigon Transfer 	838	15953
 2026-09-23T07:16:52	Bash	python3 tools/ctl.py commit-turn "card #11 Abrams: Pass — keep first on Blowtorc	763	22406
+2026-09-23T07:17:44	Bash	python3 tools/ctl.py commit-turn "card #16 Blowtorch Komer unshaded: Aid +10, Co	1388	8471
+2026-09-23T07:17:51	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Da Nang" "Lift forces t	386	3347
+2026-09-23T07:17:59	Bash	python3 tools/ctl.py seq "Move how many US Troops=>1" "Select one=>Lift forces o	331	6323
+2026-09-23T07:18:05	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>T	182	3118
+2026-09-23T07:18:10	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>Q	184	11861
+2026-09-23T07:18:29	Bash	cat >> journal.md <<'EOF' Assault menu said "There are no spaces eligible for As	587	40427

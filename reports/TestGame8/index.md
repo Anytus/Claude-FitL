@@ -64,3 +64,6 @@
 - report-132-133.md: #16 - Blowtorch Komer
 - report-134-136.md: #52 - RAND
 - report-137-137.md: #27 - Phoenix Program
+- report-138-139.md: #27 - Phoenix Program
+- report-140-142.md: #57 - International Unrest
+- report-143-145.md: #45 - PT-76

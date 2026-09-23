@@ -30,3 +30,4 @@ card #69 MACV: US Advise killed Saigon + Hue VC Bases, stay eligible — VC 37�
 card #74 Lam Son: LimOp Train Saigon Transfer 3 — ARVN 49→46, end card before VC; #117 Corps Commanders: ineligible
 card #11 Abrams: Pass — keep first on Blowtorch Komer
 card #16 Blowtorch Komer unshaded: Aid +10, Coup pacify 1/step — denies VC shaded; #52 RAND: ineligible
+card #27 Phoenix: Air Lift + Assault Quang Tin/Tay Ninh — NVA 18→14; #57 Intl Unrest: ineligible

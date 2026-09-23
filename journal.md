@@ -213,3 +213,12 @@ none.
 **Plan.** Event unshaded: Aid +10, Pacify at 1 Resource per step this Support phase.
 **Why.** Turns the next Coup's pacification from 4/level to 1/level (Nguyen Cao Ky), multiplying Support gains, and denies VC (Critical/Shaded, 3rd) the shaded; the card ends with ARVN before VC acts.
 **Execution.**
+none.
+**Result.** Momentum in play, Aid 46. Then NVA Attack retook Quang Tin (NVA 18), VC Rallied a Base (VC 37).
+
+## Turn 25 — card #27 Phoenix Program — before save-137
+**Plan.** Op Assault + Air Lift: lift 1 Troop Da Nang → Quang Tin-Quang Ngai and 1 Troop An Loc → Tay Ninh; Assault both (1 hit each on NVA Troops).
+**Why.** NVA sits at 18 with a Coup possible after #57: both spaces lose NVA Control (NVA 18 → 14); both are Active Opposition so Search and Destroy costs nothing. VC 37 cannot be cut this card: Phoenix finds no VC in COIN spaces and every VC Base is shielded. Accepted risk: VC at 37 if the Coup is the next draw (~1/6).
+**Execution.**
+Assault menu said "There are no spaces eligible for Assault" until the Air Lift landed Troops; Quang Tin was then auto-selected as the last candidate, so my "Quang Tin" went to ARVN's (perform or ?) prompt: rejected verbatim "'Quang' is not valid. Must be one of: perform, show, history, rollback, inspect, adjust, help, or quit" — no effect.
+**Result.** NVA 18→14 (Quang Tin, Tay Ninh lose NVA Control; 2 NVA Troops killed); Tay Ninh COIN (ARVN 46).
