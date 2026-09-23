@@ -16,3 +16,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** VC at 31/35 is the danger; Can Tho borders Kien Phong and Kien Giang (pop 2 each, Active Opposition, 1 lone Guerrilla each), Saigon borders Tay Ninh/QDLK/BTBT/Kien Phong. Troops in Available score only at the end; 12+ event cards remain before the next Coup to use them.
 **Execution.** `send "Finished moving pieces"` rejected: "'Finished moving pieces' is not valid. Must be one of: 1 or 2". Mechanic: `send` does not label-match; re-sent through `seq "*=>Finished moving pieces"`, accepted.
 **Result.** As planned; US points 50→40, no withdrawal shift. Then #110 No Contact: VC passed, NVA Rally+Infiltrate, ARVN Train; card closed before the US.
+
+## Turn 1 — card #112 Colonel Chau — before save-008
+**Plan.** Op + SA: Sweep Kien Phong (3 Troops from Saigon), Kien Giang-An Xuyen (2 from Can Tho), Ba Xuyen (1 from Can Tho), Kien Hoa-Vinh Binh (1 Saigon + 1 Can Tho); then Air Strike the now-Active Guerrillas in Kien Phong and Kien Giang (already Active Opposition, so no shift); spare hits on the Trail.
+**Why.** Lowland sweep activates 1 per Troop; gives COIN Control in four pop-2/1 delta spaces and clears the two pop-2 Active Opposition spaces for Train+Pacify next. Not striking Kien Hoa/Ba Xuyen (Neutral: strike would shift them to Opposition). VC 31/35 is the threat.
+**Execution.** Program was not running at start (container reclaimed); resumed from save-007. Air Strike rolled 6 hits; 1 Kien Phong, 1 Kien Giang, 2 Trail (2→1), 2 unused. Mechanic: Sweep selects all spaces first, then asks per destination which adjacent source.
+**Result.** As planned: 4 delta spaces COIN-controlled, 2 VC Guerrillas removed, Trail 1, no Support shift.

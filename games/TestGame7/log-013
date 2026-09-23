@@ -1,0 +1,182 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #31 - AAA (NVA, US, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - W",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space with US Troops? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available VC pieces (17): 13 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Quang Tin-Quang Ngai for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 3 VC Underground Guerrillas from AVAILABLE into Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Tay Ninh for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 3 VC Underground Guerrillas from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Patronage >= 17? [No]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Tax special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC Taxes in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip Active Opposition marker in Tay Ninh to Passive Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "Increase Agitate Total by +2 to 4",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 31 to 29",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of VC Tax activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

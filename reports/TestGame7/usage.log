@@ -13,3 +13,19 @@
 2026-09-23T02:11:31	Bash	python3 tools/ctl.py send "Finished moving pieces"; python3 tools/ctl.py advance	164	745
 2026-09-23T02:11:48	Bash	python3 tools/ctl.py seq "*=>Finished moving pieces"; python3 tools/ctl.py advan	174	38512
 2026-09-23T02:12:02	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	711	1652
+2026-09-23T02:12:09	Bash	python3 tools/ctl.py commit-turn "card #130 Coup! Failed Attempt (1st Coup, draw	420	6882
+2026-09-23T03:14:00	Bash	python3 tools/ctl.py status; python3 tools/ctl.py resume TestGame7	147	1272
+2026-09-23T03:14:07	Bash	ls games/TestGame7 | tail -3; echo "resumed TestGame7 from latest save (save-007	391	4105
+2026-09-23T03:14:16	Bash	python3 tools/ctl.py seq "US Sweep space=>Select a Sweep space" "Sweep in which 	394	4474
+2026-09-23T03:14:19	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Kien Phong"	151	1105
+2026-09-23T03:14:23	Bash	python3 tools/ctl.py seq "US Move troops to Kien Phong from=>Saigon"	162	782
+2026-09-23T03:14:33	Bash	python3 tools/ctl.py seq "Move how many US Troops=>3" "US Move troops to Kien Ph	506	7048
+2026-09-23T03:14:43	Bash	python3 tools/ctl.py seq "US Move troops to Ba Xuyen from=>Finished" "US Sweep T	486	5573
+2026-09-23T03:14:46	Bash	python3 tools/ctl.py seq "Sweep activation=>Resolve all remaining"	150	2274
+2026-09-23T03:14:50	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	181	2498
+2026-09-23T03:14:57	Bash	python3 tools/ctl.py seq "Air Strike=>Select a space to Strike"	149	1187
+2026-09-23T03:15:00	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Kien Phong"	136	1590
+2026-09-23T03:15:03	Bash	python3 tools/ctl.py seq "Air Strike=>Remove insurgents in Kien Phong"	156	1979
+2026-09-23T03:15:10	Bash	python3 tools/ctl.py seq "Air Strike=>Select a space to Strike" "Air Strike in w	286	4981
+2026-09-23T03:15:13	Bash	python3 tools/ctl.py seq "Air Strike=>Finished with Air Strike"	135	1348
+2026-09-23T03:15:30	Bash	python3 - <<'EOF' p='journal.md' s=open(p).read() s=s.replace("""**Execution.** 	632	45963

@@ -1,3 +1,6 @@
 - report-001-001.md: #130 - Coup! Failed Attempt
 - report-002-005.md: #110 - No Contact
 - report-006-007.md: #112 - Colonel Chau
+- report-008-008.md: #112 - Colonel Chau
+- report-009-011.md: #48 - Nam Dong
+- report-012-013.md: #93 - Senator Fulbright
