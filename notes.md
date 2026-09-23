@@ -56,3 +56,4 @@ card #113 Ruff Puff: US ineligible — VC Tax + March into Saigon, KP, Binh Dinh
 card #80 Light at the End of the Tunnel: US did not act — ARVN Event pulled 3 US pieces from KP; NVA March
 card #62 Cambodian Civil War: Event unshaded, 2 NVA Bases removed from Parrot's Beak — NVA 14 to 12
 card #11 Abrams: US ineligible — NVA shaded capability (max 2 US Assault spaces); VC Rally
+card #8 Arc Light: Air Lift KH to Saigon; Assault Saigon (3 VC), Kien Phong (2 VC) — clear Agitate targets before Coup

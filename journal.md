@@ -190,3 +190,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** NVA −2 permanently (its margin counts against mine at the end). Pass to deny #11 Abrams shaded (max 2 Assault spaces) weighed: that capability is a real cost, but smaller than 2 NVA points.
 **Execution.** none
 **Result.** As planned: 2 NVA Bases removed from The Parrot's Beak (NVA 14→12).
+
+## Turn 25 — card #8 Arc Light (Coup #129 on deck, Monsoon) — before save-140
+**Plan.** Op + SA: Air Lift Kien Hoa's 2 Troops to Saigon; Assault Saigon (2 Troops + US Base = 4 hits vs 3 Active VC) and Kien Phong (2 hits on its Active Guerrillas).
+**Why.** No bot near its line; the danger is the Coup Agitate (total 7) landing on Saigon (12 points of Active Support) and Kien Phong (4). Removing the VC Guerrillas protects them. Abrams caps Assault at 2 spaces, Monsoon caps Air Lift at 2. Train + Advise (ARVN Assault in Saigon) weighed: fewer hits in Kien Phong.
+**Execution.** Kien Phong asked which Active Guerrillas: took 0 NVA, so both hits went on VC.
+**Result.** As planned: 3 VC out of Saigon, 2 VC out of Kien Phong (1 VC + 1 NVA left).

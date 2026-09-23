@@ -69,3 +69,5 @@
 - report-135-135.md: #62 - Cambodian Civil War
 - report-136-138.md: #11 - Abrams
 - report-139-139.md: #8 - Arc Light
+- report-140-141.md: #8 - Arc Light
+- report-142-142.md: #129 - Coup! Failed Attempt

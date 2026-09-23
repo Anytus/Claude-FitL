@@ -1,0 +1,138 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #8 - Arc Light (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #129 - Coup! Failed Attempt",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, VC",
+      "color": null
+    },
+    {
+      "text": "Sweep is prohibited [Not allowed in Monsoon]",
+      "color": "Red"
+    },
+    {
+      "text": "\nUS chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Select a maximum of 2 spaces [#11 Abrams (shaded)]",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Air Lift special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "May only choose 2 spaces in Monsoon",
+      "color": null
+    },
+    {
+      "text": "Move 2 US Troops from Kien Hoa-Vinh Binh to Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS assaults in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 4 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 3 VC Active Guerrillas from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS assaults in Kien Phong",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 2 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 2 VC Active Guerrillas from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Kien Phong",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 42 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

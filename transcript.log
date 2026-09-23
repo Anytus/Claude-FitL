@@ -4682,4 +4682,307 @@ Eligible      : US, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : NVA, VC
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mSweep is prohibited [Not allowed in Monsoon][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Assault
+----------------------------------------------------
+Selection: 3
+
+US chooses Assault operation
+====================================================
+Select a maximum of 2 spaces [#11 Abrams (shaded)]
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Air Lift special activity
+====================================================
+May only choose 2 spaces in Monsoon
+
+0 spaces of 2 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kien Hoa-Vinh Binh
+
+1 space of 2 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+2 spaces of 2 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Saigon
+
+Select one:
+====================================================
+1) Lift forces out of Kien Hoa-Vinh Binh
+2) Lift forces out of Saigon
+3) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Saigon
+2) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Saigon
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Finished moving forces out of Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 2
+[35mMove 2 US Troops from Kien Hoa-Vinh Binh to Saigon[0m
+
+Air Lifting forces from Kien Hoa-Vinh Binh to Saigon
+
+2 spaces of 2 selected for Air Lift
+----------------------------------------------------
+Kien Hoa-Vinh Binh, Saigon
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 2
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Saigon
+2) Kien Giang-An Xuyen
+3) Kien Phong
+4) Quang Tin-Quang Ngai
+5) None of the above
+----------------------------------------------------
+Selection: 1
+
+US assaults in Saigon
+----------------------------------------------------
+The assault inflicts 4 hits
+[35mRemove 3 VC Active Guerrillas from Saigon to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Saigon
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Kien Giang-An Xuyen
+2) Kien Phong
+3) Quang Tin-Quang Ngai
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Kien Phong
+----------------------------------------------------
+The assault inflicts 2 hits
+
+
+Remove active guerrillas
+----------------------------------------------------
+Select 2 pieces among the following:
+  1 NVA Active Guerrilla, 3 VC Active Guerrillas
+
+How many NVA Active Guerrillas (0 - 1): 0
+How many VC Active Guerrillas: 2
+[35mRemove 2 VC Active Guerrillas from Kien Phong to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 44[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Saigon, Kien Phong
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #8 - Arc Light (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+On Deck card  : #129 - Coup! Failed Attempt
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, VC
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Arc Light
+----------------------------------------------------
+[31m
+Capability: '#8 Arc Light (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 111
+
+
+>>> 4th Coup Round <<<
+====================================================
+Current card: #129 - Coup! Failed Attempt
+(coup or ?): coup
+Coup! Card: #129 - Coup! Failed Attempt
+----------------------------------------------------
+ARVN must remove 1 in 3 of its Cubes per space
+
+[35mRemove 1 ARVN Troop from Saigon to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Saigon to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Kontum to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Pleiku-Darlac to AVAILABLE[0m
+[31m
+Place #129 - Coup! Failed Attempt beneath the other cards in the RVN Leader Box[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+
+There are not enough sabotage markers for all LoCs
+VC will choose which LoCs are sabotaged
+[33mAdd 1 sabotage marker to LOC Hue -- Khe Sanh[0m
+[33mAdd 1 sabotage marker to LOC Da Nang -- Qui Nhon[0m
+[33mAdd 1 sabotage marker to LOC Hue -- Da Nang[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 11[0m
+[34mIncrease ARVN resources by +46 to 75[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+[34mDecrease US Aid by -18 to 17[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+US/ARVN pacification cost 4 resources per Terror/Level
+ARVN Pacify is maximum 1 space (instead of 4)
+
+US Pacification (4 spaces remaining, 75 ARVN resources, Econ is 11)
+Choose space to pacify:
+====================================================
+1) Kien Giang-An Xuyen
+2) Finished pacifying spaces
+----------------------------------------------------
+Selection: 
