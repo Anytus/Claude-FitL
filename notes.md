@@ -77,3 +77,4 @@ card #96 APC: US did not act — VC shaded returned Tet Offensive to VC; ARVN Sw
 card #57 International Unrest: LimOp Train+Pacify Kien Phong (terror off) to Active — +4 US
 card #60 War Photographer: US ineligible — VC Op, ARVN passed
 card #84 To Quoc: LimOp Train Saigon + transfer 3 Patronage — ARVN 52 to 49
+card #2 replaced by VC pivotal Tet Offensive (2nd time): US ineligible — VC into Saigon/Hue, 3 US Troops lost
