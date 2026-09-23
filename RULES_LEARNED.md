@@ -101,6 +101,8 @@ Then one final action in one selected space:
   required. 3 ARVN Resources to remove a terror marker first, then 3 per
   level shifted toward Support, up to 2 levels (4 per marker or level under
   Nguyen Cao Ky). Works from Opposition as well as from Neutral.
+  Only one space is pacified per Train: after it, the program goes straight
+  on to the Special Activity question and offers no second Pacify space.
 - **Transfer patronage** to ARVN Resources, offered only when Saigon is a
   selected space: up to 3, one for one.
 A space used for Train cannot be used for Advise in the same action, and
@@ -148,7 +150,9 @@ A space used for Advise cannot be used for Train in the same action.
 **Air Lift.** Up to 4 spaces (2 in Monsoon), any distance apart. Moves US
 Troops and ARVN Troops between the selected spaces (Irregulars and Rangers
 untested); map to map only, never to or from Available. Control changes
-take effect at once.
+take effect at once. At most 4 ARVN Troops per Air Lift in total: the count prompt
+read `(0 - 4)` with 9 ARVN Troops in the origin, then `(0 - 2)` after 2 had
+moved. US Troops were not tested against a cap.
 
 **Air Strike.** Never carried through to a hit. The number of hits is rolled
 when the activity starts. Up to 6 spaces (2 in Monsoon); a struck space must
@@ -205,6 +209,9 @@ level toward Active Opposition (Laos and Cambodia have population 0).
    Troop allowance reduced by the casualties just placed. Withdrawal: for
    every 2 US pieces moved to Available the VC shifts 1 population one level
    toward Active Opposition.
+   Only the Available box and COIN-controlled spaces were offered as
+   sources: US Troops standing in uncontrolled Provinces (Quang Tri, Binh
+   Dinh) could not be moved, to Available or anywhere else.
 6. **Reset.** The Trail improves from 0 to 1 or degrades from 4 to 3 and is
    otherwise unchanged; terror markers are removed; all Active Guerrillas,
    Irregulars and Rangers flip Underground; momentum is removed; all

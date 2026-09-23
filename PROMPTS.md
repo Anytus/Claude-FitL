@@ -62,7 +62,7 @@ final-action menu.
 | `Choose final Train action:` | menu | `Pacify`, `Transfer patronage to ARVN resources`, `Perform a Special Activity`, `Finished with Train operation` (only the possible ones) |
 | `Pacify in which space:` | menu | candidate spaces, `None of the above` |
 | pacify level *(header not recorded)* | menu | `Shift 2 levels to Active Support`, `Shift 1 level to Passive Support`, `Shift 1 level to Active Support`, `Do not pacify in <space>` |
-| `Choose final Train action:` again | menu | repeat for another space, or `Finished with Train operation` |
+| after the Pacify | y/n | `Do you wish to perform a special activity? (y/n)`: the final-action menu does **not** return, so only one space is pacified. Write `"special activity? (y/n)=>y"` next, not `"final Train action=>Perform a Special"`. |
 
 ```
 seq "(perform or ?)=>perform" "Choose one=>Op" "Choose operation=>Train" \
@@ -141,10 +141,19 @@ Select all the spaces first (origins and destinations alike), then lift.
 | --- | --- | --- |
 | `Choose space to pacify:` (Support phase; header line `US Pacification (n spaces remaining, r ARVN resources, Econ is e)`) | menu | candidate spaces, `Finished pacifying spaces` |
 | `Pacify:` | menu | `Shift 2 levels to Active Support`, `Shift 1 level to Passive Support`, `Shift 1 level to Active Support`, `Do not pacify in <space>` |
+| `Pacify:` in a space with a terror marker | menu | `Remove 1 terror marker and shift 2 levels to Active Support`, `Remove 1 terror marker and shift 1 level to Passive Support`, `Remove 1 terror marker`, `Do not pacify in <space>`. The plain `Shift 2 levels` label does not match here. |
 | `Choose one:` (Commitment phase; header line `Moved so far: t/10 troops and b/2 bases`) | menu | `Move troops`, `Move a base`, `Finished moving pieces` |
 | from-space *(header not recorded)* | menu | `Available box`, then spaces with the pieces |
 | to-space *(header not recorded)* | menu | `Available box`, then COIN-controlled spaces, LoCs, Saigon |
 | how many troops | typed | a number (when moving troops) |
+
+## Event moving US pieces from the map to Available (Senator Fulbright, unshaded)
+
+| Prompt | Form | Entries |
+| --- | --- | --- |
+| `Select space to remove US pieces:` (header line `Number of US piece removed to available: n of 4`) | menu | spaces with US pieces; repeats until 4 are removed |
+| `Remove how many pieces from <space> (0 - n):` | typed | a number |
+| `How many US Troops (0 - n):` (and one prompt per other piece type) | typed | asked only when the space holds more than one US piece type and fewer are being removed than it holds |
 
 ## Pivotal event
 
