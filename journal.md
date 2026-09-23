@@ -256,3 +256,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Final campaign: need ~+5 on VC and ~+4 on ARVN. Da Nang +2 is Support the final Coup's 4-space pacify may not reach. On-deck #96 APC shaded (VC first, Critical) repeats General Uprising into Cities; Irregulars in Hue give Advise pieces against it. Transfer Patronage (−3 ARVN only) weighed: pacify closes both gaps.
 **Execution.** QTTT Ranger auto-selected (only candidate); no second Advise space offered except an ARVN Sweep, declined.
 **Result.** As planned: Da Nang Active Support (US +2), 2 Irregulars in Hue, 2 NVA Troops out of QTTT, Aid +6.
+
+## Turn 34 — card #57 International Unrest — before save-190
+**Plan.** Limited Op Train in Kien Phong (no placement), Pacify: remove Terror + shift Neutral → Active Support (3 + 6).
+**Why.** +4 US, the biggest single gain on offer; margins ARVN −1, VC −4, US −7. Transfer Patronage (−3 ARVN, keeps it off 50) weighed: saved for a later turn; ARVN is Ineligible on #60. Note: APC shaded returned Tet to the VC — watch VC Guerrillas in the South (Tet needs >20).
+**Execution.** none
+**Result.** As planned: Kien Phong Active Support (US 43→47).

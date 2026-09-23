@@ -95,3 +95,6 @@
 - report-185-185.md: #52 - RAND
 - report-186-188.md: #96 - APC
 - report-189-190.md: #57 - International Unrest
+- report-191-191.md: #57 - International Unrest
+- report-192-194.md: #60 - War Photographer
+- report-195-196.md: #84 - To Quoc
