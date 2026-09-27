@@ -27,3 +27,6 @@
 - report-055-056.md: #24 - Operation Starlite
 - report-057-059.md: #59 - Plei Mei
 - report-060-060.md: #95 - Westmoreland
+- report-061-062.md: #95 - Westmoreland
+- report-063-065.md: #70 - ROKs
+- report-066-066.md: #10 - Rolling Thunder

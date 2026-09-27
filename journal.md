@@ -104,5 +104,17 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Pivotal — Linebacker II offered (current #95 Westmoreland) — before save-060
 **Plan.** Decline.
 **Why.** #95 shaded only reaches Quang Nam (+2 VC); the US is second on #95 with Op + SA. NVA at 15 with the Coup at least five cards off; its Bases would come back by Rally, so the pivotal is worth more closer to a Coup.
+**Execution.** none
+**Result.** Declined; VC shaded put Quang Nam to Active Opposition (VC 32).
+
+## Turn 10 — card #95 Westmoreland — before save-061
+**Plan.** Op + SA: Train Pleiku-Darlac (no placement), Pacify it 2 levels (Active Opposition to Neutral); Advise Ranger in Kien Phong (remove the VC Guerrilla) and Ranger in Quang Nam (remove the NVA Troop); +6 Aid.
+**Why.** VC at 32/35 is the nearest threat: -2 Opposition now, and two spaces lose the enemy pieces that Terror/Agitation need. Passing to take ROKs unshaded on #70 weighed: it denies a -3 US shift but costs one of my two actions over the next three cards.
+**Execution.** Pacify space auto-selected; Quang Nam auto-selected as the last Advise candidate.
+**Result.** As planned: VC 30, Kien Phong and Quang Nam COIN Control, Aid 35. #70: ARVN Train/Transport into Tay Ninh; NVA Rallied (Trail 4); VC was ineligible, so ROKs shaded never fired.
+
+## Turn 11 — card #10 Rolling Thunder (Linebacker II offered first) — before save-066
+**Plan.** Decline Linebacker II; take Rolling Thunder unshaded (Trail 4→2, NVA Ineligible through #25).
+**Why.** The Event denies VC (second, Performed/Shaded) the shaded ban on Air Strike until the Coup — my main pre-Coup tool against NVA — and slows NVA's cross-border March. Op + SA (Pacify Quang Tri +4, Air Strike Binh Dinh -2 NVA) weighed; it hands VC that ban. Linebacker would delete this card.
 **Execution.**
 **Result.**

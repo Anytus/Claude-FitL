@@ -28,3 +28,5 @@ card #105 Rural Pressure: declined Linebacker II (twice) — keep #28 for US fir
 card #28 Search and Destroy: Train/Pacify Kien Hoa, Advise Quang Tri Base + Binh Dinh NVA — VC -3, NVA -2; ARVN took capability
 card #109 Nguyen Huu Tho: US ineligible
 card #24 Operation Starlite: Assault Saigon + ARVN follow-up, Air Strike Binh Dinh + Trail — cleared Saigon, Trail 3
+card #59 Plei Mei: US ineligible
+card #95 Westmoreland: Train/Pacify Pleiku to Neutral, Advise Rangers Kien Phong + Quang Nam — VC 32 to 30

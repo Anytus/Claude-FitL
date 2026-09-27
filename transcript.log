@@ -3971,4 +3971,348 @@ Does US wish to play their pivotal?
 2) No
 3) Show Coup status
 ----------------------------------------------------
+Selection: 2
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+VC executes the Shaded Event: Westmoreland
+----------------------------------------------------
+
+[33mPlace Active Opposition marker in Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 30 to 32[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #95 - Westmoreland (VC, US, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+Eligible      : US
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Op (May add a Special Activity)
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Pleiku-Darlac
+
+US selects Pleiku-Darlac for Training
+
+Training in Pleiku-Darlac:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Pleiku-Darlac
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Pleiku-Darlac
+
+Pacifying in Pleiku-Darlac
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Neutral
+2) Shift 1 level to Passive Opposition
+3) Do not pacify in Pleiku-Darlac
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Pleiku-Darlac
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 39[0m
+[33mRemove Active Opposition marker from Pleiku-Darlac[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 32 to 30[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Kien Phong
+2) Quang Nam
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Kien Phong using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Kien Phong to ACTIVE[0m
+[35mRemove 1 VC Underground Guerrilla from Kien Phong to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 41[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Kien Phong
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space:  Quang Nam
+
+Advise in Quang Nam using ARVN Underground Ranger
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Quang Nam to ACTIVE[0m
+[35mRemove 1 NVA Troop from Quang Nam to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 41 to 42[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Kien Phong, Quang Nam
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 35[0m
+[34m
+Move the US cylinder to the Op - May add Special Activity box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 10
+
+ARVN Bot Pivotal Event die roll: 6  [Failure] (2 cards in leader box)
+
+NVA Bot Pivotal Event die roll: 5  [Failure] (2 cards in leader box)
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (14): 9 [Yes]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 36[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 1 [Failure]
+
+ARVN chooses Transport special activity
+====================================================
+
+ARVN selects Tay Ninh as Transport destination
+----------------------------------------------------
+[35mMove 6 ARVN Troops from Saigon to Tay Ninh[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 44[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Flip all Rangers underground
+----------------------------------------------------
+[36mFlip 1 ARVN Active Ranger in Quang Nam to UNDERGROUND[0m
+[36mFlip 1 ARVN Active Ranger in Kien Phong to UNDERGROUND[0m
+
+----------------------------------------------------
+End of ARVN Transport activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #70 - ROKs (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), 
+                ARVN -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (10): 5 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 4[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 25
+
+Pivotal Events can be played
+----------------------------------------------------
+Eligible: US
+
+Does US wish to play their pivotal?
+====================================================
+1) Yes
+2) No
+3) Show Coup status
+----------------------------------------------------
 Selection: 
