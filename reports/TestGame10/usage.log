@@ -23,3 +23,7 @@
 2026-09-27T19:17:28	Bash	python3 tools/ctl.py send y && python3 tools/ctl.py advance	136	37367
 2026-09-27T19:17:54	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1250	9453
 2026-09-27T19:17:59	Bash	python3 tools/ctl.py advance	105	16568
+2026-09-27T19:18:35	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1341	8556
+2026-09-27T19:18:43	Bash	python3 tools/ctl.py seq "Transfer how much=>3" "special activity? (y/n)=>y" "Ch	291	5373
+2026-09-27T19:18:48	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	198	2243
+2026-09-27T19:19:04	Bash	python3 tools/ctl.py send y && python3 tools/ctl.py advance	131	40122

@@ -7,3 +7,6 @@
 - report-018-020.md: #110 - No Contact
 - report-021-021.md: #110 - No Contact
 - report-022-023.md: #63 - Fact Finding
+- report-024-024.md: #63 - Fact Finding
+- report-025-027.md: #112 - Colonel Chau
+- report-028-029.md: #118 - Korean War Arms

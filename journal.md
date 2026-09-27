@@ -38,5 +38,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 4 — card #63 Fact Finding — before save-023
 **Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage to ARVN Resources; Advise Irregular in Binh Dinh (remove the lone VC Base) and Quang Tri (remove 2 of 3 VC Guerrillas); +6 Aid.
 **Why.** ARVN is at 48/50 (score -2), so Patronage -3 is the priority; Binh Dinh's Base removal leaves that Active Support space with no enemy piece to Terror from. Pacifying Cam Ranh back (+1) weighed; ARVN's margin matters more.
+**Execution.** Pacify was not offered in Saigon (already Active); Transfer asked `(0 - 3)`.
+**Result.** As planned: Patronage 21, Binh Dinh VC Base gone, Quang Tri down to 1 VC Guerrilla, Aid 43. Then #112 Colonel Chau shaded cost 4 Support and NVA marched 8 Troops into Binh Dinh (NVA 16/18).
+
+## Turn 5 — card #118 Korean War Arms — before save-029
+**Plan.** Limited Op Assault in Binh Dinh (2 US Troops, Highland: 1 hit on an NVA Troop).
+**Why.** NVA is at 16/18 and the next Coup can come within four cards; one Troop removed ends NVA Control of Binh Dinh (-2). The Event (VC loses 4 Guerrillas) helps against the rival furthest from winning.
 **Execution.**
 **Result.**
