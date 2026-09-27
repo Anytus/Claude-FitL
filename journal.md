@@ -266,5 +266,17 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 29 — card #42 Chou En Lai — before save-181
 **Plan.** Limited Op Train in Kien Phong placing 2 Irregulars (taken from Quang Tri, 0 Available), making it COIN-controlled (8 vs 7), then Pacify it to Active Support.
 **Why.** NVA is at 22 with the Coup in the next four draws; NVA's Op + SA leaves me one space. This is NVA -2 and US +2 with no Assault shift (S&D is now shaded). Chou En Lai unshaded (NVA removes a d6 of Troops, its choice) likely costs it no Control. Sweep into Binh Dinh from Qui Nhon weighed: also -2, no US gain.
+**Execution.** Train placement asked `You must remove 2 US Irregulars from the map` → `Select space to remove US Irregulars` (Quang Tri) → `Remove how many US Irregulars (0 - 2)`: 2.
+**Result.** As planned (NVA 20, US +2). Coup #127 came next draw; ARVN's Corps Commanders took Quang Tin, so NVA was 18 at the Victory check: no bot won. No US pacification candidates; after Agitation and NVA Redeploy, NVA is back at 20.
+
+## Coup 5 — #127 Nguyen Cao Ky, Commitment (the last one) — before save-185
+**Plan.** Place the 4 Troop casualties: 2 Kien Hoa-Vinh Binh, 1 Hue, 1 Can Tho. Then withdraw the 2 Troops in Ba Xuyen to Available.
+**Why.** Kien Hoa (Neutral, pop 2), Hue and Can Tho have Police and COIN Control: final-Coup pacification spaces (up to +7). No Commitment follows, so Troops left on the map score nothing, but NVA (20 after Redeploy) must be pushed to 18 or below before the final Victory check, and that needs Troops for Air Lift/Assault. Withdrawing only Ba Xuyen's 2 (+2, one VC shift) keeps 9 on the map.
+**Execution.** none
+**Result.** As planned; the VC withdrawal shift took Kontum to Passive (-1). Reset. The final campaign begins at #3 (the final Coup is somewhere in pile 6). NVA 20/18, VC 31, US 44, ARVN 43.
+
+## Turn 30 — card #3 Peace Talks (final campaign) — before save-188
+**Plan.** Op + SA: Train Saigon (place ARVN Police/Troops, 3 Resources) and Da Nang (2 Irregulars: 1 Available + 1 from Kien Phong, tying Da Nang 5-5); Pacify Saigon Passive → Active (+6); Advise Ranger in Quang Nam (2 NVA Troops) and Ranger in Hue (the VC Guerrilla); +6 Aid.
+**Why.** NVA must be at 18 or below at the final Victory check: Da Nang and Quang Nam leave NVA Control (20 → 18). Saigon Active is +6 toward the final margin; the Police there set up final-Coup pacification. Air Lift + Assault into Binh Dinh weighed: NVA -2 but no Support.
 **Execution.**
 **Result.**

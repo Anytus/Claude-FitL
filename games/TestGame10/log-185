@@ -1,0 +1,122 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #117 - Corps Commanders (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #127 - Coup! Nguyen Cao Ky",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, US",
+      "color": null
+    },
+    {
+      "text": "\nARVN executes the Unshaded Event: Corps Commanders",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 ARVN Troop from AVAILABLE into Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Troop from AVAILABLE into Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Troop from AVAILABLE into Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN selects Quang Tin-Quang Ngai as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 ARVN Troops from LOC Da Nang -- Dak To to Quang Tin-Quang Ngai",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nActivating guerrillas in Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 NVA Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Quang Tin-Quang Ngai to COIN Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 43 to 45",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 20 to 18",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

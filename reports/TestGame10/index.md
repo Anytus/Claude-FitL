@@ -86,3 +86,7 @@
 - report-174-176.md: #21 - Americal
 - report-177-179.md: #84 - To Quoc
 - report-180-181.md: #42 - Chou En Lai
+- report-182-182.md: #42 - Chou En Lai
+- report-183-185.md: #117 - Corps Commanders
+- report-186-187.md: #127 - Coup! Nguyen Cao Ky
+- report-188-188.md: #3 - Peace Talks

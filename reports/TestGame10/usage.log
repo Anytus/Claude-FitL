@@ -170,3 +170,11 @@
 2026-09-27T19:51:04	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"; python3 tools/	177	1023
 2026-09-27T19:51:08	Bash	python3 tools/ctl.py send "Binh Dinh"; python3 tools/ctl.py screen | tail -14	154	2232
 2026-09-27T19:51:29	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	125	35678
+2026-09-27T19:52:13	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1784	13675
+2026-09-27T19:52:19	Bash	python3 tools/ctl.py seq "Select space to remove US Irregulars=>Quang Tri" "Remo	240	3012
+2026-09-27T19:52:42	Bash	python3 tools/ctl.py seq "final Train action=>Pacify" "Pacify=>Shift 1 level to 	239	37984
+2026-09-27T19:52:48	Bash	python3 tools/render.py | grep -E "US:|Available|Casualties|Out of Play|Scores" 	153	1557
+2026-09-27T19:53:37	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1500	7311
+2026-09-27T19:53:46	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py seq "Choose one=>Move troops" 	268	5154
+2026-09-27T19:53:53	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving"; python3 tools/ctl.py scr	162	1867
+2026-09-27T19:53:59	Bash	python3 tools/ctl.py advance	106	27246

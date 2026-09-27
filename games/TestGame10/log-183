@@ -1,0 +1,22 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nAdjust eligiblity",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the ARVN and VC cylinders to the Eligible box",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the US and NVA cylinders to the Ineligible box",
+      "color": "Blue"
+    }
+  ]
+}
