@@ -133,3 +133,9 @@
 2026-09-27T17:58:58	Bash	python3 tools/ctl.py send Hue >/dev/null; python3 tools/ctl.py seq "Select one=>	332	2251
 2026-09-27T17:59:09	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Hue" "Lift forces to wh	428	3840
 2026-09-27T17:59:18	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Finished wit	314	3058
+2026-09-27T17:59:29	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 1 level to Active" | grep -E "Support|m	347	30068
+2026-09-27T17:59:53	Bash	echo "card #27 Phoenix Program: Air Lift Hue Troops to Qui Nhon/Cam Ranh, Train+	1095	4087
+2026-09-27T17:59:56	Bash	python3 tools/ctl.py send "Ba Xuyen"	72	677
+2026-09-27T17:59:59	Bash	python3 tools/ctl.py send n	61	698
+2026-09-27T18:00:05	Bash	python3 tools/ctl.py send 1 && python3 tools/ctl.py send "Phu Bon-Phu Yen" && py	172	1979
+2026-09-27T18:00:12	Bash	python3 tools/ctl.py send "Khanh Hoa" && python3 tools/ctl.py send n && python3 	135	6529

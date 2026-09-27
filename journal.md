@@ -178,3 +178,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +1 now, and Qui Nhon/Cam Ranh join Kontum-less Can Tho as Coup-pacification sites (COIN, Police, US Troop, Passive) for the Coup due within 4 draws. Hue is already Active; Saigon keeps its 3 Troops facing Tay Ninh. Phoenix unshaded has almost no legal VC targets.
 **Execution.** none
 **Result.** Kontum Active (+1, US 62); US Troops now in Qui Nhon and Cam Ranh.
+
+## Turn 22 — card #65 International Forces (last before Coup) — before save-149
+**Plan.** Event unshaded: 4 Out-of-Play US Troops onto the map — 1 Ba Xuyen, 1 Phu Bon-Phu Yen, 2 Khanh Hoa — each gaining COIN Control with its Police.
+**Why.** Denies VC's Performed shaded (a die roll of my map pieces Out of Play, which would gut the Coup-pacification sites) and costs no points; Coup Support phase then has Ba Xuyen (+2) plus Qui Nhon/Cam Ranh/Can Tho/Phu Bon/Khanh Hoa (+1 each) to choose 4 from. ARVN rises ~3 to 47, still below its line; NVA loses Khanh Hoa.
+**Execution.** none (chain: 'Place pieces in which space:' typed, 'place a base? (y/n)', 'Place how many pieces').
+**Result.** As planned: COIN Control in Ba Xuyen, Phu Bon, Khanh Hoa (ARVN 47, NVA 10).

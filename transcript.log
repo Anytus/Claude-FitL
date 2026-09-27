@@ -8532,4 +8532,222 @@ Eligible      : US, VC
 Acted         : none
 Passed        : none
 Ineligible    : ARVN, NVA
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: International Forces
+----------------------------------------------------
+
+Placing pieces from OUT OF PLAY
+----------------------------------------------------
+Selecting among: US Troops and US Bases
+Number placed  : 0 of 4
+
+Place pieces in which space: Ba Xuyen
+Do you wish to place a base in Ba Xuyen? (y/n) n
+
+Place how many pieces in Ba Xuyen (0 - 4): 1
+
+[35mPlace 1 US Troop from OUT OF PLAY into Ba Xuyen[0m
+
+Placing pieces from OUT OF PLAY
+----------------------------------------------------
+Selecting among: US Troops and US Bases
+Number placed  : 1 of 4
+
+Place pieces in which space: Phu Bon-Phu Yen
+Do you wish to place a base in Phu Bon-Phu Yen? (y/n) n
+
+Place how many pieces in Phu Bon-Phu Yen (0 - 3): 1
+
+[35mPlace 1 US Troop from OUT OF PLAY into Phu Bon-Phu Yen[0m
+
+Placing pieces from OUT OF PLAY
+----------------------------------------------------
+Selecting among: US Troops and US Bases
+Number placed  : 2 of 4
+
+Place pieces in which space: Khanh Hoa
+Do you wish to place a base in Khanh Hoa? (y/n) n
+
+Place how many pieces in Khanh Hoa (0 - 2): 2
+
+[35mPlace 2 US Troops from OUT OF PLAY into Khanh Hoa[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Ba Xuyen[0m
+[33mFlip control marker in Khanh Hoa to COIN Control[0m
+[33mPlace COIN Control marker in Phu Bon-Phu Yen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 47[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 11 to 10[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #65 - International Forces (ARVN, US, NVA, VC)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #130 - Coup! Failed Attempt
+Eligible      : VC
+Acted         : US -> Event
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Quang Duc-Long Khanh for Terror
+[36mFlip 1 VC Underground Guerrilla in Quang Duc-Long Khanh to ACTIVE[0m
+[33mFlip Passive Opposition marker in Quang Duc-Long Khanh to Active Opposition[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 22 to 23[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Kien Phong
+----------------------------------------------------
+[35mRemove 2 ARVN Troops from Kien Phong to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -1 to 23[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 47 to 46[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 113
+
+
+>>> 4th Coup Round <<<
+====================================================
+Current card: #130 - Coup! Failed Attempt
+(coup or ?): coup
+Coup! Card: #130 - Coup! Failed Attempt
+----------------------------------------------------
+ARVN must remove 1 in 3 of its Cubes per space
+
+[35mRemove 1 ARVN Troop from Kien Phong to AVAILABLE[0m
+[35mRemove 1 ARVN Police from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Kontum to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Cam Ranh to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Hue to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Hue to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Qui Nhon to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Saigon to AVAILABLE[0m
+[35mRemove 2 ARVN Troops from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Can Tho to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Binh Dinh to AVAILABLE[0m
+[31m
+Place #130 - Coup! Failed Attempt beneath the other cards in the RVN Leader Box[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Can Tho -- Chau Doc[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 13[0m
+[34mIncrease ARVN resources by +88 to 75[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+There are no pieces in the Casualties Box
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+
+US Pacification (4 spaces remaining, 75 ARVN resources, Econ is 13)
+Choose space to pacify:
+====================================================
+1) Cam Ranh
+2) Can Tho
+3) Qui Nhon
+4) Ba Xuyen
+5) Khanh Hoa
+6) Phu Bon-Phu Yen
+7) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

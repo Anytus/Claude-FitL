@@ -55,3 +55,4 @@
 - report-140-142.md: #120 - US Press Corps
 - report-143-145.md: #27 - Phoenix Program
 - report-146-148.md: #20 - Laser Guided Bombs
+- report-149-151.md: #65 - International Forces
