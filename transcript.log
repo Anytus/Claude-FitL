@@ -3237,4 +3237,340 @@ Eligible      : US, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : VC, NVA
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Kien Hoa-Vinh Binh
+
+US selects Kien Hoa-Vinh Binh for Training
+
+Training in Kien Hoa-Vinh Binh:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 1
+
+Place how many Irregulars (0 - 2): 1
+[35mPlace 1 US Underground Irregular from AVAILABLE into Kien Hoa-Vinh Binh[0m
+
+1 space selected for Training
+----------------------------------------------------
+Kien Hoa-Vinh Binh
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Kien Hoa-Vinh Binh
+
+Pacifying in Kien Hoa-Vinh Binh
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Passive Support
+2) Shift 1 level to Neutral
+3) Do not pacify in Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 48[0m
+[33mReplace Passive Opposition marker in Kien Hoa-Vinh Binh with Passive Support marker[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 48 to 50[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 32 to 30[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Binh Dinh
+2) Kien Phong
+3) Quang Nam
+4) Quang Tri-Thua Thien
+5) None of the above
+----------------------------------------------------
+Selection: 4
+
+Advise in Quang Tri-Thua Thien using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Quang Tri-Thua Thien to ACTIVE[0m
+[35mRemove 1 VC Base from Quang Tri-Thua Thien to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 30 to 29[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 3
+Use Irregular/Ranger in which space: 
+====================================================
+1) Binh Dinh
+2) Kien Phong
+3) Quang Nam
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+Advise in Binh Dinh using US Underground Irregular
+----------------------------------------------------
+[36mFlip 1 US Underground Irregular in Binh Dinh to ACTIVE[0m
+
+Remove enemy forces
+----------------------------------------------------
+Select 2 pieces among the following:
+  5 NVA Troops, 1 VC Underground Guerrilla
+
+How many NVA Troops (1 - 2): 2
+[35mRemove 2 NVA Troops from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 13 to 11[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Quang Tri-Thua Thien, Binh Dinh
+
+Do you wish to add +6 Aid? (y/n) y
+[34mIncrease US Aid by +6 to 23[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #28 - Search and Destroy (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded)
+On Deck card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : ARVN
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Search and Destroy
+----------------------------------------------------
+[31m
+Capability: '#28 Search And Destroy (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 24
+
+NVA Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #24 - Operation Starlite (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+VC executes the Shaded Event: Nguyen Huu Tho
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Saigon[0m
+[35mPlace 1 VC Base from AVAILABLE into Saigon[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 29 to 30[0m
+
+
+VC will remain eligible for the next card
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #109 - Nguyen Huu Tho (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+On Deck card  : #24 - Operation Starlite (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : VC(+) -> Event
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (2): 13 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - RR
+Trung check: Underground NVA Guerrillas in space with Support? [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Saigon -- An Loc -- Ban Me Thuot as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from The Parrot's Beak to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Saigon as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from LOC Saigon -- Can Tho to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Saigon to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 1
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Can Ambush in March destinations? [Yes]
+
+NVA chooses Ambush special activity
+====================================================
+
+NVA Ambushes in LOC Saigon -- An Loc -- Ban Me Thuot, targeting Saigon
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in LOC Saigon -- An Loc -- Ban Me Thuot to ACTIVE[0m
+[35mRemove 1 US Troop from Saigon to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 59
+
+ARVN Bot Pivotal Event die roll: 5  [Failure] (2 cards in leader box)
+
+Pivotal Events can be played
+----------------------------------------------------
+Eligible: ARVN and US
+Trumped : ARVN
+
+Does US wish to play their pivotal?
+====================================================
+1) Yes
+2) No
+3) Show Coup status
+----------------------------------------------------
+Selection: 

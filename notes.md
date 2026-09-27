@@ -25,3 +25,4 @@ card #15 Medevac: US ineligible
 coup #129 Failed Attempt: pacified Cam Ranh, Hue, Qui Nhon, Quang Tri; casualties to Kien Hoa/Can Tho — +8 US, next Coup set-up
 card #6 Aces: Patrol only, Troops to Hue/Qui Nhon/Cam Ranh — Coup pacification set-up, NVA held to LimOp
 card #105 Rural Pressure: declined Linebacker II (twice) — keep #28 for US first
+card #28 Search and Destroy: Train/Pacify Kien Hoa, Advise Quang Tri Base + Binh Dinh NVA — VC -3, NVA -2; ARVN took capability

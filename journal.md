@@ -86,5 +86,17 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 8 — card #28 Search and Destroy — before save-048
 **Plan.** Op + SA: Train Kien Hoa-Vinh Binh (1 Irregular), Pacify it 2 levels (Passive Opposition to Passive Support); Advise Irregular in Quang Tri (remove the lone VC Base) and Binh Dinh (remove 2 NVA Troops); +6 Aid.
 **Why.** VC is closest to its line (32/35): this is VC -3, US +2, NVA -2 (Binh Dinh Control broken). ARVN, second and Critical/Unshaded, should then take the Search and Destroy capability unshaded, so taking the Event myself buys nothing.
+**Execution.** `Train in which space` came as a typed prompt this time; Pacify space auto-selected. Advise in Binh Dinh asked `How many NVA Troops (1 - 2)`: 2.
+**Result.** As planned (VC 29, NVA 11, US 50); ARVN took Search and Destroy unshaded (capability). Then VC placed a Base + Guerrilla in Saigon and an NVA Ambush sent 1 US Troop from Saigon to Casualties.
+
+## Pivotal — Linebacker II offered (current #24 Operation Starlite) — before save-054
+**Plan.** Decline.
+**Why.** The US is first on #24 and must clear the new VC Base/Guerrilla from Saigon (Active Support, pop 6) now; Linebacker would spend this turn on NVA Bases while Saigon sits open to Terror for two cards.
+**Execution.**
+**Result.**
+
+## Turn 9 — card #24 Operation Starlite — before save-054
+**Plan.** Op + SA: Assault Saigon (1 US Troop + Base = 2 hits: Active NVA Guerrilla, then Underground VC Guerrilla via Search and Destroy) with ARVN follow-up (8 Troops) on the VC Base; Air Strike Binh Dinh (3 NVA Troops), spare 2 hits to degrade the Trail.
+**Why.** Removes every enemy piece from Saigon (VC -1 Base, no Terror source); Binh Dinh is already Active Opposition, so the strike costs no shift. Starlite unshaded (clear Binh Tuy) weighed; Saigon is worth more.
 **Execution.**
 **Result.**

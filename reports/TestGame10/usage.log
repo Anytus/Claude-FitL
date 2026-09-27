@@ -45,3 +45,8 @@
 2026-09-27T19:24:42	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1285	5225
 2026-09-27T19:24:51	Bash	python3 tools/ctl.py send 2 && python3 tools/ctl.py advance	146	23523
 2026-09-27T19:24:58	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	808	11537
+2026-09-27T19:25:35	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s+=''' ## Turn 8 — card #28 S	1167	7558
+2026-09-27T19:25:44	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" "special activity? (y/n)=>y" "	306	5851
+2026-09-27T19:25:49	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	223	2279
+2026-09-27T19:26:01	Bash	python3 tools/ctl.py seq "How many NVA Troops=>2" "+6 Aid=>y"; python3 tools/ctl	185	27969
+2026-09-27T19:26:05	Bash	python3 -c " import json;c=json.load(open('cards.json')) for v in (c if isinstan	373	1686
