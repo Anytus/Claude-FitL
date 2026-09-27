@@ -166,3 +166,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** The NVA stack in Saigon threatens the US Base (Out of Play if lost) and Saigon's 12 Support points; destroying it guts the NVA army. The three source spaces keep COIN Control with no enemy present.
 **Execution.** Stepped through Air Lift (typed space names; 'Lift forces to which space' menu; 'Air Lift US Troops'); Assault space auto-selected. Program offered 'Follow up with ARVN assault in Saigon? (y/n)' after the US Assault (not an event) — answered y (3 ARVN Resources). Mechanic: the ARVN follow-up is offered after a normal US Assault too.
 **Result.** Saigon cleared: 13 NVA Troops + 2 Guerrillas removed; 7 US Troops now in Saigon.
+
+## Turn 20 — card #8 Arc Light — before save-137
+**Plan.** Op Train + Air Lift first (Saigon, Hue, Kontum, Can Tho): 2 US Troops to Hue, 1 to Kontum, 1 to Can Tho; Train Hue (+Kontum, Can Tho, no placement), Pacify Hue 2 levels (Neutral -> Active).
+**Why.** +4 US now, and Kontum/Can Tho (Passive, COIN, Police) become Coup-pacification sites with the pile-4 Coup 1-6 draws away (ARVN budget ~36 above Econ plus Coup income). Saigon keeps 3 Troops with its Base. Sweep+Air Strike on Kien Phong weighed: Air Strike hits are one die and do not build score.
+**Execution.** Deviation: trained only in Hue (Kontum/Can Tho selection skipped; nothing to gain there). Air Lift done before any Train space was selected; the Train menu then lacked 'Perform a Special Activity'.
+**Result.** Hue Active (+4, US 61); 3 US Troops left in Saigon, 2 in Hue, 1 each in Kontum and Can Tho.

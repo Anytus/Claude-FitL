@@ -51,3 +51,5 @@
 - report-128-130.md: #3 - Peace Talks
 - report-131-133.md: #35 - Thanh Hoa
 - report-134-136.md: #77 - Detente
+- report-137-139.md: #8 - Arc Light
+- report-140-142.md: #120 - US Press Corps

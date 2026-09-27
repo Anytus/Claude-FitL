@@ -7676,4 +7676,462 @@ Eligible      : US, VC
 Acted         : none
 Passed        : none
 Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 2
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Saigon
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Lift forces out of Hue
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Kontum
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Hue, Kontum
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Saigon
+3) Lift forces out of Hue
+4) Lift forces out of Kontum
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Can Tho
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Hue, Kontum, Can Tho
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Hue
+3) Lift forces out of Kontum
+4) Lift forces out of Can Tho
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Kontum
+3) Can Tho
+4) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Saigon to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 7): 2
+[35mMove 2 US Troops from Saigon to Hue[0m
+
+Air Lifting forces from Saigon to Hue
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 4
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Hue, Kontum, Can Tho
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Hue
+3) Lift forces out of Kontum
+4) Lift forces out of Can Tho
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Kontum
+3) Can Tho
+4) Do not move forces now
+----------------------------------------------------
+Selection: 2
+
+Air Lifting forces from Saigon to Kontum
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 5): 1
+[35mMove 1 US Troop from Saigon to Kontum[0m
+
+Air Lifting forces from Saigon to Kontum
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 4
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Hue, Kontum, Can Tho
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Hue
+3) Lift forces out of Kontum
+4) Lift forces out of Can Tho
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Hue
+2) Kontum
+3) Can Tho
+4) Do not move forces now
+----------------------------------------------------
+Selection: 3
+
+Air Lifting forces from Saigon to Can Tho
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 4): 1
+[35mMove 1 US Troop from Saigon to Can Tho[0m
+
+Air Lifting forces from Saigon to Can Tho
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Saigon
+----------------------------------------------------
+Selection: 4
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Saigon, Hue, Kontum, Can Tho
+
+Select one:
+====================================================
+1) Lift forces out of Saigon
+2) Lift forces out of Hue
+3) Lift forces out of Kontum
+4) Lift forces out of Can Tho
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 5
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Hue
+
+US selects Hue for Training
+
+Training in Hue:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Hue
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Hue
+
+Pacifying in Hue
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Hue
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Hue
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 42[0m
+[33mPlace Active Support marker in Hue[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 57 to 61[0m
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #8 - Arc Light (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+On Deck card  : #120 - US Press Corps (VC, ARVN, NVA, US)
+                VC -> (Ignored), ARVN -> (Ignored), NVA -> (Performed, Shaded)
+Eligible      : VC
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA, ARVN
+(perform or ?): perform
+
+VC executes the Shaded Event: Arc Light
+----------------------------------------------------
+[31m
+Capability: '#8 Arc Light (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the LimOp or Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and NVA cylinders to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 27
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #120 - US Press Corps (VC, ARVN, NVA, US)
+                VC -> (Ignored), ARVN -> (Ignored), NVA -> (Performed, Shaded)
+On Deck card  : #27 - Phoenix Program (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (7): 6 [Yes]
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [Yes]
+
+ARVN chooses Assault operation
+====================================================
+
+ARVN assaults in Kien Giang-An Xuyen
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 39[0m
+The assault inflicts 3 hits
+
+[35mRemove 1 VC Active Guerrilla from Kien Giang-An Xuyen to AVAILABLE[0m
+
+ARVN chooses Transport special activity
+====================================================
+
+ARVN selects Kien Phong as Transport destination
+----------------------------------------------------
+[35mMove 6 ARVN Troops from Saigon to Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Flip all Rangers underground
+----------------------------------------------------
+There are no Active Rangers on the map
+
+----------------------------------------------------
+End of ARVN Transport activity
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+ARVN assaults in Kien Phong
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 36[0m
+The assault inflicts 3 hits
+
+[35mRemove 3 NVA Troops from Kien Phong to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 3 [Failure]
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #120 - US Press Corps (VC, ARVN, NVA, US)
+                VC -> (Ignored), ARVN -> (Ignored), NVA -> (Performed, Shaded)
+On Deck card  : #27 - Phoenix Program (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+NVA executes the Shaded Event: US Press Corps
+----------------------------------------------------
+[35mMove 1 US Troop from CASUALTIES to OUT OF PLAY[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 20
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #27 - Phoenix Program (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #20 - Laser Guided Bombs (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
 (perform or ?): 

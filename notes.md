@@ -52,3 +52,5 @@ card #58 Pathet Lao / #124 Tet Offensive: Train Da Nang (placeholder), Advise AR
 card #3 Peace Talks: US ineligible (NVA March 13 Troops into Saigon, ARVN Train Saigon)
 card #35 Thanh Hoa: Air Lift 7 Troops into Saigon + Assault (14 hits) + ARVN follow-up — destroyed 13 NVA Troops threatening Saigon
 card #77 Detente: US ineligible (ARVN Transport+Assault Kien Giang, NVA shaded Infiltrate + VC Rally)
+card #8 Arc Light: Air Lift Troops to Hue/Kontum/Can Tho, Train+Pacify Hue — +4 US, set Coup pacification sites
+card #120 US Press Corps: US ineligible (ARVN Assaults+Transport, NVA shaded)

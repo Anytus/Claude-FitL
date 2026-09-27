@@ -121,3 +121,10 @@
 2026-09-27T17:56:28	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Finished wit	129	2220
 2026-09-27T17:56:32	Bash	python3 tools/ctl.py seq "US Assault=>Select a space"	89	1386
 2026-09-27T17:56:36	Bash	python3 tools/ctl.py send y	61	6793
+2026-09-27T17:56:50	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	598	36400
+2026-09-27T17:57:25	Bash	echo "card #35 Thanh Hoa: Air Lift 7 Troops into Saigon + Assault (14 hits) + AR	1241	6268
+2026-09-27T17:57:34	Bash	for s in Saigon Hue Kontum "Can Tho"; do python3 tools/ctl.py send "$s" | tail -	312	3340
+2026-09-27T17:57:50	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Saigon" "Lift forces to	608	6438
+2026-09-27T17:57:56	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift" "US Training=>Sele	159	1920
+2026-09-27T17:58:02	Bash	python3 tools/ctl.py seq "Training in Hue=>Do not place" "US Training=>Finished 	159	2644
+2026-09-27T17:58:05	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" | tail -12	97	6149
