@@ -184,3 +184,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Denies VC's Performed shaded (a die roll of my map pieces Out of Play, which would gut the Coup-pacification sites) and costs no points; Coup Support phase then has Ba Xuyen (+2) plus Qui Nhon/Cam Ranh/Can Tho/Phu Bon/Khanh Hoa (+1 each) to choose 4 from. ARVN rises ~3 to 47, still below its line; NVA loses Khanh Hoa.
 **Execution.** none (chain: 'Place pieces in which space:' typed, 'place a base? (y/n)', 'Place how many pieces').
 **Result.** As planned: COIN Control in Ba Xuyen, Phu Bon, Khanh Hoa (ARVN 47, NVA 10).
+
+## Coup 4 — #130 Failed Attempt, Support phase — before save-152
+**Plan.** Pacify Ba Xuyen 2 levels (Neutral -> Active), Qui Nhon, Cam Ranh and Can Tho 1 level each (Passive -> Active).
+**Why.** +5 US for 15 of 62 spare Resources; the three Cities hold Support more safely than Phu Bon and Khanh Hoa, which still have NVA Guerrillas.
+**Execution.** none
+**Result.** +5 US as planned.
+
+## Coup 4 — Commitment — before save-152
+**Plan.** Move nothing.
+**Why.** No new pacification site needs a Troop (Phu Bon and Khanh Hoa already hold one); withdrawals would hand the VC Support shifts it would spend on Saigon.
+**Execution.** none
+**Result.** No moves.

@@ -56,3 +56,5 @@
 - report-143-145.md: #27 - Phoenix Program
 - report-146-148.md: #20 - Laser Guided Bombs
 - report-149-151.md: #65 - International Forces
+- report-152-153.md: #130 - Coup! Failed Attempt
+- report-154-156.md: #113 - Ruff Puff

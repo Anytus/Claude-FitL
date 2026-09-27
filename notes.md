@@ -57,3 +57,5 @@ card #120 US Press Corps: US ineligible (ARVN Assaults+Transport, NVA shaded)
 card #27 Phoenix Program: Air Lift Hue Troops to Qui Nhon/Cam Ranh, Train+Pacify Kontum — +1, Coup pacification sites
 card #20 Laser Guided Bombs: US ineligible (ARVN Assault Kien Phong, NVA LimOp March)
 card #65 International Forces: Event unshaded, 4 Out-of-Play Troops to Ba Xuyen/Phu Bon/Khanh Hoa — deny VC shaded, Coup pacification sites
+Coup 4 #130 Failed Attempt: pacified Ba Xuyen (2), Qui Nhon, Cam Ranh, Can Tho; no Commitment moves — +5 US (67)
+card #113 Ruff Puff: US eligible 3rd; VC Terror+Subvert and ARVN unshaded ended card

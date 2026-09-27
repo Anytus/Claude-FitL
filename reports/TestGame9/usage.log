@@ -139,3 +139,6 @@
 2026-09-27T17:59:59	Bash	python3 tools/ctl.py send n	61	698
 2026-09-27T18:00:05	Bash	python3 tools/ctl.py send 1 && python3 tools/ctl.py send "Phu Bon-Phu Yen" && py	172	1979
 2026-09-27T18:00:12	Bash	python3 tools/ctl.py send "Khanh Hoa" && python3 tools/ctl.py send n && python3 	135	6529
+2026-09-27T18:00:24	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	358	22132
+2026-09-27T18:00:42	Bash	echo "card #65 International Forces: Event unshaded, 4 Out-of-Play Troops to Ba 	1048	7292
+2026-09-27T18:00:51	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	205	7507
