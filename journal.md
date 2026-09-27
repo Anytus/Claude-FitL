@@ -28,3 +28,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN is at 49 (wins at 51) and the pile-1 Coup lies within the next 5 cards; -3 Patronage buys margin against a Govern before it. Saigon's pacification can wait for the Coup Support phase (it qualifies).
 **Execution.** seq stopped at 'Place how many Irregulars (0 - 2)' (asked despite 1 Available; answered 1). Advise space auto-selected (one candidate) and +6 Aid asked after one space.
 **Result.** As planned: Patronage 24 -> 21 (ARVN 46), ARVN Resources 30, Pleiku clean, Aid +6.
+
+## Turn 5 — card #110 No Contact — before save-029
+**Plan.** Limited Op Sweep into Binh Dinh with 2 US Troops from Kontum and 1 from Pleiku-Darlac (5 US vs 3 NVA Troops).
+**Why.** NVA is at 16 (wins at 19) and the Coup is card 12 or 13; flipping Binh Dinh to COIN Control takes NVA to 14 so one more March before the Coup cannot win it. ARVN rises to 46 (acceptable). Passing for #93 was weighed: NVA cannot act on #93 anyway, but it can on card 12.
+**Execution.** Walked the Sweep chain in single steps (no rejections): 'Sweep in which space' typed; then 'US Sweep Troops into' menu -> 'US Move troops to Binh Dinh from' (several sources offered, Da Nang included) -> 'Move how many US Troops'; Finished twice.
+**Result.** As planned: Binh Dinh COIN Control, NVA 16 -> 14, ARVN 44 -> 46.

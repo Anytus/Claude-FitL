@@ -11,3 +11,6 @@
 - report-022-024.md: #50 - Uncle Ho
 - report-025-027.md: #118 - Korean War Arms
 - report-028-029.md: #110 - No Contact
+- report-030-030.md: #110 - No Contact
+- report-031-033.md: #93 - Senator Fulbright
+- report-034-034.md: #126 - Coup! Young Turks

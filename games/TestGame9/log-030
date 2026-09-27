@@ -1,0 +1,106 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #110 - No Contact (VC, NVA, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op Only",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Sweep operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nBinh Dinh selected for Sweep",
+      "color": null
+    },
+    {
+      "text": "\n",
+      "color": null
+    },
+    {
+      "text": "Move 2 US Troops from Kontum to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Binh Dinh to COIN Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 44 to 46",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 16 to 14",
+      "color": "Blue"
+    },
+    {
+      "text": "Move 1 US Troop from Pleiku-Darlac to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNo guerrillas were activated in Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

@@ -1501,4 +1501,296 @@ Eligible      : US
 Acted         : NVA -> Op Only
 Passed        : none
 Ineligible    : VC, ARVN
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 1
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Binh Dinh
+
+Binh Dinh selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Binh Dinh
+
+US Sweep Troops into:
+====================================================
+1) Binh Dinh
+2) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Binh Dinh from:
+====================================================
+1) Da Nang
+2) Kontum
+3) Pleiku-Darlac
+4) Finished moving troops to Binh Dinh
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 2): 2
+
+
+[35mMove 2 US Troops from Kontum to Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Binh Dinh to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 46[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 14[0m
+
+US Move troops to Binh Dinh from:
+====================================================
+1) Da Nang
+2) Pleiku-Darlac
+3) Finished moving troops to Binh Dinh
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Pleiku-Darlac to Binh Dinh[0m
+
+US Move troops to Binh Dinh from:
+====================================================
+1) Da Nang
+2) Finished moving troops to Binh Dinh
+----------------------------------------------------
+Selection: 2
+
+US Sweep Troops into:
+====================================================
+1) Binh Dinh
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+No guerrillas were activated in Binh Dinh
+[34m
+Move the US cylinder to the LimOp box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 126
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #126 - Coup! Young Turks
+Eligible      : VC, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Tay Ninh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 6[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 25 to 23[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Taxes in Kien Phong
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Kien Phong to ACTIVE[0m
+[33mFlip Active Opposition marker in Kien Phong to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 8[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 23 to 21[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> ARVN turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #93 - Senator Fulbright (VC, US, NVA, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #126 - Coup! Young Turks
+Eligible      : ARVN
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (2): 6 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - MM
+Trung check: All routes from Can Tho to Hue blocked? [No]
+[31m
+The operation for Trung: ARVN - M would be ineffective.[0m
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: All routes from Can Tho to Hue blocked? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - KK
+Trung check: ARVN Assault would add COIN Control? [No]
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 15[0m
+[35mPlace 1 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[31m
+Leader: Duong Van Minh effect triggers[0m
+----------------------------------------------------
+[34mIncrease US Aid by +5 to 30[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 43
+
+
+>>> 1st Coup Round <<<
+====================================================
+Current card: #126 - Coup! Young Turks
+(coup or ?): coup
+Coup! Card: #126 - Coup! Young Turks
+----------------------------------------------------
+[31m
+Place #126 - Coup! Young Turks in the RVN Leader Box[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Kontum -- Dak To[0m
+[33mAdd 1 sabotage marker to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 13[0m
+[34mIncrease ARVN resources by +43 to 58[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+There are no pieces in the Casualties Box
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+
+US Pacification (4 spaces remaining, 58 ARVN resources, Econ is 13)
+Choose space to pacify:
+====================================================
+1) Da Nang
+2) Saigon
+3) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

@@ -17,3 +17,5 @@ card #55 Trucks: US eligible but NVA and VC acted first; card ended
 card #79 Henry Cabot Lodge: Train Saigon/Quang Tri, Transfer 3 Patronage, Advise Pleiku — ARVN at 49 with Coup near
 card #50 Uncle Ho: US ineligible (NVA Rally+Infiltrate, VC passed)
 card #118 Korean War Arms: US eligible but VC event and ARVN Train+Govern ended card
+card #110 No Contact: LimOp Sweep 3 US Troops into Binh Dinh — break NVA Control, NVA 16 to 14
+card #93 Senator Fulbright: US ineligible (VC Tax, ARVN LimOp Train)

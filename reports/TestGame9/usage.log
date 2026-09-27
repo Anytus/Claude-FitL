@@ -27,3 +27,13 @@
 2026-09-27T17:36:22	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	165	3536
 2026-09-27T17:36:27	Bash	python3 tools/ctl.py send y && S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f	433	6716
 2026-09-27T17:36:49	Bash	python3 tools/ctl.py advance	62	29790
+2026-09-27T17:37:31	Bash	echo "card #79 Henry Cabot Lodge: Train Saigon/Quang Tri, Transfer 3 Patronage, 	1023	10237
+2026-09-27T17:37:34	Bash	python3 tools/ctl.py seq "US Sweep space=>Select a Sweep" 	94	758
+2026-09-27T17:37:38	Bash	python3 tools/ctl.py send "Binh Dinh"	73	1258
+2026-09-27T17:37:41	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Binh Dinh"	94	1142
+2026-09-27T17:37:46	Bash	python3 tools/ctl.py seq "Move troops to Binh Dinh from=>Kontum"	100	786
+2026-09-27T17:37:51	Bash	python3 tools/ctl.py seq "how many=>2" "Move troops to Binh Dinh from=>Pleiku" "	132	2810
+2026-09-27T17:37:55	Bash	python3 tools/ctl.py seq "Move troops to Binh Dinh from=>Finished"	102	1047
+2026-09-27T17:37:58	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Finished"	93	5170
+2026-09-27T17:38:15	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	494	13214
+2026-09-27T17:38:22	Bash	python3 -c " import json;c=json.load(open('cards.json')) cs=c if isinstance(c,li	262	890
