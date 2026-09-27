@@ -14,3 +14,6 @@
 - report-030-030.md: #110 - No Contact
 - report-031-033.md: #93 - Senator Fulbright
 - report-034-034.md: #126 - Coup! Young Turks
+- report-035-035.md: #126 - Coup! Young Turks
+- report-036-038.md: #43 - Economic Aid
+- report-039-040.md: #109 - Nguyen Huu Tho

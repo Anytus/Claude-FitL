@@ -37,3 +37,8 @@
 2026-09-27T17:37:58	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Finished"	93	5170
 2026-09-27T17:38:15	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	494	13214
 2026-09-27T17:38:22	Bash	python3 -c " import json;c=json.load(open('cards.json')) cs=c if isinstance(c,li	262	890
+2026-09-27T17:38:33	Bash	echo "card #110 No Contact: LimOp Sweep 3 US Troops into Binh Dinh — break NVA C	803	6351
+2026-09-27T17:38:45	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	291	7980
+2026-09-27T17:38:47	Bash	python3 tools/render.py 2>&1 | head -80	54	6245
+2026-09-27T17:39:14	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — Commitment — before save-034 **Plan.** Mo	485	2244
+2026-09-27T17:39:28	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	219	33643

@@ -34,3 +34,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** NVA is at 16 (wins at 19) and the Coup is card 12 or 13; flipping Binh Dinh to COIN Control takes NVA to 14 so one more March before the Coup cannot win it. ARVN rises to 46 (acceptable). Passing for #93 was weighed: NVA cannot act on #93 anyway, but it can on card 12.
 **Execution.** Walked the Sweep chain in single steps (no rejections): 'Sweep in which space' typed; then 'US Sweep Troops into' menu -> 'US Move troops to Binh Dinh from' (several sources offered, Da Nang included) -> 'Move how many US Troops'; Finished twice.
 **Result.** As planned: Binh Dinh COIN Control, NVA 16 -> 14, ARVN 44 -> 46.
+
+## Coup 1 — #126 Young Turks, Support phase — before save-034
+**Plan.** Pacify Saigon 1 level (Passive -> Active) and Da Nang 2 levels (Neutral -> Active); the only two candidates.
+**Why.** 45 ARVN Resources above Econ; +8 US for 9 Resources. Nothing else qualifies (no Police with US Troops elsewhere).
+**Execution.** none (cost 3 per level under Young Turks).
+**Result.** Saigon Active, Da Nang Active (+8 US); ARVN then pacified An Loc.
+
+## Coup 1 — Commitment — before save-034
+**Plan.** Move nothing.
+**Why.** Every Troop placed costs a point and a withdrawal costs a population shift the VC would aim at Saigon; the 4 Troops in Binh Dinh (now with 4 ARVN Police) and 2 in Da Nang already serve the next Support phase. Quang Tri's pieces cannot move (NVA Control).
+**Execution.** none
+**Result.** No moves, no withdrawal shifts.

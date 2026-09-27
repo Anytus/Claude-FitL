@@ -19,3 +19,5 @@ card #50 Uncle Ho: US ineligible (NVA Rally+Infiltrate, VC passed)
 card #118 Korean War Arms: US eligible but VC event and ARVN Train+Govern ended card
 card #110 No Contact: LimOp Sweep 3 US Troops into Binh Dinh — break NVA Control, NVA 16 to 14
 card #93 Senator Fulbright: US ineligible (VC Tax, ARVN LimOp Train)
+Coup 1 #126 Young Turks: pacified Saigon to Active and Da Nang to Active, no Commitment moves — +8 US, no withdrawal shift
+card #43 Economic Aid: US eligible but NVA Op+Bombard and ARVN event ended card
