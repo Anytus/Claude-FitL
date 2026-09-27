@@ -17,7 +17,8 @@ depends on how many candidates there are), `[y/n]` = bare yes/no.
 **Interface facts.**
 
 - When exactly one space is legal the program selects it and executes
-  without asking, so peeking at an option can commit it.
+  without asking, so peeking at an option can commit it. Leave that step
+  out of a `seq`, or its answer lands on the next prompt.
 - `abort` inside a Special Activity aborts only that activity and returns
   to the operation's menu; at an operation menu, `abort` then `y` aborts the
   whole action with no state change.
@@ -101,7 +102,7 @@ Limited Op Train, one space: `... "Choose one=>Limited" "Choose operation=>Train
 | --- | --- | --- |
 | `US Assault:` | menu | `Select a space to Assault`, `Perform a Special Activity`, `Finished selecting spaces` |
 | `Assault in which space:` | menu | candidate spaces, `None of the above` |
-| ARVN participation, extra prompts | varies | asked only when ARVN cubes are present in the space |
+| `Follow up with ARVN assault? (y/n)` | y/n | seen once, after an event's Assault |
 | `US Assault:` again | menu | repeat or `Finished selecting spaces` |
 
 ## Advise (Special Activity)
@@ -109,7 +110,7 @@ Limited Op Train, one space: `... "Choose one=>Limited" "Choose operation=>Train
 | Prompt | Form | Entries |
 | --- | --- | --- |
 | `Choose Advise option:` | menu | `Sweep a space with ARVN forces`, `Assault a space with ARVN forces`, `Use Irregular/Ranger to remove enemy pieces`, `Finished selecting Advise spaces` (only the possible ones) |
-| `Use Irregular/Ranger in which space:` | menu | candidate spaces, `None of the above` |
+| `Use Irregular/Ranger in which space:` | menu | candidate spaces, `None of the above`; then, if the space holds both, which piece to flip |
 | `How many NVA Troops (0 - 1):`, `How many NVA Underground Guerrillas:`, ... | typed | numbers, one prompt per piece type present |
 | `<Sweep/Assault> ... in which space:` | menu | candidate spaces, `None of the above` |
 | `Do you wish to add +6 Aid? (y/n)` | y/n | asked once, after the second Advise space |

@@ -4,11 +4,9 @@ Observed at the program's own prompts or in its narration over seven games;
 descriptive, not advice. Where a statement is an inference rather than an
 observation, it says so.
 
-**Still unobserved after seven games:** Air Strike carried through to a hit
-(the menu has been opened and aborted, never resolved); Sweep activation
-ratios outside Lowland; the "add an ARVN Assault" option inside a US Assault;
-Train's forced removal of ARVN cubes from the map when Available is short of
-6. A US Patrol prints no Resource deduction: it is free.
+**Still unobserved after seven games:** Train's forced removal of ARVN cubes
+from the map when Available is short of 6. A US Patrol prints no Resource
+deduction: it is free.
 
 ## 1. Sequence of play
 
@@ -83,8 +81,8 @@ therefore run from 0 to 24 event cards.
 ## 2. US Operations
 
 **ARVN Resources.** The US may spend ARVN Resources only above the Econ
-level: any Train placement or pacification that would leave Resources at
-or below Econ is not offered.
+level: any Train placement or pacification that would leave Resources
+below Econ is not offered; spending down to exactly Econ is allowed.
 
 **Train.** May be done in any space holding a US piece (Troops, Irregulars
 or a Base). In each selected space:
@@ -110,15 +108,16 @@ vice versa. Air Lift may share a space with Train.
 pieces; no Resource cost. Removes NVA Troops and Active Guerrillas, then
 Bases. An Underground Guerrilla shields the Base in its space; an undefended
 Base is a legal target. Hits: 2 per US Troop if a US Base is present;
-otherwise 1 per US Troop, or 1 per 2 US Troops in Highland. The "add an
-ARVN Assault" option has never been offered.
+otherwise 1 per US Troop, or 1 per 2 US Troops in Highland. The follow-up
+ARVN Assault has been offered once, after an event's Assault; when the
+program offers it otherwise is not yet known.
 
 **Sweep.** Any number of destination spaces, selected before anything moves;
 a selected space with no Troops moved in still resolves. Only US Troops
 move, from adjacent spaces only; ARVN cubes are never offered. Each space
-resolves separately. In Lowland one Underground Guerrilla is activated per
-US Troop; ARVN cubes add nothing; other terrains untested. Not allowed in
-Monsoon.
+resolves separately. Activates 1 Guerrilla per US cube or Irregular in the
+space (1 per 2 in Jungle, rounded down); ARVN cubes add nothing. Not
+allowed in Monsoon.
 
 **Patrol.** Free for the US (ARVN pays 3). Moves US cubes only, each along a
 chain of adjacent LoCs and Cities that ends at the first space holding an
@@ -131,7 +130,8 @@ listed in PROMPTS.md, and it should be declined.
 
 ## 3. US Special Activities
 
-**Advise.** Up to 2 spaces; no Resource cost, no Support shift. Whichever
+**Advise.** Accompanies only Train or Patrol. Up to 2 spaces; no Resource
+cost, no Support shift. Whichever
 options are taken, the US may afterwards voluntarily add +6 Aid. In each
 space one of:
 - **Irregular/Ranger removal.** Needs an Underground US Irregular or ARVN
@@ -150,9 +150,10 @@ Troops and ARVN Troops between the selected spaces (Irregulars and Rangers
 untested); map to map only, never to or from Available. Control changes
 take effect at once. At most 4 ARVN Troops per Air Lift in total.
 
-**Air Strike.** Never carried through to a hit. The number of hits is rolled
-when the activity starts. Up to 6 spaces (2 in Monsoon); a struck space must
-contain COIN pieces. Removes NVA Troops and Active Guerrillas only.
+**Air Strike.** Hits are one die roll, made when the activity starts. Up to
+6 spaces (2 in Monsoon); a struck space must contain COIN pieces. Removes
+NVA Troops and Active Guerrillas, then untunneled Bases once no other enemy
+piece remains.
 Degrading the Trail costs 2 hits. Each populated struck space shifts one
 level toward Active Opposition (Laos and Cambodia have population 0).
 
@@ -276,16 +277,3 @@ from then on; the card text says what.
   and shifts Active Support to Passive.
 - **Transport** Troops and Rangers to another space; **Raid** with a Ranger,
   removing up to 2 pieces including an undefended Base.
-
-## 8. Added in TestGame8 (observed)
-
-- **Air Strike** resolved for the first time: hits = one die roll (seen 2, 4, 5). Removal order NVA Troops, Active Guerrillas, then untunneled **Bases** once nothing else shields them ("Remove how many pieces (1 - 3)" with 1 Active Guerrilla + 2 Bases). Spaces already at Active Opposition take no shift. Sweep first to activate the lone Guerrilla guarding Bases.
-- **Advise** is offered only with Train or Patrol (an Assault's menu lists Air Lift and Air Strike only). In a space holding both an Irregular and a Ranger it asks which to activate. The ARVN-Assault option asks for the space as a bare typed prompt.
-- **"Follow up with ARVN assault? (y/n)"** appeared in an event Assault (Operation Attleboro, ARVN with 6 Res); a normal LimOp Assault never offered it.
-- **Train in Saigon** offers the final action "Transfer patronage to ARVN resources" (0-3): ARVN score -1 per point, Resources +1. A Limited Op Train offers it too.
-- **Pacify** may leave ARVN Resources exactly at Econ (the "at or below" in section 2 is wrong: only below is refused). Coup-card leaders change the cost (Nguyen Cao Ky 4/level); Blowtorch Komer momentum made the next Support phase 1/level.
-- **Pacify** from Opposition in a COIN-controlled space you hold with a lone US Troop cuts VC score directly (Active Opposition → Neutral is -2 per pop).
-- Sweep: 1 US + 1 ARVN Troop in Highland activated 1 Guerrilla; 2 US Troops in Jungle activated 1.
-- When a menu has one candidate the program selects it silently; the next `seq` answer then lands on the following prompt (rejected, no effect). Single-candidate steps should be omitted.
-- US pivotal: `perform` executes Linebacker II directly; it replaces the current card (it removed VC's Critical Agent Orange).
-- Capabilities that punished Troops in Provinces: Booby Traps (Sweep, 1-3 loses a Troop), M-48 shaded (2 moved Patrol cubes removed), Cobras shaded, Long Range Guns shaded (Bombard 3 spaces).
