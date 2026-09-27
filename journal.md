@@ -64,3 +64,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +3 US points that stay in the box, and it denies VC's shaded (3 map Troops out of play).
 **Execution.** Stepped through three menus (Out of Play branch, then Available, then count 3); the event also offered South Vietnam as destination.
 **Result.** +3 US (52 points).
+
+## Turn 9 — card #82 Domino Theory (last before Coup) — before save-055
+**Plan.** Limited Op Assault in Binh Dinh: 4 US Troops in Highland, 2 hits on the 3 Active VC Guerrillas.
+**Why.** Thins the VC stack sitting in an Active Support pop-2 space before Coup Agitation. Saigon's 3 Active Guerrillas are out of reach (no US Troops there, Monsoon bars Sweep; Patrol can reach Saigon but may not Assault a City). No bot is near its line (NVA 16, ARVN 47).
+**Execution.** none (Binh Dinh auto-selected as the only Assault space).
+**Result.** 2 VC Guerrillas removed; 1 Active remains in Binh Dinh.

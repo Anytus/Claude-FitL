@@ -26,3 +26,4 @@ card #70 ROKs: US ineligible (ARVN Train/Base, VC Rally)
 card #25 TF-116 Riverines: Pass — stay first for Psychedelic Cookie unshaded (+3)
 card #9 Psychedelic Cookie: Event unshaded, 3 Out-of-Play Troops to Available — +3 US, deny VC shaded
 card #76 Annam: US ineligible (ARVN unshaded Patronage +2, NVA Rally+Infiltrate)
+card #82 Domino Theory: LimOp Assault Binh Dinh, 2 VC Guerrillas removed — thin VC before Coup Agitation

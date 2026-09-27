@@ -51,3 +51,5 @@
 2026-09-27T17:41:20	Bash	python3 tools/ctl.py seq "Choose one=>Move troops from Out of play to Available"	116	868
 2026-09-27T17:41:23	Bash	python3 tools/ctl.py send 3	61	4899
 2026-09-27T17:41:44	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	334	44939
+2026-09-27T17:42:27	Bash	echo "card #9 Psychedelic Cookie: Event unshaded, 3 Out-of-Play Troops to Availa	919	7741
+2026-09-27T17:42:31	Bash	python3 tools/ctl.py seq "US Assault=>Select a space"	89	5050
