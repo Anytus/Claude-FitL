@@ -30,3 +30,4 @@ card #82 Domino Theory: LimOp Assault Binh Dinh, 2 VC Guerrillas removed — thi
 Coup 2 #127 Nguyen Cao Ky: no US pacify candidates; 2 Troop Casualties placed in Saigon; declined Linebacker II — Saigon Assault power; keep pivotal for NVA peak
 card #24 Operation Starlite: Event unshaded, all VC out of Quang Tin (2 Bases) — kill VC hub by Da Nang/Binh Dinh
 card #102 Cu Chi: replaced by ARVN pivotal Vietnamization; US ineligible; declined Linebacker twice — hold for NVA surge before a Coup
+card #108 Draft Dodgers: US eligible 4th; VC Rally+Tax and NVA shaded (-1 US Troop to Out of Play) ended card

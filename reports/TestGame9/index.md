@@ -29,3 +29,4 @@
 - report-057-058.md: #127 - Coup! Nguyen Cao Ky
 - report-059-062.md: #24 - Operation Starlite
 - report-063-066.md: #102 - Cu Chi; #123 - Vietnamization
+- report-067-069.md: #108 - Draft Dodgers

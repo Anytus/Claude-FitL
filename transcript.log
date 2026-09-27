@@ -3462,4 +3462,113 @@ Eligible      : VC, NVA, US
 Acted         : none
 Passed        : none
 Ineligible    : ARVN
-(perform or ?): 
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (20): 12 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 3 VC Underground Guerrillas from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Kien Phong for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (4): 8 [Yes]
+
+VC chooses Tax special activity
+====================================================
+
+VC Taxes in Tay Ninh
+----------------------------------------------------
+[36mFlip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE[0m
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[34mIncrease Agitate Total by +2 to 6[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 24 to 22[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Tax activity
+[34m
+Move the VC cylinder to the Op/Special Activity box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #108 - Draft Dodgers (VC, NVA, ARVN, US)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : NVA, US
+Acted         : VC -> Op/Special Activity
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+
+NVA executes the Shaded Event: Draft Dodgers
+----------------------------------------------------
+[35mMove 1 US Troop from AVAILABLE to OUT OF PLAY[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 53 to 52[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 83
+
+Pivotal Events can be played
+----------------------------------------------------
+Eligible: US
+
+Does US wish to play their pivotal?
+====================================================
+1) Yes
+2) No
+3) Show Coup status
+----------------------------------------------------
+Selection: 
