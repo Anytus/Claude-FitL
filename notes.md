@@ -62,3 +62,4 @@ card #74 Lam Son 719: Pass — be first on #2 to fix VC and NVA both over their 
 card #2 Kissinger: Train Kien Phong (Irregulars) + Pacify, Advise ARVN Assault Hue + Ranger Quang Nam — VC 36 to 33, NVA 19 to 16
 card #8 Arc Light: US ineligible (VC shaded capability)
 card #41 Bombing Pause: Pass — first on #20, deny VC/NVA its shaded
+card #20 Laser Guided Bombs: Air Lift + Assault Saigon Base, Binh Dinh — NVA 17 to 15, VC 33 to 32

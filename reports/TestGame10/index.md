@@ -79,3 +79,6 @@
 - report-162-163.md: #41 - Bombing Pause
 - report-164-164.md: #41 - Bombing Pause
 - report-165-165.md: #20 - Laser Guided Bombs
+- report-166-167.md: #20 - Laser Guided Bombs
+- report-168-170.md: #32 - Long Range Guns
+- report-171-172.md: #52 - RAND

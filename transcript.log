@@ -10615,4 +10615,451 @@ Eligible      : US, ARVN, VC
 Acted         : none
 Passed        : none
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+Select a maximum of 2 spaces [#11 Abrams (shaded)]
+Each space, may remove 1 underground guerrilla [#28 Search And Destroy (unshaded)]
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 2
+
+Choose special activity:
+====================================================
+1) Air Lift
+2) Air Strike
+3) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Air Lift special activity
+====================================================
+
+0 spaces of 4 selected for Air Lift
+----------------------------------------------------
+
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Quang Tri-Thua Thien
+
+1 space of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Binh Dinh
+
+2 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Binh Dinh
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Quang Tri-Thua Thien
+3) Lift forces out of Binh Dinh
+4) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Hue
+
+3 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Binh Dinh, Hue
+
+Select one:
+====================================================
+1) Select an Air Lift space
+2) Lift forces out of Quang Tri-Thua Thien
+3) Lift forces out of Binh Dinh
+4) Lift forces out of Hue
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Air Lift in which space: Saigon
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Binh Dinh, Hue, Saigon
+
+Select one:
+====================================================
+1) Lift forces out of Quang Tri-Thua Thien
+2) Lift forces out of Binh Dinh
+3) Lift forces out of Hue
+4) Lift forces out of Saigon
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 1
+
+Lift forces to which space:
+====================================================
+1) Binh Dinh
+2) Hue
+3) Saigon
+4) Do not move forces now
+----------------------------------------------------
+Selection: 1
+
+Air Lifting forces from Quang Tri-Thua Thien to Binh Dinh
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift US Underground Irregulars
+3) Finished moving forces out of Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 2): 2
+[35mMove 2 US Troops from Quang Tri-Thua Thien to Binh Dinh[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Binh Dinh to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 45 to 47[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 17 to 15[0m
+
+Air Lifting forces from Quang Tri-Thua Thien to Binh Dinh
+Choose one:
+====================================================
+1) Air Lift US Underground Irregulars
+2) Finished moving forces out of Quang Tri-Thua Thien
+----------------------------------------------------
+Selection: 2
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Binh Dinh, Hue, Saigon
+
+Select one:
+====================================================
+1) Lift forces out of Quang Tri-Thua Thien
+2) Lift forces out of Binh Dinh
+3) Lift forces out of Hue
+4) Lift forces out of Saigon
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 3
+
+Lift forces to which space:
+====================================================
+1) Quang Tri-Thua Thien
+2) Binh Dinh
+3) Saigon
+4) Do not move forces now
+----------------------------------------------------
+Selection: 3
+
+Air Lifting forces from Hue to Saigon
+Choose one:
+====================================================
+1) Air Lift US Troops
+2) Air Lift ARVN Troops
+3) Air Lift ARVN Underground Rangers
+4) Finished moving forces out of Hue
+----------------------------------------------------
+Selection: 1
+Move how many US Troops (0 - 1): 1
+[35mMove 1 US Troop from Hue to Saigon[0m
+
+Air Lifting forces from Hue to Saigon
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Hue
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Binh Dinh, Hue, Saigon
+
+Select one:
+====================================================
+1) Lift forces out of Quang Tri-Thua Thien
+2) Lift forces out of Binh Dinh
+3) Lift forces out of Hue
+4) Lift forces out of Saigon
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 3
+
+Lift forces to which space:
+====================================================
+1) Quang Tri-Thua Thien
+2) Binh Dinh
+3) Saigon
+4) Do not move forces now
+----------------------------------------------------
+Selection: 2
+
+Air Lifting forces from Hue to Binh Dinh
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Hue
+----------------------------------------------------
+Selection: 1
+Move how many ARVN Troops (0 - 4): 3
+[35mMove 3 ARVN Troops from Hue to Binh Dinh[0m
+
+Air Lifting forces from Hue to Binh Dinh
+Choose one:
+====================================================
+1) Air Lift ARVN Troops
+2) Air Lift ARVN Underground Rangers
+3) Finished moving forces out of Hue
+----------------------------------------------------
+Selection: 3
+
+4 spaces of 4 selected for Air Lift
+----------------------------------------------------
+Quang Tri-Thua Thien, Binh Dinh, Hue, Saigon
+
+Select one:
+====================================================
+1) Lift forces out of Quang Tri-Thua Thien
+2) Lift forces out of Binh Dinh
+3) Lift forces out of Hue
+4) Lift forces out of Saigon
+5) Finished with Air Lift
+----------------------------------------------------
+Selection: 5
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Da Nang
+2) Saigon
+3) Binh Dinh
+4) Kien Phong
+5) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Saigon
+----------------------------------------------------
+The assault inflicts 2 hits
+[35mRemove 1 VC Base from Saigon to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 33 to 32[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Saigon
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Da Nang
+2) Binh Dinh
+3) Kien Phong
+4) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Binh Dinh
+----------------------------------------------------
+The assault inflicts 1 hit
+[31m
+Remove an underground guerrilla [#28 Search And Destroy (unshaded)][0m
+[35mRemove 1 NVA Underground Guerrilla from Binh Dinh to AVAILABLE[0m
+Follow up with ARVN assault in Binh Dinh? (y/n) y
+
+US adds a follow up ARVN assault in Binh Dinh
+
+ARVN assaults in Binh Dinh
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 54[0m
+The assault inflicts 2 hits
+[35mRemove 2 NVA Troops from Binh Dinh to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Saigon, Binh Dinh
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #20 - Laser Guided Bombs (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+Eligible      : ARVN, VC
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Laser Guided Bombs
+----------------------------------------------------
+[31m
+Capability: '#20 Laser Guided Bombs (unshaded)' is now in effect[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 52
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+On Deck card  : #52 - RAND (NVA, VC, US, ARVN)
+                NVA -> (Critical, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+NVA executes the Shaded Event: Long Range Guns
+----------------------------------------------------
+[31m
+Capability: '#32 Long Range Guns (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the Event box[0m
+
+Finished with NVA turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+On Deck card  : #52 - RAND (NVA, VC, US, ARVN)
+                NVA -> (Critical, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : VC
+Acted         : NVA -> Event
+Passed        : none
+Ineligible    : US, ARVN
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 21
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #52 - RAND (NVA, VC, US, ARVN)
+                NVA -> (Critical, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+On Deck card  : #21 - Americal (US, VC, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : VC, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: RAND
+----------------------------------------------------
+[31m
+Flip capability: '#28 Search And Destroy (unshaded)' to its shaded side[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #52 - RAND (NVA, VC, US, ARVN)
+                NVA -> (Critical, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+On Deck card  : #21 - Americal (US, VC, NVA, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Ignored)
+Eligible      : US, ARVN
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : NVA
 (perform or ?): 

@@ -254,5 +254,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 27 — card #20 Laser Guided Bombs — before save-165
 **Plan.** Op + SA: Air Lift first (Quang Tri 2 Troops → Binh Dinh, Hue 1 Troop → Saigon), then Assault Saigon (1 Troop + Base = 2 hits on the lone VC Base) and Binh Dinh (2 Troops, Highland 1 hit, + ARVN follow-up) on NVA Troops.
 **Why.** Binh Dinh flips from NVA to COIN Control (NVA 17 → 15) and Saigon (pop 6) loses its VC Base, the Terror source (VC 33 → 32). ARVN, second, should take the unshaded capability. Abrams limits Assault to 2 spaces.
+**Execution.** Air Lift spaces were typed one by one; also lifted 3 ARVN Troops Hue → Binh Dinh (not in the plan) to harden it. Saigon Assault asked no ARVN follow-up (nothing left); Binh Dinh: US 1 hit took the Underground NVA Guerrilla via Search and Destroy, ARVN follow-up (y) 2 NVA Troops.
+**Result.** NVA 15, VC 32; Binh Dinh COIN Control with only an NVA Base left. ARVN took Laser Guided Bombs unshaded. Then NVA took Long Range Guns shaded and VC's RAND flipped Search and Destroy to shaded. ARVN now 47/50.
+
+## Turn 28 — card #52 RAND — before save-172
+**Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage; Advise Irregular in Quang Tri (remove the lone VC Base) and ARVN Assault in Binh Dinh (6 Troops, 2 hits on the lone NVA Base; Binh Dinh already Active Opposition, so the S&D shaded shift does nothing); +6 Aid.
+**Why.** All three bots are 3 short with the Coup within seven draws: ARVN 47 → 44, VC 32 → 31, NVA 15 → 14. Passing to take Americal unshaded (+4 US) next weighed; it lets ARVN act here with Govern while at 47.
 **Execution.**
 **Result.**

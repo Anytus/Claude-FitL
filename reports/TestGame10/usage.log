@@ -154,3 +154,14 @@
 2026-09-27T19:48:02	Bash	python3 tools/ctl.py seq "Remove US Troops from which space=>Kontum"; python3 to	180	945
 2026-09-27T19:48:14	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py advance	130	34918
 2026-09-27T19:48:36	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Result.** As p	1497	19368
+2026-09-27T19:49:07	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1217	7316
+2026-09-27T19:49:14	Bash	python3 tools/ctl.py seq "Select one=>Select an Air Lift space"; python3 tools/c	178	922
+2026-09-27T19:49:23	Bash	for sp in "Quang Tri-Thua Thien" "Binh Dinh" "Hue" "Saigon"; do python3 tools/ct	333	3004
+2026-09-27T19:49:31	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Quang Tri" "Lift forces	294	4005
+2026-09-27T19:49:39	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving forces" "Select one=>Lift 	292	3398
+2026-09-27T19:49:50	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py seq "Choose one=>Finished movi	352	3988
+2026-09-27T19:49:56	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py seq "Choose one=>Finished movi	259	3337
+2026-09-27T19:50:01	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>S	197	2745
+2026-09-27T19:50:08	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>B	203	2287
+2026-09-27T19:50:12	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -14	134	9419
+2026-09-27T19:50:20	Bash	python3 tools/ctl.py advance	93	26424
