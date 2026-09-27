@@ -116,5 +116,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 11 — card #10 Rolling Thunder (Linebacker II offered first) — before save-066
 **Plan.** Decline Linebacker II; take Rolling Thunder unshaded (Trail 4→2, NVA Ineligible through #25).
 **Why.** The Event denies VC (second, Performed/Shaded) the shaded ban on Air Strike until the Coup — my main pre-Coup tool against NVA — and slows NVA's cross-border March. Op + SA (Pacify Quang Tri +4, Air Strike Binh Dinh -2 NVA) weighed; it hands VC that ban. Linebacker would delete this card.
+**Execution.** none
+**Result.** Trail 2, NVA Ineligible through #25. VC passed on #10; on #25 VC Rallied widely and Taxed Tay Ninh (Agitate Total 4), ARVN took TF-116 unshaded.
+
+## Turn 12 — card #9 Psychedelic Cookie (Linebacker II offered first) — before save-072
+**Plan.** Decline Linebacker II; Event unshaded: 3 US Troops from Out of Play to Available.
+**Why.** +3 permanent points toward the final margin, and it keeps NVA (second, Performed/Shaded) from sending 3 of my Troops Out of Play, which an Op + SA would allow.
 **Execution.**
 **Result.**

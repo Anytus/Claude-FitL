@@ -30,3 +30,5 @@ card #109 Nguyen Huu Tho: US ineligible
 card #24 Operation Starlite: Assault Saigon + ARVN follow-up, Air Strike Binh Dinh + Trail — cleared Saigon, Trail 3
 card #59 Plei Mei: US ineligible
 card #95 Westmoreland: Train/Pacify Pleiku to Neutral, Advise Rangers Kien Phong + Quang Nam — VC 32 to 30
+card #70 ROKs: US ineligible
+card #10 Rolling Thunder: Event unshaded, Trail 4 to 2 — deny VC Air Strike ban, NVA sits out

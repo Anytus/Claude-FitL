@@ -30,3 +30,6 @@
 - report-061-062.md: #95 - Westmoreland
 - report-063-065.md: #70 - ROKs
 - report-066-066.md: #10 - Rolling Thunder
+- report-067-068.md: #10 - Rolling Thunder
+- report-069-071.md: #25 - TF-116 Riverines
+- report-072-072.md: #9 - Psychedelic Cookie
