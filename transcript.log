@@ -9492,4 +9492,110 @@ Eligible      : US, VC
 Acted         : none
 Passed        : none
 Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 60[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #11 - Abrams (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+On Deck card  : #40 - PoWs (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : VC
+Acted         : none
+Passed        : US
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+
+VC executes the Shaded Event: Abrams
+----------------------------------------------------
+[31m
+Capability: '#11 Abrams (shaded)' is now in effect[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 41
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #40 - PoWs (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+Eligible      : NVA, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (8): 6 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Quang Duc-Long Khanh for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into Quang Duc-Long Khanh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mPlace 3 NVA Underground Guerrillas from AVAILABLE into Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 4[0m
+[34m
+Move the NVA cylinder to the Op Only box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #40 - PoWs (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #41 - Bombing Pause (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Critical), VC -> (Ignored)
+Eligible      : US, ARVN
+Acted         : NVA -> Op Only
+Passed        : none
+Ineligible    : VC
 (perform or ?): 

@@ -145,3 +145,5 @@
 2026-09-27T18:01:10	Bash	cat >> journal.md <<'EOF'  ## Coup 4 — Commitment — before save-152 **Plan.** Mo	557	37484
 2026-09-27T18:01:41	Bash	echo "Coup 4 #130 Failed Attempt: pacified Ba Xuyen (2), Qui Nhon, Cam Ranh, Can	1120	4826
 2026-09-27T18:01:50	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 1 level to Active" "special activity? (	375	4266
+2026-09-27T18:02:06	Bash	python3 tools/ctl.py send n | tail -1; S=/tmp/claude-0/-home-user-Claude-FitL/99	343	35438
+2026-09-27T18:02:35	Bash	echo "card #115 Typhoon Kate: Train+Pacify Khanh Hoa, Advise ARVN Sweeps Phu Bon	981	21671

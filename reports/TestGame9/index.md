@@ -60,3 +60,5 @@
 - report-154-156.md: #113 - Ruff Puff
 - report-157-159.md: #115 - Typhoon Kate
 - report-160-162.md: #42 - Chou En Lai
+- report-163-165.md: #11 - Abrams
+- report-166-167.md: #40 - PoWs

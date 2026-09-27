@@ -61,3 +61,4 @@ Coup 4 #130 Failed Attempt: pacified Ba Xuyen (2), Qui Nhon, Cam Ranh, Can Tho; 
 card #113 Ruff Puff: US eligible 3rd; VC Terror+Subvert and ARVN unshaded ended card
 card #115 Typhoon Kate: Train+Pacify Khanh Hoa, Advise ARVN Sweeps Phu Bon+Ba Xuyen — +1, stop NVA Terror
 card #42 Chou En Lai: US ineligible (NVA Infiltrate+March, ARVN unshaded -4 NVA Troops)
+card #11 Abrams: Pass — stay second on PoWs to block VC's -3

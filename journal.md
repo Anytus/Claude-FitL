@@ -202,3 +202,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +1 US; Active Guerrillas cannot Terror, protecting two Support spaces until the next Reset. Typhoon Kate (stay Eligible, SA limits for all) weighed as a smaller gain.
 **Execution.** Declined +6 Aid (Aid already at its 75 cap).
 **Result.** Khanh Hoa Active (+1, US 68); NVA Guerrillas in Phu Bon and Ba Xuyen Active.
+
+## Turn 24 — card #11 Abrams — before save-163
+**Plan.** Pass.
+**Why.** Acting here leaves me Ineligible on #40 PoWs, where VC would be second Eligible and take its Performed shaded (3 Available Troops to Casualties: -3 US and Aid loss). Passing keeps me second on #40 behind NVA, so my action ends that card before VC. Cost: VC takes Abrams shaded here (US Assault max 2 spaces), and 3 Active NVA Guerrillas survive a turn longer.
+**Execution.** none
+**Result.** VC played Abrams shaded; I stay second on #40 behind NVA.
