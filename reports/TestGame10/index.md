@@ -24,3 +24,6 @@
 - report-049-050.md: #28 - Search and Destroy
 - report-051-053.md: #109 - Nguyen Huu Tho
 - report-054-054.md: #24 - Operation Starlite
+- report-055-056.md: #24 - Operation Starlite
+- report-057-059.md: #59 - Plei Mei
+- report-060-060.md: #95 - Westmoreland

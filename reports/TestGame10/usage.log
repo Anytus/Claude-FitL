@@ -50,3 +50,14 @@
 2026-09-27T19:25:49	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	223	2279
 2026-09-27T19:26:01	Bash	python3 tools/ctl.py seq "How many NVA Troops=>2" "+6 Aid=>y"; python3 tools/ctl	185	27969
 2026-09-27T19:26:05	Bash	python3 -c " import json;c=json.load(open('cards.json')) for v in (c if isinstan	373	1686
+2026-09-27T19:26:37	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1772	6630
+2026-09-27T19:26:45	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Choose one=>Op" "Choose oper	234	3744
+2026-09-27T19:26:49	Bash	python3 tools/ctl.py send y	102	2498
+2026-09-27T19:26:54	Bash	python3 tools/ctl.py seq "US Assault=>Perform a Special" "Choose special activit	167	2365
+2026-09-27T19:27:00	Bash	python3 tools/ctl.py seq "Air Strike: (4 hits=>Degrade the trail"; python3 tools	189	2119
+2026-09-27T19:27:04	Bash	python3 tools/ctl.py seq "Air Strike: (2 hits=>Select a space"; python3 tools/ct	176	1426
+2026-09-27T19:27:08	Bash	python3 tools/ctl.py seq "Air Strike in which space=>Binh Dinh"; python3 tools/c	174	1920
+2026-09-27T19:27:12	Bash	python3 tools/ctl.py seq "Air Strike: (2 hits=>Remove insurgents"; python3 tools	190	1223
+2026-09-27T19:27:16	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -12	148	2223
+2026-09-27T19:27:28	Bash	python3 tools/ctl.py advance	93	34035
+2026-09-27T19:27:33	Bash	python3 -c " import json;c=json.load(open('cards.json')) for v in (c if isinstan	449	2723

@@ -92,11 +92,17 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Pivotal — Linebacker II offered (current #24 Operation Starlite) — before save-054
 **Plan.** Decline.
 **Why.** The US is first on #24 and must clear the new VC Base/Guerrilla from Saigon (Active Support, pop 6) now; Linebacker would spend this turn on NVA Bases while Saigon sits open to Terror for two cards.
-**Execution.**
-**Result.**
+**Execution.** none
+**Result.** Declined; US first on #24.
 
 ## Turn 9 — card #24 Operation Starlite — before save-054
 **Plan.** Op + SA: Assault Saigon (1 US Troop + Base = 2 hits: Active NVA Guerrilla, then Underground VC Guerrilla via Search and Destroy) with ARVN follow-up (8 Troops) on the VC Base; Air Strike Binh Dinh (3 NVA Troops), spare 2 hits to degrade the Trail.
 **Why.** Removes every enemy piece from Saigon (VC -1 Base, no Terror source); Binh Dinh is already Active Opposition, so the strike costs no shift. Starlite unshaded (clear Binh Tuy) weighed; Saigon is worth more.
+**Execution.** ARVN follow-up asked `Follow up with ARVN assault in Saigon? (y/n)` (sent y). Air Strike rolled 4 hits: Degraded Trail 4→3 (2 hits) and removed 2 of 3 NVA Troops from Binh Dinh (asked `Remove how many pieces from Binh Dinh (1 - 2)`).
+**Result.** Saigon cleared (VC Base gone, Aid +6 to 29), Binh Dinh COIN Control. Then VC Rallied a Base into Tay Ninh; NVA re-marched 4 Troops into Binh Dinh (NVA 17), ARVN Plei Mei took it back to 15.
+
+## Pivotal — Linebacker II offered (current #95 Westmoreland) — before save-060
+**Plan.** Decline.
+**Why.** #95 shaded only reaches Quang Nam (+2 VC); the US is second on #95 with Op + SA. NVA at 15 with the Coup at least five cards off; its Bases would come back by Rally, so the pivotal is worth more closer to a Coup.
 **Execution.**
 **Result.**
