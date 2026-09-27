@@ -232,3 +232,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Troops on the map are Train/Coup-pacification sites for the final campaign; withdrawals would give VC Support shifts.
 **Execution.** none
 **Result.** No moves.
+
+## Turn 27 — card #30 USS New Jersey — before save-180
+**Plan.** Event unshaded: free Air Strike in Kien Giang-An Xuyen (coastal, already Active Opposition), removing 2 NVA Troops.
+**Why.** Denies VC's Critical shaded (2 coastal Provinces with US Troops — Phu Bon, Khanh Hoa, Ba Xuyen — shifted 2 levels: -4 US). Striking a space already at Active Opposition costs no Support despite Arc Light. Op + SA (Advise Saigon's NVA Guerrillas) weighed; it would concede the -4.
+**Execution.** Chain: 'Strike in how many coastal spaces (1 - 2)' (card says 1-3) answered 1; menu offered Kien Giang/Quang Nam; header said 'Number of hits = 6' but the per-space prompt capped at 2, consistent with the card.
+**Result.** 2 NVA Troops removed from Kien Giang, no Support shift; VC shaded denied.

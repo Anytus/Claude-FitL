@@ -67,3 +67,8 @@
 - report-172-174.md: #74 - Lam Son 719
 - report-175-177.md: #16 - Blowtorch Komer
 - report-178-179.md: #129 - Coup! Failed Attempt
+- report-180-182.md: #30 - USS New Jersey
+- report-183-185.md: #80 - Light at the End of the Tunnel
+- report-186-188.md: #54 - Son Tay
+- report-189-190.md: #71 - An Loc
+- report-191-191.md: #4 - Top Gun

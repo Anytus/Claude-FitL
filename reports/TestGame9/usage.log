@@ -154,3 +154,10 @@
 2026-09-27T18:03:51	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	303	18079
 2026-09-27T18:04:01	Bash	echo "card #74 Lam Son 719: LimOp Assault Saigon + ARVN follow-up, 10 NVA Troops	734	2889
 2026-09-27T18:04:10	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	207	6300
+2026-09-27T18:04:21	Bash	cat >> journal.md <<'EOF'  ## Coup 5 — Commitment — before save-178 **Plan.** Mo	523	25422
+2026-09-27T18:04:49	Bash	echo "Coup 5 #129 Failed Attempt: pacified Saigon back to Active (+6); no Commit	868	3008
+2026-09-27T18:04:53	Bash	python3 tools/ctl.py send 1	61	1053
+2026-09-27T18:04:58	Bash	python3 tools/ctl.py seq "Select coastal spaces to air strike=>Kien Giang"	110	1236
+2026-09-27T18:05:05	Bash	python3 tools/ctl.py seq "Air Strike=>Remove insurgents"	92	886
+2026-09-27T18:05:08	Bash	python3 tools/ctl.py send 2	61	1526
+2026-09-27T18:05:32	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	467	51395

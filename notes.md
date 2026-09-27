@@ -67,3 +67,7 @@ card #41 Bombing Pause: US ineligible (ARVN event set Saigon Passive -6, VC Terr
 card #74 Lam Son 719: LimOp Assault Saigon + ARVN follow-up, 10 NVA Troops removed — restore COIN Control in Saigon
 card #16 Blowtorch Komer: US ineligible (ARVN Train, VC LimOp Terror)
 Coup 5 #129 Failed Attempt: pacified Saigon back to Active (+6); no Commitment moves
+card #30 USS New Jersey: Event unshaded, Air Strike Kien Giang (2 NVA Troops) — deny VC shaded -4 on coastal Provinces
+card #80 Light at the End of the Tunnel: US ineligible (ARVN event: 1 US Troop to Available, Phu Bon to Passive, Patronage +2)
+card #54 Son Tay: US eligible 3rd; NVA March+Ambush (2 US Troops lost), VC shaded made US Ineligible through next card
+card #71 An Loc: US ineligible (Son Tay); ARVN Train+Govern Kien Hoa, Hue

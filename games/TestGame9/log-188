@@ -1,0 +1,70 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #54 - Son Tay (NVA, VC, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #71 - An Loc (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, US, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Son Tay",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 US Troops from CASUALTIES to OUT OF PLAY",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS is ineligible through the next card",
+      "color": null
+    },
+    {
+      "text": "Move the US cylinder to the Ineligible Factions box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the VC cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}
