@@ -45,3 +45,4 @@ card #114 Tri Quang replaced by NVA Easter Offensive: US did not act
 card #78 General Lansdale: Train/Pacify An Loc, Advise ARVN Assault Saigon + Ranger Kien Hoa — clear Saigon under Assault ban
 card #64 Honolulu Conference: US ineligible
 card #23 Operation Attleboro: Pass — be first on #22 Da Nang (ARVN Vietnamization replaced #23)
+card #22 Da Nang: Event unshaded, 3 OOP Troops into Da Nang — break NVA Control, deny VC shaded

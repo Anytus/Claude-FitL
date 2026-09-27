@@ -182,5 +182,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 17 — card #22 Da Nang — before save-110
 **Plan.** Event unshaded: place 3 Out-of-Play US Troops in Da Nang (none from Available).
 **Why.** Free Troops (no Available cost) that end NVA Control of Da Nang (NVA -1) and deny VC's Critical shaded (Da Nang Support removed, no Air Strike until the Coup).
+**Execution.** Event asked `Place how many OUT OF PLAY US Troops in Da Nang (0 - 3)`: 3, then `Place how many AVAILABLE US Troops in Da Nang (0 - 3)`: 0.
+**Result.** Da Nang COIN Control (NVA 14). NVA re-Rallied a Base into Binh Dinh and Infiltrated; on #56 it marched 2 Troops back into Da Nang (NVA 16).
+
+## Turn 18 — card #56 Vo Nguyen Giap — before save-117
+**Plan.** Pass.
+**Why.** On #30 USS New Jersey the US is first only if it is Eligible; otherwise VC (Critical/Shaded) shifts Quang Tri and Kien Hoa 2 levels each toward Opposition (-8 US). Here I could only take a Limited Op (no Assault under Lansdale) or Giap unshaded, which adds NVA Troops.
 **Execution.**
 **Result.**

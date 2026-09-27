@@ -103,3 +103,6 @@
 2026-09-27T19:36:05	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	232	2108
 2026-09-27T19:36:17	Bash	python3 tools/ctl.py seq "Activate which special force=>ARVN Ranger" "+6 Aid=>y"	191	32871
 2026-09-27T19:37:05	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1426	22591
+2026-09-27T19:37:18	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1050	6395
+2026-09-27T19:37:22	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py screen | tail -8	137	1055
+2026-09-27T19:37:41	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py advance	136	52354

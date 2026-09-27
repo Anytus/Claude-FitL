@@ -51,3 +51,6 @@
 - report-105-105.md: #23 - Operation Attleboro
 - report-106-109.md: #23 - Operation Attleboro; #123 - Vietnamization
 - report-110-110.md: #22 - Da Nang
+- report-111-112.md: #22 - Da Nang
+- report-113-115.md: #67 - Amphib Landing
+- report-116-117.md: #56 - Vo Nguyen Giap
