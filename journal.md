@@ -58,3 +58,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Keeps me first Eligible on #9 Psychedelic Cookie: unshaded moves 3 Out-of-Play Troops to Available (+3 US) and denies VC's Performed shaded (3 of my map Troops out of play). Cost: NVA gets a full Op instead of a Limited Op here. Riverines unshaded (Mekong sweeps) was weighed as marginal.
 **Execution.** none
 **Result.** NVA Bombarded Saigon's last US Troop, retook Quang Tri (NVA 15); I stay first on #9.
+
+## Turn 8 — card #9 Psychedelic Cookie — before save-048
+**Plan.** Event unshaded: 3 US Troops from Out of Play to Available.
+**Why.** +3 US points that stay in the box, and it denies VC's shaded (3 map Troops out of play).
+**Execution.** Stepped through three menus (Out of Play branch, then Available, then count 3); the event also offered South Vietnam as destination.
+**Result.** +3 US (52 points).

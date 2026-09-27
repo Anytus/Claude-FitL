@@ -22,3 +22,6 @@
 - report-045-045.md: #25 - TF-116 Riverines
 - report-046-047.md: #25 - TF-116 Riverines
 - report-048-048.md: #9 - Psychedelic Cookie
+- report-049-050.md: #9 - Psychedelic Cookie
+- report-051-053.md: #76 - Annam
+- report-054-055.md: #82 - Domino Theory

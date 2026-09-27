@@ -46,3 +46,8 @@
 2026-09-27T17:40:07	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	149	2952
 2026-09-27T17:40:18	Bash	python3 tools/ctl.py send y | tail -3 && S=/tmp/claude-0/-home-user-Claude-FitL/	604	30171
 2026-09-27T17:40:58	Bash	echo "card #109 Nguyen Huu Tho: Train+Pacify Binh Dinh, Advise Saigon (VC Base+G	837	17766
+2026-09-27T17:41:09	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	759	5838
+2026-09-27T17:41:13	Bash	python3 tools/ctl.py seq "Choose one=>Move US Troops from Out of Play"	106	1384
+2026-09-27T17:41:20	Bash	python3 tools/ctl.py seq "Choose one=>Move troops from Out of play to Available"	116	868
+2026-09-27T17:41:23	Bash	python3 tools/ctl.py send 3	61	4899
+2026-09-27T17:41:44	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	334	44939

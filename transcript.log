@@ -2541,4 +2541,345 @@ Eligible      : US, VC, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: Psychedelic Cookie
+----------------------------------------------------
+
+Choose one:
+====================================================
+1) Move US Troops from Out of Play to Available or South Vietname
+2) Move US Troops from the map to Available
+----------------------------------------------------
+Selection: 1
+
+0 of 3 troops moved from Out of play
+
+Choose one:
+====================================================
+1) Move troops from Out of play to Available
+2) Move troops form Out of play to South Vietnam
+3) Finished moving troops from Out of play
+----------------------------------------------------
+Selection: 1
+Move how many troops to Available (0 - 3): 3
+[35mMove 3 US Troops from OUT OF PLAY to AVAILABLE[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 49 to 52[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #9 - Psychedelic Cookie (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Performed, Shaded), ARVN -> (Ignored)
+On Deck card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : VC, ARVN
+Acted         : US -> Event
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in LOC Saigon -- An Loc -- Ban Me Thuot
+----------------------------------------------------
+[35mRemove 1 ARVN Police from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE[0m
+[35mPlace 1 VC Underground Guerrilla from AVAILABLE into LOC Saigon -- An Loc -- Ban Me Thuot[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+
+VC chooses March operation
+====================================================
+
+VC selects LOC Da Nang -- Dak To as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Tin-Quang Ngai to LOC Da Nang -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects LOC Da Nang -- Qui Nhon as March destination
+----------------------------------------------------
+[35mMove 1 VC Underground Guerrilla from Quang Tin-Quang Ngai to LOC Da Nang -- Qui Nhon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC selects Saigon as March destination
+----------------------------------------------------
+[35mMove 3 VC Underground Guerrillas from Tay Ninh to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 3 VC Underground Guerrillas in Saigon to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Binh Dinh as March destination
+----------------------------------------------------
+[35mMove 3 VC Underground Guerrillas from Quang Tin-Quang Ngai to Binh Dinh[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 3 VC Underground Guerrillas in Binh Dinh to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 82
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : ARVN, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Annam
+----------------------------------------------------
+[34mIncrease Patronage by +2 to 25[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 45 to 47[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #76 - Annam (ARVN, NVA, VC, US)
+                ARVN -> (Critical, Unshaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - S
+Trung check: Any 2-Pop space without COIN Control? [Yes]
+Trung check: 2d6 <= Available NVA Guerrillas (12): 4 [Yes]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects Southern Laos for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mPlace 5 NVA Underground Guerrillas from AVAILABLE into The Parrot's Beak[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+NVA selects Central Laos for Rally
+----------------------------------------------------
+[35mPlace 2 NVA Underground Guerrillas from AVAILABLE into Central Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 4[0m
+Trung check: 3d6 <= Available NVA Troops (12): 10 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+
+NVA Infiltrates in Tay Ninh
+----------------------------------------------------
+[33mFlip Active Opposition marker in Tay Ninh to Passive Opposition[0m
+[35mRemove 1 VC Tunneled Base from Tay Ninh to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into Tay Ninh[0m
+[33mAdd a tunnel marker to 1 NVA Base in Tay Ninh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 16[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 27 to 24[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Infiltrates in Southern Laos
+----------------------------------------------------
+[35mRemove 4 NVA Underground Guerrillas from Southern Laos to AVAILABLE[0m
+[35mPlace 10 NVA Troops from AVAILABLE into Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 127
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #127 - Coup! Nguyen Cao Ky
+Eligible      : VC, US
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - U
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Quang Tin-Quang Ngai for Terror
+[36mFlip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE[0m
+[33mAdd 1 terror marker to Quang Tin-Quang Ngai[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 3 [Success!]
+
+VC selects Kien Giang-An Xuyen for Terror
+[36mFlip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE[0m
+[33mAdd 1 terror marker to Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Kien Phong for Terror
+[36mFlip 1 VC Underground Guerrilla in Kien Phong to ACTIVE[0m
+[33mAdd 1 terror marker to Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+VC selects Quang Duc-Long Khanh for Terror
+[36mFlip 1 VC Underground Guerrilla in Quang Duc-Long Khanh to ACTIVE[0m
+[33mAdd 1 terror marker to Quang Duc-Long Khanh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+VC selects Binh Tuy-Binh Thuan for Terror
+[36mFlip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE[0m
+[33mAdd 1 terror marker to Binh Tuy-Binh Thuan[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 1 [Failure]
+[34m
+Move the VC cylinder to the Op Only box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) [MONSOON] <<<
+====================================================
+Current card  : #82 - Domino Theory (ARVN, VC, US, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #127 - Coup! Nguyen Cao Ky
+Eligible      : US
+Acted         : VC -> Op Only
+Passed        : none
+Ineligible    : ARVN, NVA
 (perform or ?): 

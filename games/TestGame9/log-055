@@ -1,0 +1,198 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #82 - Domino Theory (ARVN, VC, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #127 - Coup! Nguyen Cao Ky",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - U",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3+ VC Guerrillas in any space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Terror operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Quang Tin-Quang Ngai for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Quang Tin-Quang Ngai",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Kien Giang-An Xuyen for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Kien Phong for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Kien Phong to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Kien Phong",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Quang Duc-Long Khanh for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Duc-Long Khanh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Quang Duc-Long Khanh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Binh Tuy-Binh Thuan for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Binh Tuy-Binh Thuan to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Add 1 terror marker to Binh Tuy-Binh Thuan",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op Only box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

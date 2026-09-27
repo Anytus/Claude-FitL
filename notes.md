@@ -24,3 +24,5 @@ card #43 Economic Aid: US eligible but NVA Op+Bombard and ARVN event ended card
 card #109 Nguyen Huu Tho: Train+Pacify Binh Dinh, Advise Saigon (VC Base+Guerrilla) and Quang Tri — clear Saigon; +4 US; NVA -2
 card #70 ROKs: US ineligible (ARVN Train/Base, VC Rally)
 card #25 TF-116 Riverines: Pass — stay first for Psychedelic Cookie unshaded (+3)
+card #9 Psychedelic Cookie: Event unshaded, 3 Out-of-Play Troops to Available — +3 US, deny VC shaded
+card #76 Annam: US ineligible (ARVN unshaded Patronage +2, NVA Rally+Infiltrate)
