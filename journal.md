@@ -284,5 +284,8 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Final Coup — #126 Young Turks, Support phase — before save-195
 **Plan.** Pacify all four offered: Kien Hoa-Vinh Binh (Neutral → Active, +4), Hue (+2), Can Tho (+1), Da Nang (+1).
 **Why.** This phase counts toward the final margins. Resources are ample (60 spendable).
-**Execution.**
-**Result.**
+**Execution.** none
+**Result.** +8 Support (US 58). VC Agitated four spaces (VC 35, margin 0), and NVA Redeploy pulled Troops out of Da Nang. The program printed `Game over in final Coup! Round / US wins!` with Victory Margins US +8, VC +0, NVA -2, ARVN -5.
+
+## Game end
+US wins at the final Coup (#126 Young Turks), margins US +8, VC 0, NVA -2, ARVN -5. The program stopped at `(quit or ?)`; I left it running (no quit sent).

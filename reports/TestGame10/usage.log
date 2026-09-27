@@ -185,3 +185,4 @@
 2026-09-27T19:55:11	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting" "final Train action=>	231	3424
 2026-09-27T19:55:19	Bash	python3 tools/ctl.py seq "Pacify=>Shift 1 level to Active" "special activity? (y	335	6249
 2026-09-27T19:55:45	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "+6 Aid=>y"; pyth	192	44020
+2026-09-27T19:56:11	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1807	16790

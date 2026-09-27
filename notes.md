@@ -70,3 +70,6 @@ card #84 To Quoc: US ineligible
 coup #127 Nguyen Cao Ky: NVA 18 at check (ARVN event); casualties to Kien Hoa/Hue/Can Tho; withdrew 2 Troops — last Commitment
 card #117 Corps Commanders: US ineligible
 card #3 Peace Talks: Train Saigon (ARVN) + Da Nang (Irregulars), Pacify Saigon Active, Advise Quang Nam + Hue — NVA 20 to 18, US +6
+card #4 Top Gun: US ineligible
+card #120 US Press Corps: US eligible but VC and ARVN ended the card
+final coup #126 Young Turks: pacified Kien Hoa, Hue, Can Tho, Da Nang (+8) — US wins, margins US +8 VC 0 NVA -2 ARVN -5

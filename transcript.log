@@ -12864,4 +12864,178 @@ Choose space to pacify:
 4) Kien Hoa-Vinh Binh
 5) Finished pacifying spaces
 ----------------------------------------------------
-Selection: 
+Selection: 4
+
+Pacifying in Kien Hoa-Vinh Binh
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 2 levels to Active Support
+2) Shift 1 level to Passive Support
+3) Do not pacify in Kien Hoa-Vinh Binh
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 2 levels in Kien Hoa-Vinh Binh
+----------------------------------------------------
+[34mDecrease ARVN resources by -6 to 69[0m
+[33mPlace Active Support marker in Kien Hoa-Vinh Binh[0m
+
+US Pacification (3 spaces remaining, 69 ARVN resources, Econ is 15)
+Choose space to pacify:
+====================================================
+1) Can Tho
+2) Da Nang
+3) Hue
+4) Finished pacifying spaces
+----------------------------------------------------
+Selection: 3
+
+Pacifying in Hue
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Hue
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Hue
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 66[0m
+[33mFlip Passive Support marker in Hue to Active Support[0m
+
+US Pacification (2 spaces remaining, 66 ARVN resources, Econ is 15)
+Choose space to pacify:
+====================================================
+1) Can Tho
+2) Da Nang
+3) Finished pacifying spaces
+----------------------------------------------------
+Selection: 1
+
+Pacifying in Can Tho
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Can Tho
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Can Tho
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 63[0m
+[33mFlip Passive Support marker in Can Tho to Active Support[0m
+
+US Pacification (1 space remaining, 63 ARVN resources, Econ is 15)
+Choose space to pacify:
+====================================================
+1) Da Nang
+2) Finished pacifying spaces
+----------------------------------------------------
+Selection: 1
+
+Pacifying in Da Nang
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Da Nang
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Da Nang
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 60[0m
+[33mFlip Passive Support marker in Da Nang to Active Support[0m
+
+ARVN does not pacify any spaces
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Agitation
+----------------------------------------------------
+
+VC Agitates 1 level in Kien Giang-An Xuyen
+----------------------------------------------------
+[33mFlip Passive Opposition marker in Kien Giang-An Xuyen to Active Opposition[0m
+[34mDecrease Agitate Total by -1 to 8[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Agitates 1 level in Quang Tin-Quang Ngai
+----------------------------------------------------
+[33mFlip Passive Opposition marker in Quang Tin-Quang Ngai to Active Opposition[0m
+[34mDecrease Agitate Total by -1 to 7[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Agitates 1 level in Tay Ninh
+----------------------------------------------------
+[33mFlip Passive Opposition marker in Tay Ninh to Active Opposition[0m
+[34mDecrease Agitate Total by -1 to 6[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Agitates 2 levels in Quang Tri-Thua Thien
+----------------------------------------------------
+[33mPlace Active Opposition marker in Quang Tri-Thua Thien[0m
+[34mDecrease Agitate Total by -2 to 4[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 50 to 58[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 25 to 35[0m
+
+Redeploy Phase
+====================================================
+
+Laos and Cambodia
+----------------------------------------------------
+No COIN forces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Redeploy
+----------------------------------------------------
+[35mMove 1 ARVN Police from Kien Phong to Quang Nam[0m
+[35mMove 2 ARVN Police from Kien Phong to Kien Hoa-Vinh Binh[0m
+[35mMove 1 ARVN Police from Kien Phong to LOC Da Nang -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Redeploy
+----------------------------------------------------
+Rolling 3d6 for number of troops per destination: 8
+[35mMove 5 NVA Troops from Da Nang to Southern Laos[0m
+[35mMove 3 NVA Troops from The Parrot's Beak to Southern Laos[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[33m====================================================[0m
+Game over in final Coup! Round
+[33mUS wins![0m
+[33m====================================================[0m
+
+Victory Margins
+----------------------------------------------------
+US     +8
+VC     +0
+NVA    -2
+ARVN   -5
+
+
+>>> The game has ended <<<
+====================================================
+(quit or ?): 
