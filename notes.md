@@ -11,3 +11,6 @@ resumed TestGame9 from save-001 (program not running at start of turn 1; state u
 card #31 AAA: Train Saigon/Pleiku, Pacify Saigon, Advise Quang Tri+Binh Dinh — Saigon Active; strip Guerrillas off two VC Bases
 card #107 Burning Bonze: US ineligible (VC shaded event, ARVN passed)
 card #66 Ambassador Taylor: Pass — keep first slot on Tribesmen, deny VC shaded
+card #29 Tribesmen: Event unshaded, removed 3 VC Bases + 1 Guerrilla — deny VC shaded; Bases are VC's scarcest
+card #15 Medevac: US ineligible (ARVN Train+Govern, NVA shaded Medevac)
+card #55 Trucks: US eligible but NVA and VC acted first; card ended

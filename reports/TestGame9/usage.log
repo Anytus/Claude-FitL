@@ -16,3 +16,9 @@
 2026-09-27T17:34:09	Bash	echo "card #31 AAA: Train Saigon/Pleiku, Pacify Saigon, Advise Quang Tri+Binh Di	799	7820
 2026-09-27T17:34:12	Bash	python3 $S/../scratchpad/jfin.py x x 2>/dev/null; S=/tmp/claude-0/-home-user-Cla	171	476
 2026-09-27T17:34:18	Bash	python3 tools/ctl.py advance	62	24190
+2026-09-27T17:34:34	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	897	6092
+2026-09-27T17:34:37	Bash	python3 tools/ctl.py send "Binh Dinh"	73	684
+2026-09-27T17:34:42	Bash	python3 tools/ctl.py seq "Remove pieces from which space=>Binh Dinh"	104	802
+2026-09-27T17:34:52	Bash	python3 tools/ctl.py send 2	61	903
+2026-09-27T17:34:55	Bash	python3 tools/ctl.py send 1	61	5778
+2026-09-27T17:35:16	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	566	50673

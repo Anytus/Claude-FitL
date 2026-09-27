@@ -16,3 +16,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN's Op Only leaves me a Limited Op and closes the Event to NVA; passing keeps me first Eligible on #29 Tribesmen, where unshaded removes 4 Insurgent pieces (Pleiku Guerrillas + bare VC Bases) and denies VC's Critical shaded (all my Irregulars become VC Guerrillas).
 **Execution.** none
 **Result.** NVA took a Limited Op Rally (Base in Parrot's Beak, Trail 2); I stay first on #29.
+
+## Turn 3 — card #29 Tribesmen — before save-010
+**Plan.** Event unshaded: remove the three VC Bases in Quang Tri, Binh Dinh and Pleiku-Darlac plus 1 VC Guerrilla in Pleiku-Darlac.
+**Why.** Denies VC its Critical shaded (5 Irregulars turned into Guerrillas); -3 VC points, and Bases are VC's scarcest piece (2 Available). The last Pleiku Guerrilla is left for Advise.
+**Execution.** Rejected (send, no label matching): 'Binh Dinh' is not valid. Must be one of: 1, 2, 3, or abort — resent via seq. Pleiku-Darlac was auto-selected as the last candidate, so my 'Pleiku' landed on the count prompt: 'Pleiku' is not valid. Must be one of: 0, 1, 2, or abort — then sent 2, Bases 1 (Guerrilla count filled itself).
+**Result.** As planned: 3 VC Bases and 1 Guerrilla removed, VC 27 -> 24.

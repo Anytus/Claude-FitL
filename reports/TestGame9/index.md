@@ -3,3 +3,7 @@
 - report-006-007.md: #66 - Ambassador Taylor
 - report-008-009.md: #66 - Ambassador Taylor
 - report-010-010.md: #29 - Tribesmen
+- report-011-012.md: #29 - Tribesmen
+- report-013-015.md: #15 - Medevac
+- report-016-018.md: #55 - Trucks
+- report-019-020.md: #79 - Henry Cabot Lodge
