@@ -176,5 +176,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 16 — card #23 Operation Attleboro — before save-105
 **Plan.** Pass.
 **Why.** I act once over #23/#22 either way; passing makes me first on #22 to take Da Nang unshaded (up to 3 Out-of-Play Troops into Da Nang, ending NVA Control) and deny VC's Critical shaded (Support removed around Da Nang, no Air Strike until Coup). Attleboro unshaded (kill Tay Ninh's 2 VC Bases) weighed, but General Lansdale bars US Assault and the program may apply that to the Event's Assault.
+**Execution.** none
+**Result.** ARVN then played Vietnamization in place of #23; VC Rallied a Base into Kien Giang and Taxed three spaces (Agitate Total 11). US first on #22 as planned.
+
+## Turn 17 — card #22 Da Nang — before save-110
+**Plan.** Event unshaded: place 3 Out-of-Play US Troops in Da Nang (none from Available).
+**Why.** Free Troops (no Available cost) that end NVA Control of Da Nang (NVA -1) and deny VC's Critical shaded (Da Nang Support removed, no Air Strike until the Coup).
 **Execution.**
 **Result.**

@@ -1,0 +1,66 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 6  [Failure] (3 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #23 - Operation Attleboro (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #22 - Da Nang (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS faction passes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Increase ARVN resources by +3 to 36",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Pass box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

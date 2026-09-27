@@ -49,3 +49,5 @@
 - report-101-101.md: #78 - General Lansdale
 - report-102-104.md: #64 - Honolulu Conference
 - report-105-105.md: #23 - Operation Attleboro
+- report-106-109.md: #23 - Operation Attleboro; #123 - Vietnamization
+- report-110-110.md: #22 - Da Nang
