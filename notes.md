@@ -66,3 +66,4 @@ card #40 PoWs: LimOp Train+Pacify Phu Bon — +1; ended card before VC
 card #41 Bombing Pause: US ineligible (ARVN event set Saigon Passive -6, VC Terror+Subvert)
 card #74 Lam Son 719: LimOp Assault Saigon + ARVN follow-up, 10 NVA Troops removed — restore COIN Control in Saigon
 card #16 Blowtorch Komer: US ineligible (ARVN Train, VC LimOp Terror)
+Coup 5 #129 Failed Attempt: pacified Saigon back to Active (+6); no Commitment moves

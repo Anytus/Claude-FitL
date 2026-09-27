@@ -220,3 +220,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Saigon has lost COIN Control to the NVA stack and the US Base is exposed; two Assaults should restore Control. Typhoon Kate bars Air Lift, so no reinforcement; the Event (Lam Son 719) does nothing for Saigon.
 **Execution.** none
 **Result.** 10 NVA Troops removed (6 US hits + 4 ARVN), COIN Control back in Saigon; 4 NVA Troops + 3 Active Guerrillas remain.
+
+## Coup 5 — #129 Failed Attempt, Support phase — before save-178
+**Plan.** Pacify Saigon 1 level (Passive -> Active); the only candidate.
+**Why.** +6 US for 3 Resources.
+**Execution.** none
+**Result.** Saigon Active (+6).
+
+## Coup 5 — Commitment — before save-178
+**Plan.** Move nothing.
+**Why.** Troops on the map are Train/Coup-pacification sites for the final campaign; withdrawals would give VC Support shifts.
+**Execution.** none
+**Result.** No moves.
