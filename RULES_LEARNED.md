@@ -1,10 +1,10 @@
 # Fire in the Lake, US faction: what the program taught me
 
-Observed at the program's own prompts or in its narration over eight games;
+Observed at the program's own prompts or in its narration over nine games;
 descriptive, not advice. Where a statement is an inference rather than an
 observation, it says so.
 
-**Still unobserved after eight games:** Train's forced removal of ARVN cubes
+**Still unobserved after nine games:** Train's forced removal of ARVN cubes
 from the map when Available is short of 6. A US Patrol prints no Resource
 deduction: it is free.
 
