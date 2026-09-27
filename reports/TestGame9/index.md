@@ -45,3 +45,5 @@
 - report-108-110.md: #90 - Walt Rostow
 - report-111-113.md: #22 - Da Nang
 - report-114-117.md: #18 - Combined Action Platoons
+- report-118-120.md: #106 - Binh Duong
+- report-121-123.md: #21 - Americal

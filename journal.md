@@ -148,3 +148,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Removes Terror threats from two Support spaces and seeds an Irregular in Kien Hoa for its Guerrilla next time; ARVN 45 -> 42 ahead of a Coup possible within 3 cards. Da Nang unshaded (3 free Troops to Da Nang) weighed lower; VC is Ineligible, so its shaded is no threat.
 **Execution.** none (Kien Hoa was not offered for Advise: its new Irregular sits in a Train space).
 **Result.** As planned: ARVN 42, Binh Dinh and Pleiku clear of NVA, Irregular in Kien Hoa, Aid +6.
+
+## Turn 17 — card #106 Binh Duong — before save-119
+**Plan.** Op + SA: Train Binh Dinh (no placement), Pacify 1 level to Active; Advise Irregular removal of the NVA Guerrilla in Kien Hoa-Vinh Binh, ARVN Sweep in Hue (activate 2 VC); +6 Aid.
+**Why.** +2 US; Kien Hoa (Active, pop 2) loses its Terror threat; Hue's VC made Active cannot Terror before the Coup Reset. ARVN 42 needs no transfer this card.
+**Execution.** none (Advise ARVN Sweep chain: 'ARVN Sweep in which space' menu).
+**Result.** As planned: Binh Dinh Active (US 57), Kien Hoa clear, Hue's 2 VC Active, Aid +6.

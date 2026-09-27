@@ -46,3 +46,5 @@ card #73 Great Society: LimOp Train Saigon, Transfer 3 Patronage — ARVN at 50
 card #90 Walt Rostow: US ineligible (VC Rally+Tax, NVA shaded: Guerrillas into 6 Provinces)
 card #22 Da Nang: Train Kien Hoa (Irregular)+Saigon, Transfer 3, Advise Binh Dinh+Pleiku — clear Support spaces, ARVN 42
 card #18 Combined Action Platoons: US ineligible (ARVN Assault Saigon, NVA LimOp Rally)
+card #106 Binh Duong: Train+Pacify Binh Dinh, Advise Kien Hoa (NVA G) + ARVN Sweep Hue — +2 US, protect Support spaces
+card #21 Americal: US ineligible (NVA Rally+Bombard, ARVN Assault Hue)

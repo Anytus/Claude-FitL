@@ -1,0 +1,30 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nVC Bot Pivotal Event die roll: 1  [Success] (3 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "VC elects to play their Pivotal Event",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Replace the current event card with #124 - Tet Offensive",
+      "color": "Red"
+    }
+  ]
+}

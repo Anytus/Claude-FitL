@@ -99,3 +99,8 @@
 2026-09-27T17:52:20	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	216	24263
 2026-09-27T17:53:03	Bash	echo "card #73 Great Society: LimOp Train Saigon, Transfer 3 Patronage — ARVN at	1502	13801
 2026-09-27T17:53:06	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular"	98	1719
+2026-09-27T17:53:19	Bash	python3 tools/ctl.py send y | tail -1 && S=/tmp/claude-0/-home-user-Claude-FitL/	395	31570
+2026-09-27T17:53:42	Bash	echo "card #22 Da Nang: Train Kien Hoa (Irregular)+Saigon, Transfer 3, Advise Bi	1124	7636
+2026-09-27T17:53:48	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 1 level to Active" "special activity? (	202	4729
+2026-09-27T17:53:51	Bash	python3 tools/ctl.py seq "Choose Advise option=>Sweep a space"	98	1188
+2026-09-27T17:53:54	Bash	python3 tools/ctl.py seq "ARVN Sweep in which space=>Hue"	93	1332
