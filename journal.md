@@ -118,3 +118,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** #87 on deck is ARVN-Critical shaded (Patronage +4): ARVN 47 would reach 51 with a Coup possible from the next draw; transfer takes it to 44. Pleiku's Active Support loses its Terror threat; Quang Tri NVA -2. McNamara Line event (ARVN -12 Resources, NVA no Infiltrate) weighed; the Patronage cut matters more.
 **Execution.** none
 **Result.** As planned: Patronage 27 -> 24 (ARVN 44), Pleiku clear, Quang Tri uncontrolled (NVA 13 -> 11), Aid +6.
+
+## Coup 3 — #128 Nguyen Van Thieu, Support phase — before save-097
+**Plan.** Pacify Binh Dinh 1 level (Passive -> Active); it is the only candidate.
+**Why.** +2 US from 63 spare ARVN Resources.
+**Execution.** none (cost back to 3 per level under Thieu).
+**Result.** Binh Dinh Active (+2).
+
+## Coup 3 — Commitment — before save-097
+**Plan.** Place the 2 Troop Casualties in Kien Hoa-Vinh Binh; no other moves.
+**Why.** Pop-2 Neutral space with COIN Control and a Police: US Troops there make it a Train/pacify site now and a Coup-pacification site (+4). Deploying more from Available costs a point each with Govern eroding ARVN-cube spaces.
+**Execution.** none
+**Result.** 2 US Troops in Kien Hoa-Vinh Binh.

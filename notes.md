@@ -39,3 +39,4 @@ card #81 CIDG: Event unshaded (roll 3), VC in Saigon and 2 LoCs replaced by Poli
 card #10 Rolling Thunder: replaced by NVA pivotal Easter Offensive; US ineligible (ARVN Train+Govern Binh Dinh, Hue)
 card #38 McNamara Line: Train Saigon, Transfer 3 Patronage, Advise Pleiku+Quang Tri — ARVN 47 before ARVN-Critical Patronage +4 card
 card #87 Nguyen Chanh Thi: US ineligible (ARVN shaded Patronage +4, NVA Infiltrate)
+Coup 3 #128 Nguyen Van Thieu: pacified Binh Dinh to Active; 2 Troop Casualties to Kien Hoa-Vinh Binh — Coup/Train pacification site

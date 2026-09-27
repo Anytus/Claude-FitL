@@ -86,3 +86,7 @@
 2026-09-27T17:48:49	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	427	26613
 2026-09-27T17:49:21	Bash	echo "card #81 CIDG: Event unshaded (roll 3), VC in Saigon and 2 LoCs replaced b	1474	11633
 2026-09-27T17:49:27	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	149	2810
+2026-09-27T17:49:43	Bash	python3 tools/ctl.py send y | tail -2 && S=/tmp/claude-0/-home-user-Claude-FitL/	331	26629
+2026-09-27T17:49:55	Bash	echo "card #38 McNamara Line: Train Saigon, Transfer 3 Patronage, Advise Pleiku+	749	3744
+2026-09-27T17:50:05	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	250	8213
+2026-09-27T17:50:32	Bash	cat >> journal.md <<'EOF'  ## Coup 3 — Commitment — before save-097 **Plan.** Pl	577	3402

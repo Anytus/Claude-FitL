@@ -38,3 +38,4 @@
 - report-087-090.md: #10 - Rolling Thunder; #122 - Easter Offensive
 - report-091-093.md: #38 - McNamara Line
 - report-094-096.md: #87 - Nguyen Chanh Thi
+- report-097-098.md: #128 - Coup! Nguyen Van Thieu
