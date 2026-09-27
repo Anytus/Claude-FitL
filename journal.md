@@ -56,5 +56,23 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 7 — card #6 Aces (last card before Coup #129) — before save-040
 **Plan.** Op only (Patrol, no SA): 1 US Troop Da Nang→Hue, 1 Kontum→Qui Nhon, 1 Kontum→Cam Ranh.
 **Why.** Sets up Coup Support-phase pacification in Hue, Qui Nhon, Cam Ranh plus Quang Tri (about +8 US, -2 VC). No bot is near its line. Op without SA closes the Event, so NVA cannot take Aces shaded (2 US Troops to Casualties, Trail +2) and gets one space only. Aces unshaded (6-hit strike in Laos, Trail -2) weighed: it hands NVA an Op + SA.
+**Execution.** none (Patrol offered only `Perform a Special Activity` / `Do not Assault at one LOC` after moving; declined both).
+**Result.** As planned; NVA held to a LimOp Rally in Quang Tin (NVA 13, Trail 4). Coup offered exactly Cam Ranh, Hue, Qui Nhon, Quang Tri.
+
+## Coup 2 — #129 Failed Attempt, Support phase — before save-042
+**Plan.** Pacify all four: Cam Ranh and Qui Nhon 2 levels to Active, Hue 1 to Active, Quang Tri 2 levels (Passive Opposition to Passive Support).
+**Why.** +8 US and -2 VC for 21 of 63 spendable Resources; the set-up from #6.
+**Execution.** Quang Tri's menu read `Shift 2 levels to Passive Support` (sent `1` by send after the seq stopped at the menu).
+**Result.** All four done (US 50 after Agitation); VC Agitated Binh Dinh to Passive Opposition and Quang Tin to Active Opposition.
+
+## Coup 2 — Commitment — before save-042
+**Plan.** Place the 3 Troop casualties: 2 in Kien Hoa-Vinh Binh, 1 in Can Tho. No further moves.
+**Why.** Kien Hoa (pop 2, Neutral, Police, COIN Control) becomes a +4 Coup-pacification space next time; Can Tho +1. Withdrawing to Available only adds points that do not count until the final Coup and costs VC shifts now.
+**Execution.** Each placement asked `Move how many Troops to <space> (0 - n)`, a typed step after the space menu.
+**Result.** As planned. Reset: Trail 4 to 3, Agitate Total 2.
+
+## Pivotal — Linebacker II offered at draw of #28 (current #105 Rural Pressure) — before save-044
+**Plan.** Decline (No).
+**Why.** Playing it deletes #105 (VC shaded: 3 Police Provinces toward Opposition) and removes 2 NVA Bases, but then VC is first on #28 Search and Destroy and takes its shaded capability for the rest of the game. Declining leaves the US first on #28 to take it unshaded. With Casualties empty, the 3-Casualty part is wasted now; Support+Available is 50, so the precondition holds for later.
 **Execution.**
 **Result.**

@@ -31,3 +31,14 @@
 2026-09-27T19:21:06	Bash	python3 tools/ctl.py seq "Pacify=>Shift 1 level to Active" \  "special activity?	310	5723
 2026-09-27T19:21:11	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "+6 Aid=>y"	166	8784
 2026-09-27T19:21:23	Bash	python3 tools/ctl.py advance	93	30551
+2026-09-27T19:22:31	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1581	7100
+2026-09-27T19:22:43	Bash	python3 tools/ctl.py seq "US Moving Patrol cubes=>Move cubes" "Move cubes out of	434	5042
+2026-09-27T19:22:47	Bash	python3 tools/ctl.py seq "Choose one=>Do not Assault"; python3 tools/ctl.py scre	177	1281
+2026-09-27T19:22:58	Bash	python3 tools/ctl.py send n && python3 tools/ctl.py advance	144	24393
+2026-09-27T19:23:12	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1068	8446
+2026-09-27T19:23:21	Bash	python3 tools/ctl.py send "1" && python3 tools/ctl.py advance	149	9249
+2026-09-27T19:23:40	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1002	2284
+2026-09-27T19:23:45	Bash	python3 tools/ctl.py seq "Move how many=>2" "Choose space to place Troops=>Can T	213	3431
+2026-09-27T19:23:49	Bash	python3 tools/ctl.py seq "Move how many=>1"; python3 tools/ctl.py screen | tail 	156	1975
+2026-09-27T19:24:04	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" && python3 tools/ctl.py a	170	16665
+2026-09-27T19:24:09	Bash	python3 -c " import json;c=json.load(open('cards.json')) cards=c if isinstance(c	454	5115

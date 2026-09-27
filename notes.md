@@ -21,3 +21,5 @@ card #112 Colonel Chau: US ineligible
 card #118 Korean War Arms: LimOp Assault Binh Dinh — break NVA Control, NVA 16 to 14
 card #107 Burning Bonze: US ineligible
 card #97 Brinks Hotel: Train/Pacify Saigon Active, Advise Quang Nam Ranger + Quang Tri — +6 Support, NVA -1
+card #15 Medevac: US ineligible
+coup #129 Failed Attempt: pacified Cam Ranh, Hue, Qui Nhon, Quang Tri; casualties to Kien Hoa/Can Tho — +8 US, next Coup set-up

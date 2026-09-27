@@ -1,0 +1,86 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #6 - Aces (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #129 - Coup! Failed Attempt",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "Sweep is prohibited [Not allowed in Monsoon]",
+      "color": "Red"
+    },
+    {
+      "text": "\nUS chooses Patrol operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Move 1 US Troop from Da Nang to Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Kontum to Qui Nhon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Kontum to Cam Ranh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS Patrol - Activating guerrillas on LOCs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "No guerrillas are activated",
+      "color": null
+    },
+    {
+      "text": "\nMove the US cylinder to the Op Only box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

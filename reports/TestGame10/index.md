@@ -16,3 +16,6 @@
 - report-035-036.md: #97 - Brinks Hotel
 - report-037-039.md: #15 - Medevac
 - report-040-040.md: #6 - Aces
+- report-041-042.md: #6 - Aces
+- report-043-044.md: #129 - Coup! Failed Attempt
+- report-045-045.md: #105 - Rural Pressure
