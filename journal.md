@@ -52,3 +52,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** A VC Guerrilla in Saigon exposes 12 points to Terror and Coup Agitation; clearing it (and the Base, -1 VC) comes first. Binh Dinh +4 US; Quang Nam back to COIN Control (-1 NVA). Passing for ROKs was weighed and rejected: Saigon cannot wait.
 **Execution.** Pacify space auto-selected (one candidate), so seq stopped: "no menu entry starts with 'Binh Dinh'" (nothing sent); resumed at the level menu. Changed the second Advise space from Quang Nam to Quang Tri (pop 2, same 2-Troop removal) when both were offered.
 **Result.** Binh Dinh Active (+4, US 49); Saigon cleared (VC -1); Quang Tri back to COIN Control (NVA 15 -> 13, ARVN 47); Aid +6.
+
+## Turn 7 — card #25 TF-116 Riverines — before save-045
+**Plan.** Pass.
+**Why.** Keeps me first Eligible on #9 Psychedelic Cookie: unshaded moves 3 Out-of-Play Troops to Available (+3 US) and denies VC's Performed shaded (3 of my map Troops out of play). Cost: NVA gets a full Op instead of a Limited Op here. Riverines unshaded (Mekong sweeps) was weighed as marginal.
+**Execution.** none
+**Result.** NVA Bombarded Saigon's last US Troop, retook Quang Tri (NVA 15); I stay first on #9.

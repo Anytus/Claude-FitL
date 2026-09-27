@@ -20,3 +20,5 @@
 - report-041-041.md: #109 - Nguyen Huu Tho
 - report-042-044.md: #70 - ROKs
 - report-045-045.md: #25 - TF-116 Riverines
+- report-046-047.md: #25 - TF-116 Riverines
+- report-048-048.md: #9 - Psychedelic Cookie

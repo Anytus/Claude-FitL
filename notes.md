@@ -23,3 +23,4 @@ Coup 1 #126 Young Turks: pacified Saigon to Active and Da Nang to Active, no Com
 card #43 Economic Aid: US eligible but NVA Op+Bombard and ARVN event ended card
 card #109 Nguyen Huu Tho: Train+Pacify Binh Dinh, Advise Saigon (VC Base+Guerrilla) and Quang Tri — clear Saigon; +4 US; NVA -2
 card #70 ROKs: US ineligible (ARVN Train/Base, VC Rally)
+card #25 TF-116 Riverines: Pass — stay first for Psychedelic Cookie unshaded (+3)

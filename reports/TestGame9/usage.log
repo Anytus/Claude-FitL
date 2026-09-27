@@ -45,3 +45,4 @@
 2026-09-27T17:40:02	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" "special activity? (y/n)=>y" 	241	5499
 2026-09-27T17:40:07	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	149	2952
 2026-09-27T17:40:18	Bash	python3 tools/ctl.py send y | tail -3 && S=/tmp/claude-0/-home-user-Claude-FitL/	604	30171
+2026-09-27T17:40:58	Bash	echo "card #109 Nguyen Huu Tho: Train+Pacify Binh Dinh, Advise Saigon (VC Base+G	837	17766
