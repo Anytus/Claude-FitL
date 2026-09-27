@@ -244,3 +244,12 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** #88 on deck is ARVN-Critical unshaded (Patronage +5) and the final Coup may be the very next draw: ARVN 47 would reach 52 and win. Transfer takes it to 44 (49 after #88). Advise in Saigon is barred by the Train there; the other Advise targets would add COIN Control (ARVN points).
 **Execution.** none. Side effect: an Op without SA closed the Event, so NVA's Critical shaded Top Gun is off the table (NVA limited to a Limited Op).
 **Result.** Patronage 27 -> 24 (ARVN 44).
+
+## Final Coup (6) — #125 Nguyen Khanh, Support phase — before save-194
+**Plan.** Pacify Phu Bon-Phu Yen 1 level (Passive -> Active); the only candidate.
+**Why.** +1 US on the final count.
+**Execution.** none
+**Result.** Phu Bon Active (+1).
+
+## Game end — final Coup #125 Nguyen Khanh
+**Result.** The program ended the game after the final Coup's Redeploy phase (no Commitment phase was run): "US wins!" Victory margins US +16, NVA -2, ARVN -4, VC -12.

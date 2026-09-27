@@ -73,3 +73,4 @@
 - report-189-190.md: #71 - An Loc
 - report-191-191.md: #4 - Top Gun
 - report-192-193.md: #4 - Top Gun
+- report-194-198.md: #88 - Phan Quang Dan; #125 - Coup! Nguyen Khanh

@@ -11076,4 +11076,76 @@ Choose space to pacify:
 1) Phu Bon-Phu Yen
 2) Finished pacifying spaces
 ----------------------------------------------------
-Selection: 
+Selection: 1
+
+Pacifying in Phu Bon-Phu Yen
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Phu Bon-Phu Yen
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Phu Bon-Phu Yen
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 72[0m
+[33mFlip Passive Support marker in Phu Bon-Phu Yen to Active Support[0m
+
+ARVN does not pacify any spaces
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Agitation
+----------------------------------------------------
+
+VC does not agitate any spaces
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 65 to 66[0m
+
+Redeploy Phase
+====================================================
+
+Laos and Cambodia
+----------------------------------------------------
+No COIN forces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Redeploy
+----------------------------------------------------
+[35mMove 2 ARVN Police from Saigon to LOC Da Nang -- Dak To[0m
+[35mMove 2 ARVN Police from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[35mMove 1 ARVN Police from Kien Hoa-Vinh Binh to LOC Cam Ranh -- Da Lat[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Redeploy
+----------------------------------------------------
+Rolling 3d6 for number of troops per destination: 16
+[35mMove 3 NVA Troops from North Vietnam to Kien Giang-An Xuyen[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[33m====================================================[0m
+Game over in final Coup! Round
+[33mUS wins![0m
+[33m====================================================[0m
+
+Victory Margins
+----------------------------------------------------
+US    +16
+NVA    -2
+ARVN   -4
+VC    -12
+
+
+>>> The game has ended <<<
+====================================================
+(quit or ?): 

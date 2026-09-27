@@ -73,3 +73,5 @@ card #54 Son Tay: US eligible 3rd; NVA March+Ambush (2 US Troops lost), VC shade
 card #71 An Loc: US ineligible (Son Tay); ARVN Train+Govern Kien Hoa, Hue
 card #4 Top Gun: Train Saigon, Transfer 3 Patronage (Op only) — ARVN 47 before Patronage +5 card with final Coup possible
 card #88 Phan Quang Dan: US ineligible (ARVN unshaded Patronage +5, VC Subvert); final Coup drawn
+Final Coup 6 #125 Nguyen Khanh: pacified Phu Bon; game ended after Redeploy — US wins, margins US +16, NVA -2, ARVN -4, VC -12
+Game over: US wins at the final Coup (US +16, NVA -2, ARVN -4, VC -12)

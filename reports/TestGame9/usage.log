@@ -162,3 +162,6 @@
 2026-09-27T18:05:08	Bash	python3 tools/ctl.py send 2	61	1526
 2026-09-27T18:05:32	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	467	51395
 2026-09-27T18:06:08	Bash	cat >> notes.md <<'EOF' card #30 USS New Jersey: Event unshaded, Air Strike Kien	1389	5640
+2026-09-27T18:06:24	Bash	grep -c "Decrease Patronage by -3" transcript.log; S=/tmp/claude-0/-home-user-Cl	400	25372
+2026-09-27T18:06:44	Bash	echo "card #4 Top Gun: Train Saigon, Transfer 3 Patronage (Op only) — ARVN 47 be	786	3218
+2026-09-27T18:06:51	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	208	13386

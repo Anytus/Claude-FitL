@@ -1,0 +1,298 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "Coup! Card: #125 - Coup! Nguyen Khanh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nPlace #125 - Coup! Nguyen Khanh in the RVN Leader Box on top of the stack",
+      "color": "Red"
+    },
+    {
+      "text": "\nConduct a Coup! Round",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVictory Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "None of the Bots has achieved its victory condition",
+      "color": null
+    },
+    {
+      "text": "\nResources Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nSabotage LoCs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": "Yellow"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Cam Ranh -- Da Lat",
+      "color": "Yellow"
+    },
+    {
+      "text": "Add 1 sabotage marker to LOC Da Nang -- Dak To",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nDegrade the Trail",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no COIN controlled spaces in Laos or Cambodia",
+      "color": null
+    },
+    {
+      "text": "\nARVN Earnings",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Set Econ marker to 13",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +84 to 75",
+      "color": "Blue"
+    },
+    {
+      "text": "\nInsurgent Earnings",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "VC resources are not being tracked",
+      "color": null
+    },
+    {
+      "text": "NVA resources are not being tracked",
+      "color": null
+    },
+    {
+      "text": "\nCasualties and Aid",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "There are no pieces in the Casualties Box",
+      "color": null
+    },
+    {
+      "text": "\nSupport Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nPacification",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nPacifying in Phu Bon-Phu Yen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The cost to pacify is 3 per level\/terror marker",
+      "color": null
+    },
+    {
+      "text": "\nUS Pacifies 1 level in Phu Bon-Phu Yen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 72",
+      "color": "Blue"
+    },
+    {
+      "text": "Flip Passive Support marker in Phu Bon-Phu Yen to Active Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nARVN does not pacify any spaces",
+      "color": null
+    },
+    {
+      "text": "\nAgitation",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nVC does not agitate any spaces",
+      "color": null
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 65 to 66",
+      "color": "Blue"
+    },
+    {
+      "text": "\nRedeploy Phase",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nLaos and Cambodia",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "No COIN forces in Laos or Cambodia",
+      "color": null
+    },
+    {
+      "text": "\nARVN Redeploy",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 ARVN Police from Saigon to LOC Da Nang -- Dak To",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 ARVN Police from Saigon to LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Police from Kien Hoa-Vinh Binh to LOC Cam Ranh -- Da Lat",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Redeploy",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Rolling 3d6 for number of troops per destination: 16",
+      "color": null
+    },
+    {
+      "text": "Move 3 NVA Troops from North Vietnam to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": "Yellow"
+    },
+    {
+      "text": "Game over in final Coup! Round",
+      "color": null
+    },
+    {
+      "text": "US wins!",
+      "color": "Yellow"
+    },
+    {
+      "text": "====================================================",
+      "color": "Yellow"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Victory Margins",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "US    +16",
+      "color": null
+    },
+    {
+      "text": "NVA    -2",
+      "color": null
+    },
+    {
+      "text": "ARVN   -4",
+      "color": null
+    },
+    {
+      "text": "VC    -12",
+      "color": null
+    }
+  ]
+}
