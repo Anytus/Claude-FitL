@@ -131,3 +131,12 @@
 2026-09-27T19:42:34	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"; python3 tools/	178	1196
 2026-09-27T19:42:39	Bash	python3 tools/ctl.py send Hue; python3 tools/ctl.py screen | tail -14	138	2143
 2026-09-27T19:42:50	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	125	36449
+2026-09-27T19:43:44	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1945	10812
+2026-09-27T19:43:52	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	293	5257
+2026-09-27T19:43:57	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	218	2579
+2026-09-27T19:44:01	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py screen | tail -4	130	823
+2026-09-27T19:44:06	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py screen | tail -6	135	1382
+2026-09-27T19:44:15	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	137	17061
+2026-09-27T19:44:35	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1175	18292
+2026-09-27T19:44:52	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	990	5337
+2026-09-27T19:45:33	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving"; python3 tools/ctl.py adv	165	44197

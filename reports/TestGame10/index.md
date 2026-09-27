@@ -68,3 +68,7 @@
 - report-139-140.md: #11 - Abrams
 - report-141-143.md: #40 - PoWs
 - report-144-145.md: #61 - Armored Cavalry
+- report-146-146.md: #61 - Armored Cavalry
+- report-147-148.md: #125 - Coup! Nguyen Khanh
+- report-149-152.md: #58 - Pathet Lao; #124 - Tet Offensive
+- report-153-154.md: #74 - Lam Son 719

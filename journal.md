@@ -218,5 +218,23 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 23 — card #61 Armored Cavalry (last card before Coup #125) — before save-145
 **Plan.** Op + SA: Patrol 1 Troop Da Nang→Hue, 1 Saigon→Qui Nhon, 1 Saigon→Kontum (no LoC Assault); Advise Ranger in Kien Phong (remove VC Guerrilla) and Irregular in Pleiku (remove the VC Guerrilla + 1 NVA); +6 Aid.
 **Why.** No bot is near its line (VC 26, NVA 14, ARVN 39); the card ends with me. Patrol sets up Coup pacification in Hue, Qui Nhon, Kontum (+ Cam Ranh/Can Tho); the Advise removes VC pieces from two likely Agitation targets (Agitate Total 11): Kien Phong (+2 VC) and Pleiku (-2 US).
+**Execution.** Patrol destination was a numbered menu the first time and typed later; Advise in Pleiku asked per type (`NVA Troops (0 - 2)`: 1, `NVA Active Guerrillas (0 - 1)`: 0; the VC Guerrilla was then taken).
+**Result.** As planned; Kien Phong COIN Control; Da Nang lost COIN Control (3 US vs 3 NVA + Police). Coup #125 followed.
+
+## Coup 4 — #125 Nguyen Khanh, Support phase — before save-146
+**Plan.** Pacify Hue (Passive → Active, +2), Kontum, Qui Nhon, Cam Ranh (Passive → Active, +1 each).
+**Why.** The four best of the five offered (+5); 65 spendable Resources.
+**Execution.** none
+**Result.** +5 (US 51 after Agitation). VC Agitated Quang Tin, Khanh Hoa, Phu Bon: VC 32/35.
+
+## Coup 4 — Commitment — before save-146
+**Plan.** Place the 4 Troop casualties: 2 in Quang Tri-Thua Thien, 2 in Kien Phong. No other moves.
+**Why.** Both are COIN-controlled with Police and not at Support: Quang Tri (Neutral, pop 2) and Kien Phong (Passive Opposition, pop 2) become Coup-5 pacification spaces, and Troops there let Train/Pacify cut VC's Opposition. Withdrawals to Available would hand VC shifts while it sits at 32.
+**Execution.** none
+**Result.** As planned. Then VC played Tet Offensive (in place of #58 Pathet Lao): Terror in Saigon and six other spaces, VC Bases + Guerrillas into Saigon and Hue, US Troops lost in Saigon and Pleiku; NVA marched into Kien Phong, Da Nang, Quang Nam, Kien Giang. VC 36 (+1), NVA 19 (+1): both over their lines.
+
+## Turn 24 — card #74 Lam Son 719 — before save-154
+**Plan.** Pass.
+**Why.** VC and NVA are each 1 over their lines, and the next draw can be the Coup (pile 5, card 1). I have only a Limited Op here, which fixes one of them and leaves me Ineligible on #2. Passing makes me first on #2 Kissinger with Op + SA: Assault Hue (+ ARVN follow-up on the VC Base, VC -1) and Kien Phong (2 NVA Troops, NVA -2), then Air Strike Quang Nam. Lam Son unshaded is empty (ARVN has 0 Troops Available).
 **Execution.**
 **Result.**

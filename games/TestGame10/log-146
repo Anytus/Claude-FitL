@@ -1,0 +1,186 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #61 - Armored Cavalry (ARVN, US, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #125 - Coup! Nguyen Khanh",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "Sweep is prohibited [Not allowed in Monsoon]",
+      "color": "Red"
+    },
+    {
+      "text": "US Assault is prohibited [Momentum: #78 General Lansdale]",
+      "color": "Red"
+    },
+    {
+      "text": "\nUS chooses Patrol operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Move 1 US Troop from Da Nang to Hue",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Da Nang",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 39 to 38",
+      "color": "Blue"
+    },
+    {
+      "text": "Move 1 US Troop from Saigon to Qui Nhon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 US Troop from Saigon to Kontum",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS Patrol - Activating guerrillas on LOCs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "No guerrillas are activated",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Advise special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nAdvise in Kien Phong using ARVN Underground Ranger",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 ARVN Underground Ranger in Kien Phong to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Kien Phong",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 38 to 40",
+      "color": "Blue"
+    },
+    {
+      "text": "\nAdvise in Pleiku-Darlac using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 NVA Troop from Pleiku-Darlac to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Pleiku-Darlac to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Increase US Aid by +6 to 75",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

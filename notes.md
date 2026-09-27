@@ -55,3 +55,5 @@ card #119 My Lai: US ineligible (VC hit Quang Tri)
 card #33 MiGs: Train/Pacify Ba Xuyen, Advise ARVN Sweep An Loc + Qui Nhon — blunt VC General Uprising
 card #96 APC: US ineligible (VC General Uprising)
 card #11 Abrams: Train/Pacify Quang Tri, Advise ARVN Assault Saigon + Hue Bases — VC 33 to 26
+card #40 PoWs: US ineligible
+coup #125 Nguyen Khanh: pacified Hue, Kontum, Qui Nhon, Cam Ranh (+5); casualties to Quang Tri, Kien Phong
