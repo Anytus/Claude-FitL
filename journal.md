@@ -236,5 +236,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 24 — card #74 Lam Son 719 — before save-154
 **Plan.** Pass.
 **Why.** VC and NVA are each 1 over their lines, and the next draw can be the Coup (pile 5, card 1). I have only a Limited Op here, which fixes one of them and leaves me Ineligible on #2. Passing makes me first on #2 Kissinger with Op + SA: Assault Hue (+ ARVN follow-up on the VC Base, VC -1) and Kien Phong (2 NVA Troops, NVA -2), then Air Strike Quang Nam. Lam Son unshaded is empty (ARVN has 0 Troops Available).
+**Execution.** none
+**Result.** Card ended; the draw was #8 Arc Light, not the Coup. US first on #2 as planned.
+
+## Turn 25 — card #2 Kissinger — before save-156
+**Plan.** Op + SA: Train Kien Phong placing 2 Irregulars (1 Available + 1 taken from Quang Tri), making it COIN-controlled, then Pacify it 2 levels (Passive Opposition → Passive Support); Advise ARVN Assault in Hue (2 VC Guerrillas + VC Base) and Ranger in Quang Nam (2 NVA Troops); +6 Aid.
+**Why.** VC 36 → 33 (Kien Phong -2, Hue Base -1) and NVA 19 → 16 (Kien Phong -2, Quang Nam -1) in one action; US +2. Kissinger unshaded (a d6 of NVA Bases in Laos/Cambodia) weighed: it leaves VC at 36 while I am Ineligible on #8.
 **Execution.**
 **Result.**

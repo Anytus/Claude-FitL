@@ -72,3 +72,5 @@
 - report-147-148.md: #125 - Coup! Nguyen Khanh
 - report-149-152.md: #58 - Pathet Lao; #124 - Tet Offensive
 - report-153-154.md: #74 - Lam Son 719
+- report-155-155.md: #74 - Lam Son 719
+- report-156-156.md: #2 - Kissinger

@@ -10105,4 +10105,42 @@ Eligible      : US
 Acted         : ARVN -> Op/Special Activity
 Passed        : none
 Ineligible    : NVA, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 63[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 8
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #2 - Kissinger (US, NVA, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded)
+On Deck card  : #8 - Arc Light (US, NVA, VC, ARVN)
+                NVA -> (Performed, Shaded), VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : US, NVA, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN
 (perform or ?): 

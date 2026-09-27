@@ -57,3 +57,5 @@ card #96 APC: US ineligible (VC General Uprising)
 card #11 Abrams: Train/Pacify Quang Tri, Advise ARVN Assault Saigon + Hue Bases — VC 33 to 26
 card #40 PoWs: US ineligible
 coup #125 Nguyen Khanh: pacified Hue, Kontum, Qui Nhon, Cam Ranh (+5); casualties to Quang Tri, Kien Phong
+card #58 Pathet Lao replaced by VC Tet Offensive: US did not act
+card #74 Lam Son 719: Pass — be first on #2 to fix VC and NVA both over their lines
