@@ -36,3 +36,5 @@
 - report-073-074.md: #9 - Psychedelic Cookie
 - report-075-077.md: #106 - Binh Duong
 - report-078-078.md: #69 - MACV
+- report-079-080.md: #69 - MACV
+- report-081-081.md: #104 - Main Force Bns

@@ -1,0 +1,258 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 6  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "\nNVA Bot Pivotal Event die roll: 6  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #69 - MACV (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #104 - Main Force Bns (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - J",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (9): 12 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - JJ",
+      "color": null
+    },
+    {
+      "text": "Trung check: All routes from Can Tho to Hue blocked? [No]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Sweep operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Tay Ninh as Sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 5 ARVN Troops from Saigon to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 1 ARVN Troop from Kien Phong to Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 3 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nActivating guerrillas in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 5 VC Underground Guerrillas in Tay Ninh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nARVN pays for 1 sweep destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 36",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN chooses Raid special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN conducts raid in Kien Phong",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 ARVN Underground Ranger in Kien Phong to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 NVA Troops from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Kien Phong",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 18 to 16",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN conducts raid in Quang Nam",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 ARVN Underground Ranger in Quang Nam to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 2 NVA Troops from Quang Nam to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Quang Nam to COIN Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 39 to 40",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 16 to 15",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Raid activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

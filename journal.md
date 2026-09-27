@@ -128,5 +128,17 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Pivotal — Linebacker II offered (current #69 MACV) — before save-078
 **Plan.** Decline now; intend to play it at the next draw (replacing #104) if no Coup is then on deck.
 **Why.** On #69 the US is second after ARVN; MACV unshaded gives the US a free SA (Advise: -3 NVA) and keeps the US Eligible, so Linebacker can still be played on #104 for NVA -2 more and NVA Ineligible, while deleting VC's Critical #104 capability.
+**Execution.** none
+**Result.** Declined; ARVN then Raided Kien Phong and Quang Nam (NVA 15).
+
+## Turn 13 — card #69 MACV — before save-079
+**Plan.** Event (US then ARVN free SA; US stays Eligible): US Air Strike — Binh Dinh first (2-3 NVA Troops to end NVA Control), rest on Active VC Guerrillas in Tay Ninh (both at Active Opposition, so no shift).
+**Why.** NVA 15 → 13 and keeps the US Eligible to play Linebacker II at the next draw. Advise against the lone VC Guerrillas in Kien Hoa and Quang Tri weighed; NVA is nearer its line.
+**Execution.** MACV chain: `Choose factions to execute Special Activities` → `US then ARVN` → `Choose a Special Activity` → Air Strike; 5 hits: 3 NVA Troops in Binh Dinh, 2 in Kien Phong (program removed NVA Troops, not the Active VC Guerrilla, in Kien Phong). No shifts (both Active Opposition).
+**Result.** NVA 13; US stays Eligible. ARVN's free SA Governed Hue and Cam Ranh (-3 US Support).
+
+## Pivotal — Linebacker II played (replacing #104 Main Force Bns) — before save-081
+**Plan.** Play Linebacker II: NVA removes 2 Bases, Ineligible through #47; the 1 US Troop in Casualties to Available.
+**Why.** Deletes VC's Critical #104 shaded capability (Ambush removes 2, for the rest of the game), NVA 13 → 11 and silent for two cards while a Coup can come up at any draw.
 **Execution.**
 **Result.**

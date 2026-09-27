@@ -34,3 +34,5 @@ card #70 ROKs: US ineligible
 card #10 Rolling Thunder: Event unshaded, Trail 4 to 2 — deny VC Air Strike ban, NVA sits out
 card #25 TF-116 Riverines: US ineligible
 card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available — +3 permanent, deny NVA shaded
+card #106 Binh Duong: US ineligible
+card #69 MACV: Event, US Air Strike Binh Dinh + Kien Phong, stay Eligible — NVA 15 to 13

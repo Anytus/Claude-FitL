@@ -4876,4 +4876,327 @@ Does US wish to play their pivotal?
 2) No
 3) Show Coup status
 ----------------------------------------------------
+Selection: 2
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+On Deck card  : #104 - Main Force Bns (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : ARVN, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - J
+Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (9): 12 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - JJ
+Trung check: All routes from Can Tho to Hue blocked? [No]
+
+ARVN chooses Sweep operation
+====================================================
+
+ARVN selects Tay Ninh as Sweep destination
+----------------------------------------------------
+[35mMove 5 ARVN Troops from Saigon to Tay Ninh[0m
+[35mMove 1 ARVN Troop from Kien Phong to Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 3 [Failure]
+
+Activating guerrillas in Tay Ninh
+----------------------------------------------------
+[36mFlip 5 VC Underground Guerrillas in Tay Ninh to ACTIVE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN pays for 1 sweep destination
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 36[0m
+
+ARVN chooses Raid special activity
+====================================================
+
+ARVN conducts raid in Kien Phong
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Kien Phong to ACTIVE[0m
+[35mRemove 2 NVA Troops from Kien Phong to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 18 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN conducts raid in Quang Nam
+----------------------------------------------------
+[36mFlip 1 ARVN Underground Ranger in Quang Nam to ACTIVE[0m
+[35mRemove 2 NVA Troops from Quang Nam to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Quang Nam to COIN Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 40[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 15[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Raid activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #69 - MACV (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed), NVA -> (Performed)
+On Deck card  : #104 - Main Force Bns (VC, NVA, US, ARVN)
+                VC -> (Critical, Shaded), NVA -> (Performed, Shaded), ARVN -> (Critical, Unshaded)
+Eligible      : US, NVA
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+US executes the Event: MACV
+----------------------------------------------------
+
+Choose factions to execute Special Activities
+====================================================
+1) US then ARVN
+2) NVA then VC
+----------------------------------------------------
+Selection: 1
+
+US performs a speical activity
+----------------------------------------------------
+
+Choose a Special Activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+----------------------------------------------------
+Selection: 3
+Die roll to determine the number of hits = 5
+
+0 spaces of 6 selected for Air Strike
+----------------------------------------------------
+
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Binh Dinh
+2) Kien Phong
+3) Tay Ninh
+4) None of the above
+----------------------------------------------------
+Selection: 1
+
+1 space of 6 selected for Air Strike
+----------------------------------------------------
+Binh Dinh
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in Binh Dinh
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Air Strike in which space:
+====================================================
+1) Kien Phong
+2) Tay Ninh
+3) None of the above
+----------------------------------------------------
+Selection: 1
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Binh Dinh, Kien Phong
+
+You have not yet degraded the trail
+
+Air Strike: (5 hits remaining, remove up to 5 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in Binh Dinh
+4) Remove insurgents in Kien Phong
+5) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 3
+
+Remove how many pieces from Binh Dinh (1 - 5): 3
+
+US Air Strikes Binh Dinh
+----------------------------------------------------
+[35mRemove 3 NVA Troops from Binh Dinh to AVAILABLE[0m
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Binh Dinh, Kien Phong
+
+You have not yet degraded the trail
+
+Air Strike: (2 hits remaining, remove up to 2 pieces)
+====================================================
+1) Select a space to Strike
+2) Degrade the trail
+3) Remove insurgents in Binh Dinh
+4) Remove insurgents in Kien Phong
+5) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 4
+
+Remove how many pieces from Kien Phong (1 - 2): 2
+
+US Air Strikes Kien Phong
+----------------------------------------------------
+[35mRemove 2 NVA Troops from Kien Phong to AVAILABLE[0m
+
+2 spaces of 6 selected for Air Strike
+----------------------------------------------------
+Binh Dinh, Kien Phong
+
+You have not yet degraded the trail
+There are no strike targets
+
+Shift support in strike spaces toward Active Opposition
+----------------------------------------------------
+
+Binh Dinh: No shift [Already at Active Opposition]
+
+Kien Phong: No shift [Already at Active Opposition]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 15 to 13[0m
+
+ARVN performs a speical activity
+----------------------------------------------------
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - M
+Trung check: NVA Control + NVA Bases >= 14? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - L
+Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]
+Trung check: 3d6 <= Available ARVN pieces (9): 8 [Yes]
+
+ARVN Governs in Hue (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 33[0m
+[34mIncrease Patronage by +2 to 19[0m
+[33mFlip Active Support marker in Hue to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 51 to 49[0m
+[34mMove the 'COIN Control + Patronage' marker from 40 to 42[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Cam Ranh (population: 1)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -1 to 32[0m
+[34mIncrease Patronage by +1 to 20[0m
+[33mFlip Active Support marker in Cam Ranh to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 49 to 48[0m
+[34mMove the 'COIN Control + Patronage' marker from 42 to 43[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+US will remain eligible for the next card
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 47
+
+NVA Bot Pivotal Event die roll: 4  [Failure] (2 cards in leader box)
+
+Pivotal Events can be played
+----------------------------------------------------
+Eligible: VC, NVA, and US
+Trumped : VC and NVA
+
+Does US wish to play their pivotal?
+====================================================
+1) Yes
+2) No
+3) Show Coup status
+----------------------------------------------------
 Selection: 

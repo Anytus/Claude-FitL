@@ -1,0 +1,274 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #69 - MACV (ARVN, US, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #104 - Main Force Bns (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Event: MACV",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nUS performs a speical activity",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll to determine the number of hits = 5",
+      "color": null
+    },
+    {
+      "text": "\nUS Air Strikes Binh Dinh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 3 NVA Troops from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS Air Strikes Kien Phong",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Troops from Kien Phong to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nShift support in strike spaces toward Active Opposition",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nBinh Dinh: No shift [Already at Active Opposition]",
+      "color": null
+    },
+    {
+      "text": "\nKien Phong: No shift [Already at Active Opposition]",
+      "color": null
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 15 to 13",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN performs a speical activity",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - M",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Control + NVA Bases >= 14? [No]",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - L",
+      "color": null
+    },
+    {
+      "text": "Trung check: NVA Base or NVA Control in any 2+ Pop space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (9): 8 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN Governs in Hue (population: 2)",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Transfer population value from Aid to Patronage",
+      "color": null
+    },
+    {
+      "text": "Decrease US Aid by -2 to 33",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase Patronage by +2 to 19",
+      "color": "Blue"
+    },
+    {
+      "text": "Flip Active Support marker in Hue to Passive Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 51 to 49",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 40 to 42",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN Governs in Cam Ranh (population: 1)",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Transfer population value from Aid to Patronage",
+      "color": null
+    },
+    {
+      "text": "Decrease US Aid by -1 to 32",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase Patronage by +1 to 20",
+      "color": "Blue"
+    },
+    {
+      "text": "Flip Active Support marker in Cam Ranh to Passive Support",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Support + Avail US' marker from 49 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 42 to 43",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Govern activity",
+      "color": null
+    },
+    {
+      "text": "\nUS will remain eligible for the next card",
+      "color": null
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}
