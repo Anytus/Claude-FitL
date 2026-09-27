@@ -1,0 +1,82 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #42 - Chou En Lai (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #11 - Abrams (US, ARVN, NVA, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : NVA -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : US",
+      "color": null
+    },
+    {
+      "text": "\nARVN executes the Unshaded Event: Chou En Lai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nRolling d6 to determine number of Troops lost: 4",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Troop from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 NVA Troop from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 NVA Troop from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 NVA Troop from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

@@ -196,3 +196,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** No new pacification site needs a Troop (Phu Bon and Khanh Hoa already hold one); withdrawals would hand the VC Support shifts it would spend on Saigon.
 **Execution.** none
 **Result.** No moves.
+
+## Turn 23 — card #115 Typhoon Kate — before save-157
+**Plan.** Op + SA: Train Khanh Hoa (no placement), Pacify 1 level to Active; Advise ARVN Sweep in Phu Bon-Phu Yen and Ba Xuyen (activate their NVA Guerrillas).
+**Why.** +1 US; Active Guerrillas cannot Terror, protecting two Support spaces until the next Reset. Typhoon Kate (stay Eligible, SA limits for all) weighed as a smaller gain.
+**Execution.** Declined +6 Aid (Aid already at its 75 cap).
+**Result.** Khanh Hoa Active (+1, US 68); NVA Guerrillas in Phu Bon and Ba Xuyen Active.

@@ -9105,4 +9105,391 @@ Eligible      : US, NVA
 Acted         : none
 Passed        : none
 Ineligible    : VC, ARVN
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Khanh Hoa
+
+US selects Khanh Hoa for Training
+
+Training in Khanh Hoa:
+====================================================
+1) Place Irregulars
+2) Do not place forces
+----------------------------------------------------
+Selection: 2
+
+1 space selected for Training
+----------------------------------------------------
+Khanh Hoa
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Pacify
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+
+Pacify in which space:  Khanh Hoa
+
+Pacifying in Khanh Hoa
+----------------------------------------------------
+The cost to pacify is 3 per level/terror marker
+
+Pacify:
+====================================================
+1) Shift 1 level to Active Support
+2) Do not pacify in Khanh Hoa
+----------------------------------------------------
+Selection: 1
+
+US Pacifies 1 level in Khanh Hoa
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 57[0m
+[33mFlip Passive Support marker in Khanh Hoa to Active Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 67 to 68[0m
+
+Do you wish to perform a special activity? (y/n) y
+
+Choose special activity:
+====================================================
+1) Advise
+2) Air Lift
+3) Air Strike
+4) Do not perform a Special Activity now
+----------------------------------------------------
+Selection: 1
+
+US chooses Advise special activity
+====================================================
+
+0 spaces of 2 selected for Advise
+----------------------------------------------------
+
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Sweep in which space: 
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Phong
+4) Phu Bon-Phu Yen
+5) Quang Nam
+6) None of the above
+----------------------------------------------------
+Selection: 4
+
+Activating guerrillas in Phu Bon-Phu Yen
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Phu Bon-Phu Yen to ACTIVE[0m
+
+1 space of 2 selected for Advise
+----------------------------------------------------
+Phu Bon-Phu Yen
+
+Choose Advise option:
+====================================================
+1) Sweep a space with ARVN forces
+2) Assault a space with ARVN forces
+3) Use Irregular/Ranger to remove enemy pieces
+4) Finished selecting Advise spaces
+----------------------------------------------------
+Selection: 1
+ARVN Sweep in which space: 
+====================================================
+1) Ba Xuyen
+2) Kien Giang-An Xuyen
+3) Kien Phong
+4) Quang Nam
+5) None of the above
+----------------------------------------------------
+Selection: 1
+
+Activating guerrillas in Ba Xuyen
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Ba Xuyen to ACTIVE[0m
+
+2 spaces of 2 selected for Advise
+----------------------------------------------------
+Phu Bon-Phu Yen, Ba Xuyen
+
+Do you wish to add +6 Aid? (y/n) n
+[34m
+Move the US cylinder to the Op/Special Activity box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #115 - Typhoon Kate (VC, ARVN, US, NVA)
+                VC -> (Ignored), ARVN -> (Performed), NVA -> (Performed)
+On Deck card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA
+Acted         : US -> Op/Special Activity
+Passed        : none
+Ineligible    : VC, ARVN
+(perform or ?): perform
+
+NVA executes the Event: Typhoon Kate
+----------------------------------------------------
+
+NVA will remain eligible for the next card
+[31m
+Momentum: '#115 Typhoon Kate' is now in play[0m
+[34m
+Move the NVA cylinder to the LimOp or Event box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN, VC, and NVA cylinders to the Eligible box[0m
+[34mMove the US cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 11
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #11 - Abrams (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+Eligible      : NVA, ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [Yes]
+Trung check: 3d6 <= Available NVA Troops (25): 7 [Yes]
+
+NVA chooses Infiltrate special activity
+====================================================
+[31mAll special activities are max 1 space [Momentum: #115 Typhoon Kate][0m
+
+NVA Infiltrates in Kien Giang-An Xuyen
+----------------------------------------------------
+[35mPlace 4 NVA Troops from AVAILABLE into Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Giang-An Xuyen to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 42[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 10 to 12[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Infiltrate activity
+
+NVA chooses March operation
+====================================================
+
+NVA selects LOC Can Tho -- Bac Lieu as March destination
+----------------------------------------------------
+[35mMove 1 NVA Active Guerrilla from Ba Xuyen to LOC Can Tho -- Bac Lieu[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA selects Saigon as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from LOC Saigon -- An Loc -- Ban Me Thuot to Saigon[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Saigon to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA selects Kien Phong as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from Kien Giang-An Xuyen to Kien Phong[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects The Fishhook as March destination
+----------------------------------------------------
+[35mMove 1 NVA Troop from Tay Ninh to The Fishhook[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in The Fishhook[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Tay Ninh as March destination
+----------------------------------------------------
+[35mMove 2 NVA Troops from Quang Duc-Long Khanh to Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Can Tho as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from LOC Can Tho -- Chau Doc to Can Tho[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Can Tho to ACTIVE[0m
+
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+NVA selects Binh Tuy-Binh Thuan as March destination
+----------------------------------------------------
+[35mMove 1 NVA Underground Guerrilla from Khanh Hoa to Binh Tuy-Binh Thuan[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+NVA selects Khanh Hoa as March destination
+----------------------------------------------------
+[35mMove 1 NVA Active Guerrilla from Phu Bon-Phu Yen to Khanh Hoa[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+[34m
+Move the NVA cylinder to the Op/Special Activity box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #42 - Chou En Lai (NVA, ARVN, US, VC)
+                NVA -> (Ignored), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #11 - Abrams (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+Eligible      : ARVN, VC
+Acted         : NVA -> Op/Special Activity
+Passed        : none
+Ineligible    : US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Chou En Lai
+----------------------------------------------------
+
+Rolling d6 to determine number of Troops lost: 4
+----------------------------------------------------
+[35mRemove 1 NVA Troop from Tay Ninh to AVAILABLE[0m
+[35mRemove 1 NVA Troop from Tay Ninh to AVAILABLE[0m
+[35mRemove 1 NVA Troop from Tay Ninh to AVAILABLE[0m
+[35mRemove 1 NVA Troop from Tay Ninh to AVAILABLE[0m
+[34m
+Move the ARVN cylinder to the LimOp or Event box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US cylinder to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 40
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #11 - Abrams (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Critical, Shaded), VC -> (Critical, Shaded)
+On Deck card  : #40 - PoWs (NVA, US, VC, ARVN)
+                NVA -> (Ignored), VC -> (Performed, Shaded), ARVN -> (Ignored)
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
 (perform or ?): 

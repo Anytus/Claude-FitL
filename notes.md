@@ -59,3 +59,5 @@ card #20 Laser Guided Bombs: US ineligible (ARVN Assault Kien Phong, NVA LimOp M
 card #65 International Forces: Event unshaded, 4 Out-of-Play Troops to Ba Xuyen/Phu Bon/Khanh Hoa — deny VC shaded, Coup pacification sites
 Coup 4 #130 Failed Attempt: pacified Ba Xuyen (2), Qui Nhon, Cam Ranh, Can Tho; no Commitment moves — +5 US (67)
 card #113 Ruff Puff: US eligible 3rd; VC Terror+Subvert and ARVN unshaded ended card
+card #115 Typhoon Kate: Train+Pacify Khanh Hoa, Advise ARVN Sweeps Phu Bon+Ba Xuyen — +1, stop NVA Terror
+card #42 Chou En Lai: US ineligible (NVA Infiltrate+March, ARVN unshaded -4 NVA Troops)

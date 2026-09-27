@@ -142,3 +142,6 @@
 2026-09-27T18:00:24	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	358	22132
 2026-09-27T18:00:42	Bash	echo "card #65 International Forces: Event unshaded, 4 Out-of-Play Troops to Ba 	1048	7292
 2026-09-27T18:00:51	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	205	7507
+2026-09-27T18:01:10	Bash	cat >> journal.md <<'EOF'  ## Coup 4 — Commitment — before save-152 **Plan.** Mo	557	37484
+2026-09-27T18:01:41	Bash	echo "Coup 4 #130 Failed Attempt: pacified Ba Xuyen (2), Qui Nhon, Cam Ranh, Can	1120	4826
+2026-09-27T18:01:50	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 1 level to Active" "special activity? (	375	4266

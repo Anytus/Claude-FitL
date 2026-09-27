@@ -58,3 +58,5 @@
 - report-149-151.md: #65 - International Forces
 - report-152-153.md: #130 - Coup! Failed Attempt
 - report-154-156.md: #113 - Ruff Puff
+- report-157-159.md: #115 - Typhoon Kate
+- report-160-162.md: #42 - Chou En Lai
