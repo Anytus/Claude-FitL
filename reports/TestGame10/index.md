@@ -54,3 +54,5 @@
 - report-111-112.md: #22 - Da Nang
 - report-113-115.md: #67 - Amphib Landing
 - report-116-117.md: #56 - Vo Nguyen Giap
+- report-118-118.md: #56 - Vo Nguyen Giap
+- report-119-119.md: #30 - USS New Jersey

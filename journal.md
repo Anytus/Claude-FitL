@@ -188,5 +188,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 18 — card #56 Vo Nguyen Giap — before save-117
 **Plan.** Pass.
 **Why.** On #30 USS New Jersey the US is first only if it is Eligible; otherwise VC (Critical/Shaded) shifts Quang Tri and Kien Hoa 2 levels each toward Opposition (-8 US). Here I could only take a Limited Op (no Assault under Lansdale) or Giap unshaded, which adds NVA Troops.
+**Execution.** none
+**Result.** US first on #30 as planned.
+
+## Turn 19 — card #30 USS New Jersey — before save-119
+**Plan.** Event unshaded: free Air Strike, 2 NVA Troops each in Da Nang, Quang Nam and Binh Dinh.
+**Why.** Da Nang and Quang Nam lose NVA Control (NVA 16 → 14; Da Nang back to COIN Control); Binh Dinh's stack shrinks. It also denies VC's Critical shaded (-8 US in Quang Tri and Kien Hoa). Da Nang may shift one level (-1 US).
 **Execution.**
 **Result.**
