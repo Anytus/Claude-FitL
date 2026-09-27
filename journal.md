@@ -50,5 +50,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 6 — card #97 Brinks Hotel — before save-034
 **Plan.** Op + SA: Train Saigon (no placement), Pacify Saigon to Active; Advise Ranger in Quang Nam (remove 2 NVA Troops) and Irregular in Quang Tri (remove 2 VC Guerrillas); +6 Aid.
 **Why.** Saigon back to Active is +6 for 3 Resources; Quang Nam loses NVA Control (-1); Quang Tri's VC Base loses its guards. Passing to be first on #15 (Medevac) weighed: it costs a whole US action for a turn-order edge that only matters if the next draw is the Coup (1 in 13).
+**Execution.** `Pacify in which space` was auto-selected (single candidate), seq stopped; continued with a second seq. Quang Tri was the only Advise candidate left and was auto-selected.
+**Result.** As planned: Saigon Active (+6), Quang Nam NVA Control broken, Quang Tri VC Base bare, Aid 35. ARVN then broke NVA Control in Quang Tin and Kien Phong (NVA 11).
+
+## Turn 7 — card #6 Aces (last card before Coup #129) — before save-040
+**Plan.** Op only (Patrol, no SA): 1 US Troop Da Nang→Hue, 1 Kontum→Qui Nhon, 1 Kontum→Cam Ranh.
+**Why.** Sets up Coup Support-phase pacification in Hue, Qui Nhon, Cam Ranh plus Quang Tri (about +8 US, -2 VC). No bot is near its line. Op without SA closes the Event, so NVA cannot take Aces shaded (2 US Troops to Casualties, Trail +2) and gets one space only. Aces unshaded (6-hit strike in Laos, Trail -2) weighed: it hands NVA an Op + SA.
 **Execution.**
 **Result.**

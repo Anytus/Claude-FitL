@@ -13,3 +13,6 @@
 - report-030-030.md: #118 - Korean War Arms
 - report-031-033.md: #107 - Burning Bonze
 - report-034-034.md: #97 - Brinks Hotel
+- report-035-036.md: #97 - Brinks Hotel
+- report-037-039.md: #15 - Medevac
+- report-040-040.md: #6 - Aces

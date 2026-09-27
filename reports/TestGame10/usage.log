@@ -28,3 +28,6 @@
 2026-09-27T19:18:48	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	198	2243
 2026-09-27T19:19:04	Bash	python3 tools/ctl.py send y && python3 tools/ctl.py advance	131	40122
 2026-09-27T19:19:50	Bash	python3 tools/ctl.py advance	105	24282
+2026-09-27T19:21:06	Bash	python3 tools/ctl.py seq "Pacify=>Shift 1 level to Active" \  "special activity?	310	5723
+2026-09-27T19:21:11	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "+6 Aid=>y"	166	8784
+2026-09-27T19:21:23	Bash	python3 tools/ctl.py advance	93	30551
