@@ -10578,4 +10578,41 @@ Eligible      : US
 Acted         : NVA -> Op Only
 Passed        : none
 Ineligible    : ARVN, VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 57[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 32
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #20 - Laser Guided Bombs (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded), NVA -> (Critical, Shaded)
+On Deck card  : #32 - Long Range Guns (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Ignored)
+Eligible      : US, ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA
 (perform or ?): 

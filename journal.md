@@ -248,5 +248,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 26 — card #41 Bombing Pause — before save-163
 **Plan.** Pass.
 **Why.** NVA took an Op only, so I have a Limited Op here, and none moves a score by more than 1. Passing makes me first on #20 Laser Guided Bombs with Op + SA; ARVN (second, Performed/Unshaded) then takes its unshaded capability, and VC/NVA (both Critical/Shaded) get no turn on #20. It also covers the case that the next draw is the Coup.
+**Execution.** none
+**Result.** Card ended; US first on #20 as planned (the draw was #32, not the Coup).
+
+## Turn 27 — card #20 Laser Guided Bombs — before save-165
+**Plan.** Op + SA: Air Lift first (Quang Tri 2 Troops → Binh Dinh, Hue 1 Troop → Saigon), then Assault Saigon (1 Troop + Base = 2 hits on the lone VC Base) and Binh Dinh (2 Troops, Highland 1 hit, + ARVN follow-up) on NVA Troops.
+**Why.** Binh Dinh flips from NVA to COIN Control (NVA 17 → 15) and Saigon (pop 6) loses its VC Base, the Terror source (VC 33 → 32). ARVN, second, should take the unshaded capability. Abrams limits Assault to 2 spaces.
 **Execution.**
 **Result.**

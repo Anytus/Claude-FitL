@@ -153,3 +153,4 @@
 2026-09-27T19:47:58	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py screen | tail -4	127	1416
 2026-09-27T19:48:02	Bash	python3 tools/ctl.py seq "Remove US Troops from which space=>Kontum"; python3 to	180	945
 2026-09-27T19:48:14	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py advance	130	34918
+2026-09-27T19:48:36	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Result.** As p	1497	19368

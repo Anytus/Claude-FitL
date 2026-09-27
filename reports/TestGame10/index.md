@@ -77,3 +77,5 @@
 - report-157-158.md: #2 - Kissinger
 - report-159-161.md: #8 - Arc Light
 - report-162-163.md: #41 - Bombing Pause
+- report-164-164.md: #41 - Bombing Pause
+- report-165-165.md: #20 - Laser Guided Bombs
