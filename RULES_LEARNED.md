@@ -108,10 +108,8 @@ vice versa. Air Lift may share a space with Train.
 pieces; no Resource cost. Removes NVA Troops and Active Guerrillas, then
 Bases. An Underground Guerrilla shields the Base in its space; an undefended
 Base is a legal target. Hits: 2 per US Troop if a US Base is present;
-otherwise 1 per US Troop, or 1 per 2 US Troops in Highland. The follow-up
-ARVN Assault (`Follow up with ARVN assault in <space>? (y/n)`, 3 ARVN
-Resources) is offered after an event's Assault and, in TestGame9, after an
-ordinary US Assault Op (including a Limited Op) in Saigon.
+otherwise 1 per US Troop, or 1 per 2 US Troops in Highland. A US Assault
+may add an ARVN Assault in 1 of its spaces, for 3 ARVN Resources.
 
 **Sweep.** Any number of destination spaces, selected before anything moves;
 a selected space with no Troops moved in still resolves. Only US Troops
@@ -141,8 +139,9 @@ space one of:
   Base only when no other enemy piece remains in the space.
 - **ARVN Sweep.** Activates Guerrillas in the space; no movement, no roll.
 - **ARVN Assault.** An Assault by the ARVN cubes in the space, LoCs
-  included: about 1 hit per 2 ARVN cubes in a City, fewer in Highland; an
-  undefended Base is a legal target.
+  included: 1 hit per 2 ARVN cubes (1 per 3 in Highland), counting Police
+  in Cities and on LoCs, Troops only in Provinces; an undefended Base is a
+  legal target.
 
 A space used for Advise cannot be used for Train in the same action.
 
@@ -192,9 +191,8 @@ level toward Active Opposition (Laos and Cambodia have population 0).
    win, the faction with the highest victory margin (score, which may be
    negative) wins; ties go to the bots, then VC, ARVN, NVA. Because the whole
    round is completed first, the final Coup's own Support phase and other
-   phases count toward the final margins. TestGame9: the program ran Victory,
-   Resources, Support and Redeploy, then declared the result; there was no
-   Commitment or Reset phase on the final Coup.
+   phases count toward the final margins. On the final Coup the program ends
+   the game after Redeploy; there is no Commitment or Reset.
 2. **Resources.** Sabotage check; Trail-degrade check for COIN-controlled
    Laos and Cambodia spaces; ARVN gains Econ plus Aid, computed before the
    next step; then Aid drops by 3 per piece in the Casualties box, floored
@@ -202,10 +200,10 @@ level toward Active Opposition (Laos and Cambodia have population 0).
 3. **Support.** The US pacifies first, in up to 4 spaces that have COIN
    Control, US Troops and ARVN Police (Irregulars do not count as Troops).
    Up to 2 levels per space at the same cost as Train, from ARVN Resources
-   above Econ. Then ARVN pacifies, then the VC spends its Agitate Total, 1
-   per level, in spaces holding VC Guerrillas. Inferred from TestGame9: only
-   spaces without COIN Control are agitated (VC Guerrillas in COIN-controlled
-   Saigon and Binh Dinh were never agitated; Hue was, once it lost Control).
+   above Econ. Then ARVN pacifies, then the VC spends its Agitate Total in
+   up to 4 spaces with VC pieces and no COIN Control: each point removes a
+   Terror marker or shifts 1 level toward Active Opposition, up to 2 levels
+   per space.
 4. **Redeploy.** ARVN must redeploy its Troops to Cities or to spaces with
    a US or ARVN Base, then may redeploy Police to any COIN-controlled space;
    Control is not re-evaluated between the two, so the first never limits
