@@ -113,7 +113,8 @@ Limited Op Train, one space: `... "Choose one=>Limited" "Choose operation=>Train
 | `Use Irregular/Ranger in which space:` | menu | candidate spaces, `None of the above`; then, if the space holds both, which piece to flip |
 | `How many NVA Troops (0 - 1):`, `How many NVA Underground Guerrillas:`, ... | typed | numbers, one prompt per piece type present |
 | `<Sweep/Assault> ... in which space:` | menu | candidate spaces, `None of the above` |
-| `Do you wish to add +6 Aid? (y/n)` | y/n | asked once, after the second Advise space |
+| `ARVN Assault in which space:` / `ARVN Sweep in which space:` | typed / menu | Advise ARVN Assault asks by typed name; ARVN Sweep gives a menu |
+| `Do you wish to add +6 Aid? (y/n)` | y/n | asked once, after the second Advise space (after the first if no second candidate exists) |
 | `Choose Advise option:` again | menu | repeat (max 2 spaces) or `Finished selecting Advise spaces` |
 
 ## Air Lift (Special Activity)
@@ -128,6 +129,10 @@ Limited Op Train, one space: `... "Choose one=>Limited" "Choose operation=>Train
 | `Select one:` again | menu | repeat or `Finished with Air Lift` |
 
 Select all the spaces first (origins and destinations alike), then lift.
+Air Lift can run before any Train or Assault space is chosen (via `Perform a
+Special Activity` in the Op menu), so Troops lifted in can then Train or
+Assault there. Advise is offered only with Train or Patrol: after a Sweep the
+SA menu lacks it. `abort` + `y` at the SA menu undid a resolved Sweep.
 
 ## Air Strike (Special Activity)
 
