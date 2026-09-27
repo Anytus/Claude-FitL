@@ -37,3 +37,5 @@ card #104 Main Force Bns: Train+Pacify Pleiku, Advise Saigon (2 VC) and Binh Din
 card #39 Oriskany: US ineligible (NVA March+Bombard, ARVN unshaded -3 NVA Bases, Trail 1)
 card #81 CIDG: Event unshaded (roll 3), VC in Saigon and 2 LoCs replaced by Police — clear Saigon's last Terror-capable VC
 card #10 Rolling Thunder: replaced by NVA pivotal Easter Offensive; US ineligible (ARVN Train+Govern Binh Dinh, Hue)
+card #38 McNamara Line: Train Saigon, Transfer 3 Patronage, Advise Pleiku+Quang Tri — ARVN 47 before ARVN-Critical Patronage +4 card
+card #87 Nguyen Chanh Thi: US ineligible (ARVN shaded Patronage +4, NVA Infiltrate)

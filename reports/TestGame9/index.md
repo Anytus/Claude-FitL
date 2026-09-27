@@ -36,3 +36,5 @@
 - report-081-083.md: #39 - Oriskany
 - report-084-086.md: #81 - CIDG
 - report-087-090.md: #10 - Rolling Thunder; #122 - Easter Offensive
+- report-091-093.md: #38 - McNamara Line
+- report-094-096.md: #87 - Nguyen Chanh Thi

@@ -83,3 +83,6 @@
 2026-09-27T17:48:10	Bash	echo "card #104 Main Force Bns: Train+Pacify Pleiku, Advise Saigon (2 VC) and Bi	943	4884
 2026-09-27T17:48:14	Bash	python3 tools/ctl.py seq "Replace a VC Guerrilla in which space=>Saigon"	108	1046
 2026-09-27T17:48:30	Bash	python3 tools/ctl.py seq "Place how many ARVN Police=>1" "Replace a VC Guerrilla	361	10251
+2026-09-27T17:48:49	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	427	26613
+2026-09-27T17:49:21	Bash	echo "card #81 CIDG: Event unshaded (roll 3), VC in Saigon and 2 LoCs replaced b	1474	11633
+2026-09-27T17:49:27	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	149	2810

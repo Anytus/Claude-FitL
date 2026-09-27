@@ -112,3 +112,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Removes the last Terror-capable VC in Saigon plus up to 5 more at no cost; a Limited Op cannot touch an Underground Guerrilla.
 **Execution.** Roll was 3. First seq stopped at an unrecorded 'Place how many ARVN Police (0 - 1)' after each replacement; answered 1 each time.
 **Result.** Saigon clear of VC (+1 Police there); VC Guerrillas on Da Nang-Qui Nhon and Saigon-An Loc LoCs replaced by Police.
+
+## Turn 13 — card #38 McNamara Line — before save-091
+**Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage; Advise Irregular removal in Pleiku-Darlac (1 NVA Guerrilla) and Quang Tri (2 NVA Troops); +6 Aid.
+**Why.** #87 on deck is ARVN-Critical shaded (Patronage +4): ARVN 47 would reach 51 with a Coup possible from the next draw; transfer takes it to 44. Pleiku's Active Support loses its Terror threat; Quang Tri NVA -2. McNamara Line event (ARVN -12 Resources, NVA no Infiltrate) weighed; the Patronage cut matters more.
+**Execution.** none
+**Result.** As planned: Patronage 27 -> 24 (ARVN 44), Pleiku clear, Quang Tri uncontrolled (NVA 13 -> 11), Aid +6.
