@@ -1,0 +1,15 @@
+2026-09-27T17:17:52	Bash	cat RULES_LEARNED.md	35	15778
+2026-09-27T17:17:52	Bash	git status | head -5 && ls && ls games 2>/dev/null; wc -l RULES_LEARNED.md CURRE	143	482
+2026-09-27T17:17:54	Bash	cat CURRENT_US_STRATEGY.md PROMPTS.md notes.md journal.md	72	16138
+2026-09-27T17:17:57	Bash	python3 tools/ctl.py status	42	183
+2026-09-27T17:18:05	Bash	python3 tools/ctl.py new-game TestGame9 --final-coup-only	91	3520
+2026-09-27T17:18:12	Bash	python3 tools/ctl.py advance	62	15853
+2026-09-27T17:18:19	Bash	git status --short | head && git add -A && git commit -qm "TestGame9: new game (	358	216
+2026-09-27T17:32:51	Bash	ls tools && python3 tools/ctl.py --help 2>&1 | head -40	70	3006
+2026-09-27T17:32:59	Bash	python3 tools/ctl.py status; ls games/TestGame9 | tail -5	72	240
+2026-09-27T17:33:06	Bash	python3 tools/ctl.py resume TestGame9 2>&1 | tail -30	87	7796
+2026-09-27T17:33:24	Bash	echo "resumed TestGame9 from save-001 (program not running at start of turn 1; s	789	14792
+2026-09-27T17:33:28	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular"	98	2285
+2026-09-27T17:33:31	Bash	python3 tools/ctl.py send y	61	8609
+2026-09-27T17:33:38	Bash	cat > /tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/	575	102
+2026-09-27T17:33:48	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	564	22148

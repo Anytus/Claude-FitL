@@ -1,0 +1,3 @@
+- report-001-002.md: #31 - AAA
+- report-003-005.md: #107 - Burning Bonze
+- report-006-007.md: #66 - Ambassador Taylor
