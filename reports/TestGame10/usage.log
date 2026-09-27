@@ -42,3 +42,6 @@
 2026-09-27T19:23:49	Bash	python3 tools/ctl.py seq "Move how many=>1"; python3 tools/ctl.py screen | tail 	156	1975
 2026-09-27T19:24:04	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" && python3 tools/ctl.py a	170	16665
 2026-09-27T19:24:09	Bash	python3 -c " import json;c=json.load(open('cards.json')) cards=c if isinstance(c	454	5115
+2026-09-27T19:24:42	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1285	5225
+2026-09-27T19:24:51	Bash	python3 tools/ctl.py send 2 && python3 tools/ctl.py advance	146	23523
+2026-09-27T19:24:58	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	808	11537

@@ -74,5 +74,17 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Pivotal — Linebacker II offered at draw of #28 (current #105 Rural Pressure) — before save-044
 **Plan.** Decline (No).
 **Why.** Playing it deletes #105 (VC shaded: 3 Police Provinces toward Opposition) and removes 2 NVA Bases, but then VC is first on #28 Search and Destroy and takes its shaded capability for the rest of the game. Declining leaves the US first on #28 to take it unshaded. With Casualties empty, the 3-Casualty part is wasted now; Support+Available is 50, so the precondition holds for later.
+**Execution.** `send No` rejected verbatim: `'No' is not valid. Must be one of: 1, 2, 3, or abort` (send does not label-match); sent `2`.
+**Result.** Declined; VC shaded Rural Pressure cost Quang Tri Support (-2) and put Kien Hoa to Passive Opposition; Patronage -6.
+
+## Pivotal — Linebacker II offered again (current #28 Search and Destroy) — before save-047
+**Plan.** Decline.
+**Why.** Playing it would delete #28, the card I want to take unshaded as first Eligible.
+**Execution.** none
+**Result.** Declined.
+
+## Turn 8 — card #28 Search and Destroy — before save-048
+**Plan.** Op + SA: Train Kien Hoa-Vinh Binh (1 Irregular), Pacify it 2 levels (Passive Opposition to Passive Support); Advise Irregular in Quang Tri (remove the lone VC Base) and Binh Dinh (remove 2 NVA Troops); +6 Aid.
+**Why.** VC is closest to its line (32/35): this is VC -3, US +2, NVA -2 (Binh Dinh Control broken). ARVN, second and Critical/Unshaded, should then take the Search and Destroy capability unshaded, so taking the Event myself buys nothing.
 **Execution.**
 **Result.**

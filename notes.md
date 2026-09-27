@@ -23,3 +23,5 @@ card #107 Burning Bonze: US ineligible
 card #97 Brinks Hotel: Train/Pacify Saigon Active, Advise Quang Nam Ranger + Quang Tri — +6 Support, NVA -1
 card #15 Medevac: US ineligible
 coup #129 Failed Attempt: pacified Cam Ranh, Hue, Qui Nhon, Quang Tri; casualties to Kien Hoa/Can Tho — +8 US, next Coup set-up
+card #6 Aces: Patrol only, Troops to Hue/Qui Nhon/Cam Ranh — Coup pacification set-up, NVA held to LimOp
+card #105 Rural Pressure: declined Linebacker II (twice) — keep #28 for US first

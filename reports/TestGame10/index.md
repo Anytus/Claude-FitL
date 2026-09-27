@@ -19,3 +19,5 @@
 - report-041-042.md: #6 - Aces
 - report-043-044.md: #129 - Coup! Failed Attempt
 - report-045-045.md: #105 - Rural Pressure
+- report-046-047.md: #105 - Rural Pressure
+- report-048-048.md: #28 - Search and Destroy
