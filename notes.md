@@ -41,3 +41,5 @@ card #47 Chu Luc: US ineligible
 card #98 Long Tan: LimOp Assault Saigon + ARVN follow-up — clear 3 VC Guerrillas from Saigon
 card #73 Great Society: US ineligible; NVA shaded, chose 1 Troop + 2 Bases to Out of Play
 coup #128 Nguyen Van Thieu: pacified Hue, Kien Hoa, Quang Tri, Pleiku (+14); Troops to An Loc, Quang Nam, Saigon — VC 32 containment
+card #114 Tri Quang replaced by NVA Easter Offensive: US did not act
+card #78 General Lansdale: Train/Pacify An Loc, Advise ARVN Assault Saigon + Ranger Kien Hoa — clear Saigon under Assault ban

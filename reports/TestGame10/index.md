@@ -46,3 +46,6 @@
 - report-093-094.md: #128 - Coup! Nguyen Van Thieu
 - report-095-098.md: #114 - Tri Quang; #122 - Easter Offensive
 - report-099-100.md: #78 - General Lansdale
+- report-101-101.md: #78 - General Lansdale
+- report-102-104.md: #64 - Honolulu Conference
+- report-105-105.md: #23 - Operation Attleboro

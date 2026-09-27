@@ -170,5 +170,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 15 — card #78 General Lansdale — before save-100
 **Plan.** Op + SA: Train An Loc (no placement), Pacify it 2 levels (Passive Opposition → Passive Support); Advise ARVN Assault in Saigon (3 Active VC Guerrillas) and Irregular in Kien Hoa (remove its lone VC Guerrilla); +6 Aid.
 **Why.** US Assault is barred until the Coup, so Advise's ARVN Assault is the way to clear Saigon (pop 6 Active Support) before a Terror; Kien Hoa (pop 2 Active) then has no enemy piece. An Loc: VC -1, US +1. Advising Pleiku (4 enemies, pop 1) weighed; Kien Hoa is worth twice as much and is fully cleared.
+**Execution.** Kien Hoa asked `Activate which special force` (US Irregular / ARVN Ranger): chose the Ranger to keep the Irregular Underground.
+**Result.** As planned: Saigon and Kien Hoa cleared, An Loc Passive Support (VC 31). Then NVA took Pleiku (Control) and swapped Quang Tin's VC Base for its own; VC's Honolulu cut Aid 10, Patronage 5.
+
+## Turn 16 — card #23 Operation Attleboro — before save-105
+**Plan.** Pass.
+**Why.** I act once over #23/#22 either way; passing makes me first on #22 to take Da Nang unshaded (up to 3 Out-of-Play Troops into Da Nang, ending NVA Control) and deny VC's Critical shaded (Support removed around Da Nang, no Air Strike until Coup). Attleboro unshaded (kill Tay Ninh's 2 VC Bases) weighed, but General Lansdale bars US Assault and the program may apply that to the Event's Assault.
 **Execution.**
 **Result.**

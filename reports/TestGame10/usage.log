@@ -97,3 +97,8 @@
 2026-09-27T19:34:38	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	991	4845
 2026-09-27T19:34:52	Bash	python3 tools/ctl.py seq "how many=>1" "Choose one=>Move troops" "*=>Qui Nhon" "	391	11989
 2026-09-27T19:35:17	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving"; python3 tools/ctl.py adv	168	49880
+2026-09-27T19:35:48	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	2106	10006
+2026-09-27T19:35:55	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" "special activity? (y/n)=>y" "	286	4230
+2026-09-27T19:36:00	Bash	python3 tools/ctl.py seq "ARVN Assault in which space=>Saigon"; python3 tools/ct	176	2317
+2026-09-27T19:36:05	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	232	2108
+2026-09-27T19:36:17	Bash	python3 tools/ctl.py seq "Activate which special force=>ARVN Ranger" "+6 Aid=>y"	191	32871
