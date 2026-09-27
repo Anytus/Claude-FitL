@@ -27,3 +27,4 @@ card #25 TF-116 Riverines: Pass — stay first for Psychedelic Cookie unshaded (
 card #9 Psychedelic Cookie: Event unshaded, 3 Out-of-Play Troops to Available — +3 US, deny VC shaded
 card #76 Annam: US ineligible (ARVN unshaded Patronage +2, NVA Rally+Infiltrate)
 card #82 Domino Theory: LimOp Assault Binh Dinh, 2 VC Guerrillas removed — thin VC before Coup Agitation
+Coup 2 #127 Nguyen Cao Ky: no US pacify candidates; 2 Troop Casualties placed in Saigon; declined Linebacker II — Saigon Assault power; keep pivotal for NVA peak

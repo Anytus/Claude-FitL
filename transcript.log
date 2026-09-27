@@ -3110,4 +3110,94 @@ Choose space to place Troops
 30) LOC Saigon -- Can Tho
 31) LOC Saigon -- Da Lat
 ----------------------------------------------------
-Selection: 
+Selection: 8
+Move how many Troops to Saigon (0 - 2): 2
+[35mMove 2 US Troops from CASUALTIES to Saigon[0m
+
+ROTATION: Move up to 8 US Troops and
+up to 2 bases among Available box, COIN controlled spaces, LoCs and Saigon
+----------------------------------------------------
+
+Moved so far: 0/8 troops and 0/2 bases
+Choose one:
+====================================================
+1) Move troops
+2) Move a base
+3) Finished moving pieces
+----------------------------------------------------
+Selection: 3
+No pieces were moved
+
+WITHDRAWAL: For every 2 US pieces just removed to Available, VC shifts
+1 population of support by 1 level toward Active Opposition
+
+0 pieces were removed to Available
+----------------------------------------------------
+No shifts in support possible
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Reset Phase
+====================================================
+The Trail is in 4 box
+[34mDegrade the trail by 1 box to 3[0m
+[33mRemove 1 terror marker from Binh Tuy-Binh Thuan[0m
+[33mRemove 1 terror marker from Kien Giang-An Xuyen[0m
+[33mRemove 1 terror marker from Kien Phong[0m
+[33mRemove 1 terror marker from Quang Duc-Long Khanh[0m
+[33mRemove 1 terror marker from Quang Tin-Quang Ngai[0m
+[33mRemove 1 sabotage marker from LOC Da Nang -- Dak To[0m
+[33mRemove 1 sabotage marker from LOC Da Nang -- Qui Nhon[0m
+[33mRemove 1 sabotage marker from LOC Hue -- Khe Sanh[0m
+[33mRemove 1 sabotage marker from LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[36mFlip 1 ARVN Active Ranger in Saigon to UNDERGROUND[0m
+[36mFlip 3 VC Active Guerrillas in Saigon to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in Binh Dinh to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in Binh Tuy-Binh Thuan to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in Kien Giang-An Xuyen to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in Kien Phong to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in Quang Duc-Long Khanh to UNDERGROUND[0m
+[36mFlip 1 VC Active Guerrilla in Quang Tin-Quang Ngai to UNDERGROUND[0m
+[36mFlip 1 US Active Irregular in Quang Tri-Thua Thien to UNDERGROUND[0m
+
+Move all faction cylinders to the Eligible Factions box.
+
+The Trung deck has been reshuffled
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 102
+
+ARVN Bot Pivotal Event die roll: 3  [Failure] (2 cards in leader box)
+
+NVA Bot Pivotal Event die roll: 3  [Failure] (2 cards in leader box)
+
+Pivotal Events can be played
+----------------------------------------------------
+Eligible: ARVN, NVA, and US
+Trumped : ARVN and NVA
+
+Does US wish to play their pivotal?
+====================================================
+1) Yes
+2) No
+3) Show Coup status
+----------------------------------------------------
+Selection: 2
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #24 - Operation Starlite (US, VC, NVA, ARVN)
+                VC -> (Performed, Shaded), NVA -> (Ignored), ARVN -> (Performed, Unshaded)
+On Deck card  : #102 - Cu Chi (VC, NVA, US, ARVN)
+                VC -> (Ignored), NVA -> (Performed, Shaded), ARVN -> (Performed, Unshaded)
+Eligible      : US, VC, NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : none
+(perform or ?): 

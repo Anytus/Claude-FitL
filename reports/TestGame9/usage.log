@@ -53,3 +53,6 @@
 2026-09-27T17:41:44	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	334	44939
 2026-09-27T17:42:27	Bash	echo "card #9 Psychedelic Cookie: Event unshaded, 3 Out-of-Play Troops to Availa	919	7741
 2026-09-27T17:42:31	Bash	python3 tools/ctl.py seq "US Assault=>Select a space"	89	5050
+2026-09-27T17:42:46	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	296	10607
+2026-09-27T17:43:11	Bash	echo "card #82 Domino Theory: LimOp Assault Binh Dinh, 2 VC Guerrillas removed —	778	2374
+2026-09-27T17:43:15	Bash	python3 tools/ctl.py send 2	61	1596

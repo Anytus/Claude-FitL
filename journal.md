@@ -70,3 +70,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Thins the VC stack sitting in an Active Support pop-2 space before Coup Agitation. Saigon's 3 Active Guerrillas are out of reach (no US Troops there, Monsoon bars Sweep; Patrol can reach Saigon but may not Assault a City). No bot is near its line (NVA 16, ARVN 47).
 **Execution.** none (Binh Dinh auto-selected as the only Assault space).
 **Result.** 2 VC Guerrillas removed; 1 Active remains in Binh Dinh.
+
+## Coup 2 — #127 Nguyen Cao Ky, Commitment — before save-057
+**Plan.** Place the 2 Troop Casualties in Saigon; move nothing else.
+**Why.** Saigon has 3 VC Guerrillas and no US Troops; with the US Base each Troop Assaults for 2 hits. Further deployments cost a point each with no Coup-pacification target worth it now (Govern strips Support where ARVN cubes sit).
+**Execution.** none (Casualties prompt: 'Choose space to place Troops' then 'Move how many Troops to Saigon (0 - 2)').
+**Result.** 2 US Troops in Saigon; no other moves.
+
+## Pivotal — Linebacker II offered at draw of #102 (current #24) — before save-059
+**Plan.** Decline.
+**Why.** Casualties box is empty (the +3 part is worth 0 now) and it would replace #24 Operation Starlite, whose unshaded (I am first) clears all VC from Quang Tin-Quang Ngai including 2 Bases. Keep Linebacker for a later NVA peak with Casualties to recover.
+**Execution.** none
+**Result.** Declined; #24 stays current with US first.

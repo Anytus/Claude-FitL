@@ -26,3 +26,4 @@
 - report-051-053.md: #76 - Annam
 - report-054-055.md: #82 - Domino Theory
 - report-056-056.md: #82 - Domino Theory
+- report-057-058.md: #127 - Coup! Nguyen Cao Ky
