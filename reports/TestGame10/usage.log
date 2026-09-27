@@ -1,0 +1,23 @@
+2026-09-27T18:57:05	Bash	git status && git branch -a && ls && ls games 2>/dev/null; wc -l RULES_LEARNED.m	200	541
+2026-09-27T18:57:08	Bash	cat CURRENT_US_STRATEGY.md PROMPTS.md notes.md journal.md	129	16417
+2026-09-27T18:57:08	Bash	cat RULES_LEARNED.md	81	15909
+2026-09-27T18:57:11	Bash	python3 tools/ctl.py status	81	183
+2026-09-27T18:57:20	Bash	python3 tools/ctl.py new-game TestGame10 --final-coup-only	157	3522
+2026-09-27T18:57:25	Bash	python3 tools/ctl.py advance	132	12623
+2026-09-27T18:57:30	Bash	git status --short | head; python3 tools/ctl.py 2>&1 | head -30	129	2206
+2026-09-27T18:57:36	Bash	python3 tools/ctl.py commit-turn "game start: new-game TestGame10 --final-coup-o	273	979
+2026-09-27T19:14:05	Bash	cat >> journal.md <<'EOF'  ## Turn 1 — card #17 Claymores — before save-000 **Pl	571	986
+2026-09-27T19:14:13	Bash	python3 tools/ctl.py status; ls games/TestGame10 | tail -5; git log --oneline | 	151	632
+2026-09-27T19:14:19	Bash	python3 tools/ctl.py resume TestGame10 2>&1 | tail -30	141	6172
+2026-09-27T19:14:38	Bash	echo "resume: program not running at start of session 2; ctl.py resume TestGame1	876	14839
+2026-09-27T19:14:44	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	187	2441
+2026-09-27T19:14:48	Bash	python3 tools/ctl.py send y	90	9117
+2026-09-27T19:15:10	Bash	python3 tools/ctl.py advance	112	32912
+2026-09-27T19:15:25	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1214	5766
+2026-09-27T19:15:33	Bash	python3 tools/ctl.py advance	100	4953
+2026-09-27T19:15:57	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	869	5045
+2026-09-27T19:16:05	Bash	python3 tools/ctl.py seq "Choose one=>Move troops" "*=>Available box" "*=>Quang 	248	4891
+2026-09-27T19:16:20	Bash	python3 tools/ctl.py advance	111	36783
+2026-09-27T19:17:09	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" \  "special activity? (y/n)=>y	294	5510
+2026-09-27T19:17:14	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	198	2251
+2026-09-27T19:17:28	Bash	python3 tools/ctl.py send y && python3 tools/ctl.py advance	136	37367

@@ -1,0 +1,7 @@
+- report-001-002.md: #17 - Claymores
+- report-003-005.md: #50 - Uncle Ho
+- report-006-007.md: #130 - Coup! Failed Attempt
+- report-008-011.md: #48 - Nam Dong
+- report-012-014.md: #79 - Henry Cabot Lodge
+- report-015-017.md: #55 - Trucks
+- report-018-020.md: #110 - No Contact
