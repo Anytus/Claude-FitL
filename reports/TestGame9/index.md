@@ -43,3 +43,5 @@
 - report-102-104.md: #95 - Westmoreland
 - report-105-107.md: #73 - Great Society
 - report-108-110.md: #90 - Walt Rostow
+- report-111-113.md: #22 - Da Nang
+- report-114-117.md: #18 - Combined Action Platoons

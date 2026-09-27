@@ -1,0 +1,106 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #106 - Binh Duong (VC, NVA, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, VC, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - H",
+      "color": null
+    },
+    {
+      "text": "Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would add COIN Control? [No]",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 63",
+      "color": "Blue"
+    },
+    {
+      "text": "The assault inflicts 6 hits",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 3 NVA Troops from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op Only box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

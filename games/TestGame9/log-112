@@ -1,0 +1,138 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #22 - Da Nang (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #18 - Combined Action Platoons (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Kien Hoa-Vinh Binh for Training",
+      "color": null
+    },
+    {
+      "text": "Place 1 US Underground Irregular from AVAILABLE into Kien Hoa-Vinh Binh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS selects Saigon for Training",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -3 to 24",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 45 to 42",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +3 to 63",
+      "color": "Blue"
+    },
+    {
+      "text": "\nUS chooses Advise special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nAdvise in Binh Dinh using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Binh Dinh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 NVA Underground Guerrilla from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nAdvise in Pleiku-Darlac using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 NVA Active Guerrilla from Pleiku-Darlac to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Increase US Aid by +6 to 69",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

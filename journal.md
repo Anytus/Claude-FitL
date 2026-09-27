@@ -142,3 +142,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN is at 50 (wins at 51) and Governs about every other card; -3 now (to 47) keeps a margin for the pile-4 Coup, 4+ draws away. Great Society unshaded (a Commitment phase) and Binh Dinh re-pacify (+2) weighed below the ARVN threat.
 **Execution.** none
 **Result.** Patronage 30 -> 27, ARVN 47.
+
+## Turn 16 — card #22 Da Nang — before save-111
+**Plan.** Op + SA: Train Kien Hoa-Vinh Binh (1 Irregular) and Saigon (none), Transfer 3 Patronage; Advise Irregular removal of the NVA Guerrillas in Binh Dinh and Pleiku-Darlac; +6 Aid.
+**Why.** Removes Terror threats from two Support spaces and seeds an Irregular in Kien Hoa for its Guerrilla next time; ARVN 45 -> 42 ahead of a Coup possible within 3 cards. Da Nang unshaded (3 free Troops to Da Nang) weighed lower; VC is Ineligible, so its shaded is no threat.
+**Execution.** none (Kien Hoa was not offered for Advise: its new Irregular sits in a Train space).
+**Result.** As planned: ARVN 42, Binh Dinh and Pleiku clear of NVA, Irregular in Kien Hoa, Aid +6.

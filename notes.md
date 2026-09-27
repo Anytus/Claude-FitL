@@ -44,3 +44,5 @@ card #100 Rach Ba Rai: Train+Pacify Kien Hoa-Vinh Binh, Advise Quang Nam+Quang T
 card #95 Westmoreland: US ineligible (NVA Bombard+March, ARVN passed)
 card #73 Great Society: LimOp Train Saigon, Transfer 3 Patronage — ARVN at 50
 card #90 Walt Rostow: US ineligible (VC Rally+Tax, NVA shaded: Guerrillas into 6 Provinces)
+card #22 Da Nang: Train Kien Hoa (Irregular)+Saigon, Transfer 3, Advise Binh Dinh+Pleiku — clear Support spaces, ARVN 42
+card #18 Combined Action Platoons: US ineligible (ARVN Assault Saigon, NVA LimOp Rally)
