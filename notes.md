@@ -62,3 +62,5 @@ card #113 Ruff Puff: US eligible 3rd; VC Terror+Subvert and ARVN unshaded ended 
 card #115 Typhoon Kate: Train+Pacify Khanh Hoa, Advise ARVN Sweeps Phu Bon+Ba Xuyen — +1, stop NVA Terror
 card #42 Chou En Lai: US ineligible (NVA Infiltrate+March, ARVN unshaded -4 NVA Troops)
 card #11 Abrams: Pass — stay second on PoWs to block VC's -3
+card #40 PoWs: LimOp Train+Pacify Phu Bon — +1; ended card before VC
+card #41 Bombing Pause: US ineligible (ARVN event set Saigon Passive -6, VC Terror+Subvert)

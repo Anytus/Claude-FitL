@@ -147,3 +147,4 @@
 2026-09-27T18:01:50	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 1 level to Active" "special activity? (	375	4266
 2026-09-27T18:02:06	Bash	python3 tools/ctl.py send n | tail -1; S=/tmp/claude-0/-home-user-Claude-FitL/99	343	35438
 2026-09-27T18:02:35	Bash	echo "card #115 Typhoon Kate: Train+Pacify Khanh Hoa, Advise ARVN Sweeps Phu Bon	981	21671
+2026-09-27T18:02:57	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	973	6658

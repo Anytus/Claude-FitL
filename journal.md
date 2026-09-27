@@ -208,3 +208,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Acting here leaves me Ineligible on #40 PoWs, where VC would be second Eligible and take its Performed shaded (3 Available Troops to Casualties: -3 US and Aid loss). Passing keeps me second on #40 behind NVA, so my action ends that card before VC. Cost: VC takes Abrams shaded here (US Assault max 2 spaces), and 3 Active NVA Guerrillas survive a turn longer.
 **Execution.** none
 **Result.** VC played Abrams shaded; I stay second on #40 behind NVA.
+
+## Turn 25 — card #40 PoWs — before save-167
+**Plan.** Limited Op Train in Phu Bon-Phu Yen (no placement), Pacify 1 level to Active.
+**Why.** NVA's Op Only closes the Event (so VC's shaded is dead anyway) and my action ends the card. +1 US; Saigon's Active NVA Guerrilla can be removed later by Advise with its 5 Rangers.
+**Execution.** none
+**Result.** Phu Bon Active (+1, US 69).

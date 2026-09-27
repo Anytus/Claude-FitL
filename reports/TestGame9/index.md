@@ -62,3 +62,5 @@
 - report-160-162.md: #42 - Chou En Lai
 - report-163-165.md: #11 - Abrams
 - report-166-167.md: #40 - PoWs
+- report-168-168.md: #40 - PoWs
+- report-169-171.md: #41 - Bombing Pause
