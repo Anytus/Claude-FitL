@@ -32,5 +32,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 3 — card #110 No Contact — before save-020
 **Plan.** Pass.
 **Why.** On #63 ARVN (Critical/Shaded, first) takes the Event, so the US gets Op + SA as second and the card ends, shutting NVA out of #63. Acting now (Event: Base back from Casualties; or LimOp Assault on Binh Dinh's Base) would hand NVA that Op + SA.
+**Execution.** none
+**Result.** Card ended on the pass; ARVN then took #63 shaded (Cam Ranh Support removed, Patronage +4) and the US is second with Op + SA as planned.
+
+## Turn 4 — card #63 Fact Finding — before save-023
+**Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage to ARVN Resources; Advise Irregular in Binh Dinh (remove the lone VC Base) and Quang Tri (remove 2 of 3 VC Guerrillas); +6 Aid.
+**Why.** ARVN is at 48/50 (score -2), so Patronage -3 is the priority; Binh Dinh's Base removal leaves that Active Support space with no enemy piece to Terror from. Pacifying Cam Ranh back (+1) weighed; ARVN's margin matters more.
 **Execution.**
 **Result.**

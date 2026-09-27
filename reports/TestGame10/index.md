@@ -5,3 +5,5 @@
 - report-012-014.md: #79 - Henry Cabot Lodge
 - report-015-017.md: #55 - Trucks
 - report-018-020.md: #110 - No Contact
+- report-021-021.md: #110 - No Contact
+- report-022-023.md: #63 - Fact Finding

@@ -21,3 +21,5 @@
 2026-09-27T19:17:09	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" \  "special activity? (y/n)=>y	294	5510
 2026-09-27T19:17:14	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	198	2251
 2026-09-27T19:17:28	Bash	python3 tools/ctl.py send y && python3 tools/ctl.py advance	136	37367
+2026-09-27T19:17:54	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1250	9453
+2026-09-27T19:17:59	Bash	python3 tools/ctl.py advance	105	16568

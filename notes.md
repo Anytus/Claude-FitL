@@ -14,3 +14,5 @@ card #50 Uncle Ho: US ineligible (last in order)
 coup #130 Failed Attempt: pacified Da Nang, Kontum to Active; 3 Troops to Binh Dinh/Quang Tri — set up Assaults, next Coup pacification
 card #48 Nam Dong: US did not act (NVA, VC ended card)
 card #79 Henry Cabot Lodge: Train/Pacify Binh Dinh Active, Advise Pleiku Base + Quang Tri — +4 Support, VC Base removed
+card #55 Trucks: US ineligible
+card #110 No Contact: Pass — ARVN Critical next; US gets Op+SA, NVA shut out

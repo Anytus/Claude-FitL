@@ -1455,4 +1455,70 @@ Eligible      : US
 Acted         : VC -> Op/Special Activity
 Passed        : ARVN
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 3
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 63[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 112
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : ARVN, US, NVA
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+ARVN executes the Shaded Event: Fact Finding
+----------------------------------------------------
+
+[33mRemove Passive Support marker from Cam Ranh[0m
+[34mIncrease Patronage by +4 to 24[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 51 to 50[0m
+[34mMove the 'COIN Control + Patronage' marker from 44 to 48[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #63 - Fact Finding (ARVN, US, NVA, VC)
+                ARVN -> (Critical, Shaded), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #112 - Colonel Chau (VC, ARVN, US, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : US, NVA
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : VC
 (perform or ?): 
