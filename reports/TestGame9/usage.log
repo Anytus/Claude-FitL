@@ -110,3 +110,14 @@
 2026-09-27T17:55:03	Bash	python3 tools/ctl.py send Saigon	66	2280
 2026-09-27T17:55:07	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"	100	790
 2026-09-27T17:55:10	Bash	python3 tools/ctl.py send Hue	63	1877
+2026-09-27T17:55:23	Bash	python3 tools/ctl.py send y | tail -1 && S=/tmp/claude-0/-home-user-Claude-FitL/	373	37008
+2026-09-27T17:55:50	Bash	echo "card #58 Pathet Lao / #124 Tet Offensive: Train Da Nang (placeholder), Adv	1178	5935
+2026-09-27T17:55:55	Bash	python3 tools/ctl.py send Saigon && python3 tools/ctl.py seq "Select one=>Select	135	1348
+2026-09-27T17:56:02	Bash	python3 tools/ctl.py send "Binh Dinh" && python3 tools/ctl.py seq "Select one=>S	304	3668
+2026-09-27T17:56:06	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Binh Dinh" "Lift forces	142	1829
+2026-09-27T17:56:11	Bash	python3 tools/ctl.py seq "Choose one=>Air Lift US Troops" "how many=>3"	109	1433
+2026-09-27T17:56:18	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Lift forces 	223	4035
+2026-09-27T17:56:24	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Kien Hoa" "Lift forces 	192	2743
+2026-09-27T17:56:28	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Finished wit	129	2220
+2026-09-27T17:56:32	Bash	python3 tools/ctl.py seq "US Assault=>Select a space"	89	1386
+2026-09-27T17:56:36	Bash	python3 tools/ctl.py send y	61	6793

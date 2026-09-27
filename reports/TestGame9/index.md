@@ -49,3 +49,5 @@
 - report-121-123.md: #21 - Americal
 - report-124-127.md: #58 - Pathet Lao; #124 - Tet Offensive
 - report-128-130.md: #3 - Peace Talks
+- report-131-133.md: #35 - Thanh Hoa
+- report-134-136.md: #77 - Detente

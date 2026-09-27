@@ -1,0 +1,210 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #77 - Detente (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #8 - Arc Light (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : VC, US",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - H",
+      "color": null
+    },
+    {
+      "text": "Trung check: 5+ ARVN Troops + Rangers in any one space? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Transport special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN selects Kien Giang-An Xuyen as Transport destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 6 ARVN Troops from Saigon to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 12 to 10",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFlip all Rangers underground",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 ARVN Active Ranger in Quang Nam to UNDERGROUND",
+      "color": "Cyan"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of ARVN Transport activity",
+      "color": null
+    },
+    {
+      "text": "Trung check: ARVN Assault would add COIN Control? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in Kien Giang-An Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 48",
+      "color": "Blue"
+    },
+    {
+      "text": "The assault inflicts 3 hits",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 2 NVA Troops from Kien Giang-An Xuyen to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Kien Giang-An Xuyen to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 42 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN activation roll against activation number of 3",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 2 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

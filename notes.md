@@ -50,3 +50,5 @@ card #106 Binh Duong: Train+Pacify Binh Dinh, Advise Kien Hoa (NVA G) + ARVN Swe
 card #21 Americal: US ineligible (NVA Rally+Bombard, ARVN Assault Hue)
 card #58 Pathet Lao / #124 Tet Offensive: Train Da Nang (placeholder), Advise ARVN Assault Saigon+Hue — cleared 2 VC Bases and 4 Guerrillas from cities
 card #3 Peace Talks: US ineligible (NVA March 13 Troops into Saigon, ARVN Train Saigon)
+card #35 Thanh Hoa: Air Lift 7 Troops into Saigon + Assault (14 hits) + ARVN follow-up — destroyed 13 NVA Troops threatening Saigon
+card #77 Detente: US ineligible (ARVN Transport+Assault Kien Giang, NVA shaded Infiltrate + VC Rally)

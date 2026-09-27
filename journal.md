@@ -160,3 +160,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Tet left VC Bases and Guerrillas in both cities; ARVN Assault can clear the Guerrillas and then the bare Bases (-2 VC, each Base +6 Aid). All my Train spaces are already at Active Support, and Train in Saigon would block Advise there.
 **Execution.** none ('ARVN Assault in which space:' is a typed prompt; Aid capped at 75).
 **Result.** Saigon and Hue cleared: 4 VC Guerrillas and 2 Bases removed (VC 26 -> 24).
+
+## Turn 19 — card #35 Thanh Hoa — before save-131
+**Plan.** Op Assault + Air Lift first: lift 3 US Troops from Binh Dinh, 2 from Da Nang, 2 from Kien Hoa-Vinh Binh into Saigon; then Assault Saigon (7 Troops x2 with the US Base = 14 hits vs 13 NVA Troops + 2 Active Guerrillas).
+**Why.** The NVA stack in Saigon threatens the US Base (Out of Play if lost) and Saigon's 12 Support points; destroying it guts the NVA army. The three source spaces keep COIN Control with no enemy present.
+**Execution.** Stepped through Air Lift (typed space names; 'Lift forces to which space' menu; 'Air Lift US Troops'); Assault space auto-selected. Program offered 'Follow up with ARVN assault in Saigon? (y/n)' after the US Assault (not an event) — answered y (3 ARVN Resources). Mechanic: the ARVN follow-up is offered after a normal US Assault too.
+**Result.** Saigon cleared: 13 NVA Troops + 2 Guerrillas removed; 7 US Troops now in Saigon.
