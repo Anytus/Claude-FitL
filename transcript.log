@@ -9957,4 +9957,273 @@ Eligible      : US
 Acted         : NVA -> Op/Special Activity
 Passed        : none
 Ineligible    : ARVN, VC
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space: 
+====================================================
+1) Cam Ranh
+2) Saigon
+3) None of the above
+----------------------------------------------------
+Selection: 2
+
+US assaults in Saigon
+----------------------------------------------------
+The assault inflicts 6 hits
+[35mRemove 6 NVA Troops from Saigon to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Saigon[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 43[0m
+Follow up with ARVN assault in Saigon? (y/n) y
+
+US adds a follow up ARVN assault in Saigon
+
+ARVN assaults in Saigon
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 54[0m
+The assault inflicts 4 hits
+[35mRemove 4 NVA Troops from Saigon to AVAILABLE[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Saigon
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN and VC cylinders to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 129
+
+
+>>> ARVN turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #16 - Blowtorch Komer (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #129 - Coup! Failed Attempt
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (19): 13 [Yes]
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - GG
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 51[0m
+[35mPlace 4 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 2 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+ARVN selects Binh Dinh for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 48[0m
+[35mPlace 6 ARVN Troops from AVAILABLE into Binh Dinh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 5 [Success!]
+
+ARVN selects Hue for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 45[0m
+[35mPlace 5 ARVN Troops from AVAILABLE into Hue[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the ARVN cylinder to the Op Only box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #16 - Blowtorch Komer (US, ARVN, VC, NVA)
+                ARVN -> (Performed, Unshaded), VC -> (Critical, Shaded), NVA -> (Ignored)
+On Deck card  : #129 - Coup! Failed Attempt
+Eligible      : VC
+Acted         : ARVN -> Op Only
+Passed        : none
+Ineligible    : US, NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - V
+Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]
+Trung check: 3d6 <= Available VC pieces (8): 11 [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: VC - VV
+Trung check: 3+ VC Guerrillas in any spaces with US Troops and no VC Base? [No]
+
+VC chooses Terror operation
+====================================================
+
+VC selects Kien Phong for Terror
+[36mFlip 1 VC Underground Guerrilla in Kien Phong to ACTIVE[0m
+[33mPlace Passive Opposition marker in Kien Phong[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Total Opposition + VC Bases' marker from 19 to 21[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the VC cylinder to the LimOp box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 30
+
+
+>>> 5th Coup Round <<<
+====================================================
+Current card: #129 - Coup! Failed Attempt
+(coup or ?): coup
+Coup! Card: #129 - Coup! Failed Attempt
+----------------------------------------------------
+ARVN must remove 1 in 3 of its Cubes per space
+
+[35mRemove 1 ARVN Police from Kien Phong to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Hue to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Hue to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Binh Dinh to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Binh Dinh to AVAILABLE[0m
+[35mRemove 2 ARVN Troops from Saigon to AVAILABLE[0m
+[35mRemove 2 ARVN Police from Saigon to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Khanh Hoa to AVAILABLE[0m
+[35mRemove 1 ARVN Police from Kien Giang-An Xuyen to AVAILABLE[0m
+[35mRemove 1 ARVN Troop from Kontum to AVAILABLE[0m
+[31m
+Place #129 - Coup! Failed Attempt beneath the other cards in the RVN Leader Box[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[33mAdd 1 sabotage marker to LOC Can Tho -- Bac Lieu[0m
+[33mAdd 1 sabotage marker to LOC Da Nang -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 14[0m
+[34mIncrease ARVN resources by +89 to 75[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+There are no pieces in the Casualties Box
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+
+US Pacification (4 spaces remaining, 75 ARVN resources, Econ is 14)
+Choose space to pacify:
+====================================================
+1) Saigon
+2) Finished pacifying spaces
+----------------------------------------------------
+Selection: 

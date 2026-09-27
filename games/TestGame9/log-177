@@ -1,0 +1,118 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #16 - Blowtorch Komer (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #129 - Coup! Failed Attempt",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op Only",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : US, NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - V",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available VC pieces (8): 11 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - VV",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3+ VC Guerrillas in any spaces with US Troops and no VC Base? [No]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Terror operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Kien Phong for Terror",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Kien Phong to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Place Passive Opposition marker in Kien Phong",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 19 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the VC cylinder to the LimOp box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

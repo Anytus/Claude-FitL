@@ -148,3 +148,6 @@
 2026-09-27T18:02:06	Bash	python3 tools/ctl.py send n | tail -1; S=/tmp/claude-0/-home-user-Claude-FitL/99	343	35438
 2026-09-27T18:02:35	Bash	echo "card #115 Typhoon Kate: Train+Pacify Khanh Hoa, Advise ARVN Sweeps Phu Bon	981	21671
 2026-09-27T18:02:57	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	973	6658
+2026-09-27T18:03:15	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 1 level to Active" | grep -E "Flip|mark	309	40832
+2026-09-27T18:03:33	Bash	echo "card #40 PoWs: LimOp Train+Pacify Phu Bon — +1; ended card before VC" >> n	1019	4228
+2026-09-27T18:03:36	Bash	python3 tools/ctl.py send y | head -12	72	5946

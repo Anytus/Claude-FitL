@@ -64,3 +64,5 @@
 - report-166-167.md: #40 - PoWs
 - report-168-168.md: #40 - PoWs
 - report-169-171.md: #41 - Bombing Pause
+- report-172-174.md: #74 - Lam Son 719
+- report-175-177.md: #16 - Blowtorch Komer

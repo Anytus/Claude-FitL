@@ -214,3 +214,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** NVA's Op Only closes the Event (so VC's shaded is dead anyway) and my action ends the card. +1 US; Saigon's Active NVA Guerrilla can be removed later by Advise with its 5 Rangers.
 **Execution.** none
 **Result.** Phu Bon Active (+1, US 69).
+
+## Turn 26 — card #74 Lam Son 719 — before save-173
+**Plan.** Limited Op Assault in Saigon (3 US Troops with Base = 6 hits on 14 NVA Troops + 3 Active Guerrillas), accepting the ARVN follow-up Assault if offered.
+**Why.** Saigon has lost COIN Control to the NVA stack and the US Base is exposed; two Assaults should restore Control. Typhoon Kate bars Air Lift, so no reinforcement; the Event (Lam Son 719) does nothing for Saigon.
+**Execution.** none
+**Result.** 10 NVA Troops removed (6 US hits + 4 ARVN), COIN Control back in Saigon; 4 NVA Troops + 3 Active Guerrillas remain.

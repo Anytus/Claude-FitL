@@ -64,3 +64,5 @@ card #42 Chou En Lai: US ineligible (NVA Infiltrate+March, ARVN unshaded -4 NVA 
 card #11 Abrams: Pass — stay second on PoWs to block VC's -3
 card #40 PoWs: LimOp Train+Pacify Phu Bon — +1; ended card before VC
 card #41 Bombing Pause: US ineligible (ARVN event set Saigon Passive -6, VC Terror+Subvert)
+card #74 Lam Son 719: LimOp Assault Saigon + ARVN follow-up, 10 NVA Troops removed — restore COIN Control in Saigon
+card #16 Blowtorch Komer: US ineligible (ARVN Train, VC LimOp Terror)
