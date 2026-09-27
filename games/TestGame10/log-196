@@ -1,0 +1,298 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #120 - US Press Corps (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #126 - Coup! Young Turks",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, ARVN, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - V",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground VC Guerrillas in space not at Active Opposition? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available VC pieces (14): 11 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Tay Ninh for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 5 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Kien Giang-An Xuyen for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 3 VC Underground Guerrillas from AVAILABLE into Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove NVA Control marker from Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 18 to 16",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Quang Tri-Thua Thien for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 VC Underground Guerrilla from AVAILABLE into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 1 [Failure]",
+      "color": null
+    },
+    {
+      "text": "Trung check: Spaces exist that can be Taxed? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 > Agitate Total (3): 9 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Tax special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC Taxes in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Tay Ninh to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip Active Opposition marker in Tay Ninh to Passive Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "Increase Agitate Total by +2 to 5",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 31 to 29",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC Taxes in Kien Giang-An Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Kien Giang-An Xuyen to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip Active Opposition marker in Kien Giang-An Xuyen to Passive Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "Increase Agitate Total by +2 to 7",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 29 to 27",
+      "color": "Blue"
+    },
+    {
+      "text": "\nVC Taxes in Quang Tin-Quang Ngai",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in Quang Tin-Quang Ngai to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip Active Opposition marker in Quang Tin-Quang Ngai to Passive Opposition",
+      "color": "Yellow"
+    },
+    {
+      "text": "Increase Agitate Total by +2 to 9",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 27 to 25",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of VC Tax activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op\/Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

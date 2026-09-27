@@ -90,3 +90,6 @@
 - report-183-185.md: #117 - Corps Commanders
 - report-186-187.md: #127 - Coup! Nguyen Cao Ky
 - report-188-188.md: #3 - Peace Talks
+- report-189-191.md: #3 - Peace Talks
+- report-192-194.md: #4 - Top Gun
+- report-195-198.md: #120 - US Press Corps; #126 - Coup! Young Turks

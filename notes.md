@@ -68,3 +68,5 @@ card #52 RAND: Train Saigon Transfer 3, Advise Quang Tri VC Base + ARVN Assault 
 card #21 Americal: US ineligible
 card #84 To Quoc: US ineligible
 coup #127 Nguyen Cao Ky: NVA 18 at check (ARVN event); casualties to Kien Hoa/Hue/Can Tho; withdrew 2 Troops — last Commitment
+card #117 Corps Commanders: US ineligible
+card #3 Peace Talks: Train Saigon (ARVN) + Da Nang (Irregulars), Pacify Saigon Active, Advise Quang Nam + Hue — NVA 20 to 18, US +6

@@ -1,0 +1,158 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #3 - Peace Talks (US, NVA, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #4 - Top Gun (US, NVA, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : NVA",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for ARVN",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - J",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2-Pop space with Support where ARVN cubes exceed US cubes? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available ARVN pieces (7): 15 [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: ARVN - JJ",
+      "color": null
+    },
+    {
+      "text": "Trung check: All routes from Can Tho to Hue blocked? [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nARVN chooses Patrol operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 61",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN selects Da Nang as Patrol destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 ARVN Police from LOC Da Nang -- Dak To to Da Nang",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place COIN Control marker in Da Nang",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 44 to 45",
+      "color": "Blue"
+    },
+    {
+      "text": "\nARVN Patrol - Activating guerrillas on LOCs",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 3 NVA Underground Guerrillas in LOC Da Nang -- Dak To to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip 1 NVA Underground Guerrilla in LOC Da Nang -- Qui Nhon to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in LOC Can Tho -- Chau Doc to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Flip 1 VC Underground Guerrilla in LOC Cam Ranh -- Da Lat to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "\nMove the ARVN cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with ARVN turn",
+      "color": null
+    }
+  ]
+}

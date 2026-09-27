@@ -278,5 +278,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 30 — card #3 Peace Talks (final campaign) — before save-188
 **Plan.** Op + SA: Train Saigon (place ARVN Police/Troops, 3 Resources) and Da Nang (2 Irregulars: 1 Available + 1 from Kien Phong, tying Da Nang 5-5); Pacify Saigon Passive → Active (+6); Advise Ranger in Quang Nam (2 NVA Troops) and Ranger in Hue (the VC Guerrilla); +6 Aid.
 **Why.** NVA must be at 18 or below at the final Victory check: Da Nang and Quang Nam leave NVA Control (20 → 18). Saigon Active is +6 toward the final margin; the Police there set up final-Coup pacification. Air Lift + Assault into Binh Dinh weighed: NVA -2 but no Support.
+**Execution.** Saigon Train asked `Place how many ARVN Troops in Saigon? (0 - 6)`: 2, then `Place how many ARVN Police in Saigon? (0 - 4)`: 4. Da Nang needed 1 Irregular off the map (Kien Phong). The Pacify space was auto-selected, so the seq's `Saigon` step stopped; continued. Hue was the last Advise candidate and was auto-selected.
+**Result.** As planned: Saigon Active (US 50), NVA 18. NVA passed on #3 and took Top Gun shaded on #4. The first pile-6 draw was the final Coup (#126); on #120 VC and ARVN acted before the US. VC Rallied into Kien Giang, which cost NVA its Control there (NVA 16). No bot won the final Victory check.
+
+## Final Coup — #126 Young Turks, Support phase — before save-195
+**Plan.** Pacify all four offered: Kien Hoa-Vinh Binh (Neutral → Active, +4), Hue (+2), Can Tho (+1), Da Nang (+1).
+**Why.** This phase counts toward the final margins. Resources are ample (60 spendable).
 **Execution.**
 **Result.**

@@ -178,3 +178,10 @@
 2026-09-27T19:53:46	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py seq "Choose one=>Move troops" 	268	5154
 2026-09-27T19:53:53	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving"; python3 tools/ctl.py scr	162	1867
 2026-09-27T19:53:59	Bash	python3 tools/ctl.py advance	106	27246
+2026-09-27T19:54:46	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1581	7296
+2026-09-27T19:54:50	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -4	132	819
+2026-09-27T19:54:59	Bash	python3 tools/ctl.py send 4; python3 tools/ctl.py seq "US Training=>Select a spa	303	4016
+2026-09-27T19:55:04	Bash	python3 tools/ctl.py seq "Select space to remove US Irregulars=>Kien Phong" "Rem	237	2715
+2026-09-27T19:55:11	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting" "final Train action=>	231	3424
+2026-09-27T19:55:19	Bash	python3 tools/ctl.py seq "Pacify=>Shift 1 level to Active" "special activity? (y	335	6249
+2026-09-27T19:55:45	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "+6 Aid=>y"; pyth	192	44020
