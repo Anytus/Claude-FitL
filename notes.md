@@ -36,3 +36,4 @@ card #25 TF-116 Riverines: US ineligible
 card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available — +3 permanent, deny NVA shaded
 card #106 Binh Duong: US ineligible
 card #69 MACV: Event, US Air Strike Binh Dinh + Kien Phong, stay Eligible — NVA 15 to 13
+card #104 Main Force Bns replaced by Linebacker II (US pivotal): NVA -2 Bases, NVA sits out — delete VC capability, NVA 13 to 11

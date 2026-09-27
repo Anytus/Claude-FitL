@@ -38,3 +38,6 @@
 - report-078-078.md: #69 - MACV
 - report-079-080.md: #69 - MACV
 - report-081-081.md: #104 - Main Force Bns
+- report-082-084.md: #121 - Linebacker II
+- report-085-086.md: #47 - Chu Luc
+- report-087-088.md: #98 - Long Tan

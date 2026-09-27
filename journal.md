@@ -140,5 +140,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Pivotal — Linebacker II played (replacing #104 Main Force Bns) — before save-081
 **Plan.** Play Linebacker II: NVA removes 2 Bases, Ineligible through #47; the 1 US Troop in Casualties to Available.
 **Why.** Deletes VC's Critical #104 shaded capability (Ambush removes 2, for the rest of the game), NVA 13 → 11 and silent for two cards while a Coup can come up at any draw.
+**Execution.** `send 1` at the pivotal menu, then `perform`; the program removed NVA Bases in Central Laos and North Vietnam itself.
+**Result.** NVA 11, then 9 after a VC Rally broke Kien Giang; 1 Troop Casualty to Available. VC Taxed 3 spaces (Agitate Total 10); ARVN Governed Hue and Kontum (-3 US).
+
+## Turn 14 — card #98 Long Tan — before save-088
+**Plan.** Limited Op Assault in Saigon (1 Troop + Base = 2 hits on Active VC Guerrillas) with ARVN follow-up (4 Troops + 5 Police) for the third.
+**Why.** VC marched 3 Active Guerrillas into Saigon; a Terror there costs 6 Support. VC's Op only leaves me a Limited Op.
 **Execution.**
 **Result.**
