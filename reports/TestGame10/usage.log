@@ -141,3 +141,15 @@
 2026-09-27T19:44:52	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	990	5337
 2026-09-27T19:45:33	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving"; python3 tools/ctl.py adv	165	44197
 2026-09-27T19:46:13	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1424	20994
+2026-09-27T19:47:11	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1365	7479
+2026-09-27T19:47:15	Bash	python3 tools/ctl.py seq "Select space to remove US Irregulars=>Quang Tri"; pyth	200	1203
+2026-09-27T19:47:18	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py screen | tail -16	128	2905
+2026-09-27T19:47:24	Bash	python3 tools/ctl.py seq "US Training=>Finished selecting" "final Train action=>	201	2397
+2026-09-27T19:47:31	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" "special activity? (y/n)=>y" "	273	3776
+2026-09-27T19:47:38	Bash	python3 tools/ctl.py send Hue; python3 tools/ctl.py seq "Choose Advise option=>U	273	5006
+2026-09-27T19:47:42	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	122	10212
+2026-09-27T19:47:46	Bash	python3 tools/ctl.py screen | tail -20	83	915
+2026-09-27T19:47:54	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	835	2355
+2026-09-27T19:47:58	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py screen | tail -4	127	1416
+2026-09-27T19:48:02	Bash	python3 tools/ctl.py seq "Remove US Troops from which space=>Kontum"; python3 to	180	945
+2026-09-27T19:48:14	Bash	python3 tools/ctl.py send 1; python3 tools/ctl.py advance	130	34918

@@ -1,0 +1,194 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #41 - Bombing Pause (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #20 - Laser Guided Bombs (US, ARVN, VC, NVA)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, VC",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for NVA",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - T",
+      "color": null
+    },
+    {
+      "text": "Trung check: 20+ NVA Troops on the map? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]",
+      "color": null
+    },
+    {
+      "text": "\nTrung card flipped to its back side",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: NVA - TT",
+      "color": null
+    },
+    {
+      "text": "Trung check: Underground NVA Guerrillas in 2 or more spaces with Support? [No]",
+      "color": null
+    },
+    {
+      "text": "\nNVA chooses March operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Binh Dinh as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Troop from Quang Tin-Quang Ngai to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 14 to 16",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 6 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Quang Nam as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 NVA Troops from Quang Tin-Quang Ngai to Quang Nam",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Quang Nam to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 46 to 45",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 16 to 17",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 2 [Failure]",
+      "color": null
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Op Only box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

@@ -59,3 +59,4 @@ card #40 PoWs: US ineligible
 coup #125 Nguyen Khanh: pacified Hue, Kontum, Qui Nhon, Cam Ranh (+5); casualties to Quang Tri, Kien Phong
 card #58 Pathet Lao replaced by VC Tet Offensive: US did not act
 card #74 Lam Son 719: Pass — be first on #2 to fix VC and NVA both over their lines
+card #2 Kissinger: Train Kien Phong (Irregulars) + Pacify, Advise ARVN Assault Hue + Ranger Quang Nam — VC 36 to 33, NVA 19 to 16

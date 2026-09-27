@@ -1,0 +1,62 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #8 - Arc Light (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #41 - Bombing Pause (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : US, NVA",
+      "color": null
+    },
+    {
+      "text": "\nVC executes the Shaded Event: Arc Light",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "\nCapability: '#8 Arc Light (shaded)' is now in effect",
+      "color": "Red"
+    },
+    {
+      "text": "\nMove the VC cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

@@ -242,5 +242,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 25 — card #2 Kissinger — before save-156
 **Plan.** Op + SA: Train Kien Phong placing 2 Irregulars (1 Available + 1 taken from Quang Tri), making it COIN-controlled, then Pacify it 2 levels (Passive Opposition → Passive Support); Advise ARVN Assault in Hue (2 VC Guerrillas + VC Base) and Ranger in Quang Nam (2 NVA Troops); +6 Aid.
 **Why.** VC 36 → 33 (Kien Phong -2, Hue Base -1) and NVA 19 → 16 (Kien Phong -2, Quang Nam -1) in one action; US +2. Kissinger unshaded (a d6 of NVA Bases in Laos/Cambodia) weighed: it leaves VC at 36 while I am Ineligible on #8.
+**Execution.** Mechanic: Train with 1 Irregular Available asked `Place how many Irregulars (0 - 2)`, then `There are not enough US Irregulars in the available box / You must remove 1 US Irregular from the map` → `Select space to remove US Irregulars` (Quang Tri) → `Remove how many US Irregulars (0 - 1)`. The second `ARVN Assault in which space:` was typed (`Hue`).
+**Result.** As planned: VC 33, NVA 16, US 43. NVA took Kissinger shaded; I chose the 2 map Troops for Out of Play from Cam Ranh and Kontum (typed `Remove US Troops from which space`, then a menu). VC took Arc Light shaded (capability); ARVN cleared Saigon's 4 Guerrillas; NVA re-took Binh Dinh and Quang Nam (NVA 17).
+
+## Turn 26 — card #41 Bombing Pause — before save-163
+**Plan.** Pass.
+**Why.** NVA took an Op only, so I have a Limited Op here, and none moves a score by more than 1. Passing makes me first on #20 Laser Guided Bombs with Op + SA; ARVN (second, Performed/Unshaded) then takes its unshaded capability, and VC/NVA (both Critical/Shaded) get no turn on #20. It also covers the case that the next draw is the Coup.
 **Execution.**
 **Result.**

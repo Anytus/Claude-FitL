@@ -74,3 +74,6 @@
 - report-153-154.md: #74 - Lam Son 719
 - report-155-155.md: #74 - Lam Son 719
 - report-156-156.md: #2 - Kissinger
+- report-157-158.md: #2 - Kissinger
+- report-159-161.md: #8 - Arc Light
+- report-162-163.md: #41 - Bombing Pause

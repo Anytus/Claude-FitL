@@ -1,0 +1,78 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #2 - Kissinger (US, NVA, ARVN, VC)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #8 - Arc Light (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, VC",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes the Shaded Event: Kissinger",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 1 NVA Troop from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 NVA Troop from AVAILABLE into The Parrot's Beak",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 US Troop from Cam Ranh to OUT OF PLAY",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 US Troop from Kontum to OUT OF PLAY",
+      "color": "Magenta"
+    },
+    {
+      "text": "Decrease US Aid by -6 to 59",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}
