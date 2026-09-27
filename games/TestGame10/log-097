@@ -1,0 +1,398 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #122 - Easter Offensive (NVA, VC, ARVN, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #78 - General Lansdale (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : NVA, VC, ARVN, US",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nNVA executes its Pivotal Event: Easter Offensive",
+      "color": "Red"
+    },
+    {
+      "text": "\nNVA free Marches",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA selects Binh Dinh as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 3 NVA Troops from Southern Laos to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 3 NVA Underground Guerrillas from Southern Laos to Binh Dinh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in Binh Dinh",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 9 to 11",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects Da Nang as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 3 NVA Troops from Quang Tin-Quang Ngai to Da Nang",
+      "color": "Magenta"
+    },
+    {
+      "text": "Move 2 NVA Underground Guerrillas from Quang Tin-Quang Ngai to Da Nang",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nThe moving Guerrillas must activate",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 2 NVA Underground Guerrillas in Da Nang to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Da Nang to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 46 to 45",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 11 to 12",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects Pleiku-Darlac as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 2 NVA Underground Guerrillas from Southern Laos to Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nThe moving Guerrillas must activate",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 2 NVA Underground Guerrillas in Pleiku-Darlac to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from LOC Kontum -- Dak To to Pleiku-Darlac",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nThe moving Guerrillas must activate",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 NVA Underground Guerrilla in Pleiku-Darlac to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Pleiku-Darlac",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 45 to 44",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects Quang Nam as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 4 NVA Troops from Quang Tin-Quang Ngai to Quang Nam",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip control marker in Quang Nam to NVA Control",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 44 to 43",
+      "color": "Blue"
+    },
+    {
+      "text": "Move the 'NVA Control + NVA Bases' marker from 12 to 13",
+      "color": "Blue"
+    },
+    {
+      "text": "\nNVA selects LOC Kontum -- Dak To as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from LOC Da Nang -- Dak To to LOC Kontum -- Dak To",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects Kien Giang-An Xuyen as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Troop from The Parrot's Beak to Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA selects The Fishhook as March destination",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move 1 NVA Underground Guerrilla from LOC Saigon -- An Loc -- Ban Me Thuot to The Fishhook",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place NVA Control marker in The Fishhook",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nNVA Troops on LoCs with no US\/ARVN forces may move 1 space",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "There are no NVA Troops on LoCs without US\/ARVN forces",
+      "color": null
+    },
+    {
+      "text": "\nAll NVA Troops free Attack",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nNVA Attacks in Da Nang using Troops",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 ARVN Police from Da Nang to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Attacks in Binh Dinh using Troops",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 US Underground Irregular from Binh Dinh to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Binh Dinh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNVA Attacks in Quang Nam using Troops",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 US Troop from Quang Nam to CASUALTIES",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 ARVN Police from Quang Nam to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nAttrition:",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 1 NVA Troop from Quang Nam to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the NVA cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with NVA turn",
+      "color": null
+    }
+  ]
+}

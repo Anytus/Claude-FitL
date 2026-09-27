@@ -88,3 +88,12 @@
 2026-09-27T19:32:28	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1243	6900
 2026-09-27T19:32:32	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform"; python3 tools/ctl.py screen 	160	8784
 2026-09-27T19:32:51	Bash	python3 tools/ctl.py advance	93	54267
+2026-09-27T19:33:15	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1332	10303
+2026-09-27T19:33:24	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	136	17545
+2026-09-27T19:33:32	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	713	5952
+2026-09-27T19:33:41	Bash	python3 tools/ctl.py advance	100	12956
+2026-09-27T19:33:57	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	952	9233
+2026-09-27T19:34:08	Bash	python3 tools/ctl.py advance	96	10060
+2026-09-27T19:34:38	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	991	4845
+2026-09-27T19:34:52	Bash	python3 tools/ctl.py seq "how many=>1" "Choose one=>Move troops" "*=>Qui Nhon" "	391	11989
+2026-09-27T19:35:17	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving"; python3 tools/ctl.py adv	168	49880

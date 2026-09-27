@@ -37,3 +37,7 @@ card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available �
 card #106 Binh Duong: US ineligible
 card #69 MACV: Event, US Air Strike Binh Dinh + Kien Phong, stay Eligible — NVA 15 to 13
 card #104 Main Force Bns replaced by Linebacker II (US pivotal): NVA -2 Bases, NVA sits out — delete VC capability, NVA 13 to 11
+card #47 Chu Luc: US ineligible
+card #98 Long Tan: LimOp Assault Saigon + ARVN follow-up — clear 3 VC Guerrillas from Saigon
+card #73 Great Society: US ineligible; NVA shaded, chose 1 Troop + 2 Bases to Out of Play
+coup #128 Nguyen Van Thieu: pacified Hue, Kien Hoa, Quang Tri, Pleiku (+14); Troops to An Loc, Quang Nam, Saigon — VC 32 containment

@@ -1,0 +1,102 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #98 - Long Tan (VC, US, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #73 - Great Society (ARVN, NVA, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, NVA",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op Only",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Assault operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "Each space, may remove 1 underground guerrilla [#28 Search And Destroy (unshaded)]",
+      "color": null
+    },
+    {
+      "text": "\nUS assaults in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "The assault inflicts 2 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 2 VC Active Guerrillas from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nUS adds a follow up ARVN assault in Saigon",
+      "color": null
+    },
+    {
+      "text": "\nARVN assaults in Saigon",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Decrease ARVN resources by -3 to 30",
+      "color": "Blue"
+    },
+    {
+      "text": "The assault inflicts 4 hits",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Active Guerrilla from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

@@ -41,3 +41,8 @@
 - report-082-084.md: #121 - Linebacker II
 - report-085-086.md: #47 - Chu Luc
 - report-087-088.md: #98 - Long Tan
+- report-089-089.md: #98 - Long Tan
+- report-090-092.md: #73 - Great Society
+- report-093-094.md: #128 - Coup! Nguyen Van Thieu
+- report-095-098.md: #114 - Tri Quang; #122 - Easter Offensive
+- report-099-100.md: #78 - General Lansdale

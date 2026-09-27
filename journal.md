@@ -146,5 +146,29 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 14 — card #98 Long Tan — before save-088
 **Plan.** Limited Op Assault in Saigon (1 Troop + Base = 2 hits on Active VC Guerrillas) with ARVN follow-up (4 Troops + 5 Police) for the third.
 **Why.** VC marched 3 Active Guerrillas into Saigon; a Terror there costs 6 Support. VC's Op only leaves me a Limited Op.
+**Execution.** ARVN follow-up asked (y).
+**Result.** Saigon cleared of all 3 VC Guerrillas. Next draw was the Coup (#128); NVA took Great Society shaded.
+
+## Great Society shaded (NVA) — US chooses 3 pieces Available→Out of Play — before save-090
+**Plan.** 1 Troop and 2 Bases.
+**Why.** Each costs 1 point either way; Troops (22 Available) are what Commitment and Air Lift use, Bases I rarely deploy.
+**Execution.** Asked `How many US Troops (1 - 3)`: 1; the program took 2 Bases for the rest.
+**Result.** US 43.
+
+## Coup 3 — #128 Nguyen Van Thieu, Support phase — before save-092
+**Plan.** Pacify Hue, Kien Hoa-Vinh Binh, Quang Tri (each Neutral → Active, +4) and Pleiku (Neutral → Active, +2): 24 of 50 spendable.
+**Why.** The four largest gains among six candidates (+14); all four are COIN-controlled, so the VC's 10-point Agitation cannot reach them.
+**Execution.** none
+**Result.** +14 as planned (US 56). VC Agitation then shifted Kien Giang, Binh Dinh, Tay Ninh, An Loc: VC 32/35.
+
+## Coup 3 — Commitment — before save-092
+**Plan.** Map moves: Hue 1 Troop → Quang Nam, Qui Nhon 1 → An Loc. From Available: 1 → An Loc, 2 → Saigon.
+**Why.** VC at 32 is the threat for the next Coup: Troops in Quang Nam (Active Opposition) and An Loc (Passive Opposition), both COIN-controlled with Police, let Train/Pacify and next Coup's Support phase cut Opposition. Saigon's Troops (with its Base) are a strike force against the VC Bases next door. Cost -3 points now.
+**Execution.** Moves from Available were capped per step (`Move how many Troops (0 - 8)`, then `(0 - 7)`); did not matter.
+**Result.** As planned (US 53). Then NVA played Easter Offensive in place of #114 Tri Quang: took Da Nang, Binh Dinh, Quang Nam (NVA 13), killed the Quang Nam Troop and an Irregular; VC Subverted Police in Kien Hoa/Quang Tri and marched 3 Guerrillas into Saigon; ARVN took General Lansdale shaded (no US Assault until Coup).
+
+## Turn 15 — card #78 General Lansdale — before save-100
+**Plan.** Op + SA: Train An Loc (no placement), Pacify it 2 levels (Passive Opposition → Passive Support); Advise ARVN Assault in Saigon (3 Active VC Guerrillas) and Irregular in Kien Hoa (remove its lone VC Guerrilla); +6 Aid.
+**Why.** US Assault is barred until the Coup, so Advise's ARVN Assault is the way to clear Saigon (pop 6 Active Support) before a Terror; Kien Hoa (pop 2 Active) then has no enemy piece. An Loc: VC -1, US +1. Advising Pleiku (4 enemies, pop 1) weighed; Kien Hoa is worth twice as much and is fully cleared.
 **Execution.**
 **Result.**
