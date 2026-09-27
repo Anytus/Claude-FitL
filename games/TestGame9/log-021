@@ -1,0 +1,126 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #79 - Henry Cabot Lodge (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #50 - Uncle Ho (NVA, ARVN, VC, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN(-) -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA, VC",
+      "color": null
+    },
+    {
+      "text": "\nUS chooses Train operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Saigon for Training",
+      "color": null
+    },
+    {
+      "text": "\nUS selects Quang Tri-Thua Thien for Training",
+      "color": null
+    },
+    {
+      "text": "Place 1 US Underground Irregular from AVAILABLE into Quang Tri-Thua Thien",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -3 to 21",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 49 to 46",
+      "color": "Blue"
+    },
+    {
+      "text": "Increase ARVN resources by +3 to 30",
+      "color": "Blue"
+    },
+    {
+      "text": "Momentum: #15 Medevac (shaded) prohibits Air Lift",
+      "color": "Red"
+    },
+    {
+      "text": "\nUS chooses Advise special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nAdvise in Pleiku-Darlac using US Underground Irregular",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Flip 1 US Underground Irregular in Pleiku-Darlac to ACTIVE",
+      "color": "Cyan"
+    },
+    {
+      "text": "Remove 1 VC Underground Guerrilla from Pleiku-Darlac to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Increase US Aid by +6 to 22",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

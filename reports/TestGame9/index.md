@@ -7,3 +7,7 @@
 - report-013-015.md: #15 - Medevac
 - report-016-018.md: #55 - Trucks
 - report-019-020.md: #79 - Henry Cabot Lodge
+- report-021-021.md: #79 - Henry Cabot Lodge
+- report-022-024.md: #50 - Uncle Ho
+- report-025-027.md: #118 - Korean War Arms
+- report-028-029.md: #110 - No Contact

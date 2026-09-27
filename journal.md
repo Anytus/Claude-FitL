@@ -22,3 +22,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Denies VC its Critical shaded (5 Irregulars turned into Guerrillas); -3 VC points, and Bases are VC's scarcest piece (2 Available). The last Pleiku Guerrilla is left for Advise.
 **Execution.** Rejected (send, no label matching): 'Binh Dinh' is not valid. Must be one of: 1, 2, 3, or abort — resent via seq. Pleiku-Darlac was auto-selected as the last candidate, so my 'Pleiku' landed on the count prompt: 'Pleiku' is not valid. Must be one of: 0, 1, 2, or abort — then sent 2, Bases 1 (Guerrilla count filled itself).
 **Result.** As planned: 3 VC Bases and 1 Guerrilla removed, VC 27 -> 24.
+
+## Turn 4 — card #79 Henry Cabot Lodge — before save-020
+**Plan.** Op + SA: Train Saigon (no placement) and Quang Tri (1 Irregular), final action Transfer 3 Patronage; Advise Irregular removal of the last VC Guerrilla in Pleiku-Darlac, +6 Aid.
+**Why.** ARVN is at 49 (wins at 51) and the pile-1 Coup lies within the next 5 cards; -3 Patronage buys margin against a Govern before it. Saigon's pacification can wait for the Coup Support phase (it qualifies).
+**Execution.** seq stopped at 'Place how many Irregulars (0 - 2)' (asked despite 1 Available; answered 1). Advise space auto-selected (one candidate) and +6 Aid asked after one space.
+**Result.** As planned: Patronage 24 -> 21 (ARVN 46), ARVN Resources 30, Pleiku clean, Aid +6.

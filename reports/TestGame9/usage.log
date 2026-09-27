@@ -22,3 +22,8 @@
 2026-09-27T17:34:52	Bash	python3 tools/ctl.py send 2	61	903
 2026-09-27T17:34:55	Bash	python3 tools/ctl.py send 1	61	5778
 2026-09-27T17:35:16	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	566	50673
+2026-09-27T17:36:14	Bash	python3 tools/ctl.py seq "how many=>1" "US Training=>Finished selecting" "final 	143	2454
+2026-09-27T17:36:17	Bash	python3 tools/ctl.py send 3	61	1269
+2026-09-27T17:36:22	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	165	3536
+2026-09-27T17:36:27	Bash	python3 tools/ctl.py send y && S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f	433	6716
+2026-09-27T17:36:49	Bash	python3 tools/ctl.py advance	62	29790

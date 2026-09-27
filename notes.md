@@ -14,3 +14,6 @@ card #66 Ambassador Taylor: Pass — keep first slot on Tribesmen, deny VC shade
 card #29 Tribesmen: Event unshaded, removed 3 VC Bases + 1 Guerrilla — deny VC shaded; Bases are VC's scarcest
 card #15 Medevac: US ineligible (ARVN Train+Govern, NVA shaded Medevac)
 card #55 Trucks: US eligible but NVA and VC acted first; card ended
+card #79 Henry Cabot Lodge: Train Saigon/Quang Tri, Transfer 3 Patronage, Advise Pleiku — ARVN at 49 with Coup near
+card #50 Uncle Ho: US ineligible (NVA Rally+Infiltrate, VC passed)
+card #118 Korean War Arms: US eligible but VC event and ARVN Train+Govern ended card
