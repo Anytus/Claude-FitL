@@ -128,3 +128,8 @@
 2026-09-27T17:57:56	Bash	python3 tools/ctl.py seq "Select one=>Finished with Air Lift" "US Training=>Sele	159	1920
 2026-09-27T17:58:02	Bash	python3 tools/ctl.py seq "Training in Hue=>Do not place" "US Training=>Finished 	159	2644
 2026-09-27T17:58:05	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" | tail -12	97	6149
+2026-09-27T17:58:16	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	472	27958
+2026-09-27T17:58:51	Bash	echo "card #8 Arc Light: Air Lift Troops to Hue/Kontum/Can Tho, Train+Pacify Hue	1121	6132
+2026-09-27T17:58:58	Bash	python3 tools/ctl.py send Hue >/dev/null; python3 tools/ctl.py seq "Select one=>	332	2251
+2026-09-27T17:59:09	Bash	python3 tools/ctl.py seq "Select one=>Lift forces out of Hue" "Lift forces to wh	428	3840
+2026-09-27T17:59:18	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" "Select one=>Finished wit	314	3058

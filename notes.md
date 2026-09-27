@@ -54,3 +54,5 @@ card #35 Thanh Hoa: Air Lift 7 Troops into Saigon + Assault (14 hits) + ARVN fol
 card #77 Detente: US ineligible (ARVN Transport+Assault Kien Giang, NVA shaded Infiltrate + VC Rally)
 card #8 Arc Light: Air Lift Troops to Hue/Kontum/Can Tho, Train+Pacify Hue — +4 US, set Coup pacification sites
 card #120 US Press Corps: US ineligible (ARVN Assaults+Transport, NVA shaded)
+card #27 Phoenix Program: Air Lift Hue Troops to Qui Nhon/Cam Ranh, Train+Pacify Kontum — +1, Coup pacification sites
+card #20 Laser Guided Bombs: US ineligible (ARVN Assault Kien Phong, NVA LimOp March)

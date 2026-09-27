@@ -53,3 +53,5 @@
 - report-134-136.md: #77 - Detente
 - report-137-139.md: #8 - Arc Light
 - report-140-142.md: #120 - US Press Corps
+- report-143-145.md: #27 - Phoenix Program
+- report-146-148.md: #20 - Laser Guided Bombs

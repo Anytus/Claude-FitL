@@ -172,3 +172,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +4 US now, and Kontum/Can Tho (Passive, COIN, Police) become Coup-pacification sites with the pile-4 Coup 1-6 draws away (ARVN budget ~36 above Econ plus Coup income). Saigon keeps 3 Troops with its Base. Sweep+Air Strike on Kien Phong weighed: Air Strike hits are one die and do not build score.
 **Execution.** Deviation: trained only in Hue (Kontum/Can Tho selection skipped; nothing to gain there). Air Lift done before any Train space was selected; the Train menu then lacked 'Perform a Special Activity'.
 **Result.** Hue Active (+4, US 61); 3 US Troops left in Saigon, 2 in Hue, 1 each in Kontum and Can Tho.
+
+## Turn 21 — card #27 Phoenix Program — before save-143
+**Plan.** Op Train + Air Lift first (Hue, Qui Nhon, Cam Ranh): 1 US Troop Hue -> Qui Nhon, 1 Hue -> Cam Ranh; Train Kontum, Pacify 1 level to Active.
+**Why.** +1 now, and Qui Nhon/Cam Ranh join Kontum-less Can Tho as Coup-pacification sites (COIN, Police, US Troop, Passive) for the Coup due within 4 draws. Hue is already Active; Saigon keeps its 3 Troops facing Tay Ninh. Phoenix unshaded has almost no legal VC targets.
+**Execution.** none
+**Result.** Kontum Active (+1, US 62); US Troops now in Qui Nhon and Cam Ranh.
