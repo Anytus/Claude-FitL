@@ -13,3 +13,6 @@
 2026-09-27T17:33:31	Bash	python3 tools/ctl.py send y	61	8609
 2026-09-27T17:33:38	Bash	cat > /tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/	575	102
 2026-09-27T17:33:48	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	564	22148
+2026-09-27T17:34:09	Bash	echo "card #31 AAA: Train Saigon/Pleiku, Pacify Saigon, Advise Quang Tri+Binh Di	799	7820
+2026-09-27T17:34:12	Bash	python3 $S/../scratchpad/jfin.py x x 2>/dev/null; S=/tmp/claude-0/-home-user-Cla	171	476
+2026-09-27T17:34:18	Bash	python3 tools/ctl.py advance	62	24190

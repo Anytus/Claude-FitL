@@ -385,4 +385,98 @@ Eligible      : US, NVA
 Acted         : ARVN -> Op Only
 Passed        : none
 Ineligible    : VC
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Limited Op
+2) Pass
+----------------------------------------------------
+Selection: 2
+
+US faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 30[0m
+[34m
+Move the US cylinder to the Pass box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #66 - Ambassador Taylor (ARVN, US, VC, NVA)
+                ARVN -> (Ignored), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #29 - Tribesmen (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+Eligible      : NVA
+Acted         : ARVN -> Op Only
+Passed        : US
+Ineligible    : VC
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - R
+Trung check: Support + Available >= 42? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - T
+Trung check: 20+ NVA Troops on the map? [No]
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - N
+Trung check: 3d6 <= Available NVA Troops (40): 11 [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - NN
+Trung check: 8+ NVA Troops in a space outside the South? [No]
+
+NVA chooses Rally operation
+====================================================
+
+NVA selects The Parrot's Beak for Rally
+----------------------------------------------------
+[35mRemove 2 NVA Underground Guerrillas from The Parrot's Beak to AVAILABLE[0m
+[35mPlace 1 NVA Base from AVAILABLE into The Parrot's Beak[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 4 to 5[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA improves the trail
+----------------------------------------------------
+[34mImprove the trail by 1 box to 2[0m
+[34m
+Move the NVA cylinder to the LimOp box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and VC cylinders to the Eligible box[0m
+[34mMove the ARVN and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 15
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #29 - Tribesmen (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : US, VC
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, NVA
 (perform or ?): 
