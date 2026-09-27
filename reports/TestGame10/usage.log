@@ -107,3 +107,12 @@
 2026-09-27T19:37:22	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py screen | tail -8	137	1055
 2026-09-27T19:37:41	Bash	python3 tools/ctl.py send 0; python3 tools/ctl.py advance	136	52354
 2026-09-27T19:38:03	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1226	19164
+2026-09-27T19:38:20	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	980	6081
+2026-09-27T19:38:24	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py screen | tail -16	135	1733
+2026-09-27T19:38:29	Bash	python3 tools/ctl.py seq "1st Selection=>Da Nang"; python3 tools/ctl.py screen |	158	2048
+2026-09-27T19:38:35	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -10	144	1425
+2026-09-27T19:38:39	Bash	python3 tools/ctl.py send 5; python3 tools/ctl.py screen | tail -10	136	1431
+2026-09-27T19:38:44	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py screen | tail -25	136	2054
+2026-09-27T19:38:48	Bash	python3 tools/ctl.py seq "Air Strike: (6 hits=>Remove insurgents in Da Nang"; py	185	1246
+2026-09-27T19:38:55	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py seq "Air Strike: (4 hits=>Remo	362	4841
+2026-09-27T19:39:13	Bash	python3 tools/ctl.py advance	93	50351

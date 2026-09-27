@@ -7553,4 +7553,394 @@ Eligible      : US, VC, ARVN
 Acted         : none
 Passed        : none
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 1
+
+Execute which part of the event:
+====================================================
+1) Unshaded
+2) Shaded
+----------------------------------------------------
+Selection: 1
+
+US executes the Unshaded Event: USS New Jersey
+----------------------------------------------------
+Strike in how many coastal spaces (1 - 3): 3
+Select coastal spaces to air strike: 
+====================================================
+1) LOC Da Nang -- Qui Nhon
+2) Da Nang
+3) Quang Tin-Quang Ngai
+4) Binh Dinh
+5) Kien Giang-An Xuyen
+6) Quang Nam
+----------------------------------------------------
+1st Selection: Da Nang
+'Da Nang' is not valid. Must be one of:
+1, 2, 3, 4, 5, 6, or abort
+1st Selection: 2
+Select coastal spaces to air strike: 
+====================================================
+1) LOC Da Nang -- Qui Nhon
+2) Quang Tin-Quang Ngai
+3) Binh Dinh
+4) Kien Giang-An Xuyen
+5) Quang Nam
+----------------------------------------------------
+2nd Selection: 5
+Select coastal spaces to air strike: 
+====================================================
+1) LOC Da Nang -- Qui Nhon
+2) Quang Tin-Quang Ngai
+3) Binh Dinh
+4) Kien Giang-An Xuyen
+----------------------------------------------------
+3rd Selection: 3
+Number of hits = 6
+
+Air Strike: (6 hits remaining, remove up to 6 pieces)
+====================================================
+1) Remove insurgents in Da Nang
+2) Remove insurgents in Quang Nam
+3) Remove insurgents in Binh Dinh
+4) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Remove how many pieces from Da Nang (1 - 2): 2
+
+US Air Strikes Da Nang
+----------------------------------------------------
+[35mRemove 2 NVA Troops from Da Nang to AVAILABLE[0m
+
+Air Strike: (4 hits remaining, remove up to 4 pieces)
+====================================================
+1) Remove insurgents in Quang Nam
+2) Remove insurgents in Binh Dinh
+3) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Remove how many pieces from Quang Nam (1 - 2): 2
+
+US Air Strikes Quang Nam
+----------------------------------------------------
+[35mRemove 2 NVA Troops from Quang Nam to AVAILABLE[0m
+
+Air Strike: (2 hits remaining, remove up to 2 pieces)
+====================================================
+1) Remove insurgents in Binh Dinh
+2) Finished with Air Strike activity
+----------------------------------------------------
+Selection: 1
+
+Remove how many pieces from Binh Dinh (1 - 2): 2
+
+US Air Strikes Binh Dinh
+----------------------------------------------------
+[35mRemove 2 NVA Troops from Binh Dinh to AVAILABLE[0m
+There are no strike targets
+
+Shift support in strike spaces toward Active Opposition
+----------------------------------------------------
+
+Da Nang: Shift 1 level
+----------------------------------------------------
+[33mFlip Active Support marker in Da Nang to Passive Support[0m
+
+Quang Nam: No shift [Already at Active Opposition]
+
+Binh Dinh: No shift [Already at Active Opposition]
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Da Nang to COIN Control[0m
+[33mRemove NVA Control marker from Quang Nam[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 54 to 53[0m
+[34mMove the 'COIN Control + Patronage' marker from 40 to 41[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 14[0m
+[34m
+Move the US cylinder to the Event box[0m
+
+Finished with US turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #30 - USS New Jersey (US, VC, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), NVA -> (Ignored)
+On Deck card  : #45 - PT-76 (NVA, ARVN, US, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded)
+Eligible      : VC, ARVN
+Acted         : US -> Event
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - X
+Trung check: Any 2+ Pop space without VC Guerrillas? [Yes]
+Trung check: 3d6 <= Available VC pieces (10): 10 [Yes]
+
+VC chooses Rally operation
+====================================================
+
+VC selects Tay Ninh for Rally
+----------------------------------------------------
+[35mPlace 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 4 [Success!]
+
+VC selects Kien Giang-An Xuyen for Rally
+----------------------------------------------------
+[35mPlace 2 VC Underground Guerrillas from AVAILABLE into Kien Giang-An Xuyen[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove COIN Control marker from Kien Giang-An Xuyen[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 41 to 39[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+Trung check: Spaces exist that can be Taxed? [Yes]
+Trung check: 2d6 > Agitate Total (11): 10 [No]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in Tay Ninh
+----------------------------------------------------
+[35mRemove 2 ARVN Police from Tay Ninh to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+VC Subverts in Kien Giang-An Xuyen
+----------------------------------------------------
+[35mRemove 2 ARVN Troops from Kien Giang-An Xuyen to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -2 to 17[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 39 to 37[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the NVA cylinder to the Eligible box[0m
+[34mMove the US and VC cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 77
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #45 - PT-76 (NVA, ARVN, US, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded)
+On Deck card  : #77 - Detente (ARVN, NVA, VC, US)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : NVA, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+NVA executes the Shaded Event: PT-76
+----------------------------------------------------
+[31m
+Capability: '#45 PT-76 (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the Event box[0m
+
+Finished with NVA turn
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #45 - PT-76 (NVA, ARVN, US, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded)
+On Deck card  : #77 - Detente (ARVN, NVA, VC, US)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+Eligible      : ARVN
+Acted         : NVA -> Event
+Passed        : none
+Ineligible    : US, VC
+(perform or ?): perform
+
+ARVN faction passes
+----------------------------------------------------
+[34mIncrease ARVN resources by +3 to 48[0m
+[34m
+Move the ARVN cylinder to the Pass box[0m
+
+Finished with ARVN turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and VC cylinders to the Eligible box[0m
+[34mMove the NVA cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 119
+
+VC Bot Pivotal Event die roll: 5  [Failure] (3 cards in leader box)
+
+
+>>> ARVN turn (Bot) <<<
+====================================================
+Current card  : #77 - Detente (ARVN, NVA, VC, US)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #119 - My Lai (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : ARVN, VC, US
+Acted         : none
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - K
+Trung check: COIN-Controlled Pop + Patronage >= 42? [No]
+[31m
+Drawing Trung Card for ARVN[0m
+----------------------------------------------------
+Trung: ARVN - G
+Trung check: 3d6 <= Available ARVN pieces (23): 13 [Yes]
+Trung check: ARVN Assault would add COIN Control? [No]
+Trung check: ARVN Assault would unblock LoC route between Can Tho and Hue? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: ARVN - GG
+
+ARVN chooses Train operation
+====================================================
+
+ARVN selects Qui Nhon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 45[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Qui Nhon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Qui Nhon[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace COIN Control marker in Qui Nhon[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 37 to 38[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+ARVN selects Saigon for Train
+----------------------------------------------------
+[34mDecrease ARVN resources by -3 to 42[0m
+[35mPlace 3 ARVN Troops from AVAILABLE into Saigon[0m
+[35mPlace 3 ARVN Police from AVAILABLE into Saigon[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN activation roll against activation number of 3
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+ARVN chooses Govern special activity
+====================================================
+
+ARVN Governs in Hue (population: 2)
+----------------------------------------------------
+Transfer population value from Aid to Patronage
+[34mDecrease US Aid by -2 to 35[0m
+[34mIncrease Patronage by +2 to 19[0m
+[33mFlip Active Support marker in Hue to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 53 to 51[0m
+[34mMove the 'COIN Control + Patronage' marker from 38 to 40[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Governs in Kien Hoa-Vinh Binh (population: 2)
+----------------------------------------------------
+Add 3 times population value to Aid
+[34mIncrease US Aid by +6 to 41[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of ARVN Govern activity
+[34m
+Move the ARVN cylinder to the Op/Special Activity box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #77 - Detente (ARVN, NVA, VC, US)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #119 - My Lai (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : VC, US
+Acted         : ARVN -> Op/Special Activity
+Passed        : none
+Ineligible    : NVA
+(perform or ?): perform
+
+VC faction passes
+----------------------------------------------------
+[34m
+Move the VC cylinder to the Pass box[0m
+
+Finished with VC turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #77 - Detente (ARVN, NVA, VC, US)
+                ARVN -> (Ignored), NVA -> (Performed, Shaded), VC -> (Performed, Shaded)
+On Deck card  : #119 - My Lai (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+Eligible      : US
+Acted         : ARVN -> Op/Special Activity
+Passed        : VC
+Ineligible    : NVA
 (perform or ?): 

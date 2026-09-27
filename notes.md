@@ -48,3 +48,4 @@ card #23 Operation Attleboro: Pass — be first on #22 Da Nang (ARVN Vietnamizat
 card #22 Da Nang: Event unshaded, 3 OOP Troops into Da Nang — break NVA Control, deny VC shaded
 card #67 Amphib Landing: US ineligible
 card #56 Vo Nguyen Giap: Pass — be first on #30 USS New Jersey, deny VC -8
+card #30 USS New Jersey: Event unshaded, strike Da Nang/Quang Nam/Binh Dinh — NVA 16 to 14, deny VC -8

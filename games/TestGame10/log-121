@@ -1,0 +1,210 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #30 - USS New Jersey (US, VC, ARVN, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #45 - PT-76 (NVA, ARVN, US, VC)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : VC, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : US -> Event",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "\nDrawing Trung Card for VC",
+      "color": "Red"
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Trung: VC - X",
+      "color": null
+    },
+    {
+      "text": "Trung check: Any 2+ Pop space without VC Guerrillas? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 3d6 <= Available VC pieces (10): 10 [Yes]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Rally operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Tay Ninh for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 4 VC Underground Guerrillas from AVAILABLE into Tay Ninh",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC activation roll against activation number of 2",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Die roll: 4 [Success!]",
+      "color": null
+    },
+    {
+      "text": "\nVC selects Kien Giang-An Xuyen for Rally",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Place 2 VC Underground Guerrillas from AVAILABLE into Kien Giang-An Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nControl Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove COIN Control marker from Kien Giang-An Xuyen",
+      "color": "Yellow"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 41 to 39",
+      "color": "Blue"
+    },
+    {
+      "text": "Trung check: Spaces exist that can be Taxed? [Yes]",
+      "color": null
+    },
+    {
+      "text": "Trung check: 2d6 > Agitate Total (11): 10 [No]",
+      "color": null
+    },
+    {
+      "text": "\nVC chooses Subvert special activity",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nVC Subverts in Tay Ninh",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 ARVN Police from Tay Ninh to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nVC Subverts in Kien Giang-An Xuyen",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 2 ARVN Troops from Kien Giang-An Xuyen to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Decrease Patronage by -2 to 17",
+      "color": "Blue"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'COIN Control + Patronage' marker from 39 to 37",
+      "color": "Blue"
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "End of VC Subvert activity",
+      "color": null
+    },
+    {
+      "text": "\nMove the VC cylinder to the Op - May add Special Activity box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with VC turn",
+      "color": null
+    }
+  ]
+}

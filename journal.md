@@ -194,5 +194,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 19 — card #30 USS New Jersey — before save-119
 **Plan.** Event unshaded: free Air Strike, 2 NVA Troops each in Da Nang, Quang Nam and Binh Dinh.
 **Why.** Da Nang and Quang Nam lose NVA Control (NVA 16 → 14; Da Nang back to COIN Control); Binh Dinh's stack shrinks. It also denies VC's Critical shaded (-8 US in Quang Tri and Kien Hoa). Da Nang may shift one level (-1 US).
+**Execution.** Space selection used `1st/2nd/3rd Selection:` prompts; seq's `1st Selection=>Da Nang` was rejected verbatim: `'Da Nang' is not valid. Must be one of: 1, 2, 3, 4, 5, 6, or abort`; answered by number via send (2, 5, 3). 6 hits (2 per space, no roll).
+**Result.** Da Nang COIN Control, Quang Nam uncontrolled (NVA 14); Da Nang shifted to Passive (-1). NVA then took PT-76 shaded (capability); ARVN Governed Hue.
+
+## Turn 20 — card #77 Detente — before save-127
+**Plan.** Limited Op Sweep into Ba Xuyen, moving the 2 US Troops out of Kien Hoa-Vinh Binh.
+**Why.** Next card My Lai (VC first, Critical shaded) sets a Province with US Troops to Active Opposition and adds a VC Base. Emptying Kien Hoa (pop 2 Active Support, near Saigon, more durable than Quang Tri) removes it as a target; Ba Xuyen (Police, COIN) becomes a Coup-pacification space. Detente unshaded (5 NVA Troops Out of Play) weighed; it does not reduce NVA's score.
 **Execution.**
 **Result.**

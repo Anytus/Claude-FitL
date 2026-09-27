@@ -56,3 +56,6 @@
 - report-116-117.md: #56 - Vo Nguyen Giap
 - report-118-118.md: #56 - Vo Nguyen Giap
 - report-119-119.md: #30 - USS New Jersey
+- report-120-121.md: #30 - USS New Jersey
+- report-122-124.md: #45 - PT-76
+- report-125-127.md: #77 - Detente
