@@ -32,3 +32,5 @@ card #59 Plei Mei: US ineligible
 card #95 Westmoreland: Train/Pacify Pleiku to Neutral, Advise Rangers Kien Phong + Quang Nam — VC 32 to 30
 card #70 ROKs: US ineligible
 card #10 Rolling Thunder: Event unshaded, Trail 4 to 2 — deny VC Air Strike ban, NVA sits out
+card #25 TF-116 Riverines: US ineligible
+card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available — +3 permanent, deny NVA shaded

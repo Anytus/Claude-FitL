@@ -33,3 +33,6 @@
 - report-067-068.md: #10 - Rolling Thunder
 - report-069-071.md: #25 - TF-116 Riverines
 - report-072-072.md: #9 - Psychedelic Cookie
+- report-073-074.md: #9 - Psychedelic Cookie
+- report-075-077.md: #106 - Binh Duong
+- report-078-078.md: #69 - MACV

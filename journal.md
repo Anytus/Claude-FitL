@@ -122,5 +122,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 12 — card #9 Psychedelic Cookie (Linebacker II offered first) — before save-072
 **Plan.** Decline Linebacker II; Event unshaded: 3 US Troops from Out of Play to Available.
 **Why.** +3 permanent points toward the final margin, and it keeps NVA (second, Performed/Shaded) from sending 3 of my Troops Out of Play, which an Op + SA would allow.
+**Execution.** Event chain: `Move US Troops from Out of Play to Available or South Vietname` → `Move troops from Out of play to Available` → `Move how many troops to Available (0 - 3)`: 3.
+**Result.** +3 (US 53). NVA then marched into Kien Giang, Kien Phong, Binh Dinh, Quang Nam: NVA 18/18, one short of winning.
+
+## Pivotal — Linebacker II offered (current #69 MACV) — before save-078
+**Plan.** Decline now; intend to play it at the next draw (replacing #104) if no Coup is then on deck.
+**Why.** On #69 the US is second after ARVN; MACV unshaded gives the US a free SA (Advise: -3 NVA) and keeps the US Eligible, so Linebacker can still be played on #104 for NVA -2 more and NVA Ineligible, while deleting VC's Critical #104 capability.
 **Execution.**
 **Result.**

@@ -69,3 +69,9 @@
 2026-09-27T19:29:26	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1361	6650
 2026-09-27T19:29:42	Bash	python3 tools/ctl.py seq "Execute which part=>Unshaded"; python3 tools/ctl.py ad	168	28453
 2026-09-27T19:29:46	Bash	python3 /tmp/claude-0/-home-user-Claude-FitL/6b7be41a-a3dd-5215-9dbe-07ba5e647c9	256	2118
+2026-09-27T19:30:00	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1144	6606
+2026-09-27T19:30:04	Bash	python3 tools/ctl.py seq "Choose one=>Move US Troops from Out"; python3 tools/ct	182	1759
+2026-09-27T19:30:09	Bash	python3 tools/ctl.py seq "Choose one=>Move troops from Out of play to Available"	191	1187
+2026-09-27T19:30:12	Bash	python3 tools/ctl.py send 3; python3 tools/ctl.py screen | tail -8	132	5345
+2026-09-27T19:30:24	Bash	python3 tools/ctl.py advance	93	34316
+2026-09-27T19:30:31	Bash	python3 /tmp/claude-0/-home-user-Claude-FitL/6b7be41a-a3dd-5215-9dbe-07ba5e647c9	258	5910
