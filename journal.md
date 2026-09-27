@@ -212,5 +212,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 22 — card #11 Abrams — before save-138
 **Plan.** Op + SA: Train Quang Tri (no placement), Pacify there (remove terror + 2 levels, Active Opposition → Neutral, 9 Resources); Advise ARVN Assault in Saigon (1 VC Base) and Hue (2 VC Bases); +6 Aid.
 **Why.** VC is at 33/35 with the Coup somewhere in the next five draws: this is VC -7 (3 Bases, 4 Opposition). US Assault is barred (Lansdale), so the Bases go through Advise's ARVN Assault. Abrams unshaded (keeps NVA's shaded capability off) weighed; VC's margin comes first.
+**Execution.** Pacify menu read `Remove 1 terror marker and shift 2 levels to Neutral`. Second `ARVN Assault in which space:` was a typed prompt (sent `Hue`).
+**Result.** VC 33 → 26 (Quang Tri Neutral, 3 VC Bases gone, Aid +18 from Base kills). NVA took Abrams shaded (capability). Coup #125 is now on deck.
+
+## Turn 23 — card #61 Armored Cavalry (last card before Coup #125) — before save-145
+**Plan.** Op + SA: Patrol 1 Troop Da Nang→Hue, 1 Saigon→Qui Nhon, 1 Saigon→Kontum (no LoC Assault); Advise Ranger in Kien Phong (remove VC Guerrilla) and Irregular in Pleiku (remove the VC Guerrilla + 1 NVA); +6 Aid.
+**Why.** No bot is near its line (VC 26, NVA 14, ARVN 39); the card ends with me. Patrol sets up Coup pacification in Hue, Qui Nhon, Kontum (+ Cam Ranh/Can Tho); the Advise removes VC pieces from two likely Agitation targets (Agitate Total 11): Kien Phong (+2 VC) and Pleiku (-2 US).
 **Execution.**
 **Result.**

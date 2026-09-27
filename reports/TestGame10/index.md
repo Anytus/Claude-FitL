@@ -65,3 +65,6 @@
 - report-134-134.md: #33 - MiGs
 - report-135-137.md: #96 - APC
 - report-138-138.md: #11 - Abrams
+- report-139-140.md: #11 - Abrams
+- report-141-143.md: #40 - PoWs
+- report-144-145.md: #61 - Armored Cavalry
