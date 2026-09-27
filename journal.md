@@ -100,3 +100,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** ARVN is first and Critical on Lansdale shaded: Patronage +3 (ARVN 47 -> 50) and no US Assault until the next Coup (up to ~15 cards, with 3 VC Guerrillas in Saigon). Linebacker deletes it, NVA -2 Bases (15 -> 13) and Ineligible, +1 Casualty to Available.
 **Execution.** 'perform' executed the pivotal directly (no Choose-one menu); the seq's second step found no prompt and sent nothing.
 **Result.** NVA removed Bases in Parrot's Beak and Southern Laos (13); 1 Troop Casualty to Available (US 53); NVA Ineligible through next card.
+
+## Turn 11 — card #104 Main Force Bns — before save-079
+**Plan.** Op + SA: Sweep Saigon (2 US Troops activate 2 of 3 VC Guerrillas); Advise Ranger removal in Saigon (the Underground Guerrilla + 1 Active) and Irregular removal in Binh Dinh (1 VC Guerrilla); +6 Aid.
+**Why.** Leaves Saigon with one Active Guerrilla, which cannot Terror; Binh Dinh cleared. Quang Tri Advise rejected: its COIN Control would lift ARVN 47 -> 49 with a Coup possible from the next draw.
+**Execution.** Deviation: after the Sweep in Saigon resolved (2 VC flipped Active), the SA menu offered only 'Air Lift, Air Strike, Do not perform' — Advise accompanies only Train/Patrol (already in RULES_LEARNED; my error). seq stopped: "no menu entry starts with 'Advise'". Typed abort, 'Really abort (y/n)?' y: the program restored the 3 Underground Guerrillas and returned to perform. Redid as Train Pleiku-Darlac (no placement) + Pacify 2 levels (8 Resources under Ky), Advise Ranger in Saigon (2 Underground VC removed) and Irregular in Binh Dinh (1 VC), +6 Aid.
+**Result.** Pleiku Active (+2, US 55); Saigon down to 1 Underground VC; Binh Dinh clear.

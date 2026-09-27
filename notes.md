@@ -33,3 +33,5 @@ card #102 Cu Chi: replaced by ARVN pivotal Vietnamization; US ineligible; declin
 card #108 Draft Dodgers: US eligible 4th; VC Rally+Tax and NVA shaded (-1 US Troop to Out of Play) ended card
 card #78 General Lansdale: replaced by US pivotal Linebacker II — deny ARVN +3 Patronage and Assault ban; NVA -2 Bases
 card #83 Election: US ineligible (ARVN Train, VC passed)
+card #104 Main Force Bns: Train+Pacify Pleiku, Advise Saigon (2 VC) and Binh Dinh (1 VC) — after an aborted Sweep attempt; +2 US
+card #39 Oriskany: US ineligible (NVA March+Bombard, ARVN unshaded -3 NVA Bases, Trail 1)

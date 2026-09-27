@@ -67,3 +67,15 @@
 2026-09-27T17:45:15	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	603	17380
 2026-09-27T17:45:24	Bash	python3 tools/render.py 2>&1 | grep -A6 "^--- Scores"; python3 tools/render.py |	139	895
 2026-09-27T17:45:33	Bash	echo "card #108 Draft Dodgers: US eligible 4th; VC Rally+Tax and NVA shaded (-1 	809	5100
+2026-09-27T17:45:48	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	432	29040
+2026-09-27T17:46:20	Bash	echo "card #78 General Lansdale: replaced by US pivotal Linebacker II — deny ARV	1052	5382
+2026-09-27T17:46:24	Bash	python3 tools/ctl.py seq "US Sweep space=>Finished selecting"	97	1305
+2026-09-27T17:46:27	Bash	python3 tools/ctl.py seq "Sweep activation=>Resolve Sweep in Saigon"	104	1174
+2026-09-27T17:46:51	Bash	python3 tools/ctl.py send abort	65	624
+2026-09-27T17:46:54	Bash	python3 tools/ctl.py send y	61	1538
+2026-09-27T17:46:59	Bash	python3 tools/ctl.py send ""; python3 tools/ctl.py screen | tail -15	104	2099
+2026-09-27T17:47:03	Bash	python3 tools/ctl.py send ""; python3 tools/ctl.py screen | tail -25	104	2143
+2026-09-27T17:47:08	Bash	python3 tools/ctl.py send ""; python3 tools/ctl.py screen | tail -12; python3 to	151	2471
+2026-09-27T17:47:20	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Choose one=>Op" "Choose oper	302	6245
+2026-09-27T17:47:27	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" "special activity? (y/n)=>y" 	241	5202
+2026-09-27T17:47:32	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	149	2169
