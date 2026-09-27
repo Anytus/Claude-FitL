@@ -238,3 +238,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Denies VC's Critical shaded (2 coastal Provinces with US Troops — Phu Bon, Khanh Hoa, Ba Xuyen — shifted 2 levels: -4 US). Striking a space already at Active Opposition costs no Support despite Arc Light. Op + SA (Advise Saigon's NVA Guerrillas) weighed; it would concede the -4.
 **Execution.** Chain: 'Strike in how many coastal spaces (1 - 2)' (card says 1-3) answered 1; menu offered Kien Giang/Quang Nam; header said 'Number of hits = 6' but the per-space prompt capped at 2, consistent with the card.
 **Result.** 2 NVA Troops removed from Kien Giang, no Support shift; VC shaded denied.
+
+## Turn 28 — card #4 Top Gun — before save-191
+**Plan.** Op Train Saigon (no placement), Transfer 3 Patronage; no Special Activity.
+**Why.** #88 on deck is ARVN-Critical unshaded (Patronage +5) and the final Coup may be the very next draw: ARVN 47 would reach 52 and win. Transfer takes it to 44 (49 after #88). Advise in Saigon is barred by the Train there; the other Advise targets would add COIN Control (ARVN points).
+**Execution.** none. Side effect: an Op without SA closed the Event, so NVA's Critical shaded Top Gun is off the table (NVA limited to a Limited Op).
+**Result.** Patronage 27 -> 24 (ARVN 44).

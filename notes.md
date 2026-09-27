@@ -71,3 +71,5 @@ card #30 USS New Jersey: Event unshaded, Air Strike Kien Giang (2 NVA Troops) â€
 card #80 Light at the End of the Tunnel: US ineligible (ARVN event: 1 US Troop to Available, Phu Bon to Passive, Patronage +2)
 card #54 Son Tay: US eligible 3rd; NVA March+Ambush (2 US Troops lost), VC shaded made US Ineligible through next card
 card #71 An Loc: US ineligible (Son Tay); ARVN Train+Govern Kien Hoa, Hue
+card #4 Top Gun: Train Saigon, Transfer 3 Patronage (Op only) â€” ARVN 47 before Patronage +5 card with final Coup possible
+card #88 Phan Quang Dan: US ineligible (ARVN unshaded Patronage +5, VC Subvert); final Coup drawn

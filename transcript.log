@@ -10796,4 +10796,284 @@ Eligible      : US, NVA, VC
 Acted         : none
 Passed        : none
 Ineligible    : ARVN
-(perform or ?): 
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Op (May add a Special Activity)
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 1
+
+US chooses Train operation
+====================================================
+
+0 spaces selected for Training
+----------------------------------------------------
+
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Train in which space: Saigon
+
+US selects Saigon for Training
+
+Training in Saigon:
+====================================================
+1) Place Irregulars
+2) Place Rangers
+3) Place ARVN Troops/Police
+4) Do not place forces
+----------------------------------------------------
+Selection: 4
+
+1 space selected for Training
+----------------------------------------------------
+Saigon
+
+US Training:
+====================================================
+1) Select a space to Train
+2) Perform a Special Activity
+3) Finished selecting spaces
+----------------------------------------------------
+Selection: 3
+
+Choose final Train action:
+====================================================
+1) Transfer patronage to ARVN resources
+2) Perform a Special Activity
+3) Finished with Train operation
+----------------------------------------------------
+Selection: 1
+Transfer how much patronage to ARVN resources (0 - 3): 3
+
+[34mDecrease Patronage by -3 to 24[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 47 to 44[0m
+[34mIncrease ARVN resources by +3 to 72[0m
+
+Do you wish to perform a special activity? (y/n) n
+[34m
+Move the US cylinder to the Op Only box[0m
+
+Finished with US turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #4 - Top Gun (US, NVA, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Performed, Shaded)
+On Deck card  : #88 - Phan Quang Dan (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+Eligible      : NVA, VC
+Acted         : US -> Op Only
+Passed        : none
+Ineligible    : ARVN
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - P
+Trung check: COIN-Controlled Pop + Patronage >= 42? [Yes]
+Trung check: 20+ NVA Troops on the map? [No]
+[31m
+Trung card flipped to its back side[0m
+----------------------------------------------------
+Trung: NVA - PP
+Trung check: 2d6 <= Available NVA Guerrillas (3): 11 [No]
+
+NVA chooses March operation
+====================================================
+
+NVA selects Kien Hoa-Vinh Binh as March destination
+----------------------------------------------------
+[35mMove 4 NVA Troops from Kien Phong to Kien Hoa-Vinh Binh[0m
+[35mMove 1 NVA Underground Guerrilla from Kien Phong to Kien Hoa-Vinh Binh[0m
+
+The moving Guerrillas must activate
+----------------------------------------------------
+[36mFlip 1 NVA Underground Guerrilla in Kien Hoa-Vinh Binh to ACTIVE[0m
+
+
+Control Changes
+----------------------------------------------------
+[33mFlip control marker in Kien Hoa-Vinh Binh to NVA Control[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 44 to 42[0m
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+[34m
+Move the NVA cylinder to the LimOp box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the ARVN cylinder to the Eligible box[0m
+[34mMove the US and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 125
+
+
+>>> ARVN turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #88 - Phan Quang Dan (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : ARVN, VC
+Acted         : none
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+
+ARVN executes the Unshaded Event: Phan Quang Dan
+----------------------------------------------------
+[34mIncrease Patronage by +5 to 29[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 42 to 47[0m
+[34m
+Move the ARVN cylinder to the Event box[0m
+
+Finished with ARVN turn
+
+
+>>> VC turn (Bot) [MONSOON] <<<
+====================================================
+Current card  : #88 - Phan Quang Dan (ARVN, VC, NVA, US)
+                ARVN -> (Critical, Unshaded), VC -> (Performed, Shaded), NVA -> (Performed, Shaded)
+On Deck card  : #125 - Coup! Nguyen Khanh
+Eligible      : VC
+Acted         : ARVN -> Event
+Passed        : none
+Ineligible    : NVA, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for VC[0m
+----------------------------------------------------
+Trung: VC - Z
+Trung check: 15+ VC Guerrillas on the map? [Yes]
+Trung check: Patronage >= 17? [Yes]
+
+VC chooses Subvert special activity
+====================================================
+
+VC Subverts in LOC Saigon -- An Loc -- Ban Me Thuot
+----------------------------------------------------
+[35mRemove 2 ARVN Police from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+[34mDecrease Patronage by -1 to 28[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'COIN Control + Patronage' marker from 47 to 46[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of VC Subvert activity
+Trung check: 3+ VC Guerrillas in any space? [Yes]
+[34m
+Move the VC cylinder to the Op - May add Special Activity box[0m
+
+Finished with VC turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and NVA cylinders to the Eligible box[0m
+[34mMove the ARVN and VC cylinders to the Ineligible box[0m
+
+
+>>> 6th Coup Round <<<
+====================================================
+Current card: #125 - Coup! Nguyen Khanh
+(coup or ?): coup
+Coup! Card: #125 - Coup! Nguyen Khanh
+----------------------------------------------------
+[31m
+Place #125 - Coup! Nguyen Khanh in the RVN Leader Box on top of the stack[0m
+
+Conduct a Coup! Round
+----------------------------------------------------
+
+Victory Phase
+====================================================
+None of the Bots has achieved its victory condition
+
+Resources Phase
+====================================================
+
+Sabotage LoCs
+----------------------------------------------------
+[33mAdd 1 sabotage marker to LOC Saigon -- An Loc -- Ban Me Thuot[0m
+[33mAdd 1 sabotage marker to LOC Cam Ranh -- Da Lat[0m
+[33mAdd 1 sabotage marker to LOC Da Nang -- Dak To[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Degrade the Trail
+----------------------------------------------------
+There are no COIN controlled spaces in Laos or Cambodia
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+ARVN Earnings
+----------------------------------------------------
+[34mSet Econ marker to 13[0m
+[34mIncrease ARVN resources by +84 to 75[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Insurgent Earnings
+----------------------------------------------------
+VC resources are not being tracked
+NVA resources are not being tracked
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Casualties and Aid
+----------------------------------------------------
+There are no pieces in the Casualties Box
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+Support Phase
+====================================================
+
+Pacification
+----------------------------------------------------
+
+US Pacification (4 spaces remaining, 75 ARVN resources, Econ is 13)
+Choose space to pacify:
+====================================================
+1) Phu Bon-Phu Yen
+2) Finished pacifying spaces
+----------------------------------------------------
+Selection: 
