@@ -27,3 +27,5 @@
 - report-054-055.md: #82 - Domino Theory
 - report-056-056.md: #82 - Domino Theory
 - report-057-058.md: #127 - Coup! Nguyen Cao Ky
+- report-059-062.md: #24 - Operation Starlite
+- report-063-066.md: #102 - Cu Chi; #123 - Vietnamization

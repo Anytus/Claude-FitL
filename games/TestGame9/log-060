@@ -1,0 +1,86 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "\nARVN Bot Pivotal Event die roll: 3  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "\nNVA Bot Pivotal Event die roll: 3  [Failure] (2 cards in leader box)",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #24 - Operation Starlite (US, VC, NVA, ARVN)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #102 - Cu Chi (VC, NVA, US, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US, VC, NVA, ARVN",
+      "color": null
+    },
+    {
+      "text": "Acted         : none",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : none",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: Operation Starlite",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Remove 4 VC Underground Guerrillas from Quang Tin-Quang Ngai to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 2 VC Bases from Quang Tin-Quang Ngai to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nScore Marker Changes",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Move the 'Total Opposition + VC Bases' marker from 26 to 24",
+      "color": "Blue"
+    },
+    {
+      "text": "\nMove the US cylinder to the Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

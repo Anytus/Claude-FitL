@@ -82,3 +82,15 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Casualties box is empty (the +3 part is worth 0 now) and it would replace #24 Operation Starlite, whose unshaded (I am first) clears all VC from Quang Tin-Quang Ngai including 2 Bases. Keep Linebacker for a later NVA peak with Casualties to recover.
 **Execution.** none
 **Result.** Declined; #24 stays current with US first.
+
+## Turn 10 — card #24 Operation Starlite — before save-059
+**Plan.** Event unshaded: remove all VC (4 Guerrillas, 2 Bases) from Quang Tin-Quang Ngai (coastal, adjacent to US Troops in Da Nang and Binh Dinh).
+**Why.** -2 VC Bases and the VC staging hub next to Da Nang and Binh Dinh gone. Weighed: Train/Pacify Pleiku + Advise Saigon and Quang Tri (+2 US, -2 NVA, Saigon to 1 Guerrilla); rejected because one Guerrilla left in Saigon still enables Terror there.
+**Execution.** none
+**Result.** Quang Tin cleared of VC; see report.
+
+## Pivotal — Linebacker II offered at draw of #78 (current #108) — before save-067
+**Plan.** Decline.
+**Why.** Now worth ~+2 (1 Casualty back, blocks Draft Dodgers shaded -1) and NVA -2. Held as the emergency brake for an NVA surge just before a Coup, when NVA Ineligibility and -2 Bases decide the Victory check and Casualties are higher.
+**Execution.** none
+**Result.** Declined; #108 proceeds.

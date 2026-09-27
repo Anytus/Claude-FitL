@@ -56,3 +56,8 @@
 2026-09-27T17:42:46	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	296	10607
 2026-09-27T17:43:11	Bash	echo "card #82 Domino Theory: LimOp Assault Binh Dinh, 2 VC Guerrillas removed —	778	2374
 2026-09-27T17:43:15	Bash	python3 tools/ctl.py send 2	61	1596
+2026-09-27T17:43:23	Bash	python3 tools/ctl.py seq "Choose one=>Finished moving" && S=/tmp/claude-0/-home-	385	15931
+2026-09-27T17:43:27	Bash	python3 -c " import json;c=json.load(open('cards.json')) cs=c if isinstance(c,li	311	2691
+2026-09-27T17:43:39	Bash	cat >> journal.md <<'EOF'  ## Pivotal — Linebacker II offered at draw of #102 (c	528	2731
+2026-09-27T17:43:44	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	448	9558
+2026-09-27T17:44:15	Bash	git add -A && git commit -qm "Coup 2 and pivotal decision" && git push -q origin	752	3298
