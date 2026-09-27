@@ -41,3 +41,5 @@
 - report-097-098.md: #128 - Coup! Nguyen Van Thieu
 - report-099-101.md: #100 - Rach Ba Rai
 - report-102-104.md: #95 - Westmoreland
+- report-105-107.md: #73 - Great Society
+- report-108-110.md: #90 - Walt Rostow

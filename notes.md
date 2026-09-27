@@ -42,3 +42,5 @@ card #87 Nguyen Chanh Thi: US ineligible (ARVN shaded Patronage +4, NVA Infiltra
 Coup 3 #128 Nguyen Van Thieu: pacified Binh Dinh to Active; 2 Troop Casualties to Kien Hoa-Vinh Binh — Coup/Train pacification site
 card #100 Rach Ba Rai: Train+Pacify Kien Hoa-Vinh Binh, Advise Quang Nam+Quang Tri — +4 US, NVA Controls broken
 card #95 Westmoreland: US ineligible (NVA Bombard+March, ARVN passed)
+card #73 Great Society: LimOp Train Saigon, Transfer 3 Patronage — ARVN at 50
+card #90 Walt Rostow: US ineligible (VC Rally+Tax, NVA shaded: Guerrillas into 6 Provinces)

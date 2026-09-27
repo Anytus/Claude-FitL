@@ -94,3 +94,5 @@
 2026-09-27T17:51:17	Bash	echo "Coup 3 #128 Nguyen Van Thieu: pacified Binh Dinh to Active; 2 Troop Casual	1156	7793
 2026-09-27T17:51:24	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" "special activity? (y/n)=>y" 	244	5740
 2026-09-27T17:51:28	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular"	98	2365
+2026-09-27T17:51:50	Bash	python3 tools/ctl.py send y | tail -1 && S=/tmp/claude-0/-home-user-Claude-FitL/	323	45190
+2026-09-27T17:52:10	Bash	echo "card #100 Rach Ba Rai: Train+Pacify Kien Hoa-Vinh Binh, Advise Quang Nam+Q	1057	10773

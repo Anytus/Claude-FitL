@@ -136,3 +136,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +4 US; Quang Nam loses NVA Control (-1 NVA), Quang Tri is cleared for a later Train/pacify (+2 ARVN, acceptable at 46 with the next Coup 6+ cards away). Passing for #95 Westmoreland rejected: VC is Ineligible there, so its shaded is no threat, and the unshaded is worth less than +4 now.
 **Execution.** none
 **Result.** Kien Hoa Active (+4, US 57); Quang Nam uncontrolled (NVA 9); Quang Tri COIN (ARVN 48); Aid +6.
+
+## Turn 15 — card #73 Great Society — before save-106
+**Plan.** Limited Op Train in Saigon (no placement), Transfer 3 Patronage.
+**Why.** ARVN is at 50 (wins at 51) and Governs about every other card; -3 now (to 47) keeps a margin for the pile-4 Coup, 4+ draws away. Great Society unshaded (a Commitment phase) and Binh Dinh re-pacify (+2) weighed below the ARVN threat.
+**Execution.** none
+**Result.** Patronage 30 -> 27, ARVN 47.
