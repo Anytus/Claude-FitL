@@ -21,3 +21,5 @@ card #110 No Contact: LimOp Sweep 3 US Troops into Binh Dinh — break NVA Contr
 card #93 Senator Fulbright: US ineligible (VC Tax, ARVN LimOp Train)
 Coup 1 #126 Young Turks: pacified Saigon to Active and Da Nang to Active, no Commitment moves — +8 US, no withdrawal shift
 card #43 Economic Aid: US eligible but NVA Op+Bombard and ARVN event ended card
+card #109 Nguyen Huu Tho: Train+Pacify Binh Dinh, Advise Saigon (VC Base+Guerrilla) and Quang Tri — clear Saigon; +4 US; NVA -2
+card #70 ROKs: US ineligible (ARVN Train/Base, VC Rally)

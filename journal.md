@@ -46,3 +46,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Every Troop placed costs a point and a withdrawal costs a population shift the VC would aim at Saigon; the 4 Troops in Binh Dinh (now with 4 ARVN Police) and 2 in Da Nang already serve the next Support phase. Quang Tri's pieces cannot move (NVA Control).
 **Execution.** none
 **Result.** No moves, no withdrawal shifts.
+
+## Turn 6 — card #109 Nguyen Huu Tho — before save-040
+**Plan.** Op + SA: Train Binh Dinh (no placement), Pacify it 2 levels to Active; Advise Ranger removal in Saigon (VC Guerrilla + Base) and Quang Nam (2 NVA Troops), +6 Aid.
+**Why.** A VC Guerrilla in Saigon exposes 12 points to Terror and Coup Agitation; clearing it (and the Base, -1 VC) comes first. Binh Dinh +4 US; Quang Nam back to COIN Control (-1 NVA). Passing for ROKs was weighed and rejected: Saigon cannot wait.
+**Execution.** Pacify space auto-selected (one candidate), so seq stopped: "no menu entry starts with 'Binh Dinh'" (nothing sent); resumed at the level menu. Changed the second Advise space from Quang Nam to Quang Tri (pop 2, same 2-Troop removal) when both were offered.
+**Result.** Binh Dinh Active (+4, US 49); Saigon cleared (VC -1); Quang Tri back to COIN Control (NVA 15 -> 13, ARVN 47); Aid +6.

@@ -42,3 +42,6 @@
 2026-09-27T17:38:47	Bash	python3 tools/render.py 2>&1 | head -80	54	6245
 2026-09-27T17:39:14	Bash	cat >> journal.md <<'EOF'  ## Coup 1 — Commitment — before save-034 **Plan.** Mo	485	2244
 2026-09-27T17:39:28	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	219	33643
+2026-09-27T17:40:02	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" "special activity? (y/n)=>y" 	241	5499
+2026-09-27T17:40:07	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	149	2952
+2026-09-27T17:40:18	Bash	python3 tools/ctl.py send y | tail -3 && S=/tmp/claude-0/-home-user-Claude-FitL/	604	30171

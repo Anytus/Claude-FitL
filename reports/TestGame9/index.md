@@ -17,3 +17,6 @@
 - report-035-035.md: #126 - Coup! Young Turks
 - report-036-038.md: #43 - Economic Aid
 - report-039-040.md: #109 - Nguyen Huu Tho
+- report-041-041.md: #109 - Nguyen Huu Tho
+- report-042-044.md: #70 - ROKs
+- report-045-045.md: #25 - TF-116 Riverines
