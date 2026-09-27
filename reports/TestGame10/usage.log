@@ -122,3 +122,7 @@
 2026-09-27T19:39:59	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -12	133	1523
 2026-09-27T19:40:04	Bash	python3 tools/ctl.py seq "US Move troops to Ba Xuyen from=>Finished"; python3 to	176	1404
 2026-09-27T19:40:12	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Finished moving troops"; python3	177	25311
+2026-09-27T19:41:07	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1619	9176
+2026-09-27T19:41:15	Bash	python3 tools/ctl.py seq "Pacify=>Shift 2 levels" "special activity? (y/n)=>y" "	285	4171
+2026-09-27T19:41:21	Bash	python3 tools/ctl.py seq "ARVN Sweep in which space=>An Loc" "Choose Advise opti	264	3496
+2026-09-27T19:41:50	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	125	45215

@@ -51,3 +51,5 @@ card #56 Vo Nguyen Giap: Pass — be first on #30 USS New Jersey, deny VC -8
 card #30 USS New Jersey: Event unshaded, strike Da Nang/Quang Nam/Binh Dinh — NVA 16 to 14, deny VC -8
 card #45 PT-76: US ineligible (NVA took shaded capability)
 card #77 Detente: LimOp Sweep Kien Hoa Troops into Ba Xuyen — dodge My Lai target
+card #119 My Lai: US ineligible (VC hit Quang Tri)
+card #33 MiGs: Train/Pacify Ba Xuyen, Advise ARVN Sweep An Loc + Qui Nhon — blunt VC General Uprising

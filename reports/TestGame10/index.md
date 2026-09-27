@@ -62,3 +62,6 @@
 - report-128-128.md: #77 - Detente
 - report-129-131.md: #119 - My Lai
 - report-132-133.md: #33 - MiGs
+- report-134-134.md: #33 - MiGs
+- report-135-137.md: #96 - APC
+- report-138-138.md: #11 - Abrams

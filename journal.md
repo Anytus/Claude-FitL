@@ -206,5 +206,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 21 — card #33 MiGs — before save-133
 **Plan.** Op + SA: Train Ba Xuyen (no placement), Pacify 2 levels (Neutral → Active); Advise ARVN Sweep in An Loc (2 Underground VC) and Qui Nhon (1 Underground VC); +6 Aid.
 **Why.** Next card APC: VC first, Critical shaded = "General uprising" (free Terror with each Underground VC, 6 VC pieces into Cities, mass Attack). Activating the VC in An Loc and Qui Nhon (both Support) stops Terror there; Ba Xuyen +2. Sweep + Air Lift to pull exposed Troops weighed; it cannot reach Qui Nhon's Guerrilla.
+**Execution.** none
+**Result.** Terror prevented in An Loc and Qui Nhon; Ba Xuyen +2. The uprising still cost: VC Bases into Saigon and Hue (x2), 4 US Troops to Casualties (Quang Tri, An Loc), Tay Ninh to Active Opposition. VC 33/35.
+
+## Turn 22 — card #11 Abrams — before save-138
+**Plan.** Op + SA: Train Quang Tri (no placement), Pacify there (remove terror + 2 levels, Active Opposition → Neutral, 9 Resources); Advise ARVN Assault in Saigon (1 VC Base) and Hue (2 VC Bases); +6 Aid.
+**Why.** VC is at 33/35 with the Coup somewhere in the next five draws: this is VC -7 (3 Bases, 4 Opposition). US Assault is barred (Lansdale), so the Bases go through Advise's ARVN Assault. Abrams unshaded (keeps NVA's shaded capability off) weighed; VC's margin comes first.
 **Execution.**
 **Result.**
