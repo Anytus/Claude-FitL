@@ -17,3 +17,5 @@ card #79 Henry Cabot Lodge: Train/Pacify Binh Dinh Active, Advise Pleiku Base + 
 card #55 Trucks: US ineligible
 card #110 No Contact: Pass — ARVN Critical next; US gets Op+SA, NVA shut out
 card #63 Fact Finding: Train Saigon Transfer 3 Patronage, Advise Binh Dinh Base + Quang Tri — hold ARVN below 50
+card #112 Colonel Chau: US ineligible
+card #118 Korean War Arms: LimOp Assault Binh Dinh — break NVA Control, NVA 16 to 14

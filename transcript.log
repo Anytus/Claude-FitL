@@ -1945,4 +1945,198 @@ Eligible      : US
 Acted         : ARVN -> Op/Special Activity
 Passed        : none
 Ineligible    : VC, NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+4) Assault
+----------------------------------------------------
+Selection: 4
+
+US chooses Assault operation
+====================================================
+
+Spaces Assaulted
+----------------------------------------------------
+none
+
+US Assault:
+====================================================
+1) Select a space to Assault
+2) Finished selecting spaces
+----------------------------------------------------
+Selection: 1
+
+Assault in which space:  Binh Dinh
+
+US assaults in Binh Dinh
+----------------------------------------------------
+The assault inflicts 1 hit
+[35mRemove 1 NVA Troop from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mRemove NVA Control marker from Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 16 to 14[0m
+
+Spaces Assaulted
+----------------------------------------------------
+Binh Dinh
+
+There are no more spaces eligible for Assault
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 97
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+VC executes the Shaded Event: Burning Bonze
+----------------------------------------------------
+[33mFlip Active Support marker in Saigon to Passive Support[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 44 to 38[0m
+[34mDecrease US Aid by -12 to 29[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #107 - Burning Bonze (VC, NVA, ARVN, US)
+                VC -> (Critical, Shaded), NVA -> (Ignored), ARVN -> (Critical, Unshaded)
+On Deck card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+Eligible      : NVA
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+[31m
+Drawing Trung Card for NVA[0m
+----------------------------------------------------
+Trung: NVA - Q
+Trung check: 2d6 <= Available NVA Guerrillas (14): 7 [Yes]
+Trung check: 6+ NVA Troops in any space with COIN Troops or COIN Base? [Yes]
+
+NVA chooses Attack operation
+====================================================
+
+NVA Attacks in Binh Dinh using Troops
+----------------------------------------------------
+[35mRemove 2 US Troops from Binh Dinh to CASUALTIES[0m
+[35mRemove 1 US Underground Irregular from Binh Dinh to CASUALTIES[0m
+
+Attrition:
+----------------------------------------------------
+[35mRemove 2 NVA Troops from Binh Dinh to AVAILABLE[0m
+
+Control Changes
+----------------------------------------------------
+[33mPlace NVA Control marker in Binh Dinh[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'NVA Control + NVA Bases' marker from 14 to 16[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 6 [Success!]
+
+NVA Attacks in Quang Nam using Troops
+----------------------------------------------------
+[35mRemove 1 ARVN Police from Quang Nam to AVAILABLE[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA activation roll against activation number of 2
+----------------------------------------------------
+Die roll: 2 [Failure]
+
+NVA chooses Bombard special activity
+====================================================
+
+NVA Bombards Quang Tri-Thua Thien
+----------------------------------------------------
+[35mRemove 1 US Troop from Quang Tri-Thua Thien to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+NVA Bombards Da Nang
+----------------------------------------------------
+[35mRemove 1 US Troop from Da Nang to CASUALTIES[0m
+
+[32m>>>>> [ Press Enter to continue... ] <<<<<[0m
+
+----------------------------------------------------
+End of NVA Bombard activity
+[34m
+Move the NVA cylinder to the Op - May add Special Activity box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US and ARVN cylinders to the Eligible box[0m
+[34mMove the VC and NVA cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 15
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #97 - Brinks Hotel (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Performed, Unshaded), 
+                NVA -> (Performed, Unshaded)
+On Deck card  : #15 - Medevac (US, ARVN, NVA, VC)
+                ARVN -> (Performed, Unshaded), NVA -> (Performed, Shaded), 
+                VC -> (Performed, Shaded)
+Eligible      : US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC, NVA
 (perform or ?): 

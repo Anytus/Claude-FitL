@@ -10,3 +10,6 @@
 - report-024-024.md: #63 - Fact Finding
 - report-025-027.md: #112 - Colonel Chau
 - report-028-029.md: #118 - Korean War Arms
+- report-030-030.md: #118 - Korean War Arms
+- report-031-033.md: #107 - Burning Bonze
+- report-034-034.md: #97 - Brinks Hotel

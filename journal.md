@@ -44,5 +44,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 5 — card #118 Korean War Arms — before save-029
 **Plan.** Limited Op Assault in Binh Dinh (2 US Troops, Highland: 1 hit on an NVA Troop).
 **Why.** NVA is at 16/18 and the next Coup can come within four cards; one Troop removed ends NVA Control of Binh Dinh (-2). The Event (VC loses 4 Guerrillas) helps against the rival furthest from winning.
+**Execution.** none
+**Result.** 1 NVA Troop removed, Binh Dinh Control broken (NVA 14). Then Burning Bonze took Saigon to Passive (-6, Aid -12) and NVA Attack/Bombard put 4 US Troops, 1 Irregular in Casualties and retook Binh Dinh (NVA 16).
+
+## Turn 6 — card #97 Brinks Hotel — before save-034
+**Plan.** Op + SA: Train Saigon (no placement), Pacify Saigon to Active; Advise Ranger in Quang Nam (remove 2 NVA Troops) and Irregular in Quang Tri (remove 2 VC Guerrillas); +6 Aid.
+**Why.** Saigon back to Active is +6 for 3 Resources; Quang Nam loses NVA Control (-1); Quang Tri's VC Base loses its guards. Passing to be first on #15 (Medevac) weighed: it costs a whole US action for a turn-order edge that only matters if the next draw is the Coup (1 in 13).
 **Execution.**
 **Result.**
