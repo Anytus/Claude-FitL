@@ -39,3 +39,5 @@
 - report-091-093.md: #38 - McNamara Line
 - report-094-096.md: #87 - Nguyen Chanh Thi
 - report-097-098.md: #128 - Coup! Nguyen Van Thieu
+- report-099-101.md: #100 - Rach Ba Rai
+- report-102-104.md: #95 - Westmoreland

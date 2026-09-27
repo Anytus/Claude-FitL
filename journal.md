@@ -130,3 +130,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Pop-2 Neutral space with COIN Control and a Police: US Troops there make it a Train/pacify site now and a Coup-pacification site (+4). Deploying more from Available costs a point each with Govern eroding ARVN-cube spaces.
 **Execution.** none
 **Result.** 2 US Troops in Kien Hoa-Vinh Binh.
+
+## Turn 14 — card #100 Rach Ba Rai — before save-100
+**Plan.** Op + SA: Train Kien Hoa-Vinh Binh (no placement), Pacify 2 levels to Active; Advise Ranger removal in Quang Nam (2 NVA Troops) and Irregular removal in Quang Tri (1 NVA Troop); +6 Aid.
+**Why.** +4 US; Quang Nam loses NVA Control (-1 NVA), Quang Tri is cleared for a later Train/pacify (+2 ARVN, acceptable at 46 with the next Coup 6+ cards away). Passing for #95 Westmoreland rejected: VC is Ineligible there, so its shaded is no threat, and the unshaded is worth less than +4 now.
+**Execution.** none
+**Result.** Kien Hoa Active (+4, US 57); Quang Nam uncontrolled (NVA 9); Quang Tri COIN (ARVN 48); Aid +6.

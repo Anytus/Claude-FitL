@@ -40,3 +40,5 @@ card #10 Rolling Thunder: replaced by NVA pivotal Easter Offensive; US ineligibl
 card #38 McNamara Line: Train Saigon, Transfer 3 Patronage, Advise Pleiku+Quang Tri — ARVN 47 before ARVN-Critical Patronage +4 card
 card #87 Nguyen Chanh Thi: US ineligible (ARVN shaded Patronage +4, NVA Infiltrate)
 Coup 3 #128 Nguyen Van Thieu: pacified Binh Dinh to Active; 2 Troop Casualties to Kien Hoa-Vinh Binh — Coup/Train pacification site
+card #100 Rach Ba Rai: Train+Pacify Kien Hoa-Vinh Binh, Advise Quang Nam+Quang Tri — +4 US, NVA Controls broken
+card #95 Westmoreland: US ineligible (NVA Bombard+March, ARVN passed)

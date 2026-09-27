@@ -90,3 +90,7 @@
 2026-09-27T17:49:55	Bash	echo "card #38 McNamara Line: Train Saigon, Transfer 3 Patronage, Advise Pleiku+	749	3744
 2026-09-27T17:50:05	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	250	8213
 2026-09-27T17:50:32	Bash	cat >> journal.md <<'EOF'  ## Coup 3 — Commitment — before save-097 **Plan.** Pl	577	3402
+2026-09-27T17:50:40	Bash	S=/tmp/claude-0/-home-user-Claude-FitL/99076937-f92c-53da-9ea5-1842123c6b76/scra	222	24733
+2026-09-27T17:51:17	Bash	echo "Coup 3 #128 Nguyen Van Thieu: pacified Binh Dinh to Active; 2 Troop Casual	1156	7793
+2026-09-27T17:51:24	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" "special activity? (y/n)=>y" 	244	5740
+2026-09-27T17:51:28	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular"	98	2365
