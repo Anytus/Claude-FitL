@@ -30,3 +30,5 @@
 - report-059-062.md: #24 - Operation Starlite
 - report-063-066.md: #102 - Cu Chi; #123 - Vietnamization
 - report-067-069.md: #108 - Draft Dodgers
+- report-070-073.md: #78 - General Lansdale; #121 - Linebacker II
+- report-074-076.md: #83 - Election

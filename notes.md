@@ -31,3 +31,5 @@ Coup 2 #127 Nguyen Cao Ky: no US pacify candidates; 2 Troop Casualties placed in
 card #24 Operation Starlite: Event unshaded, all VC out of Quang Tin (2 Bases) — kill VC hub by Da Nang/Binh Dinh
 card #102 Cu Chi: replaced by ARVN pivotal Vietnamization; US ineligible; declined Linebacker twice — hold for NVA surge before a Coup
 card #108 Draft Dodgers: US eligible 4th; VC Rally+Tax and NVA shaded (-1 US Troop to Out of Play) ended card
+card #78 General Lansdale: replaced by US pivotal Linebacker II — deny ARVN +3 Patronage and Assault ban; NVA -2 Bases
+card #83 Election: US ineligible (ARVN Train, VC passed)

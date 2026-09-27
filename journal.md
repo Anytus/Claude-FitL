@@ -94,3 +94,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Now worth ~+2 (1 Casualty back, blocks Draft Dodgers shaded -1) and NVA -2. Held as the emergency brake for an NVA surge just before a Coup, when NVA Ineligibility and -2 Bases decide the Victory check and Casualties are higher.
 **Execution.** none
 **Result.** Declined; #108 proceeds.
+
+## Pivotal — Linebacker II offered at draw of #83 (current #78 General Lansdale) — before save-070
+**Plan.** Play Linebacker II (replaces #78).
+**Why.** ARVN is first and Critical on Lansdale shaded: Patronage +3 (ARVN 47 -> 50) and no US Assault until the next Coup (up to ~15 cards, with 3 VC Guerrillas in Saigon). Linebacker deletes it, NVA -2 Bases (15 -> 13) and Ineligible, +1 Casualty to Available.
+**Execution.** 'perform' executed the pivotal directly (no Choose-one menu); the seq's second step found no prompt and sent nothing.
+**Result.** NVA removed Bases in Parrot's Beak and Southern Laos (13); 1 Troop Casualty to Available (US 53); NVA Ineligible through next card.
