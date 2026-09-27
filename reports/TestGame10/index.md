@@ -82,3 +82,7 @@
 - report-166-167.md: #20 - Laser Guided Bombs
 - report-168-170.md: #32 - Long Range Guns
 - report-171-172.md: #52 - RAND
+- report-173-173.md: #52 - RAND
+- report-174-176.md: #21 - Americal
+- report-177-179.md: #84 - To Quoc
+- report-180-181.md: #42 - Chou En Lai

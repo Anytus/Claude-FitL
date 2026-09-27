@@ -63,3 +63,5 @@ card #2 Kissinger: Train Kien Phong (Irregulars) + Pacify, Advise ARVN Assault H
 card #8 Arc Light: US ineligible (VC shaded capability)
 card #41 Bombing Pause: Pass — first on #20, deny VC/NVA its shaded
 card #20 Laser Guided Bombs: Air Lift + Assault Saigon Base, Binh Dinh — NVA 17 to 15, VC 33 to 32
+card #32 Long Range Guns: US ineligible
+card #52 RAND: Train Saigon Transfer 3, Advise Quang Tri VC Base + ARVN Assault Binh Dinh NVA Base — all bots 3 short

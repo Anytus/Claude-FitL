@@ -165,3 +165,8 @@
 2026-09-27T19:50:08	Bash	python3 tools/ctl.py seq "US Assault=>Select a space" "Assault in which space=>B	203	2287
 2026-09-27T19:50:12	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py screen | tail -14	134	9419
 2026-09-27T19:50:20	Bash	python3 tools/ctl.py advance	93	26424
+2026-09-27T19:50:50	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1853	9026
+2026-09-27T19:51:00	Bash	python3 tools/ctl.py seq "Transfer how much=>3" "special activity? (y/n)=>y" "Ch	328	5809
+2026-09-27T19:51:04	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"; python3 tools/	177	1023
+2026-09-27T19:51:08	Bash	python3 tools/ctl.py send "Binh Dinh"; python3 tools/ctl.py screen | tail -14	154	2232
+2026-09-27T19:51:29	Bash	python3 tools/ctl.py send y; python3 tools/ctl.py advance	125	35678

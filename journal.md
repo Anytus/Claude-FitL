@@ -260,5 +260,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 28 — card #52 RAND — before save-172
 **Plan.** Op + SA: Train Saigon (no placement), Transfer 3 Patronage; Advise Irregular in Quang Tri (remove the lone VC Base) and ARVN Assault in Binh Dinh (6 Troops, 2 hits on the lone NVA Base; Binh Dinh already Active Opposition, so the S&D shaded shift does nothing); +6 Aid.
 **Why.** All three bots are 3 short with the Coup within seven draws: ARVN 47 → 44, VC 32 → 31, NVA 15 → 14. Passing to take Americal unshaded (+4 US) next weighed; it lets ARVN act here with Govern while at 47.
+**Execution.** Pacify Saigon (+6) was also on the final-action menu; took Transfer as planned. Second `ARVN Assault in which space:` typed (`Binh Dinh`).
+**Result.** As planned (ARVN 44, VC 31, NVA 14). Then NVA swapped Kien Giang's VC Base for its own; ARVN Governed Hue and Kien Hoa (-4 US); VC To Quoc placed Guerrillas in Hue, Kontum, Saigon; NVA Bombarded 3 Troops and marched into Binh Dinh, Quang Tri, Kien Phong: NVA 22/18.
+
+## Turn 29 — card #42 Chou En Lai — before save-181
+**Plan.** Limited Op Train in Kien Phong placing 2 Irregulars (taken from Quang Tri, 0 Available), making it COIN-controlled (8 vs 7), then Pacify it to Active Support.
+**Why.** NVA is at 22 with the Coup in the next four draws; NVA's Op + SA leaves me one space. This is NVA -2 and US +2 with no Assault shift (S&D is now shaded). Chou En Lai unshaded (NVA removes a d6 of Troops, its choice) likely costs it no Control. Sweep into Binh Dinh from Qui Nhon weighed: also -2, no US gain.
 **Execution.**
 **Result.**
