@@ -1,0 +1,78 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #77 - Detente (ARVN, NVA, VC, US)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #119 - My Lai (VC, ARVN, NVA, US)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : ARVN -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : VC",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : NVA",
+      "color": null
+    },
+    {
+      "text": "US Assault is prohibited [Momentum: #78 General Lansdale]",
+      "color": "Red"
+    },
+    {
+      "text": "\nUS chooses Sweep operation",
+      "color": null
+    },
+    {
+      "text": "====================================================",
+      "color": null
+    },
+    {
+      "text": "\nBa Xuyen selected for Sweep",
+      "color": null
+    },
+    {
+      "text": "\n",
+      "color": null
+    },
+    {
+      "text": "Move 2 US Troops from Kien Hoa-Vinh Binh to Ba Xuyen",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nNo guerrillas were activated in Ba Xuyen",
+      "color": null
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}

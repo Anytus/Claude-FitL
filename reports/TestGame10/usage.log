@@ -116,3 +116,9 @@
 2026-09-27T19:38:48	Bash	python3 tools/ctl.py seq "Air Strike: (6 hits=>Remove insurgents in Da Nang"; py	185	1246
 2026-09-27T19:38:55	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py seq "Air Strike: (4 hits=>Remo	362	4841
 2026-09-27T19:39:13	Bash	python3 tools/ctl.py advance	93	50351
+2026-09-27T19:39:47	Bash	python3 - <<'EOF' p='journal.md'; s=open(p).read() s=s.replace("**Execution.**\n	1663	11284
+2026-09-27T19:39:51	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Ba Xuyen"; python3 tools/ctl.py 	177	1457
+2026-09-27T19:39:55	Bash	python3 tools/ctl.py seq "US Move troops to Ba Xuyen from=>Kien Hoa"; python3 to	175	1058
+2026-09-27T19:39:59	Bash	python3 tools/ctl.py send 2; python3 tools/ctl.py screen | tail -12	133	1523
+2026-09-27T19:40:04	Bash	python3 tools/ctl.py seq "US Move troops to Ba Xuyen from=>Finished"; python3 to	176	1404
+2026-09-27T19:40:12	Bash	python3 tools/ctl.py seq "US Sweep Troops into=>Finished moving troops"; python3	177	25311

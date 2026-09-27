@@ -200,5 +200,11 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 ## Turn 20 — card #77 Detente — before save-127
 **Plan.** Limited Op Sweep into Ba Xuyen, moving the 2 US Troops out of Kien Hoa-Vinh Binh.
 **Why.** Next card My Lai (VC first, Critical shaded) sets a Province with US Troops to Active Opposition and adds a VC Base. Emptying Kien Hoa (pop 2 Active Support, near Saigon, more durable than Quang Tri) removes it as a target; Ba Xuyen (Police, COIN) becomes a Coup-pacification space. Detente unshaded (5 NVA Troops Out of Play) weighed; it does not reduce NVA's score.
+**Execution.** Sweep chain: `US Sweep Troops into:` → `US Move troops to Ba Xuyen from:` → `Move how many US Troops (0 - 2)`.
+**Result.** Kien Hoa spared, but My Lai hit Quang Tri instead (Active Support → Active Opposition, VC Base; -4 US, +5 VC). NVA took MiGs shaded (capability).
+
+## Turn 21 — card #33 MiGs — before save-133
+**Plan.** Op + SA: Train Ba Xuyen (no placement), Pacify 2 levels (Neutral → Active); Advise ARVN Sweep in An Loc (2 Underground VC) and Qui Nhon (1 Underground VC); +6 Aid.
+**Why.** Next card APC: VC first, Critical shaded = "General uprising" (free Terror with each Underground VC, 6 VC pieces into Cities, mass Attack). Activating the VC in An Loc and Qui Nhon (both Support) stops Terror there; Ba Xuyen +2. Sweep + Air Lift to pull exposed Troops weighed; it cannot reach Qui Nhon's Guerrilla.
 **Execution.**
 **Result.**

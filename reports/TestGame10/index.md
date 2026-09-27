@@ -59,3 +59,6 @@
 - report-120-121.md: #30 - USS New Jersey
 - report-122-124.md: #45 - PT-76
 - report-125-127.md: #77 - Detente
+- report-128-128.md: #77 - Detente
+- report-129-131.md: #119 - My Lai
+- report-132-133.md: #33 - MiGs

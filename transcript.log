@@ -7943,4 +7943,186 @@ Eligible      : US
 Acted         : ARVN -> Op/Special Activity
 Passed        : VC
 Ineligible    : NVA
+(perform or ?): perform
+
+Choose one:
+====================================================
+1) Event
+2) Limited Op
+3) Pass
+----------------------------------------------------
+Selection: 2
+Notes:
+----------------------------------------------------
+[31mUS Assault is prohibited [Momentum: #78 General Lansdale][0m
+
+Choose operation:
+====================================================
+1) Train
+2) Patrol
+3) Sweep
+----------------------------------------------------
+Selection: 3
+
+US chooses Sweep operation
+====================================================
+
+0 spaces selected for Sweep
+----------------------------------------------------
+
+
+US Sweep space:
+====================================================
+1) Select a Sweep space
+2) Finished selecting Sweep spaces
+----------------------------------------------------
+Selection: 1
+
+Sweep in which space: Ba Xuyen
+
+Ba Xuyen selected for Sweep
+
+1 space selected for Sweep
+----------------------------------------------------
+Ba Xuyen
+
+US Sweep Troops into:
+====================================================
+1) Ba Xuyen
+2) Finished moving troops
+----------------------------------------------------
+Selection: 1
+
+US Move troops to Ba Xuyen from:
+====================================================
+1) Can Tho
+2) Kien Hoa-Vinh Binh
+3) Finished moving troops to Ba Xuyen
+----------------------------------------------------
+Selection: 2
+Move how many US Troops (0 - 2): 2
+
+
+[35mMove 2 US Troops from Kien Hoa-Vinh Binh to Ba Xuyen[0m
+
+US Move troops to Ba Xuyen from:
+====================================================
+1) Can Tho
+2) Finished moving troops to Ba Xuyen
+----------------------------------------------------
+Selection: 2
+
+US Sweep Troops into:
+====================================================
+1) Ba Xuyen
+2) Finished moving troops
+----------------------------------------------------
+Selection: 2
+
+No guerrillas were activated in Ba Xuyen
+[34m
+Move the US cylinder to the LimOp or Event box[0m
+
+Finished with US turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the VC and NVA cylinders to the Eligible box[0m
+[34mMove the US and ARVN cylinders to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 33
+
+
+>>> VC turn (Bot) <<<
+====================================================
+Current card  : #119 - My Lai (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+On Deck card  : #33 - MiGs (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : VC, NVA
+Acted         : none
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+VC executes the Shaded Event: My Lai
+----------------------------------------------------
+
+[33mReplace Active Support marker in Quang Tri-Thua Thien with Active Opposition marker[0m
+[35mPlace 1 VC Base from AVAILABLE into Quang Tri-Thua Thien[0m
+[34mDecrease US Aid by -6 to 35[0m
+
+Score Marker Changes
+----------------------------------------------------
+[34mMove the 'Support + Avail US' marker from 51 to 47[0m
+[34mMove the 'Total Opposition + VC Bases' marker from 23 to 28[0m
+[34m
+Move the VC cylinder to the Event box[0m
+
+Finished with VC turn
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #119 - My Lai (VC, ARVN, NVA, US)
+                VC -> (Critical, Shaded), ARVN -> (Critical, Unshaded), NVA -> (Ignored)
+On Deck card  : #33 - MiGs (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+Eligible      : NVA
+Acted         : VC -> Event
+Passed        : none
+Ineligible    : ARVN, US
+(perform or ?): perform
+
+NVA faction passes
+----------------------------------------------------
+[34m
+Move the NVA cylinder to the Pass box[0m
+
+Finished with NVA turn
+
+Adjust eligiblity
+----------------------------------------------------
+[34mMove the US, ARVN, and NVA cylinders to the Eligible box[0m
+[34mMove the VC cylinder to the Ineligible box[0m
+
+Draw event card
+----------------------------------------------------
+Enter the number of the next On Deck Event card: 96
+
+
+>>> NVA turn (Bot) <<<
+====================================================
+Current card  : #33 - MiGs (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #96 - APC (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Ignored), NVA -> (Ignored)
+Eligible      : NVA, US, ARVN
+Acted         : none
+Passed        : none
+Ineligible    : VC
+(perform or ?): perform
+
+NVA executes the Shaded Event: MiGs
+----------------------------------------------------
+[31m
+Capability: '#33 MiGs (shaded)' is now in effect[0m
+[34m
+Move the NVA cylinder to the Event box[0m
+
+Finished with NVA turn
+
+
+>>> US turn (Human) <<<
+====================================================
+Current card  : #33 - MiGs (NVA, US, ARVN, VC)
+                NVA -> (Critical, Shaded), ARVN -> (Performed, Unshaded), VC -> (Ignored)
+On Deck card  : #96 - APC (VC, US, ARVN, NVA)
+                VC -> (Critical, Shaded), ARVN -> (Ignored), NVA -> (Ignored)
+Eligible      : US, ARVN
+Acted         : NVA -> Event
+Passed        : none
+Ineligible    : VC
 (perform or ?): 
