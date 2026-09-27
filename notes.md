@@ -48,3 +48,5 @@ card #22 Da Nang: Train Kien Hoa (Irregular)+Saigon, Transfer 3, Advise Binh Din
 card #18 Combined Action Platoons: US ineligible (ARVN Assault Saigon, NVA LimOp Rally)
 card #106 Binh Duong: Train+Pacify Binh Dinh, Advise Kien Hoa (NVA G) + ARVN Sweep Hue — +2 US, protect Support spaces
 card #21 Americal: US ineligible (NVA Rally+Bombard, ARVN Assault Hue)
+card #58 Pathet Lao / #124 Tet Offensive: Train Da Nang (placeholder), Advise ARVN Assault Saigon+Hue — cleared 2 VC Bases and 4 Guerrillas from cities
+card #3 Peace Talks: US ineligible (NVA March 13 Troops into Saigon, ARVN Train Saigon)

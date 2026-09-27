@@ -47,3 +47,5 @@
 - report-114-117.md: #18 - Combined Action Platoons
 - report-118-120.md: #106 - Binh Duong
 - report-121-123.md: #21 - Americal
+- report-124-127.md: #58 - Pathet Lao; #124 - Tet Offensive
+- report-128-130.md: #3 - Peace Talks

@@ -104,3 +104,9 @@
 2026-09-27T17:53:48	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 1 level to Active" "special activity? (	202	4729
 2026-09-27T17:53:51	Bash	python3 tools/ctl.py seq "Choose Advise option=>Sweep a space"	98	1188
 2026-09-27T17:53:54	Bash	python3 tools/ctl.py seq "ARVN Sweep in which space=>Hue"	93	1332
+2026-09-27T17:54:21	Bash	python3 tools/ctl.py send y | tail -1 && S=/tmp/claude-0/-home-user-Claude-FitL/	370	46833
+2026-09-27T17:54:55	Bash	echo "card #106 Binh Duong: Train+Pacify Binh Dinh, Advise Kien Hoa (NVA G) + AR	1193	6444
+2026-09-27T17:55:00	Bash	python3 tools/ctl.py seq "special activity? (y/n)=>y" "Choose special activity=>	167	2411
+2026-09-27T17:55:03	Bash	python3 tools/ctl.py send Saigon	66	2280
+2026-09-27T17:55:07	Bash	python3 tools/ctl.py seq "Choose Advise option=>Assault a space"	100	790
+2026-09-27T17:55:10	Bash	python3 tools/ctl.py send Hue	63	1877

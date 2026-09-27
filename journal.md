@@ -154,3 +154,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** +2 US; Kien Hoa (Active, pop 2) loses its Terror threat; Hue's VC made Active cannot Terror before the Coup Reset. ARVN 42 needs no transfer this card.
 **Execution.** none (Advise ARVN Sweep chain: 'ARVN Sweep in which space' menu).
 **Result.** As planned: Binh Dinh Active (US 57), Kien Hoa clear, Hue's 2 VC Active, Aid +6.
+
+## Turn 18 — card #58 Pathet Lao replaced by #124 Tet Offensive — before save-126
+**Plan.** Op + SA: Train Da Nang (placeholder, nothing placed, no final action); Advise ARVN Assault in Saigon (11 ARVN cubes vs 2 Active VC + Base) and Hue (6 cubes vs 2 Active VC + Base); +6 Aid.
+**Why.** Tet left VC Bases and Guerrillas in both cities; ARVN Assault can clear the Guerrillas and then the bare Bases (-2 VC, each Base +6 Aid). All my Train spaces are already at Active Support, and Train in Saigon would block Advise there.
+**Execution.** none ('ARVN Assault in which space:' is a typed prompt; Aid capped at 75).
+**Result.** Saigon and Hue cleared: 4 VC Guerrillas and 2 Bases removed (VC 26 -> 24).
