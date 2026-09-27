@@ -106,3 +106,9 @@ given in `CLAUDE.md`. Previous games' journals are under `archive/`.
 **Why.** Leaves Saigon with one Active Guerrilla, which cannot Terror; Binh Dinh cleared. Quang Tri Advise rejected: its COIN Control would lift ARVN 47 -> 49 with a Coup possible from the next draw.
 **Execution.** Deviation: after the Sweep in Saigon resolved (2 VC flipped Active), the SA menu offered only 'Air Lift, Air Strike, Do not perform' — Advise accompanies only Train/Patrol (already in RULES_LEARNED; my error). seq stopped: "no menu entry starts with 'Advise'". Typed abort, 'Really abort (y/n)?' y: the program restored the 3 Underground Guerrillas and returned to perform. Redid as Train Pleiku-Darlac (no placement) + Pacify 2 levels (8 Resources under Ky), Advise Ranger in Saigon (2 Underground VC removed) and Irregular in Binh Dinh (1 VC), +6 Aid.
 **Result.** Pleiku Active (+2, US 55); Saigon down to 1 Underground VC; Binh Dinh clear.
+
+## Turn 12 — card #81 CIDG — before save-085
+**Plan.** Event unshaded: replace a die roll of VC Guerrillas, Saigon's first, then LoC Guerrillas and spaces where the swap does not create COIN Control; Rangers/Police as replacements (no Irregulars Available).
+**Why.** Removes the last Terror-capable VC in Saigon plus up to 5 more at no cost; a Limited Op cannot touch an Underground Guerrilla.
+**Execution.** Roll was 3. First seq stopped at an unrecorded 'Place how many ARVN Police (0 - 1)' after each replacement; answered 1 each time.
+**Result.** Saigon clear of VC (+1 Police there); VC Guerrillas on Da Nang-Qui Nhon and Saigon-An Loc LoCs replaced by Police.

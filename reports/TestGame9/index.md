@@ -34,3 +34,5 @@
 - report-074-076.md: #83 - Election
 - report-077-080.md: #104 - Main Force Bns
 - report-081-083.md: #39 - Oriskany
+- report-084-086.md: #81 - CIDG
+- report-087-090.md: #10 - Rolling Thunder; #122 - Easter Offensive

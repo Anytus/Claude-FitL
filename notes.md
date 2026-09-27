@@ -35,3 +35,5 @@ card #78 General Lansdale: replaced by US pivotal Linebacker II — deny ARVN +3
 card #83 Election: US ineligible (ARVN Train, VC passed)
 card #104 Main Force Bns: Train+Pacify Pleiku, Advise Saigon (2 VC) and Binh Dinh (1 VC) — after an aborted Sweep attempt; +2 US
 card #39 Oriskany: US ineligible (NVA March+Bombard, ARVN unshaded -3 NVA Bases, Trail 1)
+card #81 CIDG: Event unshaded (roll 3), VC in Saigon and 2 LoCs replaced by Police — clear Saigon's last Terror-capable VC
+card #10 Rolling Thunder: replaced by NVA pivotal Easter Offensive; US ineligible (ARVN Train+Govern Binh Dinh, Hue)

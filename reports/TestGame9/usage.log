@@ -79,3 +79,7 @@
 2026-09-27T17:47:20	Bash	python3 tools/ctl.py seq "(perform or ?)=>perform" "Choose one=>Op" "Choose oper	302	6245
 2026-09-27T17:47:27	Bash	python3 tools/ctl.py seq "Pacify:=>Shift 2 levels" "special activity? (y/n)=>y" 	241	5202
 2026-09-27T17:47:32	Bash	python3 tools/ctl.py seq "Choose Advise option=>Use Irregular" "Use Irregular/Ra	149	2169
+2026-09-27T17:47:50	Bash	python3 tools/ctl.py send y | tail -2 && S=/tmp/claude-0/-home-user-Claude-FitL/	860	40149
+2026-09-27T17:48:10	Bash	echo "card #104 Main Force Bns: Train+Pacify Pleiku, Advise Saigon (2 VC) and Bi	943	4884
+2026-09-27T17:48:14	Bash	python3 tools/ctl.py seq "Replace a VC Guerrilla in which space=>Saigon"	108	1046
+2026-09-27T17:48:30	Bash	python3 tools/ctl.py seq "Place how many ARVN Police=>1" "Replace a VC Guerrilla	361	10251

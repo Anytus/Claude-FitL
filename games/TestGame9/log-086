@@ -1,0 +1,90 @@
+{
+  "file-version": 1,
+  "software-version": "1.53+harness",
+  "log": [
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Sequence of Play",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Current card  : #81 - CIDG (ARVN, VC, US, NVA)",
+      "color": null
+    },
+    {
+      "text": "On Deck card  : #10 - Rolling Thunder (US, NVA, VC, ARVN)",
+      "color": null
+    },
+    {
+      "text": "Eligible      : US",
+      "color": null
+    },
+    {
+      "text": "Acted         : VC -> Op\/Special Activity",
+      "color": null
+    },
+    {
+      "text": "Passed        : none",
+      "color": null
+    },
+    {
+      "text": "Ineligible    : ARVN, NVA",
+      "color": null
+    },
+    {
+      "text": "\nUS executes the Unshaded Event: CIDG",
+      "color": null
+    },
+    {
+      "text": "----------------------------------------------------",
+      "color": null
+    },
+    {
+      "text": "Rolling d6 to determine number of VC Guerrillas to replace: 3",
+      "color": null
+    },
+    {
+      "text": "",
+      "color": null
+    },
+    {
+      "text": "Remove 1 VC Underground Guerrilla from Saigon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Police from AVAILABLE into Saigon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 VC Underground Guerrilla from LOC Da Nang -- Qui Nhon to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Police from AVAILABLE into LOC Da Nang -- Qui Nhon",
+      "color": "Magenta"
+    },
+    {
+      "text": "Remove 1 VC Underground Guerrilla from LOC Saigon -- An Loc -- Ban Me Thuot to AVAILABLE",
+      "color": "Magenta"
+    },
+    {
+      "text": "Place 1 ARVN Police from AVAILABLE into LOC Saigon -- An Loc -- Ban Me Thuot",
+      "color": "Magenta"
+    },
+    {
+      "text": "\nMove the US cylinder to the LimOp or Event box",
+      "color": "Blue"
+    },
+    {
+      "text": "\nFinished with US turn",
+      "color": null
+    }
+  ]
+}
