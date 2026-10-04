@@ -28,6 +28,7 @@ short version:
 | `tools/botrun.py` | Plays many seeded all-Bot games headless and in parallel through `fitl.Autoplay`, one JSON line per game, and summarises them. See "All-Bot games" below. |
 | `tools/botattrib.py` | For a `botrun.py --trace` run: each score component's change per game, by the faction and kind of action that made it, and by Coup rounds. |
 | `tools/botcompare.py` | Compares two `botrun.py` runs on their shared seeds: winner shares, mean margins, and the paired change in the US margin with its standard error. |
+| `tools/bottune.py` | Tunes a search policy's weights with an evolution strategy against the Bots; resumable. See "Tuning" below. |
 | `policies/` | US policy files for `botrun.py --us-policy` (see "US policy" below). |
 | `results/` | All-Bot run results: one JSONL file per run, and the printed summary beside it. |
 | `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `seq`, `enter`, `advance`, `brief`, `commit-turn`, `read`, `screen`, `status`. `advance` also draws event cards, writes the report file at each draw and prints the briefing at the US turn; `seq` answers a whole action's prompts in one guarded call, by label or name whichever form the prompt takes; `commit-turn` does the end-of-card bookkeeping (notes line, report, commit, push). |
@@ -245,6 +246,21 @@ First result, `search` with the default weights, seeds 1-200 (5 s a game):
 US wins 46% (11% for the Tru'ng US on the same seeds), or 36% against 6%
 with `--us-final-only`; the paired change in the final US margin is +12.4
 (se 1.0). Summaries in `results/search_v1_*.txt`.
+
+### Tuning
+
+`tools/bottune.py --start policies/tune-start.json --name t1` tunes the
+weights (and `hinge_buffer`). Each generation plays the current weights and
+`--pairs` mirrored random perturbations of them on one fresh block of
+`--games` seeds (the same seeds for all, so differences are paired), scores
+each by its mean US lead (final US margin minus the best rival's), and steps
+along the rank-weighted perturbations. Games use `--us-final-only` unless
+`--all-wins`. Training seeds start at `--seed-base` (20000) and never repeat;
+validate on other seeds with `botrun.py` and `botcompare.py`. Progress goes to
+`results/tune_<name>.jsonl` (resumed from on restart) and the current weights
+to `policies/tuned_<name>.json`. `policies/tune-start.json` is the search
+default with the faster settings (1 dice sample, 60 ms trials, focuses
+default/opposition/vc/nva: 2.7 s a game, no worse on a 60-seed check).
 
 ## Information boundary
 
