@@ -1,5 +1,240 @@
+diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
+new file mode 100644
+index 0000000..3c23652
+--- /dev/null
++++ b/src/main/scala/fitl/Autoplay.scala
+@@ -0,0 +1,229 @@
++//  Autoplay: headless all-Bot games for calibration and experiments.
++//  Part of the Claude-FitL harness; not in the upstream program.
++//
++//  Usage: java -cp "fitl/lib/*" fitl.Autoplay --seed S --games N [--us-final-only]
++//
++//  Each game is seeded: the global RNG (dice, Tru'ng deck, Bot choices) gets
++//  `seed` and the event deck is built from a separate RNG derived from it, as
++//  the Full scenario requires (piles 1964, 1965, 1965, 1968, 1968, 1968; 12
++//  events of the pile's period plus one Coup card, shuffled). The same seed
++//  always plays the same game. One JSON line per game goes to stdout; the
++//  program's own console output is discarded.
++
++package fitl
++
++import java.io.{BufferedReader, OutputStream, PrintStream, StringReader}
++import scala.util.Random
++import FireInTheLake._
++
++object Autoplay {
++  val Period1964 = List(1, 15, 17, 26, 29, 31, 43, 48, 50, 51, 55, 63, 66, 68, 75, 79, 93, 97, 101, 107, 110, 112, 116, 118)
++  val Period1965 = List(5, 6, 7, 9, 10, 14, 18, 22, 23, 24, 25, 28, 34, 38, 39, 44, 46, 47, 53, 56, 59, 64, 67, 69, 70,
++                        72, 73, 76, 78, 81, 82, 83, 85, 86, 87, 89, 90, 95, 98, 99, 100, 102, 104, 105, 106, 108, 109, 114)
++  val Period1968 = List(2, 3, 4, 8, 11, 12, 13, 16, 19, 20, 21, 27, 30, 32, 33, 35, 36, 37, 40, 41, 42, 45, 49, 52, 54,
++                        57, 58, 60, 61, 62, 65, 71, 74, 77, 80, 84, 88, 91, 92, 94, 96, 103, 111, 113, 115, 117, 119, 120)
++  val CoupCards  = (125 to 130).toList
++
++  def buildDeck(rng: Random): Vector[Int] = {
++    val ev64 = rng.shuffle(Period1964)
++    val ev65 = rng.shuffle(Period1965)
++    val ev68 = rng.shuffle(Period1968)
++    val coups = rng.shuffle(CoupCards)
++    val pileEvents = List(ev64.take(12), ev65.take(12), ev65.slice(12, 24),
++                          ev68.take(12), ev68.slice(12, 24), ev68.slice(24, 36))
++    (pileEvents zip coups).flatMap { case (evs, coup) => rng.shuffle(coup :: evs) }.toVector
++  }
++
++  //  Keeps the tail of everything the program prints, so the scripted reader
++  //  can tell which prompt it is answering.
++  class Tail extends OutputStream {
++    private val buf = new java.lang.StringBuilder
++    def write(b: Int): Unit = {
++      buf.append(b.toChar)
++      if (buf.length > 8000) buf.delete(0, buf.length - 2000)
++    }
++    def text: String = buf.toString
++    def clear(): Unit = buf.setLength(0)
++  }
++
++  case class UnexpectedPrompt(prompt: String) extends RuntimeException(prompt)
++
++  //  Answers each prompt one line at a time. Console.withIn wraps this in a
++  //  BufferedReader, which asks for characters only when it needs a new line,
++  //  so every read here is the program waiting at a prompt.
++  class ScriptedReader(tail: Tail, nextCard: () => Int, full: Boolean = false, name: String = "") extends java.io.Reader {
++    private var pending = ""
++    private def answer(): String = {
++      val t = tail.text
++      val last = t.substring((t.length - 300) max 0)
++      tail.clear()
++      if (last.contains("Event card:")) nextCard().toString
++      else if (last.contains("Press Enter to continue")) ""
++      else if (last.contains("continue playing this game")) "n"
++      else if (full && t.contains("Start a new game")) "1"
++      else if (full && last.contains("Choose a scenario")) "3"
++      else if (full && last.contains("played by human players")) "0"
++      else if (full && last.contains("Enter a name for your new game")) name
++      else if (full && last.contains("Really quit")) "y"
++      else if (full && last.contains("(perform or ?)")) "perform"
++      else if (full && last.contains("(coup or ?)")) "coup"
++      else if (full && last.contains("(discard or ?)")) "discard"
++      else if (full && last.contains("(quit or ?)")) "quit"
++      else throw UnexpectedPrompt(last.trim)
++    }
++    override def read(cbuf: Array[Char], off: Int, len: Int): Int = {
++      if (pending.isEmpty) {
++        Console.out.flush()
++        pending = answer() + "\n"
++      }
++      val n = len min pending.length
++      pending.getChars(0, n, cbuf, off)
++      pending = pending.substring(n)
++      n
++    }
++    override def close(): Unit = ()
++  }
++
++  def scoreJson(scores: List[Score]): String =
++    scores.sortBy(_.faction.toString).map(s => s""""${s.faction}":${s.score}""").mkString("{", ",", "}")
++
++  def runGame(seed: Long, usFinalOnly: Boolean): String = {
++    Random.setSeed(seed)
++    val deck = buildDeck(new Random(seed * 6364136223846793005L + 1442695040888963407L))
++    var cardIdx = 0
++    val tail = new Tail
++    val reader = new ScriptedReader(tail, () => { val c = deck(cardIdx); cardIdx += 1; c })
++    val out = new PrintStream(tail, false)
++    val coups = new scala.collection.mutable.ListBuffer[String]
++    var winner = ""
++    var endCoup = 0
++    var error = ""
++    val start = System.nanoTime
++
++    Console.withOut(out) {
++      Console.withIn(reader) {
++        try {
++          noEarlyWin = if (usFinalOnly) Set(US) else Set.empty
++          gameName = None
++          val scenario = scenarios("Full: 1964-1972")
++          game = initialGameState(scenario, Set.empty, false, false)
++          scenario.additionalSetup()
++          if (game.isBot(VC))
++            initAgitateTotal()
++          drawNextCard()
++
++          var steps = 0
++          while (!game.gameOver) {
++            steps += 1
++            if (steps > 5000) throw new IllegalStateException("step limit")
++            game = game.copy(log = Vector.empty)
++            if (game.needsCardDraw)
++              drawNextCard()
++
++            val pivot = if (eventDeck.isPivotalCard(game.currentCard)) None else getPivotalFaction
++            pivot foreach { f =>
++              game = game.copy(currentCard = f.pivotCard, pivotCardsAvailable = game.pivotCardsAvailable - f)
++            }
++
++            if (game.isCoupRound) {
++              val coupNum = game.coupCardsPlayed + 1
++              val before = game.scores
++              val earlyWinner = before
++                .filter(e => e.score > 0)
++                .filterNot(e => noEarlyWin(e.faction))
++                .headOption
++              resolveCoupCard()
++              coups += s"""{"coup":$coupNum,"card":${game.currentCard},"victory_check":${scoreJson(before)}}"""
++              if (game.gameOver) {
++                endCoup = coupNum
++                winner = earlyWinner.map(_.faction.toString) getOrElse game.scores.head.faction.toString
++              }
++              else
++                game = game.copy(needsCardDraw = true)
++            }
++            else {
++              game.actingFaction match {
++                case None => game = game.copy(needsCardDraw = true)
++                case Some(_) =>
++                  Bot.act()
++                  if (game.sequence.exhausted)
++                    game = game.copy(needsCardDraw = true)
++              }
++            }
++          }
++        }
++        catch {
++          case UnexpectedPrompt(p) => error = "prompt: " + p.replace("\n", " ").takeRight(160)
++          case e: Throwable        => error = e.getClass.getSimpleName + ": " + String.valueOf(e.getMessage).take(160)
++        }
++      }
++    }
++
++    val secs = (System.nanoTime - start) / 1e9
++    def q(s: String) = "\"" + s.replace("\\", "\\\\").replace("\"", "'") + "\""
++    val finalScores = if (game != null) scoreJson(game.scores) else "{}"
++    val cards = if (game != null) game.cardsSeen.size else 0
++    s"""{"seed":$seed,"us_final_only":$usFinalOnly,"winner":${q(winner)},"end_coup":$endCoup,""" +
++    s""""final_coup":${endCoup == 6},"cards":$cards,"coups_played":${if (game != null) game.coupCardsPlayed else 0},"final_scores":$finalScores,""" +
++    s""""coups":${coups.mkString("[", ",", "]")},"secs":${"%.2f".format(secs)},"error":${q(error)}}"""
++  }
++
++  //  Validation: the program's own interactive main loop, every prompt answered
++  //  by script, same seed and deck. Saves go to ./games, so run it in a
++  //  scratch directory. Returns cards drawn, Coups played and final scores.
++  def runViaMain(seed: Long): String = {
++    def rmrf(f: java.io.File): Unit = {
++      if (f.isDirectory) Option(f.listFiles).toList.flatten foreach rmrf
++      f.delete()
++    }
++    rmrf(new java.io.File("games"))
++    Random.setSeed(seed)
++    val deck = buildDeck(new Random(seed * 6364136223846793005L + 1442695040888963407L))
++    var cardIdx = 0
++    val tail = new Tail
++    val reader = new ScriptedReader(tail, () => { val c = deck(cardIdx); cardIdx += 1; c }, full = true, name = s"Auto$seed")
++    var error = ""
++    Console.withOut(new PrintStream(tail, false)) {
++      Console.withIn(reader) {
++        try FireInTheLake.main(Array.empty)
++        catch {
++          case UnexpectedPrompt(p) => error = "prompt: " + p.replace("\n", " ").takeRight(160)
++          case e: Throwable        => error = e.getClass.getSimpleName + ": " + String.valueOf(e.getMessage).take(160)
++        }
++      }
++    }
++    s"""{"seed":$seed,"mode":"main","cards":${game.cardsSeen.size},"coups_played":${game.coupCardsPlayed},""" +
++    s""""final_scores":${scoreJson(game.scores)},"error":"${error.replace("\"", "'")}"}"""
++  }
++
++  def main(args: Array[String]): Unit = {
++    def arg(name: String, default: String) = {
++      val i = args.indexOf(name)
++      if (i >= 0 && i + 1 < args.length) args(i + 1) else default
++    }
++    val seed  = arg("--seed", "1").toLong
++    val games = arg("--games", "1").toInt
++    val usFinalOnly = args.contains("--us-final-only")
++    val viaMain = args.contains("--via-main")
++    val timeoutSecs = arg("--timeout", "10").toInt
++    for (i <- 0 until games) {
++      //  Watchdog: some seeds send the program's Bots into a loop that does
++      //  not end. A JVM thread cannot be stopped, so on a timeout report the
++      //  seed and exit; the batch driver restarts at the next seed.
++      val s = seed + i
++      val watchdog = new Thread(() => {
++        try {
++          Thread.sleep(timeoutSecs * 1000L)
++          System.out.println(s"""{"seed":$s,"us_final_only":$usFinalOnly,"error":"timeout ${timeoutSecs}s"}""")
++          System.out.flush()
++          Runtime.getRuntime.halt(3)
++        } catch { case _: InterruptedException => }
++      })
++      watchdog.setDaemon(true)
++      watchdog.start()
++      println(if (viaMain) runViaMain(s) else runGame(s, usFinalOnly))
++      System.out.flush()
++      watchdog.interrupt()
++    }
++  }
++}
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
-index b1dc7c3..3e120d3 100644
+index b1dc7c3..e19c009 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
 +++ b/src/main/scala/fitl/FireInTheLake.scala
 @@ -345,7 +345,7 @@ object FireInTheLake {
@@ -34,7 +269,18 @@ index b1dc7c3..3e120d3 100644
      log: Vector[LogEntry]               = Vector.empty) {  // Log of the cuurent game segment
  
  
-@@ -3157,6 +3166,11 @@ object FireInTheLake {
+@@ -2328,6 +2337,10 @@ object FireInTheLake {
+ 
+   var game: GameState = _           // Global variable that holds the current game state.
+ 
++  // Harness (autoplay): factions that may not win in the Victory phase of
++  // any Coup round before the final one, even when played by a Bot.
++  var noEarlyWin: Set[Faction] = Set.empty
++
+   def autoVictory(faction: Faction): Boolean = (game.isBot(faction) || game.humanWinInVictoryPhase) &&
+     (faction match {
+       case US   => game.usScore   > 0
+@@ -3157,6 +3170,11 @@ object FireInTheLake {
    // Prompt the user for one or two cards if necessary.
    // Then update the game state with the new card numbers.
    def drawNextCard(): Unit = {
@@ -46,7 +292,15 @@ index b1dc7c3..3e120d3 100644
      if (game.numCardsDrawn == 0) {
        println("\nDraw event cards")
        println(separator())
-@@ -4096,6 +4110,16 @@ object FireInTheLake {
+@@ -3269,6 +3287,7 @@ object FireInTheLake {
+       // can set an option to allow human players to win during a Coup Round.
+       val winner = game.scores
+         .filter(entry => entry.score > 0 && (game.isBot(entry.faction) || game.humanWinInVictoryPhase))
++        .filterNot(entry => noEarlyWin(entry.faction))
+         .headOption
+ 
+       winner match {
+@@ -4096,6 +4115,16 @@ object FireInTheLake {
  
  
    @tailrec def mainLoop(): Unit = {
@@ -63,7 +317,7 @@ index b1dc7c3..3e120d3 100644
      // Does any faction wish to play their pivotal event?
      // Will alwasy return None if Coup round or Coup card on deck
      // or any faction has already acted.
-@@ -4139,19 +4163,20 @@ object FireInTheLake {
+@@ -4139,19 +4168,20 @@ object FireInTheLake {
              endgameCommand() // Does not return, throws ExitGame or Rollback
            }
            else {

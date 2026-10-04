@@ -104,3 +104,31 @@ two-human game (ARVN Patrol + Govern first, then US Limited Op Patrol
 Saigon -> Can Tho); the program output above is verbatim. The playing model
 should treat a City offered as a Patrol assault space as illegal and decline
 it.
+
+---
+
+## 3. A Bot loops forever in some games — pending
+
+**Status.** Pending. Found by the headless all-Bot runner on the harness
+build (v1.53 plus harness patch); 13 of 1,000 all-Bot Full-scenario games
+(1.3%) in the first calibration run.
+
+**Behaviour.** The game never finishes: the US Bot's Air Lift spends minutes
+of CPU in Bot.movePiecesToDestinations -> movePiecesFromOneOrigin ->
+mustKeepInOrigin -> selectPiecesToKeep -> KP_KeepCoinFirepowerGreaterOrEqualToVulnerable
+(seen on seed 9). Seeds 9, 16, 38, 86, 193, 249, 350, 461, 515, 538, 656, 698
+and 767 time out; 9, 16 and 38 do so through the program's own interactive
+main loop as well (`--via-main`), so it is in the Bot code, not the runner. Not yet reduced to a reportable case.
+
+## 4. Bot placement assertions — pending
+
+**Status.** Pending. Found by the headless all-Bot runner; 18 of 1,000
+all-Bot Full-scenario games (1.8%) in the first calibration run. Seed 1
+reproduces through the program's own main loop as well. Not yet reduced to
+reportable cases; the Bot and card are not yet identified.
+
+- "Cannot place more than 2 bases in Saigon": seeds 1, 145, 242, 343, 359,
+  403, 444, 586, 725.
+- "Cannot place more than 2 bases in Quang Tin-Quang Ngai": seeds 197, 686,
+  746, 757. Two Base placements in one space are probably the same bug.
+- "Insufficent pieces in the available box": seeds 229, 261, 789, 947, 969.

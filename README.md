@@ -24,7 +24,9 @@ short version:
 | --- | --- |
 | `CLAUDE.md` | Standing instructions for the *playing* session. Read it first. |
 | `fitl/lib/` | `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl) with one patch applied, see below. No build step to run. |
-| `fitl/fitl-1.53-harness.patch` | The patch applied to the program (against v1.53): save after every action and Coup round *before* asking for the next card, make the card draw its own saved step, and close the adjacency table under symmetry. `save-before-draw.patch` is the first half, kept for reference. |
+| `fitl/fitl-1.53-harness.patch` | The patch applied to the program (against v1.53): save after every action and Coup round *before* asking for the next card, make the card draw its own saved step, close the adjacency table under symmetry, and add the headless `fitl.Autoplay` entry point. `save-before-draw.patch` is the first half, kept for reference. |
+| `tools/botrun.py` | Plays many seeded all-Bot games headless and in parallel through `fitl.Autoplay`, one JSON line per game, and summarises them. See "All-Bot games" below. |
+| `results/` | All-Bot run results: one JSONL file per run, and the printed summary beside it. |
 | `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `seq`, `enter`, `advance`, `brief`, `commit-turn`, `read`, `screen`, `status`. `advance` also draws event cards, writes the report file at each draw and prints the briefing at the US turn; `seq` answers a whole action's prompts in one guarded call, by label or name whichever form the prompt takes; `commit-turn` does the end-of-card bookkeeping (notes line, report, commit, push). |
 | `tools/deck.py` | Lazy event-card draws: uniform over what can legally be next in the current pile, decided at request time with the OS random source. `selftest` simulates thousands of decks. |
 | `tools/apply_periods.py` | Records each card's period marking (1964/1965/1968) in `cards.json`. |
@@ -166,11 +168,44 @@ a card draw is pending, and performs the draw as its own saved step at the
 top of its main loop. A resumed game goes straight to the card prompt.
 
 The jar `fire-in-the-lake_2.13-1.53-harness.jar` was compiled from the v1.53
-source with `fitl/fitl-1.53-harness.patch` (save timing plus symmetric
-adjacency) using scalac 2.13.18 and reports its version as `1.53+harness`. To rebuild: clone github.com/sellmerfud/fitl at v1.53, apply the
+source with `fitl/fitl-1.53-harness.patch` (save timing, symmetric
+adjacency, and `fitl.Autoplay`) using scalac 2.13.18 and reports its version as `1.53+harness`. To rebuild: clone github.com/sellmerfud/fitl at v1.53, apply the
 patch, compile `src/main/scala/**/*.scala` against `scala-library` and
 `scala-parser-combinators`, and jar the classes together with a `version`
 resource file.
+
+## All-Bot games
+
+`fitl.Autoplay` plays a Full-scenario game with all four factions as the
+program's Tru'ng Bots, with no console: about 0.2 s a game, against 3.6 min
+through `ctl.py`. Prompts are answered by a scripted reader (card numbers,
+pauses, "continue playing? n"), so the program's own game logic runs
+unchanged. Each game is seeded: the seed sets the program's single random
+generator (dice, Tru'ng deck, Bot choices) and a separate generator built
+from it lays out the event deck by the Full-scenario pile rules. The same
+seed always plays the same game, so two variants can be compared on the
+same seeds.
+
+```
+python3 tools/botrun.py --games 1000 --seed 1 --workers 4 --out results/run.jsonl
+python3 tools/botrun.py --games 1000 --seed 1 --us-final-only --out results/run_fco.jsonl
+python3 tools/botrun.py --summary results/run.jsonl
+```
+
+`--us-final-only` stops the US Bot winning before the final Coup (the
+program's `noEarlyWin` hook), matching the human-US games' condition.
+`--via-main` plays each game through the program's own interactive main loop
+instead; 40 seeds gave identical games both ways, which is the check that
+the Autoplay loop is faithful. About 3% of seeds hit a program bug (a Bot
+loop that never ends, or a placement assertion; see `BUG_REPORTS.md`); a
+watchdog records those as failures and the run carries on. As in the
+program's own human-win option, the US is also blocked at the final Coup's
+Victory phase, so a Bot above zero there wins; otherwise the highest margin
+after Redeploy wins.
+
+First calibration (seeds 1-1000, 4 workers, about 1 min a run): winners VC
+69%, ARVN 16%, NVA 8%, US 8% (5% with `--us-final-only`); final US margin
+-18 (sd 11). Summaries in `results/calib_*.txt`.
 
 ## Information boundary
 
