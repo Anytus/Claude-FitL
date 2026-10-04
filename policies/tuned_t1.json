@@ -1,0 +1,35 @@
+{
+  "name": "tuned_t1",
+  "mode": "search",
+  "samples": 1,
+  "trial_ms": 60,
+  "hinge_buffer": 3.0124,
+  "focuses": [
+    "default",
+    "opposition",
+    "vc",
+    "nva"
+  ],
+  "weights": {
+    "us": 0.9711,
+    "arvn": -0.3034,
+    "nva": -0.6148,
+    "vc": -1.1033,
+    "max_rival": -0.4881,
+    "rival_hinge": -1.5157,
+    "rival_hinge_coup_next": -1.9028,
+    "vc_guerrillas": -0.3132,
+    "vc_underground": -0.0977,
+    "nva_troops": -0.1087,
+    "nva_guerrillas": -0.1018,
+    "us_casualties": -0.2861,
+    "arvn_res": 0.0312,
+    "aid": 0.0196,
+    "trail": -0.4867,
+    "terror": -0.2837,
+    "pass": 0.87,
+    "event": -0.0499,
+    "event_critical": 0.9353,
+    "event_performed": 0.4862
+  }
+}
