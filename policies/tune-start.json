@@ -1,0 +1,30 @@
+{
+  "name": "tune-start",
+  "mode": "search",
+  "samples": 1,
+  "trial_ms": 60,
+  "hinge_buffer": 3,
+  "focuses": ["default", "opposition", "vc", "nva"],
+  "weights": {
+    "us": 1.0,
+    "arvn": -0.3,
+    "nva": -0.6,
+    "vc": -1.0,
+    "max_rival": -0.5,
+    "rival_hinge": -1.5,
+    "rival_hinge_coup_next": -2.0,
+    "vc_guerrillas": -0.3,
+    "vc_underground": -0.1,
+    "nva_troops": -0.1,
+    "nva_guerrillas": -0.1,
+    "us_casualties": -0.3,
+    "arvn_res": 0.03,
+    "aid": 0.02,
+    "trail": -0.5,
+    "terror": -0.3,
+    "pass": 1.0,
+    "event": 0.0,
+    "event_critical": 1.0,
+    "event_performed": 0.5
+  }
+}
