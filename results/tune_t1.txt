@@ -3,3 +3,4 @@ gen 1: center lead -3.42 wins 27/72; best -1 -2.53; step 0.29
 gen 2: center lead -3.83 wins 27/72; best -1 -6.46; step 0.26
 gen 3: center lead -6.66 wins 22/71; best +3 -5.51; step 0.25
 resuming at generation 4
+gen 4: center lead -5.36 wins 30/73; best -3 -4.47; step 0.24
