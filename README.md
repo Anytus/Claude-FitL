@@ -27,6 +27,8 @@ short version:
 | `fitl/fitl-1.53-harness.patch` | The patch applied to the program (against v1.53): save after every action and Coup round *before* asking for the next card, make the card draw its own saved step, close the adjacency table under symmetry, and add the headless `fitl.Autoplay` entry point. `save-before-draw.patch` is the first half, kept for reference. |
 | `tools/botrun.py` | Plays many seeded all-Bot games headless and in parallel through `fitl.Autoplay`, one JSON line per game, and summarises them. See "All-Bot games" below. |
 | `tools/botattrib.py` | For a `botrun.py --trace` run: each score component's change per game, by the faction and kind of action that made it, and by Coup rounds. |
+| `tools/botcompare.py` | Compares two `botrun.py` runs on their shared seeds: winner shares, mean margins, and the paired change in the US margin with its standard error. |
+| `policies/` | US policy files for `botrun.py --us-policy` (see "US policy" below). |
 | `results/` | All-Bot run results: one JSONL file per run, and the printed summary beside it. |
 | `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `seq`, `enter`, `advance`, `brief`, `commit-turn`, `read`, `screen`, `status`. `advance` also draws event cards, writes the report file at each draw and prints the briefing at the US turn; `seq` answers a whole action's prompts in one guarded call, by label or name whichever form the prompt takes; `commit-turn` does the end-of-card bookkeeping (notes line, report, commit, push). |
 | `tools/deck.py` | Lazy event-card draws: uniform over what can legally be next in the current pile, decided at request time with the OS random source. `selftest` simulates thousands of decks. |
@@ -212,6 +214,37 @@ First calibration (seeds 1-1000, 4 workers, about 1 min a run): winners VC
 special activities, Event side, change in each score component) and each
 Coup round's change to the record; `tools/botattrib.py` sums them by source
 (`results/attrib_standard.txt` for seeds 1-1000). Same games as untraced.
+
+### US policy
+
+`--us-policy FILE` replaces the Tru'ng US cards with `fitl.USPolicy`
+(`USPolicy.scala` in the patch). The program's own US Bot routines still
+carry out every action, so the rules stay the program's; only the choice
+changes. Modes:
+
+- `trung` (`policies/trung.json`): the Tru'ng cards through the same hook.
+  Seeds 1-1000 give games identical to no policy at all.
+- `search` (`policies/search.json`): one-ply search. Candidates are Pass,
+  the Event, and each US Operation with each Special Activity it may take
+  (and Op only / Limited Op where the sequence of play allows), each also
+  with a space "focus" (opposition, vc, nva, population) put in front of
+  the US Bot's space priorities. Each is tried on a copy of the game on
+  `samples` fresh dice streams and scored as a weighted sum of features
+  (margins, how close each rival is to winning, more so before a Coup,
+  insurgent pieces, Casualties, Resources, Aid, Trail, Terror, a bonus for
+  Pass and for Critical/Performed Events). The best is carried out on dice
+  no trial used. Weights and focuses come from the file; the defaults and
+  feature names are in `USPolicy.scala`.
+
+A trial that throws or runs past `trial_ms` (default 250) is discarded: the
+program's Air Lift planning can loop forever (`BUG_REPORTS.md` #3), and the
+search tries Air Lift often. That limit is wall-clock time, so a run under
+heavy load can differ slightly from the same run unloaded.
+
+First result, `search` with the default weights, seeds 1-200 (5 s a game):
+US wins 46% (11% for the Tru'ng US on the same seeds), or 36% against 6%
+with `--us-final-only`; the paired change in the final US margin is +12.4
+(se 1.0). Summaries in `results/search_v1_*.txt`.
 
 ## Information boundary
 

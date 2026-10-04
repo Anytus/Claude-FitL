@@ -1,0 +1,37 @@
+games 200: completed 196, failed 4
+  failed: AssertionError x4
+
+winner           games   share
+  VC                87    44.4%
+  US                72    36.7%
+  NVA               33    16.8%
+  ARVN               4     2.0%
+
+game ended at   games   share
+  Coup 1             1     0.5%
+  Coup 2             7     3.6%
+  Coup 3            18     9.2%
+  Coup 4            13     6.6%
+  Coup 5            15     7.7%
+  final Coup       142    72.4%
+
+final margin     mean     sd     min    max
+  US             -5.7   10.4    -33    +22
+  ARVN          -12.9    5.2    -29     +2
+  NVA            -5.3    4.2    -17     +8
+  VC             -3.9    6.5    -25     +8
+
+seconds per game: mean 5.91, max 24.11
+
+== paired with results/calib_us_final_only.jsonl
+189 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline      5.8%   14.8%    5.3%   74.1%       -18.3    -21.6
+variant      36.0%    2.1%   16.9%   45.0%        -5.9     -4.5
+
+paired change in US margin: +12.41 (se 0.97)
+
+paired change in US lead: +17.13 (se 1.17)
+
+variant games ended at: Coup 1 1%, Coup 2 4%, Coup 3 8%, Coup 4 7%, Coup 5 8%, final 72%

@@ -1,13 +1,14 @@
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..683d264
+index 0000000..4670151
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,268 @@
+@@ -0,0 +1,273 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
 +//  Usage: java -cp "fitl/lib/*" fitl.Autoplay --seed S --games N [--us-final-only] [--trace]
++//                                      [--us-policy FILE]
 +//
 +//  Each game is seeded: the global RNG (dice, Tru'ng deck, Bot choices) gets
 +//  `seed` and the event deck is built from a separate RNG derived from it, as
@@ -183,7 +184,8 @@ index 0000000..683d264
 +                  val ops = ChooseRx.findAllMatchIn(text).filter(_.group(1) == f.toString).map(m => "\"" + m.group(2) + "\"").mkString(",")
 +                  val ev = EventRx.findFirstMatchIn(text).filter(_.group(1) == f.toString).map(_.group(2))
 +                    .getOrElse(if (text.contains("executes its Pivotal Event")) "Pivotal" else "")
-+                  actions += s"""{"c":$card,"f":"$f","a":"$act","ev":"$ev","ops":[$ops],"d":${deltaJson(c0, comps(game))}}"""
++                  val pol = if (f == US && USPolicy.enabled) s""","pol":"${USPolicy.lastChoice}"""" else ""
++                  actions += s"""{"c":$card,"f":"$f","a":"$act","ev":"$ev","ops":[$ops],"d":${deltaJson(c0, comps(game))}$pol}"""
 +                  if (game.sequence.exhausted)
 +                    game = game.copy(needsCardDraw = true)
 +                case Some(_) =>
@@ -250,6 +252,9 @@ index 0000000..683d264
 +    val usFinalOnly = args.contains("--us-final-only")
 +    val viaMain = args.contains("--via-main")
 +    val trace = args.contains("--trace")
++    val policy = arg("--us-policy", "")
++    if (policy.nonEmpty)
++      USPolicy.load(policy)
 +    val timeoutSecs = arg("--timeout", "10").toInt
 +    for (i <- 0 until games) {
 +      //  Watchdog: some seeds send the program's Bots into a loop that does
@@ -272,6 +277,191 @@ index 0000000..683d264
 +    }
 +  }
 +}
+diff --git a/src/main/scala/fitl/Bot.scala b/src/main/scala/fitl/Bot.scala
+index f0952bb..e06c83d 100644
+--- a/src/main/scala/fitl/Bot.scala
++++ b/src/main/scala/fitl/Bot.scala
+@@ -51,6 +51,13 @@ object Bot {
+   // Value to indicate that space selection is unlimited.
+   val NO_LIMIT = 1000;
+ 
++  //  Harness (USPolicy): a time limit for trial actions. Some games send the
++  //  Bot's move planning (Air Lift) into a loop that does not end; a trial
++  //  that runs past the deadline is abandoned with DeadlineExceeded.
++  case class DeadlineExceeded() extends RuntimeException("deadline exceeded")
++  var deadline = Long.MaxValue   // System.nanoTime value
++  def checkDeadline(): Unit = if (System.nanoTime > deadline) throw DeadlineExceeded()
++
+   // These values are used with HighestScore and LowestScore filters
+   // when a candidate is not qualified to produce a score.
+   // For example if it is a LoC and we are only considering
+@@ -2220,6 +2227,7 @@ object Bot {
+                          action: MoveAction,
+                          moveTypes: Set[PieceType],
+                          opParams: Params): Pieces = {
++    checkDeadline()
+     val us      = faction == US
+     val arvn    = faction == ARVN
+     val nva     = faction == NVA
+@@ -2800,6 +2808,11 @@ object Bot {
+   // ================================================================
+   object US_Bot {
+ 
++    //  Harness (USPolicy): extra priorities put in front of the US space
++    //  priorities, by kind: support, place, sweep, airlift, airstrike, remove.
++    var focus: Map[String, List[PriorityFilter[Space]]] = Map.empty
++    def focused(kind: String, priorities: List[PriorityFilter[Space]]) = focus.getOrElse(kind, Nil) ::: priorities
++
+     def any2PlusPopNotAtActiveSupportWithCoinControlUsPieces: Boolean = {
+       val result = game.nonLocSpaces exists { sp =>
+         sp.population >= 2          &&
+@@ -2891,7 +2904,7 @@ object Bot {
+ 
+       botDebug(s"\nUS Select space (Shift Toward Active Support): [${andList(candidates.sorted)}]")
+       botDebug(separator(char = '#'))
+-      bestCandidate(candidates, priorities)
++      bestCandidate(candidates, focused("support", priorities))
+     }
+ 
+ 
+@@ -2924,7 +2937,7 @@ object Bot {
+ 
+       botDebug(s"\nUS Select space (Place Cubes or Special Forces): [${andList(candidates.sorted)}]")
+       botDebug(separator(char = '#'))
+-      bestCandidate(candidates, priorities)
++      bestCandidate(candidates, focused("place", priorities))
+     }
+ 
+     // US Spaces Priorities: Sweep Destinations
+@@ -2943,7 +2956,7 @@ object Bot {
+ 
+       botDebug(s"\nUS Select space (Sweep Destinations): [${andList(candidates.sorted)}]")
+       botDebug(separator(char = '#'))
+-      bestCandidate(candidates, priorities)
++      bestCandidate(candidates, focused("sweep", priorities))
+     }
+ 
+     // US Spaces Priorities: Air Lift Destinations
+@@ -2958,7 +2971,7 @@ object Bot {
+ 
+       botDebug(s"\nUS Select space (Air Lift Destinations): [${andList(candidates.sorted)}]")
+       botDebug(separator(char = '#'))
+-      bestCandidate(candidates, priorities)
++      bestCandidate(candidates, focused("airlift", priorities))
+     }
+ 
+     // US Pick space for: Air Strike
+@@ -2974,7 +2987,7 @@ object Bot {
+ 
+       botDebug(s"\nUS Select space (Air Strike): [${andList(candidates.sorted)}]")
+       botDebug(separator(char = '#'))
+-      bestCandidate(candidates, priorities)
++      bestCandidate(candidates, focused("airstrike", priorities))
+     }
+ 
+     // US Pick space for: Remove or Replace
+@@ -2991,7 +3004,7 @@ object Bot {
+ 
+       botDebug(s"\nUS Select space (Remove or Replace): [${andList(candidates.sorted)}]")
+       botDebug(separator(char = '#'))
+-      bestCandidate(candidates, priorities)
++      bestCandidate(candidates, focused("remove", priorities))
+     }
+ 
+     // Part of the Commitment phase of a Coup Round.
+@@ -7325,6 +7338,45 @@ object Bot {
+     }
+   }
+ 
++  //  The Tru'ng path of act(): choose from the NP Eligibility Table and
++  //  carry it out with the Trung cards. Returns the action taken.
++  def trungAction(faction: Faction, card: EventCard): Action = {
++    chooseAction(faction) match {
++      case None =>  // Could not carry out an action so Pass
++        factionPasses(faction)
++        Pass
++
++      case Some(ActionEntry(Pass, _, _)) => // Table resolve to Pass
++        factionPasses(faction)
++        Pass
++
++      case Some(ActionEntry(Event, _, _)) =>
++        executeEvent(faction, card)
++        Event
++
++      case entry @ Some(ActionEntry(action, _, _)) =>
++        // LimitedOp, OpOnly, or OpPlusSpecial
++        val first = game.sequence.numActors == 0
++        val sa    = action == OpPlusSpecial
++        val maxsp = if (action == LimitedOp) Some(1) else None
++        val params = Params(addSpecialActivity = sa, maxSpaces = maxsp)
++
++        // If the first eligible was allowd to do a special
++        // activity but was not able to do so then switch
++        // it action to OpOnly
++        // If the Bot could not do any operation at all then pass
++        val actualAction = executeOp(faction, params) match {
++          case ER_NoOp                  => Pass    // Could not do any action!
++          case ER_OpOnly if first && sa => OpOnly  // First eligible could not do special activity
++          case _                        => action
++        }
++
++        if (actualAction == Pass)
++          factionPasses(faction)
++        actualAction
++    }
++  }
++
+   //  A bot is the next eligible faction
+   //  Decide what type of action the Bot will take.
+   //  We use the NP Elgibility Table.
+@@ -7343,42 +7395,10 @@ object Bot {
+       card.executeUnshaded(faction)
+       Event
+     }
+-    else {
+-      chooseAction(faction) match {
+-        case None =>  // Could not carry out an action so Pass
+-          factionPasses(faction)
+-          Pass
+-
+-        case Some(ActionEntry(Pass, _, _)) => // Table resolve to Pass
+-          factionPasses(faction)
+-          Pass
+-
+-        case Some(ActionEntry(Event, _, _)) =>
+-          executeEvent(faction, card)
+-          Event
+-
+-        case entry @ Some(ActionEntry(action, _, _)) =>
+-          // LimitedOp, OpOnly, or OpPlusSpecial
+-          val first = game.sequence.numActors == 0
+-          val sa    = action == OpPlusSpecial
+-          val maxsp = if (action == LimitedOp) Some(1) else None
+-          val params = Params(addSpecialActivity = sa, maxSpaces = maxsp)
+-
+-          // If the first eligible was allowd to do a special
+-          // activity but was not able to do so then switch
+-          // it action to OpOnly
+-          // If the Bot could not do any operation at all then pass
+-          val actualAction = executeOp(faction, params) match {
+-            case ER_NoOp                  => Pass    // Could not do any action!
+-            case ER_OpOnly if first && sa => OpOnly  // First eligible could not do special activity
+-            case _                        => action
+-          }
+-
+-          if (actualAction == Pass)
+-            factionPasses(faction)
+-          actualAction
+-      }
+-    }
++    else if (faction == US && USPolicy.enabled)
++      USPolicy.act(card)
++    else
++      trungAction(faction, card)
+ 
+     log(s"\nMove the $faction cylinder to the ${actorBoxName(action)} box", Color.GameMarker)
+     game = game.copy(sequence = game.sequence.addActor(faction, action))
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
 index b1dc7c3..e19c009 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
@@ -407,3 +597,290 @@ index 8fd9366..a1752b9 100644
      )
    }
  
+diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
+new file mode 100644
+index 0000000..fedcbe9
+--- /dev/null
++++ b/src/main/scala/fitl/USPolicy.scala
+@@ -0,0 +1,281 @@
++//  USPolicy: a tunable decision layer for the US Bot.
++//  Part of the Claude-FitL harness; not in the upstream program.
++//
++//  When a policy is loaded (Autoplay --us-policy FILE), Bot.act() asks this
++//  object for the US action instead of the Tru'ng US cards. Everything is
++//  still carried out by the program's own US Bot routines, so the rules are
++//  the program's.
++//
++//  Modes:
++//    trung   the Tru'ng US cards, through this hook (a regression check: the
++//            games must be identical to having no policy at all).
++//    search  one-ply search. Build candidate actions (Event, Pass, each US
++//            Operation with each Special Activity it may take, Limited Op,
++//            and each with a space "focus" put in front of the US Bot's own
++//            space priorities), try each on a copy of the game with fresh
++//            dice, score the result with a weighted sum of features, and
++//            carry out the best one on dice not used by any trial. A trial
++//            that throws, or runs past trial_ms (the program's Air Lift
++//            planning can loop forever), is discarded.
++//
++//  Policy file (JSON), every field optional:
++//    {"mode": "search", "samples": 2, "trial_ms": 250, "hinge_buffer": 3,
++//     "focuses": ["default", "opposition", "vc", "nva", "population"],
++//     "weights": {"us": 1.0, "vc": -1.0, ...}}
++//  Weights not given keep the defaults below. The score of a candidate is
++//  sum(weight * feature); see `features` for the feature names.
++
++package fitl
++
++import scala.util.Random
++import FireInTheLake._
++import Bot._
++
++object USPolicy {
++
++  case class Config(
++    mode: String,
++    samples: Int,
++    trialMillis: Long,
++    hingeBuffer: Double,
++    focuses: List[String],
++    weights: Map[String, Double])
++
++  var config: Option[Config] = None
++  def enabled = config.nonEmpty
++
++  //  For --trace: the last US decision, as "<candidate> <value> <n candidates>".
++  var lastChoice = ""
++
++  val DefaultWeights: Map[String, Double] = Map(
++    "us"                    ->  1.0,
++    "arvn"                  -> -0.3,
++    "nva"                   -> -0.6,
++    "vc"                    -> -1.0,
++    "max_rival"             -> -0.5,
++    "rival_hinge"           -> -1.5,
++    "rival_hinge_coup_next" -> -2.0,
++    "vc_guerrillas"         -> -0.3,
++    "vc_underground"        -> -0.1,
++    "nva_troops"            -> -0.1,
++    "nva_guerrillas"        -> -0.1,
++    "us_casualties"         -> -0.3,
++    "arvn_res"              ->  0.03,
++    "aid"                   ->  0.02,
++    "trail"                 -> -0.5,
++    "terror"                -> -0.3,
++    "pass"                  ->  1.0,
++    "event"                 ->  0.0,
++    "event_critical"        ->  1.0,
++    "event_performed"       ->  0.5
++  )
++
++  val ConfigKeys = Set("mode", "samples", "trial_ms", "hinge_buffer", "focuses", "weights", "name")
++
++  def load(path: String): Unit = {
++    val text = new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(path)), "UTF-8")
++    val m = Json.parse(text).asInstanceOf[Map[String, Any]]
++    def num(x: Any): Double = x match {
++      case i: Int        => i.toDouble
++      case l: Long       => l.toDouble
++      case b: BigDecimal => b.toDouble
++      case other         => throw new IllegalArgumentException(s"$path: not a number: $other")
++    }
++    val unknown = m.keySet -- ConfigKeys
++    if (unknown.nonEmpty)
++      throw new IllegalArgumentException(s"$path: unknown keys: ${unknown.mkString(", ")}")
++    val w = m.get("weights").map(_.asInstanceOf[Map[String, Any]].map { case (k, v) => k -> num(v) }).getOrElse(Map.empty)
++    val badW = w.keySet -- DefaultWeights.keySet
++    if (badW.nonEmpty)
++      throw new IllegalArgumentException(s"$path: unknown weights: ${badW.mkString(", ")}")
++    val focuses = m.get("focuses").map(_.asInstanceOf[Seq[Any]].map(_.toString).toList).getOrElse(Focuses.keys.toList.sorted)
++    val badF = focuses.toSet -- Focuses.keySet
++    if (badF.nonEmpty)
++      throw new IllegalArgumentException(s"$path: unknown focuses: ${badF.mkString(", ")}")
++    val mode = m.getOrElse("mode", "search").toString
++    if (mode != "search" && mode != "trung")
++      throw new IllegalArgumentException(s"$path: mode must be search or trung")
++    config = Some(Config(
++      mode        = mode,
++      samples     = m.get("samples").map(num(_).toInt).getOrElse(2) max 1,
++      trialMillis = m.get("trial_ms").map(num(_).toLong).getOrElse(250L),
++      hingeBuffer = m.get("hinge_buffer").map(num).getOrElse(3.0),
++      focuses     = focuses,
++      weights     = DefaultWeights ++ w))
++  }
++
++  // ---------------------------------------------------------------
++  //  Space focuses: priorities put in front of the US Bot's own, by kind.
++  // ---------------------------------------------------------------
++  private def score(desc: String)(f: Space => Int) = new HighestScore[Space](desc, f)
++  private def allKinds(p: PriorityFilter[Space]) =
++    List("support", "place", "sweep", "airlift", "airstrike", "remove").map(_ -> List(p)).toMap
++
++  val Focuses: Map[String, Map[String, List[PriorityFilter[Space]]]] = Map(
++    "default"    -> Map.empty,
++    "opposition" -> {
++      val opp = score("Most Opposition")(sp => if (sp.isLoC) NO_SCORE else sp.oppositionValue)
++      Map("support" -> List(opp), "place" -> List(opp), "sweep" -> List(opp), "airlift" -> List(opp), "remove" -> List(opp))
++    },
++    "vc"         -> allKinds(score("Most VC")(sp => 3 * sp.pieces.totalOf(VCBases) + sp.pieces.totalOf(VCGuerrillas))),
++    "nva"        -> allKinds(score("Most NVA")(sp => 3 * sp.pieces.totalOf(NVABases) + sp.pieces.totalOf(NVATroops) +
++                                                     sp.pieces.totalOf(NVAGuerrillas))),
++    "population" -> {
++      val pop = score("Most Population")(sp => if (sp.isLoC) NO_SCORE else sp.population)
++      Map("support" -> List(pop), "place" -> List(pop), "sweep" -> List(pop))
++    }
++  )
++
++  // ---------------------------------------------------------------
++  //  Evaluation
++  // ---------------------------------------------------------------
++  def features(g: GameState, hingeBuffer: Double): Map[String, Double] = {
++    val s        = g.scores.map(x => x.faction -> x.score.toDouble).toMap
++    val rivals   = List(s(ARVN), s(NVA), s(VC))
++    val hinge    = rivals.map(r => (r + hingeBuffer) max 0.0).sum
++    val coupNext = g.onDeckCard != 0 && eventDeck(g.onDeckCard).isCoup
++    def onMap(types: Iterable[PieceType]) = g.totalOnMap(_.pieces.totalOf(types)).toDouble
++    Map(
++      "us"                    -> s(US),
++      "arvn"                  -> s(ARVN),
++      "nva"                   -> s(NVA),
++      "vc"                    -> s(VC),
++      "max_rival"             -> rivals.max,
++      "rival_hinge"           -> hinge,
++      "rival_hinge_coup_next" -> (if (coupNext) hinge else 0.0),
++      "vc_guerrillas"         -> onMap(VCGuerrillas),
++      "vc_underground"        -> onMap(List(VCGuerrillas_U)),
++      "nva_troops"            -> onMap(List(NVATroops)),
++      "nva_guerrillas"        -> onMap(NVAGuerrillas),
++      "us_casualties"         -> g.casualties.totalOf(USPieces).toDouble,
++      "arvn_res"              -> g.arvnResources.toDouble,
++      "aid"                   -> g.usAid.toDouble,
++      "trail"                 -> g.trail.toDouble,
++      "terror"                -> g.totalOnMap(_.terror).toDouble
++    )
++  }
++
++  def value(cfg: Config, g: GameState, extra: Map[String, Double]): Double =
++    (features(g, cfg.hingeBuffer) ++ extra).iterator.map { case (k, v) => cfg.weights.getOrElse(k, 0.0) * v }.sum
++
++  // ---------------------------------------------------------------
++  //  Candidates
++  // ---------------------------------------------------------------
++  //  run() carries the candidate out on the current game and returns the
++  //  action taken, or None if it could not be carried out.
++  case class Candidate(name: String, run: () => Option[Action])
++
++  val SpecialsFor = Map(
++    "Train"   -> List("Advise", "AirLift", "AirStrike"),
++    "Patrol"  -> List("Advise", "AirLift", "AirStrike"),
++    "Sweep"   -> List("AirLift", "AirStrike"),
++    "Assault" -> List("AirLift", "AirStrike"))
++
++  def runOp(op: String, sa: Option[String], action: Action, focus: String, first: Boolean): Option[Action] = {
++    US_Bot.focus = Focuses(focus)
++    try {
++      val params = Params(addSpecialActivity = sa.nonEmpty, maxSpaces = if (action == LimitedOp) Some(1) else None)
++      def doSA(): Boolean = sa match {
++        case Some("Advise")    => US_Bot.adviseActivity(params)
++        case Some("AirLift")   => US_Bot.airLiftActivity(params)
++        case Some("AirStrike") => US_Bot.airStrikeActivity(params)
++        case _                 => false
++      }
++      //  Same order as the Tru'ng US cards: Train takes its Special Activity
++      //  first, Assault during, Patrol and Sweep after.
++      val (opDone, saDone) = op match {
++        case "Train"   => val d = doSA(); (US_Bot.trainOp(params, 3).nonEmpty, d)
++        case "Patrol"  => val o = US_Bot.patrolOp(params).nonEmpty; (o, o && doSA())
++        case "Sweep"   => val o = US_Bot.sweepOp(params).nonEmpty; (o, o && doSA())
++        case "Assault" => US_Bot.assaultOp(params)(() => doSA()) match {
++          case Some((_, d)) => (true, d)
++          case None         => (false, false)
++        }
++      }
++      if (!opDone) None
++      else Some(if (action == OpPlusSpecial && !saDone && first) OpOnly else action)
++    }
++    finally US_Bot.focus = Map.empty
++  }
++
++  def candidates(cfg: Config, card: EventCard): List[Candidate] = {
++    val seq   = game.sequence
++    val first = seq.numActors == 0
++    val list  = new scala.collection.mutable.ListBuffer[Candidate]
++    list += Candidate("Pass", () => { factionPasses(US); Some(Pass) })
++    if (seq.canDo(Event) && !card.isCoup && card.eventEffective(US))
++      list += Candidate("Event", () => { executeEvent(US, card); Some(Event) })
++    for (focus <- cfg.focuses; op <- List("Train", "Patrol", "Sweep", "Assault")) {
++      val tag = if (focus == "default") "" else s" @$focus"
++      if (seq.canDo(OpPlusSpecial)) {
++        for (sa <- SpecialsFor(op))
++          list += Candidate(s"$op+$sa$tag", () => runOp(op, Some(sa), OpPlusSpecial, focus, first))
++        if (!seq.canDo(OpOnly))
++          list += Candidate(s"$op$tag", () => runOp(op, None, OpPlusSpecial, focus, first))
++      }
++      if (seq.canDo(OpOnly))
++        list += Candidate(s"$op only$tag", () => runOp(op, None, OpOnly, focus, first))
++      if (seq.canDo(LimitedOp))
++        list += Candidate(s"$op LimOp$tag", () => runOp(op, None, LimitedOp, focus, first))
++    }
++    list.toList
++  }
++
++  def extras(a: Action, card: EventCard): Map[String, Double] = a match {
++    case Pass  => Map("pass" -> 1.0)
++    case Event => Map("event" -> 1.0,
++                      "event_critical"  -> (if (card.isCritical(US)) 1.0 else 0.0),
++                      "event_performed" -> (if (card.isPerformed(US)) 1.0 else 0.0))
++    case _     => Map.empty
++  }
++
++  // ---------------------------------------------------------------
++  //  The decision
++  // ---------------------------------------------------------------
++  def act(card: EventCard): Action = {
++    val cfg = config.get
++    if (cfg.mode == "trung")
++      trungAction(US, card)
++    else
++      search(cfg, card)
++  }
++
++  def search(cfg: Config, card: EventCard): Action = {
++    val base  = Random.nextLong()
++    val saved = game
++    val cands = candidates(cfg, card)
++
++    //  Each candidate is tried on the same `samples` dice streams (common
++    //  random numbers), none of which is the stream the real action uses.
++    val scored = cands flatMap { c =>
++      val vals = (1 to cfg.samples) flatMap { k =>
++        Random.setSeed(base + 7919L * k)
++        deadline = System.nanoTime + cfg.trialMillis * 1000000L
++        try testOutcome {
++          initTurnVariables()
++          c.run() map (a => value(cfg, game, extras(a, card)))
++        }
++        catch { case _: Throwable => None }
++        finally { game = saved; deadline = Long.MaxValue }
++      }
++      if (vals.isEmpty) None else Some(c -> vals.sum / vals.size)
++    }
++
++    val (best, bestValue) = scored.maxBy(_._2)
++    lastChoice = f"${best.name} $bestValue%.2f ${scored.size}"
++    log(f"\nUS policy chooses: ${best.name} (value $bestValue%.2f, best of ${scored.size} candidates)")
++
++    Random.setSeed(base)
++    initTurnVariables()
++    deadline = System.nanoTime + cfg.trialMillis * 1000000L
++    val result = try best.run() catch { case _: Throwable => None } finally deadline = Long.MaxValue
++    result getOrElse {
++      // Could not be carried out on these dice: undo anything done and pass.
++      game = saved
++      initTurnVariables()
++      lastChoice += " -> Pass"
++      factionPasses(US)
++      Pass
++    }
++  }
++}

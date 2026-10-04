@@ -4,6 +4,7 @@
 Usage:
   botrun.py --games 1000 [--seed 1] [--workers 4] [--us-final-only]
             [--timeout 10] [--out results/run.jsonl] [--via-main] [--trace]
+            [--us-policy policies/search.json]
   botrun.py --summary results/run.jsonl
 
 Each game is played by `fitl.Autoplay` (in the harness jar): all four
@@ -17,6 +18,8 @@ is appended to --out.
 --trace          add each Bot action (card, faction, action, operations and
                  special activities, Event side, change in every score
                  component) and each Coup round's change to the record.
+--us-policy F    the US decides with the policy in F (see USPolicy.scala and
+                 policies/) instead of the Tru'ng US cards.
 --via-main       validation: play each game through the program's own
                  interactive main loop (saves written to a scratch directory)
                  instead of the Autoplay loop. Same seeds give the same games.
@@ -58,6 +61,8 @@ def run_range(first, count, args, out_lock, out_f, progress):
             cmd.append("--via-main")
         if args.trace:
             cmd.append("--trace")
+        if args.us_policy:
+            cmd += ["--us-policy", os.path.abspath(args.us_policy)]
         proc = subprocess.Popen(cmd, cwd=cwd, env=env, stdout=subprocess.PIPE,
                                 stderr=subprocess.DEVNULL, text=True)
         last = seed - 1
@@ -150,6 +155,7 @@ def main():
     p.add_argument("--us-final-only", action="store_true")
     p.add_argument("--via-main", action="store_true")
     p.add_argument("--trace", action="store_true")
+    p.add_argument("--us-policy", metavar="JSON")
     p.add_argument("--out", default=os.path.join(ROOT, "results", "botrun.jsonl"))
     p.add_argument("--summary", metavar="JSONL")
     args = p.parse_args()
