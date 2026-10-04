@@ -26,6 +26,7 @@ short version:
 | `fitl/lib/` | `fitl` v1.53 jars (MIT, github.com/sellmerfud/fitl) with one patch applied, see below. No build step to run. |
 | `fitl/fitl-1.53-harness.patch` | The patch applied to the program (against v1.53): save after every action and Coup round *before* asking for the next card, make the card draw its own saved step, close the adjacency table under symmetry, and add the headless `fitl.Autoplay` entry point. `save-before-draw.patch` is the first half, kept for reference. |
 | `tools/botrun.py` | Plays many seeded all-Bot games headless and in parallel through `fitl.Autoplay`, one JSON line per game, and summarises them. See "All-Bot games" below. |
+| `tools/botattrib.py` | For a `botrun.py --trace` run: each score component's change per game, by the faction and kind of action that made it, and by Coup rounds. |
 | `results/` | All-Bot run results: one JSONL file per run, and the printed summary beside it. |
 | `tools/ctl.py` | Controller: holds the program in a persistent tmux session. `start`, `new-game`, `resume`, `send`, `seq`, `enter`, `advance`, `brief`, `commit-turn`, `read`, `screen`, `status`. `advance` also draws event cards, writes the report file at each draw and prints the briefing at the US turn; `seq` answers a whole action's prompts in one guarded call, by label or name whichever form the prompt takes; `commit-turn` does the end-of-card bookkeeping (notes line, report, commit, push). |
 | `tools/deck.py` | Lazy event-card draws: uniform over what can legally be next in the current pile, decided at request time with the OS random source. `selftest` simulates thousands of decks. |
@@ -206,6 +207,11 @@ after Redeploy wins.
 First calibration (seeds 1-1000, 4 workers, about 1 min a run): winners VC
 69%, ARVN 16%, NVA 8%, US 8% (5% with `--us-final-only`); final US margin
 -18 (sd 11). Summaries in `results/calib_*.txt`.
+
+`--trace` adds every Bot action (card, faction, action, operations and
+special activities, Event side, change in each score component) and each
+Coup round's change to the record; `tools/botattrib.py` sums them by source
+(`results/attrib_standard.txt` for seeds 1-1000). Same games as untraced.
 
 ## Information boundary
 

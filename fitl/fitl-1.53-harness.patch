@@ -1,13 +1,13 @@
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..3c23652
+index 0000000..683d264
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,229 @@
+@@ -0,0 +1,268 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
-+//  Usage: java -cp "fitl/lib/*" fitl.Autoplay --seed S --games N [--us-final-only]
++//  Usage: java -cp "fitl/lib/*" fitl.Autoplay --seed S --games N [--us-final-only] [--trace]
 +//
 +//  Each game is seeded: the global RNG (dice, Tru'ng deck, Bot choices) gets
 +//  `seed` and the event deck is built from a separate RNG derived from it, as
@@ -44,8 +44,11 @@ index 0000000..3c23652
 +  //  can tell which prompt it is answering.
 +  class Tail extends OutputStream {
 +    private val buf = new java.lang.StringBuilder
++    val rec = new java.lang.StringBuilder   // everything since rec was last cleared (--trace)
++    var recording = false
 +    def write(b: Int): Unit = {
 +      buf.append(b.toChar)
++      if (recording) rec.append(b.toChar)
 +      if (buf.length > 8000) buf.delete(0, buf.length - 2000)
 +    }
 +    def text: String = buf.toString
@@ -93,7 +96,20 @@ index 0000000..3c23652
 +  def scoreJson(scores: List[Score]): String =
 +    scores.sortBy(_.faction.toString).map(s => s""""${s.faction}":${s.score}""").mkString("{", ",", "}")
 +
-+  def runGame(seed: Long, usFinalOnly: Boolean): String = {
++  //  Score components, for --trace.
++  def comps(g: GameState): Map[String, Int] = Map(
++    "sup" -> g.totalSupport, "opp" -> g.totalOpposition, "vcb" -> g.vcBasesOnMap,
++    "nvac" -> g.totalNvaControl, "nvab" -> g.nvaBasesOnMap, "coin" -> g.totalCoinControl,
++    "pat" -> g.patronage, "usav" -> g.availablelUSTroopsAndBases)
++  val CompKeys = List("sup", "opp", "vcb", "nvac", "nvab", "coin", "pat", "usav")
++  def compsJson(m: Map[String, Int], skipZero: Boolean): String =
++    CompKeys.filter(k => !skipZero || m(k) != 0).map(k => s""""$k":${m(k)}""").mkString("{", ",", "}")
++  def deltaJson(a: Map[String, Int], b: Map[String, Int]) =
++    compsJson(CompKeys.map(k => k -> (b(k) - a(k))).toMap, skipZero = true)
++  val ChooseRx = raw"(?m)^(US|ARVN|NVA|VC) chooses (.+?) (operation|special activity)".r
++  val EventRx  = raw"(?m)^(US|ARVN|NVA|VC) executes the (Unshaded|Shaded) Event".r
++
++  def runGame(seed: Long, usFinalOnly: Boolean, trace: Boolean = false): String = {
 +    Random.setSeed(seed)
 +    val deck = buildDeck(new Random(seed * 6364136223846793005L + 1442695040888963407L))
 +    var cardIdx = 0
@@ -105,6 +121,8 @@ index 0000000..3c23652
 +    var endCoup = 0
 +    var error = ""
 +    val start = System.nanoTime
++    val actions = new scala.collection.mutable.ListBuffer[String]
++    var initial = ""
 +
 +    Console.withOut(out) {
 +      Console.withIn(reader) {
@@ -117,6 +135,7 @@ index 0000000..3c23652
 +          if (game.isBot(VC))
 +            initAgitateTotal()
 +          drawNextCard()
++          initial = compsJson(comps(game), false)
 +
 +          var steps = 0
 +          while (!game.gameOver) {
@@ -134,12 +153,14 @@ index 0000000..3c23652
 +            if (game.isCoupRound) {
 +              val coupNum = game.coupCardsPlayed + 1
 +              val before = game.scores
++              val c0 = comps(game)
 +              val earlyWinner = before
 +                .filter(e => e.score > 0)
 +                .filterNot(e => noEarlyWin(e.faction))
 +                .headOption
 +              resolveCoupCard()
-+              coups += s"""{"coup":$coupNum,"card":${game.currentCard},"victory_check":${scoreJson(before)}}"""
++              coups += s"""{"coup":$coupNum,"card":${game.currentCard},"victory_check":${scoreJson(before)}""" +
++                (if (trace) s""","at":${compsJson(c0, false)},"d":${deltaJson(c0, comps(game))}""" else "") + "}"
 +              if (game.gameOver) {
 +                endCoup = coupNum
 +                winner = earlyWinner.map(_.faction.toString) getOrElse game.scores.head.faction.toString
@@ -150,6 +171,21 @@ index 0000000..3c23652
 +            else {
 +              game.actingFaction match {
 +                case None => game = game.copy(needsCardDraw = true)
++                case Some(f) if trace =>
++                  val c0 = comps(game)
++                  val seq0 = game.sequence
++                  val card = game.currentCard
++                  tail.rec.setLength(0); tail.recording = true
++                  try Bot.act() finally tail.recording = false
++                  val text = tail.rec.toString
++                  val act = if (game.sequence.numActors > seq0.numActors) game.sequence.actors.last.action.toString
++                            else if (game.sequence.passed(f) && !seq0.passed(f)) "Pass" else "?"
++                  val ops = ChooseRx.findAllMatchIn(text).filter(_.group(1) == f.toString).map(m => "\"" + m.group(2) + "\"").mkString(",")
++                  val ev = EventRx.findFirstMatchIn(text).filter(_.group(1) == f.toString).map(_.group(2))
++                    .getOrElse(if (text.contains("executes its Pivotal Event")) "Pivotal" else "")
++                  actions += s"""{"c":$card,"f":"$f","a":"$act","ev":"$ev","ops":[$ops],"d":${deltaJson(c0, comps(game))}}"""
++                  if (game.sequence.exhausted)
++                    game = game.copy(needsCardDraw = true)
 +                case Some(_) =>
 +                  Bot.act()
 +                  if (game.sequence.exhausted)
@@ -171,7 +207,9 @@ index 0000000..3c23652
 +    val cards = if (game != null) game.cardsSeen.size else 0
 +    s"""{"seed":$seed,"us_final_only":$usFinalOnly,"winner":${q(winner)},"end_coup":$endCoup,""" +
 +    s""""final_coup":${endCoup == 6},"cards":$cards,"coups_played":${if (game != null) game.coupCardsPlayed else 0},"final_scores":$finalScores,""" +
-+    s""""coups":${coups.mkString("[", ",", "]")},"secs":${"%.2f".format(secs)},"error":${q(error)}}"""
++    s""""coups":${coups.mkString("[", ",", "]")},""" +
++    (if (trace) s""""initial":$initial,"actions":${actions.mkString("[", ",", "]")},""" else "") +
++    s""""secs":${"%.2f".format(secs)},"error":${q(error)}}"""
 +  }
 +
 +  //  Validation: the program's own interactive main loop, every prompt answered
@@ -211,6 +249,7 @@ index 0000000..3c23652
 +    val games = arg("--games", "1").toInt
 +    val usFinalOnly = args.contains("--us-final-only")
 +    val viaMain = args.contains("--via-main")
++    val trace = args.contains("--trace")
 +    val timeoutSecs = arg("--timeout", "10").toInt
 +    for (i <- 0 until games) {
 +      //  Watchdog: some seeds send the program's Bots into a loop that does
@@ -227,7 +266,7 @@ index 0000000..3c23652
 +      })
 +      watchdog.setDaemon(true)
 +      watchdog.start()
-+      println(if (viaMain) runViaMain(s) else runGame(s, usFinalOnly))
++      println(if (viaMain) runViaMain(s) else runGame(s, usFinalOnly, trace))
 +      System.out.flush()
 +      watchdog.interrupt()
 +    }
