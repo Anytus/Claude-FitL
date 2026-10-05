@@ -1,0 +1,79 @@
+395 games: {'VC': 158, 'NVA': 73, 'US': 155, 'ARVN': 9}
+
+when and by how much (winner's margin at the deciding check / US margin then)
+  VC    n=158  ends {1: 5, 2: 19, 3: 16, 4: 28, 5: 33, 6: 57}  winner margin +2.1  US margin -11.7  US lead -13.8
+  NVA   n= 73  ends {2: 4, 3: 8, 4: 7, 5: 8, 6: 46}  winner margin -0.2  US margin -7.4  US lead -7.2
+  US    n=155  ends {3: 1, 5: 1, 6: 153}  winner margin +4.9  US margin +4.9  US lead +9.4
+  ARVN  n=  9  ends {2: 2, 4: 1, 5: 2, 6: 4}  winner margin -0.6  US margin -12.8  US lead -12.2
+
+losses at the final Coup: 107; US lead there: [(-24, 2), (-20, 2), (-18, 1), (-17, 2), (-16, 2), (-15, 4), (-14, 7), (-13, 4), (-12, 3), (-11, 4), (-10, 4), (-9, 5)]
+
+== games won by US (n=155); change per game
+source         sup   usav    opp    vcb   coin    pat   nvac   nvab
+ARVN Event    -3.4   +0.0   -0.6   -0.5   +2.8  +16.0   -1.8   -1.0
+ARVN Op       -8.5   +0.0   +0.1   -1.8  +23.5  +10.0   -7.0   -0.9
+Coup         +16.4   -2.3  +19.1   +0.0   -3.6   +0.0   +3.5   +0.0
+NVA Event     -1.7   -0.9   +0.2   +0.0   -5.6   -1.9   +6.8   +0.4
+NVA Op        -2.1   +0.0   -1.8   -1.2  -14.5   +0.0  +23.7   +6.4
+US Event      +2.4   +2.3   -0.6   -0.4   +0.5   -1.6   -0.8   -2.6
+US Op        +39.4   -0.1  -18.2   -5.6  +13.6  -14.3  -15.4   -0.5
+VC Event     -19.8   -1.0  +14.6   +3.9   -5.0   -4.3   +0.3   +0.2
+VC Op         -3.8   +0.0  -11.1   +3.9   -9.0   -4.6   -3.6   +0.0
+
+== games won by VC (n=158); change per game
+source         sup   usav    opp    vcb   coin    pat   nvac   nvab
+ARVN Event    -2.6   +0.2   -0.2   -0.3   +1.8  +14.8   -1.1   -0.8
+ARVN Op       -7.5   +0.0   +0.0   -1.0  +16.5   +9.3   -3.9   -0.4
+Coup         +13.8   -7.1  +16.5   +0.0   -2.2   +0.0   +2.1   +0.0
+NVA Event     -0.7   -0.8   +0.2   +0.0   -4.1   -1.2   +4.9   +0.3
+NVA Op        -1.2   +0.0   -1.3   -0.9  -10.0   +0.0  +18.4   +5.5
+US Event      +1.3   +1.1   -0.2   -0.4   +0.3   -1.0   -0.5   -1.8
+US Op        +25.9   -0.1  -10.9   -3.9  +10.0  -12.8  -12.0   -0.2
+VC Event     -17.1   -0.7  +12.1   +3.3   -5.5   -3.6   +0.4   +0.2
+VC Op         -4.2   +0.0   -5.6   +2.7   -6.9   -3.8   -2.3   +0.0
+
+== games won by NVA (n=73); change per game
+source         sup   usav    opp    vcb   coin    pat   nvac   nvab
+ARVN Event    -3.0   +0.1   -0.5   -0.3   +2.3  +14.7   -1.5   -0.9
+ARVN Op       -8.0   +0.0   -0.0   -1.6  +19.8   +9.5   -5.7   -0.4
+Coup         +15.2   -6.2  +16.9   +0.0   -3.0   +0.0   +3.4   +0.0
+NVA Event     -0.8   -0.9   +0.5   -0.0   -5.2   -1.4   +7.3   +0.4
+NVA Op        -1.2   +0.0   -2.1   -1.3  -13.3   +0.0  +25.3   +6.5
+US Event      +1.2   +1.6   -0.5   -0.4   +0.5   -1.3   -0.8   -1.9
+US Op        +30.2   -0.1  -14.7   -4.7  +10.4  -13.5  -15.5   -0.2
+VC Event     -17.1   -1.6  +11.3   +4.0   -5.3   -3.0   -0.1   +0.2
+VC Op         -5.0   +0.0   -9.0   +3.1   -6.9   -3.3   -2.5   +0.0
+
+Coup rounds, mean change per Coup: support / opposition / US available
+  US   sup +2.75  opp +3.20  usav -0.39
+  VC   sup +3.08  opp +3.66  usav -1.59
+  NVA  sup +2.95  opp +3.28  usav -1.20
+
+mean margins at each Victory check (US / VC / NVA)
+  US wins: C1: -8/-8/-11  C2: -12/-10/-9  C3: -8/-11/-8  C4: -5/-11/-8  C5: -2/-11/-7  C6: +5/-11/-7
+  VC wins: C1: -9/-8/-11  C2: -14/-7/-7  C3: -12/-7/-7  C4: -10/-4/-6  C5: -12/-3/-6  C6: -8/-3/-6
+  NVA wins: C1: -9/-9/-11  C2: -14/-8/-8  C3: -12/-10/-6  C4: -9/-9/-5  C5: -8/-10/-5  C6: -6/-10/-2
+
+US decisions (share), US wins vs VC wins vs NVA wins
+  Train+Advise           27.7%   26.3%   24.5%
+  Train LimOp            20.7%   22.9%   22.3%
+  Train+AirLift          16.7%   13.7%   16.0%
+  Train+AirStrike         9.8%   10.2%    9.4%
+  Event                   7.7%    7.2%    7.6%
+  Pass                    4.0%    3.3%    3.6%
+  Sweep+AirStrike         2.1%    4.1%    2.8%
+  Assault+AirLift         2.8%    2.7%    3.1%
+  Sweep LimOp             2.0%    2.0%    2.8%
+  Assault LimOp           1.8%    2.4%    2.1%
+
+Insurgent Events: plays per game and mean change in VC/NVA points per play (all games)
+  NVA #122 Easter Offensive           plays/game 0.89  pts/play +5.73
+  VC  #124 Tet Offensive              plays/game 0.91  pts/play +4.78
+  VC  #95  Westmoreland               plays/game 0.31  pts/play +4.65
+  VC  #119 My Lai                     plays/game 0.36  pts/play +3.90
+  VC  #27  Phoenix Program            plays/game 0.20  pts/play +4.82
+  VC  #118 Korean War Arms            plays/game 0.40  pts/play +2.30
+  VC  #29  Tribesmen                  plays/game 0.27  pts/play +3.38
+  VC  #111 Agent Orange               plays/game 0.35  pts/play +2.47
+  VC  #26  LRRP                       plays/game 0.29  pts/play +2.74
+  VC  #112 Colonel Chau               plays/game 0.41  pts/play +1.98
