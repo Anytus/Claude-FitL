@@ -278,6 +278,13 @@ from the pile structure). `FITL_POLICY_DEBUG=1` prints the features at each US
 decision to stderr. `tools/botlosses.py` is the loss analysis that led to them
 (`results/losses_t1.txt`).
 
+Second run, `t2` (from `tune2-start`, seeds from 40000): on held-out seeds
+1-400, `policies/tuned_t2.json` wins 43% against 39% for `tuned_t1` (US lead
++2.4, se 0.8). The new features with hand-set weights alone gave +0.9 (se
+0.6); tuning added +1.6 (se 0.7). Tet and Easter Offensive are played as often
+as before (about 0.9 a game each): the gain is in fewer early VC wins (77
+against 101) and less Opposition from Coup rounds. `results/val_t2.txt`.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

@@ -1,0 +1,44 @@
+Held-out validation, seeds 1-400, --us-final-only, all on the same build
+
+== tuned_t2 (variant) vs tuned_t1 (baseline)
+387 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     39.3%    2.6%   18.3%   39.8%        -4.4     -3.3
+variant      43.4%    2.3%   17.6%   36.7%        -2.2     -0.9
+
+paired change in US margin: +2.22 (se 0.63)
+
+paired change in US lead: +2.38 (se 0.78)
+
+variant games ended at: Coup 1 1%, Coup 2 6%, Coup 3 9%, Coup 4 7%, Coup 5 7%, final 70%
+
+== tune2-start (variant) vs tuned_t1 (baseline)
+391 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     39.4%    2.6%   18.2%   39.9%        -4.4     -3.4
+variant      40.4%    2.8%   15.3%   41.4%        -3.7     -2.5
+
+paired change in US margin: +0.68 (se 0.50)
+
+paired change in US lead: +0.93 (se 0.62)
+
+variant games ended at: Coup 1 1%, Coup 2 5%, Coup 3 7%, Coup 4 9%, Coup 5 9%, final 69%
+
+== tuned_t2 (variant) vs tune2-start (baseline)
+385 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     40.5%    2.9%   15.6%   41.0%        -3.8     -2.5
+variant      43.6%    2.3%   17.7%   36.4%        -2.1     -0.9
+
+paired change in US margin: +1.66 (se 0.59)
+
+paired change in US lead: +1.64 (se 0.73)
+
+variant games ended at: Coup 1 1%, Coup 2 6%, Coup 3 8%, Coup 4 8%, Coup 5 7%, final 70%
+
+Traced runs, same seeds: pivotal Events per game, Opposition change per Coup round, VC wins before the final Coup
+tuned_t1: Tet 0.91  Easter 0.89  Coup Opposition +3.36  early VC wins 101 of 395
+tuned_t2: Tet 0.90  Easter 0.89  Coup Opposition +3.03  early VC wins 77 of 390
