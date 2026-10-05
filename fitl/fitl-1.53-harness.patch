@@ -619,7 +619,7 @@ index f0952bb..eca5a9c 100644
      log(s"\nMove the $faction cylinder to the ${actorBoxName(action)} box", Color.GameMarker)
      game = game.copy(sequence = game.sequence.addActor(faction, action))
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
-index b1dc7c3..026e1bd 100644
+index b1dc7c3..7f126c5 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
 +++ b/src/main/scala/fitl/FireInTheLake.scala
 @@ -345,7 +345,7 @@ object FireInTheLake {
@@ -646,7 +646,39 @@ index b1dc7c3..026e1bd 100644
    def getAdjacent(name: String): Set[String] = adjacencyMap(name)
    def areAdjacent(name1: String, name2: String): Boolean = getAdjacent(name1) contains name2
    def getAdjacentLOCs(name: String): Set[String] = getAdjacent(name) filter { x => game.getSpace(x).isLoC }
-@@ -2189,6 +2197,7 @@ object FireInTheLake {
+@@ -932,8 +940,30 @@ object FireInTheLake {
+ 
+     override def toString() = if (isEmpty) "none" else descriptions.mkString(", ")
+ 
++    //  Harness (speed): the common piece groups are summed directly from the
++    //  fields; any other group with a plain loop. Same results as the
++    //  original foldLeft over the group's piece types.
++    private def usSum   = usTroops + irregulars_U + irregulars_A + usBases
++    private def arvnSum = arvnTroops + arvnPolice + rangers_U + rangers_A + arvnBases
++    private def nvaSum  = nvaTroops + nvaGuerrillas_U + nvaGuerrillas_A + nvaBases + nvaTunnels
++    private def vcSum   = vcGuerrillas_U + vcGuerrillas_A + vcBases + vcTunnels
++
+     def totalOf(pieceTypes: Iterable[PieceType]): Int =
+-      pieceTypes.foldLeft(0) { (num, piece) => num + totalOf(piece) }
++      if      (pieceTypes eq CoinPieces)      usSum + arvnSum
++      else if (pieceTypes eq InsurgentPieces) nvaSum + vcSum
++      else if (pieceTypes eq AllPieceTypes)   usSum + arvnSum + nvaSum + vcSum
++      else if (pieceTypes eq NonNVAPieces)    usSum + arvnSum + vcSum
++      else if (pieceTypes eq USPieces)        usSum
++      else if (pieceTypes eq ARVNPieces)      arvnSum
++      else if (pieceTypes eq NVAPieces)       nvaSum
++      else if (pieceTypes eq VCPieces)        vcSum
++      else {
++        var num = 0
++        val it  = pieceTypes.iterator
++        while (it.hasNext)
++          num += totalOf(it.next())
++        num
++      }
+ 
+     // Return true of this Pieces instance contains at least all of the specified pieces.
+     def contains(query: Pieces): Boolean = AllPieceTypes forall (t => totalOf(t) >= query.totalOf(t))
+@@ -2189,6 +2219,7 @@ object FireInTheLake {
      botIntents: BotIntents            = BotIntentsVerbose,
      history: Vector[GameSegment]      = Vector.empty,
      showColor: Boolean                = !scala.util.Properties.isWin, // Default true except on Windows
@@ -654,7 +686,7 @@ index b1dc7c3..026e1bd 100644
      log: Vector[LogEntry]               = Vector.empty) {  // Log of the cuurent game segment
  
  
-@@ -2245,7 +2254,7 @@ object FireInTheLake {
+@@ -2245,7 +2276,7 @@ object FireInTheLake {
  
      def trackResources(faction: Faction) = faction match {
        case US    => throw new IllegalArgumentException("trackResources() does not accept US faction as argument")
@@ -663,7 +695,20 @@ index b1dc7c3..026e1bd 100644
        case other => isHuman(other)
      }
  
-@@ -2328,6 +2337,18 @@ object FireInTheLake {
+@@ -2320,7 +2351,11 @@ object FireInTheLake {
+ 
+     def hasSpace(test: (Space) => Boolean) = spaces exists test
+     def getSpaces(test: (Space) => Boolean): List[Space] = spaces filter test
+-    def getSpace(name: String) = (spaces find (_.name == name)).get
++    //  Harness (speed): look spaces up by name through an index built once per
++    //  game state, instead of searching the list. The list itself, and so the
++    //  order everything else sees, is unchanged.
++    lazy val spaceByName: Map[String, Space] = spaces.iterator.map(sp => sp.name -> sp).toMap
++    def getSpace(name: String) = spaceByName(name)
+     def withSpace[T](name: String)(fn: (Space) => T): T = fn(getSpace(name))
+     def updateSpace(changed: Space): GameState =
+       this.copy(spaces = changed :: (spaces filterNot (_.name == changed.name)))
+@@ -2328,6 +2363,18 @@ object FireInTheLake {
  
    var game: GameState = _           // Global variable that holds the current game state.
  
@@ -682,7 +727,7 @@ index b1dc7c3..026e1bd 100644
    def autoVictory(faction: Faction): Boolean = (game.isBot(faction) || game.humanWinInVictoryPhase) &&
      (faction match {
        case US   => game.usScore   > 0
-@@ -3157,6 +3178,11 @@ object FireInTheLake {
+@@ -3157,6 +3204,11 @@ object FireInTheLake {
    // Prompt the user for one or two cards if necessary.
    // Then update the game state with the new card numbers.
    def drawNextCard(): Unit = {
@@ -694,7 +739,7 @@ index b1dc7c3..026e1bd 100644
      if (game.numCardsDrawn == 0) {
        println("\nDraw event cards")
        println(separator())
-@@ -3269,6 +3295,7 @@ object FireInTheLake {
+@@ -3269,6 +3321,7 @@ object FireInTheLake {
        // can set an option to allow human players to win during a Coup Round.
        val winner = game.scores
          .filter(entry => entry.score > 0 && (game.isBot(entry.faction) || game.humanWinInVictoryPhase))
@@ -702,7 +747,7 @@ index b1dc7c3..026e1bd 100644
          .headOption
  
        winner match {
-@@ -4096,6 +4123,16 @@ object FireInTheLake {
+@@ -4096,6 +4149,16 @@ object FireInTheLake {
  
  
    @tailrec def mainLoop(): Unit = {
@@ -719,7 +764,7 @@ index b1dc7c3..026e1bd 100644
      // Does any faction wish to play their pivotal event?
      // Will alwasy return None if Coup round or Coup card on deck
      // or any faction has already acted.
-@@ -4139,19 +4176,20 @@ object FireInTheLake {
+@@ -4139,19 +4202,20 @@ object FireInTheLake {
              endgameCommand() // Does not return, throws ExitGame or Rollback
            }
            else {
