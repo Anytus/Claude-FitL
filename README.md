@@ -311,7 +311,24 @@ are for the old, easier setting. `results/us_player.txt`, `results/calibP_*`.
 `arvn_spendable` (ARVN Resources above Econ) and `arvn_spendable_capped` (the
 same, capped at 9) give the search the Resources the US may actually spend;
 they only move with `--us-player`. `bottune.py --freeze w1,w2` keeps listed
-weights at their start value (run `t3` freezes `arvn_res` at 0).
+weights at their start value (run `t3` freezes `arvn_res` at 0). Run `t3` was stopped after 10
+generations: the changes below replace the US it was tuning.
+
+With ARVN Resources tracked (`--us-player` or `--track-arvn`) the US no longer
+makes the Tru'ng ARVN activation rolls when it Trains, and its Pacify is not
+capped by a d3: both stand in for untracked Resources, and paying Resources as
+well would be a double handicap. Air Strike keeps its d6 (a real rule). Without
+the activation roll the US Bot's Train would place ARVN pieces in every US Base
+space until Resources reach Econ, starving the Pacify that comes last, so the
+search also offers Train capped at 1 or 2 ARVN placements (`Train[arvn<=1]`).
+
+`"commit_plan": true` in a policy file makes the first trial's space and piece
+choices (the Tru'ng priorities' random tie-breaks) the candidate's plan; later
+trials and the real action replay them, so only the dice differ. Before, the
+real action broke ties afresh and differed from its trial in about a third of
+US decisions (31 of 97 in 5 games); with it, 9 of 118, where a die roll changed
+what followed, and the real score is no longer below the trial's on average.
+`FITL_POLICY_REPLAY=PREFIX` logs trial against real picks for each decision.
 
 ## Information boundary
 
