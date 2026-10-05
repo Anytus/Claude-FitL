@@ -599,10 +599,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..ab21335
+index 0000000..8f918ac
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,340 @@
+@@ -0,0 +1,358 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -654,6 +654,16 @@ index 0000000..ab21335
 +
 +  //  FITL_POLICY_DEBUG set: print the features at each US decision to stderr.
 +  val Debug = sys.env.contains("FITL_POLICY_DEBUG")
++
++  //  FITL_POLICY_DESIGN=PREFIX: at each US decision append one JSON line to
++  //  PREFIX.<pid> with the features before the decision and, for every
++  //  candidate, its value and the features (with Pass/Event extras) after
++  //  its first trial. For studying how the features rank candidates.
++  lazy val designLog: Option[java.io.PrintWriter] = sys.env.get("FITL_POLICY_DESIGN") map { p =>
++    new java.io.PrintWriter(new java.io.FileWriter(s"$p.${ProcessHandle.current.pid}", true))
++  }
++  private def jsonMap(m: Map[String, Double]) =
++    m.toList.sortBy(_._1).map { case (k, v) => f""""$k":$v%.4f""" }.mkString("{", ",", "}")
 +
 +  val DefaultWeights: Map[String, Double] = Map(
 +    "us"                    ->  1.0,
@@ -911,21 +921,29 @@ index 0000000..ab21335
 +
 +    //  Each candidate is tried on the same `samples` dice streams (common
 +    //  random numbers), none of which is the stream the real action uses.
-+    val scored = cands flatMap { c =>
-+      val vals = (1 to cfg.samples) flatMap { k =>
++    val trials = cands flatMap { c =>
++      val runs = (1 to cfg.samples) flatMap { k =>
 +        Random.setSeed(base + 7919L * k)
 +        deadline = System.nanoTime + cfg.trialMillis * 1000000L
 +        try testOutcome {
 +          initTurnVariables()
-+          c.run() map (a => value(cfg, game, extras(a, card)))
++          c.run() map (a => (value(cfg, game, extras(a, card)),
++                             if (designLog.nonEmpty) features(game, cfg.hingeBuffer) ++ extras(a, card) else Map.empty[String, Double]))
 +        }
 +        catch { case _: Throwable => None }
 +        finally { game = saved; deadline = Long.MaxValue }
 +      }
-+      if (vals.isEmpty) None else Some(c -> vals.sum / vals.size)
++      if (runs.isEmpty) None else Some((c, runs.map(_._1).sum / runs.size, runs.head._2))
 +    }
++    val scored = trials map { case (c, v, _) => c -> v }
 +
 +    val (best, bestValue) = scored.maxBy(_._2)
++    designLog foreach { w =>
++      val cs = trials map { case (c, v, f) => f"""{"name":"${c.name}","v":$v%.4f,"f":${jsonMap(f)}}""" }
++      w.println(s"""{"card":${game.currentCard},"seen":${game.cardsSeen.size},"first":${game.sequence.numActors == 0},""" +
++                s""""chosen":"${best.name}","before":${jsonMap(features(game, cfg.hingeBuffer))},"cands":${cs.mkString("[", ",", "]")}}""")
++      w.flush()
++    }
 +    lastChoice = f"${best.name} $bestValue%.2f ${scored.size}"
 +    log(f"\nUS policy chooses: ${best.name} (value $bestValue%.2f, best of ${scored.size} candidates)")
 +

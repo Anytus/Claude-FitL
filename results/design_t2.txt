@@ -1,0 +1,49 @@
+tuned_t2, seeds 1-100, --us-final-only (FITL_POLICY_DESIGN log)
+2726 decisions, 95752 candidates, 26 features; max |value - weights.features| = 0.000
+
+feature                   weight  varies      sd    w*sd     VIF   flips
+us                         1.740     73%    1.28    2.22     1.1   49.3%
+rival_hinge               -1.795     31%    0.54    0.97     2.5    6.0%
+vc                        -1.041     69%    0.87    0.91     1.4   18.0%
+arvn                      -0.487     80%    1.27    0.62     1.6   19.4%
+vc_guerrillas             -0.607     76%    0.98    0.59     1.6   16.6%
+max_rival                 -0.362     73%    0.94    0.34     2.1    6.6%
+agitate_exposure          -0.249     44%    1.20    0.30     1.3    3.8%
+nva_troops                -0.151     64%    1.40    0.21     1.3    5.1%
+vc_underground            -0.108     84%    1.86    0.20     1.2    3.6%
+tet_live                  -2.289      3%    0.08    0.17     1.2    1.2%
+trail                     -0.452     51%    0.35    0.16     1.1    4.3%
+rival_hinge_coup_next     -1.175      2%    0.11    0.13     1.1    0.2%
+us_casualties             -0.354     36%    0.33    0.12     1.1    0.5%
+rival_hinge_coup_soon     -0.757     20%    0.15    0.11     1.8    0.2%
+tet_near                  -0.232     26%    0.45    0.10     1.7    1.6%
+pass                       0.559    100%    0.16    0.09     1.0    3.1%
+easter_live               -1.907      1%    0.05    0.09     1.5    0.3%
+nva                       -0.085     58%    0.87    0.07     1.6    1.5%
+easter_near               -0.190      7%    0.31    0.06     1.6    0.3%
+event_critical             0.511     15%    0.07    0.03     2.1    0.0%
+nva_guerrillas            -0.073     55%    0.45    0.03     1.1    0.6%
+terror                    -0.224     15%    0.14    0.03     1.0    0.3%
+event_performed            0.445     18%    0.07    0.03     2.2    0.8%
+aid                        0.016     13%    0.92    0.01     1.1    0.3%
+event                     -0.066     48%    0.11    0.01     3.3    0.3%
+arvn_res                   0.022      0%    0.00    0.00       -    0.0%
+
+within-decision correlations |r| >= 0.5
+  rival_hinge             rival_hinge_coup_soon   +0.66
+  max_rival               rival_hinge             +0.61
+  event                   event_performed         +0.61
+  easter_live             easter_near             +0.59
+  event                   event_critical          +0.57
+  tet_near                vc_guerrillas           +0.55
+
+eigenvalues of the correlation matrix (25 varying features):
+  2.59 2.18 1.88 1.71 1.59 1.34 1.17 1.08 1.07 1.00 0.98 0.97 0.92 0.89 0.85 0.81 0.73 0.68 0.61 0.46 0.40 0.38 0.30 0.26 0.17
+  condition number 15
+
+choice flips when a whole group's weights are 0
+  pivotal (tet_*, easter_*)                              3.3%
+  VC pieces (vc_guerrillas, vc_underground, tet_near)   23.0%
+  rival threat (max_rival, rival_hinge*)                15.5%
+  margins (us, arvn, nva, vc)                           71.3%
+  agitate_exposure + vc                                 19.3%

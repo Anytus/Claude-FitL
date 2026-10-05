@@ -285,6 +285,14 @@ Second run, `t2` (from `tune2-start`, seeds from 40000): on held-out seeds
 as before (about 0.9 a game each): the gain is in fewer early VC wins (77
 against 101) and less Opposition from Coup rounds. `results/val_t2.txt`.
 
+`FITL_POLICY_DESIGN=PREFIX` makes the search write, at each US decision, every
+candidate's value and features to `PREFIX.<pid>`; `tools/botdesign.py POLICY
+PREFIX.*` turns that into the within-decision design matrix (features minus
+the decision's mean, since only differences between candidates matter): how
+often each feature differs between candidates, its typical push on the
+ranking, VIFs, correlations, and how often zeroing a weight or a group
+changes the choice. `results/design_t2.txt` is the one for `tuned_t2`.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,
