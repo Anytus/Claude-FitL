@@ -694,7 +694,7 @@ index f0952bb..c7471b3 100644
      log(s"\nMove the $faction cylinder to the ${actorBoxName(action)} box", Color.GameMarker)
      game = game.copy(sequence = game.sequence.addActor(faction, action))
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
-index b1dc7c3..7f126c5 100644
+index b1dc7c3..f61b30f 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
 +++ b/src/main/scala/fitl/FireInTheLake.scala
 @@ -345,7 +345,7 @@ object FireInTheLake {
@@ -866,6 +866,27 @@ index b1dc7c3..7f126c5 100644
  
            // Now create a save point to capture the action
            saveGameState()
+@@ -5112,7 +5176,9 @@ object FireInTheLake {
+ 
+   private var loggingPointsChangesActive = false
+   def loggingPointsChanges[T](code: => T): T = {
+-    if (loggingPointsChangesActive)
++    //  Harness (speed): nothing would be printed while logging is suspended
++    //  (search trials), so skip the before/after bookkeeping.
++    if (loggingPointsChangesActive || loggingSuspended)
+       code
+     else {
+       loggingPointsChangesActive = true
+@@ -5136,7 +5202,8 @@ object FireInTheLake {
+   private var loggingControlChangesActive = false
+ 
+   def loggingControlChanges[T](code: => T): T = {
+-    if (loggingControlChangesActive)
++    //  Harness (speed): as loggingPointsChanges, nothing to print when suspended.
++    if (loggingControlChangesActive || loggingSuspended)
+       code
+     else {
+       loggingControlChangesActive = true
 diff --git a/src/main/scala/fitl/SavedGame.scala b/src/main/scala/fitl/SavedGame.scala
 index 8fd9366..a1752b9 100644
 --- a/src/main/scala/fitl/SavedGame.scala
