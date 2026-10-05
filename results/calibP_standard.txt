@@ -1,0 +1,25 @@
+games 1000: completed 970, failed 30
+  failed: AssertionError x23
+  failed: timeout 10s x7
+
+winner           games   share
+  VC               680    70.1%
+  ARVN             127    13.1%
+  NVA              121    12.5%
+  US                42     4.3%
+
+game ended at   games   share
+  Coup 1            22     2.3%
+  Coup 2           261    26.9%
+  Coup 3           262    27.0%
+  Coup 4           177    18.2%
+  Coup 5           119    12.3%
+  final Coup       129    13.3%
+
+final margin     mean     sd     min    max
+  US            -19.8   10.5    -46    +14
+  ARVN           -8.5    7.4    -31    +17
+  NVA            -4.3    4.7    -18    +11
+  VC             +1.6    5.9    -19    +24
+
+seconds per game: mean 0.23, max 3.63

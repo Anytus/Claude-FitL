@@ -293,6 +293,21 @@ often each feature differs between candidates, its typical push on the
 ranking, VIFs, correlations, and how often zeroing a weight or a group
 changes the choice. `results/design_t2.txt` is the one for `tuned_t2`.
 
+**`--us-player` (use it for every new run).** In an all-Bot game the program
+does not track ARVN Resources (it does only when the US or ARVN is human), and
+the VC Bot drops the priorities it uses against a human US (Terror, Agitation,
+guerrilla placement and March toward the most Support; Tax on Econ LoCs). So
+until this switch every run above let the US Train and Pacify for free against
+a softer VC. `--us-player` makes the Bots treat the US as a player, as in the
+human-US games: ARVN Resources are tracked (the US Bot routines already spend
+only what is above Econ) and those VC priorities apply. Decisions the program
+would ask a human for still go to the US Bot. `--track-arvn` and
+`--vc-sees-player` turn on one part each. With it (seeds 1-400, final-Coup
+only): the Tru'ng US wins 2% (5% before), `tuned_t2` 11% (43% before). Almost
+all of the drop is the ARVN Resources (US lead -12.8 of -13.4); the VC
+priorities cost -2.0. The win rates reported above for the search policies
+are for the old, easier setting. `results/us_player.txt`, `results/calibP_*`.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

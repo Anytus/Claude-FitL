@@ -4,7 +4,7 @@
 Usage:
   bottune.py --start policies/tune-start.json --name t1 [--generations 15]
              [--pairs 4] [--games 80] [--sigma 0.5] [--alpha 0.2]
-             [--seed-base 20000] [--workers 4] [--all-wins]
+             [--seed-base 20000] [--workers 4] [--all-wins] [--us-player]
 
 Evolution strategy with antithetic pairs and common random numbers. Each
 generation plays the current policy and `pairs` pairs of mirrored
@@ -51,6 +51,8 @@ def play(policy, seed, games, args, tag):
            "--workers", str(args.workers), "--timeout", "180", "--us-policy", pfile, "--out", out]
     if not args.all_wins:
         cmd.append("--us-final-only")
+    if args.us_player:
+        cmd.append("--us-player")
     subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
     recs = [json.loads(l) for l in open(out)]
     return {r["seed"]: r for r in recs if not r.get("error")}
@@ -92,6 +94,8 @@ def main():
     p.add_argument("--seed-base", type=int, default=20000)
     p.add_argument("--workers", type=int, default=os.cpu_count() or 2)
     p.add_argument("--all-wins", action="store_true")
+    p.add_argument("--us-player", action="store_true",
+                   help="Bots treat the US as a player (ARVN Resources tracked); see botrun.py")
     args = p.parse_args()
 
     start = json.load(open(args.start))

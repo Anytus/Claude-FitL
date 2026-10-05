@@ -4,7 +4,7 @@
 Usage:
   botrun.py --games 1000 [--seed 1] [--workers 4] [--us-final-only]
             [--timeout 10] [--out results/run.jsonl] [--via-main] [--trace]
-            [--us-policy policies/search.json]
+            [--us-policy policies/search.json] [--us-player]
   botrun.py --summary results/run.jsonl
 
 Each game is played by `fitl.Autoplay` (in the harness jar): all four
@@ -20,6 +20,10 @@ is appended to --out.
                  component) and each Coup round's change to the record.
 --us-policy F    the US decides with the policy in F (see USPolicy.scala and
                  policies/) instead of the Tru'ng US cards.
+--us-player      the Bots treat the US as a player, as in the human-US games:
+                 ARVN Resources are tracked (the US spends only what is above
+                 Econ) and the VC Bot's priorities against a human US apply.
+--track-arvn / --vc-sees-player   one of those two parts alone.
 --via-main       validation: play each game through the program's own
                  interactive main loop (saves written to a scratch directory)
                  instead of the Autoplay loop. Same seeds give the same games.
@@ -61,6 +65,9 @@ def run_range(first, count, args, out_lock, out_f, progress):
             cmd.append("--via-main")
         if args.trace:
             cmd.append("--trace")
+        for flag in ("us_player", "track_arvn", "vc_sees_player"):
+            if getattr(args, flag):
+                cmd.append("--" + flag.replace("_", "-"))
         if args.us_policy:
             cmd += ["--us-policy", os.path.abspath(args.us_policy)]
         proc = subprocess.Popen(cmd, cwd=cwd, env=env, stdout=subprocess.PIPE,
@@ -156,6 +163,9 @@ def main():
     p.add_argument("--via-main", action="store_true")
     p.add_argument("--trace", action="store_true")
     p.add_argument("--us-policy", metavar="JSON")
+    p.add_argument("--us-player", action="store_true")
+    p.add_argument("--track-arvn", action="store_true")
+    p.add_argument("--vc-sees-player", action="store_true")
     p.add_argument("--out", default=os.path.join(ROOT, "results", "botrun.jsonl"))
     p.add_argument("--summary", metavar="JSONL")
     args = p.parse_args()

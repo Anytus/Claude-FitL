@@ -1,0 +1,66 @@
+The Bots treating the US as a player (--us-player): seeds 1-400 (Tru'ng: 1-1000), --us-final-only
+
+== Tru'ng US: without vs with --us-player
+950 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline      4.8%   15.8%    9.5%   69.9%       -18.5    -21.9
+variant       2.2%   13.6%   12.6%   71.6%       -20.0    -23.8
+
+paired change in US margin: -1.53 (se 0.40)
+
+paired change in US lead: -1.91 (se 0.48)
+
+variant games ended at: Coup 1 2%, Coup 2 27%, Coup 3 26%, Coup 4 18%, Coup 5 12%, final 14%
+
+== tuned_t2 vs Tru'ng, both with --us-player
+384 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline      2.9%   16.1%   12.5%   68.5%       -20.1    -23.7
+variant      11.2%    1.8%   18.0%   69.0%       -13.3    -14.4
+
+paired change in US margin: +6.78 (se 0.68)
+
+paired change in US lead: +9.32 (se 0.82)
+
+variant games ended at: Coup 1 1%, Coup 2 10%, Coup 3 11%, Coup 4 13%, Coup 5 13%, final 51%
+
+== tuned_t2: without vs with _us-player (both parts)
+388 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     43.3%    2.3%   17.8%   36.6%        -2.2     -1.0
+variant      11.1%    1.8%   17.8%   69.3%       -13.4    -14.4
+
+paired change in US margin: -11.15 (se 0.66)
+
+paired change in US lead: -13.38 (se 0.81)
+
+variant games ended at: Coup 1 1%, Coup 2 10%, Coup 3 11%, Coup 4 14%, Coup 5 14%, final 51%
+
+== tuned_t2: without vs with _track-arvn
+383 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     43.1%    2.3%   18.0%   36.6%        -2.2     -1.1
+variant      13.8%    1.8%   15.9%   68.4%       -12.6    -13.9
+
+paired change in US margin: -10.37 (se 0.70)
+
+paired change in US lead: -12.81 (se 0.87)
+
+variant games ended at: Coup 1 2%, Coup 2 11%, Coup 3 11%, Coup 4 16%, Coup 5 13%, final 46%
+
+== tuned_t2: without vs with _vc-sees-player
+383 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     43.3%    2.3%   17.8%   36.6%        -2.1     -0.9
+variant      42.0%    2.1%   19.3%   36.6%        -3.9     -2.9
+
+paired change in US margin: -1.86 (se 0.59)
+
+paired change in US lead: -2.05 (se 0.74)
+
+variant games ended at: Coup 1 1%, Coup 2 5%, Coup 3 9%, Coup 4 6%, Coup 5 10%, final 70%
