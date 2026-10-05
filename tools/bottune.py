@@ -5,6 +5,7 @@ Usage:
   bottune.py --start policies/tune-start.json --name t1 [--generations 15]
              [--pairs 4] [--games 80] [--sigma 0.5] [--alpha 0.2]
              [--seed-base 20000] [--workers 4] [--all-wins] [--us-player]
+             [--freeze w1,w2]
 
 Evolution strategy with antithetic pairs and common random numbers. Each
 generation plays the current policy and `pairs` pairs of mirrored
@@ -93,16 +94,23 @@ def main():
     p.add_argument("--alpha", type=float, default=0.2)
     p.add_argument("--seed-base", type=int, default=20000)
     p.add_argument("--workers", type=int, default=os.cpu_count() or 2)
+    p.add_argument("--freeze", default="", metavar="W1,W2",
+                   help="weights kept at their start value and not tuned")
     p.add_argument("--all-wins", action="store_true")
     p.add_argument("--us-player", action="store_true",
                    help="Bots treat the US as a player (ARVN Resources tracked); see botrun.py")
     args = p.parse_args()
 
     start = json.load(open(args.start))
-    keys = sorted(start["weights"]) + ["hinge_buffer"]
+    frozen = set(filter(None, args.freeze.split(",")))
+    unknown = frozen - set(start["weights"]) - {"hinge_buffer"}
+    if unknown:
+        sys.exit(f"--freeze: not in the start policy: {', '.join(sorted(unknown))}")
+    keys = [k for k in sorted(start["weights"]) + ["hinge_buffer"] if k not in frozen]
     x0 = to_vec(start, keys)
     scale = [abs(v) if v != 0 else 0.5 for v in x0]
-    scale[keys.index("hinge_buffer")] = 1.0
+    if "hinge_buffer" in keys:
+        scale[keys.index("hinge_buffer")] = 1.0
 
     log_path = os.path.join(ROOT, "results", f"tune_{args.name}.jsonl")
     out_policy = os.path.join(ROOT, "policies", f"tuned_{args.name}.json")

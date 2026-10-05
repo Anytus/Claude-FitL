@@ -308,6 +308,11 @@ all of the drop is the ARVN Resources (US lead -12.8 of -13.4); the VC
 priorities cost -2.0. The win rates reported above for the search policies
 are for the old, easier setting. `results/us_player.txt`, `results/calibP_*`.
 
+`arvn_spendable` (ARVN Resources above Econ) and `arvn_spendable_capped` (the
+same, capped at 9) give the search the Resources the US may actually spend;
+they only move with `--us-player`. `bottune.py --freeze w1,w2` keeps listed
+weights at their start value (run `t3` freezes `arvn_res` at 0).
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

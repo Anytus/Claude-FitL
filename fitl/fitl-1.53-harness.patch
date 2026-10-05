@@ -669,10 +669,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..8f918ac
+index 0000000..fd3110c
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,358 @@
+@@ -0,0 +1,367 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -763,7 +763,10 @@ index 0000000..8f918ac
 +    "easter_live"           ->  0.0,
 +    "easter_near"           ->  0.0,
 +    "agitate_exposure"      ->  0.0,
-+    "rival_hinge_coup_soon" ->  0.0
++    "rival_hinge_coup_soon" ->  0.0,
++    //  Added with --us-player (ARVN Resources tracked). Default 0 as above.
++    "arvn_spendable"        ->  0.0,
++    "arvn_spendable_capped" ->  0.0
 +  )
 +
 +  val ConfigKeys = Set("mode", "samples", "trial_ms", "hinge_buffer", "focuses", "weights", "name")
@@ -866,6 +869,7 @@ index 0000000..8f918ac
 +    val vcSouth     = g.spaces.filter(sp => isInSouthVietnam(sp.name)).map(_.pieces.totalOf(VCGuerrillas)).sum
 +    val nvaTroops   = g.totalOnMap(_.pieces.totalOf(NVATroops))
 +    val usTroops    = g.totalOnMap(_.pieces.totalOf(USTroops))
++    val spendable   = ((g.arvnResources - g.econ) max 0).toDouble
 +    Map(
 +      "us"                    -> s(US),
 +      "arvn"                  -> s(ARVN),
@@ -892,7 +896,12 @@ index 0000000..8f918ac
 +      "easter_live"           -> (if (easterAvail && leaders && nvaTroops > usTroops) 1.0 else 0.0),
 +      "easter_near"           -> (if (easterAvail) ((nvaTroops - usTroops + 4) max 0 min 8).toDouble else 0.0),
 +      "agitate_exposure"      -> agitateExposure(g),
-+      "rival_hinge_coup_soon" -> coupSoon(g, 2) * hinge
++      "rival_hinge_coup_soon" -> coupSoon(g, 2) * hinge,
++      //  ARVN Resources the US may spend (above Econ), and the same capped at
++      //  9 (three Pacify levels) so the tuner can make its value level off.
++      //  Constant unless ARVN Resources are tracked (--us-player).
++      "arvn_spendable"        -> spendable,
++      "arvn_spendable_capped" -> (spendable min 9.0)
 +    )
 +  }
 +
