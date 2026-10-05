@@ -268,6 +268,16 @@ against 31% for `tune-start` (US lead +2.6, se 0.8) and 4% for the Tru'ng US
 (lead +18.9, se 0.8). VC wins fell from 54% to 40%, NVA wins rose from 11% to
 19%. Details in `results/val_t1.txt`.
 
+Features added after `t1` (default weight 0, so older policy files play as
+before; `policies/tune2-start.json` starts them from `tuned_t1`):
+`tet_live`/`tet_near` and `easter_live`/`easter_near` (the VC and NVA pivotal
+Events: playable now, and how close their conditions are), `agitate_exposure`
+(what VC could Agitate at the next Coup) and `rival_hinge_coup_soon` (the
+rival threat times the chance of a Coup in the 2 cards after the on-deck card,
+from the pile structure). `FITL_POLICY_DEBUG=1` prints the features at each US
+decision to stderr. `tools/botlosses.py` is the loss analysis that led to them
+(`results/losses_t1.txt`).
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

@@ -599,10 +599,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..fedcbe9
+index 0000000..ab21335
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,281 @@
+@@ -0,0 +1,340 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -652,6 +652,9 @@ index 0000000..fedcbe9
 +  //  For --trace: the last US decision, as "<candidate> <value> <n candidates>".
 +  var lastChoice = ""
 +
++  //  FITL_POLICY_DEBUG set: print the features at each US decision to stderr.
++  val Debug = sys.env.contains("FITL_POLICY_DEBUG")
++
 +  val DefaultWeights: Map[String, Double] = Map(
 +    "us"                    ->  1.0,
 +    "arvn"                  -> -0.3,
@@ -672,7 +675,15 @@ index 0000000..fedcbe9
 +    "pass"                  ->  1.0,
 +    "event"                 ->  0.0,
 +    "event_critical"        ->  1.0,
-+    "event_performed"       ->  0.5
++    "event_performed"       ->  0.5,
++    //  Added after the first tuning run. Their defaults are 0 so that older
++    //  policy files play exactly as before; policies/tune2-start.json sets them.
++    "tet_live"              ->  0.0,
++    "tet_near"              ->  0.0,
++    "easter_live"           ->  0.0,
++    "easter_near"           ->  0.0,
++    "agitate_exposure"      ->  0.0,
++    "rival_hinge_coup_soon" ->  0.0
 +  )
 +
 +  val ConfigKeys = Set("mode", "samples", "trial_ms", "hinge_buffer", "focuses", "weights", "name")
@@ -734,12 +745,47 @@ index 0000000..fedcbe9
 +  // ---------------------------------------------------------------
 +  //  Evaluation
 +  // ---------------------------------------------------------------
++  //  Probability that a Coup card is among the `h` cards after the on-deck
++  //  card, from public information: each pile of `cardsPerCampaign` cards
++  //  holds one Coup, and the cards drawn so far (current and on-deck
++  //  included) are known.
++  def coupSoon(g: GameState, h: Int): Double = {
++    val size  = g.cardsPerCampaign
++    val seen  = g.cardsSeen
++    val piles = g.totalCoupCards
++    val positions = (seen.size until seen.size + h).filter(_ / size < piles)
++    val noCoup = positions.groupBy(_ / size).map { case (pile, pos) =>
++      val revealed = seen.slice(pile * size, (pile + 1) * size)
++      if (revealed exists (c => eventDeck(c).isCoup)) 1.0
++      else 1.0 - pos.size.toDouble / (size - revealed.size)
++    }.product
++    1.0 - noCoup
++  }
++
++  //  What VC could gain by Agitation at the next Coup: in the 4 best spaces
++  //  with VC pieces, no COIN Control and not at Active Opposition, the
++  //  population times the levels it could shift (up to 2).
++  def agitateExposure(g: GameState): Double = {
++    val gains = g.nonLocSpaces collect {
++      case sp if sp.population > 0 && sp.pieces.has(VCPieces) && !sp.coinControlled &&
++                 sp.support != ActiveOpposition =>
++        sp.population * ((sp.support.value - ActiveOpposition.value) min 2)
++    }
++    gains.sorted(Ordering[Int].reverse).take(4).sum.toDouble
++  }
++
 +  def features(g: GameState, hingeBuffer: Double): Map[String, Double] = {
 +    val s        = g.scores.map(x => x.faction -> x.score.toDouble).toMap
 +    val rivals   = List(s(ARVN), s(NVA), s(VC))
 +    val hinge    = rivals.map(r => (r + hingeBuffer) max 0.0).sum
 +    val coupNext = g.onDeckCard != 0 && eventDeck(g.onDeckCard).isCoup
 +    def onMap(types: Iterable[PieceType]) = g.totalOnMap(_.pieces.totalOf(types)).toDouble
++    val leaders     = g.numCardsInLeaderBox >= 2
++    val tetAvail    = g.pivotCardsAvailable(VC)
++    val easterAvail = g.pivotCardsAvailable(NVA)
++    val vcSouth     = g.spaces.filter(sp => isInSouthVietnam(sp.name)).map(_.pieces.totalOf(VCGuerrillas)).sum
++    val nvaTroops   = g.totalOnMap(_.pieces.totalOf(NVATroops))
++    val usTroops    = g.totalOnMap(_.pieces.totalOf(USTroops))
 +    Map(
 +      "us"                    -> s(US),
 +      "arvn"                  -> s(ARVN),
@@ -756,7 +802,17 @@ index 0000000..fedcbe9
 +      "arvn_res"              -> g.arvnResources.toDouble,
 +      "aid"                   -> g.usAid.toDouble,
 +      "trail"                 -> g.trail.toDouble,
-+      "terror"                -> g.totalOnMap(_.terror).toDouble
++      "terror"                -> g.totalOnMap(_.terror).toDouble,
++      //  Pivotal denial: Tet needs 2+ Leader cards and >20 VC Guerrillas in
++      //  the South; Easter Offensive needs 2+ Leader cards and more NVA
++      //  Troops than US Troops on the map. *_live: playable now; *_near: how
++      //  close (0 until 4 short, capped at 8). Both 0 once the card is gone.
++      "tet_live"              -> (if (tetAvail && leaders && vcSouth > 20) 1.0 else 0.0),
++      "tet_near"              -> (if (tetAvail) ((vcSouth - 16) max 0 min 8).toDouble else 0.0),
++      "easter_live"           -> (if (easterAvail && leaders && nvaTroops > usTroops) 1.0 else 0.0),
++      "easter_near"           -> (if (easterAvail) ((nvaTroops - usTroops + 4) max 0 min 8).toDouble else 0.0),
++      "agitate_exposure"      -> agitateExposure(g),
++      "rival_hinge_coup_soon" -> coupSoon(g, 2) * hinge
 +    )
 +  }
 +
@@ -848,6 +904,9 @@ index 0000000..fedcbe9
 +  def search(cfg: Config, card: EventCard): Action = {
 +    val base  = Random.nextLong()
 +    val saved = game
++    if (Debug)
++      System.err.println(s"card ${game.currentCard} seen ${game.cardsSeen.size} leaders ${game.numCardsInLeaderBox} " +
++        features(game, cfg.hingeBuffer).toList.sortBy(_._1).map { case (k, v) => f"$k=$v%.2f" }.mkString(" "))
 +    val cands = candidates(cfg, card)
 +
 +    //  Each candidate is tried on the same `samples` dice streams (common
