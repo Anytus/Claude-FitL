@@ -1,0 +1,43 @@
+{
+  "name": "tuned_t3",
+  "mode": "search",
+  "samples": 1,
+  "trial_ms": 60,
+  "hinge_buffer": 2.9186,
+  "focuses": [
+    "default",
+    "opposition",
+    "vc",
+    "nva"
+  ],
+  "weights": {
+    "us": 1.7418,
+    "arvn": -0.5094,
+    "nva": -0.0864,
+    "vc": -1.0789,
+    "max_rival": -0.3704,
+    "rival_hinge": -1.7758,
+    "rival_hinge_coup_next": -1.1901,
+    "vc_guerrillas": -0.6794,
+    "vc_underground": -0.1101,
+    "nva_troops": -0.1612,
+    "nva_guerrillas": -0.0734,
+    "us_casualties": -0.3576,
+    "arvn_res": 0.0,
+    "aid": 0.0176,
+    "trail": -0.4275,
+    "terror": -0.2133,
+    "pass": 0.5392,
+    "event": -0.0668,
+    "event_critical": 0.4935,
+    "event_performed": 0.4665,
+    "tet_live": -2.3835,
+    "tet_near": -0.2405,
+    "easter_live": -1.9212,
+    "easter_near": -0.1927,
+    "agitate_exposure": -0.2468,
+    "rival_hinge_coup_soon": -0.7895,
+    "arvn_spendable": 0.054,
+    "arvn_spendable_capped": 0.2868
+  }
+}
