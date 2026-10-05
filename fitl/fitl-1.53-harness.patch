@@ -281,7 +281,7 @@ index 0000000..4f6a3ad
 +  }
 +}
 diff --git a/src/main/scala/fitl/Bot.scala b/src/main/scala/fitl/Bot.scala
-index f0952bb..eca5a9c 100644
+index f0952bb..c7471b3 100644
 --- a/src/main/scala/fitl/Bot.scala
 +++ b/src/main/scala/fitl/Bot.scala
 @@ -51,6 +51,13 @@ object Bot {
@@ -309,7 +309,41 @@ index f0952bb..eca5a9c 100644
      val availResources = if (faction == ARVN) game.arvnResources else ((game.arvnResources - game.econ) max 0)
      val maxAfford      = (coupRound, useResources) match {
        case (_, true)  if cost == 0 => NO_LIMIT
-@@ -1258,17 +1267,42 @@ object Bot {
+@@ -846,13 +855,14 @@ object Bot {
+   // Then returns the list of entries whose score matches that highest value.
+   class HighestScore[T](val desc: String, score: (T) => Int) extends PriorityFilter[T] {
+     def filter(entries: List[T]): List[T] = {
+-      val high = (entries map score).max
++      val scored = entries map (e => (e, score(e)))   // Harness (speed): score each entry once
++      val high = (scored map (_._2)).max
+       // If none of the candidates qualified to produce a score
+       if (high == NO_SCORE)
+         Nil
+       else {
+         botDebug(s"$desc: score = $high")
+-        entries filter (score(_) == high)
++        scored collect { case (e, s) if s == high => e }
+       }
+     }
+   }
+@@ -863,13 +873,14 @@ object Bot {
+   // Then returns the list of entries whose score matches that lowest value.
+   class LowestScore[T](val desc: String, score: (T) => Int) extends PriorityFilter[T] {
+     def filter(entries: List[T]): List[T] = {
+-      val low = (entries map score).min
++      val scored = entries map (e => (e, score(e)))   // Harness (speed): score each entry once
++      val low = (scored map (_._2)).min
+       // If none of the candidates qualified to produce a score
+       if (low == NO_SCORE)
+         Nil
+       else {
+         botDebug(s"$desc: score = $low")
+-        entries filter (score(_) == low)
++        scored collect { case (e, s) if s == low => e }
+       }
+     }
+   }
+@@ -1258,17 +1269,42 @@ object Bot {
    // We narrow the list of candiates to the ones that match most of
    // our priority filters.
    // Then if we still have more than one, we pick one at random.
@@ -359,7 +393,7 @@ index f0952bb..eca5a9c 100644
          best
      }
    }
-@@ -2220,6 +2254,7 @@ object Bot {
+@@ -2220,6 +2256,7 @@ object Bot {
                           action: MoveAction,
                           moveTypes: Set[PieceType],
                           opParams: Params): Pieces = {
@@ -367,7 +401,48 @@ index f0952bb..eca5a9c 100644
      val us      = faction == US
      val arvn    = faction == ARVN
      val nva     = faction == NVA
-@@ -2800,6 +2835,16 @@ object Bot {
+@@ -2417,11 +2454,15 @@ object Bot {
+       case March                    => getAdjacent(destName) filter params.march.canMarchFrom
+     }
+     
+-    def numMoveablePieces(sp: Space) = maxMoveablePieces(sp.name, destName, faction, action, moveTypes, params)
++    //  Harness (speed): compute each origin's count once, and test the cheap
++    //  conditions before it.
++    val moveableMemo = scala.collection.mutable.Map.empty[String, Int]
++    def numMoveablePieces(sp: Space) =
++      moveableMemo.getOrElseUpdate(sp.name, maxMoveablePieces(sp.name, destName, faction, action, moveTypes, params))
+     
+     val isOrigin = (sp: Space) => {
+-      numMoveablePieces(sp) > 0 &&
+-      !(moveDestinations.contains(sp.name) || previousOrigins(sp.name))
++      !(moveDestinations.contains(sp.name) || previousOrigins(sp.name)) &&
++      numMoveablePieces(sp) > 0
+     }
+     
+     val candidates = spaces(candidateNames) filter isOrigin
+@@ -2530,7 +2571,11 @@ object Bot {
+     else
+       usTroops
+ 
+-    def hasMoveablePieces(sp: Space) = movePiecesFromOneOrigin(sp.name, destName, US, AirLift, moveTypes, 1, params).nonEmpty
++    //  Harness (speed): a space without any of the movable piece types cannot
++    //  have movable pieces, so skip the keep-rules simulation for it.
++    def hasMoveablePieces(sp: Space) = sp.pieces.has(moveTypes) &&
++      movePiecesFromOneOrigin(sp.name, destName, US, AirLift, moveTypes, 1, params).nonEmpty
++    val moveableMemo = scala.collection.mutable.Map.empty[String, Int]
+ 
+     val newCandidates = game.spaces filter { sp =>
+       sp.name != destName                 &&
+@@ -2550,7 +2595,7 @@ object Bot {
+ 
+     val priorities = List(
+       new HighestScore[Space]("Most Moveable Pieces",
+-        sp => maxMoveablePieces(sp.name, destName, US, AirLift, moveTypes, params)
++        sp => moveableMemo.getOrElseUpdate(sp.name, maxMoveablePieces(sp.name, destName, US, AirLift, moveTypes, params))
+       )
+     )
+ 
+@@ -2800,6 +2845,16 @@ object Bot {
    // ================================================================
    object US_Bot {
  
@@ -384,7 +459,7 @@ index f0952bb..eca5a9c 100644
      def any2PlusPopNotAtActiveSupportWithCoinControlUsPieces: Boolean = {
        val result = game.nonLocSpaces exists { sp =>
          sp.population >= 2          &&
-@@ -2891,7 +2936,7 @@ object Bot {
+@@ -2891,7 +2946,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Shift Toward Active Support): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -393,7 +468,7 @@ index f0952bb..eca5a9c 100644
      }
  
  
-@@ -2924,7 +2969,7 @@ object Bot {
+@@ -2924,7 +2979,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Place Cubes or Special Forces): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -402,7 +477,7 @@ index f0952bb..eca5a9c 100644
      }
  
      // US Spaces Priorities: Sweep Destinations
-@@ -2943,7 +2988,7 @@ object Bot {
+@@ -2943,7 +2998,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Sweep Destinations): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -411,7 +486,7 @@ index f0952bb..eca5a9c 100644
      }
  
      // US Spaces Priorities: Air Lift Destinations
-@@ -2958,7 +3003,7 @@ object Bot {
+@@ -2958,7 +3013,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Air Lift Destinations): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -420,7 +495,7 @@ index f0952bb..eca5a9c 100644
      }
  
      // US Pick space for: Air Strike
-@@ -2974,7 +3019,7 @@ object Bot {
+@@ -2974,7 +3029,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Air Strike): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -429,7 +504,7 @@ index f0952bb..eca5a9c 100644
      }
  
      // US Pick space for: Remove or Replace
-@@ -2991,7 +3036,7 @@ object Bot {
+@@ -2991,7 +3046,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Remove or Replace): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -438,7 +513,7 @@ index f0952bb..eca5a9c 100644
      }
  
      // Part of the Commitment phase of a Coup Round.
-@@ -3230,7 +3275,9 @@ object Bot {
+@@ -3230,7 +3285,9 @@ object Bot {
        var needArvnCheck = false
        var arvnExhausted = false   // Until we fail an activation or run out of resources
  
@@ -449,7 +524,7 @@ index f0952bb..eca5a9c 100644
          true
        else if (arvnExhausted)
          false
-@@ -3240,7 +3287,8 @@ object Bot {
+@@ -3240,7 +3297,8 @@ object Bot {
          passed
        }
        def canAffordARVN = params.free || !game.trackResources(ARVN) || (game.arvnResources - 3) >= game.econ
@@ -459,7 +534,7 @@ index f0952bb..eca5a9c 100644
        def canTrain(arvn: Boolean) = trainingSpaces.size < maxTrain && (!arvn || canPlaceARVN)
        def prohibited(sp: Space) = !params.spaceAllowed(sp.name) || trainingSpaces(sp.name) || adviseSpaces(sp.name)
        val irregCandidate = (sp: Space) => !prohibited(sp) && sp.pieces.has(USPieces)
-@@ -3260,6 +3308,7 @@ object Bot {
+@@ -3260,6 +3318,7 @@ object Bot {
              decreaseResources(ARVN, 3)
            placePieces(sp.name, toPlace)
            needArvnCheck = true
@@ -467,7 +542,7 @@ index f0952bb..eca5a9c 100644
            trainingSpaces += sp.name
            pause()
            if (!once)
-@@ -3281,6 +3330,7 @@ object Bot {
+@@ -3281,6 +3340,7 @@ object Bot {
              decreaseResources(ARVN, 3)
            placePieces(sp.name, toPlace)
            needArvnCheck = true
@@ -475,7 +550,7 @@ index f0952bb..eca5a9c 100644
            trainingSpaces += sp.name
            pause()
            trainToPlaceRangers()
-@@ -6543,7 +6593,7 @@ object Bot {
+@@ -6543,7 +6603,7 @@ object Bot {
        val priorities = List(
          filterIf(true,             CityProvinceNoActiveOpposition),
          filterIf(true,             MostPopulation),
@@ -484,7 +559,7 @@ index f0952bb..eca5a9c 100644
        ).flatten
  
        botDebug(s"\nVC Select space (Shift Toward Active Opposition): [${andList(candidates.sorted)}]")
-@@ -6553,11 +6603,11 @@ object Bot {
+@@ -6553,11 +6613,11 @@ object Bot {
  
      // VC Spaces Priorities: Place Terror
      def pickSpacePlaceTerror(candidates: List[Space]): Space = {
@@ -498,7 +573,7 @@ index f0952bb..eca5a9c 100644
          filterIf(true,             CityProvinceMostVCGuerrillas),
          filterIf(true,             CityProvinceFewestNonVCPieces),
          filterIf(coinPlayer,       OnePlusEconLoc)
-@@ -6588,7 +6638,7 @@ object Bot {
+@@ -6588,7 +6648,7 @@ object Bot {
          filterIf(true,               MostPopulation),
          filterIf(true,               MostVCBases),
          filterIf(game.isHuman(ARVN), HasCoinControl),
@@ -507,7 +582,7 @@ index f0952bb..eca5a9c 100644
          filterIf(game.isHuman(NVA),  HasNVAControl),
          filterIf(true,               OneTwoVCGuerrillasRoomForBase),
          filterIf(true,               CityProvinceFewestNonVCPieces)
-@@ -6606,7 +6656,7 @@ object Bot {
+@@ -6606,7 +6666,7 @@ object Bot {
          filterIf(true,               CityProvinceFewestVCPieces),
          filterIf(true,               MostPopulation),
          filterIf(game.isHuman(ARVN), HasCoinControl),
@@ -516,7 +591,7 @@ index f0952bb..eca5a9c 100644
          filterIf(game.isHuman(NVA),  HasNVAControl),
          filterIf(true,               OneTwoVCGuerrillasRoomForBase),
          filterIf(true,               CityProvinceFewestNonVCPieces)
-@@ -6619,7 +6669,7 @@ object Bot {
+@@ -6619,7 +6679,7 @@ object Bot {
  
      // VC Spaces Priorities: Tax
      def pickSpaceTax(candidates: List[Space]): Space = {
@@ -525,7 +600,7 @@ index f0952bb..eca5a9c 100644
  
        val priorities = List(
          filterIf(true,        MostTotalOpposition),
-@@ -7325,6 +7375,45 @@ object Bot {
+@@ -7325,6 +7385,45 @@ object Bot {
      }
    }
  
@@ -571,7 +646,7 @@ index f0952bb..eca5a9c 100644
    //  A bot is the next eligible faction
    //  Decide what type of action the Bot will take.
    //  We use the NP Elgibility Table.
-@@ -7343,42 +7432,10 @@ object Bot {
+@@ -7343,42 +7442,10 @@ object Bot {
        card.executeUnshaded(faction)
        Event
      }
