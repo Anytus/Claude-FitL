@@ -13,3 +13,4 @@ gen 9: center lead -2.29 wins 36/72; best -0 -2.81; step 0.22
 gen 10: center lead -5.99 wins 22/72; best -3 -2.15; step 0.30
 gen 11: center lead -1.20 wins 30/69; best +3 -2.03; step 0.19
 gen 12: center lead -5.87 wins 25/76; best -0 -4.29; step 0.30
+gen 13: center lead -2.53 wins 30/66; best -1 -4.00; step 0.32
