@@ -262,6 +262,12 @@ to `policies/tuned_<name>.json`. `policies/tune-start.json` is the search
 default with the faster settings (1 dice sample, 60 ms trials, focuses
 default/opposition/vc/nva: 2.7 s a game, no worse on a 60-seed check).
 
+First run, `t1` (15 generations, 4 pairs, 80 seeds, about 2 hours): on
+held-out seeds 1-400 with `--us-final-only`, `policies/tuned_t1.json` wins 40%
+against 31% for `tune-start` (US lead +2.6, se 0.8) and 4% for the Tru'ng US
+(lead +18.9, se 0.8). VC wins fell from 54% to 40%, NVA wins rose from 11% to
+19%. Details in `results/val_t1.txt`.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,
