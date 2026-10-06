@@ -406,6 +406,14 @@ search withdraws Troops to Available for the immediate points, and a
 Special Activity done before its Operation (Air Lift, then Assault) is scored
 before the Operation happens, so the search almost never Assaults.
 
+Since then: an Operation that offers its Special Activity is searched both
+ways (SA first, and Op first with the SA at the end) and the better finished
+turn kept; three position features (`us_troops_map`, `us_assault_potential`,
+`support_exposed`, default 0); Coup rounds go into the fit log (`"kind":
+"coup"`). Fitting to final US lead still fails: for this player a game lost
+early, when a Bot crosses its line, ends with almost the same lead as a full
+game (-10.0 against -7.6), so the target does not see the loss.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

@@ -39,3 +39,18 @@ paired change in US margin: -4.51 (se 0.96)
 paired change in US lead: -7.25 (se 1.16)
 
 variant games ended at: Coup 1 2%, Coup 2 27%, Coup 3 24%, Coup 4 15%, Coup 5 13%, final 19%
+
+=== Round 2: both Special Activity orders searched; position features (us_troops_map, us_assault_potential, support_exposed); Coup rounds in the fit log
+Fit on 589 games (seeds 120000-120599, explore 0.1):
+589 games, 11829 US decisions (20.1 a game, 961 explored); 31 features vary; 29 controls
+final US lead: mean -9.54, sd 6.75 per game
+chosen lambda 3000: in-sample R2 0.157, CV R2 0.127
+us_troops_map               3.36    -0.204   -0.0605    0.0000    0.0000
+support_exposed             5.42    -0.197   -0.0363    0.0000    0.0000
+us_assault_potential        0.81    -0.036   -0.0445    0.0000    0.0000
+
+Final US lead by how the game ended:
+  search bot, seeds 1-400: ended early      151 games, mean final lead -20.9, US wins 0
+  search bot, seeds 1-400: ended final Coup 246 games, mean final lead  -4.7, US wins 76
+  new player, training games: ended early      540 games, mean final lead -10.0, US wins 0
+  new player, training games: ended final Coup  49 games, mean final lead  -7.6, US wins 10

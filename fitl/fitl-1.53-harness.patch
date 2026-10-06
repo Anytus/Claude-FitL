@@ -1791,10 +1791,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPlayer.scala b/src/main/scala/fitl/USPlayer.scala
 new file mode 100644
-index 0000000..21359a0
+index 0000000..ee8e4cd
 --- /dev/null
 +++ b/src/main/scala/fitl/USPlayer.scala
-@@ -0,0 +1,311 @@
+@@ -0,0 +1,330 @@
 +//  USPlayer: the US played through the program's human-player code, every
 +//  prompt answered by search instead of by a person. Part of the Claude-FitL
 +//  harness; not in the upstream program.
@@ -1872,6 +1872,8 @@ index 0000000..21359a0
 +  //  after a Victory check finds a winner, the game ends (as in Autoplay).
 +  def fixed(q: Q): Option[Int] =
 +    if (q.prompt.contains("continue playing this game")) Some(q.options.indexOf("n")) else None
++
++  val PerformSA = "Perform a Special Activity"
 +
 +  def isInt(label: String) = label.nonEmpty && label.forall(_.isDigit)
 +  def sameQuestion(a: Q, b: Q) = a.prompt == b.prompt && a.options.exists(b.options.contains)
@@ -1964,7 +1966,10 @@ index 0000000..21359a0
 +
 +    //  Answer questions from `p0` until one in `stack` comes back or the run
 +    //  ends. Past `limit` runs, the rest is answered by default in one run.
-+    def solve(p0: Vector[String], stack: List[Q], s: Long, limit: Int): (Vector[String], Outcome) = {
++    //  `excl`: at menus with this prompt the Special Activity is not offered
++    //  (the Op-then-SA order). `ordered`: the order has been decided.
++    def solve(p0: Vector[String], stack: List[Q], s: Long, limit: Int,
++              excl: Option[String] = None, ordered: Boolean = false): (Vector[String], Outcome) = {
 +      var p = p0
 +      var last: Option[Pending] = None
 +      val rejected = mutable.Set.empty[(String, String)]   // (prompt, answer) the program asked again after
@@ -1986,15 +1991,28 @@ index 0000000..21359a0
 +              if (l.q == q && l.at == at && p.nonEmpty) rejected += ((q.prompt, p.last))
 +            }
 +            last = Some(pend)
-+            val allowed = q.options.indices.filterNot(i => rejected((q.prompt, q.options(i))))
++            //  The first menu of an Operation that offers its Special Activity:
++            //  play the turn out both ways, SA first and Op first (SA at the
++            //  end), and keep the better finished turn.
++            if (!ordered && q.options.contains(PerformSA) && runs < limit) {
++              val half = runs + ((limit - runs) / 2)
++              val (pa, oa) = solve(p, stack, s, half, excl = Some(q.prompt), ordered = true)
++              val (pb, ob) = solve(p :+ PerformSA, stack, s, limit, excl, ordered = true)
++              if (Debug && stack.size <= 2)
++                System.err.println(f"      [${q.prompt.trim.take(30)}] Op first ${value(oa)}%8.3f, SA first ${value(ob)}%8.3f")
++              return if (value(ob) > value(oa)) (pb, ob) else (pa, oa)
++            }
++            val allowed = q.options.indices.filterNot(i => rejected((q.prompt, q.options(i))) ||
++                                                           (excl.contains(q.prompt) && q.options(i) == PerformSA))
 +            if (allowed.isEmpty) return (p, Failed)
-+            p = choose(p, q, allowed.toList, pend, stack, s, limit)
++            p = choose(p, q, allowed.toList, pend, stack, s, limit, excl, ordered)
 +        }
 +      }
 +      throw new IllegalStateException("unreachable")
 +    }
 +
-+    def choose(p: Vector[String], q: Q, opts0: List[Int], here: Pending, stack: List[Q], s: Long, limit: Int): Vector[String] = {
++    def choose(p: Vector[String], q: Q, opts0: List[Int], here: Pending, stack: List[Q], s: Long, limit: Int,
++               excl: Option[String], ordered: Boolean): Vector[String] = {
 +      //  Numbers: the smallest, the largest and the middle.
 +      val opts1 = if (opts0.size > 3 && opts0.forall(i => isInt(q.options(i)))) {
 +        val vals = opts0.sortBy(i => q.options(i).toInt)
@@ -2019,7 +2037,7 @@ index 0000000..21359a0
 +            //  Each option gets an equal share of the runs left.
 +            val k = deep.indexOf(i)
 +            val share = ((limit - runs) max 0) / (deep.size - k)
-+            val (pp, out) = solve(p :+ label, q :: stack, s, runs + share)
++            val (pp, out) = solve(p :+ label, q :: stack, s, runs + share, excl, ordered)
 +            (value(out), pp)
 +          }
 +        if (Debug && stack.size <= 1)
@@ -2077,7 +2095,7 @@ index 0000000..21359a0
 +    val start = game
 +    val seed  = Random.nextLong()
 +    val t0    = System.nanoTime
-+    val before = if (turn) USPolicy.features(start, cfg.hingeBuffer) else Map.empty[String, Double]   // game == start here
++    val before = USPolicy.features(start, cfg.hingeBuffer)   // game == start here
 +    val explore = turn && cfg.explore > 0 && new Random(seed ^ 0x9E3779B97F4A7C15L).nextDouble() < cfg.explore
 +    val search = new Search(start, entry, cfg, card, seed, if (turn) maxRuns else maxCoupRuns, explore)
 +    val plan  = search.decide()
@@ -2090,8 +2108,9 @@ index 0000000..21359a0
 +    decider = Some(new Replay(plan, Nil, Some(default _)))
 +    try entry() finally decider = saved
 +    if (turn)
-+      USPolicy.logFit(cfg, before, plan.take(3).mkString(" / "), search.explored,
-+                      actionOf(start, game), card)
++      USPolicy.logFit(cfg, before, plan.take(3).mkString(" / "), search.explored, actionOf(start, game), card)
++    else if (!game.gameOver)
++      USPolicy.logFit(cfg, before, "Coup", false, None, card, kind = "coup")
 +  }
 +
 +  def act(): Unit = play(() => Human.act(), eventDeck(game.currentCard), turn = true)
@@ -2108,10 +2127,10 @@ index 0000000..21359a0
 +}
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..4e67a25
+index 0000000..d14d9f3
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,520 @@
+@@ -0,0 +1,536 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2226,7 +2245,11 @@ index 0000000..4e67a25
 +    "rival_hinge_coup_soon" ->  0.0,
 +    //  Added with --us-player (ARVN Resources tracked). Default 0 as above.
 +    "arvn_spendable"        ->  0.0,
-+    "arvn_spendable_capped" ->  0.0
++    "arvn_spendable_capped" ->  0.0,
++    //  Added with USPlayer: US position on the map. Default 0 as above.
++    "us_troops_map"         ->  0.0,
++    "us_assault_potential"  ->  0.0,
++    "support_exposed"       ->  0.0
 +  )
 +
 +  val DefaultTrialWork = 5000L
@@ -2335,6 +2358,15 @@ index 0000000..4e67a25
 +    val nvaTroops   = g.totalOnMap(_.pieces.totalOf(NVATroops))
 +    val usTroops    = g.totalOnMap(_.pieces.totalOf(USTroops))
 +    val spendable   = ((g.arvnResources - g.econ) max 0).toDouble
++    //  Enemy pieces a US Assault could remove where US Troops now stand
++    //  (firepower against vulnerable NVA/VC pieces, by the program's rules).
++    val assaultPotential = g.spaces.iterator.filter(sp => !sp.isNorthVietnam && sp.pieces.has(USTroops)).map { sp =>
++      val enemy = sp.pieces.only(NVAPieces) + sp.pieces.only(VCPieces)
++      coinFirepower(NormalTroops)(sp) min vulnerableInsurgents(enemy, false, false).total
++    }.sum.toDouble
++    //  Support that Terror or Agitation can reach: population times Support
++    //  levels in spaces holding NVA or VC Guerrillas.
++    val supportExposed = g.spaces.iterator.filter(_.pieces.has(Guerrillas)).map(_.supportValue).sum.toDouble
 +    Map(
 +      "us"                    -> s(US),
 +      "arvn"                  -> s(ARVN),
@@ -2366,7 +2398,10 @@ index 0000000..4e67a25
 +      //  9 (three Pacify levels) so the tuner can make its value level off.
 +      //  Constant unless ARVN Resources are tracked (--us-player).
 +      "arvn_spendable"        -> spendable,
-+      "arvn_spendable_capped" -> (spendable min 9.0)
++      "arvn_spendable_capped" -> (spendable min 9.0),
++      "us_troops_map"         -> usTroops.toDouble,
++      "us_assault_potential"  -> assaultPotential,
++      "support_exposed"       -> supportExposed
 +    )
 +  }
 +
@@ -2516,11 +2551,11 @@ index 0000000..4e67a25
 +
 +  //  The fit log line for one decision (also used by USPlayer).
 +  def logFit(cfg: Config, before: Map[String, Double], chosen: String, explored: Boolean, done: Option[Action],
-+             card: EventCard): Unit = {
++             card: EventCard, kind: String = "turn"): Unit = {
 +    decisions += 1
 +    fitLog foreach { w =>
 +      val (t, c) = phase(game)
-+      w.println(s"""{"seed":$gameSeed,"i":$decisions,"card":${game.currentCard},"seen":${game.cardsSeen.size},""" +
++      w.println(s"""{"seed":$gameSeed,"i":$decisions,"kind":"$kind","card":${game.currentCard},"seen":${game.cardsSeen.size},""" +
 +                f""""t":$t%.4f,"c":$c%.4f,""" +
 +                s""""chosen":${jstr(chosen)},"explored":$explored,"done":${jstr(done.map(_.toString).getOrElse("None"))},""" +
 +                s""""b":${jsonMap(before)},"f":${jsonMap(features(game, cfg.hingeBuffer) ++ done.map(extras(_, card)).getOrElse(Map.empty))}}""")
