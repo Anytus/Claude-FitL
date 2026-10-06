@@ -121,3 +121,29 @@ variant games ended at: Coup 1 2%, Coup 2 8%, Coup 3 6%, Coup 4 14%, Coup 5 13%,
 fit1 = round 1 with before-board controls (policies/fit1.json); fit1nc = no controls; fit1ex = explored decisions only;
 fit2 = round 2 data (played with fit1); fit2pool = rounds 1+2 pooled (policies/fit2pool.json).
 Choice agreement with the baseline on its own 2813 decisions (seeds 1-100): fit1 51%, fit2 65%, fit2pool 66% same candidate.
+
+3 dice samples per trial instead of 1 (seeds 1-400, about 2.3x the time: 2.0 s a game):
+=== base vs base_s3
+387 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     17.1%    0.8%   19.4%   62.8%       -10.9    -11.4
+variant      14.0%    1.0%   21.7%   63.3%       -11.4    -12.1
+
+paired change in US margin: -0.42 (se 0.52)
+
+paired change in US lead: -0.69 (se 0.66)
+
+variant games ended at: Coup 1 2%, Coup 2 6%, Coup 3 9%, Coup 4 11%, Coup 5 14%, final 59%
+=== fit1 vs fit1_s3
+388 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     16.0%    2.8%   14.7%   66.5%       -11.6    -12.4
+variant      15.5%    3.9%   14.2%   66.5%       -12.2    -13.0
+
+paired change in US margin: -0.55 (se 0.59)
+
+paired change in US lead: -0.58 (se 0.73)
+
+variant games ended at: Coup 1 2%, Coup 2 11%, Coup 3 12%, Coup 4 12%, Coup 5 12%, final 51%

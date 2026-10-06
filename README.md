@@ -363,7 +363,8 @@ gives weights level with tuned_t3 on held-out seeds 1-400 (US lead -0.9,
 se 0.8); a second round, alone or pooled, the same (-0.7, -1.2), though the
 fitted weights choose differently from tuned_t3 in a third of decisions.
 Without the controls: -8.5; explored decisions only: -9.2.
-`policies/fit1.json`, `policies/fit2pool.json`.
+`policies/fit1.json`, `policies/fit2pool.json`. Three dice samples per trial
+instead of one help neither tuned_t3 nor fit1 (-0.7 and -0.6, se 0.7).
 
 ## Information boundary
 
