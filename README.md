@@ -237,10 +237,15 @@ changes. Modes:
   no trial used. Weights and focuses come from the file; the defaults and
   feature names are in `USPolicy.scala`.
 
-A trial that throws or runs past `trial_ms` (default 250) is discarded: the
-program's Air Lift planning can loop forever (`BUG_REPORTS.md` #3), and the
-search tries Air Lift often. That limit is wall-clock time, so a run under
-heavy load can differ slightly from the same run unloaded.
+A trial that throws or uses more than `trial_work` keep-rule evaluations
+(default 5000) is discarded: the program's Air Lift planning can loop forever
+(`BUG_REPORTS.md` #3), and the search tries Air Lift often. The limit counts
+work, not time, so the same seeds play the same games on any machine and
+under any load. Over 356,000 trials in 200 games the largest trial that
+finished took 927 evaluations (99.9% took under 660); the trials that loop
+never finish, at 20,000 or at 200,000 (`FITL_WORK_STATS=1` prints the
+distribution). Before this the limit was wall-clock (`trial_ms`), and loaded
+or freshly started JVMs occasionally cut off a normal trial.
 
 First result, `search` with the default weights, seeds 1-200 (5 s a game):
 US wins 46% (11% for the Tru'ng US on the same seeds), or 36% against 6%
@@ -259,7 +264,7 @@ along the rank-weighted perturbations. Games use `--us-final-only` unless
 validate on other seeds with `botrun.py` and `botcompare.py`. Progress goes to
 `results/tune_<name>.jsonl` (resumed from on restart) and the current weights
 to `policies/tuned_<name>.json`. `policies/tune-start.json` is the search
-default with the faster settings (1 dice sample, 60 ms trials, focuses
+default with the faster settings (1 dice sample, 60 ms trials, now `trial_work`, focuses
 default/opposition/vc/nva: 2.7 s a game, no worse on a 60-seed check).
 
 First run, `t1` (15 generations, 4 pairs, 80 seeds, about 2 hours): on

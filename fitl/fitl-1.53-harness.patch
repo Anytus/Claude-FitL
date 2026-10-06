@@ -1,6 +1,6 @@
 diff --git a/src/main/scala/fitl/AirLiftBench.scala b/src/main/scala/fitl/AirLiftBench.scala
 new file mode 100644
-index 0000000..53b313e
+index 0000000..d5c5205
 --- /dev/null
 +++ b/src/main/scala/fitl/AirLiftBench.scala
 @@ -0,0 +1,121 @@
@@ -41,9 +41,9 @@ index 0000000..53b313e
 +    game = b
 +    Random.setSeed(12345L)
 +    initTurnVariables()
-+    deadline = System.nanoTime + 200L * 1000000L
++    workLeft = USPolicy.DefaultTrialWork
 +    try testOutcome { US_Bot.airLiftActivity(Params(addSpecialActivity = true)) }
-+    finally { deadline = Long.MaxValue; game = b }
++    finally { workLeft = Long.MaxValue; game = b }
 +  }
 +
 +  def main(args: Array[String]): Unit = {
@@ -408,24 +408,26 @@ index 0000000..4f6a3ad
 +  }
 +}
 diff --git a/src/main/scala/fitl/Bot.scala b/src/main/scala/fitl/Bot.scala
-index f0952bb..a117867 100644
+index f0952bb..717688f 100644
 --- a/src/main/scala/fitl/Bot.scala
 +++ b/src/main/scala/fitl/Bot.scala
-@@ -51,6 +51,13 @@ object Bot {
+@@ -51,6 +51,15 @@ object Bot {
    // Value to indicate that space selection is unlimited.
    val NO_LIMIT = 1000;
  
-+  //  Harness (USPolicy): a time limit for trial actions. Some games send the
++  //  Harness (USPolicy): a work limit for trial actions. Some games send the
 +  //  Bot's move planning (Air Lift) into a loop that does not end; a trial
-+  //  that runs past the deadline is abandoned with DeadlineExceeded.
-+  case class DeadlineExceeded() extends RuntimeException("deadline exceeded")
-+  var deadline = Long.MaxValue   // System.nanoTime value
-+  def checkDeadline(): Unit = if (System.nanoTime > deadline) throw DeadlineExceeded()
++  //  that uses up its work is abandoned with WorkExceeded. Work is counted in
++  //  keep-rule evaluations (every move planner step makes one), not in time,
++  //  so the cut-off is the same on every machine and under any load.
++  case class WorkExceeded() extends RuntimeException("work limit exceeded")
++  var workLeft = Long.MaxValue
++  def checkWork(): Unit = { workLeft -= 1; if (workLeft < 0) throw WorkExceeded() }
 +
    // These values are used with HighestScore and LowestScore filters
    // when a candidate is not qualified to produce a score.
    // For example if it is a LoC and we are only considering
-@@ -202,7 +209,7 @@ object Bot {
+@@ -202,7 +211,7 @@ object Bot {
      def compare(diceValue: Int, targetValue: Int): Boolean = diceValue >= targetValue
    }
    
@@ -434,7 +436,7 @@ index f0952bb..a117867 100644
      if (game.logTrung || game.botDebug) {
        val yesNo = if (result) "[Yes]" else "[No]"
        log(s"Trung check: $display $yesNo")
-@@ -402,7 +409,9 @@ object Bot {
+@@ -402,7 +411,9 @@ object Bot {
      val sp             = game.getSpace(name)
      val maxShift       = ((maxSupport.value - sp.support.value) max 0) min maxLevels
      val maxInSpace     = maxShift + sp.terror
@@ -445,7 +447,7 @@ index f0952bb..a117867 100644
      val availResources = if (faction == ARVN) game.arvnResources else ((game.arvnResources - game.econ) max 0)
      val maxAfford      = (coupRound, useResources) match {
        case (_, true)  if cost == 0 => NO_LIMIT
-@@ -846,13 +855,14 @@ object Bot {
+@@ -846,13 +857,14 @@ object Bot {
    // Then returns the list of entries whose score matches that highest value.
    class HighestScore[T](val desc: String, score: (T) => Int) extends PriorityFilter[T] {
      def filter(entries: List[T]): List[T] = {
@@ -462,7 +464,7 @@ index f0952bb..a117867 100644
        }
      }
    }
-@@ -863,13 +873,14 @@ object Bot {
+@@ -863,13 +875,14 @@ object Bot {
    // Then returns the list of entries whose score matches that lowest value.
    class LowestScore[T](val desc: String, score: (T) => Int) extends PriorityFilter[T] {
      def filter(entries: List[T]): List[T] = {
@@ -479,7 +481,7 @@ index f0952bb..a117867 100644
        }
      }
    }
-@@ -1258,17 +1269,42 @@ object Bot {
+@@ -1258,17 +1271,42 @@ object Bot {
    // We narrow the list of candiates to the ones that match most of
    // our priority filters.
    // Then if we still have more than one, we pick one at random.
@@ -529,7 +531,7 @@ index f0952bb..a117867 100644
          best
      }
    }
-@@ -1400,14 +1436,35 @@ object Bot {
+@@ -1400,14 +1438,35 @@ object Bot {
    }
    // Function to make code clearer to read
    // just an alias for selectEnemyRemoveReplaceActivate()
@@ -572,7 +574,7 @@ index f0952bb..a117867 100644
    }
  
    // Use when determining which moveable pieces should remain
-@@ -1432,7 +1489,7 @@ object Bot {
+@@ -1432,7 +1491,7 @@ object Bot {
      def addPieces(newPieces: Pieces) = copy(selected = selected + newPieces)
    }
  
@@ -581,7 +583,7 @@ index f0952bb..a117867 100644
      import params._
  
      log()
-@@ -1445,7 +1502,7 @@ object Bot {
+@@ -1445,7 +1504,7 @@ object Bot {
      log(s"kept      : ${andList(selected.descriptions)}")
    }
  
@@ -590,7 +592,7 @@ index f0952bb..a117867 100644
      import params._
  
      val nowAtDest = dest.pieces + selected
-@@ -1590,14 +1647,16 @@ object Bot {
+@@ -1590,14 +1649,16 @@ object Bot {
      val vulnerable = vulnerableInsurgents(origin.pieces, false, false).total
  
      if (firepower >= vulnerable) {
@@ -609,7 +611,7 @@ index f0952bb..a117867 100644
            if (coinFirepower(NormalTroops)(origin.setPieces(updated)) >= vulnerable)
              toKeep
            else  // Try again keeping one more
-@@ -2214,12 +2273,15 @@ object Bot {
+@@ -2214,12 +2275,15 @@ object Bot {
  
    //  When moving pieces, this is used to determine which of the factions pieces must be
    //  kept in the origin space.
@@ -621,11 +623,11 @@ index f0952bb..a117867 100644
                           action: MoveAction,
                           moveTypes: Set[PieceType],
                           opParams: Params): Pieces = {
-+    checkDeadline()
++    checkWork()
      val us      = faction == US
      val arvn    = faction == ARVN
      val nva     = faction == NVA
-@@ -2235,7 +2297,9 @@ object Bot {
+@@ -2235,7 +2299,9 @@ object Bot {
        }
      }
  
@@ -636,7 +638,7 @@ index f0952bb..a117867 100644
        movePriIf(true,       KP_ChangeNoControlSouthVietnam),
        movePriIf(us || arvn, KP_KeepAllCubesInSouthVietnam),
        movePriIf(us || arvn, KP_KeepCoinCubesEqualToEnemyOnLoCs),
-@@ -2249,7 +2313,7 @@ object Bot {
+@@ -2249,7 +2315,7 @@ object Bot {
        movePriIf(planBase,   KP_3ActingGuerrillasWithRoomForAvailableBase),
        movePriIf(nva || vc,  KP_FriendlyGuerrillasGreaterThanEnemiesOnLoCs),
        movePriIf(vc,         KP_1UndergroundIn1PopNotAtActiveSupport)
@@ -645,7 +647,7 @@ index f0952bb..a117867 100644
  
      val origin     = game.getSpace(originName)
      val dest       = game.getSpace(destName)
-@@ -2270,6 +2334,20 @@ object Bot {
+@@ -2270,6 +2336,20 @@ object Bot {
                           maxPieces: Int,
                           mustKeep: Pieces,
                           opParams: Params): Pieces = {
@@ -666,7 +668,7 @@ index f0952bb..a117867 100644
      val us        = faction == US
      val arvn      = faction == ARVN
      val nva       = faction == NVA
-@@ -2326,6 +2404,17 @@ object Bot {
+@@ -2326,6 +2406,17 @@ object Bot {
      }
    }
  
@@ -684,11 +686,11 @@ index f0952bb..a117867 100644
    def mustKeepInOrigin(
      originName: String,
      destName: String,
-@@ -2333,6 +2422,56 @@ object Bot {
+@@ -2333,6 +2424,56 @@ object Bot {
      action: MoveAction,
      moveTypes: Set[PieceType],
      params: Params): Pieces = {
-+    checkDeadline()   // the trial time limit must still apply when the answer is cached
++    checkWork()   // the trial work limit must still apply when the answer is cached
 +    if (!(keepCacheGame eq game)) {
 +      keepCache.clear()
 +      keepCacheGame = game
@@ -741,7 +743,7 @@ index f0952bb..a117867 100644
        
      import params.airlift.allowedType
      val toKeep = selectPiecesToKeep(originName, destName, faction, action, moveTypes, params)
-@@ -2359,6 +2498,19 @@ object Bot {
+@@ -2359,6 +2500,19 @@ object Bot {
      action: MoveAction,
      moveTypes: Set[PieceType],
      params: Params): Int = {
@@ -761,7 +763,7 @@ index f0952bb..a117867 100644
  
      val mustKeep = mustKeepInOrigin(originName, destName, faction, action, moveTypes, params)
      val nonMovedMustKeep = mustKeep - movedPieces(originName)
-@@ -2384,6 +2536,19 @@ object Bot {
+@@ -2384,6 +2538,19 @@ object Bot {
                                moveTypes: Set[PieceType],
                                maxPieces: Int,
                                params: Params): Pieces = {
@@ -781,7 +783,7 @@ index f0952bb..a117867 100644
  
      // First we determine which pieces to keep in the origin space
      val mustKeep = mustKeepInOrigin(originName, destName, faction, action, moveTypes, params);
-@@ -2417,11 +2582,15 @@ object Bot {
+@@ -2417,11 +2584,15 @@ object Bot {
        case March                    => getAdjacent(destName) filter params.march.canMarchFrom
      }
      
@@ -800,7 +802,7 @@ index f0952bb..a117867 100644
      }
      
      val candidates = spaces(candidateNames) filter isOrigin
-@@ -2521,6 +2690,49 @@ object Bot {
+@@ -2521,6 +2692,49 @@ object Bot {
    }
  
    def selectAirLiftOrigin(destName: String, currentOrigins: Set[String], alreadyTried: Set[String], addNewOrigin: Boolean, params: Params): Option[String] = {
@@ -850,7 +852,7 @@ index f0952bb..a117867 100644
      import params.airlift.allowedType
      // Can only move up to 4 ARVNTroop, Irregulars, Rangers
      val otherTypes = (ARVNTroops::Irregulars:::Rangers).toSet filter allowedType
-@@ -2530,9 +2742,20 @@ object Bot {
+@@ -2530,9 +2744,20 @@ object Bot {
      else
        usTroops
  
@@ -873,7 +875,7 @@ index f0952bb..a117867 100644
        sp.name != destName                 &&
        !moveDestinations.contains(sp.name) &&
        !currentOrigins(sp.name)            &&
-@@ -2550,7 +2773,7 @@ object Bot {
+@@ -2550,7 +2775,7 @@ object Bot {
  
      val priorities = List(
        new HighestScore[Space]("Most Moveable Pieces",
@@ -882,7 +884,7 @@ index f0952bb..a117867 100644
        )
      )
  
-@@ -2561,6 +2784,20 @@ object Bot {
+@@ -2561,6 +2786,20 @@ object Bot {
      }
      else {
        botDebug(s"No spaces with moveable pieces for AirLift")
@@ -903,7 +905,7 @@ index f0952bb..a117867 100644
        None
      }
    }
-@@ -2602,6 +2839,13 @@ object Bot {
+@@ -2602,6 +2841,13 @@ object Bot {
    //  The rules are faction specific and correspond to the
    //  'B' conditions at the bottom of the Move Priorities Table.
    def canSelectAnotherOrigin(faction: Faction, destName: String, cubeTreatment: CubeTreatment): Boolean = {
@@ -917,7 +919,7 @@ index f0952bb..a117867 100644
      val dest         = game.getSpace(destName)
      val numCoin      = dest.pieces.totalOf(CoinPieces)
      val numInsurgent = dest.pieces.totalOf(InsurgentPieces)
-@@ -2675,7 +2919,10 @@ object Bot {
+@@ -2675,7 +2921,10 @@ object Bot {
                log(s"\n$faction selects $destName as $action destination")
                log(separator())
              }
@@ -928,7 +930,7 @@ index f0952bb..a117867 100644
              movedPieces.add(destName, toMove)
              totalMoved += toMove.total
  
-@@ -2749,9 +2996,11 @@ object Bot {
+@@ -2749,9 +2998,11 @@ object Bot {
  
            case Some(destName) =>
              botDebug(s"\n$faction Bot will attempt $action to $destName")
@@ -940,7 +942,7 @@ index f0952bb..a117867 100644
              val dest = game.getSpace(destName)
  
              // If no pieces could be found to move into the destination then
-@@ -2800,6 +3049,16 @@ object Bot {
+@@ -2800,6 +3051,16 @@ object Bot {
    // ================================================================
    object US_Bot {
  
@@ -957,7 +959,7 @@ index f0952bb..a117867 100644
      def any2PlusPopNotAtActiveSupportWithCoinControlUsPieces: Boolean = {
        val result = game.nonLocSpaces exists { sp =>
          sp.population >= 2          &&
-@@ -2891,7 +3150,7 @@ object Bot {
+@@ -2891,7 +3152,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Shift Toward Active Support): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -966,7 +968,7 @@ index f0952bb..a117867 100644
      }
  
  
-@@ -2924,7 +3183,7 @@ object Bot {
+@@ -2924,7 +3185,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Place Cubes or Special Forces): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -975,7 +977,7 @@ index f0952bb..a117867 100644
      }
  
      // US Spaces Priorities: Sweep Destinations
-@@ -2943,11 +3202,18 @@ object Bot {
+@@ -2943,11 +3204,18 @@ object Bot {
  
        botDebug(s"\nUS Select space (Sweep Destinations): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -995,7 +997,7 @@ index f0952bb..a117867 100644
  
        val priorities = List(
          COINFirepowerLessThanVulnerable,
-@@ -2958,7 +3224,7 @@ object Bot {
+@@ -2958,7 +3226,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Air Lift Destinations): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1004,7 +1006,7 @@ index f0952bb..a117867 100644
      }
  
      // US Pick space for: Air Strike
-@@ -2974,7 +3240,7 @@ object Bot {
+@@ -2974,7 +3242,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Air Strike): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1013,7 +1015,7 @@ index f0952bb..a117867 100644
      }
  
      // US Pick space for: Remove or Replace
-@@ -2991,7 +3257,7 @@ object Bot {
+@@ -2991,7 +3259,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Remove or Replace): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1022,7 +1024,7 @@ index f0952bb..a117867 100644
      }
  
      // Part of the Commitment phase of a Coup Round.
-@@ -3230,7 +3496,9 @@ object Bot {
+@@ -3230,7 +3498,9 @@ object Bot {
        var needArvnCheck = false
        var arvnExhausted = false   // Until we fail an activation or run out of resources
  
@@ -1033,7 +1035,7 @@ index f0952bb..a117867 100644
          true
        else if (arvnExhausted)
          false
-@@ -3240,7 +3508,8 @@ object Bot {
+@@ -3240,7 +3510,8 @@ object Bot {
          passed
        }
        def canAffordARVN = params.free || !game.trackResources(ARVN) || (game.arvnResources - 3) >= game.econ
@@ -1043,7 +1045,7 @@ index f0952bb..a117867 100644
        def canTrain(arvn: Boolean) = trainingSpaces.size < maxTrain && (!arvn || canPlaceARVN)
        def prohibited(sp: Space) = !params.spaceAllowed(sp.name) || trainingSpaces(sp.name) || adviseSpaces(sp.name)
        val irregCandidate = (sp: Space) => !prohibited(sp) && sp.pieces.has(USPieces)
-@@ -3260,6 +3529,7 @@ object Bot {
+@@ -3260,6 +3531,7 @@ object Bot {
              decreaseResources(ARVN, 3)
            placePieces(sp.name, toPlace)
            needArvnCheck = true
@@ -1051,7 +1053,7 @@ index f0952bb..a117867 100644
            trainingSpaces += sp.name
            pause()
            if (!once)
-@@ -3281,6 +3551,7 @@ object Bot {
+@@ -3281,6 +3553,7 @@ object Bot {
              decreaseResources(ARVN, 3)
            placePieces(sp.name, toPlace)
            needArvnCheck = true
@@ -1059,7 +1061,7 @@ index f0952bb..a117867 100644
            trainingSpaces += sp.name
            pause()
            trainToPlaceRangers()
-@@ -3843,6 +4114,7 @@ object Bot {
+@@ -3843,6 +4116,7 @@ object Bot {
          )
  
          val nextAirLiftCandidate: MoveDestGetter = (_, _, prohibited) => {
@@ -1067,7 +1069,7 @@ index f0952bb..a117867 100644
            val candidates = game.spaces filter { sp =>
              params.spaceAllowed(sp.name) &&
              params.airlift.canLiftTo(sp.name) &&
-@@ -3850,10 +4122,12 @@ object Bot {
+@@ -3850,10 +4124,12 @@ object Bot {
              !prohibited(sp.name)
            }
  
@@ -1081,7 +1083,7 @@ index f0952bb..a117867 100644
          }
  
  
-@@ -6543,7 +6817,7 @@ object Bot {
+@@ -6543,7 +6819,7 @@ object Bot {
        val priorities = List(
          filterIf(true,             CityProvinceNoActiveOpposition),
          filterIf(true,             MostPopulation),
@@ -1090,7 +1092,7 @@ index f0952bb..a117867 100644
        ).flatten
  
        botDebug(s"\nVC Select space (Shift Toward Active Opposition): [${andList(candidates.sorted)}]")
-@@ -6553,11 +6827,11 @@ object Bot {
+@@ -6553,11 +6829,11 @@ object Bot {
  
      // VC Spaces Priorities: Place Terror
      def pickSpacePlaceTerror(candidates: List[Space]): Space = {
@@ -1104,7 +1106,7 @@ index f0952bb..a117867 100644
          filterIf(true,             CityProvinceMostVCGuerrillas),
          filterIf(true,             CityProvinceFewestNonVCPieces),
          filterIf(coinPlayer,       OnePlusEconLoc)
-@@ -6588,7 +6862,7 @@ object Bot {
+@@ -6588,7 +6864,7 @@ object Bot {
          filterIf(true,               MostPopulation),
          filterIf(true,               MostVCBases),
          filterIf(game.isHuman(ARVN), HasCoinControl),
@@ -1113,7 +1115,7 @@ index f0952bb..a117867 100644
          filterIf(game.isHuman(NVA),  HasNVAControl),
          filterIf(true,               OneTwoVCGuerrillasRoomForBase),
          filterIf(true,               CityProvinceFewestNonVCPieces)
-@@ -6606,7 +6880,7 @@ object Bot {
+@@ -6606,7 +6882,7 @@ object Bot {
          filterIf(true,               CityProvinceFewestVCPieces),
          filterIf(true,               MostPopulation),
          filterIf(game.isHuman(ARVN), HasCoinControl),
@@ -1122,7 +1124,7 @@ index f0952bb..a117867 100644
          filterIf(game.isHuman(NVA),  HasNVAControl),
          filterIf(true,               OneTwoVCGuerrillasRoomForBase),
          filterIf(true,               CityProvinceFewestNonVCPieces)
-@@ -6619,7 +6893,7 @@ object Bot {
+@@ -6619,7 +6895,7 @@ object Bot {
  
      // VC Spaces Priorities: Tax
      def pickSpaceTax(candidates: List[Space]): Space = {
@@ -1131,7 +1133,7 @@ index f0952bb..a117867 100644
  
        val priorities = List(
          filterIf(true,        MostTotalOpposition),
-@@ -7325,6 +7599,45 @@ object Bot {
+@@ -7325,6 +7601,45 @@ object Bot {
      }
    }
  
@@ -1177,7 +1179,7 @@ index f0952bb..a117867 100644
    //  A bot is the next eligible faction
    //  Decide what type of action the Bot will take.
    //  We use the NP Elgibility Table.
-@@ -7343,42 +7656,10 @@ object Bot {
+@@ -7343,42 +7658,10 @@ object Bot {
        card.executeUnshaded(faction)
        Event
      }
@@ -1570,10 +1572,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..95bdf65
+index 0000000..24d643d
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,440 @@
+@@ -0,0 +1,457 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -1591,11 +1593,11 @@ index 0000000..95bdf65
 +//            space priorities), try each on a copy of the game with fresh
 +//            dice, score the result with a weighted sum of features, and
 +//            carry out the best one on dice not used by any trial. A trial
-+//            that throws, or runs past trial_ms (the program's Air Lift
-+//            planning can loop forever), is discarded.
++//            that throws, or uses more than trial_work keep-rule evaluations
++//            (the program's Air Lift planning can loop forever), is discarded.
 +//
 +//  Policy file (JSON), every field optional:
-+//    {"mode": "search", "samples": 2, "trial_ms": 250, "commit_plan": true, "hinge_buffer": 3,
++//    {"mode": "search", "samples": 2, "trial_work": 5000, "commit_plan": true, "hinge_buffer": 3,
 +//     "focuses": ["default", "opposition", "vc", "nva", "population"],
 +//     "weights": {"us": 1.0, "vc": -1.0, ...}}
 +//  Weights not given keep the defaults below. The score of a candidate is
@@ -1612,7 +1614,7 @@ index 0000000..95bdf65
 +  case class Config(
 +    mode: String,
 +    samples: Int,
-+    trialMillis: Long,
++    trialWork: Long,
 +    commitPlan: Boolean,
 +    hingeBuffer: Double,
 +    focuses: List[String],
@@ -1679,7 +1681,9 @@ index 0000000..95bdf65
 +    "arvn_spendable_capped" ->  0.0
 +  )
 +
-+  val ConfigKeys = Set("mode", "samples", "trial_ms", "commit_plan", "hinge_buffer", "focuses", "weights", "name")
++  val DefaultTrialWork = 5000L
++
++  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "focuses", "weights", "name")
 +
 +  def load(path: String): Unit = {
 +    val text = new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(path)), "UTF-8")
@@ -1707,7 +1711,7 @@ index 0000000..95bdf65
 +    config = Some(Config(
 +      mode        = mode,
 +      samples     = m.get("samples").map(num(_).toInt).getOrElse(2) max 1,
-+      trialMillis = m.get("trial_ms").map(num(_).toLong).getOrElse(250L),
++      trialWork   = m.get("trial_work").map(num(_).toLong).getOrElse(DefaultTrialWork),
 +      commitPlan  = m.get("commit_plan").exists(_ == true),
 +      hingeBuffer = m.get("hinge_buffer").map(num).getOrElse(3.0),
 +      focuses     = focuses,
@@ -1928,6 +1932,21 @@ index 0000000..95bdf65
 +    }))
 +  }
 +
++  //  FITL_WORK_STATS: the distribution of work (keep-rule evaluations) per trial, at exit.
++  object WorkStats {
++    val on = sys.env.contains("FITL_WORK_STATS")
++    val used = scala.collection.mutable.ArrayBuffer.empty[Long]
++    var cut = 0
++    var maxDone = 0L
++    def add(w: Long, limit: Long): Unit = if (on) { used += w; if (w > limit) cut += 1 else maxDone = maxDone max w }
++    if (on) Runtime.getRuntime.addShutdownHook(new Thread(() => {
++      val xs = used.sorted
++      def q(p: Double) = if (xs.isEmpty) 0L else xs(((xs.size - 1) * p).toInt)
++      System.err.println(s"work per trial: ${xs.size} trials, mean ${if (xs.isEmpty) 0 else xs.sum / xs.size}, " +
++        s"p50 ${q(0.5)}, p99 ${q(0.99)}, p99.9 ${q(0.999)}, p99.99 ${q(0.9999)}, largest finished $maxDone, cut off $cut")
++    }))
++  }
++
 +  def search(cfg: Config, card: EventCard): Action = {
 +    val searchT0 = if (TrialTimes.on) System.nanoTime else 0L
 +    AirLiftBench.record(game)
@@ -1953,7 +1972,7 @@ index 0000000..95bdf65
 +      val runs = (1 to cfg.samples) flatMap { k =>
 +        val t0 = if (TrialTimes.on) System.nanoTime else 0L
 +        Random.setSeed(base + 7919L * k)
-+        deadline = System.nanoTime + cfg.trialMillis * 1000000L
++        workLeft = cfg.trialWork
 +        if (replayLog.nonEmpty && k == 1) pickLog = Some(new scala.collection.mutable.ListBuffer[String])
 +        val record = new scala.collection.mutable.ListBuffer[(List[String], String)]
 +        if (cfg.commitPlan) { if (k == 1) planRecord = Some(record) else startReplay(c.name) }
@@ -1964,7 +1983,7 @@ index 0000000..95bdf65
 +        }
 +        catch { case _: Throwable => None }
 +        finally {
-+          game = saved; deadline = Long.MaxValue
++          game = saved; WorkStats.add(cfg.trialWork - workLeft, cfg.trialWork); workLeft = Long.MaxValue
 +          pickLog foreach (l => trialPicks(c.name) = l.toList)
 +          pickLog = None
 +          if (cfg.commitPlan && k == 1) plans(c.name) = record.toList
@@ -1989,10 +2008,10 @@ index 0000000..95bdf65
 +
 +    Random.setSeed(base)
 +    initTurnVariables()
-+    deadline = System.nanoTime + cfg.trialMillis * 1000000L
++    workLeft = cfg.trialWork
 +    if (replayLog.nonEmpty) pickLog = Some(new scala.collection.mutable.ListBuffer[String])
 +    startReplay(best.name)
-+    val result = try best.run() catch { case _: Throwable => None } finally deadline = Long.MaxValue
++    val result = try best.run() catch { case _: Throwable => None } finally workLeft = Long.MaxValue
 +    val diverged = cfg.commitPlan && planDiverged
 +    stopPlan()
 +    val realPicks = pickLog.map(_.toList).getOrElse(Nil)

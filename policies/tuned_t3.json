@@ -2,7 +2,7 @@
   "name": "tuned_t3",
   "mode": "search",
   "samples": 1,
-  "trial_ms": 60,
+  "trial_work": 5000,
   "hinge_buffer": 2.9047,
   "focuses": [
     "default",
