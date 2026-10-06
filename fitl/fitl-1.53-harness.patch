@@ -408,7 +408,7 @@ index 0000000..4f6a3ad
 +  }
 +}
 diff --git a/src/main/scala/fitl/Bot.scala b/src/main/scala/fitl/Bot.scala
-index f0952bb..9c3da9f 100644
+index f0952bb..a117867 100644
 --- a/src/main/scala/fitl/Bot.scala
 +++ b/src/main/scala/fitl/Bot.scala
 @@ -51,6 +51,13 @@ object Bot {
@@ -425,6 +425,15 @@ index f0952bb..9c3da9f 100644
    // These values are used with HighestScore and LowestScore filters
    // when a candidate is not qualified to produce a score.
    // For example if it is a LoC and we are only considering
+@@ -202,7 +209,7 @@ object Bot {
+     def compare(diceValue: Int, targetValue: Int): Boolean = diceValue >= targetValue
+   }
+   
+-  def logCheck(result: Boolean, display: String): Boolean = {
++  def logCheck(result: Boolean, display: => String): Boolean = {
+     if (game.logTrung || game.botDebug) {
+       val yesNo = if (result) "[Yes]" else "[No]"
+       log(s"Trung check: $display $yesNo")
 @@ -402,7 +409,9 @@ object Bot {
      val sp             = game.getSpace(name)
      val maxShift       = ((maxSupport.value - sp.support.value) max 0) min maxLevels
@@ -563,6 +572,24 @@ index f0952bb..9c3da9f 100644
    }
  
    // Use when determining which moveable pieces should remain
+@@ -1432,7 +1489,7 @@ object Bot {
+     def addPieces(newPieces: Pieces) = copy(selected = selected + newPieces)
+   }
+ 
+-  def logKept(params: MoveParams, heading: String, result: String): Unit = if (game.botDebug) {
++  def logKept(params: MoveParams, heading: String, result: => String): Unit = if (game.botDebug) {
+     import params._
+ 
+     log()
+@@ -1445,7 +1502,7 @@ object Bot {
+     log(s"kept      : ${andList(selected.descriptions)}")
+   }
+ 
+-  def logMoved(params: MoveParams, heading: String, result: String): Unit = if (game.botDebug) {
++  def logMoved(params: MoveParams, heading: String, result: => String): Unit = if (game.botDebug) {
+     import params._
+ 
+     val nowAtDest = dest.pieces + selected
 @@ -1590,14 +1647,16 @@ object Bot {
      val vulnerable = vulnerableInsurgents(origin.pieces, false, false).total
  
@@ -1198,7 +1225,7 @@ index f0952bb..9c3da9f 100644
      log(s"\nMove the $faction cylinder to the ${actorBoxName(action)} box", Color.GameMarker)
      game = game.copy(sequence = game.sequence.addActor(faction, action))
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
-index b1dc7c3..a071a0e 100644
+index b1dc7c3..a994588 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
 +++ b/src/main/scala/fitl/FireInTheLake.scala
 @@ -345,7 +345,7 @@ object FireInTheLake {
@@ -1472,6 +1499,27 @@ index b1dc7c3..a071a0e 100644
        code
      else {
        loggingControlChangesActive = true
+@@ -5290,15 +5410,17 @@ object FireInTheLake {
+   }
+ 
+   // Print the line to the console and save it in the game's history.
++  // `line` is by-name so that a suspended log never builds its text.
+   def log(
+-    line: String = "",
++    line: => String = "",
+     color: Option[Color] = None,
+     force: Boolean = false,
+     echo: Boolean = true): Unit = {
+       if (!loggingSuspended || force) {
++        val text = line
+         if (echo)
+-          displayLine(line, color)
+-        game = game.copy(log = game.log :+ LogEntry(line, color))
++          displayLine(text, color)
++        game = game.copy(log = game.log :+ LogEntry(text, color))
+       }
+   }
+ 
 diff --git a/src/main/scala/fitl/Prof.scala b/src/main/scala/fitl/Prof.scala
 new file mode 100644
 index 0000000..6e68e39
