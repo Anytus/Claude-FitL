@@ -1,0 +1,63 @@
+Look-ahead for the search bot (policy keys lookahead, la_candidates, la_coups; fitl.Lookahead)
+Base policy policies/fit3flat.json; seeds 1-200, --us-final-only --us-player; baseline = the same policy without look-ahead.
+
+=== v1: top 5 by the weighted score (mostly the same action with different focuses), 8 playouts each to the next Coup
+194 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     16.0%    3.1%   26.3%   54.6%       -11.1    -11.2
+variant      19.6%    1.0%   26.8%   52.6%       -12.1    -12.2
+
+paired change in US wins: +3.6 points of % (se 3.7)
+
+paired change in games reaching the final Coup: +1.0 points of % (se 4.7)
+
+paired change in US margin: -1.01 (se 0.98)
+
+paired change in US lead: -1.00 (se 1.23)
+
+variant games ended at: Coup 1 2%, Coup 2 3%, Coup 3 10%, Coup 4 10%, Coup 5 12%, final 63%
+
+=== v2: top 5 distinct positions, 8 playouts each, then 16 more for the best two
+197 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     16.2%    3.0%   25.9%   54.8%       -11.0    -11.1
+variant      11.2%    0.5%   20.3%   68.0%       -14.3    -15.1
+
+paired change in US wins: -5.1 points of % (se 3.1)
+
+paired change in games reaching the final Coup: -7.1 points of % (se 4.3)
+
+paired change in US margin: -3.25 (se 0.92)
+
+paired change in US lead: -4.02 (se 1.16)
+
+variant games ended at: Coup 1 3%, Coup 2 6%, Coup 3 8%, Coup 4 12%, Coup 5 16%, final 55%
+
+Per-candidate playout statistics in one game (seed 3, v2): value mean, sd, and losses (a Bot over its line at the check)
+  LA card 118 seen  4  Sweep+AirStrike @vc                  mean  -45.75 sd  45.10 losses 3/8
+  LA card 118 seen  4  Train[arvn<=1]+Advise                mean  -26.63 sd  30.06 losses 1/8
+  LA card 118 seen  4  Train[arvn<=1]+Advise @opposition    mean  -24.21 sd  29.82 losses 3/24
+  LA card 118 seen  4  Train[arvn<=2]+Advise                mean  -37.13 sd  39.33 losses 2/8
+  LA card 118 seen  4  Train[arvn<=1]+AirStrike             mean  -25.33 sd  29.88 losses 3/24
+  LA card 110 seen  6  Pass                                 mean  -26.75 sd  30.35 losses 1/8
+  LA card 110 seen  6  Sweep LimOp @opposition              mean  -38.00 sd  37.97 losses 6/23
+  LA card 110 seen  6  Train LimOp                          mean  -32.29 sd  36.04 losses 5/24
+  LA card 110 seen  6  Sweep LimOp @vc                      mean  -47.75 sd  43.35 losses 3/8
+  LA card 110 seen  6  Sweep LimOp @nva                     mean  -26.13 sd  30.10 losses 1/8
+  LA card  31 seen  8  Train[arvn<=1]+Advise                mean  -26.79 sd  28.89 losses 3/24
+  LA card  31 seen  8  Train[arvn<=1]+Advise @opposition    mean  -28.33 sd  33.00 losses 4/24
+  LA card  31 seen  8  Sweep+AirStrike @opposition          mean  -79.00 sd  38.89 losses 6/8
+  LA card  31 seen  8  Sweep+AirStrike                      mean  -38.50 sd  38.43 losses 2/8
+  LA card  31 seen  8  Sweep @opposition                    mean  -50.75 sd  40.93 losses 3/8
+  LA card  43 seen 10  Train LimOp                          mean  -40.75 sd  39.06 losses 7/24
+  LA card  43 seen 10  Pass                                 mean  -79.13 sd  38.68 losses 6/8
+  LA card  43 seen 10  Assault LimOp                        mean  -56.75 sd  46.28 losses 4/8
+  LA card  43 seen 10  Sweep LimOp @opposition              mean  -62.00 sd  42.31 losses 13/24
+  LA card  43 seen 10  Sweep LimOp @nva                     mean  -57.75 sd  45.24 losses 4/8
+  LA card  66 seen 12  Pass                                 mean  -45.50 sd  45.21 losses 3/8
+  LA card  66 seen 12  Sweep LimOp @opposition              mean  -36.38 sd  39.54 losses 2/8
+  LA card  66 seen 12  Assault LimOp                        mean  -28.67 sd  32.89 losses 4/24
+  LA card  66 seen 12  Sweep LimOp @vc                      mean  -56.38 sd  46.64 losses 4/8
+  LA card  66 seen 12  Sweep LimOp @nva                     mean  -24.92 sd  29.30 losses 3/24

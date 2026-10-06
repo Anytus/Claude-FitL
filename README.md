@@ -424,6 +424,20 @@ US wins 0.5% against 17% (`policies/player_fit5.json`).
 `botcompare.py` now also reports the paired change in US wins and in games
 reaching the final Coup.
 
+### Look-ahead (playouts to the next Coup)
+
+A search policy with `"lookahead": N` shortlists its best `la_candidates`
+distinct positions by the weighted score and plays each forward N times with
+all factions as Bots (the US by its Tru'ng routines) to the next Coup's
+Victory check, or to the end in the final campaign; future cards are drawn
+as the piles allow and the Bots' Tru'ng decks reshuffled (`fitl.Lookahead`).
+A playout scores -100 if a Bot is over its line at the check, else the US
+lead (+100 for a final win); the best two get 2N more playouts. About 0.7 s a
+decision at N=8. So far it does not help: with distinct candidates the US
+wins 5 points less than without it (`results/lookahead_v1.txt`). A playout's
+value has an sd of about 35, so a few dozen playouts cannot rank candidates
+whose risk differs by a few percent.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,
