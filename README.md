@@ -343,6 +343,28 @@ keep- and move-rule runs, moves), bytes allocated, and cost by destinations
 tried. `FITL_TRIAL_TIMES=1` times every search trial by candidate kind.
 Results: `results/airlift_bench.txt`, `results/trial_times.txt`.
 
+### Fitting the weights to decisions
+
+The search's score is a weighted sum of the features of the board an action
+leaves, so the weights are a guess at how good a board is. `tools/botfit.py`
+fits that guess by regression instead of by perturbing and replaying:
+`FITL_POLICY_FIT=PREFIX` logs, after each real US decision, the features of
+the board before it and of the board it left, with the game's seed; the
+target is that game's final US lead. Ridge regression, cross-validated by
+whole games. The before-board (and cards seen) go in as controls: they are
+the same for every candidate, so they change no choice, but without them the
+fit rewards features that mark good positions rather than good actions (NVA
+Troops and Terror came out positive) and plays far worse. A policy's
+`"explore": p` carries out a random candidate with probability p (on its own
+RNG), so the data also covers choices the weights would not make.
+
+First result (`results/fit_v1.txt`): one round of 1200 games (4 minutes)
+gives weights level with tuned_t3 on held-out seeds 1-400 (US lead -0.9,
+se 0.8); a second round, alone or pooled, the same (-0.7, -1.2), though the
+fitted weights choose differently from tuned_t3 in a third of decisions.
+Without the controls: -8.5; explored decisions only: -9.2.
+`policies/fit1.json`, `policies/fit2pool.json`.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

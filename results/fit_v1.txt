@@ -1,0 +1,123 @@
+Fitting the US search weights to logged decisions (tools/botfit.py), --us-final-only --us-player
+Data: 1200 games a round (seeds 100000-101199, then 101200-102399), explore 0.1.
+Validation: held-out seeds 1-400 against tuned_t3 + commit_plan (trial_work 5000), botcompare paired US lead.
+
+Round 1 fit (data: tuned_t3 + commit_plan):
+1177 games, 30641 US decisions (26.0 a game, 3133 explored); 28 features vary; 26 controls
+final US lead: mean -12.10, sd 12.89 per game
+
+  lambda   CV R2   CV MSE
+    0.01   0.319   115.12
+     0.1   0.319   115.12
+       1   0.319   115.12
+       3   0.319   115.12
+      10   0.319   115.11
+      30   0.319   115.10
+     100   0.319   115.13
+     300   0.317   115.35
+    1000   0.314   115.87
+    3000   0.311   116.48
+   10000   0.302   117.90
+
+chosen lambda 30: in-sample R2 0.328, CV R2 0.319
+
+feature                       sd  std coef    fitted       old     old*k
+us                          8.45     3.483    0.4120    1.9411    0.7898
+aid                        10.08     2.352    0.2333    0.0150    0.0061
+us_casualties               3.83    -1.965   -0.5129   -0.4085   -0.1662
+arvn_res                   11.09     1.809    0.1631    0.0000    0.0000
+vc_guerrillas               6.02    -1.522   -0.2527   -0.7174   -0.2919
+nva_guerrillas              4.73    -1.147   -0.2423   -0.0836   -0.0340
+nva_troops                 11.02    -1.109   -0.1007   -0.1597   -0.0650
+agitate_exposure            3.93    -0.978   -0.2491   -0.3127   -0.1272
+easter_live                 0.34    -0.868   -2.5755   -2.0296   -0.8258
+rival_hinge                 2.31    -0.827   -0.3583   -2.0320   -0.8268
+rival_hinge_coup_next       0.77    -0.604   -0.7821   -1.0950   -0.4455
+arvn                        4.55    -0.581   -0.1279   -0.4594   -0.1869
+vc                          5.27    -0.533   -0.1012   -1.2917   -0.5256
+rival_hinge_coup_soon       0.74    -0.447   -0.6017   -0.9705   -0.3949
+trail                       1.11    -0.381   -0.3434   -0.3059   -0.1245
+nva                         3.90    -0.367   -0.0941   -0.0764   -0.0311
+easter_near                 3.66    -0.256   -0.0700   -0.1929   -0.0785
+max_rival                   3.80    -0.248   -0.0653   -0.3058   -0.1244
+vc_underground              6.57     0.207    0.0315   -0.1191   -0.0485
+tet_live                    0.33    -0.154   -0.4721   -2.6484   -1.0776
+pass                        0.36     0.101    0.2848    0.6081    0.2474
+arvn_spendable_capped       3.79     0.097    0.0257    0.3413    0.1389
+event                       0.29     0.065    0.2277   -0.0523   -0.0213
+arvn_spendable              9.03    -0.061   -0.0068    0.0484    0.0197
+event_performed             0.24    -0.061   -0.2546    0.5382    0.2190
+tet_near                    2.91     0.042    0.0145   -0.2362   -0.0961
+terror                      3.51    -0.023   -0.0064   -0.1763   -0.0717
+event_critical              0.12    -0.017   -0.1457    0.4619    0.1879
+
+old weights scaled by k = 0.407 (least squares onto the fit); cosine between old and fitted (standardised): 0.73
+
+=== validation: baseline vs fit1
+386 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     16.8%    0.8%   19.4%   63.0%       -10.8    -11.3
+variant      16.1%    3.1%   15.0%   65.8%       -11.4    -12.2
+
+paired change in US margin: -0.59 (se 0.66)
+
+paired change in US lead: -0.88 (se 0.78)
+
+variant games ended at: Coup 1 2%, Coup 2 9%, Coup 3 11%, Coup 4 13%, Coup 5 15%, final 50%
+
+=== validation: baseline vs fit1nc
+386 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     17.1%    0.8%   19.4%   62.7%       -10.8    -11.2
+variant       3.4%    7.3%   21.2%   68.1%       -16.9    -19.6
+
+paired change in US margin: -6.15 (se 0.62)
+
+paired change in US lead: -8.47 (se 0.76)
+
+variant games ended at: Coup 1 2%, Coup 2 18%, Coup 3 18%, Coup 4 21%, Coup 5 13%, final 27%
+
+=== validation: baseline vs fit1ex
+382 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     17.0%    0.8%   19.4%   62.8%       -10.9    -11.3
+variant       6.8%    7.6%   12.8%   72.8%       -17.6    -20.5
+
+paired change in US margin: -6.69 (se 0.67)
+
+paired change in US lead: -9.20 (se 0.83)
+
+variant games ended at: Coup 1 3%, Coup 2 16%, Coup 3 24%, Coup 4 19%, Coup 5 14%, final 24%
+
+=== validation: baseline vs fit2
+382 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     17.0%    0.8%   19.4%   62.8%       -10.7    -11.1
+variant      14.1%    1.8%   20.4%   63.6%       -11.2    -11.8
+
+paired change in US margin: -0.50 (se 0.55)
+
+paired change in US lead: -0.72 (se 0.68)
+
+variant games ended at: Coup 1 2%, Coup 2 5%, Coup 3 8%, Coup 4 14%, Coup 5 14%, final 57%
+
+=== validation: baseline vs fit2pool
+384 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     17.2%    0.8%   19.5%   62.5%       -10.7    -11.1
+variant      17.2%    1.0%   17.2%   64.6%       -11.5    -12.3
+
+paired change in US margin: -0.78 (se 0.62)
+
+paired change in US lead: -1.17 (se 0.77)
+
+variant games ended at: Coup 1 2%, Coup 2 8%, Coup 3 6%, Coup 4 14%, Coup 5 13%, final 56%
+
+fit1 = round 1 with before-board controls (policies/fit1.json); fit1nc = no controls; fit1ex = explored decisions only;
+fit2 = round 2 data (played with fit1); fit2pool = rounds 1+2 pooled (policies/fit2pool.json).
+Choice agreement with the baseline on its own 2813 decisions (seeds 1-100): fit1 51%, fit2 65%, fit2pool 66% same candidate.

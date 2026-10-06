@@ -127,10 +127,10 @@ index 0000000..d5c5205
 +}
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..4f6a3ad
+index 0000000..fec4b00
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,276 @@
+@@ -0,0 +1,277 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -239,6 +239,7 @@ index 0000000..4f6a3ad
 +
 +  def runGame(seed: Long, usFinalOnly: Boolean, trace: Boolean = false): String = {
 +    Random.setSeed(seed)
++    USPolicy.gameSeed = seed; USPolicy.decisions = 0
 +    val deck = buildDeck(new Random(seed * 6364136223846793005L + 1442695040888963407L))
 +    var cardIdx = 0
 +    val tail = new Tail
@@ -1572,10 +1573,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..24d643d
+index 0000000..3a89207
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,457 @@
+@@ -0,0 +1,486 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -1617,6 +1618,7 @@ index 0000000..24d643d
 +    trialWork: Long,
 +    commitPlan: Boolean,
 +    hingeBuffer: Double,
++    explore: Double,
 +    focuses: List[String],
 +    weights: Map[String, Double])
 +
@@ -1643,6 +1645,17 @@ index 0000000..24d643d
 +  lazy val replayLog: Option[java.io.PrintWriter] = sys.env.get("FITL_POLICY_REPLAY") map { p =>
 +    new java.io.PrintWriter(new java.io.FileWriter(s"$p.${ProcessHandle.current.pid}", true))
 +  }
++  //  FITL_POLICY_FIT=PREFIX: after each US decision is carried out, append
++  //  one JSON line to PREFIX.<pid> with the game's seed, the decision's
++  //  number in the game, the action, the features of the board before it
++  //  ("b") and of the board it left ("f", with Pass/Event extras).
++  //  tools/botfit.py fits weights to these.
++  lazy val fitLog: Option[java.io.PrintWriter] = sys.env.get("FITL_POLICY_FIT") map { p =>
++    new java.io.PrintWriter(new java.io.FileWriter(s"$p.${ProcessHandle.current.pid}", true))
++  }
++  //  Set by Autoplay at the start of each game, for the fit log.
++  var gameSeed  = 0L
++  var decisions = 0
 +  private def jstr(x: String) = "\"" + x.replace("\\", "\\\\").replace("\"", "'") + "\""
 +  private def jsonMap(m: Map[String, Double]) =
 +    m.toList.sortBy(_._1).map { case (k, v) => f""""$k":$v%.4f""" }.mkString("{", ",", "}")
@@ -1683,7 +1696,7 @@ index 0000000..24d643d
 +
 +  val DefaultTrialWork = 5000L
 +
-+  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "focuses", "weights", "name")
++  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "explore", "focuses", "weights", "name")
 +
 +  def load(path: String): Unit = {
 +    val text = new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(path)), "UTF-8")
@@ -1714,6 +1727,7 @@ index 0000000..24d643d
 +      trialWork   = m.get("trial_work").map(num(_).toLong).getOrElse(DefaultTrialWork),
 +      commitPlan  = m.get("commit_plan").exists(_ == true),
 +      hingeBuffer = m.get("hinge_buffer").map(num).getOrElse(3.0),
++      explore     = m.get("explore").map(num).getOrElse(0.0),
 +      focuses     = focuses,
 +      weights     = DefaultWeights ++ w))
 +  }
@@ -1956,6 +1970,7 @@ index 0000000..24d643d
 +      System.err.println(s"card ${game.currentCard} seen ${game.cardsSeen.size} leaders ${game.numCardsInLeaderBox} " +
 +        features(game, cfg.hingeBuffer).toList.sortBy(_._1).map { case (k, v) => f"$k=$v%.2f" }.mkString(" "))
 +    val cands = candidates(cfg, card)
++    val before = if (fitLog.nonEmpty) features(game, cfg.hingeBuffer) else Map.empty[String, Double]
 +
 +    //  Each candidate is tried on the same `samples` dice streams (common
 +    //  random numbers), none of which is the stream the real action uses.
@@ -1995,7 +2010,14 @@ index 0000000..24d643d
 +    }
 +    val scored = trials map { case (c, v, _) => c -> v }
 +
-+    val (best, bestValue) = scored.maxBy(_._2)
++    val (top, topValue) = scored.maxBy(_._2)
++    //  explore > 0: with that probability carry out a candidate chosen at
++    //  random instead of the best, so that the fit log also covers choices
++    //  the weights would not make. Drawn from its own RNG: the game's dice
++    //  are not touched.
++    val explorer = new Random(base ^ 0x5DEECE66DL)
++    val explored = cfg.explore > 0 && explorer.nextDouble() < cfg.explore
++    val (best, bestValue) = if (explored) scored(explorer.nextInt(scored.size)) else (top, topValue)
 +    designLog foreach { w =>
 +      val cs = trials map { case (c, v, f) => f"""{"name":"${c.name}","v":$v%.4f,"f":${jsonMap(f)}}""" }
 +      w.println(s"""{"card":${game.currentCard},"seen":${game.cardsSeen.size},"first":${game.sequence.numActors == 0},""" +
@@ -2003,8 +2025,8 @@ index 0000000..24d643d
 +      w.flush()
 +    }
 +    if (TrialTimes.on) { TrialTimes.decisions += 1; TrialTimes.searchNs += System.nanoTime - searchT0 }
-+    lastChoice = f"${best.name} $bestValue%.2f ${scored.size}"
-+    log(f"\nUS policy chooses: ${best.name} (value $bestValue%.2f, best of ${scored.size} candidates)")
++    lastChoice = f"${best.name} $bestValue%.2f ${scored.size}" + (if (explored) " explore" else "")
++    log(f"\nUS policy chooses: ${best.name} (value $bestValue%.2f, ${if (explored) "explored, " else ""}best of ${scored.size} candidates)")
 +
 +    Random.setSeed(base)
 +    initTurnVariables()
@@ -2023,7 +2045,7 @@ index 0000000..24d643d
 +                s""""real_picks":${realPicks.map(jstr).mkString("[", ",", "]")},"diverged":$diverged}""")
 +      w.flush()
 +    }
-+    result getOrElse {
++    val done = result getOrElse {
 +      // Could not be carried out on these dice: undo anything done and pass.
 +      game = saved
 +      initTurnVariables()
@@ -2031,5 +2053,13 @@ index 0000000..24d643d
 +      factionPasses(US)
 +      Pass
 +    }
++    decisions += 1
++    fitLog foreach { w =>
++      w.println(s"""{"seed":$gameSeed,"i":$decisions,"card":${game.currentCard},"seen":${game.cardsSeen.size},""" +
++                s""""chosen":${jstr(best.name)},"explored":$explored,"done":${jstr(done.toString)},""" +
++                s""""b":${jsonMap(before)},"f":${jsonMap(features(game, cfg.hingeBuffer) ++ extras(done, card))}}""")
++      w.flush()
++    }
++    done
 +  }
 +}
