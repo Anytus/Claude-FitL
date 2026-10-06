@@ -10,7 +10,9 @@ The search scores a candidate action by a weighted sum of the features of
 the board it leaves (plus Pass/Event extras), so the weights are a guess at
 how good a board is. This fits that guess to what happened: one row per US
 decision (the features of the board the real action left), the target is
-that game's final US lead (final US margin minus the best rival's margin).
+that game's outcome (--target): by default its final US lead (final US
+margin minus the best rival's) if it reached the final Coup, and below any
+full game, by how late it ended, if a Bot crossed its line first.
 A game gives one row per US decision instead of one number per game.
 
 The features of the board before the decision ("b" in the log) and the
@@ -84,6 +86,14 @@ def main():
                    help="also fit phase weights x@t and x@c (the weight of x becomes w + t*w@t + c*w@c, "
                         "t = share of the deck seen, c = chance of a Coup in the next 2 cards)")
     p.add_argument("--lambdas", default="0.01,0.1,1,3,10,30,100,300,1000,3000,10000")
+    p.add_argument("--target", choices=["lead", "survival"], default="survival",
+                   help="lead: final US lead. survival (default): final US lead for games that reach the "
+                        "final Coup; a game that ends early (a Bot crossed its line) scores below every "
+                        "full game, by how late it ended (see --floor, --step)")
+    p.add_argument("--floor", type=float, default=-25.0,
+                   help="survival: full games score their final lead but no less than this; a loss at the "
+                        "5th Coup scores floor - step, at the 1st floor - 5 * step (default -25)")
+    p.add_argument("--step", type=float, default=5.0, help="survival: points per Coup not reached")
     args = p.parse_args()
 
     pol = json.load(open(args.policy))
@@ -92,7 +102,21 @@ def main():
         for line in open(g, encoding="utf-8"):
             r = json.loads(line)
             if not r.get("error"):
-                games[r["seed"]] = lead(r)
+                games[r["seed"]] = r
+    floor = args.floor
+
+    def target(r):
+        if args.target == "lead":
+            return lead(r)
+        if r["end_coup"] == 6:
+            return max(lead(r), floor)
+        return floor - args.step * (6 - r["end_coup"])
+
+    n_early = sum(r["end_coup"] != 6 for r in games.values())
+    games = {s: target(r) for s, r in games.items()}
+    if args.target == "survival":
+        print(f"target: survival; {n_early} of {len(games)} games ended early, scored "
+              f"{floor - args.step:.0f} (5th Coup) down to {floor - 5 * args.step:.0f} (1st Coup)")
     rows = load_rows(args.log, games)
     if args.explored_only:
         rows = [d for d in rows if d.get("explored")]
@@ -130,7 +154,7 @@ def main():
           f"{n_expl} explored); {len(keys)} features vary"
           + (f"; never vary, kept at 0: {', '.join(dropped)}" if dropped else "")
           + (f"; {nc} controls" if nc else "; no controls"))
-    print(f"final US lead: mean {y.mean():+.2f}, sd {np.std([games[s] for s in useeds]):.2f} per game")
+    print(f"target: mean {y.mean():+.2f} per decision, sd {np.std([games[s] for s in useeds]):.2f} per game")
 
     # Cross-validation by game.
     rng = np.random.default_rng(0)

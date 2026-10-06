@@ -414,6 +414,16 @@ turn kept; three position features (`us_troops_map`, `us_assault_potential`,
 early, when a Bot crosses its line, ends with almost the same lead as a full
 game (-10.0 against -7.6), so the target does not see the loss.
 
+`botfit.py --target survival` (now the default) scores a full game by its
+final lead (at least `--floor`, -25) and a game that ended early below every
+full game, by how late it ended (`--step` 5 points per Coup not reached). It
+fits much better (CV R2 0.37 against 0.13), Troops on the map gain weight and
+the US margin comes level with the search bot, but the player still lets the
+Bots cross their lines early: 16% of games reach the final Coup against 63%,
+US wins 0.5% against 17% (`policies/player_fit5.json`).
+`botcompare.py` now also reports the paired change in US wins and in games
+reaching the final Coup.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

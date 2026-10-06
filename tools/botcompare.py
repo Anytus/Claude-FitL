@@ -4,8 +4,9 @@
 Usage: botcompare.py BASELINE.jsonl VARIANT.jsonl
 
 Seeds that failed in either run are left out. Prints each run's winner
-shares and mean final margins, and the paired difference in the US margin
-and in the US margin minus the best rival margin, with its standard error.
+shares and mean final margins, and the paired differences in US wins, in
+games reaching the final Coup, in the US margin and in the US margin minus
+the best rival margin, with their standard errors.
 """
 import json
 import math
@@ -35,6 +36,11 @@ def main(a_path, b_path):
         us = st.mean(run[s]["final_scores"]["US"] for s in seeds)
         ld = st.mean(lead(run[s]) for s in seeds)
         print(f"{name:<10}" + "".join(f"{100 * w:7.1f}%" for w in wins) + f"   {us:+9.1f}  {ld:+7.1f}")
+    for label, fn in (("US wins", lambda r: 100.0 * (r["winner"] == "US")),
+                      ("games reaching the final Coup", lambda r: 100.0 * (r["end_coup"] == 6))):
+        d = [fn(b[s]) - fn(a[s]) for s in seeds]
+        se = st.stdev(d) / math.sqrt(n) if n > 1 else 0.0
+        print(f"\npaired change in {label}: {st.mean(d):+.1f} points of % (se {se:.1f})")
     for label, fn in (("US margin", lambda r: r["final_scores"]["US"]), ("US lead", lead)):
         d = [fn(b[s]) - fn(a[s]) for s in seeds]
         se = st.stdev(d) / math.sqrt(n) if n > 1 else 0.0
