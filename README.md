@@ -365,6 +365,13 @@ fitted weights choose differently from tuned_t3 in a third of decisions.
 Without the controls: -8.5; explored decisions only: -9.2.
 `policies/fit1.json`, `policies/fit2pool.json`. Three dice samples per trial
 instead of one help neither tuned_t3 nor fit1 (-0.7 and -0.6, se 0.7).
+`botfit.py --phase` lets each weight vary with the stage of the game (the
+weight of x is w + t*w(x@t) + c*w(x@c), t the share of the deck seen, c the
+chance of a Coup in the next 2 cards; `USPolicy.phase`). On 2400 games it
+predicts a little better (CV R2 0.285 against 0.274 flat) but plays the same
+as the flat fit on the same data (-0.03, se 0.78); both are level with
+tuned_t3 (+0.35 and +0.40, se 0.75). `policies/fit3flat.json`,
+`policies/fit3phase.json`.
 
 ## Information boundary
 

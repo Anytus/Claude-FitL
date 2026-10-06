@@ -1573,10 +1573,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..3a89207
+index 0000000..6406bb2
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,486 @@
+@@ -0,0 +1,506 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -1711,7 +1711,8 @@ index 0000000..3a89207
 +    if (unknown.nonEmpty)
 +      throw new IllegalArgumentException(s"$path: unknown keys: ${unknown.mkString(", ")}")
 +    val w = m.get("weights").map(_.asInstanceOf[Map[String, Any]].map { case (k, v) => k -> num(v) }).getOrElse(Map.empty)
-+    val badW = w.keySet -- DefaultWeights.keySet
++    //  "x@t" and "x@c" are phase weights for feature x (see `phase`).
++    val badW = w.keySet.map(_.stripSuffix("@t").stripSuffix("@c")) -- DefaultWeights.keySet
 +    if (badW.nonEmpty)
 +      throw new IllegalArgumentException(s"$path: unknown weights: ${badW.mkString(", ")}")
 +    val focuses = m.get("focuses").map(_.asInstanceOf[Seq[Any]].map(_.toString).toList).getOrElse(Focuses.keys.toList.sorted)
@@ -1834,8 +1835,25 @@ index 0000000..3a89207
 +    )
 +  }
 +
-+  def value(cfg: Config, g: GameState, extra: Map[String, Double]): Double =
-+    (features(g, cfg.hingeBuffer) ++ extra).iterator.map { case (k, v) => cfg.weights.getOrElse(k, 0.0) * v }.sum
++  //  The stage of the game, for phase weights: t is the share of the deck
++  //  seen so far (current and on-deck cards included), c the chance of a
++  //  Coup among the next 2 cards (public information, see coupSoon). Both
++  //  are the same for every candidate of a decision. With phase weights
++  //  the weight of feature x is w(x) + t * w(x@t) + c * w(x@c).
++  def phase(g: GameState): (Double, Double) =
++    (g.cardsSeen.size.toDouble / (g.cardsPerCampaign * g.totalCoupCards), coupSoon(g, 2))
++
++  def value(cfg: Config, g: GameState, extra: Map[String, Double]): Double = {
++    val f = features(g, cfg.hingeBuffer) ++ extra
++    if (!cfg.weights.keys.exists(_.contains('@')))
++      f.iterator.map { case (k, v) => cfg.weights.getOrElse(k, 0.0) * v }.sum
++    else {
++      val (t, c) = phase(g)
++      f.iterator.map { case (k, v) =>
++        (cfg.weights.getOrElse(k, 0.0) + t * cfg.weights.getOrElse(k + "@t", 0.0) + c * cfg.weights.getOrElse(k + "@c", 0.0)) * v
++      }.sum
++    }
++  }
 +
 +  // ---------------------------------------------------------------
 +  //  Candidates
@@ -2055,7 +2073,9 @@ index 0000000..3a89207
 +    }
 +    decisions += 1
 +    fitLog foreach { w =>
++      val (t, c) = phase(game)
 +      w.println(s"""{"seed":$gameSeed,"i":$decisions,"card":${game.currentCard},"seen":${game.cardsSeen.size},""" +
++                f""""t":$t%.4f,"c":$c%.4f,""" +
 +                s""""chosen":${jstr(best.name)},"explored":$explored,"done":${jstr(done.toString)},""" +
 +                s""""b":${jsonMap(before)},"f":${jsonMap(features(game, cfg.hingeBuffer) ++ extras(done, card))}}""")
 +      w.flush()

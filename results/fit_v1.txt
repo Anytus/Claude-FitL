@@ -147,3 +147,55 @@ paired change in US margin: -0.55 (se 0.59)
 paired change in US lead: -0.58 (se 0.73)
 
 variant games ended at: Coup 1 2%, Coup 2 11%, Coup 3 12%, Coup 4 12%, Coup 5 12%, final 51%
+
+Phase weights (botfit.py --phase): the weight of x is w + t*w(x@t) + c*w(x@c), t = share of the deck seen, c = chance of a Coup in the next 2 cards.
+Data: 2400 games (seeds 102400-104799) played with fit1, explore 0.1. Flat fit on the same data for comparison.
+
+--- fit3flat
+2361 games, 62826 US decisions (26.6 a game, 6300 explored); 28 features vary; 26 controls
+final US lead: mean -12.34, sd 12.48 per game
+chosen lambda 30: in-sample R2 0.279, CV R2 0.274
+
+--- fit3phase
+2361 games, 62826 US decisions (26.6 a game, 6300 explored); 84 features vary; 28 controls
+final US lead: mean -12.34, sd 12.48 per game
+chosen lambda 30: in-sample R2 0.293, CV R2 0.285
+
+=== validation: base vs fit3flat
+391 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     16.9%    0.8%   19.2%   63.2%       -10.8    -11.3
+variant      19.4%    2.8%   21.5%   56.3%       -11.0    -10.9
+
+paired change in US margin: -0.12 (se 0.61)
+
+paired change in US lead: +0.35 (se 0.75)
+
+variant games ended at: Coup 1 2%, Coup 2 6%, Coup 3 8%, Coup 4 13%, Coup 5 10%, final 62%
+
+=== validation: base vs fit3phase
+388 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     17.0%    0.8%   19.6%   62.6%       -10.8    -11.3
+variant      19.6%    4.9%   20.4%   55.2%       -10.9    -10.9
+
+paired change in US margin: -0.10 (se 0.60)
+
+paired change in US lead: +0.40 (se 0.74)
+
+variant games ended at: Coup 1 2%, Coup 2 6%, Coup 3 9%, Coup 4 9%, Coup 5 10%, final 66%
+
+=== validation: fit3flat vs fit3phase
+393 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     19.3%    2.8%   22.1%   55.7%       -10.9    -10.9
+variant      19.3%    4.8%   20.1%   55.7%       -10.9    -10.9
+
+paired change in US margin: +0.03 (se 0.63)
+
+paired change in US lead: -0.03 (se 0.78)
+
+variant games ended at: Coup 1 2%, Coup 2 6%, Coup 3 9%, Coup 4 8%, Coup 5 9%, final 66%

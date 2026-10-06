@@ -29,7 +29,8 @@ chosen by cross-validation with whole games held out together, since the
 rows of one game share a target. Features that never vary are left out and
 keep weight 0. The output policy is --policy with the fitted weights; the
 other settings (focuses, samples, hinge_buffer, ...) are kept and "explore"
-is dropped.
+is dropped. With --phase each feature x also gets phase weights x@t and x@c,
+fitted from x*t and x*c (see the option).
 """
 import argparse
 import glob
@@ -79,6 +80,9 @@ def main():
     p.add_argument("--folds", type=int, default=5)
     p.add_argument("--no-controls", action="store_true")
     p.add_argument("--explored-only", action="store_true")
+    p.add_argument("--phase", action="store_true",
+                   help="also fit phase weights x@t and x@c (the weight of x becomes w + t*w@t + c*w@c, "
+                        "t = share of the deck seen, c = chance of a Coup in the next 2 cards)")
     p.add_argument("--lambdas", default="0.01,0.1,1,3,10,30,100,300,1000,3000,10000")
     args = p.parse_args()
 
@@ -94,8 +98,15 @@ def main():
         rows = [d for d in rows if d.get("explored")]
     if not rows:
         sys.exit("no logged decisions from completed games")
-    keys_all = sorted(pol["weights"])
-    F = np.array([[d["f"].get(k, 0.0) for k in keys_all] for d in rows])
+    base_keys = sorted({k.split("@")[0] for k in pol["weights"]})
+    if args.phase:
+        if not all("t" in d and "c" in d for d in rows):
+            sys.exit("the log has no phase (t, c); --phase needs a newer log")
+        keys_all = base_keys + [k + "@t" for k in base_keys] + [k + "@c" for k in base_keys]
+        mult = lambda d, k: d["t"] if k.endswith("@t") else d["c"] if k.endswith("@c") else 1.0
+    else:
+        keys_all, mult = base_keys, (lambda d, k: 1.0)
+    F = np.array([[d["f"].get(k.split("@")[0], 0.0) * mult(d, k) for k in keys_all] for d in rows])
     sd_all = F.std(axis=0)
     keys = [k for k, s in zip(keys_all, sd_all) if s > 1e-9]
     dropped = [k for k, s in zip(keys_all, sd_all) if s <= 1e-9]
@@ -106,7 +117,8 @@ def main():
     if not args.no_controls:
         if not all("b" in d for d in rows):
             sys.exit("the log has no before-decision features (b); use --no-controls")
-        C = np.array([[d["b"].get(k, 0.0) for k in keys_all] + [d["seen"], d["seen"] ** 2] for d in rows], dtype=float)
+        C = np.array([[d["b"].get(k, 0.0) for k in base_keys] + [d["seen"], d["seen"] ** 2]
+                      + ([d["t"], d["c"]] if args.phase else []) for d in rows], dtype=float)
         C = C[:, C.std(axis=0) > 1e-9]
         Z = np.hstack([Z, (C - C.mean(axis=0)) / C.std(axis=0)])
         nc = C.shape[1]
@@ -143,7 +155,7 @@ def main():
     raw = b / sd
     print(f"\nchosen lambda {lam:g}: in-sample R2 {r2:.3f}, CV R2 {1 - min(cv) / np.var(y):.3f}")
 
-    old = np.array([pol["weights"][k] for k in keys])
+    old = np.array([pol["weights"].get(k, 0.0) for k in keys])
     # The old weights in the fitted scale, for comparison (choices depend only on direction).
     scale = float(old @ raw / (old @ old)) if old @ old > 0 else 0.0
     print(f"\n{'feature':<24}{'sd':>8}{'std coef':>10}{'fitted':>10}{'old':>10}{'old*k':>10}")
