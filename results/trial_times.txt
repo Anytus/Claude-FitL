@@ -1,0 +1,27 @@
+FITL_TRIAL_TIMES=1, policy tune3-start + commit_plan, samples 1, --us-player --us-final-only, seeds 1-20
+trials: 35026 in 521 US decisions, 15.76 s in trials, 16.18 s in the whole search
+  candidate kind         trials  per decision  us each   share
+  Train+AirLift            4320           8.3      886   24.3%
+  Sweep+AirLift            1440           2.8     1453   13.3%
+  Assault+AirLift          1440           2.8      949    8.7%
+  Train+Advise             4320           8.3      312    8.5%
+  Sweep+AirStrike          1440           2.8      803    7.3%
+  Patrol+AirLift           1440           2.8      657    6.0%
+  Patrol+Advise            1440           2.8      501    4.6%
+  Sweep only                888           1.7      745    4.2%
+  Train+AirStrike          4320           8.3      149    4.1%
+  Patrol+AirStrike         1440           2.8      350    3.2%
+  Assault+AirStrike        1440           2.8      279    2.5%
+  Sweep                     552           1.1      681    2.4%
+  Patrol only               888           1.7      259    1.5%
+  Train only               2664           5.1       77    1.3%
+  Patrol                    552           1.1      354    1.2%
+  Assault only              888           1.7      190    1.1%
+  Event                     249           0.5      630    1.0%
+  Sweep LimOp               644           1.2      213    0.9%
+  Patrol LimOp              644           1.2      212    0.9%
+  Assault LimOp             644           1.2      188    0.8%
+  Assault                   552           1.1      212    0.7%
+  Train                    1656           3.2       69    0.7%
+  Pass                      521           1.0      148    0.5%
+  Train LimOp               644           1.2       83    0.3%

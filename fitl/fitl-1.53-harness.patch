@@ -853,7 +853,7 @@ index f0952bb..96a259f 100644
      log(s"\nMove the $faction cylinder to the ${actorBoxName(action)} box", Color.GameMarker)
      game = game.copy(sequence = game.sequence.addActor(faction, action))
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
-index b1dc7c3..3d40904 100644
+index b1dc7c3..a071a0e 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
 +++ b/src/main/scala/fitl/FireInTheLake.scala
 @@ -345,7 +345,7 @@ object FireInTheLake {
@@ -942,7 +942,58 @@ index b1dc7c3..3d40904 100644
  
      // Return true of this Pieces instance contains at least all of the specified pieces.
      def contains(query: Pieces): Boolean = AllPieceTypes forall (t => totalOf(t) >= query.totalOf(t))
-@@ -2189,6 +2239,7 @@ object FireInTheLake {
+@@ -1033,8 +1083,19 @@ object FireInTheLake {
+       case VCTunnel        => copy(vcTunnels       = (vcTunnels - num) max 0)
+     }
+ 
+-    def only(pieceTypes: Iterable[PieceType]): Pieces =
+-      pieceTypes.foldLeft(Pieces()) { (pieces, t) => pieces.add(totalOf(t), t) }
++    //  Harness (speed): the original added one piece type at a time, copying the
++    //  whole record for each; this sums into 18 counters and builds it once.
++    //  Same result, including for a list that names a type twice.
++    def only(pieceTypes: Iterable[PieceType]): Pieces = {
++      val n  = new Array[Int](18)
++      val it = pieceTypes.iterator
++      while (it.hasNext) {
++        val t = it.next()
++        n(Pieces.typeIndex(t)) += totalOf(t)
++      }
++      Pieces(n(0), n(1), n(2), n(3), n(4), n(5), n(6), n(7), n(8),
++             n(9), n(10), n(11), n(12), n(13), n(14), n(15), n(16), n(17))
++    }
+ 
+     def only(pieceType: PieceType): Pieces = Pieces().add(totalOf(pieceType), pieceType)
+ 
+@@ -1094,6 +1155,28 @@ object FireInTheLake {
+   }
+ 
+   object Pieces {
++    //  Harness (speed): position of each piece type in the Pieces constructor.
++    def typeIndex(t: PieceType): Int = t match {
++      case USTroops        => 0
++      case Irregulars_U    => 1
++      case Irregulars_A    => 2
++      case USBase          => 3
++      case ARVNTroops      => 4
++      case ARVNPolice      => 5
++      case Rangers_U       => 6
++      case Rangers_A       => 7
++      case ARVNBase        => 8
++      case NVATroops       => 9
++      case NVAGuerrillas_U => 10
++      case NVAGuerrillas_A => 11
++      case NVABase         => 12
++      case NVATunnel       => 13
++      case VCGuerrillas_U  => 14
++      case VCGuerrillas_A  => 15
++      case VCBase          => 16
++      case VCTunnel        => 17
++    }
++
+     def fromTypes(collection: Iterable[PieceType]) =
+       collection.foldLeft(Pieces()) { (pieces, t) => pieces.add(1, t) }
+   }
+@@ -2189,6 +2272,7 @@ object FireInTheLake {
      botIntents: BotIntents            = BotIntentsVerbose,
      history: Vector[GameSegment]      = Vector.empty,
      showColor: Boolean                = !scala.util.Properties.isWin, // Default true except on Windows
@@ -950,7 +1001,7 @@ index b1dc7c3..3d40904 100644
      log: Vector[LogEntry]               = Vector.empty) {  // Log of the cuurent game segment
  
  
-@@ -2245,7 +2296,7 @@ object FireInTheLake {
+@@ -2245,7 +2329,7 @@ object FireInTheLake {
  
      def trackResources(faction: Faction) = faction match {
        case US    => throw new IllegalArgumentException("trackResources() does not accept US faction as argument")
@@ -959,7 +1010,7 @@ index b1dc7c3..3d40904 100644
        case other => isHuman(other)
      }
  
-@@ -2320,7 +2371,11 @@ object FireInTheLake {
+@@ -2320,7 +2404,11 @@ object FireInTheLake {
  
      def hasSpace(test: (Space) => Boolean) = spaces exists test
      def getSpaces(test: (Space) => Boolean): List[Space] = spaces filter test
@@ -972,7 +1023,7 @@ index b1dc7c3..3d40904 100644
      def withSpace[T](name: String)(fn: (Space) => T): T = fn(getSpace(name))
      def updateSpace(changed: Space): GameState =
        this.copy(spaces = changed :: (spaces filterNot (_.name == changed.name)))
-@@ -2328,6 +2383,18 @@ object FireInTheLake {
+@@ -2328,6 +2416,18 @@ object FireInTheLake {
  
    var game: GameState = _           // Global variable that holds the current game state.
  
@@ -991,7 +1042,7 @@ index b1dc7c3..3d40904 100644
    def autoVictory(faction: Faction): Boolean = (game.isBot(faction) || game.humanWinInVictoryPhase) &&
      (faction match {
        case US   => game.usScore   > 0
-@@ -3157,6 +3224,11 @@ object FireInTheLake {
+@@ -3157,6 +3257,11 @@ object FireInTheLake {
    // Prompt the user for one or two cards if necessary.
    // Then update the game state with the new card numbers.
    def drawNextCard(): Unit = {
@@ -1003,7 +1054,7 @@ index b1dc7c3..3d40904 100644
      if (game.numCardsDrawn == 0) {
        println("\nDraw event cards")
        println(separator())
-@@ -3269,6 +3341,7 @@ object FireInTheLake {
+@@ -3269,6 +3374,7 @@ object FireInTheLake {
        // can set an option to allow human players to win during a Coup Round.
        val winner = game.scores
          .filter(entry => entry.score > 0 && (game.isBot(entry.faction) || game.humanWinInVictoryPhase))
@@ -1011,7 +1062,7 @@ index b1dc7c3..3d40904 100644
          .headOption
  
        winner match {
-@@ -4096,6 +4169,16 @@ object FireInTheLake {
+@@ -4096,6 +4202,16 @@ object FireInTheLake {
  
  
    @tailrec def mainLoop(): Unit = {
@@ -1028,7 +1079,7 @@ index b1dc7c3..3d40904 100644
      // Does any faction wish to play their pivotal event?
      // Will alwasy return None if Coup round or Coup card on deck
      // or any faction has already acted.
-@@ -4139,19 +4222,20 @@ object FireInTheLake {
+@@ -4139,19 +4255,20 @@ object FireInTheLake {
              endgameCommand() // Does not return, throws ExitGame or Rollback
            }
            else {
@@ -1055,7 +1106,7 @@ index b1dc7c3..3d40904 100644
  
            // Now create a save point to capture the action
            saveGameState()
-@@ -5112,7 +5196,9 @@ object FireInTheLake {
+@@ -5112,7 +5229,9 @@ object FireInTheLake {
  
    private var loggingPointsChangesActive = false
    def loggingPointsChanges[T](code: => T): T = {
@@ -1066,7 +1117,7 @@ index b1dc7c3..3d40904 100644
        code
      else {
        loggingPointsChangesActive = true
-@@ -5136,7 +5222,8 @@ object FireInTheLake {
+@@ -5136,7 +5255,8 @@ object FireInTheLake {
    private var loggingControlChangesActive = false
  
    def loggingControlChanges[T](code: => T): T = {
@@ -1102,10 +1153,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..96f096f
+index 0000000..6cb3896
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,415 @@
+@@ -0,0 +1,439 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -1440,7 +1491,28 @@ index 0000000..96f096f
 +      search(cfg, card)
 +  }
 +
++  //  FITL_TRIAL_TIMES=1: time every trial, grouped by the kind of candidate
++  //  (Operation, Special Activity, Op only / LimOp; focus and Train cap are
++  //  folded in), and the whole search per decision. Printed at exit.
++  object TrialTimes {
++    val on = sys.env.contains("FITL_TRIAL_TIMES")
++    val n  = scala.collection.mutable.Map.empty[String, Long].withDefaultValue(0L)
++    val ns = scala.collection.mutable.Map.empty[String, Long].withDefaultValue(0L)
++    var decisions = 0L
++    var searchNs  = 0L
++    def kind(name: String) = name.split(" @").head.replaceAll("""\[arvn<=\d\]""", "")
++    def add(name: String, t: Long): Unit = { val k = kind(name); n(k) += 1; ns(k) += t }
++    if (on) Runtime.getRuntime.addShutdownHook(new Thread(() => {
++      val total = ns.values.sum
++      System.err.println(f"trials: ${n.values.sum}%d in $decisions%d US decisions, ${total / 1e9}%.2f s in trials, ${searchNs / 1e9}%.2f s in the whole search")
++      System.err.println(f"  ${"candidate kind"}%-20s ${"trials"}%8s ${"per decision"}%13s ${"us each"}%8s ${"share"}%7s")
++      for (k <- ns.keys.toList.sortBy(k => -ns(k)))
++        System.err.println(f"  $k%-20s ${n(k)}%8d ${n(k).toDouble / decisions}%13.1f ${ns(k) / 1e3 / n(k)}%8.0f ${100.0 * ns(k) / total}%6.1f%%")
++    }))
++  }
++
 +  def search(cfg: Config, card: EventCard): Action = {
++    val searchT0 = if (TrialTimes.on) System.nanoTime else 0L
 +    val base  = Random.nextLong()
 +    val saved = game
 +    if (Debug)
@@ -1461,6 +1533,7 @@ index 0000000..96f096f
 +    def stopPlan(): Unit = { planRecord = None; planReplay = Nil; planReplaying = false }
 +    val trials = cands flatMap { c =>
 +      val runs = (1 to cfg.samples) flatMap { k =>
++        val t0 = if (TrialTimes.on) System.nanoTime else 0L
 +        Random.setSeed(base + 7919L * k)
 +        deadline = System.nanoTime + cfg.trialMillis * 1000000L
 +        if (replayLog.nonEmpty && k == 1) pickLog = Some(new scala.collection.mutable.ListBuffer[String])
@@ -1478,6 +1551,7 @@ index 0000000..96f096f
 +          pickLog = None
 +          if (cfg.commitPlan && k == 1) plans(c.name) = record.toList
 +          stopPlan()
++          if (TrialTimes.on) TrialTimes.add(c.name, System.nanoTime - t0)
 +        }
 +      }
 +      if (runs.isEmpty) None else Some((c, runs.map(_._1).sum / runs.size, runs.head._2))
@@ -1491,6 +1565,7 @@ index 0000000..96f096f
 +                s""""chosen":"${best.name}","before":${jsonMap(features(game, cfg.hingeBuffer))},"cands":${cs.mkString("[", ",", "]")}}""")
 +      w.flush()
 +    }
++    if (TrialTimes.on) { TrialTimes.decisions += 1; TrialTimes.searchNs += System.nanoTime - searchT0 }
 +    lastChoice = f"${best.name} $bestValue%.2f ${scored.size}"
 +    log(f"\nUS policy chooses: ${best.name} (value $bestValue%.2f, best of ${scored.size} candidates)")
 +
