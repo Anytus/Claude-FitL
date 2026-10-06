@@ -132,3 +132,18 @@ reportable cases; the Bot and card are not yet identified.
 - "Cannot place more than 2 bases in Quang Tin-Quang Ngai": seeds 197, 686,
   746, 757. Two Base placements in one space are probably the same bug.
 - "Insufficent pieces in the available box": seeds 229, 261, 789, 947, 969.
+
+## 5. Card #9 shaded with a human US can ask for more Troops than a space holds — pending
+
+**Status.** Pending. Found by `fitl.USPlayer` (`--us-human`).
+
+**Behaviour.** When a Bot executes the shaded side of #9 (Psychedelic
+Cookie) and the US is human, the program asks `Remove troops from which
+space` and then `Remove how many troops from <space> (0 - n)`, where n is the
+number still to remove, not the number of US Troops in that space. An answer
+above the space's Troops stops the game with `AssertionError: removeToOutOfPlay()
+<space> does not contain all requested pieces` (Card_009.executeShaded,
+FireInTheLake.removeToOutOfPlay). A person typing too high a number would hit
+it too. Seeds 20, 22, 33, 34, 114, 115, 144, 157 and 198 with `--us-human
+--us-policy policies/fit3flat.json` while the default answer was the largest
+number; USPlayer now answers 1 there.

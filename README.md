@@ -384,6 +384,28 @@ US lead (se 0.6), with the immediate score the same; the comparison, the
 LLM's own strategy notes and what a non-Tru'ng US bot needs are in
 `results/llm_vs_bot.md`.
 
+### The US as a player, prompts answered by search (`--us-human`)
+
+`botrun.py --us-human --us-policy P.json` makes the US a human player and
+`fitl.USPlayer` answers every prompt of the program's human-player code
+(`FireInTheLake.decider`, a hook in askMenu/askOneOf/askYorN): the action, the
+Operation, every space, piece count, Pacify level, Patronage transfer, Advise
+mode, and the Coup-round Pacify and Commitment. The program offers only legal
+options and carries the choices out. A turn is re-run from its start with a
+prefix of answers; each option is followed until the turn comes back to the
+menu it came from (or ends) and scored there with the policy's weights; a
+stop option is scored as the board stands. Budget 1500 runs a turn, 400 a
+Coup round (`FITL_PLAYER_RUNS`, `FITL_PLAYER_COUP_RUNS`), about 0.3 s a
+decision. `FITL_PLAYER_STATS=1` and `FITL_PLAYER_DEBUG=1` show what it does;
+`FITL_PLAYER_TRUNG_COUP=1` leaves the Coup rounds to the Tru'ng US.
+
+First results (`results/us_player_v1.txt`): the US margin rises by 7 points
+over the search bot, but US wins fall to 2% because the bots cross their
+lines early (9% of games reach the final Coup). Two causes found: the Coup
+search withdraws Troops to Available for the immediate points, and a
+Special Activity done before its Operation (Air Lift, then Assault) is scored
+before the Operation happens, so the search almost never Assaults.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

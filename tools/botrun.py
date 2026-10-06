@@ -24,6 +24,9 @@ is appended to --out.
                  ARVN Resources are tracked (the US spends only what is above
                  Econ) and the VC Bot's priorities against a human US apply.
 --track-arvn / --vc-sees-player   one of those two parts alone.
+--us-human       the US is played through the program's human-player code,
+                 every prompt answered by search (fitl.USPlayer), with the
+                 --us-policy weights.
 --via-main       validation: play each game through the program's own
                  interactive main loop (saves written to a scratch directory)
                  instead of the Autoplay loop. Same seeds give the same games.
@@ -65,7 +68,7 @@ def run_range(first, count, args, out_lock, out_f, progress):
             cmd.append("--via-main")
         if args.trace:
             cmd.append("--trace")
-        for flag in ("us_player", "track_arvn", "vc_sees_player"):
+        for flag in ("us_player", "track_arvn", "vc_sees_player", "us_human"):
             if getattr(args, flag):
                 cmd.append("--" + flag.replace("_", "-"))
         if args.us_policy:
@@ -166,6 +169,9 @@ def main():
     p.add_argument("--us-player", action="store_true")
     p.add_argument("--track-arvn", action="store_true")
     p.add_argument("--vc-sees-player", action="store_true")
+    p.add_argument("--us-human", action="store_true",
+                   help="the US is a human player whose prompts fitl.USPlayer answers by search "
+                        "(with --us-policy for the weights; the Bots then treat it as a player)")
     p.add_argument("--out", default=os.path.join(ROOT, "results", "botrun.jsonl"))
     p.add_argument("--summary", metavar="JSONL")
     args = p.parse_args()

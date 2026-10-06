@@ -127,10 +127,10 @@ index 0000000..d5c5205
 +}
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..fec4b00
+index 0000000..088f301
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,277 @@
+@@ -0,0 +1,286 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -237,6 +237,9 @@ index 0000000..fec4b00
 +  val ChooseRx = raw"(?m)^(US|ARVN|NVA|VC) chooses (.+?) (operation|special activity)".r
 +  val EventRx  = raw"(?m)^(US|ARVN|NVA|VC) executes the (Unshaded|Shaded) Event".r
 +
++  //  --us-human: the US is a human player whose prompts USPlayer answers.
++  var usHuman = false
++
 +  def runGame(seed: Long, usFinalOnly: Boolean, trace: Boolean = false): String = {
 +    Random.setSeed(seed)
 +    USPolicy.gameSeed = seed; USPolicy.decisions = 0
@@ -259,7 +262,8 @@ index 0000000..fec4b00
 +          noEarlyWin = if (usFinalOnly) Set(US) else Set.empty
 +          gameName = None
 +          val scenario = scenarios("Full: 1964-1972")
-+          game = initialGameState(scenario, Set.empty, false, false)
++          game = initialGameState(scenario, if (usHuman) Set(US) else Set.empty, false, false)
++          decider = if (usHuman) Some(USPlayer.Default) else None
 +          scenario.additionalSetup()
 +          if (game.isBot(VC))
 +            initAgitateTotal()
@@ -287,7 +291,7 @@ index 0000000..fec4b00
 +                .filter(e => e.score > 0)
 +                .filterNot(e => noEarlyWin(e.faction))
 +                .headOption
-+              resolveCoupCard()
++              if (usHuman) USPlayer.coup() else resolveCoupCard()
 +              coups += s"""{"coup":$coupNum,"card":${game.currentCard},"victory_check":${scoreJson(before)}""" +
 +                (if (trace) s""","at":${compsJson(c0, false)},"d":${deltaJson(c0, comps(game))}""" else "") + "}"
 +              if (game.gameOver) {
@@ -305,19 +309,19 @@ index 0000000..fec4b00
 +                  val seq0 = game.sequence
 +                  val card = game.currentCard
 +                  tail.rec.setLength(0); tail.recording = true
-+                  try Bot.act() finally tail.recording = false
++                  try { if (usHuman && f == US) USPlayer.act() else Bot.act() } finally tail.recording = false
 +                  val text = tail.rec.toString
 +                  val act = if (game.sequence.numActors > seq0.numActors) game.sequence.actors.last.action.toString
 +                            else if (game.sequence.passed(f) && !seq0.passed(f)) "Pass" else "?"
 +                  val ops = ChooseRx.findAllMatchIn(text).filter(_.group(1) == f.toString).map(m => "\"" + m.group(2) + "\"").mkString(",")
 +                  val ev = EventRx.findFirstMatchIn(text).filter(_.group(1) == f.toString).map(_.group(2))
 +                    .getOrElse(if (text.contains("executes its Pivotal Event")) "Pivotal" else "")
-+                  val pol = if (f == US && USPolicy.enabled) s""","pol":"${USPolicy.lastChoice}"""" else ""
++                  val pol = if (f == US && USPolicy.enabled) s""","pol":"${USPolicy.lastChoice.replace("\\", "/").replace("\"", "'")}"""" else ""
 +                  actions += s"""{"c":$card,"f":"$f","a":"$act","ev":"$ev","ops":[$ops],"d":${deltaJson(c0, comps(game))}$pol}"""
 +                  if (game.sequence.exhausted)
 +                    game = game.copy(needsCardDraw = true)
-+                case Some(_) =>
-+                  Bot.act()
++                case Some(f) =>
++                  if (usHuman && f == US) USPlayer.act() else Bot.act()
 +                  if (game.sequence.exhausted)
 +                    game = game.copy(needsCardDraw = true)
 +              }
@@ -326,8 +330,11 @@ index 0000000..fec4b00
 +        }
 +        catch {
 +          case UnexpectedPrompt(p) => error = "prompt: " + p.replace("\n", " ").takeRight(160)
-+          case e: Throwable        => error = e.getClass.getSimpleName + ": " + String.valueOf(e.getMessage).take(160)
++          case e: Throwable        =>
++            error = e.getClass.getSimpleName + ": " + String.valueOf(e.getMessage).take(160)
++            if (sys.env.contains("FITL_STACK")) e.printStackTrace(System.err)
 +        }
++        finally decider = None
 +      }
 +    }
 +
@@ -383,6 +390,8 @@ index 0000000..fec4b00
 +    //  --us-player: both parts. --track-arvn / --vc-sees-player: one part each.
 +    usIsPlayer  = args.contains("--us-player") || args.contains("--vc-sees-player")
 +    arvnTracked = args.contains("--us-player") || args.contains("--track-arvn")
++    usHuman = args.contains("--us-human")
++    if (usHuman) { usIsPlayer = true; arvnTracked = true }
 +    val policy = arg("--us-policy", "")
 +    if (policy.nonEmpty)
 +      USPolicy.load(policy)
@@ -1378,7 +1387,7 @@ index 0000000..f6d8e50
 +  }
 +}
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
-index b1dc7c3..a994588 100644
+index b1dc7c3..f0e645f 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
 +++ b/src/main/scala/fitl/FireInTheLake.scala
 @@ -345,7 +345,7 @@ object FireInTheLake {
@@ -1673,6 +1682,65 @@ index b1dc7c3..a994588 100644
        }
    }
  
+@@ -5591,11 +5713,26 @@ object FireInTheLake {
+     }
+   }
+ 
++  //  Harness (USPlayer): when set, a program answers the prompts in place of
++  //  the human player. `choose` gets the prompt and the option labels (only
++  //  the legal ones; never "abort") and returns the index of its choice.
++  trait Decider { def choose(prompt: String, options: IndexedSeq[String]): Int }
++  var decider: Option[Decider] = None
++  val NoneOption = "(none)"   // the empty answer, where a prompt allows one
++
+   def askOneOf(prompt: String,
+                options: Seq[Any],
+                initial: Option[String] = None,
+                allowNone: Boolean = false,
+                allowAbort: Boolean = true): Option[String] = {
++    decider foreach { d =>
++      val given = initial flatMap (s => matchOne(s.trim, options map (_.toString)))
++      if (given.nonEmpty)
++        return given
++      val labels = options.map(_.toString).toIndexedSeq ++ (if (allowNone) List(NoneOption) else Nil)
++      val i = d.choose(prompt, labels)
++      return if (labels(i) == NoneOption) None else Some(labels(i))
++    }
+     val AbortActionString = "abort"
+     val choices = if (allowAbort) options ++ List(AbortActionString) else options
+ 
+@@ -5616,6 +5753,7 @@ object FireInTheLake {
+   }
+ 
+   def askYorN(prompt: String): Boolean = {
++    decider foreach { d => return d.choose(prompt, Vector("y", "n")) == 0 }
+     def testResponse(r: String): Option[Boolean] = {
+       if (r == null)
+         None
+@@ -5687,6 +5825,11 @@ object FireInTheLake {
+         Nil
+       else if (itemsRemaining.size == 1)
+         itemsRemaining.keys.head :: Nil
++      else if (decider.nonEmpty) {
++        val keys = itemsRemaining.keys.toIndexedSeq
++        val key  = keys(decider.get.choose(menuPrompt, keys.map(itemsRemaining(_))))
++        key :: nextChoice(num + 1, if (repeatsOK) itemsRemaining else itemsRemaining - key)
++      }
+       else {
+         val width = itemsRemaining.size.toString.size
+         println(menuPrompt)
+@@ -5729,6 +5872,11 @@ object FireInTheLake {
+         Nil
+       else if (itemsRemaining.size == 1)
+         itemsRemaining.keys.head :: Nil
++      else if (decider.nonEmpty) {
++        val keys = itemsRemaining.keys.toIndexedSeq
++        val key  = keys(decider.get.choose(menuPrompt, keys.map(itemsRemaining(_)._1)))
++        key :: nextChoice(num + 1, if (repeatsOK) itemsRemaining else itemsRemaining - key)
++      }
+       else {
+         val width = itemsRemaining.size.toString.size
+         println(menuPrompt)
 diff --git a/src/main/scala/fitl/Prof.scala b/src/main/scala/fitl/Prof.scala
 new file mode 100644
 index 0000000..6e68e39
@@ -1721,12 +1789,329 @@ index 8fd9366..a1752b9 100644
      )
    }
  
+diff --git a/src/main/scala/fitl/USPlayer.scala b/src/main/scala/fitl/USPlayer.scala
+new file mode 100644
+index 0000000..21359a0
+--- /dev/null
++++ b/src/main/scala/fitl/USPlayer.scala
+@@ -0,0 +1,311 @@
++//  USPlayer: the US played through the program's human-player code, every
++//  prompt answered by search instead of by a person. Part of the Claude-FitL
++//  harness; not in the upstream program.
++//
++//  A US turn (Human.act) or a Coup round (resolveCoupCard) is a sequence of
++//  questions: the program offers only legal options and carries the choices
++//  out with all its rules. The game state is an immutable value, so the turn
++//  can be re-run from its start as often as needed: a trial replays a prefix
++//  of answers (option labels) and stops at the next unanswered question,
++//  where the global `game` shows everything done so far.
++//
++//  Search, at each question: try every option. A "stop" option (Finished,
++//  Do not, None of the above) is worth the board as it is now. Any other
++//  option is followed, answering the questions after it the same way, until
++//  the turn comes back to a question already being decided (the loop menu
++//  it came from) or ends; the board at that point is its value. The best
++//  option is kept and the search goes on from there. So a loop like "select
++//  another Train space" adds spaces while they raise the score, and a menu
++//  that is never asked again (the action menu, Choose operation) has each
++//  option played to the end of the turn. The score is USPolicy.value with
++//  the policy file's weights.
++//
++//  Trials use their own dice (one stream for the whole search, common to all
++//  options). The real turn replays the chosen answers on the real dice; if
++//  the real dice change a menu, the search resumes from that point on the
++//  real dice.
++
++package fitl
++
++import java.io.{OutputStream, PrintStream}
++import scala.collection.mutable
++import scala.util.Random
++import FireInTheLake._
++
++object USPlayer {
++  case class Q(prompt: String, options: IndexedSeq[String])
++
++  //  A trial stops at the first question its answers do not cover.
++  //  `used`: answers consumed before it.
++  final case class NeedAnswer(q: Q, at: GameState, used: Int) extends Throwable(null, null, false, false)
++  final case class Stuck() extends Throwable(null, null, false, false)
++
++  sealed trait Outcome
++  case class Pending(q: Q, at: GameState, used: Int) extends Outcome
++  case class Done(at: GameState) extends Outcome
++  case object Failed extends Outcome
++
++  val MaxQuestions = 400          // per run; a prompt that re-asks forever is cut off
++  var maxRuns      = sys.env.get("FITL_PLAYER_RUNS").map(_.toInt).getOrElse(1500)      // per turn
++  var maxCoupRuns  = sys.env.get("FITL_PLAYER_COUP_RUNS").map(_.toInt).getOrElse(400)  // per Coup round
++  val ManyOptions  = 6            // above this, options are screened with one quick run each
++  val Keep         = 4            // and only the best ones searched
++
++  //  Statistics, printed at exit with FITL_PLAYER_STATS=1.
++  object Stats {
++    val on = sys.env.contains("FITL_PLAYER_STATS")
++    var decisions = 0L; var runs = 0L; var questions = 0L; var nanos = 0L; var budgetHit = 0L
++    var defaults = 0L; var resumed = 0L
++    if (on) Runtime.getRuntime.addShutdownHook(new Thread(() => {
++      System.err.println(f"USPlayer: $decisions decisions, ${runs.toDouble / (decisions max 1)}%.0f runs and " +
++        f"${nanos / 1e6 / (decisions max 1)}%.1f ms each (${nanos.toDouble / (runs max 1) / 1e3}%.1f us a run), " +
++        f"$resumed resumed on real dice, $defaults default answers outside a turn")
++    }))
++  }
++
++  val Debug = sys.env.contains("FITL_PLAYER_DEBUG")
++  val sink = new PrintStream(new OutputStream { def write(b: Int): Unit = () })
++
++  def isStop(label: String): Boolean = {
++    val l = label.toLowerCase
++    l.startsWith("finished") || l.startsWith("do not") || l.startsWith("none of the above") ||
++    l == NoneOption || l.startsWith("done")
++  }
++  //  Questions that are not the US player's to decide, with their fixed answer:
++  //  after a Victory check finds a winner, the game ends (as in Autoplay).
++  def fixed(q: Q): Option[Int] =
++    if (q.prompt.contains("continue playing this game")) Some(q.options.indexOf("n")) else None
++
++  def isInt(label: String) = label.nonEmpty && label.forall(_.isDigit)
++  def sameQuestion(a: Q, b: Q) = a.prompt == b.prompt && a.options.exists(b.options.contains)
++
++  //  A default answer: stop if possible, else the largest number, else "y", else the first.
++  def default(q: Q): Int = {
++    val stop = q.options.indexWhere(isStop)
++    if (stop >= 0) stop
++    else if (q.options.forall(isInt)) q.options.indices.maxBy(i => q.options(i).toInt)
++    else 0
++  }
++  //  The quick continuation used to screen options: the first non-stop option.
++  def eager(q: Q): Int = {
++    if (q.options.forall(isInt)) q.options.indices.maxBy(i => q.options(i).toInt)
++    else { val i = q.options.indexWhere(o => !isStop(o)); if (i >= 0) i else 0 }
++  }
++
++  //  Answers with `answers` (labels), then with `cont` if given, else stops.
++  //  A question like one in `stopAt` also stops a continuation. `path`
++  //  records every answer given.
++  class Replay(answers: IndexedSeq[String], stopAt: List[Q], cont: Option[Q => Int]) extends Decider {
++    var used = 0
++    var asked = 0
++    val path = mutable.ArrayBuffer.empty[String]
++    def choose(prompt: String, options: IndexedSeq[String]): Int = {
++      asked += 1
++      if (asked > MaxQuestions) throw Stuck()
++      val q = Q(prompt, options)
++      fixed(q) foreach { return _ }
++      if (used < answers.size) {
++        val k = options.indexOf(answers(used))
++        if (k >= 0) { used += 1; path += options(k); return k }
++        if (cont.isEmpty) throw NeedAnswer(q, game, used)   // the menu changed (different dice)
++        used = answers.size
++      }
++      cont match {
++        case Some(f) if !stopAt.exists(sameQuestion(_, q)) => val k = f(q); path += options(k); k
++        case _ => throw NeedAnswer(q, game, path.size)
++      }
++    }
++  }
++
++  //  One decision: a turn or a Coup round, from `start`.
++  class Search(start: GameState, entry: () => Unit, cfg: USPolicy.Config, card: EventCard, seed: Long, budget: Int,
++               explore: Boolean) {
++    var runs = 0
++    //  explore: the first question's answer is chosen at random (its options are still searched).
++    var explored = false
++    val memo = mutable.HashMap.empty[(Vector[String], Long), Outcome]
++    private var gameAfter: GameState = null      // testOutcome restores `game`; the finished board is kept here
++    private val wrapped = () => { entry(); gameAfter = game }
++
++    //  Returns the outcome and the answers given (with a continuation, more than `answers`).
++    def run(answers: Vector[String], s: Long, stopAt: List[Q] = Nil, cont: Option[Q => Int] = None): (Outcome, Vector[String]) = {
++      val key = (answers, s)
++      if (cont.isEmpty) memo.get(key) foreach { o => return (o, o match {
++        case Pending(_, _, used) => answers.take(used)
++        case _                   => answers
++      }) }
++      runs += 1
++      val d = new Replay(answers, stopAt, cont)
++      val saved = decider
++      val result = try {
++        Random.setSeed(s)
++        game = start
++        decider = Some(d)
++        Bot.testOutcome { Console.withOut(sink) { wrapped() } }
++        Done(gameAfter)
++      }
++      catch {
++        case NeedAnswer(q, at, used) => Pending(q, at, used)
++        case _: Throwable            => Failed
++      }
++      finally { decider = saved; game = start }
++      if (cont.isEmpty) memo(key) = result
++      (result, d.path.toVector)
++    }
++
++    def value(o: Outcome): Double = o match {
++      case Failed           => Double.NegativeInfinity
++      case Pending(_, g, _) => game = g; try USPolicy.value(cfg, g, Map.empty) finally game = start
++      case Done(g)          =>
++        game = g
++        try {
++          val extra = actionOf(start, g) map (a => USPolicy.extras(a, card)) getOrElse Map.empty
++          USPolicy.value(cfg, g, extra)
++        }
++        finally game = start
++    }
++
++    //  Answer questions from `p0` until one in `stack` comes back or the run
++    //  ends. Past `limit` runs, the rest is answered by default in one run.
++    def solve(p0: Vector[String], stack: List[Q], s: Long, limit: Int): (Vector[String], Outcome) = {
++      var p = p0
++      var last: Option[Pending] = None
++      val rejected = mutable.Set.empty[(String, String)]   // (prompt, answer) the program asked again after
++      while (true) {
++        if (runs >= limit) {
++          val (o, path) = run(p, s, stack, Some(default _))
++          return (path, o)
++        }
++        run(p, s)._1 match {
++          case o @ (Done(_) | Failed) => return (p, o)
++          case pend @ Pending(q, at, used) =>
++            if (used < p.size) p = p.take(used)                        // the menu changed under these dice
++            if (stack.exists(sameQuestion(_, q))) {
++              if (Debug && p.size <= 3) System.err.println(s"    back at [${q.prompt.trim.take(50)}] ${q.options.take(5).mkString(" | ")} after ${p.mkString(" / ")}")
++              return (p, pend)
++            }
++            //  Asked again with nothing changed: the previous answer was not accepted.
++            last foreach { l =>
++              if (l.q == q && l.at == at && p.nonEmpty) rejected += ((q.prompt, p.last))
++            }
++            last = Some(pend)
++            val allowed = q.options.indices.filterNot(i => rejected((q.prompt, q.options(i))))
++            if (allowed.isEmpty) return (p, Failed)
++            p = choose(p, q, allowed.toList, pend, stack, s, limit)
++        }
++      }
++      throw new IllegalStateException("unreachable")
++    }
++
++    def choose(p: Vector[String], q: Q, opts0: List[Int], here: Pending, stack: List[Q], s: Long, limit: Int): Vector[String] = {
++      //  Numbers: the smallest, the largest and the middle.
++      val opts1 = if (opts0.size > 3 && opts0.forall(i => isInt(q.options(i)))) {
++        val vals = opts0.sortBy(i => q.options(i).toInt)
++        List(vals.head, vals(vals.size / 2), vals.last).distinct
++      } else opts0
++      //  Many options: one quick run each, keep the best few (and any stop).
++      val opts = if (opts1.size > ManyOptions && runs + opts1.size < limit) {
++        val quick = opts1.filterNot(i => isStop(q.options(i))) map { i =>
++          i -> value(run(p :+ q.options(i), s, q :: stack, Some(eager _))._1)
++        }
++        quick.sortBy(-_._2).take(Keep).map(_._1) ++ opts1.filter(i => isStop(q.options(i)))
++      } else opts1
++      val fallback = opts.find(i => isStop(q.options(i))).getOrElse(opts.head)
++      var best = (Double.NegativeInfinity, p :+ q.options(fallback))
++      val tried = mutable.ArrayBuffer.empty[Vector[String]]
++      val deep = opts.filterNot(i => isStop(q.options(i)))
++      for (i <- opts) {
++        val label = q.options(i)
++        val (v, path) =
++          if (isStop(label)) (value(here), p :+ label)
++          else {
++            //  Each option gets an equal share of the runs left.
++            val k = deep.indexOf(i)
++            val share = ((limit - runs) max 0) / (deep.size - k)
++            val (pp, out) = solve(p :+ label, q :: stack, s, runs + share)
++            (value(out), pp)
++          }
++        if (Debug && stack.size <= 1)
++          System.err.println(f"${"  " * stack.size}[${q.prompt.trim.take(40)}] $label%-40s $v%8.3f  runs $runs  plan ${path.drop(p.size).take(8).mkString(" / ")}")
++        if (v > best._1) best = (v, path)
++        if (explore && stack.isEmpty) tried += path
++      }
++      if (explore && stack.isEmpty && tried.nonEmpty) {
++        explored = true
++        return tried(new Random(seed ^ 0x5DEECE66DL).nextInt(tried.size))
++      }
++      best._2
++    }
++
++    //  The turn: plan on the trial dice, then make the plan work on the real
++    //  dice (resuming the search where a menu differs), then play it for real.
++    def decide(): Vector[String] = {
++      val (plan, _) = solve(Vector.empty, Nil, seed ^ 0x2545F4914F6CDD1DL, budget)
++      var p = plan
++      var guard = 0
++      var real = run(p, seed)._1
++      while (!real.isInstanceOf[Done] && real != Failed && guard < 20) {
++        guard += 1
++        Stats.resumed += 1
++        p = solve(p, Nil, seed, runs + budget / 4)._1
++        real = run(p, seed)._1
++      }
++      p
++    }
++  }
++
++  //  The action the US took, from the sequence of play before and after.
++  def actionOf(before: GameState, after: GameState): Option[Action] =
++    if (after.sequence.passed(US) && !before.sequence.passed(US)) Some(Pass)
++    else if (after.sequence.numActors > before.sequence.numActors) Some(after.sequence.actors.last.action)
++    else None
++
++  //  Questions outside a turn or Coup round (a pivotal event offer, a Bot's
++  //  Event asking the US): the default answer.
++  object Default extends Decider {
++    def choose(prompt: String, options: IndexedSeq[String]): Int = {
++      fixed(Q(prompt, options)) foreach { return _ }
++      Stats.defaults += 1
++      //  Numbers: 1 where possible. Some prompts offer more than the space
++      //  holds (card #9 shaded, human US), and 1 always makes progress.
++      if (options == Vector("y", "n")) 1
++      else if (options.forall(isInt) && options.contains("1")) options.indexOf("1")
++      else default(Q(prompt, options))
++    }
++  }
++
++  //  Run `entry` (a US turn or a Coup round) with every question answered by search.
++  def play(entry: () => Unit, card: EventCard, turn: Boolean): Unit = {
++    val cfg   = USPolicy.config.get
++    val start = game
++    val seed  = Random.nextLong()
++    val t0    = System.nanoTime
++    val before = if (turn) USPolicy.features(start, cfg.hingeBuffer) else Map.empty[String, Double]   // game == start here
++    val explore = turn && cfg.explore > 0 && new Random(seed ^ 0x9E3779B97F4A7C15L).nextDouble() < cfg.explore
++    val search = new Search(start, entry, cfg, card, seed, if (turn) maxRuns else maxCoupRuns, explore)
++    val plan  = search.decide()
++    Stats.decisions += 1; Stats.runs += search.runs; Stats.nanos += System.nanoTime - t0
++    USPolicy.lastChoice = plan.take(6).mkString(" / ")
++    //  The real run: the same answers on the same dice, logged.
++    Random.setSeed(seed)
++    game = start
++    val saved = decider
++    decider = Some(new Replay(plan, Nil, Some(default _)))
++    try entry() finally decider = saved
++    if (turn)
++      USPolicy.logFit(cfg, before, plan.take(3).mkString(" / "), search.explored,
++                      actionOf(start, game), card)
++  }
++
++  def act(): Unit = play(() => Human.act(), eventDeck(game.currentCard), turn = true)
++  //  FITL_PLAYER_TRUNG_COUP=1: the US Bot's own Coup-round routines decide
++  //  (the US is not human while the Coup round runs).
++  val TrungCoup = sys.env.contains("FITL_PLAYER_TRUNG_COUP")
++
++  def coup(): Unit =
++    if (TrungCoup) {
++      game = game.copy(humanFactions = game.humanFactions - US)
++      try resolveCoupCard() finally game = game.copy(humanFactions = game.humanFactions + US)
++    }
++    else play(() => resolveCoupCard(), eventDeck(game.currentCard), turn = false)
++}
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..6406bb2
+index 0000000..4e67a25
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,506 @@
+@@ -0,0 +1,520 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2127,6 +2512,20 @@ index 0000000..6406bb2
 +      System.err.println(s"work per trial: ${xs.size} trials, mean ${if (xs.isEmpty) 0 else xs.sum / xs.size}, " +
 +        s"p50 ${q(0.5)}, p99 ${q(0.99)}, p99.9 ${q(0.999)}, p99.99 ${q(0.9999)}, largest finished $maxDone, cut off $cut")
 +    }))
++  }
++
++  //  The fit log line for one decision (also used by USPlayer).
++  def logFit(cfg: Config, before: Map[String, Double], chosen: String, explored: Boolean, done: Option[Action],
++             card: EventCard): Unit = {
++    decisions += 1
++    fitLog foreach { w =>
++      val (t, c) = phase(game)
++      w.println(s"""{"seed":$gameSeed,"i":$decisions,"card":${game.currentCard},"seen":${game.cardsSeen.size},""" +
++                f""""t":$t%.4f,"c":$c%.4f,""" +
++                s""""chosen":${jstr(chosen)},"explored":$explored,"done":${jstr(done.map(_.toString).getOrElse("None"))},""" +
++                s""""b":${jsonMap(before)},"f":${jsonMap(features(game, cfg.hingeBuffer) ++ done.map(extras(_, card)).getOrElse(Map.empty))}}""")
++      w.flush()
++    }
 +  }
 +
 +  def search(cfg: Config, card: EventCard): Action = {
