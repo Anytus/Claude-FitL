@@ -1,0 +1,60 @@
+{"seed":1,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-13,"NVA":-11,"US":-1,"VC":-8},"error":""}
+{"seed":1,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-7,"US":-13,"VC":3},"error":""}
+{"seed":2,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-13,"NVA":-6,"US":7,"VC":-2},"error":""}
+{"seed":2,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-15,"NVA":-4,"US":3,"VC":-2},"error":""}
+{"seed":3,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-16,"NVA":3,"US":6,"VC":-12},"error":""}
+{"seed":3,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-13,"NVA":-2,"US":9,"VC":-4},"error":""}
+{"seed":4,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-12,"NVA":-8,"US":-4,"VC":-8},"error":""}
+{"seed":4,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-11,"NVA":11,"US":-9,"VC":-2},"error":""}
+{"seed":5,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-21,"NVA":-7,"US":-3,"VC":-6},"error":""}
+{"seed":5,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-12,"NVA":-7,"US":-22,"VC":1},"error":""}
+{"seed":6,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-15,"NVA":4,"US":-13,"VC":-6},"error":""}
+{"seed":6,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-16,"NVA":2,"US":-9,"VC":-4},"error":""}
+{"seed":7,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-16,"NVA":2,"US":-7,"VC":-8},"error":""}
+{"seed":7,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-3,"US":-6,"VC":3},"error":""}
+{"seed":8,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"ARVN","final_scores":{"ARVN":1,"NVA":-7,"US":-15,"VC":-17},"error":""}
+{"seed":8,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-16,"NVA":-13,"US":3,"VC":-2},"error":""}
+{"seed":9,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-3,"US":-15,"VC":2},"error":""}
+{"seed":9,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-2,"US":-7,"VC":2},"error":""}
+{"seed":10,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-14,"NVA":1,"US":0,"VC":-13},"error":""}
+{"seed":10,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-12,"NVA":2,"US":-14,"VC":4},"error":""}
+{"seed":11,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-8,"NVA":-6,"US":6,"VC":-7},"error":""}
+{"seed":11,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-15,"NVA":-6,"US":0,"VC":-1},"error":""}
+{"seed":12,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-19,"NVA":0,"US":-16,"VC":15},"error":""}
+{"seed":12,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-10,"NVA":-4,"US":0,"VC":2},"error":""}
+{"seed":13,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-7,"NVA":2,"US":-15,"VC":-4},"error":""}
+{"seed":13,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-10,"NVA":2,"US":-21,"VC":-10},"error":""}
+{"seed":14,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-15,"NVA":-3,"US":-13,"VC":-10},"error":""}
+{"seed":14,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-20,"NVA":0,"US":2,"VC":-6},"error":""}
+{"seed":15,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-14,"NVA":-7,"US":1,"VC":-13},"error":""}
+{"seed":15,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-10,"NVA":-6,"US":-1,"VC":-17},"error":""}
+{"seed":16,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-18,"NVA":-1,"US":-15,"VC":-5},"error":""}
+{"seed":16,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-3,"US":-9,"VC":4},"error":""}
+{"seed":17,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-9,"US":-16,"VC":2},"error":""}
+{"seed":17,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-10,"NVA":-4,"US":-23,"VC":3},"error":""}
+{"seed":18,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-13,"NVA":-4,"US":-11,"VC":-11},"error":""}
+{"seed":18,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-6,"NVA":-5,"US":1,"VC":-5},"error":""}
+{"seed":19,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-8,"NVA":-12,"US":-5,"VC":-9},"error":""}
+{"seed":19,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-5,"NVA":-6,"US":-16,"VC":4},"error":""}
+{"seed":20,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-9,"NVA":-13,"US":0,"VC":-10},"error":""}
+{"seed":20,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-8,"NVA":-9,"US":2,"VC":-8},"error":""}
+{"seed":21,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-5,"US":-15,"VC":-3},"error":""}
+{"seed":21,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-6,"NVA":-10,"US":-11,"VC":-4},"error":""}
+{"seed":22,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-8,"NVA":-8,"US":5,"VC":-6},"error":""}
+{"seed":22,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-13,"NVA":-4,"US":-12,"VC":-16},"error":""}
+{"seed":23,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-12,"NVA":-5,"US":-2,"VC":-11},"error":""}
+{"seed":23,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-9,"NVA":-9,"US":-4,"VC":-13},"error":""}
+{"seed":24,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"ARVN","final_scores":{"ARVN":-5,"NVA":-6,"US":-7,"VC":-13},"error":""}
+{"seed":24,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-5,"NVA":-4,"US":-7,"VC":-6},"error":""}
+{"seed":25,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-19,"NVA":1,"US":-8,"VC":-20},"error":""}
+{"seed":25,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-5,"NVA":-8,"US":-3,"VC":-4},"error":""}
+{"seed":26,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-17,"NVA":2,"US":1,"VC":-15},"error":""}
+{"seed":26,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-15,"NVA":-2,"US":-7,"VC":-10},"error":""}
+{"seed":27,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-15,"NVA":1,"US":-10,"VC":-4},"error":""}
+{"seed":27,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-17,"NVA":-3,"US":-1,"VC":-5},"error":""}
+{"seed":28,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-4,"NVA":2,"US":-17,"VC":-1},"error":""}
+{"seed":28,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-2,"US":-7,"VC":-1},"error":""}
+{"seed":29,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-16,"NVA":2,"US":-11,"VC":-7},"error":""}
+{"seed":29,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"NVA","final_scores":{"ARVN":-23,"NVA":2,"US":6,"VC":-13},"error":""}
+{"seed":30,"arm":"llm","choice":"","after":{"ARVN":-6,"NVA":-4,"US":1,"VC":-10},"winner":"US","final_scores":{"ARVN":-15,"NVA":-5,"US":9,"VC":-3},"error":""}
+{"seed":30,"arm":"bot","choice":"Sweep LimOp @nva 8.46 18","after":{"ARVN":-6,"NVA":-6,"US":1,"VC":-10},"winner":"VC","final_scores":{"ARVN":-15,"NVA":0,"US":-13,"VC":6},"error":""}

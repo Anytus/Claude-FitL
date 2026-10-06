@@ -1,0 +1,60 @@
+{"seed":1,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-9,"NVA":-14,"US":-12,"VC":6},"error":""}
+{"seed":1,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-11,"NVA":-12,"US":-15,"VC":10},"error":""}
+{"seed":2,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-1,"US":7,"VC":2},"error":""}
+{"seed":2,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-6,"NVA":-3,"US":-23,"VC":5},"error":""}
+{"seed":3,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"","final_scores":{"ARVN":-20,"NVA":-9,"US":-6,"VC":-3},"error":"AssertionError: assertion failed: Insufficent pieces in the available box"}
+{"seed":3,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-14,"NVA":-6,"US":5,"VC":3},"error":""}
+{"seed":4,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-25,"NVA":-6,"US":0,"VC":5},"error":""}
+{"seed":4,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"NVA","final_scores":{"ARVN":-19,"NVA":1,"US":-14,"VC":0},"error":""}
+{"seed":5,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-20,"NVA":-3,"US":-21,"VC":9},"error":""}
+{"seed":5,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-23,"NVA":-13,"US":-6,"VC":4},"error":""}
+{"seed":6,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-17,"NVA":-7,"US":-5,"VC":0},"error":""}
+{"seed":6,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-18,"NVA":-7,"US":-13,"VC":6},"error":""}
+{"seed":7,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"NVA","final_scores":{"ARVN":-16,"NVA":0,"US":-3,"VC":-3},"error":""}
+{"seed":7,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-10,"NVA":-1,"US":4,"VC":2},"error":""}
+{"seed":8,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-17,"NVA":-8,"US":-17,"VC":6},"error":""}
+{"seed":8,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-22,"NVA":-5,"US":-12,"VC":6},"error":""}
+{"seed":9,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-9,"US":-1,"VC":5},"error":""}
+{"seed":9,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-11,"US":-3,"VC":1},"error":""}
+{"seed":10,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-16,"NVA":-8,"US":-3,"VC":-13},"error":""}
+{"seed":10,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-4,"US":-8,"VC":-3},"error":""}
+{"seed":11,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-19,"NVA":-11,"US":-10,"VC":4},"error":""}
+{"seed":11,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-11,"NVA":-6,"US":10,"VC":4},"error":""}
+{"seed":12,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-17,"NVA":-7,"US":-6,"VC":2},"error":""}
+{"seed":12,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-2,"NVA":-5,"US":-25,"VC":1},"error":""}
+{"seed":13,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-16,"NVA":-4,"US":5,"VC":1},"error":""}
+{"seed":13,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-22,"NVA":-1,"US":-9,"VC":1},"error":""}
+{"seed":14,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-4,"US":2,"VC":3},"error":""}
+{"seed":14,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-21,"NVA":-2,"US":-12,"VC":5},"error":""}
+{"seed":15,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-18,"NVA":-11,"US":-14,"VC":1},"error":""}
+{"seed":15,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"","final_scores":{"ARVN":-18,"NVA":-9,"US":-7,"VC":-12},"error":"AssertionError: assertion failed: Insufficent pieces in the available box"}
+{"seed":16,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-7,"US":-11,"VC":1},"error":""}
+{"seed":16,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-9,"NVA":-5,"US":-27,"VC":6},"error":""}
+{"seed":17,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-4,"US":-20,"VC":1},"error":""}
+{"seed":17,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-2,"US":-16,"VC":2},"error":""}
+{"seed":18,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-3,"US":-3,"VC":9},"error":""}
+{"seed":18,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-16,"NVA":-6,"US":9,"VC":1},"error":""}
+{"seed":19,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-6,"US":-15,"VC":4},"error":""}
+{"seed":19,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-12,"NVA":-5,"US":-5,"VC":6},"error":""}
+{"seed":20,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-6,"US":-6,"VC":2},"error":""}
+{"seed":20,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-16,"NVA":-6,"US":0,"VC":3},"error":""}
+{"seed":21,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-8,"US":0,"VC":4},"error":""}
+{"seed":21,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-16,"NVA":-5,"US":-3,"VC":3},"error":""}
+{"seed":22,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-11,"NVA":-6,"US":-7,"VC":-2},"error":""}
+{"seed":22,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-2,"US":0,"VC":1},"error":""}
+{"seed":23,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-16,"NVA":-7,"US":-2,"VC":1},"error":""}
+{"seed":23,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-5,"US":-8,"VC":2},"error":""}
+{"seed":24,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-12,"NVA":-5,"US":4,"VC":1},"error":""}
+{"seed":24,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-16,"NVA":-1,"US":-11,"VC":6},"error":""}
+{"seed":25,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-12,"NVA":-2,"US":-7,"VC":1},"error":""}
+{"seed":25,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-7,"NVA":-9,"US":-2,"VC":3},"error":""}
+{"seed":26,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-4,"US":3,"VC":3},"error":""}
+{"seed":26,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-19,"NVA":-3,"US":-16,"VC":2},"error":""}
+{"seed":27,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-9,"US":-18,"VC":4},"error":""}
+{"seed":27,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-21,"NVA":-7,"US":-2,"VC":8},"error":""}
+{"seed":28,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-12,"NVA":-8,"US":-4,"VC":-10},"error":""}
+{"seed":28,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-9,"NVA":-3,"US":1,"VC":3},"error":""}
+{"seed":29,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"","final_scores":{"ARVN":-14,"NVA":-14,"US":-9,"VC":0},"error":"AssertionError: assertion failed: Cannot place more than 2 bases in Saigon"}
+{"seed":29,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-15,"NVA":-4,"US":-8,"VC":1},"error":""}
+{"seed":30,"arm":"llm","choice":"","after":{"ARVN":-8,"NVA":-12,"US":0,"VC":-6},"winner":"US","final_scores":{"ARVN":-10,"NVA":-7,"US":-2,"VC":-6},"error":""}
+{"seed":30,"arm":"bot","choice":"Train LimOp -4.35 14","after":{"ARVN":-11,"NVA":-12,"US":0,"VC":-6},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-12,"US":-14,"VC":7},"error":""}

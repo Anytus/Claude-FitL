@@ -1227,6 +1227,156 @@ index f0952bb..717688f 100644
  
      log(s"\nMove the $faction cylinder to the ${actorBoxName(action)} box", Color.GameMarker)
      game = game.copy(sequence = game.sequence.addActor(faction, action))
+diff --git a/src/main/scala/fitl/Branch.scala b/src/main/scala/fitl/Branch.scala
+new file mode 100644
+index 0000000..f6d8e50
+--- /dev/null
++++ b/src/main/scala/fitl/Branch.scala
+@@ -0,0 +1,144 @@
++//  Branch: compare a human US decision with the US search policy's, from the
++//  saves of a human-US game. Part of the Claude-FitL harness.
++//
++//  Usage: java -cp "fitl/lib/*" fitl.Branch --policy P.json --before SAVE --after SAVE
++//                                           [--rollouts N] [--seed S]
++//
++//  SAVE files are the program's own saves: --before is the position with the
++//  US to act, --after the position just after the human's action. The policy
++//  then makes its own decision on --before. Each of the two positions after
++//  the decision is played to the end N times with all four factions as Bots
++//  (the US by the policy), as in `Autoplay --us-final-only --us-player`. Run
++//  k of both uses the same seed and the same continuation of the event deck,
++//  drawn as the Full scenario's piles allow given the cards already seen.
++//  One JSON line per run to stdout.
++
++package fitl
++
++import java.io.PrintStream
++import scala.util.Random
++import FireInTheLake._
++import Autoplay.{Period1964, Period1965, Period1968, CoupCards, Tail, ScriptedReader, scoreJson}
++
++object Branch {
++  val Piles = Vector(Period1964, Period1965, Period1965, Period1968, Period1968, Period1968)
++
++  //  The next event card, given the cards drawn so far: each pile is 12 events
++  //  of its period plus one Coup card, shuffled.
++  def deckFrom(seen: Seq[Int], rng: Random): () => Int = {
++    var drawn = seen.toVector
++    () => {
++      val k       = drawn.size
++      val pile    = k / 13
++      val inPile  = drawn.slice(pile * 13, k)
++      val left    = 13 - inPile.size
++      val coupOut = inPile.exists(CoupCards.contains)
++      val c = if (!coupOut && rng.nextInt(left) == 0) {
++        val coups = CoupCards.filterNot(drawn.contains)
++        coups(rng.nextInt(coups.size))
++      }
++      else {
++        val evs = Piles(pile).filterNot(drawn.contains)
++        evs(rng.nextInt(evs.size))
++      }
++      drawn :+= c
++      c
++    }
++  }
++
++  def load(path: String): GameState = {
++    val g = SavedGame.load(FUtil.Pathname(path)).copy(log = Vector.empty)
++    //  The human's Tru'ng cards were left out of the Bots' deck; put them back
++    //  so the US Bot can draw one if any routine asks.
++    val usCards = Bot.TrungDeck.filter(_.faction == US)
++    g.copy(humanFactions = Set.empty, trungDeck = new scala.util.Random(1).shuffle(g.trungDeck ++ usCards))
++  }
++
++  //  Play `start` to the end; return (winner, final scores JSON, error).
++  def playOut(start: GameState, seed: Long): (String, String, String) = {
++    Random.setSeed(seed)
++    game = start
++    val tail   = new Tail
++    val reader = new ScriptedReader(tail, deckFrom(game.cardsSeen, new Random(seed * 31 + 7)))
++    var winner = ""
++    var error  = ""
++    Console.withOut(new PrintStream(tail, false)) {
++      Console.withIn(reader) {
++        try {
++          var steps = 0
++          while (!game.gameOver) {
++            steps += 1
++            if (steps > 5000) throw new IllegalStateException("step limit")
++            game = game.copy(log = Vector.empty)
++            if (game.needsCardDraw)
++              drawNextCard()
++            val pivot = if (eventDeck.isPivotalCard(game.currentCard)) None else getPivotalFaction
++            pivot foreach { f =>
++              game = game.copy(currentCard = f.pivotCard, pivotCardsAvailable = game.pivotCardsAvailable - f)
++            }
++            if (game.isCoupRound) {
++              val before = game.scores
++              val early  = before.filter(_.score > 0).filterNot(e => noEarlyWin(e.faction)).headOption
++              resolveCoupCard()
++              if (game.gameOver)
++                winner = early.map(_.faction.toString) getOrElse game.scores.head.faction.toString
++              else
++                game = game.copy(needsCardDraw = true)
++            }
++            else game.actingFaction match {
++              case None => game = game.copy(needsCardDraw = true)
++              case Some(_) =>
++                Bot.act()
++                if (game.sequence.exhausted)
++                  game = game.copy(needsCardDraw = true)
++            }
++          }
++        }
++        catch { case e: Throwable => error = e.getClass.getSimpleName + ": " + String.valueOf(e.getMessage).take(120) }
++      }
++    }
++    (winner, scoreJson(game.scores), error.replace("\"", "'"))
++  }
++
++  //  The policy's decision on `before`, on the dice of `seed`.
++  def decide(before: GameState, seed: Long): (GameState, String) = {
++    Random.setSeed(seed)
++    game = before
++    val tail = new Tail
++    Console.withOut(new PrintStream(tail, false)) {
++      Console.withIn(new ScriptedReader(tail, () => throw new IllegalStateException("card draw in a decision"))) {
++        assert(game.actingFaction == Some(US), s"US is not to act: ${game.actingFaction}")
++        Bot.act()
++      }
++    }
++    (game, USPolicy.lastChoice)
++  }
++
++  def main(args: Array[String]): Unit = {
++    def arg(name: String, default: String) = {
++      val i = args.indexOf(name)
++      if (i >= 0 && i + 1 < args.length) args(i + 1) else default
++    }
++    USPolicy.load(arg("--policy", ""))
++    usIsPlayer  = true
++    arvnTracked = true
++    noEarlyWin  = Set(US)
++    val before = load(arg("--before", ""))
++    val after  = load(arg("--after", ""))
++    val n      = arg("--rollouts", "20").toInt
++    val seed0  = arg("--seed", "1").toLong
++    def q(s: String) = "\"" + s.replace("\\", "\\\\").replace("\"", "'") + "\""
++    for (k <- 0 until n) {
++      val s = seed0 + k
++      val (botPos, choice) = decide(before, s)
++      for ((arm, pos) <- List("llm" -> after, "bot" -> botPos)) {
++        game = pos   // scores are computed from the global game
++        val now = scoreJson(game.scores)
++        val (w, fin, err) = playOut(pos, s)
++        println(s"""{"seed":$s,"arm":"$arm","choice":${q(if (arm == "bot") choice else "")},"after":$now,""" +
++                s""""winner":${q(w)},"final_scores":$fin,"error":${q(err)}}""")
++        System.out.flush()
++      }
++    }
++  }
++}
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
 index b1dc7c3..a994588 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala

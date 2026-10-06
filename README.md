@@ -373,6 +373,17 @@ as the flat fit on the same data (-0.03, se 0.78); both are level with
 tuned_t3 (+0.35 and +0.40, se 0.75). `policies/fit3flat.json`,
 `policies/fit3phase.json`.
 
+### Human US decisions against the bot's
+
+`tools/botbranch.py GAMEDIR:SAVE ...` (`fitl.Branch`) loads a save of a
+human-US game with the US to act, lets the search policy decide there, and
+plays both its position and the human's (the next save) to the end with all
+four factions as Bots, paired by seed and deck continuation. On 24 branch
+points from the LLM-played games 7-10 the LLM's decision is worth +1.8 final
+US lead (se 0.6), with the immediate score the same; the comparison, the
+LLM's own strategy notes and what a non-Tru'ng US bot needs are in
+`results/llm_vs_bot.md`.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

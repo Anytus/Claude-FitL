@@ -1,0 +1,194 @@
+[
+ {
+  "game": 7,
+  "save": 19,
+  "card": "#63 - Fact Finding",
+  "next_summary": [
+   "ARVN performed Event"
+  ]
+ },
+ {
+  "game": 7,
+  "save": 55,
+  "card": "#69 - MACV",
+  "next_summary": [
+   "NVA is up"
+  ]
+ },
+ {
+  "game": 7,
+  "save": 89,
+  "card": "#9 - Psychedelic Cookie",
+  "next_summary": [
+   "NVA is up"
+  ]
+ },
+ {
+  "game": 7,
+  "save": 115,
+  "card": "#104 - Main Force Bns",
+  "next_summary": [
+   "VC performed Event"
+  ]
+ },
+ {
+  "game": 7,
+  "save": 156,
+  "card": "#20 - Laser Guided Bombs",
+  "next_summary": [
+   "ARVN is up"
+  ]
+ },
+ {
+  "game": 7,
+  "save": 196,
+  "card": "#84 - To Quoc",
+  "next_summary": [
+   "ARVN performed Op/Special Activity"
+  ]
+ },
+ {
+  "game": 8,
+  "save": 17,
+  "card": "#31 - AAA",
+  "next_summary": [
+   "NVA performed Event"
+  ]
+ },
+ {
+  "game": 8,
+  "save": 50,
+  "card": "#70 - ROKs",
+  "next_summary": [
+   "NVA is up"
+  ]
+ },
+ {
+  "game": 8,
+  "save": 89,
+  "card": "#14 - M-48 Patton",
+  "next_summary": [
+   "NVA is up"
+  ]
+ },
+ {
+  "game": 8,
+  "save": 124,
+  "card": "#74 - Lam Son 719",
+  "next_summary": [
+   "ARVN performed Op/Special Activity"
+  ]
+ },
+ {
+  "game": 8,
+  "save": 162,
+  "card": "#4 - Top Gun",
+  "next_summary": [
+   "NVA is up"
+  ]
+ },
+ {
+  "game": 8,
+  "save": 195,
+  "card": "#32 - Long Range Guns",
+  "next_summary": [
+   "NVA performed Event"
+  ]
+ },
+ {
+  "game": 9,
+  "save": 10,
+  "card": "#29 - Tribesmen",
+  "next_summary": [
+   "VC is up"
+  ]
+ },
+ {
+  "game": 9,
+  "save": 48,
+  "card": "#9 - Psychedelic Cookie",
+  "next_summary": [
+   "VC is up"
+  ]
+ },
+ {
+  "game": 9,
+  "save": 85,
+  "card": "#81 - CIDG",
+  "next_summary": [
+   "VC performed Op/Special Activity"
+  ]
+ },
+ {
+  "game": 9,
+  "save": 111,
+  "card": "#22 - Da Nang",
+  "next_summary": [
+   "ARVN is up"
+  ]
+ },
+ {
+  "game": 9,
+  "save": 143,
+  "card": "#27 - Phoenix Program",
+  "next_summary": [
+   "VC is up"
+  ]
+ },
+ {
+  "game": 9,
+  "save": 173,
+  "card": "#74 - Lam Son 719",
+  "next_summary": [
+   "NVA performed Op/Special Activity"
+  ]
+ },
+ {
+  "game": 10,
+  "save": 20,
+  "card": "#110 - No Contact",
+  "next_summary": [
+   "VC performed Op/Special Activity"
+  ]
+ },
+ {
+  "game": 10,
+  "save": 48,
+  "card": "#28 - Search and Destroy",
+  "next_summary": [
+   "ARVN is up"
+  ]
+ },
+ {
+  "game": 10,
+  "save": 79,
+  "card": "#69 - MACV",
+  "next_summary": [
+   "ARVN performed Op/Special Activity"
+  ]
+ },
+ {
+  "game": 10,
+  "save": 117,
+  "card": "#56 - Vo Nguyen Giap",
+  "next_summary": [
+   "NVA performed Op/Special Activity"
+  ]
+ },
+ {
+  "game": 10,
+  "save": 145,
+  "card": "#61 - Armored Cavalry",
+  "next_summary": [
+   "ARVN performed Event"
+  ]
+ },
+ {
+  "game": 10,
+  "save": 172,
+  "card": "#52 - RAND",
+  "next_summary": [
+   "VC performed Event"
+  ]
+ }
+]

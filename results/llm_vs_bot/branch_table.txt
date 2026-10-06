@@ -1,0 +1,148 @@
+G7 save 19 #63 - Fact Finding  (n=28, errors 2)
+   LLM: card #63 Fact Finding: Train+Pacify Kien Giang; Advise Binh Dinh Guerrillas, Pleiku VC Base; +6 Aid — -5 VC, COIN Control Binh Dinh
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise', 13), ('Train[arvn<=1]+Advise @vc', 7), ('Sweep+AirStrike', 5)]
+   immediately after: US score LLM -14 vs bot -14.0; US lead LLM -9 vs bot -6.6
+   final US lead (bots play on): LLM -15.4 vs bot -12.4; diff -3.00 (se 2.71); US wins 2 vs 5 of 28
+G7 save 55 #69 - MACV  (n=30, errors 0)
+   LLM: card #69 MACV: Train Saigon + transfer 3 Patronage; Advise Kien Phong, PBPY; +6 Aid — ARVN -3, Coup budget
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+AirLift', 28), ('Train[arvn<=1]+AirLift @opposition', 2)]
+   immediately after: US score LLM -9 vs bot -9.0; US lead LLM -4 vs bot -2.0
+   final US lead (bots play on): LLM +0.9 vs bot -0.5; diff +1.40 (se 2.51); US wins 20 vs 14 of 30
+G7 save 89 #9 - Psychedelic Cookie  (n=30, errors 0)
+   LLM: card #9 Psychedelic Cookie: Event unshaded, 3 Troops Out of Play to Available — +3 US, deny NVA the shaded side
+   program: ['US performed Event']
+   bot: [('Train[arvn<=1]+Advise', 13), ('Assault+AirStrike @nva', 8), ('Assault+AirStrike', 4)]
+   immediately after: US score LLM -1 vs bot -4.0; US lead LLM +7 vs bot +4.0
+   final US lead (bots play on): LLM +6.2 vs bot +2.0; diff +4.20 (se 1.30); US wins 23 vs 15 of 30
+G7 save 115 #104 - Main Force Bns  (n=30, errors 0)
+   LLM: card #104 Main Force Bns: Air Lift Da Nang to KP, QTQN; Assault KP, QTQN, KG — 11 NVA Troops killed, KP COIN again
+   program: ['US performed Op/Special Activity']
+   bot: [('Assault+AirLift @opposition', 20), ('Assault+AirLift', 10)]
+   immediately after: US score LLM -4 vs bot -4.0; US lead LLM +3 vs bot +4.0
+   final US lead (bots play on): LLM +3.2 vs bot +5.3; diff -2.13 (se 2.31); US wins 19 vs 22 of 30
+G7 save 156 #20 - Laser Guided Bombs  (n=30, errors 0)
+   LLM: card #20 Laser Guided Bombs: Train+Pacify Kien Giang to Neutral; Advise Hue (2 VC), QTTT (2 NVA Troops) — VC 39 to 35
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise', 25), ('Sweep+AirStrike', 5)]
+   immediately after: US score LLM -5 vs bot -5.0; US lead LLM -5 vs bot -8.0
+   final US lead (bots play on): LLM +2.8 vs bot -4.9; diff +7.73 (se 1.78); US wins 23 vs 11 of 30
+G7 save 196 #84 - To Quoc  (n=30, errors 0)
+   LLM: card #84 To Quoc: LimOp Train Saigon + transfer 3 Patronage — ARVN 52 to 49
+   program: ['US performed Limited Op']
+   bot: [('Pass', 30)]
+   immediately after: US score LLM -5 vs bot -5.0; US lead LLM -4 vs bot -7.0
+   final US lead (bots play on): LLM +0.9 vs bot -4.9; diff +5.87 (se 1.49); US wins 20 vs 6 of 30
+G8 save 17 #31 - AAA  (n=29, errors 1)
+   LLM: card #31 AAA: Patrol LoC Kontum-Dak To + Advise Pleiku/Binh Dinh, +6 Aid — strip VC guerrillas from Support spaces; #50 Uncle Ho: ineligible
+   program: ['US performed Op/Special Activity']
+   bot: [('Sweep+AirStrike @opposition', 12), ('Sweep+AirStrike @vc', 9), ('Sweep+AirStrike @nva', 8)]
+   immediately after: US score LLM -2 vs bot -2.0; US lead LLM +2 vs bot +2.5
+   final US lead (bots play on): LLM -1.4 vs bot -8.3; diff +6.93 (se 2.43); US wins 14 vs 9 of 29
+G8 save 50 #70 - ROKs  (n=27, errors 3)
+   LLM: card #70 ROKs: Pass — keep first eligible for Attleboro
+   program: ['US passed']
+   bot: [('Train LimOp', 27)]
+   immediately after: US score LLM +0 vs bot +0.0; US lead LLM +6 vs bot +6.0
+   final US lead (bots play on): LLM -7.5 vs bot -11.7; diff +4.22 (se 2.73); US wins 4 vs 3 of 27
+G8 save 89 #14 - M-48 Patton  (n=30, errors 0)
+   LLM: card #14 M-48: Train Saigon Police + Air Lift An Loc + Transfer Patronage 3 — prep Coup, ARVN off line; Coup 3 pacified Saigon/An Loc/Pleiku +15; Easter Offensive + Tet Offensive played by bots
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+AirLift', 14), ('Train[arvn<=1]+AirLift @vc', 10), ('Train[arvn<=1]+AirLift @opposition', 6)]
+   immediately after: US score LLM -15 vs bot -15.0; US lead LLM -11 vs bot -11.0
+   final US lead (bots play on): LLM -23.2 vs bot -22.7; diff -0.50 (se 2.74); US wins 0 vs 1 of 30
+G8 save 124 #74 - Lam Son 719  (n=30, errors 0)
+   LLM: card #74 Lam Son: LimOp Train Saigon Transfer 3 — ARVN 49→46, end card before VC; #117 Corps Commanders: ineligible
+   program: ['US performed Limited Op']
+   bot: [('Train LimOp', 30)]
+   immediately after: US score LLM -14 vs bot -14.0; US lead LLM -14 vs bot -14.0
+   final US lead (bots play on): LLM -16.4 vs bot -16.4; diff +0.00 (se 0.00); US wins 2 vs 2 of 30
+G8 save 162 #4 - Top Gun  (n=30, errors 0)
+   LLM: card #4 Top Gun: Train+Pacify Da Nang 2 levels, Advise Kien Giang/Binh Dinh — VC 37→36; #113 Ruff Puff: ineligible
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise', 26), ('Train[arvn<=1]+AirStrike @vc', 4)]
+   immediately after: US score LLM -7 vs bot -8.0; US lead LLM -8 vs bot -10.0
+   final US lead (bots play on): LLM -7.2 vs bot -9.7; diff +2.47 (se 1.23); US wins 0 vs 0 of 30
+G8 save 195 #32 - Long Range Guns  (n=30, errors 0)
+   LLM: card #32 Long Range Guns: Air Lift 3 Troops + Train/Pacify Kien Hoa to Neutral — VC 37→33; #49 Russian Arms: ineligible
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise @vc', 16), ('Train[arvn<=1]+Advise', 14)]
+   immediately after: US score LLM +4 vs bot +4.0; US lead LLM +4 vs bot +2.0
+   final US lead (bots play on): LLM -2.1 vs bot -1.5; diff -0.53 (se 0.95); US wins 4 vs 6 of 30
+G9 save 10 #29 - Tribesmen  (n=29, errors 1)
+   LLM: card #29 Tribesmen: Event unshaded, removed 3 VC Bases + 1 Guerrilla — deny VC shaded; Bases are VC's scarcest
+   program: ['US performed Event']
+   bot: [('Train[arvn<=1]+Advise', 29)]
+   immediately after: US score LLM -12 vs bot -6.0; US lead LLM -2 vs bot +2.0
+   final US lead (bots play on): LLM -10.3 vs bot -12.2; diff +1.86 (se 2.60); US wins 5 vs 3 of 29
+G9 save 48 #9 - Psychedelic Cookie  (n=29, errors 1)
+   LLM: card #9 Psychedelic Cookie: Event unshaded, 3 Out-of-Play Troops to Available — +3 US, deny VC shaded
+   program: ['US performed Event']
+   bot: [('Train[arvn<=1]+Advise', 29)]
+   immediately after: US score LLM +2 vs bot -1.0; US lead LLM +5 vs bot +4.0
+   final US lead (bots play on): LLM -2.0 vs bot -8.2; diff +6.28 (se 2.80); US wins 13 vs 8 of 29
+G9 save 85 #81 - CIDG  (n=30, errors 0)
+   LLM: card #81 CIDG: Event unshaded (roll 3), VC in Saigon and 2 LoCs replaced by Police — clear Saigon's last Terror-capable VC
+   program: ['US performed Event']
+   bot: [('Pass', 15), ('Event', 8), ('Patrol LimOp', 7)]
+   immediately after: US score LLM +5 vs bot +5.0; US lead LLM +10 vs bot +10.0
+   final US lead (bots play on): LLM -0.4 vs bot -2.1; diff +1.73 (se 2.84); US wins 16 vs 11 of 30
+G9 save 111 #22 - Da Nang  (n=29, errors 1)
+   LLM: card #22 Da Nang: Train Kien Hoa (Irregular)+Saigon, Transfer 3, Advise Binh Dinh+Pleiku — clear Support spaces, ARVN 42
+   program: ['US performed Op/Special Activity']
+   bot: [('Patrol+AirLift @opposition', 22), ('Sweep+AirStrike @vc', 5), ('Patrol+AirStrike @vc', 2)]
+   immediately after: US score LLM +5 vs bot +4.7; US lead LLM +12 vs bot +9.7
+   final US lead (bots play on): LLM +3.8 vs bot +2.7; diff +1.14 (se 3.32); US wins 15 vs 18 of 29
+G9 save 143 #27 - Phoenix Program  (n=30, errors 0)
+   LLM: card #27 Phoenix Program: Air Lift Hue Troops to Qui Nhon/Cam Ranh, Train+Pacify Kontum — +1, Coup pacification sites
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise', 30)]
+   immediately after: US score LLM +12 vs bot +11.0; US lead LLM +18 vs bot +19.0
+   final US lead (bots play on): LLM +7.7 vs bot +7.2; diff +0.43 (se 1.72); US wins 25 vs 23 of 30
+G9 save 173 #74 - Lam Son 719  (n=30, errors 0)
+   LLM: card #74 Lam Son 719: LimOp Assault Saigon + ARVN follow-up, 10 NVA Troops removed — restore COIN Control in Saigon
+   program: ['US performed Limited Op']
+   bot: [('Pass', 30)]
+   immediately after: US score LLM +13 vs bot +13.0; US lead LLM +17 vs bot +17.0
+   final US lead (bots play on): LLM +18.4 vs bot +13.9; diff +4.50 (se 1.52); US wins 28 vs 27 of 30
+G10 save 20 #110 - No Contact  (n=30, errors 0)
+   LLM: card #110 No Contact: Pass — ARVN Critical next; US gets Op+SA, NVA shut out
+   program: ['US passed']
+   bot: [('Sweep LimOp @nva', 30)]
+   immediately after: US score LLM +1 vs bot +1.0; US lead LLM +5 vs bot +7.0
+   final US lead (bots play on): LLM -4.7 vs bot -6.0; diff +1.37 (se 2.76); US wins 11 vs 11 of 30
+G10 save 48 #28 - Search and Destroy  (n=30, errors 0)
+   LLM: card #28 Search and Destroy: Train/Pacify Kien Hoa, Advise Quang Tri Base + Binh Dinh NVA — VC -3, NVA -2; ARVN took capability
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise', 30)]
+   immediately after: US score LLM +0 vs bot -2.0; US lead LLM +6 vs bot +2.0
+   final US lead (bots play on): LLM -4.4 vs bot -2.7; diff -1.73 (se 2.26); US wins 5 vs 10 of 30
+G10 save 79 #69 - MACV  (n=30, errors 0)
+   LLM: card #69 MACV: Event, US Air Strike Binh Dinh + Kien Phong, stay Eligible — NVA 15 to 13
+   program: ['US performed Event']
+   bot: [('Sweep LimOp', 30)]
+   immediately after: US score LLM -2 vs bot +1.0; US lead LLM +3 vs bot +6.0
+   final US lead (bots play on): LLM -1.4 vs bot -0.1; diff -1.33 (se 2.09); US wins 12 vs 12 of 30
+G10 save 117 #56 - Vo Nguyen Giap  (n=30, errors 0)
+   LLM: card #56 Vo Nguyen Giap: Pass — be first on #30 USS New Jersey, deny VC -8
+   program: ['US passed']
+   bot: [('Pass', 26), ('Patrol LimOp', 4)]
+   immediately after: US score LLM +4 vs bot +4.0; US lead LLM +6 vs bot +6.0
+   final US lead (bots play on): LLM -2.1 vs bot -1.3; diff -0.77 (se 0.71); US wins 14 vs 14 of 30
+G10 save 145 #61 - Armored Cavalry  (n=30, errors 0)
+   LLM: 
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise', 30)]
+   immediately after: US score LLM -2 vs bot -2.0; US lead LLM +2 vs bot +3.0
+   final US lead (bots play on): LLM +1.2 vs bot -3.2; diff +4.37 (se 2.44); US wins 13 vs 10 of 30
+G10 save 172 #52 - RAND  (n=30, errors 0)
+   LLM: card #52 RAND: Train Saigon Transfer 3, Advise Quang Tri VC Base + ARVN Assault Binh Dinh NVA Base — all bots 3 short
+   program: ['US performed Op/Special Activity']
+   bot: [('Train[arvn<=1]+Advise', 30)]
+   immediately after: US score LLM -7 vs bot -7.0; US lead LLM -3 vs bot -3.0
+   final US lead (bots play on): LLM +0.1 vs bot +0.6; diff -0.53 (se 1.79); US wins 14 vs 17 of 30
+
+mean paired diff over 24 points: +1.83 (se across points 0.62); points LLM better 15, worse 8
+significant at 2 se: LLM better 7, bot better 0
+immediate US lead: LLM minus bot mean +0.15; immediate US score diff +0.05
