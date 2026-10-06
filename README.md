@@ -330,6 +330,14 @@ US decisions (31 of 97 in 5 games); with it, 9 of 118, where a die roll changed
 what followed, and the real score is no longer below the trial's on average.
 `FITL_POLICY_REPLAY=PREFIX` logs trial against real picks for each decision.
 
+`fitl.AirLiftBench --policy P.json --us-player` records the boards at US
+decisions in a few games, replays the US Bot's Air Lift on each (warmed up,
+median of many runs) and reports what each Air Lift does and costs: the
+`Prof` counters and phase timers (destinations tried and served, origin scans,
+keep- and move-rule runs, moves), bytes allocated, and cost by destinations
+tried. `FITL_TRIAL_TIMES=1` times every search trial by candidate kind.
+Results: `results/airlift_bench.txt`, `results/trial_times.txt`.
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

@@ -1,0 +1,92 @@
+== before fix 1 (lazy new-origin scan)
+boards recorded 300 from 11 games; 0 dropped (endless Air Lift loop); Air Lift moved something on 290 of 300
+
+Air Lift time per board (median of 25 runs after 20 warm-up rounds), microseconds:
+  mean 456   p10 120   median 337   p90 789   max 3016
+  instrumented pass: 699 us per Air Lift (counters and timers on)
+  memory allocated: 678 KB per Air Lift
+
+per Air Lift (averages over the 300 boards); timed phases are inclusive and nest:
+  work                                                           calls  us total  us/call
+  origin selection (selectAirLiftOrigin)                          10.4     544.2    52.18
+  pieces from one origin (keep + move rules)                      82.0     376.6     4.59
+  move-rules (selectPiecesToMove)                                 82.0     137.6     1.68
+  keep-rules computed (mustKeepInOriginUncached)                  29.6     131.8     4.45
+  destination pick (filter + ranking)                             10.1      56.8     5.65
+  destination ranking (pickSpaceAirLiftDest)                       9.9      35.3     3.56
+  count movable (maxMoveablePieces)                               18.3      25.3     1.38
+  another origin? (canSelectAnotherOrigin)                         2.0      14.6     7.29
+  actual moves (movePieces)                                        2.0       8.4     4.32
+  destinations served                                              1.7
+  destinations tried                                               9.9
+  keep-rules: cache hits                                          70.7
+  keep-rules: cache misses                                        29.6
+  origin scan: spaces checked                                    469.2
+  origin scan: spaces with liftable pieces (trial move run)       80.0
+  pieces moved                                                     4.6
+
+spaces holding liftable pieces (US Troops, ARVN Troops, Irregulars, Rangers): 14.6 per board on average
+
+cost by destinations tried:
+  tried  boards  median us  served
+      0      10          0    0.00
+      1      30        247    1.00
+      2      93        224    1.98
+      3      34        243    1.94
+      4      11        317    2.00
+      5      25        466    1.80
+      6      26        493    2.00
+      7      12        547    2.00
+      8       9        713    2.44
+     10       2        877    2.50
+     44      18       1386    1.00
+     45      24        647    1.33
+     46       6        574    1.33
+
+== after fix 1, with failure reasons
+boards recorded 300 from 11 games; 0 dropped (endless Air Lift loop); Air Lift moved something on 290 of 300
+
+Air Lift time per board (median of 25 runs after 20 warm-up rounds), microseconds:
+  mean 365   p10 117   median 295   p90 662   max 1820
+  instrumented pass: 1131 us per Air Lift (counters and timers on)
+  memory allocated: 563 KB per Air Lift
+
+per Air Lift (averages over the 300 boards); timed phases are inclusive and nest:
+  work                                                           calls  us total  us/call
+  origin selection (selectAirLiftOrigin)                          10.4     842.2    80.75
+  pieces from one origin (keep + move rules)                      48.8     491.8    10.09
+  keep-rules computed (mustKeepInOriginUncached)                  26.6     223.0     8.40
+  move-rules (selectPiecesToMove)                                 48.8     156.3     3.21
+  destination pick (filter + ranking)                             10.1     106.6    10.60
+  destination ranking (pickSpaceAirLiftDest)                       9.9      63.8     6.45
+  count movable (maxMoveablePieces)                               18.3      45.5     2.48
+  another origin? (canSelectAnotherOrigin)                         2.0      21.6    10.79
+  actual moves (movePieces)                                        2.0      19.7    10.07
+  destinations served                                              1.7
+  destinations tried                                               9.9
+  failed destination: free pieces exist, rules decline them        4.5
+  failed destination: no free pieces anywhere                      3.6
+  failed destination: no new origin allowed                        4.0
+  keep-rules: cache hits                                          61.6
+  keep-rules: cache misses                                        26.6
+  origin scan: spaces checked                                    284.0
+  origin scan: spaces with liftable pieces (trial move run)       46.8
+  pieces moved                                                     4.6
+
+spaces holding liftable pieces (US Troops, ARVN Troops, Irregulars, Rangers): 14.6 per board on average
+
+cost by destinations tried:
+  tried  boards  median us  served
+      0      10          0    0.00
+      1      30        273    1.00
+      2      93        216    1.98
+      3      34        242    1.94
+      4      11        275    2.00
+      5      25        415    1.80
+      6      26        488    2.00
+      7      12        563    2.00
+      8       9        518    2.44
+     10       2       1025    2.50
+     44      18        628    1.00
+     45      24        662    1.33
+     46       6        602    1.33
