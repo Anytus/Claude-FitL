@@ -1741,6 +1741,150 @@ index b1dc7c3..f0e645f 100644
        else {
          val width = itemsRemaining.size.toString.size
          println(menuPrompt)
+diff --git a/src/main/scala/fitl/Lookahead.scala b/src/main/scala/fitl/Lookahead.scala
+new file mode 100644
+index 0000000..f70186c
+--- /dev/null
++++ b/src/main/scala/fitl/Lookahead.scala
+@@ -0,0 +1,138 @@
++//  Lookahead: score a US candidate action by playing the game forward.
++//  Part of the Claude-FitL harness; not in the upstream program.
++//
++//  From the position after the candidate (its trial), the game is played on
++//  with every faction as a Bot (the US by its Tru'ng routines, so the search
++//  does not call itself) until the Victory check of the next Coup, or to the
++//  end of the game in the final campaign. Only public information is used:
++//  the event cards still to come are drawn as the deck's piles allow given
++//  the cards seen, and the Bots' Tru'ng decks are reshuffled. Each candidate
++//  is played forward on the same set of seeds (common random numbers).
++//
++//  A playout's value, survival first:
++//    a Bot over its line at the Victory check (the game would end): -100
++//    the check passed: the US lead (US margin minus the best rival's)
++//    the final Coup: the US lead, plus 100 if the US wins
++//  A playout that fails (a program assertion, a Bot loop) is left out.
++
++package fitl
++
++import java.io.{OutputStream, PrintStream}
++import scala.util.Random
++import FireInTheLake._
++
++object Lookahead {
++  var inRollout = false
++  val Debug = sys.env.contains("FITL_LA_DEBUG")
++  val LossValue = -100.0
++  val WinBonus  = 100.0
++  val RolloutWork = 2000000L          // keep-rule evaluations per playout (the Bots' loop bug)
++
++  object Stats {
++    val on = sys.env.contains("FITL_LA_STATS")
++    var decisions = 0L; var rollouts = 0L; var failed = 0L; var nanos = 0L; var changed = 0L
++    if (on) Runtime.getRuntime.addShutdownHook(new Thread(() => {
++      System.err.println(f"Lookahead: $decisions decisions, ${rollouts.toDouble / (decisions max 1)}%.1f playouts and " +
++        f"${nanos / 1e6 / (decisions max 1)}%.0f ms each (${nanos.toDouble / (rollouts max 1) / 1e6}%.1f ms a playout), " +
++        f"$failed failed; the look-ahead changed the choice in $changed")
++    }))
++  }
++
++  private val sink = new PrintStream(new OutputStream { def write(b: Int): Unit = () })
++
++  def lead(scores: List[Score]): Double = {
++    val m = scores.map(s => s.faction -> s.score).toMap
++    (m(US) - (m(ARVN) max m(NVA) max m(VC))).toDouble
++  }
++
++  //  One playout from `start` (US action done and recorded); None if it failed.
++  def playout(start: GameState, seed: Long, horizonCoups: Int): Option[Double] = {
++    val savedGame = game
++    val savedWork = Bot.workLeft
++    var result: Option[Double] = None
++    inRollout = true
++    try {
++      Bot.testOutcome {
++        Random.setSeed(seed)
++        game = start.copy(trungDeck = new Random(seed * 13 + 5).shuffle(start.trungDeck))
++        Bot.workLeft = RolloutWork
++        val tail   = new Autoplay.Tail
++        val reader = new Autoplay.ScriptedReader(tail, Branch.deckFrom(game.cardsSeen, new Random(seed * 31 + 7)))
++        Console.withOut(new PrintStream(tail, false)) {
++          Console.withIn(reader) {
++            var coups = 0
++            var steps = 0
++            while (result.isEmpty && !game.gameOver) {
++              steps += 1
++              if (steps > 3000) throw new IllegalStateException("playout step limit")
++              game = game.copy(log = Vector.empty)
++              if (game.needsCardDraw)
++                drawNextCard()
++              val pivot = if (eventDeck.isPivotalCard(game.currentCard)) None else getPivotalFaction
++              pivot foreach { f =>
++                game = game.copy(currentCard = f.pivotCard, pivotCardsAvailable = game.pivotCardsAvailable - f)
++              }
++              if (game.isCoupRound) {
++                val before = game.scores
++                val final_ = game.isFinalCampaign
++                if (before.exists(s => s.faction != US && s.score > 0))
++                  result = Some(LossValue)
++                else if (!final_ && coups + 1 >= horizonCoups)
++                  result = Some(lead(before))
++                else {
++                  resolveCoupCard()
++                  coups += 1
++                  if (final_ || game.gameOver) {
++                    val win = game.scores.head.faction == US
++                    result = Some(lead(game.scores) + (if (win) WinBonus else 0.0))
++                  }
++                  else
++                    game = game.copy(needsCardDraw = true)
++                }
++              }
++              else game.actingFaction match {
++                case None => game = game.copy(needsCardDraw = true)
++                case Some(_) =>
++                  Bot.act()
++                  if (game.sequence.exhausted)
++                    game = game.copy(needsCardDraw = true)
++              }
++            }
++          }
++        }
++      }
++    }
++    catch { case e: Throwable =>
++      result = None
++      if (Debug && Stats.failed < 3) { System.err.println(s"playout failed: $e"); e.printStackTrace(System.err) }
++    }
++    finally { inRollout = false; Bot.workLeft = savedWork; game = savedGame }
++    if (result.isEmpty) Stats.failed += 1
++    Stats.rollouts += 1
++    result
++  }
++
++  //  The position after the US action, as Bot.act would leave it.
++  def afterAction(g: GameState, action: Action): GameState = {
++    val seq = g.sequence.addActor(US, action)
++    g.copy(sequence = seq, needsCardDraw = g.needsCardDraw || seq.exhausted)
++  }
++
++  //  Mean playout value of each position, on common seeds: `rollouts` each,
++  //  then 2 x `rollouts` more for the best two (their mean over all of them).
++  def values(positions: List[(String, GameState)], rollouts: Int, seed: Long, horizonCoups: Int): Map[String, Double] = {
++    val got = scala.collection.mutable.Map.empty[String, Vector[Double]].withDefaultValue(Vector.empty)
++    def more(name: String, pos: GameState, from: Int, until: Int): Unit =
++      got(name) = got(name) ++ (from until until).flatMap(r => playout(pos, seed + 104729L * r, horizonCoups))
++    def mean(name: String) = if (got(name).isEmpty) Double.NegativeInfinity else got(name).sum / got(name).size
++    positions foreach { case (n, p) => more(n, p, 0, rollouts) }
++    if (positions.size > 2)
++      positions.sortBy(np => -mean(np._1)).take(2) foreach { case (n, p) => more(n, p, rollouts, 3 * rollouts) }
++    if (Debug) positions foreach { case (n, _) =>
++      val vs = got(n); val m = mean(n)
++      val sd = if (vs.size > 1) math.sqrt(vs.map(v => (v - m) * (v - m)).sum / (vs.size - 1)) else 0.0
++      System.err.println(f"  LA card ${game.currentCard}%3d seen ${game.cardsSeen.size}%2d  $n%-36s mean $m%7.2f sd $sd%6.2f losses ${vs.count(_ <= LossValue + 50)}/${vs.size}")
++    }
++    positions.map { case (n, _) => n -> mean(n) }.toMap
++  }
++}
 diff --git a/src/main/scala/fitl/Prof.scala b/src/main/scala/fitl/Prof.scala
 new file mode 100644
 index 0000000..6e68e39
@@ -2127,10 +2271,10 @@ index 0000000..ee8e4cd
 +}
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..d14d9f3
+index 0000000..c79eaa9
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,536 @@
+@@ -0,0 +1,561 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2173,6 +2317,9 @@ index 0000000..d14d9f3
 +    commitPlan: Boolean,
 +    hingeBuffer: Double,
 +    explore: Double,
++    lookahead: Int,          // playouts per shortlisted candidate (0: the weighted score alone)
++    laCandidates: Int,       // candidates shortlisted by the weighted score for the look-ahead
++    laCoups: Int,            // play forward to the Victory check of this many Coups ahead
 +    focuses: List[String],
 +    weights: Map[String, Double])
 +
@@ -2254,7 +2401,7 @@ index 0000000..d14d9f3
 +
 +  val DefaultTrialWork = 5000L
 +
-+  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "explore", "focuses", "weights", "name")
++  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "explore", "lookahead", "la_candidates", "la_coups", "focuses", "weights", "name")
 +
 +  def load(path: String): Unit = {
 +    val text = new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(path)), "UTF-8")
@@ -2287,6 +2434,9 @@ index 0000000..d14d9f3
 +      commitPlan  = m.get("commit_plan").exists(_ == true),
 +      hingeBuffer = m.get("hinge_buffer").map(num).getOrElse(3.0),
 +      explore     = m.get("explore").map(num).getOrElse(0.0),
++      lookahead   = m.get("lookahead").map(num(_).toInt).getOrElse(0),
++      laCandidates = m.get("la_candidates").map(num(_).toInt).getOrElse(5),
++      laCoups     = m.get("la_coups").map(num(_).toInt).getOrElse(1),
 +      focuses     = focuses,
 +      weights     = DefaultWeights ++ w))
 +  }
@@ -2508,7 +2658,7 @@ index 0000000..d14d9f3
 +  // ---------------------------------------------------------------
 +  def act(card: EventCard): Action = {
 +    val cfg = config.get
-+    if (cfg.mode == "trung")
++    if (cfg.mode == "trung" || Lookahead.inRollout)
 +      trungAction(US, card)
 +    else
 +      search(cfg, card)
@@ -2580,6 +2730,7 @@ index 0000000..d14d9f3
 +    //  tie-breaks) are the candidate's plan: later trials and the real action
 +    //  replay them, so only the dice differ.
 +    val trialPicks = scala.collection.mutable.Map.empty[String, List[String]]
++    val post       = scala.collection.mutable.Map.empty[String, GameState]   // after each candidate's first trial
 +    val plans      = scala.collection.mutable.Map.empty[String, List[(List[String], String)]]
 +    def startReplay(name: String): Unit = if (cfg.commitPlan) {
 +      planReplay = plans.getOrElse(name, Nil); planReplaying = true; planDiverged = false
@@ -2595,7 +2746,8 @@ index 0000000..d14d9f3
 +        if (cfg.commitPlan) { if (k == 1) planRecord = Some(record) else startReplay(c.name) }
 +        try testOutcome {
 +          initTurnVariables()
-+          c.run() map (a => (value(cfg, game, extras(a, card)),
++          c.run() map (a => (value(cfg, game, extras(a, card)) +
++                               { if (k == 1 && cfg.lookahead > 0) post(c.name) = Lookahead.afterAction(game, a); 0.0 },
 +                             if (designLog.nonEmpty) features(game, cfg.hingeBuffer) ++ extras(a, card) else Map.empty[String, Double]))
 +        }
 +        catch { case _: Throwable => None }
@@ -2610,7 +2762,24 @@ index 0000000..d14d9f3
 +      }
 +      if (runs.isEmpty) None else Some((c, runs.map(_._1).sum / runs.size, runs.head._2))
 +    }
-+    val scored = trials map { case (c, v, _) => c -> v }
++    val scored0 = trials map { case (c, v, _) => c -> v }
++    //  Look-ahead: the best few by the weighted score are played forward and
++    //  ranked by their playouts (see Lookahead); the rest cannot be chosen.
++    val scored = if (cfg.lookahead <= 0 || scored0.size < 2) scored0 else {
++      val t0 = System.nanoTime
++      //  The best `la_candidates` distinct positions (many candidates differ
++      //  only in a space focus that changed nothing).
++      val short = scored0.sortBy(-_._2).filter(cv => post.contains(cv._1.name))
++        .foldLeft(List.empty[(Candidate, Double)]) { (acc, cv) =>
++          if (acc.size >= cfg.laCandidates || acc.exists(a => post(a._1.name) == post(cv._1.name))) acc else acc :+ cv
++        }
++      val la = Lookahead.values(short.map(cv => cv._1.name -> post(cv._1.name)), cfg.lookahead,
++                                base ^ 0x6A09E667F3BCC909L, cfg.laCoups)
++      Lookahead.Stats.decisions += 1
++      Lookahead.Stats.nanos += System.nanoTime - t0
++      if (short.nonEmpty && short.maxBy(cv => la(cv._1.name))._1 != scored0.maxBy(_._2)._1) Lookahead.Stats.changed += 1
++      scored0 map { case (c, v) => c -> la.getOrElse(c.name, Double.NegativeInfinity) }
++    }
 +
 +    val (top, topValue) = scored.maxBy(_._2)
 +    //  explore > 0: with that probability carry out a candidate chosen at
