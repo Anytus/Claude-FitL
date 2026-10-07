@@ -1,0 +1,15 @@
+results/teacher/screen_labels.jsonl: 982 alternatives in 343 decisions
+  mean alternative minus the bot's choice -2.2 points of win chance
+  spread (sd) observed 8.3; true, by the noise model 6.3, by split halves 6.4, split halves without the top and bottom 1% 4.4
+  perfect choice among the tested alternatives (split-half spread): +3.7 points a decision
+  perfect choice among the tested alternatives (trimmed spread): +2.1 points a decision
+results/teacher/space_labels.jsonl (turn): 822 alternatives in 308 decisions
+  mean alternative minus the bot's choice -0.8 points of win chance
+  spread (sd) observed 5.5; true, by the noise model 2.6, by split halves 2.7, split halves without the top and bottom 1% 0.3
+  perfect choice among the tested alternatives (split-half spread): +1.6 points a decision
+  perfect choice among the tested alternatives (trimmed spread): +0.0 points a decision
+results/teacher/space_labels.jsonl (coup): 182 alternatives in 78 decisions
+  mean alternative minus the bot's choice +0.5 points of win chance
+  spread (sd) observed 6.5; true, by the noise model 3.2, by split halves 3.6, split halves without the top and bottom 1% 3.1
+  perfect choice among the tested alternatives (split-half spread): +3.0 points a decision
+  perfect choice among the tested alternatives (trimmed spread): +2.6 points a decision

@@ -48,3 +48,7 @@ Conclusions:
    Failed Attempt on deck.
 Caveats: the alternatives are only the best of each kind by the policy's own score;
 the playouts use the same policy, so this measures one step of improvement only.
+
+CORRECTION (reanalysis.txt): conclusions 1-2 above read held-out regret as the prize. It is what a
+chooser with 50 noisy playouts gains. The true spread of the alternatives is 4-6 points (sd) and a
+perfect chooser among them would gain about 2-4 points a decision; see reanalysis.txt.

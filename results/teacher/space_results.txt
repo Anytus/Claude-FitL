@@ -50,3 +50,8 @@ Conclusions:
    check, where one choice puts a rival over its line and another does not. A targeted
    guard for those (check each candidate and its space variants against the coming
    Victory check, including the Coup card's own effect) is the remaining concrete lead.
+
+CORRECTION (reanalysis.txt): the verdicts above rest on held-out regret, what a chooser with 50
+noisy playouts gains. For the Coup Pacify the true spread is about 3 points (sd) and a perfect
+chooser among 2-3 random alternatives would gain about 2.5-3 points a Coup; for one space pick in
+a US action typical changes are truly near-equal (sd 0.3 without the extreme 1%). See reanalysis.txt.

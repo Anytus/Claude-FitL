@@ -213,34 +213,38 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   one decision, Americal in the final campaign, is +92.5 for the Event.
   So the pilot neither confirms nor refutes the Event result by itself.
 
-## Screening all US decisions (`results/teacher/screen_results.txt`)
+## Screening all US decisions (`results/teacher/screen_results.txt`, corrected by `reanalysis.txt`)
 
-- In 343 sampled US decisions, the search bot's pick loses on average
-  +0.2 points of win chance (se 0.3) against the playout-best of its top
-  candidate of each of 4 kinds. So nothing measurable is left in re-ranking
-  the menu it already searches; the gap lies in how Operations are carried
-  out (spaces and pieces by the Tru'ng routines), the Coup-round decisions,
-  or options not in the menu.
+- 343 sampled US decisions, each with the bot's pick and the best-scoring
+  candidate of up to 3 other kinds, played to the end 100 times each.
+- Which kind of action matters: the true spread of the alternatives
+  against the bot's pick is about 4-6 points of win chance (sd; split-half
+  estimate), the average alternative 2.2 points worse than the pick. A
+  perfect chooser among those few alternatives would gain about 2-4 points
+  a decision. (The screen's own measure, held-out regret +0.2, is what a
+  chooser with 50 noisy playouts gains; it was first misread as "nothing to
+  gain".)
 - The policy's score predicts which candidate is better only weakly
-  (correlation 0.16), but its candidates are mostly worth about the same.
+  (correlation 0.16), and 100 playouts leave about 5 points of noise per
+  comparison: the bot cannot tell which alternative is better.
 - Coup! Failed Attempt on deck: its ARVN Desertion is resolved before the
   Victory phase. In one game the bot's pick then put NVA over its line (lost
   every playout; alternatives won 34-46%). The bot's features do not see the
   Coup card's own effect (1 game in 122).
 
-## Space choice (`results/teacher/space_results.txt`)
+## Space choice (`results/teacher/space_results.txt`, corrected by `reanalysis.txt`)
 
-- Changing one space pick of the bot's action (to another space that pick
-  was offered) gains nothing on average: held-out regret +0.2 points a
-  decision (se 0.3) over 308 US-turn decisions. A random change costs 0.8
-  (se 0.2): the Tru'ng priorities are slightly better than random.
-- Coup Support-phase Pacify: +0.6 (se 0.6) over 78 Coups, inconclusive; a
-  random eligible space is as good as the Tru'ng pick (+0.5, se 0.5).
-- The decisive decisions found so far (2 in about 730 labelled) are the last
-  US action before a Victory check, where the chosen action leaves a rival
-  over its line and an alternative the search did not compare would not
-  (Failed Attempt on deck; Train in the Tru'ng space with VC one point from
-  its line).
+- One space pick of a US action changed to another space that pick was
+  offered: typical changes are truly near-equal (true sd 0.3 points without
+  the extreme 1%), a random change costs 0.8 (se 0.2), and the spread is in
+  a few decisive positions (2 found in about 730 labelled decisions: the
+  last US action before a Victory check, where the chosen action leaves a
+  rival over its line and an alternative the search did not compare would
+  not).
+- Coup Support-phase Pacify: where the US Pacifies matters broadly, about 3
+  points (sd) per alternative; the Tru'ng ordering is no better than a random
+  eligible space (+0.5, se 0.5); a perfect choice among 2-3 random
+  alternatives would gain about 2.5-3 points a Coup.
 - Long runs survive only while this session is active: the container was
   reclaimed twice within minutes of the session going idle, taking the
   background jobs with it.
