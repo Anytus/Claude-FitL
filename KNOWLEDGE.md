@@ -100,11 +100,32 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   LLM that counts is Support at the end: about 22 for the bot at the final
   check against 30-38 in the LLM games 7, 9 and 10.
 
+## Where the LLM's extra Support came from (`results/diagnostics/q5_support.txt`)
+
+- Support per full game, LLM (4) against search bot (246): Coup rounds
+  +30.0 against +21.5 (5.0 against 3.6 a Coup); US Operations +26.5 against
+  +20.6 (33 actions and 4 Passes a game against about 25 and 7); VC Events
+  -23.0 against -18.3; ARVN Govern -13.2 against -8.7. Net about +18
+  against +8.
+- Going into a Coup both have about 3 eligible Pacify spaces worth about 6
+  Support, but ARVN Resources above Econ are 19.0 for the LLM against 6.6
+  for the bot.
+- The difference is ARVN income, not spending: US and ARVN spend about the
+  same; Coup rounds add +109 ARVN Resources a game for the LLM against +72.
+  ARVN income is Econ + US Aid, and US Aid at the checks rises to 40-57 in
+  the LLM games while it sinks from 18 to 7 in the bot's.
+- Cause: the US Tru'ng Advise routine adds the free +6 Aid only when ARVN
+  is human (`Bot.US_Bot.adviseActivity`). Under `--us-player` ARVN
+  Resources are tracked, so the bot gives up +6 Aid on every Advise, which
+  a human US (and the LLM) takes. Same kind of stand-in as the activation
+  rolls and the d3 Pacify cap.
+
 ## Open questions
 
-- Why the bot's Support stalls at 22-25 from Coup 3 on (Coup-round
-  Pacify gains fade from +8 to about 0; VC Events take 4-5 a campaign)
-  while the LLM's reached 30-38?
+- Does giving the bot the +6 Aid on Advise (when ARVN Resources are
+  tracked) raise Coup Pacify, final Support and wins? More ARVN Resources
+  also fund the ARVN Bot's own Operations and Govern, so the sign on wins
+  is not certain.
 - Can the US deny VC its Events, Tet and Coup Agitation (the measured
   causes of VC crossings) more than the search bot does, and at what cost
   in score?

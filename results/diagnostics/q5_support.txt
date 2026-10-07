@@ -1,0 +1,86 @@
+Support (total, population x level) gained or lost, by source
+ LLM game 7: start 15, end 34; US Op +34, Coup round +33, VC Event -26, ARVN Op -11, NVA Op -6, VC Op -5
+ LLM game 8: start 15, end 20; Coup round +38, VC Event -38, US Op +19, ARVN Op -8, NVA Op -6
+ LLM game 9: start 15, end 39; US Op +25, Coup round +25, ARVN Op -18, VC Event -6, VC Op -2
+ LLM game 10: start 15, end 38; Coup round +37, US Op +28, VC Event -22, ARVN Op -16, VC Op -2, ARVN Event -1, US Event -1
+
+ LLM, mean per game (4 games, 34 US Ops/Events a game):
+   Coup round     +33.2
+   US Op          +26.5
+   VC Event       -23.0
+   ARVN Op        -13.2
+   NVA Op          -3.0
+   VC Op           -2.2
+   ARVN Event      -0.2
+   US Event        -0.2
+
+ Search bot, mean per game (397 games, 22 US Ops/Events a game; 5.1 Coup rounds a game against 6 in the LLM games 7-10):
+   Coup round     +19.0
+   US Op          +17.0
+   VC Event       -16.6
+   ARVN Op         -7.3
+   VC Op           -2.7
+   ARVN Event      -2.2
+   US Event        +1.0
+   NVA Event       -0.9
+   NVA Op          -0.8
+
+ Search bot, games reaching the final Coup only (246), mean per game:
+   Coup round     +21.5
+   US Op          +20.6
+   VC Event       -18.3
+   ARVN Op         -8.7
+   VC Op           -3.2
+   ARVN Event      -2.5
+   NVA Op          -1.2
+   US Event        +1.1
+   NVA Event       -1.1
+At each Coup, before the round: US-eligible Pacify spaces, Support they could add (best 4), ARVN Resources above Econ; then the Support change over the round
+ LLM    23 Coups: eligible  2.7  best-4 potential   6.0  spendable  19.0  Support change in the round  +4.7
+ bot  2017 Coups: eligible  3.2  best-4 potential   6.3  spendable   6.6  Support change in the round  +3.7
+
+ Bot Coups by eligible spaces:
+   eligible 0:  377 Coups, mean potential   0.0, spendable   5.0, Support change  -0.3
+   eligible 1:  241 Coups, mean potential   2.9, spendable   6.4, Support change  +1.2
+   eligible 2:  321 Coups, mean potential   4.8, spendable   6.1, Support change  +3.9
+   eligible 3:  351 Coups, mean potential   8.2, spendable   8.6, Support change  +6.9
+   eligible 4:  199 Coups, mean potential   9.1, spendable   6.1, Support change  +4.5
+   eligible 5:  146 Coups, mean potential   9.9, spendable   6.2, Support change  +4.7
+   eligible 6:  105 Coups, mean potential  10.1, spendable   6.3, Support change  +4.6
+   eligible 7:   87 Coups, mean potential  11.2, spendable   6.4, Support change  +6.1
+
+ Bot Coups with spendable < 3 (cannot afford one level before the Resources phase): 42%
+ LLM Coups: [(7, 3, 8, 2, 6), (7, 1, 2, 15, 1), (7, 1, 2, 23, 2), (7, 2, 8, 26, 8), (7, 3, 6, 18, 0), (8, 3, 6, 9, 8), (8, 2, 5, -12, 0), (8, 3, 15, 3, 15), (8, 4, 13, -12, 9), (8, 5, 6, 13, 6), (8, 2, 4, 11, 0), (9, 2, 8, 0, 10), (9, 0, 0, 21, 1), (9, 1, 2, 52, 2), (9, 6, 5, 18, 5), (9, 1, 6, 32, 6), (9, 1, 1, 58, 0), (10, 2, 4, 21, 6), (10, 4, 10, 30, 6), (10, 6, 14, 9, 13), (10, 5, 5, 8, 3), (10, 0, 0, 44, 1), (10, 4, 8, 48, 0)]
+
+LLM Support by source, Coup rounds taken exactly from the saves:
+  game 7: US Op +34, Coup round +29, VC Event -26, ARVN Op -11, NVA Op -6, VC Op -5, other +4
+  game 8: Coup round +38, VC Event -38, US Op +19, ARVN Op -8, NVA Op -6
+  game 9: US Op +25, Coup round +24, ARVN Op -18, VC Event -6, VC Op -2, other +1
+  game 10: Coup round +29, US Op +28, VC Event -22, ARVN Op -16, other +8, VC Op -2, ARVN Event -1, US Event -1
+  mean per game: Coup round +30.0, US Op +26.5, VC Event -23.0, ARVN Op -13.2, other +3.2, NVA Op -3.0, VC Op -2.2, ARVN Event -0.2, US Event -0.2
+  US actions a game: 33.2 Ops/Events, 4.2 Passes
+ARVN Resources: change per game by source
+ LLM, mean per game: Coup round +109.0, ARVN Op -85.0, US Op -47.5, ARVN Pass +15.0, ARVN Event +12.8, US Pass +12.8, other +4.0
+   (US Patronage transfers logged: 0.0 a game)
+ Search bot, games reaching the final Coup (246), mean per game: ARVN Op -79.3, Coup round +72.1, US Op -48.2, US Pass +27.1, ARVN Pass +14.1, ARVN Event +12.8, NVA Event -0.8, US Event -0.8, VC Event -0.5
+   bot US actions by candidate, ARVN Resources per action (count a game):
+     Train[arvn<=1]+Advise      -3.20  (8.6 a game)
+     Train                      -2.41  (2.6 a game)
+     Train[arvn<=1]+AirStrike   -2.98  (1.7 a game)
+     Train[arvn<=1]+AirLift     -3.29  (1.5 a game)
+     Assault+AirLift            -1.24  (2.7 a game)
+     Event                      -0.51  (1.6 a game)
+     Assault+AirStrike          -0.37  (0.9 a game)
+     Train[arvn<=2]+AirLift     -13.50  (0.0 a game)
+
+US Aid and Econ at each Victory check (mean)
+
+US Aid and Econ at each Victory check (mean)
+Coup    LLM Aid  Econ  ARVN Res    bot Aid  Econ  ARVN Res
+C1         22.8  15.0      26.2       18.4  15.0      22.7
+C2         28.5  14.5      24.8       16.4  14.6      21.7
+C3         27.8  12.2      32.0       14.4  14.0      21.1
+C4         57.2  13.0      22.2       11.0  13.2      21.8
+C5         49.2  11.8      40.5        8.3  12.9      16.6
+C6         40.5  13.2      47.0        7.2  12.6      16.5
+bot, Aid change per full game by source: Coup round -36.4, ARVN Event +17.3, US Op +16.9, VC Event -10.8, US Event +3.6, NVA Event -3.6, ARVN Op +3.2

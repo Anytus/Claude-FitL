@@ -127,10 +127,10 @@ index 0000000..d5c5205
 +}
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..8236064
+index 0000000..36c3db4
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,310 @@
+@@ -0,0 +1,311 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -228,8 +228,8 @@ index 0000000..8236064
 +  def comps(g: GameState): Map[String, Int] = Map(
 +    "sup" -> g.totalSupport, "opp" -> g.totalOpposition, "vcb" -> g.vcBasesOnMap,
 +    "nvac" -> g.totalNvaControl, "nvab" -> g.nvaBasesOnMap, "coin" -> g.totalCoinControl,
-+    "pat" -> g.patronage, "usav" -> g.availablelUSTroopsAndBases)
-+  val CompKeys = List("sup", "opp", "vcb", "nvac", "nvab", "coin", "pat", "usav")
++    "pat" -> g.patronage, "usav" -> g.availablelUSTroopsAndBases, "ares" -> g.arvnResources, "econ" -> g.econ, "aid" -> g.usAid)
++  val CompKeys = List("sup", "opp", "vcb", "nvac", "nvab", "coin", "pat", "usav", "ares", "econ", "aid")
 +  def compsJson(m: Map[String, Int], skipZero: Boolean): String =
 +    CompKeys.filter(k => !skipZero || m(k) != 0).map(k => s""""$k":${m(k)}""").mkString("{", ",", "}")
 +  def deltaJson(a: Map[String, Int], b: Map[String, Int]) =
@@ -308,13 +308,14 @@ index 0000000..8236064
 +              val coupNum = game.coupCardsPlayed + 1
 +              val before = game.scores
 +              val c0 = comps(game)
++              val pac0 = if (trace) Diag.coupPacify(game) else ""
 +              val earlyWinner = before
 +                .filter(e => e.score > 0)
 +                .filterNot(e => noEarlyWin(e.faction))
 +                .headOption
 +              if (usHuman) USPlayer.coup() else resolveCoupCard()
 +              coups += s"""{"coup":$coupNum,"card":${game.currentCard},"victory_check":${scoreJson(before)}""" +
-+                (if (trace) s""","at":${compsJson(c0, false)},"d":${deltaJson(c0, comps(game))}""" else "") + "}"
++                (if (trace) s""","at":${compsJson(c0, false)},"d":${deltaJson(c0, comps(game))},"pac":$pac0""" else "") + "}"
 +              if (game.gameOver) {
 +                endCoup = coupNum
 +                winner = earlyWinner.map(_.faction.toString) getOrElse game.scores.head.faction.toString
@@ -1433,6 +1434,42 @@ index 0000000..f6d8e50
 +      }
 +    }
 +  }
++}
+diff --git a/src/main/scala/fitl/Diag.scala b/src/main/scala/fitl/Diag.scala
+new file mode 100644
+index 0000000..56d3b5b
+--- /dev/null
++++ b/src/main/scala/fitl/Diag.scala
+@@ -0,0 +1,30 @@
++//  Diag: diagnostic measures of a position. Part of the Claude-FitL harness.
++//
++//  Usage: java -cp "fitl/lib/*" fitl.Diag SAVE...   (one JSON line per save)
++
++package fitl
++
++import FireInTheLake._
++
++object Diag {
++  //  What the coming Coup's Support phase could give the US, by the
++  //  program's rules (pacifyCandidate): the eligible spaces, the Support it
++  //  could add in the best 4 of them (population x levels to Active Support,
++  //  at most 2 levels a space), and ARVN Resources above Econ.
++  def coupPacify(g: GameState): String = {
++    val saved = game
++    game = g
++    try {
++      val cands = g.nonLocSpaces filter pacifyCandidate(US)
++      val gains = cands.map(sp => sp.population * ((ActiveSupport.value - sp.support.value) min 2)).sorted(Ordering[Int].reverse)
++      s"""{"eligible":${cands.size},"best4":${gains.take(4).sum},"spendable":${g.arvnResources - g.econ}}"""
++    }
++    finally game = saved
++  }
++
++  def main(args: Array[String]): Unit =
++    for (p <- args) {
++      val g = SavedGame.load(FUtil.Pathname(p))
++      println(s"""{"save":"$p","pac":${coupPacify(g)}}""")
++    }
 +}
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
 index b1dc7c3..f0e645f 100644
