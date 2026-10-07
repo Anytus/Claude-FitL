@@ -438,6 +438,16 @@ wins 5 points less than without it (`results/lookahead_v1.txt`). A playout's
 value has an sd of about 35, so a few dozen playouts cannot rank candidates
 whose risk differs by a few percent.
 
+### Diagnostics
+
+`KNOWLEDGE.md` collects what is established, with evidence. The four
+diagnostic studies behind it are in `results/diagnostics/`: how the search
+bot loses (from 400 traced games), the LLM games' Victory checks against the
+bot's, calibration of playout risk estimates (`FITL_CALIBRATE=N`,
+`FITL_ROLLOUT_SEARCH=1`, `tools/botcalib.py`), and how much of the outcome is
+controllable (`Autoplay --salt K`: the same seed's event deck with other
+dice and Bot draws).
+
 ## Information boundary
 
 The playing session may read: the rendered board view, `cards.json`,

@@ -127,10 +127,10 @@ index 0000000..d5c5205
 +}
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..088f301
+index 0000000..8236064
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,286 @@
+@@ -0,0 +1,310 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -239,9 +239,30 @@ index 0000000..088f301
 +
 +  //  --us-human: the US is a human player whose prompts USPlayer answers.
 +  var usHuman = false
++  //  --salt K: the same seed's event deck, different dice and Bot draws.
++  var salt = 0L
++  //  FITL_CALIBRATE=N: after each US action, N playouts estimate the chance
++  //  that a Bot is over its line at the next Coup's Victory check; one JSON
++  //  line per US action to FITL_CALIBRATE_OUT (stderr if unset). The game's
++  //  random stream is restored, so the game is the one played without it.
++  val calibrate = sys.env.get("FITL_CALIBRATE").map(_.toInt).getOrElse(0)
++  lazy val calOut: java.io.PrintStream = sys.env.get("FITL_CALIBRATE_OUT")
++    .map(p => new java.io.PrintStream(new java.io.FileOutputStream(s"$p.${ProcessHandle.current.pid}", true), true))
++    .getOrElse(System.err)
++  def calibrateHere(seed: Long): Unit = if (calibrate > 0) {
++    val resume = Random.nextLong()
++    val pos = if (game.sequence.exhausted) game.copy(needsCardDraw = true) else game
++    val vals = (0 until calibrate).flatMap(r => Lookahead.playout(pos, resume + 7919L * r, 1))
++    Random.setSeed(resume)
++    if (vals.nonEmpty) {
++      val loss = vals.count(_ <= Lookahead.LossValue).toDouble / vals.size
++      calOut.println(s"""{"seed":$seed,"card":${game.currentCard},"seen":${game.cardsSeen.size},"coups":${game.coupCardsPlayed},""" +
++                     f""""final":${game.isFinalCampaign},"n":${vals.size},"p_loss":$loss%.4f,"mean":${vals.sum / vals.size}%.3f}""")
++    }
++  }
 +
 +  def runGame(seed: Long, usFinalOnly: Boolean, trace: Boolean = false): String = {
-+    Random.setSeed(seed)
++    Random.setSeed(seed + salt * 1000003L)
 +    USPolicy.gameSeed = seed; USPolicy.decisions = 0
 +    val deck = buildDeck(new Random(seed * 6364136223846793005L + 1442695040888963407L))
 +    var cardIdx = 0
@@ -310,6 +331,7 @@ index 0000000..088f301
 +                  val card = game.currentCard
 +                  tail.rec.setLength(0); tail.recording = true
 +                  try { if (usHuman && f == US) USPlayer.act() else Bot.act() } finally tail.recording = false
++                  if (f == US) calibrateHere(seed)
 +                  val text = tail.rec.toString
 +                  val act = if (game.sequence.numActors > seq0.numActors) game.sequence.actors.last.action.toString
 +                            else if (game.sequence.passed(f) && !seq0.passed(f)) "Pass" else "?"
@@ -322,6 +344,7 @@ index 0000000..088f301
 +                    game = game.copy(needsCardDraw = true)
 +                case Some(f) =>
 +                  if (usHuman && f == US) USPlayer.act() else Bot.act()
++                  if (f == US) calibrateHere(seed)
 +                  if (game.sequence.exhausted)
 +                    game = game.copy(needsCardDraw = true)
 +              }
@@ -391,6 +414,7 @@ index 0000000..088f301
 +    usIsPlayer  = args.contains("--us-player") || args.contains("--vc-sees-player")
 +    arvnTracked = args.contains("--us-player") || args.contains("--track-arvn")
 +    usHuman = args.contains("--us-human")
++    salt = arg("--salt", "0").toLong
 +    if (usHuman) { usIsPlayer = true; arvnTracked = true }
 +    val policy = arg("--us-policy", "")
 +    if (policy.nonEmpty)
@@ -1743,10 +1767,10 @@ index b1dc7c3..f0e645f 100644
          println(menuPrompt)
 diff --git a/src/main/scala/fitl/Lookahead.scala b/src/main/scala/fitl/Lookahead.scala
 new file mode 100644
-index 0000000..f70186c
+index 0000000..bba93bb
 --- /dev/null
 +++ b/src/main/scala/fitl/Lookahead.scala
-@@ -0,0 +1,138 @@
+@@ -0,0 +1,141 @@
 +//  Lookahead: score a US candidate action by playing the game forward.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -1772,6 +1796,9 @@ index 0000000..f70186c
 +
 +object Lookahead {
 +  var inRollout = false
++  //  FITL_ROLLOUT_SEARCH=1: in playouts the US plays by its search policy
++  //  (without look-ahead) instead of its Tru'ng routines.
++  val searchInRollout = sys.env.contains("FITL_ROLLOUT_SEARCH")
 +  val Debug = sys.env.contains("FITL_LA_DEBUG")
 +  val LossValue = -100.0
 +  val WinBonus  = 100.0
@@ -2271,7 +2298,7 @@ index 0000000..ee8e4cd
 +}
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..c79eaa9
+index 0000000..9f59bcf
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
 @@ -0,0 +1,561 @@
@@ -2658,7 +2685,7 @@ index 0000000..c79eaa9
 +  // ---------------------------------------------------------------
 +  def act(card: EventCard): Action = {
 +    val cfg = config.get
-+    if (cfg.mode == "trung" || Lookahead.inRollout)
++    if (cfg.mode == "trung" || (Lookahead.inRollout && !Lookahead.searchInRollout))
 +      trungAction(US, card)
 +    else
 +      search(cfg, card)
@@ -2765,7 +2792,7 @@ index 0000000..c79eaa9
 +    val scored0 = trials map { case (c, v, _) => c -> v }
 +    //  Look-ahead: the best few by the weighted score are played forward and
 +    //  ranked by their playouts (see Lookahead); the rest cannot be chosen.
-+    val scored = if (cfg.lookahead <= 0 || scored0.size < 2) scored0 else {
++    val scored = if (cfg.lookahead <= 0 || scored0.size < 2 || Lookahead.inRollout) scored0 else {
 +      val t0 = System.nanoTime
 +      //  The best `la_candidates` distinct positions (many candidates differ
 +      //  only in a space focus that changed nothing).

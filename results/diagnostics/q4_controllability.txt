@@ -1,0 +1,18 @@
+
+search bot, only luck varies (dice, Bot draws; same event deck): 60 seeds x ~7.9 runs
+  US win rate 19.4%; reached final Coup 63%
+  seeds by number of US wins in 8 runs: {0: 24, 1: 12, 2: 8, 3: 8, 4: 3, 5: 3, 6: 1, 7: 1}
+  seeds never won: 24 of 60; won at least once: 36
+  variance of per-seed win rates 0.0494; expected from luck alone if every seed were alike 0.0198
+  share of outcome variance due to the deal (seed): 0.19
+
+search bot with a random choice on 30% of decisions: 60 seeds x ~7.9 runs
+  US win rate 10.1%; reached final Coup 45%
+  seeds by number of US wins in 8 runs: {0: 31, 1: 19, 2: 4, 3: 3, 4: 3}
+  seeds never won: 31 of 60; won at least once: 29
+  variance of per-seed win rates 0.0187; expected from luck alone if every seed were alike 0.0114
+  share of outcome variance due to the deal (seed): 0.08
+
+seeds never won with luck alone but won with random choices: 6
+seeds won with luck alone but never with random choices: 13
+sanity: salt 0 reproduces the traced games on 60 of 60 seeds

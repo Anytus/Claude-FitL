@@ -1,0 +1,37 @@
+Calibration of playout risk estimates (P(a Bot over its line at the next Victory check))
+
+=== A: playouts with the US played by its Tru'ng routines, 30 per US action, 100 games (seeds 1-100)
+2931 US decisions with an estimate, from 100 games
+predicted risk   decisions  mean predicted  observed
+ 0.00-0.00            970           0.000     0.007
+ 0.00-0.10            648           0.047     0.023
+ 0.10-0.20            451           0.129     0.060
+ 0.20-0.30            264           0.228     0.076
+ 0.30-0.50            260           0.376     0.173
+ 0.50-0.70            117           0.582     0.299
+ 0.70-1.01            221           0.892     0.787
+overall: mean predicted 0.174, observed 0.110; Brier 0.0644 against 0.0981 for always predicting the average
+
+=== B: playouts with the US played by the search bot, 20 per US action, 40 games (seeds 1-40)
+1119 US decisions with an estimate, from 40 games
+predicted risk   decisions  mean predicted  observed
+ 0.00-0.00            630           0.000     0.013
+ 0.00-0.10            194           0.050     0.031
+ 0.10-0.20            151           0.119     0.073
+ 0.20-0.30             41           0.218     0.098
+ 0.30-0.50             47           0.365     0.213
+ 0.50-0.70             19           0.583     0.632
+ 0.70-1.01             37           0.887     1.000
+overall: mean predicted 0.087, observed 0.079; Brier 0.0383 against 0.0725 for always predicting the average
+
+=== A restricted to seeds 1-40
+1119 US decisions with an estimate, from 40 games
+predicted risk   decisions  mean predicted  observed
+ 0.00-0.00            385           0.000     0.003
+ 0.00-0.10            262           0.047     0.015
+ 0.10-0.20            171           0.128     0.058
+ 0.20-0.30            101           0.228     0.030
+ 0.30-0.50            108           0.367     0.111
+ 0.50-0.70             27           0.578     0.185
+ 0.70-1.01             65           0.869     0.815
+overall: mean predicted 0.151, observed 0.079; Brier 0.0508 against 0.0725 for always predicting the average

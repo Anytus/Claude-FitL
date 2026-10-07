@@ -1,0 +1,31 @@
+Scores at each Victory check (US, ARVN, NVA, VC; threshold = 0)
+ LLM game 7: C1[-12 -15 -14 -8]  C2[-8 -13 +0 -15]  C3[-1 -10 -8 -15]  C4[-3 -6 -8 -9]  C5[-15 -4 -5 +0]  C6[-3 -5 -6 -5]
+ LLM game 8: C1[-6 -12 -14 -8]  C2[-11 -7 -2 -5]  C3[-15 -4 -5 -9]  C4[-16 -5 -2 -1]  C5[+1 -2 -6 -2]  C6[-7 -1 +2 +2]
+ LLM game 9: C1[-15 -4 -4 -14]  C2[+2 -3 -2 -11]  C3[+1 -4 -6 -15]  C4[+12 -4 -8 -12]  C5[+13 -7 -4 -14]  C6[+15 -4 -2 -12]
+ LLM game 10: C1[-6 -10 -10 -8]  C2[-6 -5 -5 -9]  C3[-7 -5 -9 -10]  C4[-2 -10 -4 -9]  C5[-9 -5 +0 -8]  C6[+0 -5 -2 -10]
+
+ Bot games (397), mean at each check among games reaching it; and LLM mean over its 4 games:
+ Coup     n     US   ARVN    NVA     VC  best rival   | LLM US  best rival  closest-to-line
+ C1     397  -10.0  -11.4  -11.4   -7.7        -6.7   |   -9.8      -7.0
+ C2     390  -16.7  -10.2   -8.3   -7.4        -4.7   |   -5.8      -2.2
+ C3     365  -16.2  -11.8   -6.8   -8.2        -4.4   |   -5.5      -5.2
+ C4     334  -15.0  -11.6   -6.2   -6.9        -3.4   |   -2.2      -3.8
+ C5     285  -11.9  -11.7   -6.1   -6.8        -3.4   |   -2.5      -1.5
+ C6     246   -7.5  -12.7   -5.8   -6.9        -3.2   |   +1.2      -1.8
+
+ Bot games: share of checks where the best rival is within 2 of its line (score >= -2): 27 %
+ LLM games: same share: 42 %
+
+Search bot: change in the US score per campaign, by source (Support 'sup' and US pieces Available 'usav'), mean per game reaching that Coup
+  campaign 1 (n=397): US Op sup +4.9, VC Event sup -1.8, ARVN Op sup -0.7
+     then Coup round 1: Support +8.1, US Available -10.9
+  campaign 2 (n=390): VC Event sup -4.9, US Op sup +3.9, ARVN Op sup -1.6, ARVN Event sup -0.7, NVA Event sup -0.5, US Event sup +0.5, VC Op sup -0.3
+     then Coup round 2: Support +6.8, US Available -1.7
+  campaign 3 (n=365): VC Event sup -4.1, US Op sup +2.9, ARVN Op sup -1.8, ARVN Event sup -1.0, VC Op sup -0.5, NVA Event usav -0.5, VC Event usav -0.4, US Event sup +0.3
+     then Coup round 3: Support +3.0, US Available +1.4
+  campaign 4 (n=334): VC Event sup -4.2, US Op sup +3.0, ARVN Op sup -1.4, VC Op sup -0.8, US Event usav +0.5, ARVN Event sup -0.5
+     then Coup round 4: Support +1.5, US Available +3.0
+  campaign 5 (n=285): US Op sup +2.6, VC Event sup -2.5, ARVN Op sup -1.7, VC Op sup -0.7, US Event usav +0.4, NVA Op sup -0.4
+     then Coup round 5: Support -0.3, US Available +5.6
+  campaign 6 (n=246): US Op sup +2.0, VC Event sup -1.5, ARVN Op sup -1.5, VC Op sup -0.9, NVA Op sup -0.4, US Event usav +0.4
+     then Coup round 6: Support +0.9, US Available +0.0
