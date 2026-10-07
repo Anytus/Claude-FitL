@@ -1,0 +1,39 @@
+Advise +6 Aid test: the US Bot's Advise adds +6 US Aid when ARVN Resources are tracked (as a human US would), not only when ARVN is human.
+Search bot fit3flat, seeds 1-400, --us-final-only --us-player, traced. Baseline: the same without the change (results from the same build otherwise).
+Prediction (stated before the run): Aid and ARVN Resources at the Coups rise, Coup Pacify and final Support rise, wins rise unless the ARVN Bot's extra Resources work against the US.
+
+393 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     19.1%    2.8%   22.1%   56.0%       -10.9    -10.8
+variant      39.2%    6.1%   18.1%   36.6%        -5.3     -3.9
+
+paired change in US wins: +20.1 points of % (se 2.8)
+
+paired change in games reaching the final Coup: +8.9 points of % (se 2.9)
+
+paired change in US margin: +5.59 (se 0.67)
+
+paired change in US lead: +6.92 (se 0.81)
+
+variant games ended at: Coup 1 2%, Coup 2 7%, Coup 3 8%, Coup 4 6%, Coup 5 6%, final 71%
+
+Means at each Victory check (games reaching it): Aid, ARVN Resources, Support, US score, best rival; Support gained in the Coup round
+before
+  C1: Aid  18.4  ARVN Res  22.7  Support  17.1  US -10.0  best rival  -6.7  round Support +8.1
+  C2: Aid  16.4  ARVN Res  21.7  Support  21.8  US -16.7  best rival  -4.7  round Support +6.8
+  C3: Aid  14.4  ARVN Res  21.1  Support  24.8  US -16.2  best rival  -4.4  round Support +3.0
+  C4: Aid  11.0  ARVN Res  21.8  Support  24.6  US -15.0  best rival  -3.4  round Support +1.5
+  C5: Aid   8.3  ARVN Res  16.6  Support  24.4  US -11.9  best rival  -3.4  round Support -0.3
+  C6: Aid   7.2  ARVN Res  16.5  Support  22.3  US  -7.5  best rival  -3.2  round Support +0.9
+  early ends 151: {'VC': 113, 'NVA': 32, 'ARVN': 6} ; final-Coup losses 170
+with +6 Aid
+  C1: Aid  28.9  ARVN Res  21.9  Support  17.2  US  -9.9  best rival  -6.7  round Support +8.2
+  C2: Aid  44.8  ARVN Res  24.4  Support  23.9  US -14.6  best rival  -4.8  round Support +6.5
+  C3: Aid  53.6  ARVN Res  33.4  Support  28.6  US -12.2  best rival  -4.5  round Support +2.8
+  C4: Aid  52.2  ARVN Res  38.2  Support  29.9  US -10.1  best rival  -4.3  round Support +1.5
+  C5: Aid  54.6  ARVN Res  36.5  Support  29.9  US  -7.2  best rival  -4.2  round Support -0.9
+  C6: Aid  59.4  ARVN Res  42.8  Support  28.6  US  -1.5  best rival  -3.7  round Support +0.5
+  early ends 116: {'VC': 81, 'NVA': 24, 'ARVN': 11} ; final-Coup losses 124
+
+Unchanged without tracked ARVN Resources: reference runs without --us-player (212 games) identical; the --us-player reference games change.

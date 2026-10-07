@@ -21,12 +21,21 @@ to what the cited results show.
   `--salt K` keeps a seed's event deck and changes the dice and the Bots'
   draws.
 
+## Rule changes for a paying US (under `--us-player`)
+
+The Tru'ng US routines stand in for untracked ARVN Resources in three
+places; with Resources tracked, each would be a double handicap, so the
+harness removes it: the ARVN activation rolls on Train, the d3 cap on
+Pacify, and (since `results/aid_test.txt`) Advise's +6 Aid being taken only
+when ARVN is human. Results measured before a change say so.
+
 ## The bars
 
 | US player | US wins | Games reaching the final Coup | Evidence |
 |---|---|---|---|
 | Tru'ng US routines | about 4% | | `results/val_t1.txt` |
 | Search bot | 19% (397 games) | 62% | `results/diagnostics/q1_losses.txt` |
+| Search bot, with +6 Aid on Advise | 39% (393 games) | 71% | `results/aid_test.txt` |
 | LLM (games 7-10) | 3 of 4 | 4 of 4 | `results/llm_vs_bot.md` |
 
 Things that did not beat the search bot: weight tuning beyond tuned_t1/t2
@@ -120,12 +129,24 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   a human US (and the LLM) takes. Same kind of stand-in as the activation
   rolls and the d3 Pacify cap.
 
+## Advise's +6 Aid (`results/aid_test.txt`)
+
+- Letting the US Bot take +6 Aid on Advise when ARVN Resources are tracked
+  doubles its wins: 19.1% -> 39.2% (paired +20.1, se 2.8) on seeds 1-400;
+  games reaching the final Coup +8.9 (se 2.9); VC wins 56% -> 37%.
+- Mechanism as predicted in part: Aid at the checks rises to 52-59 (the LLM
+  games: 40-57), ARVN Resources to 33-43, Support to about 29-30 (from
+  24-25), the US score at the final check to -1.5 (from -7.5). Not as
+  predicted: the Coup rounds' Support gain is unchanged; the extra Support
+  comes from Pacify on the US's own turns. ARVN wins rise slightly (early
+  ARVN wins 6 -> 11).
+- All earlier results for the search bot (weights, look-ahead, the US
+  player, the Commitment test) were measured without this change.
+
 ## Open questions
 
-- Does giving the bot the +6 Aid on Advise (when ARVN Resources are
-  tracked) raise Coup Pacify, final Support and wins? More ARVN Resources
-  also fund the ARVN Bot's own Operations and Govern, so the sign on wins
-  is not certain.
+- With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,
+  Govern)? The diagnostics should be rerun on the new baseline.
 - Can the US deny VC its Events, Tet and Coup Agitation (the measured
   causes of VC crossings) more than the search bot does, and at what cost
   in score?

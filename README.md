@@ -326,6 +326,11 @@ well would be a double handicap. Air Strike keeps its d6 (a real rule). Without
 the activation roll the US Bot's Train would place ARVN pieces in every US Base
 space until Resources reach Econ, starving the Pacify that comes last, so the
 search also offers Train capped at 1 or 2 ARVN placements (`Train[arvn<=1]`).
+For the same reason the US Bot's Advise now adds the free +6 Aid when ARVN
+Resources are tracked, as a human US would; the Tru'ng routine adds it only
+when ARVN is human, because untracked Resources make Aid worthless. With it
+the search bot's wins rise from 19% to 39% on seeds 1-400 (`results/aid_test.txt`);
+results before this change were measured without it.
 
 `"commit_plan": true` in a policy file makes the first trial's space and piece
 choices (the Tru'ng priorities' random tie-breaks) the candidate's plan; later
