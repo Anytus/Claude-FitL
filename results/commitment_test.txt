@@ -1,0 +1,49 @@
+Commitment hypothesis test (FITL_COMMIT): search bot fit3flat, seeds 1-400, --us-final-only --us-player, traced
+Hypothesis (stated before the run): keeping US Troops in Available at Commitment raises the US score at the Coup 2 check by about 8-10 and wins by 5+ points unless survival drops.
+Arms: hold = no Troops moved to or from Available; 20 = Available target 20 in place of the US Policy's 15/5/25. Baseline reproduces the earlier traces on 397 of 397 seeds.
+
+=== baseline vs hold
+387 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     18.9%    2.8%   22.0%   56.3%       -11.0    -11.0
+variant      21.4%    2.1%   19.6%   56.8%        -7.2     -7.6
+
+paired change in US wins: +2.6 points of % (se 2.6)
+
+paired change in games reaching the final Coup: -4.4 points of % (se 3.3)
+
+paired change in US margin: +3.83 (se 0.57)
+
+paired change in US lead: +3.37 (se 0.74)
+
+variant games ended at: Coup 1 2%, Coup 2 8%, Coup 3 9%, Coup 4 11%, Coup 5 13%, final 57%
+
+=== baseline vs 20
+390 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     19.0%    2.8%   22.1%   56.2%       -10.9    -10.9
+variant      20.0%    1.8%   25.4%   52.8%        -7.0     -7.5
+
+paired change in US wins: +1.0 points of % (se 2.5)
+
+paired change in games reaching the final Coup: -5.1 points of % (se 3.2)
+
+paired change in US margin: +3.88 (se 0.56)
+
+paired change in US lead: +3.45 (se 0.75)
+
+variant games ended at: Coup 1 2%, Coup 2 7%, Coup 3 9%, Coup 4 11%, Coup 5 15%, final 56%
+
+Means at each Victory check among games reaching it:
+Coup   base: US / Avail / Support / best rival hold: US / Avail / Support / best rival   20: US / Avail / Support / best rival
+C1               -10.0   22.9    17.1      -6.7           -10.0   22.9    17.1      -6.7           -10.0   22.9    17.1      -6.7
+C2               -16.7   11.5    21.8      -4.7            -7.3   20.7    22.0      -4.7            -8.0   19.7    22.3      -4.7
+C3               -16.2    8.9    24.8      -4.4            -5.6   21.0    23.3      -4.2            -6.3   20.1    23.6      -4.4
+C4               -15.0   10.4    24.6      -3.4            -5.4   21.4    23.2      -3.6            -5.7   20.6    23.7      -3.6
+C5               -11.9   13.7    24.4      -3.4            -5.7   21.9    22.5      -2.6            -5.9   21.0    23.1      -2.8
+C6                -7.5   20.2    22.3      -3.2            -5.2   23.3    21.5      -2.5            -4.9   22.5    22.6      -2.7
+base: early ends 151 by {'ARVN': 6, 'NVA': 32, 'VC': 113} ; final-Coup losses 170
+hold: early ends 167 by {'ARVN': 3, 'NVA': 37, 'VC': 127} ; final-Coup losses 138
+20: early ends 171 by {'ARVN': 2, 'NVA': 52, 'VC': 117} ; final-Coup losses 143

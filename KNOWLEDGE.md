@@ -87,11 +87,24 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   game) halves the win rate (19% -> 10%), about one point of win rate per
   bad decision. Single decisions are small; there are about 30 a game.
 
+## The first-Coup Commitment (`results/commitment_test.txt`)
+
+- Keeping US Troops in Available at Commitment (FITL_COMMIT=hold or 20)
+  raises the US score by about 10 at the Coup 2-5 checks, as predicted,
+  but only by about 2.3 at the final check: the unchanged bot pulls Troops
+  back in the final campaign anyway (Nixon policy, Available 20 at the final
+  check). Under the final-Coup-only rule the mid-game score does not count.
+- Wins: +2.6 (se 2.6) and +1.0 (se 2.5), not detectable; early ends up
+  (151 -> 167 and 171, mostly VC), final-Coup losses down (170 -> 138, 143).
+- So the Commitment is not where the bot loses its games. The gap to the
+  LLM that counts is Support at the end: about 22 for the bot at the final
+  check against 30-38 in the LLM games 7, 9 and 10.
+
 ## Open questions
 
-- Which US decisions cost the search bot its points against the LLM: the
-  first Commitment, Pacify choices, Event choices, sequence-of-play
-  choices?
+- Why the bot's Support stalls at 22-25 from Coup 3 on (Coup-round
+  Pacify gains fade from +8 to about 0; VC Events take 4-5 a campaign)
+  while the LLM's reached 30-38?
 - Can the US deny VC its Events, Tet and Coup Agitation (the measured
   causes of VC crossings) more than the search bot does, and at what cost
   in score?
