@@ -4,7 +4,9 @@ One place for established facts, each with its evidence. Conditions unless
 stated: Full scenario, the US may win only at the final Coup
 (`--us-final-only`), the Bots treat the US as a player (`--us-player`:
 ARVN Resources tracked, the VC Bot's priorities against a human US).
-"Search bot" = `fitl.USPolicy` search with `policies/fit3flat.json`.
+"Search bot" = `fitl.USPolicy` search with `policies/fit3flat.json`; from
+the Event/Pass test on, the working baseline is `policies/fit3flat_event0.json`
+(Kevin's decision; the evidence for it is a probable small gain, below).
 Update this file when a fact is established or overturned; keep claims
 to what the cited results show.
 
@@ -181,6 +183,17 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
 - Pass bonus 0: passes 20% -> 9% (Limited Ops 13% -> 22%), wins +1.3
   (se 2.9); with both at 0, +1.8 (se 2.8), less than the Event change
   alone. No sign that passing less helps.
+
+## How much the weights are known
+
+- Evidence supports weight *packages*, not individual weights. Packages
+  that differ widely (tune-start, tuned_t1/t2, fit3flat, fit3phase) win
+  within a few points of each other; the large gains came from the search
+  structure (Tru'ng US 4% -> tuned_t1 39%, old rules) and rule fixes (+6 Aid,
+  +20). The regression's coefficients are associations from games played
+  by one policy, fitted to a proxy target (survival-floored lead, CV R2
+  0.27, most of it the controls), under the old Aid rule; the Event
+  coefficient's sign was not borne out by a direct test.
 
 ## Open questions
 
