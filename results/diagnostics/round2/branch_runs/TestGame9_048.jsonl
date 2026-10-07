@@ -1,0 +1,60 @@
+{"seed":1,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-12,"NVA":-3,"US":-3,"VC":-13},"error":""}
+{"seed":1,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-18,"NVA":4,"US":-5,"VC":0},"error":""}
+{"seed":2,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":1,"NVA":-4,"US":-3,"VC":-17},"error":""}
+{"seed":2,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-7,"NVA":-3,"US":-15,"VC":4},"error":""}
+{"seed":3,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":1,"NVA":-14,"US":-11,"VC":-14},"error":""}
+{"seed":3,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-9,"NVA":-13,"US":-7,"VC":-4},"error":""}
+{"seed":4,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"","final_scores":{"ARVN":-15,"NVA":-8,"US":-12,"VC":-10},"error":"AssertionError: assertion failed: Insufficent pieces in the available box"}
+{"seed":4,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-20,"NVA":0,"US":-1,"VC":-2},"error":""}
+{"seed":5,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-19,"NVA":-6,"US":-2,"VC":-4},"error":""}
+{"seed":5,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-6,"NVA":-3,"US":-18,"VC":1},"error":""}
+{"seed":6,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-16,"NVA":1,"US":3,"VC":-3},"error":""}
+{"seed":6,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":4,"NVA":-4,"US":-12,"VC":-8},"error":""}
+{"seed":7,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-7,"NVA":-4,"US":3,"VC":-3},"error":""}
+{"seed":7,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"","final_scores":{"ARVN":-15,"NVA":-1,"US":3,"VC":-9},"error":"AssertionError: assertion failed: Cannot place more than 2 bases in Quang Tin-Quang Ngai"}
+{"seed":8,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-7,"NVA":-10,"US":6,"VC":-10},"error":""}
+{"seed":8,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-7,"NVA":1,"US":-10,"VC":-11},"error":""}
+{"seed":9,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":1,"NVA":-5,"US":-6,"VC":-15},"error":""}
+{"seed":9,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"US","final_scores":{"ARVN":-15,"NVA":-4,"US":4,"VC":-7},"error":""}
+{"seed":10,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-10,"NVA":-9,"US":2,"VC":-6},"error":""}
+{"seed":10,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-14,"NVA":-3,"US":-19,"VC":1},"error":""}
+{"seed":11,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-9,"NVA":-10,"US":11,"VC":-12},"error":""}
+{"seed":11,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-14,"NVA":1,"US":-9,"VC":-10},"error":""}
+{"seed":12,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-8,"NVA":3,"US":6,"VC":-9},"error":""}
+{"seed":12,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":1,"NVA":-4,"US":-14,"VC":-8},"error":""}
+{"seed":13,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":0,"NVA":-7,"US":-4,"VC":-7},"error":""}
+{"seed":13,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-1,"US":-25,"VC":2},"error":""}
+{"seed":14,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-11,"NVA":-6,"US":3,"VC":-7},"error":""}
+{"seed":14,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":0,"NVA":-8,"US":-5,"VC":1},"error":""}
+{"seed":15,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"VC","final_scores":{"ARVN":-11,"NVA":-8,"US":2,"VC":3},"error":""}
+{"seed":15,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-13,"NVA":-5,"US":0,"VC":3},"error":""}
+{"seed":16,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":3,"NVA":-6,"US":-19,"VC":-8},"error":""}
+{"seed":16,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-20,"NVA":4,"US":-2,"VC":-2},"error":""}
+{"seed":17,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-10,"NVA":-11,"US":15,"VC":-11},"error":""}
+{"seed":17,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":1,"NVA":-11,"US":-9,"VC":-9},"error":""}
+{"seed":18,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-6,"NVA":-15,"US":1,"VC":-9},"error":""}
+{"seed":18,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-18,"NVA":1,"US":1,"VC":-13},"error":""}
+{"seed":19,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-1,"NVA":-10,"US":6,"VC":-8},"error":""}
+{"seed":19,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":8,"NVA":-1,"US":-21,"VC":-8},"error":""}
+{"seed":20,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-12,"NVA":-5,"US":-1,"VC":-10},"error":""}
+{"seed":20,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"US","final_scores":{"ARVN":-14,"NVA":-5,"US":-2,"VC":-5},"error":""}
+{"seed":21,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-12,"NVA":-8,"US":-13,"VC":-11},"error":""}
+{"seed":21,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-12,"NVA":-10,"US":-10,"VC":-3},"error":""}
+{"seed":22,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-14,"NVA":-4,"US":9,"VC":-4},"error":""}
+{"seed":22,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"US","final_scores":{"ARVN":-9,"NVA":-5,"US":-2,"VC":-10},"error":""}
+{"seed":23,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"VC","final_scores":{"ARVN":-9,"NVA":-4,"US":0,"VC":0},"error":""}
+{"seed":23,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-5,"NVA":-5,"US":-1,"VC":-1},"error":""}
+{"seed":24,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-17,"NVA":4,"US":-19,"VC":3},"error":""}
+{"seed":24,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-7,"NVA":-4,"US":-8,"VC":-11},"error":""}
+{"seed":25,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-14,"NVA":-7,"US":6,"VC":-7},"error":""}
+{"seed":25,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-10,"NVA":-4,"US":-6,"VC":-16},"error":""}
+{"seed":26,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"VC","final_scores":{"ARVN":-7,"NVA":-4,"US":-3,"VC":-3},"error":""}
+{"seed":26,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"ARVN","final_scores":{"ARVN":-1,"NVA":-3,"US":-8,"VC":-12},"error":""}
+{"seed":27,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"VC","final_scores":{"ARVN":-10,"NVA":-5,"US":-13,"VC":4},"error":""}
+{"seed":27,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-21,"NVA":-4,"US":-8,"VC":4},"error":""}
+{"seed":28,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-8,"NVA":-12,"US":9,"VC":-7},"error":""}
+{"seed":28,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"VC","final_scores":{"ARVN":-6,"NVA":-10,"US":-6,"VC":-2},"error":""}
+{"seed":29,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"VC","final_scores":{"ARVN":-19,"NVA":-1,"US":6,"VC":2},"error":""}
+{"seed":29,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"US","final_scores":{"ARVN":-10,"NVA":-7,"US":0,"VC":-12},"error":""}
+{"seed":30,"arm":"llm","choice":"","after":{"ARVN":-5,"NVA":-3,"US":2,"VC":-8},"winner":"US","final_scores":{"ARVN":-13,"NVA":-7,"US":8,"VC":-5},"error":""}
+{"seed":30,"arm":"bot","choice":"Train[arvn<=1]+Advise 4.28 86","after":{"ARVN":-5,"NVA":-6,"US":-1,"VC":-8},"winner":"NVA","final_scores":{"ARVN":-13,"NVA":-1,"US":-1,"VC":-2},"error":""}

@@ -1,0 +1,60 @@
+{"seed":1,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"NVA","final_scores":{"ARVN":-7,"NVA":6,"US":0,"VC":4},"error":""}
+{"seed":1,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"NVA","final_scores":{"ARVN":-7,"NVA":6,"US":0,"VC":4},"error":""}
+{"seed":2,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-2,"NVA":-3,"US":-11,"VC":1},"error":""}
+{"seed":2,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-2,"NVA":-3,"US":-11,"VC":1},"error":""}
+{"seed":3,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-8,"NVA":0,"US":4,"VC":2},"error":""}
+{"seed":3,"arm":"bot","choice":"Patrol LimOp -1.45 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-9,"NVA":0,"US":-10,"VC":1},"error":""}
+{"seed":4,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-8,"NVA":-8,"US":-8,"VC":1},"error":""}
+{"seed":4,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-8,"NVA":-8,"US":-8,"VC":1},"error":""}
+{"seed":5,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-8,"NVA":-5,"US":-11,"VC":-5},"error":""}
+{"seed":5,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-8,"NVA":-5,"US":-11,"VC":-5},"error":""}
+{"seed":6,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-5,"US":8,"VC":-3},"error":""}
+{"seed":6,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-5,"US":8,"VC":-3},"error":""}
+{"seed":7,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-11,"NVA":-5,"US":5,"VC":-8},"error":""}
+{"seed":7,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-11,"NVA":-5,"US":5,"VC":-8},"error":""}
+{"seed":8,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-8,"NVA":-7,"US":2,"VC":-7},"error":""}
+{"seed":8,"arm":"bot","choice":"Patrol LimOp -1.45 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-4,"NVA":-5,"US":1,"VC":-5},"error":""}
+{"seed":9,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-10,"NVA":-3,"US":-9,"VC":-3},"error":""}
+{"seed":9,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-10,"NVA":-3,"US":-9,"VC":-3},"error":""}
+{"seed":10,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-11,"NVA":-7,"US":10,"VC":-6},"error":""}
+{"seed":10,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-11,"NVA":-7,"US":10,"VC":-6},"error":""}
+{"seed":11,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-13,"NVA":-4,"US":-3,"VC":-6},"error":""}
+{"seed":11,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-13,"NVA":-4,"US":-3,"VC":-6},"error":""}
+{"seed":12,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-4,"US":3,"VC":-1},"error":""}
+{"seed":12,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-4,"US":3,"VC":-1},"error":""}
+{"seed":13,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-18,"NVA":-4,"US":0,"VC":7},"error":""}
+{"seed":13,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-18,"NVA":-4,"US":0,"VC":7},"error":""}
+{"seed":14,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-3,"US":-2,"VC":-8},"error":""}
+{"seed":14,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-3,"US":-2,"VC":-8},"error":""}
+{"seed":15,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-19,"NVA":1,"US":2,"VC":1},"error":""}
+{"seed":15,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-19,"NVA":1,"US":2,"VC":1},"error":""}
+{"seed":16,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"NVA","final_scores":{"ARVN":-14,"NVA":-5,"US":-9,"VC":-13},"error":""}
+{"seed":16,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"NVA","final_scores":{"ARVN":-14,"NVA":-5,"US":-9,"VC":-13},"error":""}
+{"seed":17,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-9,"NVA":-2,"US":0,"VC":2},"error":""}
+{"seed":17,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-9,"NVA":-2,"US":0,"VC":2},"error":""}
+{"seed":18,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-2,"NVA":-5,"US":-1,"VC":3},"error":""}
+{"seed":18,"arm":"bot","choice":"Patrol LimOp -1.45 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-6,"NVA":-7,"US":6,"VC":-7},"error":""}
+{"seed":19,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-17,"NVA":-4,"US":-7,"VC":-1},"error":""}
+{"seed":19,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-17,"NVA":-4,"US":-7,"VC":-1},"error":""}
+{"seed":20,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-6,"NVA":-3,"US":-3,"VC":3},"error":""}
+{"seed":20,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-6,"NVA":-3,"US":-3,"VC":3},"error":""}
+{"seed":21,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"NVA","final_scores":{"ARVN":-12,"NVA":1,"US":-3,"VC":-12},"error":""}
+{"seed":21,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"NVA","final_scores":{"ARVN":-12,"NVA":1,"US":-3,"VC":-12},"error":""}
+{"seed":22,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-12,"NVA":-6,"US":-10,"VC":3},"error":""}
+{"seed":22,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-12,"NVA":-6,"US":-10,"VC":3},"error":""}
+{"seed":23,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-5,"NVA":-4,"US":-11,"VC":6},"error":""}
+{"seed":23,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-5,"NVA":-4,"US":-11,"VC":6},"error":""}
+{"seed":24,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-7,"US":2,"VC":-7},"error":""}
+{"seed":24,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-9,"NVA":-7,"US":2,"VC":-7},"error":""}
+{"seed":25,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-14,"NVA":-11,"US":8,"VC":-7},"error":""}
+{"seed":25,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-14,"NVA":-11,"US":8,"VC":-7},"error":""}
+{"seed":26,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-3,"NVA":-2,"US":-15,"VC":2},"error":""}
+{"seed":26,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-3,"NVA":-2,"US":-15,"VC":2},"error":""}
+{"seed":27,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-7,"NVA":-7,"US":-6,"VC":1},"error":""}
+{"seed":27,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-7,"NVA":-7,"US":-6,"VC":1},"error":""}
+{"seed":28,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"NVA","final_scores":{"ARVN":-11,"NVA":-6,"US":-6,"VC":-9},"error":""}
+{"seed":28,"arm":"bot","choice":"Patrol LimOp -1.45 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-12,"NVA":-6,"US":3,"VC":-2},"error":""}
+{"seed":29,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-17,"NVA":-1,"US":0,"VC":2},"error":""}
+{"seed":29,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"VC","final_scores":{"ARVN":-17,"NVA":-1,"US":0,"VC":2},"error":""}
+{"seed":30,"arm":"llm","choice":"","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-8,"NVA":-4,"US":0,"VC":-6},"error":""}
+{"seed":30,"arm":"bot","choice":"Pass -1.52 13","after":{"ARVN":-10,"NVA":-2,"US":4,"VC":-12},"winner":"US","final_scores":{"ARVN":-8,"NVA":-4,"US":0,"VC":-6},"error":""}

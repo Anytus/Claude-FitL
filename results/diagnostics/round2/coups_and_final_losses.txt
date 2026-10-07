@@ -1,0 +1,26 @@
+Bot now, before each Coup round: US-eligible Pacify spaces, Support they could add (best 4), ARVN Resources above Econ; Support and Opposition change in the round
+  C1:  396  eligible  2.5  potential   6.9  spendable   6.9  Support  +8.2  Opposition  +3.9
+  C2:  390  eligible  5.9  potential   9.2  spendable   9.7  Support  +6.5  Opposition  +2.7
+  C3:  362  eligible  3.8  potential   5.3  spendable  19.1  Support  +2.8  Opposition  +2.9
+  C4:  330  eligible  3.4  potential   5.4  spendable  25.0  Support  +1.5  Opposition  +2.1
+  C5:  304  eligible  2.4  potential   4.3  spendable  23.4  Support  -0.9  Opposition  +1.8
+  C6:  280  eligible  0.7  potential   1.6  spendable  30.0  Support  +0.5  Opposition  +2.5
+  all: eligible  3.3  potential   5.7  spendable  18.0  Support  +3.5
+  share of potential realized: 0.61 (LLM: 4.7 of 6.0 = 0.78; bot before: 3.7 of 6.3 = 0.59)
+  Coups with no eligible space: 18 %
+Final Coup reached 280: US won 156, lost 124; winners of the lost: {'NVA': 48, 'VC': 63, 'ARVN': 13}
+  US won: at the final check US +4.4 (Support 32.9, Available 21.5), ARVN -11.0, NVA -6.6, VC -11.8;  after the final Coup round: US +4.8, ARVN -11.5, NVA -6.1, VC -9.2
+  US lost: at the final check US -9.0 (Support 23.2, Available 17.8), ARVN -11.3, NVA -4.4, VC -6.4;  after the final Coup round: US -8.3, ARVN -11.3, NVA -4.1, VC -4.2
+  US score change during the final Coup round: mean +0.5
+  margin of the winner over the US in lost final Coups: NVA 6.2 (n=48, within 3 points: 16), VC 9.3 (n=63, within 3 points: 15), ARVN 3.7 (n=13, within 3 points: 7)
+
+Support per game by source, final-Coup games the US won against those it lost:
+  US Op                  won  +32.8   lost  +27.9   difference  +4.9
+  ARVN Op                won   -8.6   lost  -11.1   difference  +2.5
+  VC Op                  won   -2.1   lost   -3.7   difference  +1.6
+  US Event               won   +2.1   lost   +1.2   difference  +0.9
+  ARVN Event             won   -3.5   lost   -2.8   difference  -0.7
+  VC Event               won  -17.6   lost  -18.1   difference  +0.5
+  VC Event (pivotal)     won   -2.1   lost   -2.5   difference  +0.4
+  NVA Op                 won   -1.2   lost   -0.9   difference  -0.3
+  US Passes a game: won 6.7, lost 7.1;  VC Events a game: won 13.9, lost 15.1

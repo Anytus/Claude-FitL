@@ -143,6 +143,33 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
 - All earlier results for the search bot (weights, look-ahead, the US
   player, the Commitment test) were measured without this change.
 
+## After the +6 Aid change (`results/diagnostics/round2/`, `tools/botdiag.py`)
+
+- Losses: 116 of 396 games end early (VC 81, NVA 24, ARVN 11); 124 are
+  lost at the final Coup (NVA 48, VC 63, ARVN 13), mostly not close: the
+  winner leads the US by 6.2 (NVA) and 9.3 (VC); 38 of 124 within 3 points.
+- VC crossings work as before: VC starts the campaign 1 point below its
+  line (Coup Agitation +4.3), then VC Events +4.1, Tet +1.5, VC Operations
+  +1.2; US Operations -2.4.
+- Support per full game against the LLM: US Operations +30.6 (LLM +26.5),
+  Coup rounds +19.9 (LLM +30.0), VC Events and Tet -20 (LLM -23), ARVN
+  Govern and Events -12.9 (LLM -13.4). Support at the final check 28.6
+  (LLM about 33); US score at the final check -1.5 (LLM +1.2). Coup Pacify
+  is no longer short of Resources; it runs out of eligible spaces (5.9 at
+  Coup 2, 0.7 at the final Coup): spaces already at Active Support, and the
+  final campaign's withdrawal leaves fewer with US Troops.
+- Final-Coup games the US loses have about 10 less Support at the end than
+  those it wins (23.2 against 32.9), spread over US Operations (+4.9 in
+  wins), ARVN Govern (+2.5) and VC Operations (+1.6): correlation only.
+- US Passes: 20% of US actions (LLM about 11%).
+- The LLM's 3 of 4 is no longer clearly better than 39% on its own (3+ of 4
+  at 39% happens 17% of the time), but its decisions still beat the bot's
+  at the 24 branch points: +1.7 final lead each (se 0.7), as before the
+  change (+1.8). The largest: Psychedelic Cookie's Event (+10.1, +5.6), Train
+  and Pacify in a chosen space against Train + Advise (+8.6, +4.2), a
+  Limited Op with Patronage transfer against a Pass (+7.1), a Pass to be
+  first on the next card (+5.0).
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,

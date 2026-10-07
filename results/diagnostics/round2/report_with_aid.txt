@@ -1,0 +1,26 @@
+396 games. Winners: US 39.4%, ARVN 6.1%, NVA 18.2%, VC 36.4%
+Ended early (a Bot over its line): 116 (29%), by Coup {1: 6, 2: 28, 3: 32, 4: 26, 5: 24}, by Bot {'VC': 81, 'NVA': 24, 'ARVN': 11}
+Reached the final Coup: 280; US won 156; lost 124, US -8.3 against the winner -0.8; a Bot over its line at the final check in 34
+
+Campaigns that end with a Bot over its line, against those it stays under (not final):
+  VC crossed (106): start -1.0 (previous Coup round +4.3), gain +3.7: VC Event +4.13, US Op -2.42, VC Pivotal +1.45, VC Op +1.21, NVA Op -0.31, ARVN Op -0.24
+  VC stayed under (1695): start -6.6 (previous Coup round +2.3), gain -2.6: US Op -3.17, VC Event +2.21, VC Op -1.34, VC Pivotal +0.66, NVA Op -0.50, ARVN Op -0.21
+  NVA crossed (41): start -4.6 (previous Coup round +0.7), gain +6.3: NVA Op +10.68, US Op -4.44, NVA Pivotal +1.71, ARVN Op -0.88, VC Op -0.59, NVA Event +0.39
+  NVA stayed under (1755): start -9.4 (previous Coup round +0.3), gain +1.4: NVA Op +5.44, US Op -2.83, NVA Pivotal +1.14, ARVN Op -1.04, VC Op -0.63, ARVN Event -0.39
+  ARVN crossed (14): start -6.9 (previous Coup round +0.4), gain +8.4: ARVN Op +11.64, ARVN Event +3.14, US Op -2.71, VC Op -1.29, NVA Pivotal -0.86, NVA Op -0.79
+  ARVN stayed under (1771): start -12.7 (previous Coup round -0.5), gain +1.4: ARVN Op +5.38, ARVN Event +3.15, NVA Op -2.48, VC Op -1.86, VC Event -1.82, NVA Pivotal -0.72
+
+Means at each Victory check, games reaching it:
+  Coup     n     US  rival  Support   Aid ARVN Res  Avail round Sup
+  C1     396   -9.9   -6.7     17.2  28.9     21.9   22.9      +8.2
+  C2     390  -14.6   -4.8     23.9  44.8     24.4   11.5      +6.5
+  C3     362  -12.2   -4.5     28.6  53.6     33.4    9.3      +2.8
+  C4     330  -10.1   -4.3     29.9  52.2     38.2   10.0      +1.5
+  C5     304   -7.2   -4.2     29.9  54.6     36.5   12.9      -0.9
+  C6     280   -1.5   -3.7     28.6  59.4     42.8   19.8      +0.5
+
+Support per game reaching the final Coup (280), by source: US Op +30.6, Coup round +19.9, VC Event -17.8, ARVN Op -9.7, ARVN Event -3.2, VC Op -2.8, VC Pivotal -2.2, US Event +1.7, NVA Event -1.2, NVA Op -1.1
+
+ARVN Resources per game reaching the final Coup (280), by source: Coup round +152.5, US Op -80.3, ARVN Op -78.4, US Pass +20.3, ARVN Pass +14.0, ARVN Pivotal +11.4, US Event -3.0, NVA Event -0.7, VC Event -0.6, ARVN Event +0.5
+
+US actions per game reaching the final Coup: 34.5; Op/Special Activity 60%, Pass 20%, Limited Op 12%, Event 7%, Op Only 1%
