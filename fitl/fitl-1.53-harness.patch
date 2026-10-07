@@ -2045,10 +2045,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/Teacher.scala b/src/main/scala/fitl/Teacher.scala
 new file mode 100644
-index 0000000..44a771b
+index 0000000..4c3a136
 --- /dev/null
 +++ b/src/main/scala/fitl/Teacher.scala
-@@ -0,0 +1,89 @@
+@@ -0,0 +1,145 @@
 +//  Teacher: label US decisions by playing each candidate to the end of the
 +//  game. Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2088,12 +2088,85 @@ index 0000000..44a771b
 +  val POther     = env("FITL_TEACHER_POTHER", "0.1").toDouble
 +  val Horizon    = 99
 +  val Reseed     = env("FITL_TEACHER_RESEED", "1") != "0"
++  //  FITL_TEACHER_MODE=screen: label a sample of all US decisions instead.
++  //  Each decision is labelled with probability FITL_TEACHER_P (default 0.1),
++  //  up to FITL_TEACHER_QUOTA a process (default 125); the candidates are the
++  //  policy's pick and the best-scoring candidates of up to
++  //  FITL_TEACHER_K - 1 other kinds (default K 4; a kind is the Event, Pass,
++  //  or an Operation, its Limited Op a kind of its own), each leaving a
++  //  different position. The line also carries the features before the
++  //  decision and after each candidate's trial.
++  val Mode       = env("FITL_TEACHER_MODE", "event")
++  val PScreen    = env("FITL_TEACHER_P", "0.1").toDouble
++  val Quota      = env("FITL_TEACHER_QUOTA", "125").toInt
++  val K          = env("FITL_TEACHER_K", "4").toInt
 +  var nDis = 0
 +  var nOther = 0
++  var nScreen = 0
++
++  def kind(name: String): String = {
++    val op = name.split("[ +\\[]").head
++    if (name.contains("LimOp")) op + " LimOp" else op
++  }
++
++  //  Mean playout values of each candidate (one list per candidate, None for a failed playout).
++  def label(cfg: USPolicy.Config, saved: GameState, cands: List[(USPolicy.Candidate, Double)], base: Long) = {
++    val savedSearch = Lookahead.searchInRollout
++    Lookahead.searchInRollout = true
++    try cands map { case (c, _) =>
++      (0 until Playouts).map { k =>
++        val seed = (base ^ 0x510E527FADE682D1L) + 104729L * k
++        val start = try Bot.testOutcome {
++          game = saved
++          Random.setSeed(seed)
++          initTurnVariables()
++          workLeft = cfg.trialWork
++          try c.run().map(a => Lookahead.afterAction(game, a)) finally workLeft = Long.MaxValue
++        } catch { case _: Throwable => None }
++        finally game = saved
++        start flatMap (s => Lookahead.playout(s, seed * 7 + 3, Horizon, Reseed))
++      }
++    }
++    finally { Lookahead.searchInRollout = savedSearch; game = saved }
++  }
++  private def arr(vs: Seq[Option[Double]]) = vs.map(_.map(v => f"$v%.1f").getOrElse("null")).mkString("[", ",", "]")
++  private def fjson(m: Map[String, Double]) = m.toList.sortBy(_._1).map { case (k, v) => f""""$k":$v%.3f""" }.mkString("{", ",", "}")
++  private def featuresOf(cfg: USPolicy.Config, g: GameState) = {
++    val saved = game
++    game = g
++    try USPolicy.features(g, cfg.hingeBuffer) finally game = saved
++  }
++
++  def screen(cfg: USPolicy.Config, saved: GameState, scored: List[(USPolicy.Candidate, Double)],
++             post: Map[String, GameState], base: Long): Unit = {
++    if (nScreen >= Quota) return
++    if (new Random(base ^ 0x3C6EF372FE94F82BL).nextDouble() >= PScreen) return
++    val ranked = scored.filter(cv => post.contains(cv._1.name)).sortBy(-_._2)
++    if (ranked.size < 2) return
++    val cands = ranked.tail.foldLeft(List(ranked.head)) { (acc, cv) =>
++      if (acc.size >= K || acc.exists(a => kind(a._1.name) == kind(cv._1.name)) ||
++          acc.exists(a => post(a._1.name) == post(cv._1.name))) acc
++      else acc :+ cv
++    }
++    if (cands.size < 2) return
++    val decision = USPolicy.decisions
++    val t0 = System.nanoTime
++    val vals = label(cfg, saved, cands, base)
++    nScreen += 1
++    val cs = cands.zip(vals).map { case ((c, v), vs) =>
++      f"""{"name":"${c.name}","kind":"${kind(c.name)}","score":$v%.4f,"f":${fjson(featuresOf(cfg, post(c.name)))},"v":${arr(vs)}}"""
++    }
++    out.println(s"""{"seed":${USPolicy.gameSeed},"i":$decision,"card":${saved.currentCard},"seen":${saved.cardsSeen.size},""" +
++                s""""first":${saved.sequence.numActors == 0},"stratum":"screen","playouts":$Playouts,"n_scored":${scored.size},""" +
++                f""""secs":${(System.nanoTime - t0) / 1e9}%.1f,"b":${fjson(featuresOf(cfg, saved))},"cands":${cs.mkString("[", ",", "]")}}""")
++    out.flush()
++    if (nScreen >= Quota) { out.close(); sys.exit(0) }
++  }
 +  lazy val out = new java.io.PrintWriter(new java.io.FileWriter(s"${prefix.get}.${ProcessHandle.current.pid}", true))
 +
 +  def consider(cfg: USPolicy.Config, saved: GameState, scored: List[(USPolicy.Candidate, Double)],
 +               post: Map[String, GameState], base: Long): Unit = {
++    if (Mode == "screen") return screen(cfg, saved, scored, post, base)
 +    assert(cfg.weights.getOrElse("event", 0.0) == 0.0, "the Teacher expects a policy with Event weight 0")
 +    val ev = scored.find(_._1.name == "Event") getOrElse { return }
 +    if (!post.contains("Event")) return
@@ -2111,25 +2184,8 @@ index 0000000..44a771b
 +    val card = game.currentCard
 +    val t0 = System.nanoTime
 +    val cands = List(ev) ++ List(n1) ++ n2.toList
-+    val savedSearch = Lookahead.searchInRollout
-+    Lookahead.searchInRollout = true
-+    val vals = try cands map { case (c, _) =>
-+      c.name -> (0 until Playouts).map { k =>
-+        val seed = (base ^ 0x510E527FADE682D1L) + 104729L * k
-+        val start = try Bot.testOutcome {
-+          game = saved
-+          Random.setSeed(seed)
-+          initTurnVariables()
-+          workLeft = cfg.trialWork
-+          try c.run().map(a => Lookahead.afterAction(game, a)) finally workLeft = Long.MaxValue
-+        } catch { case _: Throwable => None }
-+        finally game = saved
-+        start flatMap (s => Lookahead.playout(s, seed * 7 + 3, Horizon, Reseed))
-+      }
-+    }
-+    finally { Lookahead.searchInRollout = savedSearch; game = saved }
++    val vals = cands.map(_._1.name).zip(label(cfg, saved, cands, base))
 +    if (stratum == "disagree") nDis += 1 else nOther += 1
-+    def arr(vs: Seq[Option[Double]]) = vs.map(_.map(v => f"$v%.1f").getOrElse("null")).mkString("[", ",", "]")
 +    val cs = cands.zip(vals).map { case ((c, v), (_, vs)) => f"""{"name":"${c.name}","score":$v%.4f,"v":${arr(vs)}}""" }
 +    out.println(s"""{"seed":${USPolicy.gameSeed},"i":$decision,"card":$card,"seen":${saved.cardsSeen.size},""" +
 +                s""""first":${saved.sequence.numActors == 0},"stratum":"$stratum","playouts":$Playouts,""" +

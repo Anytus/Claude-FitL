@@ -1,0 +1,25 @@
+Teacher screening run: plan (written before the run)
+
+Policy fit3flat_event0 plays the games (seeds 910001+, 911001+, 912001+, 913001+;
+--us-final-only --us-player) and the playouts. FITL_TEACHER_MODE=screen: each US
+turn decision (not Coup-round decisions, which the Tru'ng routines make) is labelled
+with probability 0.1, 125 a process, 500 in all. Candidates: the policy's pick and the
+best-scoring candidates of up to 3 other kinds (Event, Pass, Train, Patrol, Sweep,
+Assault, each Limited Op its own kind), with different positions. 100 playouts to the
+end of the game per candidate, common seeds, per-step reseed. Expected about 4-5 hours
+on 4 cores (playouts from early positions take about 0.7 s, late ones far less).
+Features before the decision and after each candidate's trial are recorded for the
+follow-up analysis.
+
+Measures (the purpose is descriptive: where the decisive decisions are):
+M1 held-out regret of the policy's pick: the best candidate chosen on one half of the
+   playouts, measured on the other half (both ways); mean, median, and the share of
+   decisions with regret above 10 and above 20 points; by the policy pick's kind, by
+   first/second eligible and by game stage (cards seen 0-25, 26-51, 52-78).
+M2 decisions whose candidates differ by more than 20 points (all playouts), and
+   which kinds are best and worst in them.
+M3 correlation of policy score differences with playout win differences.
+
+Predictions from the pilot: mean regret about 2 points, median about 0; about 10-15%
+of decisions with candidates more than 20 points apart; score/playout correlation
+about 0.2.

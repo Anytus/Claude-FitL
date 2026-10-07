@@ -455,6 +455,10 @@ those where Event weight 0 and fit3flat's -0.71 choose differently
 (`FITL_TEACHER_DIS`, default 8 a process) and a sample of the rest
 (`FITL_TEACHER_POTHER`, `FITL_TEACHER_OTHER`); the JVM exits when both
 quotas are met. `tools/teacher.py` summarizes (`results/teacher/`).
+`FITL_TEACHER_MODE=screen` labels a sample of all US decisions instead
+(`FITL_TEACHER_P`, `FITL_TEACHER_QUOTA`): the policy's pick and the best
+candidates of up to `FITL_TEACHER_K`-1 other kinds, with the features before
+the decision and after each candidate; `tools/teacher_screen.py` summarizes.
 
 ### Diagnostics
 
