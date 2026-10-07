@@ -195,6 +195,24 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   0.27, most of it the controls), under the old Aid rule; the Event
   coefficient's sign was not borne out by a direct test.
 
+## Playout labels of single decisions (`results/teacher/`)
+
+- Playing each candidate to the end of the game (the search bot playing on)
+  costs about 0.24 s a playout on one core. Two playouts from different
+  candidates on the same seed are barely alike (correlation of wins 0.19
+  even with the dice reset at every step), so one decision's difference at
+  200 playouts per candidate has se about 4 points of win chance; ranking a
+  close call to se 2 needs about 750 per candidate.
+- In 52 decisions with the Event on offer (pilot), most candidates are
+  within a few points of each other; 7 of 52 decisions have candidates
+  more than 20 points apart. The policy's score correlates 0.22 with the
+  playouts' differences; its first choice beats its second by about 2-4
+  points on average.
+- Where Event weight 0 and fit3flat disagree (32), the Event is no better on
+  a typical decision (median +0.2, mean without the largest -1.3, se 1.4);
+  one decision, Americal in the final campaign, is +92.5 for the Event.
+  So the pilot neither confirms nor refutes the Event result by itself.
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,
