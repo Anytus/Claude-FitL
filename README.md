@@ -459,6 +459,16 @@ quotas are met. `tools/teacher.py` summarizes (`results/teacher/`).
 (`FITL_TEACHER_P`, `FITL_TEACHER_QUOTA`): the policy's pick and the best
 candidates of up to `FITL_TEACHER_K`-1 other kinds, with the features before
 the decision and after each candidate; `tools/teacher_screen.py` summarizes.
+`FITL_TEACHER_MODE=space` labels space choices: at a sampled US decision the
+policy's pick is traced and compared with variants that change one space
+pick to another space that pick was offered (the routine then goes on by
+its own priorities; `Bot.bestCandidate`'s one-pick change), and at sampled
+Coup rounds the same for the US Bot's Support-phase Pacify picks
+(`FITL_TEACHER_PCOUP`); `tools/teacher_space.py` summarizes.
+`tools/teach_run.sh` runs a labelling job over a fixed schedule of games in
+parallel, resumable after a container restart, with a once-a-minute
+`PROGRESS.txt` ("Games: X of N done") in its output directory
+(`tools/teach_progress.sh`).
 
 ### Diagnostics
 

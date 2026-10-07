@@ -127,10 +127,10 @@ index 0000000..d5c5205
 +}
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..36c3db4
+index 0000000..c019f35
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,311 @@
+@@ -0,0 +1,312 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -313,6 +313,7 @@ index 0000000..36c3db4
 +                .filter(e => e.score > 0)
 +                .filterNot(e => noEarlyWin(e.faction))
 +                .headOption
++              if (Teacher.on && Teacher.Mode == "space") Teacher.coupConsider(before)
 +              if (usHuman) USPlayer.coup() else resolveCoupCard()
 +              coups += s"""{"coup":$coupNum,"card":${game.currentCard},"victory_check":${scoreJson(before)}""" +
 +                (if (trace) s""","at":${compsJson(c0, false)},"d":${deltaJson(c0, comps(game))},"pac":$pac0""" else "") + "}"
@@ -443,7 +444,7 @@ index 0000000..36c3db4
 +  }
 +}
 diff --git a/src/main/scala/fitl/Bot.scala b/src/main/scala/fitl/Bot.scala
-index f0952bb..dee6053 100644
+index f0952bb..acc423b 100644
 --- a/src/main/scala/fitl/Bot.scala
 +++ b/src/main/scala/fitl/Bot.scala
 @@ -51,6 +51,15 @@ object Bot {
@@ -516,7 +517,7 @@ index f0952bb..dee6053 100644
        }
      }
    }
-@@ -1258,17 +1271,42 @@ object Bot {
+@@ -1258,18 +1271,86 @@ object Bot {
    // We narrow the list of candiates to the ones that match most of
    // our priority filters.
    // Then if we still have more than one, we pick one at random.
@@ -534,8 +535,51 @@ index f0952bb..dee6053 100644
 +  var planReplaying = false
 +  var planDiverged = false
 +
++  //  Harness (Teacher): pick tracing and a one-pick change. While `pickTrace`
++  //  is set, every bestCandidate call appends a Pick. While `deviation` is
++  //  set, the `occ`-th call (from 0) offered exactly the candidates `all`
++  //  (sorted) takes `choice` (any of them, not only those the priorities
++  //  prefer); plan replay then stops, and later picks follow the priorities
++  //  with random tie-breaks. (`pickCount` counts the earlier calls offered `all`.)
++  case class Pick(tag: String, priority: String, all: List[String], choice: String, isSpace: Boolean)
++  case class Deviation(occ: Int, all: List[String], choice: String)
++  var pickTag = ""
++  var pickTrace: Option[ListBuffer[Pick]] = None
++  var deviation: Option[Deviation] = None
++  var pickCount = 0
++  var deviationApplied = false
++  //  Teacher: plan replay compares the candidates as sets (some callers
++  //  shuffle them with the dice, which differ between playouts).
++  var replaySorted = false
++  val DevDebug = sys.env.contains("FITL_DEV_DEBUG")
++
    def bestCandidate[T](candidates: List[T], priorities: List[PriorityFilter[T]]): T = {
      assert(candidates.nonEmpty, "bestCandidate: called with empty list!")
++    lazy val allNames = candidates.map(_.toString).sorted   // some callers shuffle their candidates
++    def trace(choice: T): T = {
++      pickTrace foreach (_ += Pick(pickTag, priorities.headOption.map(_.desc).getOrElse(""), allNames, choice.toString,
++                                   choice.isInstanceOf[Space]))
++      choice
++    }
++    if (DevDebug && deviation.nonEmpty) System.err.println(s"DEV call: ${allNames.take(4)} (${allNames.size}) want ${deviation.get.all.take(4)} (${deviation.get.all.size}) occ ${deviation.get.occ} count $pickCount replaying $planReplaying")
++    if (DevDebug && pickTrace.nonEmpty) System.err.println(s"TRACE call: ${allNames.take(4)} (${allNames.size})")
++    val deviated: Option[T] = deviation flatMap { d =>
++      if (allNames != d.all) None
++      else if (pickCount < d.occ) { pickCount += 1; None }
++      else {
++        deviation = None
++        candidates find (_.toString == d.choice) map { c =>
++          deviationApplied = true
++          planReplaying = false
++          planReplay = Nil
++          botDebug(s"Harness: one-pick change to [$c]")
++          pickLog foreach (_ += s"$c (changed)")
++          planRecord foreach (_ += (List(c.toString) -> c.toString))
++          c
++        }
++      }
++    }
++    if (deviated.nonEmpty) return trace(deviated.get)
  
      narrowCandidates(candidates, priorities) match {
 -      case best::Nil =>
@@ -545,10 +589,11 @@ index f0952bb..dee6053 100644
 -      case narrowed  =>
 -        val best = shuffle(narrowed).head        // Take one at random
 -        botDebug(s"Picked random winner [${best.toString}]")
+-        best
 +      case narrowed =>
 +        val names = narrowed.map(_.toString)
 +        val replayed: Option[T] = if (!planReplaying) None else planReplay match {
-+          case (seen, choice) :: rest if seen == names =>
++          case (seen, choice) :: rest if seen == names || (replaySorted && seen.sorted == names.sorted) =>
 +            planReplay = rest
 +            narrowed find (_.toString == choice)
 +          case _ =>
@@ -563,10 +608,11 @@ index f0952bb..dee6053 100644
 +        botDebug(s"Picked ${if (narrowed.size == 1) "a winner" else "random winner"} [${best.toString}]")
 +        pickLog foreach (_ += (if (narrowed.size == 1) best.toString else s"${best.toString} (1 of ${narrowed.size})"))
 +        planRecord foreach (_ += (names -> best.toString))
-         best
++        trace(best)
      }
    }
-@@ -1400,14 +1438,35 @@ object Bot {
+ 
+@@ -1400,14 +1481,35 @@ object Bot {
    }
    // Function to make code clearer to read
    // just an alias for selectEnemyRemoveReplaceActivate()
@@ -609,7 +655,7 @@ index f0952bb..dee6053 100644
    }
  
    // Use when determining which moveable pieces should remain
-@@ -1432,7 +1491,7 @@ object Bot {
+@@ -1432,7 +1534,7 @@ object Bot {
      def addPieces(newPieces: Pieces) = copy(selected = selected + newPieces)
    }
  
@@ -618,7 +664,7 @@ index f0952bb..dee6053 100644
      import params._
  
      log()
-@@ -1445,7 +1504,7 @@ object Bot {
+@@ -1445,7 +1547,7 @@ object Bot {
      log(s"kept      : ${andList(selected.descriptions)}")
    }
  
@@ -627,7 +673,7 @@ index f0952bb..dee6053 100644
      import params._
  
      val nowAtDest = dest.pieces + selected
-@@ -1590,14 +1649,16 @@ object Bot {
+@@ -1590,14 +1692,16 @@ object Bot {
      val vulnerable = vulnerableInsurgents(origin.pieces, false, false).total
  
      if (firepower >= vulnerable) {
@@ -646,7 +692,7 @@ index f0952bb..dee6053 100644
            if (coinFirepower(NormalTroops)(origin.setPieces(updated)) >= vulnerable)
              toKeep
            else  // Try again keeping one more
-@@ -2214,12 +2275,15 @@ object Bot {
+@@ -2214,12 +2318,15 @@ object Bot {
  
    //  When moving pieces, this is used to determine which of the factions pieces must be
    //  kept in the origin space.
@@ -662,7 +708,7 @@ index f0952bb..dee6053 100644
      val us      = faction == US
      val arvn    = faction == ARVN
      val nva     = faction == NVA
-@@ -2235,7 +2299,9 @@ object Bot {
+@@ -2235,7 +2342,9 @@ object Bot {
        }
      }
  
@@ -673,7 +719,7 @@ index f0952bb..dee6053 100644
        movePriIf(true,       KP_ChangeNoControlSouthVietnam),
        movePriIf(us || arvn, KP_KeepAllCubesInSouthVietnam),
        movePriIf(us || arvn, KP_KeepCoinCubesEqualToEnemyOnLoCs),
-@@ -2249,7 +2315,7 @@ object Bot {
+@@ -2249,7 +2358,7 @@ object Bot {
        movePriIf(planBase,   KP_3ActingGuerrillasWithRoomForAvailableBase),
        movePriIf(nva || vc,  KP_FriendlyGuerrillasGreaterThanEnemiesOnLoCs),
        movePriIf(vc,         KP_1UndergroundIn1PopNotAtActiveSupport)
@@ -682,7 +728,7 @@ index f0952bb..dee6053 100644
  
      val origin     = game.getSpace(originName)
      val dest       = game.getSpace(destName)
-@@ -2270,6 +2336,20 @@ object Bot {
+@@ -2270,6 +2379,20 @@ object Bot {
                           maxPieces: Int,
                           mustKeep: Pieces,
                           opParams: Params): Pieces = {
@@ -703,7 +749,7 @@ index f0952bb..dee6053 100644
      val us        = faction == US
      val arvn      = faction == ARVN
      val nva       = faction == NVA
-@@ -2326,6 +2406,17 @@ object Bot {
+@@ -2326,6 +2449,17 @@ object Bot {
      }
    }
  
@@ -721,7 +767,7 @@ index f0952bb..dee6053 100644
    def mustKeepInOrigin(
      originName: String,
      destName: String,
-@@ -2333,6 +2424,56 @@ object Bot {
+@@ -2333,6 +2467,56 @@ object Bot {
      action: MoveAction,
      moveTypes: Set[PieceType],
      params: Params): Pieces = {
@@ -778,7 +824,7 @@ index f0952bb..dee6053 100644
        
      import params.airlift.allowedType
      val toKeep = selectPiecesToKeep(originName, destName, faction, action, moveTypes, params)
-@@ -2359,6 +2500,19 @@ object Bot {
+@@ -2359,6 +2543,19 @@ object Bot {
      action: MoveAction,
      moveTypes: Set[PieceType],
      params: Params): Int = {
@@ -798,7 +844,7 @@ index f0952bb..dee6053 100644
  
      val mustKeep = mustKeepInOrigin(originName, destName, faction, action, moveTypes, params)
      val nonMovedMustKeep = mustKeep - movedPieces(originName)
-@@ -2384,6 +2538,19 @@ object Bot {
+@@ -2384,6 +2581,19 @@ object Bot {
                                moveTypes: Set[PieceType],
                                maxPieces: Int,
                                params: Params): Pieces = {
@@ -818,7 +864,7 @@ index f0952bb..dee6053 100644
  
      // First we determine which pieces to keep in the origin space
      val mustKeep = mustKeepInOrigin(originName, destName, faction, action, moveTypes, params);
-@@ -2417,11 +2584,15 @@ object Bot {
+@@ -2417,11 +2627,15 @@ object Bot {
        case March                    => getAdjacent(destName) filter params.march.canMarchFrom
      }
      
@@ -837,7 +883,7 @@ index f0952bb..dee6053 100644
      }
      
      val candidates = spaces(candidateNames) filter isOrigin
-@@ -2521,6 +2692,49 @@ object Bot {
+@@ -2521,6 +2735,49 @@ object Bot {
    }
  
    def selectAirLiftOrigin(destName: String, currentOrigins: Set[String], alreadyTried: Set[String], addNewOrigin: Boolean, params: Params): Option[String] = {
@@ -887,7 +933,7 @@ index f0952bb..dee6053 100644
      import params.airlift.allowedType
      // Can only move up to 4 ARVNTroop, Irregulars, Rangers
      val otherTypes = (ARVNTroops::Irregulars:::Rangers).toSet filter allowedType
-@@ -2530,9 +2744,20 @@ object Bot {
+@@ -2530,9 +2787,20 @@ object Bot {
      else
        usTroops
  
@@ -910,7 +956,7 @@ index f0952bb..dee6053 100644
        sp.name != destName                 &&
        !moveDestinations.contains(sp.name) &&
        !currentOrigins(sp.name)            &&
-@@ -2550,7 +2775,7 @@ object Bot {
+@@ -2550,7 +2818,7 @@ object Bot {
  
      val priorities = List(
        new HighestScore[Space]("Most Moveable Pieces",
@@ -919,7 +965,7 @@ index f0952bb..dee6053 100644
        )
      )
  
-@@ -2561,6 +2786,20 @@ object Bot {
+@@ -2561,6 +2829,20 @@ object Bot {
      }
      else {
        botDebug(s"No spaces with moveable pieces for AirLift")
@@ -940,7 +986,7 @@ index f0952bb..dee6053 100644
        None
      }
    }
-@@ -2602,6 +2841,13 @@ object Bot {
+@@ -2602,6 +2884,13 @@ object Bot {
    //  The rules are faction specific and correspond to the
    //  'B' conditions at the bottom of the Move Priorities Table.
    def canSelectAnotherOrigin(faction: Faction, destName: String, cubeTreatment: CubeTreatment): Boolean = {
@@ -954,7 +1000,7 @@ index f0952bb..dee6053 100644
      val dest         = game.getSpace(destName)
      val numCoin      = dest.pieces.totalOf(CoinPieces)
      val numInsurgent = dest.pieces.totalOf(InsurgentPieces)
-@@ -2675,7 +2921,10 @@ object Bot {
+@@ -2675,7 +2964,10 @@ object Bot {
                log(s"\n$faction selects $destName as $action destination")
                log(separator())
              }
@@ -965,7 +1011,7 @@ index f0952bb..dee6053 100644
              movedPieces.add(destName, toMove)
              totalMoved += toMove.total
  
-@@ -2749,9 +2998,11 @@ object Bot {
+@@ -2749,9 +3041,11 @@ object Bot {
  
            case Some(destName) =>
              botDebug(s"\n$faction Bot will attempt $action to $destName")
@@ -977,7 +1023,7 @@ index f0952bb..dee6053 100644
              val dest = game.getSpace(destName)
  
              // If no pieces could be found to move into the destination then
-@@ -2800,6 +3051,16 @@ object Bot {
+@@ -2800,6 +3094,16 @@ object Bot {
    // ================================================================
    object US_Bot {
  
@@ -994,7 +1040,7 @@ index f0952bb..dee6053 100644
      def any2PlusPopNotAtActiveSupportWithCoinControlUsPieces: Boolean = {
        val result = game.nonLocSpaces exists { sp =>
          sp.population >= 2          &&
-@@ -2891,7 +3152,7 @@ object Bot {
+@@ -2891,7 +3195,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Shift Toward Active Support): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1003,7 +1049,7 @@ index f0952bb..dee6053 100644
      }
  
  
-@@ -2924,7 +3185,7 @@ object Bot {
+@@ -2924,7 +3228,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Place Cubes or Special Forces): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1012,7 +1058,7 @@ index f0952bb..dee6053 100644
      }
  
      // US Spaces Priorities: Sweep Destinations
-@@ -2943,11 +3204,18 @@ object Bot {
+@@ -2943,11 +3247,18 @@ object Bot {
  
        botDebug(s"\nUS Select space (Sweep Destinations): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1032,7 +1078,7 @@ index f0952bb..dee6053 100644
  
        val priorities = List(
          COINFirepowerLessThanVulnerable,
-@@ -2958,7 +3226,7 @@ object Bot {
+@@ -2958,7 +3269,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Air Lift Destinations): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1041,7 +1087,7 @@ index f0952bb..dee6053 100644
      }
  
      // US Pick space for: Air Strike
-@@ -2974,7 +3242,7 @@ object Bot {
+@@ -2974,7 +3285,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Air Strike): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1050,7 +1096,7 @@ index f0952bb..dee6053 100644
      }
  
      // US Pick space for: Remove or Replace
-@@ -2991,7 +3259,7 @@ object Bot {
+@@ -2991,7 +3302,7 @@ object Bot {
  
        botDebug(s"\nUS Select space (Remove or Replace): [${andList(candidates.sorted)}]")
        botDebug(separator(char = '#'))
@@ -1059,7 +1105,7 @@ index f0952bb..dee6053 100644
      }
  
      // Part of the Commitment phase of a Coup Round.
-@@ -3027,6 +3295,8 @@ object Bot {
+@@ -3027,6 +3338,8 @@ object Bot {
      // * Withdraw troops from spaces outside Saigon:
      //   1. Fewest troops and no COIN base
      //   2. Spaces with least population
@@ -1068,7 +1114,7 @@ index f0952bb..dee6053 100644
      def moveUSCommitmentPieces(maxTroopsAllowed: Int, coinControlled: Set[String]): Unit = {
        val AVAILABLE = "available"
        val movedPieces = new MovingGroups()
-@@ -3179,7 +3449,13 @@ object Bot {
+@@ -3179,7 +3492,13 @@ object Bot {
        else
          placeBases()
  
@@ -1083,7 +1129,7 @@ index f0952bb..dee6053 100644
      }
  
      def moveOutOfPlayToCities(maxNum: Int): Unit = {
-@@ -3230,7 +3506,9 @@ object Bot {
+@@ -3230,7 +3549,9 @@ object Bot {
        var needArvnCheck = false
        var arvnExhausted = false   // Until we fail an activation or run out of resources
  
@@ -1094,7 +1140,7 @@ index f0952bb..dee6053 100644
          true
        else if (arvnExhausted)
          false
-@@ -3240,7 +3518,8 @@ object Bot {
+@@ -3240,7 +3561,8 @@ object Bot {
          passed
        }
        def canAffordARVN = params.free || !game.trackResources(ARVN) || (game.arvnResources - 3) >= game.econ
@@ -1104,7 +1150,7 @@ index f0952bb..dee6053 100644
        def canTrain(arvn: Boolean) = trainingSpaces.size < maxTrain && (!arvn || canPlaceARVN)
        def prohibited(sp: Space) = !params.spaceAllowed(sp.name) || trainingSpaces(sp.name) || adviseSpaces(sp.name)
        val irregCandidate = (sp: Space) => !prohibited(sp) && sp.pieces.has(USPieces)
-@@ -3260,6 +3539,7 @@ object Bot {
+@@ -3260,6 +3582,7 @@ object Bot {
              decreaseResources(ARVN, 3)
            placePieces(sp.name, toPlace)
            needArvnCheck = true
@@ -1112,7 +1158,7 @@ index f0952bb..dee6053 100644
            trainingSpaces += sp.name
            pause()
            if (!once)
-@@ -3281,6 +3561,7 @@ object Bot {
+@@ -3281,6 +3604,7 @@ object Bot {
              decreaseResources(ARVN, 3)
            placePieces(sp.name, toPlace)
            needArvnCheck = true
@@ -1120,7 +1166,7 @@ index f0952bb..dee6053 100644
            trainingSpaces += sp.name
            pause()
            trainToPlaceRangers()
-@@ -3815,8 +4096,10 @@ object Bot {
+@@ -3815,8 +4139,10 @@ object Bot {
        doArvnSweeps()
        removeEnemies()
        doArvnAssaults()
@@ -1133,7 +1179,7 @@ index f0952bb..dee6053 100644
          increaseUsAid(6)
  
        if (adviseSpaces.nonEmpty)
-@@ -3843,6 +4126,7 @@ object Bot {
+@@ -3843,6 +4169,7 @@ object Bot {
          )
  
          val nextAirLiftCandidate: MoveDestGetter = (_, _, prohibited) => {
@@ -1141,7 +1187,7 @@ index f0952bb..dee6053 100644
            val candidates = game.spaces filter { sp =>
              params.spaceAllowed(sp.name) &&
              params.airlift.canLiftTo(sp.name) &&
-@@ -3850,10 +4134,12 @@ object Bot {
+@@ -3850,10 +4177,12 @@ object Bot {
              !prohibited(sp.name)
            }
  
@@ -1155,7 +1201,7 @@ index f0952bb..dee6053 100644
          }
  
  
-@@ -6543,7 +6829,7 @@ object Bot {
+@@ -6543,7 +6872,7 @@ object Bot {
        val priorities = List(
          filterIf(true,             CityProvinceNoActiveOpposition),
          filterIf(true,             MostPopulation),
@@ -1164,7 +1210,7 @@ index f0952bb..dee6053 100644
        ).flatten
  
        botDebug(s"\nVC Select space (Shift Toward Active Opposition): [${andList(candidates.sorted)}]")
-@@ -6553,11 +6839,11 @@ object Bot {
+@@ -6553,11 +6882,11 @@ object Bot {
  
      // VC Spaces Priorities: Place Terror
      def pickSpacePlaceTerror(candidates: List[Space]): Space = {
@@ -1178,7 +1224,7 @@ index f0952bb..dee6053 100644
          filterIf(true,             CityProvinceMostVCGuerrillas),
          filterIf(true,             CityProvinceFewestNonVCPieces),
          filterIf(coinPlayer,       OnePlusEconLoc)
-@@ -6588,7 +6874,7 @@ object Bot {
+@@ -6588,7 +6917,7 @@ object Bot {
          filterIf(true,               MostPopulation),
          filterIf(true,               MostVCBases),
          filterIf(game.isHuman(ARVN), HasCoinControl),
@@ -1187,7 +1233,7 @@ index f0952bb..dee6053 100644
          filterIf(game.isHuman(NVA),  HasNVAControl),
          filterIf(true,               OneTwoVCGuerrillasRoomForBase),
          filterIf(true,               CityProvinceFewestNonVCPieces)
-@@ -6606,7 +6892,7 @@ object Bot {
+@@ -6606,7 +6935,7 @@ object Bot {
          filterIf(true,               CityProvinceFewestVCPieces),
          filterIf(true,               MostPopulation),
          filterIf(game.isHuman(ARVN), HasCoinControl),
@@ -1196,7 +1242,7 @@ index f0952bb..dee6053 100644
          filterIf(game.isHuman(NVA),  HasNVAControl),
          filterIf(true,               OneTwoVCGuerrillasRoomForBase),
          filterIf(true,               CityProvinceFewestNonVCPieces)
-@@ -6619,7 +6905,7 @@ object Bot {
+@@ -6619,7 +6948,7 @@ object Bot {
  
      // VC Spaces Priorities: Tax
      def pickSpaceTax(candidates: List[Space]): Space = {
@@ -1205,7 +1251,7 @@ index f0952bb..dee6053 100644
  
        val priorities = List(
          filterIf(true,        MostTotalOpposition),
-@@ -7325,6 +7611,45 @@ object Bot {
+@@ -7325,6 +7654,45 @@ object Bot {
      }
    }
  
@@ -1251,7 +1297,7 @@ index f0952bb..dee6053 100644
    //  A bot is the next eligible faction
    //  Decide what type of action the Bot will take.
    //  We use the NP Elgibility Table.
-@@ -7343,42 +7668,10 @@ object Bot {
+@@ -7343,42 +7711,10 @@ object Bot {
        card.executeUnshaded(faction)
        Event
      }
@@ -1485,7 +1531,7 @@ index 0000000..56d3b5b
 +    }
 +}
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
-index b1dc7c3..f0e645f 100644
+index b1dc7c3..7499e21 100644
 --- a/src/main/scala/fitl/FireInTheLake.scala
 +++ b/src/main/scala/fitl/FireInTheLake.scala
 @@ -345,7 +345,7 @@ object FireInTheLake {
@@ -1694,7 +1740,20 @@ index b1dc7c3..f0e645f 100644
          .headOption
  
        winner match {
-@@ -4096,6 +4202,16 @@ object FireInTheLake {
+@@ -3494,8 +3600,10 @@ object FireInTheLake {
+ 
+       if (canPacify(faction) && candidates.nonEmpty) {
+         if (game.isBot(faction)) {
+-          val sp = if (faction == US)
+-            Bot.US_Bot.pickSpaceTowardActiveSupport(candidates)
++          val sp = if (faction == US) {
++            Bot.pickTag = "coup-us-pacify"
++            try Bot.US_Bot.pickSpaceTowardActiveSupport(candidates) finally Bot.pickTag = ""
++          }
+           else
+             Bot.ARVN_Bot.pickSpaceTowardPassiveSupport(candidates)
+           botPoints -= Bot.pacifySpace(sp.name, faction, coupRound = true, coupPoints = botPoints, params.free, params.maxLevels)
+@@ -4096,6 +4204,16 @@ object FireInTheLake {
  
  
    @tailrec def mainLoop(): Unit = {
@@ -1711,7 +1770,7 @@ index b1dc7c3..f0e645f 100644
      // Does any faction wish to play their pivotal event?
      // Will alwasy return None if Coup round or Coup card on deck
      // or any faction has already acted.
-@@ -4139,19 +4255,20 @@ object FireInTheLake {
+@@ -4139,19 +4257,20 @@ object FireInTheLake {
              endgameCommand() // Does not return, throws ExitGame or Rollback
            }
            else {
@@ -1738,7 +1797,7 @@ index b1dc7c3..f0e645f 100644
  
            // Now create a save point to capture the action
            saveGameState()
-@@ -5112,7 +5229,9 @@ object FireInTheLake {
+@@ -5112,7 +5231,9 @@ object FireInTheLake {
  
    private var loggingPointsChangesActive = false
    def loggingPointsChanges[T](code: => T): T = {
@@ -1749,7 +1808,7 @@ index b1dc7c3..f0e645f 100644
        code
      else {
        loggingPointsChangesActive = true
-@@ -5136,7 +5255,8 @@ object FireInTheLake {
+@@ -5136,7 +5257,8 @@ object FireInTheLake {
    private var loggingControlChangesActive = false
  
    def loggingControlChanges[T](code: => T): T = {
@@ -1759,7 +1818,7 @@ index b1dc7c3..f0e645f 100644
        code
      else {
        loggingControlChangesActive = true
-@@ -5290,15 +5410,17 @@ object FireInTheLake {
+@@ -5290,15 +5412,17 @@ object FireInTheLake {
    }
  
    // Print the line to the console and save it in the game's history.
@@ -1780,7 +1839,7 @@ index b1dc7c3..f0e645f 100644
        }
    }
  
-@@ -5591,11 +5713,26 @@ object FireInTheLake {
+@@ -5591,11 +5715,26 @@ object FireInTheLake {
      }
    }
  
@@ -1807,7 +1866,7 @@ index b1dc7c3..f0e645f 100644
      val AbortActionString = "abort"
      val choices = if (allowAbort) options ++ List(AbortActionString) else options
  
-@@ -5616,6 +5753,7 @@ object FireInTheLake {
+@@ -5616,6 +5755,7 @@ object FireInTheLake {
    }
  
    def askYorN(prompt: String): Boolean = {
@@ -1815,7 +1874,7 @@ index b1dc7c3..f0e645f 100644
      def testResponse(r: String): Option[Boolean] = {
        if (r == null)
          None
-@@ -5687,6 +5825,11 @@ object FireInTheLake {
+@@ -5687,6 +5827,11 @@ object FireInTheLake {
          Nil
        else if (itemsRemaining.size == 1)
          itemsRemaining.keys.head :: Nil
@@ -1827,7 +1886,7 @@ index b1dc7c3..f0e645f 100644
        else {
          val width = itemsRemaining.size.toString.size
          println(menuPrompt)
-@@ -5729,6 +5872,11 @@ object FireInTheLake {
+@@ -5729,6 +5874,11 @@ object FireInTheLake {
          Nil
        else if (itemsRemaining.size == 1)
          itemsRemaining.keys.head :: Nil
@@ -1841,10 +1900,10 @@ index b1dc7c3..f0e645f 100644
          println(menuPrompt)
 diff --git a/src/main/scala/fitl/Lookahead.scala b/src/main/scala/fitl/Lookahead.scala
 new file mode 100644
-index 0000000..b6e38d7
+index 0000000..dd21119
 --- /dev/null
 +++ b/src/main/scala/fitl/Lookahead.scala
-@@ -0,0 +1,150 @@
+@@ -0,0 +1,154 @@
 +//  Lookahead: score a US candidate action by playing the game forward.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -1870,6 +1929,9 @@ index 0000000..b6e38d7
 +
 +object Lookahead {
 +  var inRollout = false
++  //  Called once after a playout's first step (the Teacher clears its
++  //  one-pick change there when the playout starts with a Coup round).
++  var afterFirstStep: Option[() => Unit] = None
 +  //  FITL_ROLLOUT_SEARCH=1: in playouts the US plays by its search policy
 +  //  (without look-ahead) instead of its Tru'ng routines.
 +  var searchInRollout = sys.env.contains("FITL_ROLLOUT_SEARCH")
@@ -1956,6 +2018,7 @@ index 0000000..b6e38d7
 +                  if (game.sequence.exhausted)
 +                    game = game.copy(needsCardDraw = true)
 +              }
++              if (steps == 1) afterFirstStep foreach (_())
 +            }
 +          }
 +        }
@@ -2045,10 +2108,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/Teacher.scala b/src/main/scala/fitl/Teacher.scala
 new file mode 100644
-index 0000000..4c3a136
+index 0000000..78d7679
 --- /dev/null
 +++ b/src/main/scala/fitl/Teacher.scala
-@@ -0,0 +1,145 @@
+@@ -0,0 +1,300 @@
 +//  Teacher: label US decisions by playing each candidate to the end of the
 +//  game. Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2074,6 +2137,7 @@ index 0000000..4c3a136
 +package fitl
 +
 +import scala.util.Random
++import scala.collection.mutable.ListBuffer
 +import FireInTheLake._
 +import Bot._
 +
@@ -2167,6 +2231,7 @@ index 0000000..4c3a136
 +  def consider(cfg: USPolicy.Config, saved: GameState, scored: List[(USPolicy.Candidate, Double)],
 +               post: Map[String, GameState], base: Long): Unit = {
 +    if (Mode == "screen") return screen(cfg, saved, scored, post, base)
++    if (Mode == "space") return spaceConsider(cfg, saved, scored, base)
 +    assert(cfg.weights.getOrElse("event", 0.0) == 0.0, "the Teacher expects a policy with Event weight 0")
 +    val ev = scored.find(_._1.name == "Event") getOrElse { return }
 +    if (!post.contains("Event")) return
@@ -2192,6 +2257,159 @@ index 0000000..4c3a136
 +                f""""secs":${(System.nanoTime - t0) / 1e9}%.1f,"cands":${cs.mkString("[", ",", "]")}}""")
 +    out.flush()
 +    if (nDis >= QuotaDis && nOther >= QuotaOther) { out.close(); sys.exit(0) }
++  }
++
++  // ---------------------------------------------------------------
++  //  FITL_TEACHER_MODE=space: one-pick changes of space choices.
++  //
++  //  US turns: with probability FITL_TEACHER_P (default 0.1) a US decision
++  //  is sampled; the policy's pick is carried out once on the dice of its
++  //  first trial with every pick traced. If it made space picks with an
++  //  alternative, the candidates are the pick as planned (its plan
++  //  replayed) and FITL_TEACHER_K - 1 variants (default 3), each changing one
++  //  space pick, chosen at random, to another of the spaces that pick was
++  //  offered; the routine then goes on by its own priorities.
++  //  Coup rounds: with probability FITL_TEACHER_PCOUP (default 0.25), when no
++  //  Bot is over its line, the Coup round is carried out once with picks
++  //  traced; if the US Bot's Support-phase Pacify made picks with an
++  //  alternative, the candidates are the Coup round as played and variants
++  //  changing one of the US Pacify picks. Each candidate is played to the
++  //  end FITL_TEACHER_N times on common seeds. One line per decision, "kind"
++  //  "turn" or "coup". After a Coup decision the dice are reset from a
++  //  number drawn before it, so the game goes on deterministically.
++  // ---------------------------------------------------------------
++  val PCoup = env("FITL_TEACHER_PCOUP", "0.25").toDouble
++  var nTurn = 0
++  var nCoup = 0
++
++  case class Variant(name: String, replay: List[(List[String], String)], dev: Option[Deviation], pickInfo: String)
++
++  private def jq(x: String) = "\"" + x.replace("\\", "\\\\").replace("\"", "'") + "\""
++
++  //  Up to K - 1 one-pick changes among `eligible` picks (index into the trace), at random.
++  def variants(trace: List[Pick], plan: List[(List[String], String)], eligible: List[Int], rng: Random): List[Variant] = {
++    val options = for (j <- eligible; alt <- trace(j).all if alt != trace(j).choice) yield (j, alt)
++    rng.shuffle(options).take(K - 1).sortBy(_._1).map { case (j, alt) =>
++      val p = trace(j)
++      val occ = trace.take(j).count(_.all == p.all)
++      Variant(s"pick $j: ${p.choice} -> $alt", plan.take(j), Some(Deviation(occ, p.all, alt)),
++              s"""{"j":$j,"tag":${jq(p.tag)},"priority":${jq(p.priority)},"from":${jq(p.choice)},"to":${jq(alt)},"offered":${p.all.size}}""")
++    }
++  }
++
++  private def clearPicks(): Unit = {
++    deviation = None; deviationApplied = false; pickCount = 0; replaySorted = false
++    planReplay = Nil; planReplaying = false; planDiverged = false; planRecord = None; pickTrace = None
++  }
++  private def startVariant(v: Variant): Unit = {
++    clearPicks()
++    planReplay = v.replay; planReplaying = v.replay.nonEmpty; replaySorted = true
++    deviation = v.dev
++  }
++
++  private def writeDecision(kind: String, saved: GameState, extra: String, vs: List[Variant],
++                            vals: List[(Seq[Option[Double]], Int)], t0: Long): Unit = {
++    val cs = vs.zip(vals).map { case (v, (xs, applied)) =>
++      s"""{"name":${jq(v.name)},"pick":${if (v.dev.isEmpty) "null" else v.pickInfo},"applied":$applied,"v":${arr(xs)}}"""
++    }
++    out.println(s"""{"kind":"$kind","seed":${USPolicy.gameSeed},"i":${USPolicy.decisions},"card":${saved.currentCard},""" +
++                s""""seen":${saved.cardsSeen.size},"coups":${saved.coupCardsPlayed},"first":${saved.sequence.numActors == 0},""" +
++                s""""playouts":$Playouts,$extra"secs":${"%.1f".format((System.nanoTime - t0) / 1e9)},"cands":${cs.mkString("[", ",", "]")}}""")
++    out.flush()
++  }
++
++  def spaceConsider(cfg: USPolicy.Config, saved: GameState, scored: List[(USPolicy.Candidate, Double)], base: Long): Unit = {
++    if (new Random(base ^ 0x3C6EF372FE94F82BL).nextDouble() >= PScreen) return
++    val (pick, score) = scored.maxBy(_._2)
++    //  The pick once, picks traced (the dice of its first trial).
++    val tr   = new ListBuffer[Pick]
++    val plan = new ListBuffer[(List[String], String)]
++    val ok = try Bot.testOutcome {
++      game = saved
++      Random.setSeed(base + 7919L)
++      initTurnVariables()
++      workLeft = cfg.trialWork
++      pickTrace = Some(tr); planRecord = Some(plan)
++      try pick.run().nonEmpty finally { workLeft = Long.MaxValue; clearPicks() }
++    } catch { case _: Throwable => false }
++    finally game = saved
++    val trace = tr.toList
++    val eligible = trace.indices.filter(j => trace(j).isSpace && trace(j).all.size > 1).toList
++    if (!ok || eligible.isEmpty) return
++    val vs = Variant("as planned", plan.toList, None, "") ::
++             variants(trace, plan.toList, eligible, new Random(base ^ 0x1F83D9ABFB41BD6BL))
++    val t0 = System.nanoTime
++    val savedSearch = Lookahead.searchInRollout
++    Lookahead.searchInRollout = true
++    val vals = try vs map { v =>
++      var applied = 0
++      val xs = (0 until Playouts).map { k =>
++        val seed = (base ^ 0x510E527FADE682D1L) + 104729L * k
++        val start = try Bot.testOutcome {
++          game = saved
++          Random.setSeed(seed)
++          initTurnVariables()
++          workLeft = cfg.trialWork
++          startVariant(v)
++          try {
++            val r = pick.run().map(a => Lookahead.afterAction(game, a))
++            if (deviationApplied) applied += 1
++            r
++          }
++          finally { workLeft = Long.MaxValue; clearPicks() }
++        } catch { case _: Throwable => None }
++        finally game = saved
++        start flatMap (s => Lookahead.playout(s, seed * 7 + 3, Horizon, Reseed))
++      }
++      (xs, applied)
++    }
++    finally { Lookahead.searchInRollout = savedSearch; game = saved; clearPicks() }
++    nTurn += 1
++    writeDecision("turn", saved, s""""action":${jq(pick.name)},"score":${"%.4f".format(score)},"n_picks":${trace.size},""" +
++                  s""""n_space_picks":${eligible.size},""", vs, vals, t0)
++  }
++
++  //  Called by Autoplay before a Coup round is resolved (`before`: the scores at the Victory check).
++  def coupConsider(before: List[Score]): Unit = {
++    val resume = Random.nextLong()
++    val cfg = USPolicy.config.get
++    val saved = game
++    val rng = new Random(resume ^ 0x3C6EF372FE94F82BL)
++    if (rng.nextDouble() < PCoup && !before.exists(s => s.faction != US && s.score > 0)) {
++      val tr   = new ListBuffer[Pick]
++      val plan = new ListBuffer[(List[String], String)]
++      val ok = try Bot.testOutcome {
++        game = saved
++        Random.setSeed(resume)
++        pickTrace = Some(tr); planRecord = Some(plan)
++        try { resolveCoupCard(); true } finally clearPicks()
++      } catch { case _: Throwable => false }
++      finally game = saved
++      val trace = tr.toList
++      val eligible = trace.indices.filter(j => trace(j).tag == "coup-us-pacify" && trace(j).all.size > 1).toList
++      if (ok && eligible.nonEmpty) {
++        val vs = Variant("as played", plan.toList, None, "") :: variants(trace, plan.toList, eligible, rng)
++        val t0 = System.nanoTime
++        val savedSearch = Lookahead.searchInRollout
++        Lookahead.searchInRollout = true
++        val vals = try vs map { v =>
++          var applied = 0
++          val xs = (0 until Playouts).map { k =>
++            val seed = (resume ^ 0x510E527FADE682D1L) + 104729L * k
++            Lookahead.afterFirstStep = Some(() => { if (deviationApplied) applied += 1; clearPicks() })
++            startVariant(v)
++            try Lookahead.playout(saved, seed, Horizon, Reseed)
++            finally { Lookahead.afterFirstStep = None; clearPicks() }
++          }
++          (xs, applied)
++        }
++        finally { Lookahead.searchInRollout = savedSearch; game = saved; clearPicks() }
++        nCoup += 1
++        writeDecision("coup", saved, s""""us_pacify_picks":${eligible.size},"n_picks":${trace.size},""", vs, vals, t0)
++      }
++    }
++    game = saved
++    Random.setSeed(resume)
 +  }
 +}
 diff --git a/src/main/scala/fitl/USPlayer.scala b/src/main/scala/fitl/USPlayer.scala

@@ -1,0 +1,35 @@
+Space-choice screening: plan (written before the run)
+
+Question: does the search bot lose win chance in its space choices (which the
+Tru'ng US routines make inside each Operation and in the Coup Support phase)?
+
+Policy fit3flat_event0 plays the games and the playouts (--us-final-only --us-player).
+Schedule: 140 games, 4 workers x 35 (seeds 920001-920035, 921001-921035, 922001-922035,
+923001-923035), tools/teach_run.sh; progress in the run directory's PROGRESS.txt.
+FITL_TEACHER_MODE=space, 100 playouts to the end of the game per candidate, common seeds,
+per-step reseed.
+- US turns: each US decision sampled with probability 0.1. The policy's pick is carried out
+  once with its space picks traced; if it made any space pick with an alternative, the
+  candidates are the pick as planned and up to 3 variants, each changing one space pick to
+  another space that pick was offered (chosen at random among all such changes); the
+  routine continues by its own priorities after the change.
+- Coup rounds: sampled with probability 0.15 when no Bot is over its line; candidates the
+  round as played and up to 3 variants changing one of the US Bot's Support-phase Pacify
+  picks.
+Expected: about 300 turn decisions and 100 Coup decisions, about 3-4 hours on 4 cores.
+
+Measures (tools/teacher_space.py), separately for turns and Coups:
+S1 held-out regret of the bot's choice against the playout-best of {as played, variants}
+   (best chosen on 50 playouts, measured on the other 50, both ways): mean (se), median.
+   This is the prize: what a perfect one-change chooser among these variants would gain.
+S2 the same by kind of pick (the routine's first priority, e.g. "Vulnerable Base",
+   "City or Province not at Active Support") and by action.
+S3 mean variant minus as played: how much a random one-pick change costs on average.
+Variants applied in fewer than 90% of their playouts are reported and left out.
+
+Decision rule (stated now): if S1 for turns or Coups is +1 point a decision or more with
+se under 0.5, space choice is worth building (the learned rule); if it is under +0.5,
+like the menu (+0.2), it is not, and the next place to look is elsewhere.
+Note that S1 includes the selection effect of picking the best of up to 4 by noisy
+halves only partly: the held-out half removes the bias in the measured value but a
+best-of-4 on 50 playouts still picks noise often, which pulls S1 towards 0, not away.
