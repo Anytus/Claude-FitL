@@ -1841,7 +1841,7 @@ index b1dc7c3..f0e645f 100644
          println(menuPrompt)
 diff --git a/src/main/scala/fitl/Lookahead.scala b/src/main/scala/fitl/Lookahead.scala
 new file mode 100644
-index 0000000..bba93bb
+index 0000000..c610969
 --- /dev/null
 +++ b/src/main/scala/fitl/Lookahead.scala
 @@ -0,0 +1,141 @@
@@ -1872,7 +1872,7 @@ index 0000000..bba93bb
 +  var inRollout = false
 +  //  FITL_ROLLOUT_SEARCH=1: in playouts the US plays by its search policy
 +  //  (without look-ahead) instead of its Tru'ng routines.
-+  val searchInRollout = sys.env.contains("FITL_ROLLOUT_SEARCH")
++  var searchInRollout = sys.env.contains("FITL_ROLLOUT_SEARCH")
 +  val Debug = sys.env.contains("FITL_LA_DEBUG")
 +  val LossValue = -100.0
 +  val WinBonus  = 100.0
@@ -2034,6 +2034,99 @@ index 8fd9366..a1752b9 100644
      )
    }
  
+diff --git a/src/main/scala/fitl/Teacher.scala b/src/main/scala/fitl/Teacher.scala
+new file mode 100644
+index 0000000..b843b47
+--- /dev/null
++++ b/src/main/scala/fitl/Teacher.scala
+@@ -0,0 +1,87 @@
++//  Teacher: label US decisions by playing each candidate to the end of the
++//  game. Part of the Claude-FitL harness; not in the upstream program.
++//
++//  FITL_TEACHER=PREFIX turns it on (search mode only). At a US decision where
++//  the Event is a candidate, three candidates are labelled: the Event, the
++//  best other candidate by the policy's score (N1), and the next best whose
++//  position differs from N1's (N2). Each is carried out and the game played
++//  to the end FITL_TEACHER_N times (default 200) with every faction a Bot
++//  and the US by the same policy (Lookahead.playout, horizon: the end).
++//  Playout k uses the same dice for the action and the same seed for the
++//  playout in every candidate (common random numbers). One JSON line per
++//  labelled decision to PREFIX.<pid>; the game then goes on as if nothing
++//  had happened (the real action's dice are reset by the search).
++//
++//  Which decisions are labelled: "disagree" decisions, where the running
++//  policy (Event weight 0) picks the Event and the same policy with Event
++//  weight FITL_TEACHER_EVENT_W (default -0.71418, fit3flat) would pick N1,
++//  up to FITL_TEACHER_DIS of them (default 8); and other decisions with the
++//  Event on offer, each with probability FITL_TEACHER_POTHER (default 0.1),
++//  up to FITL_TEACHER_OTHER (default 5). The JVM exits once both are reached.
++
++package fitl
++
++import scala.util.Random
++import FireInTheLake._
++import Bot._
++
++object Teacher {
++  val prefix = sys.env.get("FITL_TEACHER")
++  def on = prefix.nonEmpty
++  private def env(k: String, d: String) = sys.env.getOrElse(k, d)
++  val Playouts   = env("FITL_TEACHER_N", "200").toInt
++  val EventW     = env("FITL_TEACHER_EVENT_W", "-0.71418").toDouble
++  val QuotaDis   = env("FITL_TEACHER_DIS", "8").toInt
++  val QuotaOther = env("FITL_TEACHER_OTHER", "5").toInt
++  val POther     = env("FITL_TEACHER_POTHER", "0.1").toDouble
++  val Horizon    = 99
++  var nDis = 0
++  var nOther = 0
++  lazy val out = new java.io.PrintWriter(new java.io.FileWriter(s"${prefix.get}.${ProcessHandle.current.pid}", true))
++
++  def consider(cfg: USPolicy.Config, saved: GameState, scored: List[(USPolicy.Candidate, Double)],
++               post: Map[String, GameState], base: Long): Unit = {
++    assert(cfg.weights.getOrElse("event", 0.0) == 0.0, "the Teacher expects a policy with Event weight 0")
++    val ev = scored.find(_._1.name == "Event") getOrElse { return }
++    if (!post.contains("Event")) return
++    val others = scored.filter(cv => cv._1.name != "Event" && post.contains(cv._1.name)).sortBy(-_._2)
++    if (others.isEmpty) return
++    val n1 = others.head
++    val n2 = others.tail.find(cv => post(cv._1.name) != post(n1._1.name))
++    val disagree = ev._2 > n1._2 && ev._2 + EventW <= n1._2
++    val pick = new Random(base ^ 0x3C6EF372FE94F82BL).nextDouble()
++    val stratum =
++      if (disagree) { if (nDis < QuotaDis) "disagree" else return }
++      else if (nOther < QuotaOther && pick < POther) "other"
++      else return
++    val decision = USPolicy.decisions
++    val card = game.currentCard
++    val t0 = System.nanoTime
++    val cands = List(ev) ++ List(n1) ++ n2.toList
++    val savedSearch = Lookahead.searchInRollout
++    Lookahead.searchInRollout = true
++    val vals = try cands map { case (c, _) =>
++      c.name -> (0 until Playouts).map { k =>
++        val seed = (base ^ 0x510E527FADE682D1L) + 104729L * k
++        val start = try Bot.testOutcome {
++          game = saved
++          Random.setSeed(seed)
++          initTurnVariables()
++          workLeft = cfg.trialWork
++          try c.run().map(a => Lookahead.afterAction(game, a)) finally workLeft = Long.MaxValue
++        } catch { case _: Throwable => None }
++        finally game = saved
++        start flatMap (s => Lookahead.playout(s, seed * 7 + 3, Horizon))
++      }
++    }
++    finally { Lookahead.searchInRollout = savedSearch; game = saved }
++    if (stratum == "disagree") nDis += 1 else nOther += 1
++    def arr(vs: Seq[Option[Double]]) = vs.map(_.map(v => f"$v%.1f").getOrElse("null")).mkString("[", ",", "]")
++    val cs = cands.zip(vals).map { case ((c, v), (_, vs)) => f"""{"name":"${c.name}","score":$v%.4f,"v":${arr(vs)}}""" }
++    out.println(s"""{"seed":${USPolicy.gameSeed},"i":$decision,"card":$card,"seen":${saved.cardsSeen.size},""" +
++                s""""first":${saved.sequence.numActors == 0},"stratum":"$stratum","playouts":$Playouts,""" +
++                f""""secs":${(System.nanoTime - t0) / 1e9}%.1f,"cands":${cs.mkString("[", ",", "]")}}""")
++    out.flush()
++    if (nDis >= QuotaDis && nOther >= QuotaOther) { out.close(); sys.exit(0) }
++  }
++}
 diff --git a/src/main/scala/fitl/USPlayer.scala b/src/main/scala/fitl/USPlayer.scala
 new file mode 100644
 index 0000000..ee8e4cd
@@ -2372,10 +2465,10 @@ index 0000000..ee8e4cd
 +}
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..9f59bcf
+index 0000000..2ecd67d
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,561 @@
+@@ -0,0 +1,565 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2824,6 +2917,8 @@ index 0000000..9f59bcf
 +        features(game, cfg.hingeBuffer).toList.sortBy(_._1).map { case (k, v) => f"$k=$v%.2f" }.mkString(" "))
 +    val cands = candidates(cfg, card)
 +    val before = if (fitLog.nonEmpty) features(game, cfg.hingeBuffer) else Map.empty[String, Double]
++    //  Work left on entry (a playout's own budget when searching inside one).
++    val workSaved = workLeft
 +
 +    //  Each candidate is tried on the same `samples` dice streams (common
 +    //  random numbers), none of which is the stream the real action uses.
@@ -2848,12 +2943,12 @@ index 0000000..9f59bcf
 +        try testOutcome {
 +          initTurnVariables()
 +          c.run() map (a => (value(cfg, game, extras(a, card)) +
-+                               { if (k == 1 && cfg.lookahead > 0) post(c.name) = Lookahead.afterAction(game, a); 0.0 },
++                               { if (k == 1 && (cfg.lookahead > 0 || Teacher.on)) post(c.name) = Lookahead.afterAction(game, a); 0.0 },
 +                             if (designLog.nonEmpty) features(game, cfg.hingeBuffer) ++ extras(a, card) else Map.empty[String, Double]))
 +        }
 +        catch { case _: Throwable => None }
 +        finally {
-+          game = saved; WorkStats.add(cfg.trialWork - workLeft, cfg.trialWork); workLeft = Long.MaxValue
++          game = saved; WorkStats.add(cfg.trialWork - workLeft, cfg.trialWork); workLeft = workSaved
 +          pickLog foreach (l => trialPicks(c.name) = l.toList)
 +          pickLog = None
 +          if (cfg.commitPlan && k == 1) plans(c.name) = record.toList
@@ -2864,6 +2959,8 @@ index 0000000..9f59bcf
 +      if (runs.isEmpty) None else Some((c, runs.map(_._1).sum / runs.size, runs.head._2))
 +    }
 +    val scored0 = trials map { case (c, v, _) => c -> v }
++    if (Teacher.on && !Lookahead.inRollout)
++      Teacher.consider(cfg, saved, scored0, post.toMap, base)
 +    //  Look-ahead: the best few by the weighted score are played forward and
 +    //  ranked by their playouts (see Lookahead); the rest cannot be chosen.
 +    val scored = if (cfg.lookahead <= 0 || scored0.size < 2 || Lookahead.inRollout) scored0 else {
@@ -2905,7 +3002,7 @@ index 0000000..9f59bcf
 +    workLeft = cfg.trialWork
 +    if (replayLog.nonEmpty) pickLog = Some(new scala.collection.mutable.ListBuffer[String])
 +    startReplay(best.name)
-+    val result = try best.run() catch { case _: Throwable => None } finally workLeft = Long.MaxValue
++    val result = try best.run() catch { case _: Throwable => None } finally workLeft = workSaved
 +    val diverged = cfg.commitPlan && planDiverged
 +    stopPlan()
 +    val realPicks = pickLog.map(_.toList).getOrElse(Nil)

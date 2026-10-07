@@ -443,6 +443,19 @@ wins 5 points less than without it (`results/lookahead_v1.txt`). A playout's
 value has an sd of about 35, so a few dozen playouts cannot rank candidates
 whose risk differs by a few percent.
 
+### Playout labels (`fitl.Teacher`)
+
+`FITL_TEACHER=PREFIX` (search mode, a policy with Event weight 0): at US
+decisions where the Event is on offer, the Event, the best other candidate
+(N1) and the next best with a different position (N2) are each carried out
+and played to the end of the game `FITL_TEACHER_N` times (default 200), the
+US by the same policy, on common seeds; one JSON line per decision to
+`PREFIX.<pid>`, and the game then goes on unchanged. Decisions labelled:
+those where Event weight 0 and fit3flat's -0.71 choose differently
+(`FITL_TEACHER_DIS`, default 8 a process) and a sample of the rest
+(`FITL_TEACHER_POTHER`, `FITL_TEACHER_OTHER`); the JVM exits when both
+quotas are met. `tools/teacher.py` summarizes (`results/teacher/`).
+
 ### Diagnostics
 
 `KNOWLEDGE.md` collects what is established, with evidence. The four
