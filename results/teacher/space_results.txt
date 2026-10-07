@@ -1,0 +1,52 @@
+Space-choice screening: results (plan in space_plan.txt; labels space_labels.jsonl;
+tools/teacher_space.py output space_summary.txt)
+
+Run: 140 games as scheduled (seeds 920001-920035, 921001-921035, 922001-922035,
+923001-923035). Started 19:19 UTC; the container was restarted at about 19:25 (5 games
+done) and the run was resumed at 20:22 by tools/teach_run.sh; finished 23:02. 143,800
+playouts (0.26 s each on one core, 1.1% failed). 386 decisions kept (308 US turns, 78 Coup
+rounds; 7 dropped because none of their variants could be applied, 38 single variants
+dropped for being applied in fewer than 90% of playouts; duplicates from the restart
+dropped).
+
+S1, held-out regret of the choice as played against the playout-best of {as played, up
+to 3 one-pick variants}:
+  US turns:    +0.2 points of win chance a decision (se 0.3), median 0.0.
+  Coup Pacify: +0.6 (se 0.6), median 0.0.
+S2 (turns, by action): Train[arvn<=1]+Advise +0.3 (0.4, n 151), Train LimOp +0.4 (1.3),
+  Event +0.4 (0.9), Patrol+Advise -0.7 (0.6), Assault+AirLift +1.1 (1.0), Sweep+AirStrike
+  +3.5 (1.2, n 12); none of the groups but the smallest clearly above 0.
+S3, a random one-pick change minus as played:
+  US turns:    -0.8 (se 0.2) over 822 variants: the routines' picks are better than a
+               random alternative, by a little; by the changed pick's first priority all
+               between -0.3 and -1.7.
+  Coup Pacify: +0.5 (se 0.5) over 182 variants: the US Bot's Pacify pick ("City or
+               Province not at Active Support", then most Population) is no better than
+               another eligible space chosen at random.
+
+Decision rule (space_plan.txt):
+  US turns: S1 +0.2 is under +0.5 -> space choice inside US actions, as one-pick changes,
+            is not worth building a learned rule for.
+  Coup Pacify: +0.6 with se 0.6 meets neither threshold (se is not under 0.5):
+            inconclusive.
+
+Not pre-registered: decisive cases. Only one decision of 386 has a variant that changes
+the chance of an early loss by 30 points or more in the US's favour: seed 922011, card #83,
+18 cards seen, the US second eligible with a Coup on deck. Train LimOp in Saigon as planned
+lost every playout at the next Coup (VC over its line: VC -2 before the card, +1 at the
+check); Train in Pleiku-Darlac or Quang Nam instead survived 54-58% and won 25-32%. The
+search never saw the alternatives: every Train candidate in its menu trains where the
+Tru'ng priorities say. With the Failed Attempt case of the menu screening (a Coup on deck,
+the pick put NVA over its line) this is the second decisive decision found, both "last
+US action before a Victory check" positions, both missed because the losing outcome was
+not in what the search compared.
+
+Conclusions:
+1. Like the menu, the space choices the bot makes are close to the best one-change
+   alternative on average; a general space-choice rule has little to gain.
+2. The Tru'ng Coup Pacify ordering looks no better than random among eligible spaces;
+   whether a better one would gain anything is not settled (+0.6, se 0.6).
+3. What two screenings found worth something are rare positions just before a Victory
+   check, where one choice puts a rival over its line and another does not. A targeted
+   guard for those (check each candidate and its space variants against the coming
+   Victory check, including the Coup card's own effect) is the remaining concrete lead.

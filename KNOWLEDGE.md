@@ -228,6 +228,23 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   every playout; alternatives won 34-46%). The bot's features do not see the
   Coup card's own effect (1 game in 122).
 
+## Space choice (`results/teacher/space_results.txt`)
+
+- Changing one space pick of the bot's action (to another space that pick
+  was offered) gains nothing on average: held-out regret +0.2 points a
+  decision (se 0.3) over 308 US-turn decisions. A random change costs 0.8
+  (se 0.2): the Tru'ng priorities are slightly better than random.
+- Coup Support-phase Pacify: +0.6 (se 0.6) over 78 Coups, inconclusive; a
+  random eligible space is as good as the Tru'ng pick (+0.5, se 0.5).
+- The decisive decisions found so far (2 in about 730 labelled) are the last
+  US action before a Victory check, where the chosen action leaves a rival
+  over its line and an alternative the search did not compare would not
+  (Failed Attempt on deck; Train in the Tru'ng space with VC one point from
+  its line).
+- Long runs survive only while this session is active: the container was
+  reclaimed twice within minutes of the session going idle, taking the
+  background jobs with it.
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,

@@ -1,0 +1,54 @@
+386 decisions (308 turn, 78 Coup) from 129 games, 139300 playouts kept; dropped: {'variants not applied': 38, 'decisions with no applied variant': 7}
+
+== US turns: space picks inside the chosen action
+  S1 held-out regret of the choice as played      n    mean    se  median
+  all                                           308    +0.2   0.3    +0.0
+  action Train[arvn<=1]+Advise                  151    +0.3   0.4    +0.0
+  action Train LimOp                             35    +0.4   1.3    -1.0
+  action Event                                   26    +0.4   0.9    +0.0
+  action Patrol+Advise                           25    -0.7   0.6    -0.7
+  action Assault+AirLift                         18    +1.1   1.0    +0.0
+  action Train[arvn<=1]+AirLift                  12    -0.8   1.1    +0.0
+  action Sweep+AirStrike                         12    +3.5   1.2    +2.6
+  action Sweep+AirLift                            7    -2.0   0.8    -2.0
+  S3 variant minus as played: -0.8 (se 0.2) over 822 variants; variant better in 281, worse in 377
+     Province with a US Base and 0-2 COIN cubes                    188    -0.5   0.5
+     City or Province not at Active Support                        159    -0.3   0.5
+     Most Opposition                                               116    -0.8   0.5
+     Vulnerable Base                                               105    -1.2   0.6
+     Most Moveable Pieces                                           69    -1.1   0.5
+     Most VC                                                        59    -1.7   0.7
+     Most NVA                                                       43    -0.6   0.6
+     COIN Firepower < vulnerable enemies where US pieces            39    -1.2   1.0
+     ARVN Activates most guerrillas                                 20    -0.7   0.7
+     Would remove an Insurgent along a Can Tho to Hue route         10    -1.3   0.7
+  Decisions where the best variant gains most (all playouts):
+    seed 922011 card  83 seen 18 Train LimOp                    as played 0.00, pick 0: Saigon -> Quang Nam 0.32 (Province with a US Base and 0-2 COIN cub)
+    seed 921001 card  95 seen 15 Train LimOp                    as played 0.32, pick 0: Binh Dinh -> Khanh Hoa 0.53 (Province with a US Base and 0-2 COIN cub)
+    seed 921022 card  86 seen 17 Train[arvn<=1]+Advise @opposit as played 0.61, pick 1: Quang Tri-Thua Thien -> Da Nang 0.77 (Most Opposition)
+    seed 923016 card   9 seen 15 Train[arvn<=1]+Advise          as played 0.43, pick 0: Kien Hoa-Vinh Binh -> Pleiku-Darlac 0.58 (Province with a US Base and 0-2 COIN cub)
+    seed 920004 card  44 seen 33 Train LimOp                    as played 0.42, pick 0: Saigon -> Pleiku-Darlac 0.57 (Province with a US Base and 0-2 COIN cub)
+    seed 923007 card  64 seen 17 Event                          as played 0.34, pick 0: Kien Hoa-Vinh Binh -> Ba Xuyen 0.47 (City or Province not at Active Support)
+    seed 920030 card  26 seen  2 Train[arvn<=1]+Advise          as played 0.38, pick 5: Saigon -> Binh Dinh 0.51 (City or Province not at Active Support)
+    seed 920023 card  36 seen 52 Assault+AirLift                as played 0.53, pick 1: Saigon -> Kontum 0.65 (COIN Firepower < vulnerable enemies wher)
+    seed 921026 card 124 seen 58 Train[arvn<=1]+Advise          as played 0.47, pick 2: Binh Dinh -> Saigon 0.59 (Province with a US Base and 0-2 COIN cub)
+    seed 922002 card  31 seen 13 Train[arvn<=1]+Advise          as played 0.51, pick 3: Kien Phong -> Qui Nhon 0.63 (Province with a US Base and 0-2 COIN cub)
+
+== Coup rounds: the US Bot's Support-phase Pacify picks
+  S1 held-out regret of the choice as played      n    mean    se  median
+  all                                            78    +0.6   0.6    +0.0
+  not the final Coup                             75    +0.6   0.6    +0.0
+  final Coup                                      3    +0.0   0.0    +0.0
+  S3 variant minus as played: +0.5 (se 0.5) over 182 variants; variant better in 90, worse in 68
+     City or Province not at Active Support                        182    +0.5   0.5
+  Decisions where the best variant gains most (all playouts):
+    seed 920025 card 125 seen 16 Coup                           as played 0.45, pick 0: Hue -> Quang Tri-Thua Thien 0.60 (City or Province not at Active Support)
+    seed 920014 card 129 seen 19 Coup                           as played 0.57, pick 3: Quang Tri-Thua Thien -> Qui Nhon 0.71 (City or Province not at Active Support)
+    seed 922028 card 127 seen 44 Coup                           as played 0.45, pick 7: Da Nang -> Cam Ranh 0.57 (City or Province not at Active Support)
+    seed 922033 card 127 seen 45 Coup                           as played 0.09, pick 5: Kontum -> Qui Nhon 0.20 (City or Province not at Active Support)
+    seed 921016 card 129 seen  6 Coup                           as played 0.42, pick 0: Pleiku-Darlac -> Da Nang 0.53 (City or Province not at Active Support)
+    seed 922031 card 129 seen 19 Coup                           as played 0.21, pick 2: Saigon -> Binh Dinh 0.31 (City or Province not at Active Support)
+    seed 923016 card 128 seen  4 Coup                           as played 0.34, pick 0: Saigon -> Da Nang 0.44 (City or Province not at Active Support)
+    seed 923029 card 129 seen 44 Coup                           as played 0.74, pick 0: Hue -> Kien Hoa-Vinh Binh 0.84 (City or Province not at Active Support)
+    seed 920007 card 130 seen 20 Coup                           as played 0.58, pick 0: Hue -> Quang Nam 0.68 (City or Province not at Active Support)
+    seed 923015 card 125 seen  7 Coup                           as played 0.39, pick 1: Da Nang -> Kontum 0.49 (City or Province not at Active Support)
