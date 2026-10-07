@@ -1,0 +1,15 @@
+4 labelled decisions, 480 playouts, 523 ms a playout (one core), 2 failed
+
+== disagree (4 decisions)
+     seed card seen   Event     N1     N2    E-N1    se  N1 / N2
+   900001   98   37   0.075  0.250  0.250   -17.5   7.1  Patrol+Advise / Patrol+Advise @opposition
+   902001   51   14   0.590  0.525  0.650    +5.1  11.0  Train LimOp / Pass
+   901001   51    5   0.600  0.667  0.550    -7.7  10.0  Pass / Train LimOp
+   903002   39   21   0.325  0.350  0.275    -2.5   8.4  Pass / Train LimOp @vc
+  mean Event - N1: -5.6 points of win chance (se 4.7); Event better in 1, worse in 3
+  mean N1 - N2: +2.0 (se 5.5); N1 better in 2 of 4, worse in 1
+
+Noise (Event against N1, per decision): correlation of the paired playouts' wins 0.23 (median 0.23); sd of a paired win difference 0.56 against 0.64 unpaired
+  playouts per candidate for a se of 2 points on one decision's difference: 797
+  playouts per candidate for a se of 1 points on one decision's difference: 3186
+Policy score differences against playout win differences (all pairs, 12): correlation 0.50; same sign in 5 of 11

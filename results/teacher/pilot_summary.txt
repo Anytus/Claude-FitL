@@ -1,0 +1,70 @@
+52 labelled decisions, 31200 playouts, 240 ms a playout (one core), 265 failed
+
+== disagree (32 decisions)
+     seed card seen   Event     N1     N2    E-N1    se  N1 / N2
+   900001   98   37   0.080  0.215  0.215   -13.6   3.3  Patrol+Advise / Patrol+Advise @opposition
+   900003   35   65   0.520  0.475  0.422    +4.5   4.0  Pass / Sweep LimOp
+   900004   21   42   0.025  0.030  0.085    -0.5   1.3  Patrol+Advise / Train[arvn<=1]+Advise @opposition
+   900005  118    7   0.364  0.335  0.367    +2.6   4.3  Pass / Sweep LimOp
+   900005   97    9   0.357  0.487  0.365   -14.0   4.6  Pass / Sweep LimOp
+   900006   66   11   0.492  0.397  0.397   +10.1   4.5  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @opposition
+   900006   82   15   0.548  0.452  0.447   +10.2   4.6  Assault LimOp / Sweep LimOp @nva
+   900006   44   35   0.439  0.413  0.410    +2.6   4.8  Assault LimOp / Pass
+   901001   51    5   0.508  0.526  0.526    -2.1   4.1  Pass / Train LimOp
+   901001   37   54   0.680  0.705  0.590    -2.5   4.0  Train LimOp / Pass
+   901001   58   67   0.540  0.865  0.480   -32.5   3.6  Train LimOp @nva / Pass
+   901001   21   76   0.985  0.060  0.055   +92.5   1.9  Patrol+Advise @nva / Patrol+Advise
+   901002   71   65   0.970  0.965  0.955    +0.5   1.5  Pass / Train LimOp
+   901003  118   11   0.204  0.262  0.218    -6.8   4.2  Pass / Sweep LimOp @vc
+   901003   24   36   0.196  0.111  0.116    +8.6   3.6  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @vc
+   901004  103   44   0.701  0.727  0.727    -3.6   4.3  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @vc
+   902001   51   14   0.545  0.530  0.551    +1.0   4.6  Train LimOp / Pass
+   902001   39   16   0.589  0.577  0.533    +0.5   4.5  Train LimOp / Pass
+   902001   99   30   0.599  0.581  0.548    +2.6   4.3  Pass / Sweep LimOp @opposition
+   902002   95   30   0.338  0.333  0.306    +0.5   4.6  Pass / Assault LimOp
+   902003   25   39   0.317  0.347  0.403    -3.0   4.6  Pass / Assault+AirStrike @nva
+   902004   44   16   0.244  0.274  0.320    -2.6   4.3  Sweep LimOp @nva / Train LimOp
+   902004   70   18   0.239  0.242  0.271    -0.5   4.2  Train[arvn<=1]+AirLift @vc / Train[arvn<=1]+AirStrike
+   902004   21   47   0.313  0.312  0.322    +0.5   4.4  Train[arvn<=1]+Advise @nva / Train[arvn<=2]+Advise @nva
+   903002   39   21   0.345  0.355  0.239    -0.5   4.4  Pass / Train LimOp @vc
+   903002   58   47   0.520  0.550  0.645    -3.0   4.1  Train LimOp / Pass
+   903002   74   60   0.210  0.250  0.145    -4.0   3.7  Pass / Sweep LimOp @opposition
+   903002   16   67   0.045  0.040  0.150    +0.5   1.9  Assault+AirLift / Pass
+   903004   25   20   0.469  0.445  0.425    +2.0   4.7  Sweep+AirStrike @opposition / Sweep+AirStrike @nva
+   903004   40   50   0.840  0.843  0.856    -1.0   3.6  Assault+AirLift / Assault+AirStrike @vc
+   903004  103   62   0.935  0.915  0.925    +2.0   2.1  Pass / Assault LimOp
+   903004   74   70   0.940  0.940  0.945    +0.0   2.0  Pass / Train LimOp
+  mean Event - N1: +1.6 points of win chance (se 3.2); Event better in 16, worse in 15
+  median +0.2; without the largest difference (+92.5): mean -1.3 (se 1.4)
+  mean N1 - N2: +1.9 (se 1.5); N1 better in 14 of 32, worse in 14
+
+== other (20 decisions)
+     seed card seen   Event     N1     N2    E-N1    se  N1 / N2
+   900003   97    4   0.197  0.291  0.338    -8.8   4.1  Train[arvn<=1]+Advise / Train[arvn<=1]+AirLift
+   900003    9   27   0.616  0.588  0.588    +2.5   4.5  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @opposition
+   900003   49   67   0.335  0.480  0.360   -14.5   4.2  Train LimOp / Pass
+   900004   97    5   0.340  0.345  0.327    +0.0   4.5  Train[arvn<=1]+Advise / Train[arvn<=1]+AirStrike
+   900005    1    5   0.431  0.394  0.492    +3.6   4.6  Train[arvn<=1]+Advise / Train[arvn<=2]+Advise
+   901001   32   49   0.370  0.535  0.535   -16.5   4.6  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @nva
+   901002   11   46   0.460  0.500  0.530    -4.0   4.6  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @vc
+   901003   64   21   0.245  0.228  0.202    +2.1   4.0  Patrol LimOp / Train LimOp
+   901004   46   23   0.226  0.431  0.427   -20.5   3.7  Train LimOp @vc / Pass
+   901004   99   40   0.551  0.660  0.218   -10.6   4.7  Pass / Train LimOp
+   902002   70   21   0.608  0.554  0.533    +4.2   4.6  Patrol+Advise / Train[arvn<=1]+Advise
+   902002    4   44   0.390  0.730  0.515   -34.0   4.3  Train[arvn<=1]+Advise / Patrol+Advise
+   902002   74   68   0.660  0.600  0.625    +6.0   3.1  Pass / Patrol LimOp
+   902003   17    4   0.475  0.533  0.518    -5.6   4.7  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @opposition
+   902003   11   56   0.135  0.385  0.400   -25.0   4.2  Train[arvn<=1]+Advise @opposition / Train[arvn<=1]+Advise
+   903002   22   32   0.415  0.418  0.443    +1.1   4.8  Train[arvn<=1]+AirLift / Train[arvn<=1]+AirLift @opposition
+   903003   40   46   0.919  0.970  0.929    -5.1   2.1  Train[arvn<=1]+Advise / Assault+AirLift @vc
+   903005   25   17   0.388  0.343  0.305    +4.6   4.5  Train[arvn<=1]+Advise / Train[arvn<=1]+Advise @opposition
+   903005   49   51   0.790  0.800  0.745    -1.0   3.1  Train LimOp / Pass
+   903005   11   58   0.600  0.840  0.760   -24.0   3.6  Assault+AirLift / Train[arvn<=1]+Advise
+  mean Event - N1: -7.3 points of win chance (se 2.6); Event better in 7, worse in 12
+  median -4.5; without the largest difference (-34.0): mean -5.9 (se 2.3)
+  mean N1 - N2: +4.2 (se 2.6); N1 better in 12 of 20, worse in 6
+
+Noise (Event against N1, per decision): correlation of the paired playouts' wins 0.19 (median 0.16); sd of a paired win difference 0.55 against 0.61 unpaired
+  playouts per candidate for a se of 2 points on one decision's difference: 746
+  playouts per candidate for a se of 1 points on one decision's difference: 2984
+Policy score differences against playout win differences (all pairs, 156): correlation 0.22; same sign in 87 of 147

@@ -92,6 +92,11 @@ def main(paths):
         m, se = mse(dE)
         print(f"  mean Event - N1: {100 * m:+.1f} points of win chance (se {100 * se:.1f}); "
               f"Event better in {sum(x > 0 for x in dE)}, worse in {sum(x < 0 for x in dE)}")
+        if len(dE) > 3:
+            trim = sorted(dE, key=abs)[:-1]
+            m2, se2 = mse(trim)
+            print(f"  median {100 * st.median(dE):+.1f}; without the largest difference "
+                  f"({100 * max(dE, key=abs):+.1f}): mean {100 * m2:+.1f} (se {100 * se2:.1f})")
         if dN:
             m, se = mse(dN)
             print(f"  mean N1 - N2: {100 * m:+.1f} (se {100 * se:.1f}); N1 better in {sum(x > 0 for x in dN)} "

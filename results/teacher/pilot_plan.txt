@@ -1,0 +1,25 @@
+Teacher pilot plan (written before the run)
+
+Policy fit3flat_event0 plays the games (seeds 900001+, 901001+, 902001+, 903001+,
+--us-final-only --us-player) and the playouts; 200 playouts to the end of the game
+per candidate, common seeds with per-step reseed (Lookahead.playout reseed).
+Quotas per process: 8 "disagree" decisions (event0 picks the Event, fit3flat's
+Event weight -0.71418 would pick N1) and 5 "other" decisions with the Event on
+offer (sampled with probability 0.1); about 52 decisions, 31,000 playouts,
+about 65 minutes on 4 cores.
+
+Step 2 (results/teacher/t0_*, t1_*): 0.52 s a playout; correlation of paired wins
+0.12 without the reseed, 0.23 with it; sd of a paired win difference 0.56.
+So one decision's difference at 200 playouts has se about 4 points; only
+averages over decisions are informative.
+
+Hypotheses:
+H1 (the test of the method): over the disagree decisions, mean win(Event) -
+   win(N1) > 0, i.e. the playouts agree with the paired game test that Event
+   weight 0 beats -0.71. Expected size: the game test gave +3.7 points of wins
+   (se 2.0) from about 1.5 disagreeing decisions a game, so about +2.5 points
+   a decision. Expected se about 1-1.5, so the pilot may not be decisive.
+H2: over all decisions with N2, mean win(N1) - win(N2) > 0 (the policy's own
+   ranking of its top two non-Event candidates is right on average).
+H3 (descriptive): the correlation between policy score differences and
+   playout win differences across all candidate pairs.

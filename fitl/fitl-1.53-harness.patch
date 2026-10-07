@@ -1841,10 +1841,10 @@ index b1dc7c3..f0e645f 100644
          println(menuPrompt)
 diff --git a/src/main/scala/fitl/Lookahead.scala b/src/main/scala/fitl/Lookahead.scala
 new file mode 100644
-index 0000000..c610969
+index 0000000..b6e38d7
 --- /dev/null
 +++ b/src/main/scala/fitl/Lookahead.scala
-@@ -0,0 +1,141 @@
+@@ -0,0 +1,150 @@
 +//  Lookahead: score a US candidate action by playing the game forward.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -1896,7 +1896,12 @@ index 0000000..c610969
 +  }
 +
 +  //  One playout from `start` (US action done and recorded); None if it failed.
-+  def playout(start: GameState, seed: Long, horizonCoups: Int): Option[Double] = {
++  //  reseed: before each step (a faction's turn, a card draw, a Coup round)
++  //  the dice are reset from the seed, the cards seen, the actors so far and
++  //  the faction to act,
++  //  so two playouts on one seed from different positions roll the same dice
++  //  at the same point of the game, however many each used before.
++  def playout(start: GameState, seed: Long, horizonCoups: Int, reseed: Boolean = false): Option[Double] = {
 +    val savedGame = game
 +    val savedWork = Bot.workLeft
 +    var result: Option[Double] = None
@@ -1916,6 +1921,10 @@ index 0000000..c610969
 +              steps += 1
 +              if (steps > 3000) throw new IllegalStateException("playout step limit")
 +              game = game.copy(log = Vector.empty)
++              if (reseed)
++                Random.setSeed(seed * 0x9E3779B97F4A7C15L + 1000003L * game.cardsSeen.size +
++                               7919L * game.sequence.numActors + (if (game.needsCardDraw) 17L else 0L) +
++                               31L * game.actingFaction.map(_.toString.hashCode.toLong).getOrElse(0L))
 +              if (game.needsCardDraw)
 +                drawNextCard()
 +              val pivot = if (eventDeck.isPivotalCard(game.currentCard)) None else getPivotalFaction
@@ -2036,10 +2045,10 @@ index 8fd9366..a1752b9 100644
  
 diff --git a/src/main/scala/fitl/Teacher.scala b/src/main/scala/fitl/Teacher.scala
 new file mode 100644
-index 0000000..b843b47
+index 0000000..44a771b
 --- /dev/null
 +++ b/src/main/scala/fitl/Teacher.scala
-@@ -0,0 +1,87 @@
+@@ -0,0 +1,89 @@
 +//  Teacher: label US decisions by playing each candidate to the end of the
 +//  game. Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2050,7 +2059,8 @@ index 0000000..b843b47
 +//  to the end FITL_TEACHER_N times (default 200) with every faction a Bot
 +//  and the US by the same policy (Lookahead.playout, horizon: the end).
 +//  Playout k uses the same dice for the action and the same seed for the
-+//  playout in every candidate (common random numbers). One JSON line per
++//  playout in every candidate (common random numbers), reset at every step
++//  of the playout (Lookahead.playout's reseed; FITL_TEACHER_RESEED=0: off). One JSON line per
 +//  labelled decision to PREFIX.<pid>; the game then goes on as if nothing
 +//  had happened (the real action's dice are reset by the search).
 +//
@@ -2077,6 +2087,7 @@ index 0000000..b843b47
 +  val QuotaOther = env("FITL_TEACHER_OTHER", "5").toInt
 +  val POther     = env("FITL_TEACHER_POTHER", "0.1").toDouble
 +  val Horizon    = 99
++  val Reseed     = env("FITL_TEACHER_RESEED", "1") != "0"
 +  var nDis = 0
 +  var nOther = 0
 +  lazy val out = new java.io.PrintWriter(new java.io.FileWriter(s"${prefix.get}.${ProcessHandle.current.pid}", true))
@@ -2113,7 +2124,7 @@ index 0000000..b843b47
 +          try c.run().map(a => Lookahead.afterAction(game, a)) finally workLeft = Long.MaxValue
 +        } catch { case _: Throwable => None }
 +        finally game = saved
-+        start flatMap (s => Lookahead.playout(s, seed * 7 + 3, Horizon))
++        start flatMap (s => Lookahead.playout(s, seed * 7 + 3, Horizon, Reseed))
 +      }
 +    }
 +    finally { Lookahead.searchInRollout = savedSearch; game = saved }
