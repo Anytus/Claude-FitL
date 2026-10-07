@@ -1,0 +1,90 @@
+Event and Pass bonus test: fit3flat with the weights 'event' (-0.714) and/or 'pass' (+0.226) set to 0.
+Prediction (before the run): more Events, fewer Passes, a small gain in wins (2-5 points) that may not reach significance in 400 games.
+Seeds 1-400, --us-final-only --us-player, +6 Aid build; baseline = fit3flat on the same seeds.
+
+=== baseline vs both
+393 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     39.4%    6.1%   18.1%   36.4%        -5.3     -3.9
+variant      41.2%    4.1%   19.1%   35.6%        -4.7     -3.2
+
+paired change in US wins: +1.8 points of % (se 2.8)
+
+paired change in games reaching the final Coup: +0.5 points of % (se 2.5)
+
+paired change in US margin: +0.53 (se 0.59)
+
+paired change in US lead: +0.66 (se 0.72)
+
+variant games ended at: Coup 1 1%, Coup 2 6%, Coup 3 8%, Coup 4 6%, Coup 5 8%, final 71%
+
+=== baseline vs event0
+388 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     39.7%    5.9%   18.0%   36.3%        -5.2     -3.8
+variant      45.1%    5.4%   15.7%   33.8%        -4.1     -2.4
+
+paired change in US wins: +5.4 points of % (se 2.6)
+
+paired change in games reaching the final Coup: +3.6 points of % (se 2.3)
+
+paired change in US margin: +1.13 (se 0.54)
+
+paired change in US lead: +1.45 (se 0.63)
+
+variant games ended at: Coup 1 2%, Coup 2 6%, Coup 3 6%, Coup 4 7%, Coup 5 6%, final 74%
+
+=== baseline vs pass0
+394 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     39.3%    6.1%   18.3%   36.3%        -5.3     -3.9
+variant      40.6%    3.8%   19.5%   36.0%        -4.7     -3.4
+
+paired change in US wins: +1.3 points of % (se 2.9)
+
+paired change in games reaching the final Coup: -0.8 points of % (se 2.6)
+
+paired change in US margin: +0.55 (se 0.57)
+
+paired change in US lead: +0.52 (se 0.72)
+
+variant games ended at: Coup 1 2%, Coup 2 6%, Coup 3 6%, Coup 4 8%, Coup 5 8%, final 70%
+
+=== replication, seeds 401-800: baseline vs event0
+392 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     42.3%    6.4%   17.3%   33.9%        -4.3     -2.7
+variant      44.4%    6.1%   16.3%   33.2%        -4.3     -2.7
+
+paired change in US wins: +2.0 points of % (se 3.0)
+
+paired change in games reaching the final Coup: -1.0 points of % (se 2.3)
+
+paired change in US margin: -0.02 (se 0.53)
+
+paired change in US lead: +0.05 (se 0.67)
+
+variant games ended at: Coup 1 1%, Coup 2 6%, Coup 3 6%, Coup 4 9%, Coup 5 5%, final 73%
+
+=== pooled seeds 1-800: baseline vs event0
+780 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     41.0%    6.2%   17.7%   35.1%        -4.8     -3.3
+variant      44.7%    5.8%   16.0%   33.5%        -4.2     -2.5
+
+paired change in US wins: +3.7 points of % (se 2.0)
+
+paired change in games reaching the final Coup: +1.3 points of % (se 1.6)
+
+paired change in US margin: +0.55 (se 0.38)
+
+paired change in US lead: +0.74 (se 0.46)
+
+variant games ended at: Coup 1 1%, Coup 2 6%, Coup 3 6%, Coup 4 8%, Coup 5 6%, final 74%
+
+US action mix (seeds 1-400): baseline Op+SA 60% Pass 20% LimOp 13% Event 6%; event0 Pass 16% Event 12%; pass0 Pass 9% LimOp 22%; both Pass 7% Event 14% LimOp 19%.

@@ -170,6 +170,18 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   Limited Op with Patronage transfer against a Pass (+7.1), a Pass to be
   first on the next card (+5.0).
 
+## The Event and Pass bonuses (`results/event_pass_test.txt`)
+
+- fit3flat (fitted by regression before the +6 Aid change) gives an Event
+  -0.71 and a Pass +0.23, against +0.40 for a point of US score.
+- Event bonus 0 (`policies/fit3flat_event0.json`): the bot takes Events
+  twice as often (6% -> 12% of US actions); wins +5.4 (se 2.6) on seeds
+  1-400, +2.0 (se 3.0) on 401-800, pooled +3.7 (se 2.0). Probably a small
+  gain; not established.
+- Pass bonus 0: passes 20% -> 9% (Limited Ops 13% -> 22%), wins +1.3
+  (se 2.9); with both at 0, +1.8 (se 2.8), less than the Event change
+  alone. No sign that passing less helps.
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,
