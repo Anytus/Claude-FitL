@@ -1,0 +1,44 @@
+343 decisions from 115 games, 132500 playouts, 235 ms a playout (one core), 1312 failed (1.0%)
+
+M1 held-out regret of the policy's pick (points of win chance)
+                            n    mean    se  median     >10     >20
+  all                     343    +0.2   0.3    +0.0      7%      0%
+  pick Train              161    -0.1   0.4    +0.0      6%      0%
+  pick Pass                51    -0.3   0.7    +0.0      6%      0%
+  pick Train LimOp         33    +0.8   1.0    +0.0      9%      0%
+  pick Event               31    +1.4   1.2    +0.0     10%      0%
+  pick Patrol              30    +0.9   1.1    +0.0      7%      0%
+  pick Assault             20    +0.5   2.6    -1.3     10%      5%
+  pick Sweep               11    -0.5   1.4    +0.0      0%      0%
+  pick Sweep LimOp          4    -2.1   2.0    -1.1      0%      0%
+  pick Assault LimOp        2    +5.2   5.2    +5.2     50%      0%
+  first eligible          153    +0.7   0.5    +0.0      9%      1%
+  second eligible         190    -0.2   0.4    +0.0      5%      0%
+  early (0-25)            136    -0.5   0.5    -0.8     10%      0%
+  middle (26-51)          115    +0.5   0.6    +0.0      6%      1%
+  late (52-78)             92    +0.8   0.4    +0.0      4%      0%
+
+M2 decisions with candidates more than 20 points apart: 28 of 343 (8%); more than 10: 151
+  the policy's pick is the best in 13 of them
+  best kind:  Train 13, Assault 5, Pass 5, Sweep 3, Event 2
+  worst kind: Pass 9, Assault 8, Sweep 4, Event 2, Train 2, Patrol 1, Sweep LimOp 1, Patrol LimOp 1
+  offered:    Pass 25, Train 24, Assault 18, Sweep 16, Event 13, Patrol 10, Sweep LimOp 2, Assault LimOp 1, Train LimOp 1, Patrol LimOp 1
+
+M3 policy score differences against playout win differences (1924 pairs): correlation 0.16; same sign in 1010 of 1753
+
+The 15 decisions with the largest held-out regret:
+  seed 913009 card   6 seen 31 1st regret +44.3: Assault+AirLift @vc 0.00 (score -17.75); Train[arvn<=1]+Advise 0.46 (score -18.34); Pass 0.35 (score -19.34); Event 0.46 (score -19.60)
+  seed 910021 card  16 seen 59 1st regret +17.5: Patrol+Advise @opposition 0.45 (score 0.88); Event 0.37 (score 0.79); Train[arvn<=1]+Advise @vc 0.49 (score 0.49); Assault+AirLift @opposition 0.63 (score 0.42)
+  seed 911023 card  40 seen 73 1st regret +17.0: Train[arvn<=1]+Advise 0.67 (score 3.18); Pass 0.88 (score 3.16); Event 0.85 (score 2.93); Assault+AirStrike 0.81 (score 2.61)
+  seed 910026 card  97 seen 10 2nd regret +16.5: Event 0.24 (score -1.52); Assault LimOp 0.29 (score -1.99); Pass 0.41 (score -2.04); Sweep LimOp @vc 0.19 (score -2.47)
+  seed 911003 card  51 seen  3 2nd regret +16.1: Event 0.34 (score -3.17); Pass 0.42 (score -4.47); Patrol LimOp 0.51 (score -4.84); Sweep LimOp 0.38 (score -4.90)
+  seed 911020 card  63 seen  3 2nd regret +15.4: Train[arvn<=1]+Advise 0.27 (score -0.03); Sweep+AirLift 0.42 (score -0.85); Pass 0.27 (score -2.73); Assault+AirLift 0.27 (score -2.89)
+  seed 912013 card  46 seen 25 2nd regret +14.0: Train LimOp @opposition 0.39 (score -12.87); Pass 0.43 (score -12.89); Sweep LimOp @opposition 0.40 (score -12.92); Event 0.53 (score -12.99)
+  seed 912026 card  16 seen 75 1st regret +14.0: Assault+AirStrike 0.80 (score 6.77); Sweep+AirStrike @nva 0.94 (score 6.42); Pass 0.71 (score 4.71); Event 0.76 (score 4.30)
+  seed 911015 card  91 seen 44 2nd regret +14.0: Train LimOp 0.49 (score -6.72); Pass 0.63 (score -7.25); Sweep LimOp @nva 0.48 (score -7.67); Patrol LimOp 0.41 (score -7.76)
+  seed 913016 card  29 seen  3 1st regret +13.8: Train[arvn<=1]+Advise 0.33 (score -3.03); Sweep+AirLift 0.36 (score -3.58); Event 0.46 (score -4.25); Pass 0.22 (score -5.34)
+  seed 912016 card  66 seen 11 2nd regret +12.2: Pass 0.07 (score -4.15); Assault LimOp 0.19 (score -4.47); Train LimOp 0.18 (score -4.49); Sweep LimOp @vc 0.11 (score -4.58)
+  seed 911025 card   9 seen 33 1st regret +12.1: Train[arvn<=1]+Advise @opposition 0.14 (score -10.49); Patrol+Advise 0.13 (score -11.29); Pass 0.28 (score -11.65); Event 0.28 (score -11.85)
+  seed 911024 card  59 seen 16 2nd regret +12.1: Event 0.28 (score -16.04); Pass 0.32 (score -16.28); Sweep LimOp @opposition 0.28 (score -16.32); Train LimOp 0.40 (score -16.43)
+  seed 910022 card   1 seen 14 1st regret +12.0: Train[arvn<=1]+Advise @vc 0.23 (score -4.31); Patrol+Advise 0.26 (score -4.38); Sweep+AirStrike 0.35 (score -4.72); Event 0.33 (score -5.15)
+  seed 911034 card  19 seen 50 1st regret +12.0: Train[arvn<=1]+Advise 0.06 (score -11.21); Pass 0.05 (score -11.76); Event 0.18 (score -11.90); Assault+AirStrike @vc 0.07 (score -11.91)

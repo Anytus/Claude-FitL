@@ -213,6 +213,21 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   one decision, Americal in the final campaign, is +92.5 for the Event.
   So the pilot neither confirms nor refutes the Event result by itself.
 
+## Screening all US decisions (`results/teacher/screen_results.txt`)
+
+- In 343 sampled US decisions, the search bot's pick loses on average
+  +0.2 points of win chance (se 0.3) against the playout-best of its top
+  candidate of each of 4 kinds. So nothing measurable is left in re-ranking
+  the menu it already searches; the gap lies in how Operations are carried
+  out (spaces and pieces by the Tru'ng routines), the Coup-round decisions,
+  or options not in the menu.
+- The policy's score predicts which candidate is better only weakly
+  (correlation 0.16), but its candidates are mostly worth about the same.
+- Coup! Failed Attempt on deck: its ARVN Desertion is resolved before the
+  Victory phase. In one game the bot's pick then put NVA over its line (lost
+  every playout; alternatives won 34-46%). The bot's features do not see the
+  Coup card's own effect (1 game in 122).
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,

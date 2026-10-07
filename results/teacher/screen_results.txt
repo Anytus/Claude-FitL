@@ -1,0 +1,50 @@
+Teacher screening run: results (plan in screen_plan.txt; labels screen_labels.jsonl;
+tools/teacher_screen.py output screen_summary.txt)
+
+Run: started 15:47 UTC; the container was restarted at about 17:57 and the four processes
+died with it. 343 of the planned 500 decisions were labelled (115 games, 132,500 playouts,
+0.24 s a playout on one core, 1.0% failed); all 343 lines were complete. Not topped up:
+the main measure is already precise (se 0.3).
+
+M1, held-out regret of the policy's pick against the best of its candidates (the policy's
+pick and the best-scoring candidates of up to 3 other kinds; best chosen on 50 playouts,
+measured on the other 50, both ways):
+  all 343 decisions: mean +0.2 points of win chance (se 0.3), median 0.0.
+  No kind of pick, eligibility or game stage is clearly above 0: pick Event +1.4 (se 1.2),
+  Patrol +0.9 (1.1), Train LimOp +0.8 (1.0), Train -0.1 (0.4), Pass -0.3 (0.7); first
+  eligible +0.7 (0.5), second -0.2 (0.4); early -0.5 (0.5), middle +0.5 (0.6), late +0.8
+  (0.4).
+  The shares above 10 points (7%) are mostly noise: the held-out difference of two
+  50-playout means has an sd of about 10 points.
+  Prediction (from the pilot): mean about 2, median about 0. The mean is far lower: the
+  pilot's +1.9 came from one decision.
+M2: 28 of 343 decisions (8%) have candidates more than 20 points apart over all 100
+  playouts (prediction 10-15%); at 100 playouts per candidate some of these are noise
+  (sd of one candidate's rate about 5 points). The policy's pick is the best in 13 of the
+  28. Best kinds Train 13, Assault 5, Pass 5; worst Pass 9, Assault 8, Sweep 4.
+M3: correlation of policy score differences with playout win differences 0.16 over 1,924
+  candidate pairs (prediction about 0.2); same sign in 58%.
+
+The largest single regret (+44): seed 913009, card #6, 31 cards seen, the on-deck card
+Coup! Failed Attempt (#129). The pick, Assault+AirLift, lost all 100 playouts (each the
+same final score); the other three candidates won 34-46%. The Failed Attempt's ARVN
+Desertion is resolved before the Coup's Victory phase (resolveCoupCard), and after the
+pick it put NVA over its line (NVA -5 before the Coup card, +1 at the end); the real game
+ended the same way. The policy's score saw no difference (candidates within 1.9 points;
+the features score the board before the Coup card's own effect). Of the run's 122 games,
+this is the only one that ended early with no Bot over its line before the Coup card.
+
+Conclusions:
+1. Within the menu the search ranks (the best of each kind), the policy's choice is as
+   good as the playout-best alternative on average (+0.2, se 0.3). Re-ranking that menu,
+   by weights or by playouts at decision time, has almost nothing to gain, which fits the
+   flat response of win rate to weights.
+2. The policy's score is a weak predictor of which candidate is better (0.16), yet its
+   picks lose almost nothing: the candidates it chooses between are mostly worth about the
+   same.
+3. So the gap to the LLM is outside this menu: how each Operation is carried out (spaces,
+   pieces: the Tru'ng routines decide), the Coup-round decisions (Tru'ng routines), and
+   candidates the menu does not generate. Or in the rare decisive positions, such as a
+   Failed Attempt on deck.
+Caveats: the alternatives are only the best of each kind by the policy's own score;
+the playouts use the same policy, so this measures one step of improvement only.
