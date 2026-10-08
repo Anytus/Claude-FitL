@@ -265,6 +265,18 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   after an Op); the bot's pass rate does not depend on it at all (it has no
   notion of next-card eligibility).
 
+## Next-card eligibility (`results/tempo_results.txt`)
+
+- Crediting a Pass with the best first-eligible action next card (the same
+  actions a card later, valued on the current board, x 0.9) when a pass keeps
+  the US first: applied at every decision it made the bot pass 89% of the
+  time with full options and cost 8.9 points of wins (se 2.2; without the
+  Pass bonus 4.8, se 2.2). Passing as first eligible hands the next faction
+  the full menu, which the valuation ignores.
+- Applied only when the US's options are limited (after another faction's
+  Op or Op+SA): pass rates in those cases 60% -> 100% and 37% -> 95%, about
+  1.5 decisions a game, wins -0.1 (se 1.9, fresh seeds). Not adopted.
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,

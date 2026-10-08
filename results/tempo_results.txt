@@ -1,0 +1,35 @@
+Next-card eligibility ("tempo"): results (plans: tempo_plan.txt, tempo_plan2.txt; data and
+summaries: results/tempo/)
+
+Test 1 (seeds 1-800, paired, 775 seeds completed in all arms):
+  B   fit3flat_event0                 US wins 44.7%
+  T   tempo 0.9                       35.5%   paired -8.9 points (se 2.2); final Coup reached -4.8 (2.1)
+  T0  tempo 0.9, no Pass bonus        39.5%   paired -4.8 points (se 2.2)
+  T against T0: T0 +4.0 (se 2.0)
+  Decision rule: negative -> neither adopted.
+  Behaviour (pass rate when a pass keeps the US first on the next card): with full options
+  B 1%, T 89%, T0 74% (the LLM 31% of 13); after another faction's Op B 57%, T 100%; after an
+  Op+SA B 35%, T 96%; T passes in 34% of its decisions (B 16%).
+  Why it hurt, as far as the data show: most of the change was passing when the US had full
+  options or an Op+SA available now. Passing as first eligible hands the next faction the full
+  menu on this card, which nextCardGain does not count; the gain it does count (the same
+  actions a card later, with +3 ARVN Resources from the pass) was then nearly always larger
+  than acting now.
+
+Test 2 (fresh seeds 801-1600, 784 completed in both), the tempo only when the US's options
+are limited (after another faction's Op or Op+SA), as Kevin stated it:
+  B   fit3flat_event0                 US wins 43.1%
+  R   tempo 0.9, limited options      43.0%   paired -0.1 points (se 1.9)
+  Behaviour: after an Op, first next card: pass B 60% -> R 100%; after an Op+SA: 37% -> 95%;
+  with full options unchanged (1%). About 1.5 decisions a game changed.
+  Decision rule: not positive -> not adopted. An effect of less than about 4 points of wins
+  cannot be ruled out.
+
+Conclusions:
+1. Knowing next-card eligibility, as built (the same actions one card later, valued on the
+   current board), does not help the bot: applied everywhere it costs 9 points of wins; applied
+   only to limited options it changes about 1.5 decisions a game and no wins.
+2. Passing when the US has full options to be first again next card is costly for this bot.
+3. The LLM's pattern (passing more when a pass keeps it first) may matter through what it did
+   with the next card (specific Events), which this valuation does not capture; not tested.
+Builds: the identical-games check passed for both builds with the tempo off.

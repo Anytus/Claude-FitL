@@ -1,0 +1,72 @@
+=== B -> R
+784 seeds completed in both runs
+
+                US    ARVN     NVA      VC   US margin  US lead
+baseline     43.1%    4.7%   19.1%   33.0%        -4.2     -2.6
+variant      43.0%    5.6%   19.1%   32.3%        -4.3     -2.8
+
+paired change in US wins: -0.1 points of % (se 1.9)
+
+paired change in games reaching the final Coup: +0.0 points of % (se 1.6)
+
+paired change in US margin: -0.15 (se 0.36)
+
+paired change in US lead: -0.20 (se 0.46)
+
+variant games ended at: Coup 1 1%, Coup 2 6%, Coup 3 7%, Coup 4 6%, Coup 5 7%, final 73%
+=== pass decisions, arm B
+Turn economy: if the US passed, would it be first eligible on the next card? (share of decisions, and what it did)
+  LLM  first        29% of decisions: Op+SA 34%, Pass 34%, Event 18%, LimOp 13%
+  LLM  maybe         9% of decisions: Op+SA 42%, Event 42%, Pass 8%, LimOp 8%
+  LLM  not first    53% of decisions: Op+SA 54%, LimOp 23%, Event 17%, Pass 4%, Op only 1%
+  LLM  coup next     8% of decisions: Op+SA 36%, LimOp 27%, Op only 18%, Event 18%
+  bot  first        25% of decisions: Op+SA 54%, Pass 19%, LimOp 13%, Event 13%, Op only 1%
+  bot  maybe        12% of decisions: Op+SA 66%, Event 14%, Pass 11%, LimOp 7%, Op only 1%
+  bot  not first    54% of decisions: Op+SA 59%, Pass 16%, Event 12%, LimOp 12%, Op only 1%
+  bot  coup next     9% of decisions: Op+SA 56%, Pass 21%, Event 11%, LimOp 11%, Op only 1%
+
+  Pass rate by the next-card status, for each set of options the US had now:
+  LLM  full         first 31% of 13; maybe 0% of 8; not first 3% of 31; coup next 0% of 7
+  LLM  after Op     first 80% of 5; maybe 50% of 2; not first 0% of 5; coup next 0% of 1
+  LLM  after Op+SA  first 36% of 11; not first 12% of 16; coup next 0% of 2
+  bot  full         first 1% of 2147; maybe 1% of 1698; not first 1% of 5430; coup next 2% of 898
+  bot  after Op     first 60% of 831; maybe 64% of 233; not first 58% of 1539; coup next 71% of 256
+  bot  after Op+SA  first 37% of 1447; maybe 33% of 444; not first 37% of 2838; coup next 42% of 532
+
+  When passing would leave the US first eligible next card, by the options it had now:
+  LLM  options full           13: Op+SA 38%, Event 31%, Pass 31%
+  LLM  options after Op        5: Pass 80%, LimOp 20%
+  LLM  options after Op+SA    11: Pass 36%, LimOp 36%, Event 27%
+  LLM  options after Event     9: Op+SA 89%, Pass 11%
+  bot  options full         2147: Op+SA 83%, Event 14%, Op only 2%, Pass 1%
+  bot  options after Op      831: Pass 60%, LimOp 40%
+  bot  options after Op+SA  1447: Pass 37%, Event 32%, LimOp 31%
+  bot  options after Event  1427: Op+SA 98%, Pass 2%
+=== pass decisions, arm R
+Turn economy: if the US passed, would it be first eligible on the next card? (share of decisions, and what it did)
+  LLM  first        29% of decisions: Op+SA 34%, Pass 34%, Event 18%, LimOp 13%
+  LLM  maybe         9% of decisions: Op+SA 42%, Event 42%, Pass 8%, LimOp 8%
+  LLM  not first    53% of decisions: Op+SA 54%, LimOp 23%, Event 17%, Pass 4%, Op only 1%
+  LLM  coup next     8% of decisions: Op+SA 36%, LimOp 27%, Op only 18%, Event 18%
+  bot  first        25% of decisions: Op+SA 56%, Pass 38%, Event 6%, Op only 1%, LimOp 0%
+  bot  maybe        12% of decisions: Op+SA 67%, Pass 20%, Event 10%, Op only 2%, LimOp 1%
+  bot  not first    54% of decisions: Op+SA 60%, Pass 15%, Event 12%, LimOp 11%, Op only 1%
+  bot  coup next     9% of decisions: Op+SA 57%, Pass 20%, Event 11%, LimOp 11%, Op only 2%
+
+  Pass rate by the next-card status, for each set of options the US had now:
+  LLM  full         first 31% of 13; maybe 0% of 8; not first 3% of 31; coup next 0% of 7
+  LLM  after Op     first 80% of 5; maybe 50% of 2; not first 0% of 5; coup next 0% of 1
+  LLM  after Op+SA  first 36% of 11; not first 12% of 16; coup next 0% of 2
+  bot  full         first 1% of 2307; maybe 1% of 1847; not first 1% of 5933; coup next 3% of 970
+  bot  after Op     first 100% of 835; maybe 97% of 242; not first 58% of 1531; coup next 70% of 258
+  bot  after Op+SA  first 95% of 1425; maybe 82% of 427; not first 37% of 2736; coup next 39% of 520
+
+  When passing would leave the US first eligible next card, by the options it had now:
+  LLM  options full           13: Op+SA 38%, Event 31%, Pass 31%
+  LLM  options after Op        5: Pass 80%, LimOp 20%
+  LLM  options after Op+SA    11: Pass 36%, LimOp 36%, Event 27%
+  LLM  options after Event     9: Op+SA 89%, Pass 11%
+  bot  options full         2307: Op+SA 85%, Event 12%, Op only 2%, Pass 1%
+  bot  options after Op      835: Pass 100%
+  bot  options after Op+SA  1425: Pass 95%, Event 4%, LimOp 0%
+  bot  options after Event  1390: Op+SA 99%, Pass 1%

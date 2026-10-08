@@ -2901,10 +2901,10 @@ index 0000000..ee8e4cd
 +}
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..1e823f9
+index 0000000..295ceae
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,637 @@
+@@ -0,0 +1,644 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2934,7 +2934,10 @@ index 0000000..1e823f9
 +//  "tempo": d (default 0, off): when a Pass would leave the US first eligible
 +//  on the next card, the Pass is also worth d times the best gain the US could
 +//  make as first eligible then (nextCardGain); "tempo_maybe" (default 0.5) is
-+//  the share used when that depends on factions still to act on this card.
++//  the share used when that depends on factions still to act on this card;
++//  "tempo_when": "limited" applies it only when the US's options now are
++//  limited (after another faction's Op or Op+SA: a Limited Op, or a Limited
++//  Op or the Event), "always" (the default) at every decision.
 +
 +package fitl
 +
@@ -2956,6 +2959,7 @@ index 0000000..1e823f9
 +    laCoups: Int,            // play forward to the Victory check of this many Coups ahead
 +    tempo: Double,           // weight of the next-card gain of a Pass (0: off; see nextCardGain)
 +    tempoMaybe: Double,      // its share when being first eligible next card depends on others
++    tempoWhen: String,       // "always", or "limited": only when the US's options now are limited
 +    focuses: List[String],
 +    weights: Map[String, Double])
 +
@@ -3038,7 +3042,7 @@ index 0000000..1e823f9
 +  val DefaultTrialWork = 5000L
 +
 +  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "explore", "lookahead", "la_candidates", "la_coups",
-+                       "tempo", "tempo_maybe", "focuses", "weights", "name")
++                       "tempo", "tempo_maybe", "tempo_when", "focuses", "weights", "name")
 +
 +  def load(path: String): Unit = {
 +    val text = new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(path)), "UTF-8")
@@ -3076,6 +3080,7 @@ index 0000000..1e823f9
 +      laCoups     = m.get("la_coups").map(num(_).toInt).getOrElse(1),
 +      tempo       = m.get("tempo").map(num).getOrElse(0.0),
 +      tempoMaybe  = m.get("tempo_maybe").map(num).getOrElse(0.5),
++      tempoWhen   = m.get("tempo_when").map(_.toString).getOrElse("always"),
 +      focuses     = focuses,
 +      weights     = DefaultWeights ++ w))
 +  }
@@ -3456,7 +3461,9 @@ index 0000000..1e823f9
 +    val scoredRaw = trials map { case (c, v, _) => c -> v }
 +    //  Tempo: credit the Pass with the next card's gain when passing keeps the
 +    //  US first eligible for it.
-+    val (tempoStatus, tempoValue) = if (cfg.tempo <= 0 || !scoredRaw.exists(_._1.name == "Pass")) ("off", 0.0)
++    val tempoApplies = cfg.tempo > 0 && scoredRaw.exists(_._1.name == "Pass") &&
++                       (cfg.tempoWhen != "limited" || Set("after Op", "after Op+SA")(Diag.options(saved)))
++    val (tempoStatus, tempoValue) = if (!tempoApplies) ("off", 0.0)
 +      else Diag.firstNextIfPass(saved) match {
 +        case "first" => ("first", cfg.tempo * nextCardGain(cfg, base))
 +        case "maybe" => ("maybe", cfg.tempo * cfg.tempoMaybe * nextCardGain(cfg, base))

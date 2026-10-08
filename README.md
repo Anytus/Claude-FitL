@@ -436,9 +436,10 @@ the US first eligible on the next card (`Diag.firstNextIfPass`), with d times
 the best gain the US could make then as first eligible: the on-deck card's
 Event and every Operation with or without a Special Activity, tried on the
 board as it would be after the pass (`USPolicy.nextCardGain`); half that
-(`"tempo_maybe"`) when it depends on factions still to act on this card.
+(`"tempo_maybe"`) when it depends on factions still to act on this card;
+`"tempo_when": "limited"` applies it only when the US's options are limited.
 `FITL_TEMPO_STATS=1` prints decisions by next-card status and how often the
-tempo changed the choice. Test: `results/tempo_plan.txt`.
+tempo changed the choice. Tests: `results/tempo_results.txt` (neither version helps).
 
 
 A search policy with `"lookahead": N` shortlists its best `la_candidates`

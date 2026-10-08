@@ -1,0 +1,12 @@
+Tempo, second test: plan (written before the run; after the first test failed, results/tempo_results.txt)
+
+Change: as the first test's T, but the tempo applies only when the US's options now are limited:
+after another faction's Op (the US may only Limited Op or Pass) or Op+SA (Limited Op, Event or
+Pass) ("tempo_when": "limited", policies/fit3flat_event0_tempo_limited.json; d = 0.9, Pass bonus
+unchanged). This is the case as stated by Kevin: pass on a limited action to be first eligible
+on the next card. The first test showed the damage came with passing when the US had full
+options or an Op+SA available now.
+
+Arms: B (fit3flat_event0) and R, fresh seeds 801-1600, paired, --us-final-only --us-player.
+H: R wins at least as often as B. Decision rule: adopt R if its paired win difference over B is
+positive with z >= 2; if 0 < z < 2, run seeds 1601-2400 before deciding; if negative, do not.
