@@ -1,0 +1,124 @@
+LLM: 131 US card decisions in 4 games; bot: 2916 in 100 games
+  LLM: Op+SA 46%, Event 20%, LimOp 19%, Pass 13%, Op only 2%
+  bot: Op+SA 60%, Pass 16%, Event 12%, LimOp 11%, Op only 1%
+
+What a US Op+SA did (mean per action)
+                                   LLM         bot
+  decisions                         60        1752
+  spaces                          3.05        4.24
+  spaces_positive                 2.40        3.45
+  enemy_removed                   3.30        3.14
+  bases_removed                   0.52        0.34
+  underground_down                1.07        1.78
+  arvn_placed                     0.27        2.15
+  sf_placed                       0.32        0.45
+  us_to_map                       0.00        0.00
+  coin_control_gained             0.58        0.67
+  nva_control_lost                0.35        0.42
+  support                         1.40        1.25
+  opposition                     -0.47       -0.49
+  us_score                        1.40        1.25
+  best_rival                     -0.97       -0.94
+
+What a US LimOp did (mean per action)
+                                   LLM         bot
+  decisions                         25         320
+  spaces                          1.32        1.11
+  spaces_positive                 0.76        0.85
+  enemy_removed                   0.92        0.34
+  bases_removed                   0.00        0.06
+  underground_down                0.00        0.32
+  arvn_placed                     0.00        1.73
+  sf_placed                       0.08        0.07
+  us_to_map                       0.00        0.00
+  coin_control_gained             0.24        0.19
+  nva_control_lost                0.24        0.18
+  support                         0.76        1.46
+  opposition                     -0.32       -0.53
+  us_score                        0.76        1.46
+  best_rival                     -1.16       -0.84
+
+What a US Event did (mean per action)
+                                   LLM         bot
+  decisions                         26         352
+  spaces                          1.88        1.97
+  spaces_positive                 1.38        1.78
+  enemy_removed                   2.35        2.99
+  bases_removed                   0.73        0.75
+  underground_down                0.35        1.05
+  arvn_placed                     0.12        0.28
+  sf_placed                       0.00        0.02
+  us_to_map                       0.00        0.00
+  coin_control_gained             0.31        0.17
+  nva_control_lost                0.35        0.26
+  support                        -0.15        0.45
+  opposition                      0.00       -0.10
+  us_score                        0.65        0.88
+  best_rival                     -0.77       -0.67
+
+US Op+SA by game stage (cards seen 0-25, 26-51, 52-78)
+                             LLM early   bot early  LLM middle  bot middle    LLM late    bot late
+  decisions                         18         693          25         618          17         441
+  spaces                          2.94        4.41        3.32        4.62        2.76        3.44
+  spaces_positive                 2.67        3.57        2.36        3.62        2.18        3.04
+  enemy_removed                   3.06        2.83        4.00        3.42        2.53        3.23
+  coin_control_gained             0.94        0.83        0.48        0.65        0.35        0.45
+  support                         1.89        1.54        1.12        1.14        1.29        0.96
+  us_score                        1.89        1.54        1.12        1.14        1.29        0.96
+  best_rival                     -0.67       -0.88       -0.84       -1.11       -1.47       -0.78
+
+Spaces open to each US Operation at the US's decisions (before acting), by stage
+                             LLM early   bot early  LLM middle  bot middle    LLM late    bot late
+  decisions                         46        1097          52        1022          33         797
+  assault                         0.65        1.16        0.85        1.83        1.18        1.04
+  sweep                           9.67        9.53        7.79        7.73        8.18        3.84
+  air_strike                      2.33        2.58        6.46        5.32        5.76        6.09
+  advise                          4.37        3.95        6.90        5.70        7.48        6.22
+  train_place                     7.65       10.88        7.25       10.93        8.76        6.64
+  train_pacify                    3.89        6.84        3.85        5.26        3.64        2.86
+  patrol                          1.61        1.19        4.21        2.48        3.58        3.03
+  coup_pacify                     2.72        5.45        2.81        3.70        2.48        1.21
+
+Change in those spaces made by the US's own action (after minus before), by stage
+                             LLM early   bot early  LLM middle  bot middle    LLM late    bot late
+  decisions                         46        1097          52        1022          33         797
+  assault                        -0.02        0.31       -0.02        0.16        0.00       -0.01
+  sweep                          -0.50       -0.64       -0.10       -0.39       -0.30       -0.11
+  air_strike                     -0.09        0.35       -0.25        0.07       -0.18       -0.13
+  advise                         -0.48       -0.51       -0.58       -0.42       -0.58       -0.41
+  train_place                     0.00       -0.01        0.13       -0.09       -0.03       -0.01
+  train_pacify                    0.28        0.03        0.13       -0.19       -0.18       -0.10
+  patrol                         -0.02       -0.09       -0.02       -0.12        0.00       -0.08
+  coup_pacify                    -0.04       -0.30        0.13       -0.22       -0.18       -0.06
+
+Per game, all US card decisions added up (LLM games; bot games that reach the final Coup):
+  LLM (4 games): decisions 32.8: Op+SA 15.0, LimOp 6.2, Event 6.5, Pass 4.2; spaces changed for the better 50.8, enemy pieces removed 70.5, Support +26.2, US score +31.5, best rival -27.0
+  bot (48 games): decisions 35.4: Op+SA 20.9, LimOp 4.0, Event 4.2, Pass 6.0; spaces changed for the better 83.3, enemy pieces removed 80.6, Support +34.7, US score +36.4, best rival -26.0
+
+Turn economy: if the US passed, would it be first eligible on the next card? (share of decisions, and what it did)
+  LLM  first        29% of decisions: Op+SA 34%, Pass 34%, Event 18%, LimOp 13%
+  LLM  maybe         9% of decisions: Op+SA 42%, Event 42%, Pass 8%, LimOp 8%
+  LLM  not first    53% of decisions: Op+SA 54%, LimOp 23%, Event 17%, Pass 4%, Op only 1%
+  LLM  coup next     8% of decisions: Op+SA 36%, LimOp 27%, Op only 18%, Event 18%
+  bot  first        25% of decisions: Op+SA 56%, Pass 19%, LimOp 13%, Event 11%, Op only 1%
+  bot  maybe        12% of decisions: Op+SA 74%, Event 11%, Pass 10%, LimOp 4%, Op only 1%
+  bot  not first    55% of decisions: Op+SA 59%, Pass 16%, Event 13%, LimOp 12%, Op only 1%
+  bot  coup next     8% of decisions: Op+SA 59%, Pass 19%, Event 11%, LimOp 10%, Op only 1%
+
+  Pass rate by the next-card status, for each set of options the US had now:
+  LLM  full         first 31% of 13; maybe 0% of 8; not first 3% of 31; coup next 0% of 7
+  LLM  after Op     first 80% of 5; maybe 50% of 2; not first 0% of 5; coup next 0% of 1
+  LLM  after Op+SA  first 36% of 11; not first 12% of 16; coup next 0% of 2
+  bot  full         first 1% of 259; maybe 1% of 229; not first 1% of 673; coup next 3% of 99
+  bot  after Op     first 64% of 100; maybe 70% of 20; not first 60% of 181; coup next 70% of 30
+  bot  after Op+SA  first 39% of 176; maybe 45% of 40; not first 36% of 370; coup next 34% of 53
+
+  When passing would leave the US first eligible next card, by the options it had now:
+  LLM  options full           13: Op+SA 38%, Event 31%, Pass 31%
+  LLM  options after Op        5: Pass 80%, LimOp 20%
+  LLM  options after Op+SA    11: Pass 36%, LimOp 36%, Event 27%
+  LLM  options after Event     9: Op+SA 89%, Pass 11%
+  bot  options full          259: Op+SA 85%, Event 11%, Op only 3%, Pass 1%
+  bot  options after Op      100: Pass 64%, LimOp 36%
+  bot  options after Op+SA   176: Pass 39%, LimOp 34%, Event 27%
+  bot  options after Event   187: Op+SA 99%, Pass 1%

@@ -127,10 +127,10 @@ index 0000000..d5c5205
 +}
 diff --git a/src/main/scala/fitl/Autoplay.scala b/src/main/scala/fitl/Autoplay.scala
 new file mode 100644
-index 0000000..c019f35
+index 0000000..c655800
 --- /dev/null
 +++ b/src/main/scala/fitl/Autoplay.scala
-@@ -0,0 +1,312 @@
+@@ -0,0 +1,331 @@
 +//  Autoplay: headless all-Bot games for calibration and experiments.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -261,6 +261,21 @@ index 0000000..c019f35
 +    }
 +  }
 +
++  //  FITL_ACTION_STATS=PREFIX: one line per US decision to PREFIX.<pid>
++  //  (Diag.decisionJson: what the action did, the spaces each US Operation
++  //  could act in before and after, whether passing would have left the US
++  //  first eligible on the next card).
++  lazy val actionStatsOut: Option[java.io.PrintWriter] = sys.env.get("FITL_ACTION_STATS") map { p =>
++    new java.io.PrintWriter(new java.io.FileWriter(s"$p.${ProcessHandle.current.pid}", true))
++  }
++  def recordUSDecision(seed: Long, before: GameState): Unit = actionStatsOut foreach { w =>
++    val seq0 = before.sequence; val seq1 = game.sequence
++    val act = if (seq1.actors.size > seq0.actors.size && seq1.actors.last.faction == US) seq1.actors.last.action.toString
++              else if (seq1.passed(US) && !seq0.passed(US)) "Pass" else "?"
++    w.println(Diag.decisionJson("bot", seed.toString, before, game, act))
++    w.flush()
++  }
++
 +  def runGame(seed: Long, usFinalOnly: Boolean, trace: Boolean = false): String = {
 +    Random.setSeed(seed + salt * 1000003L)
 +    USPolicy.gameSeed = seed; USPolicy.decisions = 0
@@ -332,7 +347,9 @@ index 0000000..c019f35
 +                  val seq0 = game.sequence
 +                  val card = game.currentCard
 +                  tail.rec.setLength(0); tail.recording = true
++                  val g0 = game
 +                  try { if (usHuman && f == US) USPlayer.act() else Bot.act() } finally tail.recording = false
++                  if (f == US) recordUSDecision(seed, g0)
 +                  if (f == US) calibrateHere(seed)
 +                  val text = tail.rec.toString
 +                  val act = if (game.sequence.numActors > seq0.numActors) game.sequence.actors.last.action.toString
@@ -345,7 +362,9 @@ index 0000000..c019f35
 +                  if (game.sequence.exhausted)
 +                    game = game.copy(needsCardDraw = true)
 +                case Some(f) =>
++                  val g0 = game
 +                  if (usHuman && f == US) USPlayer.act() else Bot.act()
++                  if (f == US) recordUSDecision(seed, g0)
 +                  if (f == US) calibrateHere(seed)
 +                  if (game.sequence.exhausted)
 +                    game = game.copy(needsCardDraw = true)
@@ -1496,10 +1515,10 @@ index 0000000..f6d8e50
 +}
 diff --git a/src/main/scala/fitl/Diag.scala b/src/main/scala/fitl/Diag.scala
 new file mode 100644
-index 0000000..56d3b5b
+index 0000000..5e0e655
 --- /dev/null
 +++ b/src/main/scala/fitl/Diag.scala
-@@ -0,0 +1,30 @@
+@@ -0,0 +1,162 @@
 +//  Diag: diagnostic measures of a position. Part of the Claude-FitL harness.
 +//
 +//  Usage: java -cp "fitl/lib/*" fitl.Diag SAVE...   (one JSON line per save)
@@ -1524,11 +1543,143 @@ index 0000000..56d3b5b
 +    finally game = saved
 +  }
 +
-+  def main(args: Array[String]): Unit =
-+    for (p <- args) {
-+      val g = SavedGame.load(FUtil.Pathname(p))
-+      println(s"""{"save":"$p","pac":${coupPacify(g)}}""")
++  //  The number of spaces where each US Operation or Special Activity could
++  //  do something now, by the program's tests where it has them:
++  //    assault       US Troops and a US Assault would be effective
++  //    sweep         a non-LoC space with Underground Guerrillas and US Troops in or able to move in
++  //    air_strike    COIN pieces and exposed enemy pieces
++  //    advise        ARVN cubes with an effective ARVN Assault or Underground Guerrillas to Sweep,
++  //                  or Underground Irregulars/Rangers with enemy pieces
++  //    train_place   a non-LoC space with US pieces (Irregulars; ARVN with a US Base)
++  //    train_pacify  COIN Control, US pieces, and below Active Support or with Terror
++  //    coup_pacify   the Coup Support phase test for the US (pacifyCandidate)
++  //    patrol        a LoC with enemy pieces
++  def opportunity(g: GameState): Map[String, Int] = {
++    val saved = game
++    game = g
++    try {
++      val south   = g.spaces.filterNot(_.isNorthVietnam)
++      val nonLoc  = south.filterNot(_.isLoC)
++      val troops  = g.spaces.filter(_.pieces.has(USTroops)).map(_.name)
++      val sfU     = List(Irregulars_U, Rangers_U)
++      def arvnAssault(sp: Space) = sp.pieces.has(ARVNCubes) && assaultEffective(ARVN, NormalTroops, false, false)(sp)
++      Map(
++        "assault"      -> south.count(sp => sp.pieces.has(USTroops) && assaultEffective(US, NormalTroops, false, false)(sp)),
++        "sweep"        -> nonLoc.count(sp => sp.pieces.has(UndergroundGuerrillas) &&
++                                             (sp.pieces.has(USTroops) || troops.exists(t => t != sp.name && adjacentForSweep(t, sp.name)))),
++        "air_strike"   -> south.count(sp => sp.pieces.has(CoinPieces) && sp.pieces.hasExposedInsurgents),
++        "advise"       -> south.count(sp => arvnAssault(sp) || (sp.pieces.has(ARVNCubes) && sp.pieces.has(UndergroundGuerrillas)) ||
++                                             (sp.pieces.has(sfU) && sp.pieces.has(InsurgentPieces))),
++        "train_place"  -> nonLoc.count(_.pieces.has(USPieces)),
++        "train_pacify" -> nonLoc.count(sp => sp.canHaveSupport && sp.coinControlled && sp.pieces.has(USPieces) &&
++                                             (sp.support < ActiveSupport || sp.terror > 0)),
++        "coup_pacify"  -> g.nonLocSpaces.count(pacifyCandidate(US)),
++        "patrol"       -> south.count(sp => sp.isLoC && sp.pieces.has(InsurgentPieces)))
 +    }
++    finally game = saved
++  }
++
++  //  What one action did, from the position before it (b) to the one after (a).
++  def actionStats(b: GameState, a: GameState): Map[String, Double] = {
++    val pairs = b.spaces.map(x => x -> a.getSpace(x.name))
++    def ins(sp: Space)  = sp.pieces.totalOf(InsurgentPieces)
++    def und(sp: Space)  = sp.pieces.totalOf(UndergroundGuerrillas)
++    def coin(sp: Space) = sp.pieces.totalOf(ARVNPieces) + sp.pieces.totalOf(Irregulars)
++    def positive(x: Space, y: Space) =
++      ins(y) < ins(x) || und(y) < und(x) || y.supportValue > x.supportValue || y.oppositionValue < x.oppositionValue ||
++      (y.coinControlled && !x.coinControlled) || (x.nvaControlled && !y.nvaControlled) || coin(y) > coin(x) || y.terror < x.terror
++    def avail(g: GameState, t: Iterable[PieceType]) = g.availablePieces.totalOf(t).toDouble
++    val rival = (g: GameState) => g.arvnScore max g.nvaScore max g.vcScore
++    Map(
++      "spaces"          -> pairs.count { case (x, y) => x.pieces != y.pieces || x.support != y.support || x.terror != y.terror }.toDouble,
++      "spaces_positive" -> pairs.count { case (x, y) => positive(x, y) }.toDouble,
++      "enemy_removed"   -> ((b.totalOnMap(ins) - a.totalOnMap(ins)) max 0).toDouble,
++      "bases_removed"   -> ((b.totalOnMap(_.pieces.totalOf(List(NVABase, VCBase, NVATunnel, VCTunnel))) -
++                             a.totalOnMap(_.pieces.totalOf(List(NVABase, VCBase, NVATunnel, VCTunnel)))) max 0).toDouble,
++      "underground_down"-> pairs.map { case (x, y) => (und(x) - und(y)) max 0 }.sum.toDouble,
++      "arvn_placed"     -> ((avail(b, ARVNPieces) - avail(a, ARVNPieces)) max 0),
++      "sf_placed"       -> ((avail(b, Irregulars) - avail(a, Irregulars)) max 0),
++      "us_to_map"       -> ((avail(b, List(USTroops, USBase)) - avail(a, List(USTroops, USBase))) max 0),
++      "coin_control_gained" -> pairs.count { case (x, y) => y.coinControlled && !x.coinControlled }.toDouble,
++      "coin_control_lost"   -> pairs.count { case (x, y) => x.coinControlled && !y.coinControlled }.toDouble,
++      "nva_control_lost"    -> pairs.count { case (x, y) => x.nvaControlled && !y.nvaControlled }.toDouble,
++      "support"         -> (a.totalSupport - b.totalSupport).toDouble,
++      "opposition"      -> (a.totalOpposition - b.totalOpposition).toDouble,
++      "us_score"        -> (a.usScore - b.usScore).toDouble,
++      "best_rival"      -> (rival(a) - rival(b)).toDouble)
++  }
++
++  //  If the US passes now, will it be first eligible on the next card? "first":
++  //  every faction before it in the on-deck card's order will be ineligible;
++  //  "maybe": that depends on factions still to decide on this card; "not first";
++  //  or "coup next" (the on-deck card is a Coup: everyone is eligible after it).
++  def firstNextIfPass(g: GameState): String =
++    if (g.onDeckCard == 0 || eventDeck(g.onDeckCard).isCoup) "coup next"
++    else {
++      val seq = g.sequence.addActor(US, Pass)
++      def status(f: Faction) =
++        if (seq.ineligibleNextTurn(f) || seq.actors.exists(_.faction == f)) "out"
++        else if (seq.eligibleNextTurn(f)) "in"
++        else if (seq.eligibleThisTurn(f) && !seq.exhausted) "maybe"
++        else "in"
++      val st = eventDeck(g.onDeckCard).factionOrder.takeWhile(_ != US).map(status)
++      if (st.forall(_ == "out")) "first" else if (st.contains("in")) "not first" else "maybe"
++    }
++
++  //  The US's options now: "full" (first to act), "after Op" (LimOp or Pass),
++  //  "after Op+SA" (Event, LimOp or Pass), "after Event" (Op+SA or Pass).
++  def options(g: GameState): String = g.sequence.actors match {
++    case Nil    => "full"
++    case a :: _ => a.action match {
++      case OpOnly        => "after Op"
++      case OpPlusSpecial => "after Op+SA"
++      case Event         => "after Event"
++      case other         => other.toString
++    }
++  }
++
++  private def jmap(m: Map[String, Double]) = m.toList.sortBy(_._1).map { case (k, v) => f""""$k":$v%.1f""" }.mkString("{", ",", "}")
++
++  //  One JSON line for a US decision: before (b) and after (a).
++  def decisionJson(src: String, gameId: String, b: GameState, a: GameState, action: String): String = {
++    val saved = game
++    game = b    // the event cards need a game in place
++    try decisionJson0(src, gameId, b, a, action) finally game = saved
++  }
++  private def decisionJson0(src: String, gameId: String, b: GameState, a: GameState, action: String): String = {
++    val ob = opportunity(b).map { case (k, v) => k -> v.toDouble }
++    val oa = opportunity(a).map { case (k, v) => k -> v.toDouble }
++    s"""{"src":"$src","game":"$gameId","card":${b.currentCard},"seen":${b.cardsSeen.size},"action":"$action",""" +
++    s""""options":"${options(b)}","first_next_if_pass":"${firstNextIfPass(b)}","stats":${jmap(actionStats(b, a))},""" +
++    s""""opp_before":${jmap(ob)},"opp_after":${jmap(oa)}}"""
++  }
++
++  //  The US decisions of a human-US game from its saves (save-NNN in order):
++  //  a save whose sequence of play adds the US as an actor or a passer.
++  def fromSaves(dir: String, gameId: String): Unit = {
++    val files = Option(new java.io.File(dir).listFiles).toList.flatten
++      .filter(_.getName.matches("save-\\d+")).sortBy(_.getName)
++    files.sliding(2) foreach {
++      case List(fb, fa) =>
++        val b = SavedGame.load(FUtil.Pathname(fb.getPath))
++        val a = SavedGame.load(FUtil.Pathname(fa.getPath))
++        val sb = b.sequence; val sa = a.sequence
++        val acted  = sa.actors.size == sb.actors.size + 1 && sa.actors.last.faction == US && b.currentCard == a.currentCard
++        val passed = sa.passed(US) && !sb.passed(US) && b.currentCard == a.currentCard
++        if (acted || passed)
++          println(decisionJson("llm", s"$gameId/${fa.getName}", b, a, if (acted) sa.actors.last.action.toString else "Pass"))
++      case _ =>
++    }
++  }
++
++  def main(args: Array[String]): Unit =
++    if (args.headOption.contains("--saves"))
++      fromSaves(args(1), args(2))
++    else
++      for (p <- args) {
++        val g = SavedGame.load(FUtil.Pathname(p))
++        println(s"""{"save":"$p","pac":${coupPacify(g)}}""")
++      }
 +}
 diff --git a/src/main/scala/fitl/FireInTheLake.scala b/src/main/scala/fitl/FireInTheLake.scala
 index b1dc7c3..7499e21 100644

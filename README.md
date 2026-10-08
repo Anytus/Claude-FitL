@@ -470,7 +470,17 @@ parallel, resumable after a container restart, with a once-a-minute
 `PROGRESS.txt` ("Games: X of N done") in its output directory
 (`tools/teach_progress.sh`).
 
-### Diagnostics
+### Action statistics (`tools/breadth.py`)
+
+`FITL_ACTION_STATS=PREFIX` (Autoplay) writes one line per US card decision
+to `PREFIX.<pid>`; `java -cp ... fitl.Diag --saves DIR ID` writes the same
+for a human-US game from its saves. Each line: the action, what it did
+(spaces changed, enemy removed, pieces placed, Control, Support, scores),
+the spaces each US Operation could act in before and after, and whether a
+pass would have left the US first eligible on the next card
+(`Diag.actionStats`, `Diag.opportunity`, `Diag.firstNextIfPass`).
+`tools/breadth.py LLM.jsonl BOT.jsonl` compares them (`results/breadth/`).
+
 
 `KNOWLEDGE.md` collects what is established, with evidence. The four
 diagnostic studies behind it are in `results/diagnostics/`: how the search

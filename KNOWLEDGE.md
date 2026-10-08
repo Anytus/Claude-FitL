@@ -249,6 +249,22 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   reclaimed twice within minutes of the session going idle, taking the
   background jobs with it.
 
+## What US actions accomplish, open spaces, turn economy (`results/breadth/results.txt`)
+
+- Per Op+SA the LLM (4 games) did not accomplish more than the bot: about
+  the same enemy removed (3.3 against 3.1), COIN Control (0.6 against 0.7),
+  Support (+1.4 against +1.25) and rival pushed back (-1.0 against -0.9), in
+  fewer spaces (3.1 against 4.2; the bot places many more ARVN cubes). Per
+  game the bot's own actions do more (21 Op+SA against 15; Support +35
+  against +26).
+- Spaces open to US Operations: the bot has as many early; late in the game
+  the LLM had about twice as many for Sweep and Coup Pacify (the bot takes US
+  pieces off the map in the final campaign).
+- Turn economy: the LLM passed far more often when a pass left it first
+  eligible on the next card (31% against 3% with full options, 80% against 0%
+  after an Op); the bot's pass rate does not depend on it at all (it has no
+  notion of next-card eligibility).
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,

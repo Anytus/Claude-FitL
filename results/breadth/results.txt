@@ -1,0 +1,50 @@
+What US actions accomplish, the spaces open to them, and turn economy: the LLM's games
+against the bot's (tools/breadth.py; output in summary.txt)
+
+Data: the LLM's 4 games (games 7-10; fitl.Diag --saves on their saves: 131 US card
+decisions, detected from the sequence of play and checked against the narration's
+counts); the bot: fit3flat_event0, seeds 1-100, --us-final-only --us-player, the +6 Aid
+build (FITL_ACTION_STATS: 2916 decisions; 51 US wins, 48 games reach the final Coup).
+Measures per decision (Diag.actionStats, Diag.opportunity, Diag.firstNextIfPass): spaces
+the action changed, and changed for the better (enemy removed or activated, Support up or
+Opposition down, COIN Control gained, NVA Control broken, ARVN or Irregulars placed,
+Terror removed); enemy pieces and bases removed; pieces placed; Support, US score, best
+rival; the spaces where each US Operation could act before and after; whether passing
+would have left the US first eligible on the next card (the on-deck card's order and who
+has acted or may still act).
+
+1. Per Op+SA the LLM did not accomplish more (mean, se):
+                         LLM (60)      bot (1752)
+   spaces changed        3.05 (0.14)   4.24 (0.06)
+   ... for the better    2.40 (0.11)   3.45 (0.03)
+   enemy removed         3.30 (0.33)   3.14 (0.06)
+   COIN Control gained   0.58 (0.11)   0.67 (0.02)
+   Support / US score    +1.40 (0.27)  +1.25 (0.05)
+   best rival            -0.97 (0.18)  -0.94 (0.04)
+   ARVN pieces placed    0.27          2.15
+   The bot acts in more spaces (largely ARVN cubes placed by Train) for about the same result.
+   Per game, the bot's own actions do more than the LLM's: 20.9 Op+SA a game against 15.0
+   (the LLM: more Events and Limited Ops), 83 spaces changed for the better against 51,
+   Support +34.7 against +26.2, US score +36.4 against +31.5, best rival -26.0 against -27.0
+   (bot games reaching the final Coup).
+
+2. Spaces open to US Operations at the US's decisions: early and in the middle of the game
+   the bot has as many or more (Train 10.9 against 7.7 early, Coup Pacify 5.5 against 2.7);
+   late (52+ cards seen) the LLM has about twice as many for Sweep (8.2 against 3.8) and Coup
+   Pacify (2.5 against 1.2), and more for Train (8.8 against 6.6): the bot takes US pieces off
+   the map in the final campaign. A single action changes the open spaces little for either
+   (both use up a few).
+
+3. Turn economy: the LLM's passing depends on whether a pass leaves it first eligible on the
+   next card; the bot's does not at all.
+   Pass rate:                first next card    not first
+     LLM, full options        31% of 13          3% of 31
+     LLM, after an Op         80% of 5           0% of 5
+     LLM, after an Op+SA      36% of 11          12% of 16
+     bot, full options         1% of 259          1% of 673
+     bot, after an Op         64% of 100         60% of 181
+     bot, after an Op+SA      39% of 176         36% of 370
+   The bot's search has no notion of next-card eligibility; its passes come from the fixed
+   Pass bonus and weak Limited Ops.
+
+Caveat: the LLM sample is 4 games.
