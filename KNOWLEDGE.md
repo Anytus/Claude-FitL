@@ -277,6 +277,15 @@ with the Tru'ng US in the playouts (`results/lookahead_v1.txt`).
   Op or Op+SA): pass rates in those cases 60% -> 100% and 37% -> 95%, about
   1.5 decisions a game, wins -0.1 (se 1.9, fresh seeds). Not adopted.
 
+## The original rule (`results/anycoup/results.txt`)
+
+- When the US may win at any Coup, the search bot wins 55% (only 9% by Coup
+  3; the LLM won its 5 games of that kind at Coups 2-3). Holding US Troops in
+  Available at Commitment: 30% by Coup 3, 57% in all (+2.1, se 3.1), so earlier
+  wins, not more of them.
+- The LLM's 8 of 9 against a bot at 55%/44% has a chance of about 2%: the
+  LLM is probably better, by an unknown amount.
+
 ## Open questions
 
 - With +6 Aid in, which gaps to the LLM remain (Support, Passes, VC Events,

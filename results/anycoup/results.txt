@@ -1,0 +1,14 @@
+The search bot under the original rule (the US may win at any Coup), for comparison with the
+LLM's games 2-6 (5 of 5 won, at Coups 2-3). fit3flat_event0, --us-player, seeds 1-400, the +6
+Aid build (bot_any.jsonl); and the same with US Troops held in Available at Commitment
+(FITL_COMMIT=hold, bot_any_hold.jsonl).
+
+                       US wins   by Coup 3   by Coup 5   VC     NVA    ARVN
+  bot                  54.8%     8.9%        30.6%       28.3%  12.0%  4.8%   (392 games)
+  bot, Troops held     56.8%     29.6%       47.7%       27.1%  14.3%  1.8%   (398 games)
+  paired change in US wins with Troops held: +2.1 (se 3.1)
+
+Keeping Troops in Available (as the LLM did) makes the bot win much earlier, not more often.
+The LLM's record, 8 of 9 (5 of 5 under this rule, 3 of 4 final Coup only): against a bot at
+55% and 44%, 8 or more of 9 happens about 2% of the time, so the LLM is probably better; 9
+games cannot say by how much.
