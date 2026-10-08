@@ -2901,10 +2901,10 @@ index 0000000..ee8e4cd
 +}
 diff --git a/src/main/scala/fitl/USPolicy.scala b/src/main/scala/fitl/USPolicy.scala
 new file mode 100644
-index 0000000..2ecd67d
+index 0000000..1e823f9
 --- /dev/null
 +++ b/src/main/scala/fitl/USPolicy.scala
-@@ -0,0 +1,565 @@
+@@ -0,0 +1,637 @@
 +//  USPolicy: a tunable decision layer for the US Bot.
 +//  Part of the Claude-FitL harness; not in the upstream program.
 +//
@@ -2931,6 +2931,10 @@ index 0000000..2ecd67d
 +//     "weights": {"us": 1.0, "vc": -1.0, ...}}
 +//  Weights not given keep the defaults below. The score of a candidate is
 +//  sum(weight * feature); see `features` for the feature names.
++//  "tempo": d (default 0, off): when a Pass would leave the US first eligible
++//  on the next card, the Pass is also worth d times the best gain the US could
++//  make as first eligible then (nextCardGain); "tempo_maybe" (default 0.5) is
++//  the share used when that depends on factions still to act on this card.
 +
 +package fitl
 +
@@ -2950,6 +2954,8 @@ index 0000000..2ecd67d
 +    lookahead: Int,          // playouts per shortlisted candidate (0: the weighted score alone)
 +    laCandidates: Int,       // candidates shortlisted by the weighted score for the look-ahead
 +    laCoups: Int,            // play forward to the Victory check of this many Coups ahead
++    tempo: Double,           // weight of the next-card gain of a Pass (0: off; see nextCardGain)
++    tempoMaybe: Double,      // its share when being first eligible next card depends on others
 +    focuses: List[String],
 +    weights: Map[String, Double])
 +
@@ -3031,7 +3037,8 @@ index 0000000..2ecd67d
 +
 +  val DefaultTrialWork = 5000L
 +
-+  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "explore", "lookahead", "la_candidates", "la_coups", "focuses", "weights", "name")
++  val ConfigKeys = Set("mode", "samples", "trial_work", "commit_plan", "hinge_buffer", "explore", "lookahead", "la_candidates", "la_coups",
++                       "tempo", "tempo_maybe", "focuses", "weights", "name")
 +
 +  def load(path: String): Unit = {
 +    val text = new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(path)), "UTF-8")
@@ -3067,6 +3074,8 @@ index 0000000..2ecd67d
 +      lookahead   = m.get("lookahead").map(num(_).toInt).getOrElse(0),
 +      laCandidates = m.get("la_candidates").map(num(_).toInt).getOrElse(5),
 +      laCoups     = m.get("la_coups").map(num(_).toInt).getOrElse(1),
++      tempo       = m.get("tempo").map(num).getOrElse(0.0),
++      tempoMaybe  = m.get("tempo_maybe").map(num).getOrElse(0.5),
 +      focuses     = focuses,
 +      weights     = DefaultWeights ++ w))
 +  }
@@ -3343,6 +3352,56 @@ index 0000000..2ecd67d
 +    }
 +  }
 +
++  //  Tempo: what being first eligible on the next card is worth if the US
++  //  passes now. Each candidate the US would have as first eligible (the
++  //  on-deck card's Event, the Operations with or without a Special Activity)
++  //  is tried on the board as it would be after the pass, with the on-deck card
++  //  as the current card; the gain is the best value less that board's own
++  //  (0 if none is better). A proxy: the factions still to act on this card
++  //  will change the board first.
++  def nextCardGain(cfg: Config, base: Long): Double = {
++    val saved     = game
++    val workSaved = workLeft
++    try {
++      val afterPass = Bot.testOutcome { factionPasses(US); game }
++      val onDeck    = eventDeck(saved.onDeckCard)
++      val proxy     = afterPass.copy(sequence = SequenceOfPlay(), currentCard = saved.onDeckCard)
++      game = proxy
++      val baseValue = value(cfg, proxy, Map.empty)
++      val cands     = candidates(cfg, onDeck) filterNot (_.name == "Pass")
++      var best      = baseValue
++      //  The same dice for every candidate, as in the search's first trial
++      //  (independent dice would let the best of many pick a lucky roll).
++      for (c <- cands) {
++        game = proxy
++        Random.setSeed(base + 7919L)
++        workLeft = cfg.trialWork
++        val v = try Bot.testOutcome { initTurnVariables(); c.run() map (a => value(cfg, game, extras(a, onDeck))) }
++                catch { case _: Throwable => None }
++                finally workLeft = workSaved
++        v foreach (x => if (x > best) best = x)
++      }
++      best - baseValue
++    }
++    finally { game = saved; workLeft = workSaved }
++  }
++
++  //  FITL_TEMPO_STATS: decisions by next-card status, the mean tempo value,
++  //  and how often it changed the choice, at exit.
++  object TempoStats {
++    val on = sys.env.contains("FITL_TEMPO_STATS")
++    val n       = scala.collection.mutable.Map.empty[String, Int].withDefaultValue(0)
++    val sum     = scala.collection.mutable.Map.empty[String, Double].withDefaultValue(0.0)
++    val changed = scala.collection.mutable.Map.empty[String, Int].withDefaultValue(0)
++    def add(status: String, v: Double, before: String, after: String): Unit = if (on && !Lookahead.inRollout) {
++      n(status) += 1; sum(status) += v; if (before != after) changed(status) += 1
++    }
++    if (on) Runtime.getRuntime.addShutdownHook(new Thread(() => {
++      for (k <- n.keys.toList.sorted)
++        System.err.println(f"tempo $k%-10s ${n(k)}%6d decisions, mean value ${sum(k) / n(k)}%.3f, choice changed ${changed(k)}")
++    }))
++  }
++
 +  def search(cfg: Config, card: EventCard): Action = {
 +    val searchT0 = if (TrialTimes.on) System.nanoTime else 0L
 +    AirLiftBench.record(game)
@@ -3394,7 +3453,19 @@ index 0000000..2ecd67d
 +      }
 +      if (runs.isEmpty) None else Some((c, runs.map(_._1).sum / runs.size, runs.head._2))
 +    }
-+    val scored0 = trials map { case (c, v, _) => c -> v }
++    val scoredRaw = trials map { case (c, v, _) => c -> v }
++    //  Tempo: credit the Pass with the next card's gain when passing keeps the
++    //  US first eligible for it.
++    val (tempoStatus, tempoValue) = if (cfg.tempo <= 0 || !scoredRaw.exists(_._1.name == "Pass")) ("off", 0.0)
++      else Diag.firstNextIfPass(saved) match {
++        case "first" => ("first", cfg.tempo * nextCardGain(cfg, base))
++        case "maybe" => ("maybe", cfg.tempo * cfg.tempoMaybe * nextCardGain(cfg, base))
++        case other   => (other, 0.0)
++      }
++    game = saved
++    val scored0 = if (tempoValue == 0.0) scoredRaw
++                  else scoredRaw map { case (c, v) => if (c.name == "Pass") c -> (v + tempoValue) else c -> v }
++    if (scoredRaw.nonEmpty) TempoStats.add(tempoStatus, tempoValue, scoredRaw.maxBy(_._2)._1.name, scored0.maxBy(_._2)._1.name)
 +    if (Teacher.on && !Lookahead.inRollout)
 +      Teacher.consider(cfg, saved, scored0, post.toMap, base)
 +    //  Look-ahead: the best few by the weighted score are played forward and
@@ -3430,7 +3501,8 @@ index 0000000..2ecd67d
 +      w.flush()
 +    }
 +    if (TrialTimes.on) { TrialTimes.decisions += 1; TrialTimes.searchNs += System.nanoTime - searchT0 }
-+    lastChoice = f"${best.name} $bestValue%.2f ${scored.size}" + (if (explored) " explore" else "")
++    lastChoice = f"${best.name} $bestValue%.2f ${scored.size}" + (if (explored) " explore" else "") +
++                 (if (tempoValue != 0.0) f" tempo $tempoStatus $tempoValue%.2f" else "")
 +    log(f"\nUS policy chooses: ${best.name} (value $bestValue%.2f, ${if (explored) "explored, " else ""}best of ${scored.size} candidates)")
 +
 +    Random.setSeed(base)

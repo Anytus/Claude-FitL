@@ -1,0 +1,34 @@
+Next-card eligibility ("tempo") test: plan (written before the run)
+
+Change: USPolicy "tempo": d. When a Pass would leave the US first eligible on the next card
+(Diag.firstNextIfPass: every faction before the US in the on-deck card's order will be
+ineligible), the Pass candidate's value gets d x the next-card gain: the best of the US's
+first-eligible candidates (the on-deck card's Event, every Operation with or without a Special
+Activity), each tried on the board as it would be after the pass, less that board's value
+(nextCardGain). When it depends on factions still to act on this card ("maybe"), half that.
+Nothing changes when the next card is a Coup or the US would not be first. d = 0.9 was set
+before any run (not tuned).
+
+Arms (all fit3flat_event0 otherwise; the same build; seeds 1-800, paired;
+--us-final-only --us-player; FITL_ACTION_STATS for pass decisions by next-card status):
+  B   baseline: fit3flat_event0
+  T   tempo 0.9 (policies/fit3flat_event0_tempo.json)
+  T0  tempo 0.9 and the fixed Pass bonus (+0.226) removed (fit3flat_event0_tempo_nopass.json)
+
+Hypotheses:
+H1 (mechanism): under T the US passes more often when a pass leaves it first on the next card
+   than when it does not (B: no difference, results/breadth/results.txt).
+H2 (main): T wins more often than B. Expected +2 to +4 points; 800 paired games give a se of
+   about 2 points.
+H3 (secondary): T0 against B and against T.
+
+Decision rule: adopt T if its paired win difference over B is positive with z >= 2; if
+0 < z < 2, run seeds 801-1600 before deciding; if negative, do not adopt. The same rule for T0.
+
+Before the run (smoke tests on 20 games, seeds 1-20, not part of the test): the first build gave
+each next-card candidate its own dice, so the best of about 70 trials picked lucky rolls; fixed
+to the same dice for every candidate, as in the search's own first trial. With the fix, the
+smoke games passed in 90% of the decisions where the US had full options and a pass kept it
+first on the next card (the LLM: 31% of 13), mostly 1-2 passes in a row. Part of that is the
+rule: a US pass gives ARVN +3 Resources, the Pacify budget, and the US gets one action every
+two cards either way. d was not changed.

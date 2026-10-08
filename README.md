@@ -429,7 +429,17 @@ US wins 0.5% against 17% (`policies/player_fit5.json`).
 `botcompare.py` now also reports the paired change in US wins and in games
 reaching the final Coup.
 
-### Look-ahead (playouts to the next Coup)
+### Next-card eligibility (`"tempo"`)
+
+A search policy with `"tempo": d` credits the Pass, when a pass would leave
+the US first eligible on the next card (`Diag.firstNextIfPass`), with d times
+the best gain the US could make then as first eligible: the on-deck card's
+Event and every Operation with or without a Special Activity, tried on the
+board as it would be after the pass (`USPolicy.nextCardGain`); half that
+(`"tempo_maybe"`) when it depends on factions still to act on this card.
+`FITL_TEMPO_STATS=1` prints decisions by next-card status and how often the
+tempo changed the choice. Test: `results/tempo_plan.txt`.
+
 
 A search policy with `"lookahead": N` shortlists its best `la_candidates`
 distinct positions by the weighted score and plays each forward N times with
